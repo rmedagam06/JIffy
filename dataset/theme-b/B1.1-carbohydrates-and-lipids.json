@@ -1,0 +1,760 @@
+{
+  "id": "B1.1",
+  "name": "Carbohydrates and lipids",
+  "theme": "B",
+  "themeName": "Form and function",
+  "levelOfOrganization": "Molecules",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "B1.1-001",
+      "level": "SL",
+      "statement": "B1.1.1",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "How many single covalent bonds can one carbon atom form?",
+      "options": [
+        { "letter": "A", "text": "Four", "correct": true },
+        { "letter": "B", "text": "Two", "correct": false },
+        { "letter": "C", "text": "Three", "correct": false },
+        { "letter": "D", "text": "Six", "correct": false }
+      ],
+      "explanation": "A carbon atom can form up to four single bonds (or a combination of single and double bonds), allowing diverse compounds."
+    },
+    {
+      "id": "B1.1-002",
+      "level": "SL",
+      "statement": "B1.1.1",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Why can carbon form such a huge diversity of compounds?",
+      "options": [
+        { "letter": "A", "text": "It can bond to several other atoms, forming chains and rings", "correct": true },
+        { "letter": "B", "text": "It can only ever bond to hydrogen", "correct": false },
+        { "letter": "C", "text": "It forms ionic bonds only", "correct": false },
+        { "letter": "D", "text": "It cannot form double bonds", "correct": false }
+      ],
+      "explanation": "Carbon forms up to four bonds with carbon or other non-metals, producing branched, unbranched and ring structures."
+    },
+    {
+      "id": "B1.1-003",
+      "level": "SL",
+      "statement": "B1.1.2",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "Monomers are joined to form a polymer.",
+      "stem": "Which reaction achieves this?",
+      "options": [
+        { "letter": "A", "text": "Condensation", "correct": true },
+        { "letter": "B", "text": "Hydrolysis", "correct": false },
+        { "letter": "C", "text": "Oxidation", "correct": false },
+        { "letter": "D", "text": "Denaturation", "correct": false }
+      ],
+      "explanation": "Macromolecules form when condensation reactions link monomers into polymers, releasing water."
+    },
+    {
+      "id": "B1.1-004",
+      "level": "SL",
+      "statement": "B1.1.2",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which of these is a polymer made from monomers?",
+      "options": [
+        { "letter": "A", "text": "A polysaccharide", "correct": true },
+        { "letter": "B", "text": "A single glucose molecule", "correct": false },
+        { "letter": "C", "text": "A fatty acid", "correct": false },
+        { "letter": "D", "text": "Water", "correct": false }
+      ],
+      "explanation": "Polysaccharides, polypeptides and nucleic acids are polymers built from monomers by condensation."
+    },
+    {
+      "id": "B1.1-005",
+      "level": "SL",
+      "statement": "B1.1.3",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "A polymer is digested back into its monomers.",
+      "stem": "Which reaction breaks the bonds, using water?",
+      "options": [
+        { "letter": "A", "text": "Hydrolysis", "correct": true },
+        { "letter": "B", "text": "Condensation", "correct": false },
+        { "letter": "C", "text": "Polymerization", "correct": false },
+        { "letter": "D", "text": "Reduction", "correct": false }
+      ],
+      "explanation": "Hydrolysis splits water to add -H and -OH groups, breaking a polymer into monomers."
+    },
+    {
+      "id": "B1.1-006",
+      "level": "SL",
+      "statement": "B1.1.4",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Glucose is which type of molecule?",
+      "options": [
+        { "letter": "A", "text": "A monosaccharide (hexose)", "correct": true },
+        { "letter": "B", "text": "A disaccharide", "correct": false },
+        { "letter": "C", "text": "A polysaccharide", "correct": false },
+        { "letter": "D", "text": "A lipid", "correct": false }
+      ],
+      "explanation": "Glucose is a six-carbon monosaccharide (a hexose)."
+    },
+    {
+      "id": "B1.1-007",
+      "level": "SL",
+      "statement": "B1.1.4",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which property makes glucose well suited for transport in blood and sap?",
+      "options": [
+        { "letter": "A", "text": "Its solubility in water", "correct": true },
+        { "letter": "B", "text": "Its insolubility", "correct": false },
+        { "letter": "C", "text": "Its very large size", "correct": false },
+        { "letter": "D", "text": "Its hydrophobic nature", "correct": false }
+      ],
+      "explanation": "Glucose is soluble and easily transportable, as well as chemically stable and energy-rich on oxidation."
+    },
+    {
+      "id": "B1.1-008",
+      "level": "SL",
+      "statement": "B1.1.5",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which polysaccharide is the energy storage compound in animals?",
+      "options": [
+        { "letter": "A", "text": "Glycogen", "correct": true },
+        { "letter": "B", "text": "Starch", "correct": false },
+        { "letter": "C", "text": "Cellulose", "correct": false },
+        { "letter": "D", "text": "Chitin", "correct": false }
+      ],
+      "explanation": "Glycogen stores energy in animals; starch is the equivalent storage compound in plants."
+    },
+    {
+      "id": "B1.1-009",
+      "level": "SL",
+      "statement": "B1.1.5",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Why are starch and glycogen good energy stores?",
+      "options": [
+        { "letter": "A", "text": "They are compact and relatively insoluble", "correct": true },
+        { "letter": "B", "text": "They are small and highly soluble", "correct": false },
+        { "letter": "C", "text": "They cannot be broken down", "correct": false },
+        { "letter": "D", "text": "They are gases at body temperature", "correct": false }
+      ],
+      "explanation": "Coiling and branching make them compact, and their large size keeps them relatively insoluble, so they store energy without affecting water balance."
+    },
+    {
+      "id": "B1.1-010",
+      "level": "SL",
+      "statement": "B1.1.5",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Starch and glycogen are polymers of which monomer?",
+      "options": [
+        { "letter": "A", "text": "Alpha-glucose", "correct": true },
+        { "letter": "B", "text": "Beta-glucose", "correct": false },
+        { "letter": "C", "text": "Amino acids", "correct": false },
+        { "letter": "D", "text": "Fatty acids", "correct": false }
+      ],
+      "explanation": "Both are built from alpha-glucose monomers, which are easily added or removed by condensation and hydrolysis."
+    },
+    {
+      "id": "B1.1-011",
+      "level": "SL",
+      "statement": "B1.1.6",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "Cellulose forms strong fibres in plant cell walls.",
+      "stem": "Cellulose is a polymer of which monomer?",
+      "options": [
+        { "letter": "A", "text": "Beta-glucose", "correct": true },
+        { "letter": "B", "text": "Alpha-glucose", "correct": false },
+        { "letter": "C", "text": "Fructose", "correct": false },
+        { "letter": "D", "text": "Glycerol", "correct": false }
+      ],
+      "explanation": "Cellulose is made of beta-glucose monomers in alternating orientation, giving straight chains."
+    },
+    {
+      "id": "B1.1-012",
+      "level": "SL",
+      "statement": "B1.1.6",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "What gives cellulose its strength as a structural polysaccharide?",
+      "options": [
+        { "letter": "A", "text": "Straight chains bundled and cross-linked by hydrogen bonds", "correct": true },
+        { "letter": "B", "text": "Highly branched, coiled chains", "correct": false },
+        { "letter": "C", "text": "Its solubility in water", "correct": false },
+        { "letter": "D", "text": "Ionic bonds between glucose units", "correct": false }
+      ],
+      "explanation": "The alternating orientation of beta-glucose gives straight chains that group into bundles cross-linked by hydrogen bonds."
+    },
+    {
+      "id": "B1.1-013",
+      "level": "SL",
+      "statement": "B1.1.7",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Glycoproteins on the cell surface function mainly in:",
+      "options": [
+        { "letter": "A", "text": "Cell-cell recognition", "correct": true },
+        { "letter": "B", "text": "Energy storage", "correct": false },
+        { "letter": "C", "text": "Catalysing respiration", "correct": false },
+        { "letter": "D", "text": "Providing structural support in walls", "correct": false }
+      ],
+      "explanation": "Glycoproteins play a role in cell-cell recognition; ABO antigens are an example."
+    },
+    {
+      "id": "B1.1-014",
+      "level": "SL",
+      "statement": "B1.1.7",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "The ABO blood group antigens are an example of:",
+      "options": [
+        { "letter": "A", "text": "Glycoproteins involved in cell recognition", "correct": true },
+        { "letter": "B", "text": "Energy storage lipids", "correct": false },
+        { "letter": "C", "text": "Structural polysaccharides", "correct": false },
+        { "letter": "D", "text": "Enzymes", "correct": false }
+      ],
+      "explanation": "ABO antigens are glycoproteins used as the syllabus example of cell-cell recognition."
+    },
+    {
+      "id": "B1.1-015",
+      "level": "SL",
+      "statement": "B1.1.8",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Lipids are defined by their behaviour in solvents. They:",
+      "options": [
+        { "letter": "A", "text": "Dissolve in non-polar solvents but barely in water", "correct": true },
+        { "letter": "B", "text": "Dissolve readily in water", "correct": false },
+        { "letter": "C", "text": "Do not dissolve in any solvent", "correct": false },
+        { "letter": "D", "text": "Only dissolve in acids", "correct": false }
+      ],
+      "explanation": "Lipids dissolve in non-polar solvents but are only sparingly soluble in water, i.e. they are hydrophobic."
+    },
+    {
+      "id": "B1.1-016",
+      "level": "SL",
+      "statement": "B1.1.8",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which of these is classed as a lipid?",
+      "options": [
+        { "letter": "A", "text": "A steroid", "correct": true },
+        { "letter": "B", "text": "Glycogen", "correct": false },
+        { "letter": "C", "text": "A polypeptide", "correct": false },
+        { "letter": "D", "text": "Cellulose", "correct": false }
+      ],
+      "explanation": "Lipids include fats, oils, waxes and steroids."
+    },
+    {
+      "id": "B1.1-017",
+      "level": "SL",
+      "statement": "B1.1.9",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "A triglyceride is assembled in a cell.",
+      "stem": "A triglyceride is formed from one glycerol and:",
+      "options": [
+        { "letter": "A", "text": "Three fatty acids", "correct": true },
+        { "letter": "B", "text": "Two fatty acids and a phosphate", "correct": false },
+        { "letter": "C", "text": "Three amino acids", "correct": false },
+        { "letter": "D", "text": "One fatty acid", "correct": false }
+      ],
+      "explanation": "A triglyceride is one glycerol linked to three fatty acids by condensation."
+    },
+    {
+      "id": "B1.1-018",
+      "level": "SL",
+      "statement": "B1.1.9",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "A phospholipid is formed from one glycerol linked to:",
+      "options": [
+        { "letter": "A", "text": "Two fatty acids and one phosphate group", "correct": true },
+        { "letter": "B", "text": "Three fatty acids", "correct": false },
+        { "letter": "C", "text": "Three phosphate groups", "correct": false },
+        { "letter": "D", "text": "One fatty acid and two phosphates", "correct": false }
+      ],
+      "explanation": "A phospholipid has glycerol joined to two fatty acids and one phosphate group."
+    },
+    {
+      "id": "B1.1-019",
+      "level": "SL",
+      "statement": "B1.1.10",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "A saturated fatty acid contains:",
+      "options": [
+        { "letter": "A", "text": "No carbon-carbon double bonds", "correct": true },
+        { "letter": "B", "text": "One carbon-carbon double bond", "correct": false },
+        { "letter": "C", "text": "Many carbon-carbon double bonds", "correct": false },
+        { "letter": "D", "text": "No carbon atoms", "correct": false }
+      ],
+      "explanation": "Saturated fatty acids have no C=C double bonds; monounsaturated have one and polyunsaturated have many."
+    },
+    {
+      "id": "B1.1-020",
+      "level": "SL",
+      "statement": "B1.1.10",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "How does increasing the number of C=C double bonds affect a fatty acid's melting point?",
+      "options": [
+        { "letter": "A", "text": "It lowers the melting point", "correct": true },
+        { "letter": "B", "text": "It raises the melting point", "correct": false },
+        { "letter": "C", "text": "It has no effect", "correct": false },
+        { "letter": "D", "text": "It removes the melting point entirely", "correct": false }
+      ],
+      "explanation": "More double bonds lower the melting point, which is why unsaturated oils are liquid at room temperature."
+    },
+    {
+      "id": "B1.1-021",
+      "level": "SL",
+      "statement": "B1.1.10",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "Plant oils are usually liquid while animal fats are often solid at room temperature.",
+      "stem": "This is because plant oils tend to be:",
+      "options": [
+        { "letter": "A", "text": "More unsaturated", "correct": true },
+        { "letter": "B", "text": "More saturated", "correct": false },
+        { "letter": "C", "text": "Free of fatty acids", "correct": false },
+        { "letter": "D", "text": "Made of glucose", "correct": false }
+      ],
+      "explanation": "Oils in plants are richer in unsaturated fatty acids (lower melting point), while fats in endotherms are more saturated."
+    },
+    {
+      "id": "B1.1-022",
+      "level": "SL",
+      "statement": "B1.1.11",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Triglycerides are well suited to long-term energy storage because they:",
+      "options": [
+        { "letter": "A", "text": "Store a large amount of energy per unit mass", "correct": true },
+        { "letter": "B", "text": "Dissolve easily in the blood", "correct": false },
+        { "letter": "C", "text": "Contain no carbon", "correct": false },
+        { "letter": "D", "text": "Cannot be stored in tissue", "correct": false }
+      ],
+      "explanation": "Triglycerides are energy-dense and hydrophobic, making them ideal for long-term energy storage."
+    },
+    {
+      "id": "B1.1-023",
+      "level": "SL",
+      "statement": "B1.1.11",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "A seal living in cold water has a thick layer of blubber.",
+      "stem": "Besides energy storage, this triglyceride tissue provides:",
+      "options": [
+        { "letter": "A", "text": "Thermal insulation", "correct": true },
+        { "letter": "B", "text": "Rapid oxygen supply", "correct": false },
+        { "letter": "C", "text": "Cell recognition", "correct": false },
+        { "letter": "D", "text": "Enzyme catalysis", "correct": false }
+      ],
+      "explanation": "Triglycerides in adipose tissue act as thermal insulators, useful for animals in cold habitats."
+    },
+    {
+      "id": "B1.1-024",
+      "level": "SL",
+      "statement": "B1.1.12",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "Phospholipids arrange into a bilayer in water.",
+      "stem": "This happens because phospholipids are:",
+      "options": [
+        { "letter": "A", "text": "Amphipathic (have hydrophilic and hydrophobic regions)", "correct": true },
+        { "letter": "B", "text": "Entirely hydrophobic", "correct": false },
+        { "letter": "C", "text": "Entirely hydrophilic", "correct": false },
+        { "letter": "D", "text": "Charged all over", "correct": false }
+      ],
+      "explanation": "Phospholipids are amphipathic: their hydrophilic heads face water and hydrophobic tails face inward, forming a bilayer."
+    },
+    {
+      "id": "B1.1-025",
+      "level": "SL",
+      "statement": "B1.1.12",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "In a phospholipid bilayer in water, the hydrophobic tails:",
+      "options": [
+        { "letter": "A", "text": "Point inward, away from water", "correct": true },
+        { "letter": "B", "text": "Point outward, toward water", "correct": false },
+        { "letter": "C", "text": "Dissolve completely", "correct": false },
+        { "letter": "D", "text": "Face the phosphate heads", "correct": false }
+      ],
+      "explanation": "The hydrophobic fatty acid tails cluster in the interior, away from the surrounding water."
+    },
+    {
+      "id": "B1.1-026",
+      "level": "SL",
+      "statement": "B1.1.13",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "Steroid hormones can enter cells directly through the membrane.",
+      "stem": "This is possible because steroids are:",
+      "options": [
+        { "letter": "A", "text": "Non-polar, so they pass through the phospholipid bilayer", "correct": true },
+        { "letter": "B", "text": "Charged and water-soluble", "correct": false },
+        { "letter": "C", "text": "Large polysaccharides", "correct": false },
+        { "letter": "D", "text": "Unable to cross any membrane", "correct": false }
+      ],
+      "explanation": "Non-polar steroids such as oestradiol and testosterone can pass directly through the hydrophobic core of the bilayer."
+    },
+    {
+      "id": "B1.1-027",
+      "level": "SL",
+      "statement": "B1.1.13",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which of these is an example of a steroid?",
+      "options": [
+        { "letter": "A", "text": "Testosterone", "correct": true },
+        { "letter": "B", "text": "Glucose", "correct": false },
+        { "letter": "C", "text": "Glycogen", "correct": false },
+        { "letter": "D", "text": "A dipeptide", "correct": false }
+      ],
+      "explanation": "Testosterone and oestradiol are steroids, a class of lipid."
+    },
+    {
+      "id": "B1.1-028",
+      "level": "SL",
+      "statement": "B1.1.4",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "A molecular diagram shows a five-carbon sugar ring.",
+      "stem": "This monosaccharide is a:",
+      "options": [
+        { "letter": "A", "text": "Pentose", "correct": true },
+        { "letter": "B", "text": "Hexose", "correct": false },
+        { "letter": "C", "text": "Disaccharide", "correct": false },
+        { "letter": "D", "text": "Polysaccharide", "correct": false }
+      ],
+      "explanation": "A five-carbon monosaccharide is a pentose; a six-carbon one is a hexose."
+    },
+    {
+      "id": "B1.1-029",
+      "level": "SL",
+      "statement": "B1.1.2",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which small molecule is released each time a condensation reaction joins two monomers?",
+      "options": [
+        { "letter": "A", "text": "Water", "correct": true },
+        { "letter": "B", "text": "Carbon dioxide", "correct": false },
+        { "letter": "C", "text": "Oxygen", "correct": false },
+        { "letter": "D", "text": "Glucose", "correct": false }
+      ],
+      "explanation": "Condensation reactions release a water molecule as each new bond forms."
+    },
+    {
+      "id": "B1.1-030",
+      "level": "SL",
+      "statement": "B1.1.5",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "A cell needs to quickly mobilise its stored energy.",
+      "stem": "Why is a branched glucose polymer such as glycogen useful for this?",
+      "options": [
+        { "letter": "A", "text": "Many ends allow rapid addition or removal of glucose", "correct": true },
+        { "letter": "B", "text": "It cannot be broken down", "correct": false },
+        { "letter": "C", "text": "It is a single straight chain only", "correct": false },
+        { "letter": "D", "text": "It dissolves and floats away", "correct": false }
+      ],
+      "explanation": "Branching provides many ends where alpha-glucose can be added or removed quickly to build or mobilise stores."
+    },
+    {
+      "id": "B1.1-031",
+      "level": "SL",
+      "statement": "B1.1.6",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which contrast between cellulose and starch is correct?",
+      "options": [
+        { "letter": "A", "text": "Cellulose is structural (beta-glucose); starch is storage (alpha-glucose)", "correct": true },
+        { "letter": "B", "text": "Cellulose is storage; starch is structural", "correct": false },
+        { "letter": "C", "text": "Both are made of amino acids", "correct": false },
+        { "letter": "D", "text": "Both are highly soluble sugars", "correct": false }
+      ],
+      "explanation": "Cellulose (beta-glucose) is structural in plant walls, while starch (alpha-glucose) is an energy store."
+    },
+    {
+      "id": "B1.1-032",
+      "level": "SL",
+      "statement": "B1.1.1",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "A carbon compound contains multiple ring structures.",
+      "stem": "This is possible because carbon can:",
+      "options": [
+        { "letter": "A", "text": "Bond to other carbons to form rings and chains", "correct": true },
+        { "letter": "B", "text": "Only form single straight chains", "correct": false },
+        { "letter": "C", "text": "Never bond to itself", "correct": false },
+        { "letter": "D", "text": "Only form ionic bonds", "correct": false }
+      ],
+      "explanation": "Carbon's ability to bond to other carbons allows branched or unbranched chains and single or multiple rings."
+    },
+    {
+      "id": "B1.1-033",
+      "level": "SL",
+      "statement": "B1.1.8",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which best explains why lipids do not dissolve well in water?",
+      "options": [
+        { "letter": "A", "text": "They are largely non-polar and hydrophobic", "correct": true },
+        { "letter": "B", "text": "They are highly charged", "correct": false },
+        { "letter": "C", "text": "They form hydrogen bonds with water", "correct": false },
+        { "letter": "D", "text": "They are polysaccharides", "correct": false }
+      ],
+      "explanation": "Lipids are non-polar and hydrophobic, so they dissolve in non-polar solvents rather than water."
+    },
+    {
+      "id": "B1.1-034",
+      "level": "SL",
+      "statement": "B1.1.10",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "A monounsaturated fatty acid contains:",
+      "options": [
+        { "letter": "A", "text": "Exactly one carbon-carbon double bond", "correct": true },
+        { "letter": "B", "text": "No double bonds", "correct": false },
+        { "letter": "C", "text": "Many double bonds", "correct": false },
+        { "letter": "D", "text": "Only double bonds", "correct": false }
+      ],
+      "explanation": "Monounsaturated fatty acids have a single C=C double bond, between saturated (none) and polyunsaturated (many)."
+    },
+    {
+      "id": "B1.1-035",
+      "level": "SL",
+      "statement": "B1.1.12",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "The term 'amphipathic' describes a molecule that:",
+      "options": [
+        { "letter": "A", "text": "Has both hydrophilic and hydrophobic parts", "correct": true },
+        { "letter": "B", "text": "Is only hydrophobic", "correct": false },
+        { "letter": "C", "text": "Contains no carbon", "correct": false },
+        { "letter": "D", "text": "Cannot form membranes", "correct": false }
+      ],
+      "explanation": "Amphipathic molecules such as phospholipids have both hydrophilic and hydrophobic regions."
+    },
+    {
+      "id": "B1.1-036",
+      "level": "SL",
+      "statement": "B1.1.11",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Compared with carbohydrates, triglycerides store:",
+      "options": [
+        { "letter": "A", "text": "More energy per gram", "correct": true },
+        { "letter": "B", "text": "Less energy per gram", "correct": false },
+        { "letter": "C", "text": "No energy at all", "correct": false },
+        { "letter": "D", "text": "Energy only in water", "correct": false }
+      ],
+      "explanation": "Triglycerides are more energy-dense than carbohydrates, suiting them to long-term storage."
+    },
+    {
+      "id": "B1.1-037",
+      "level": "SL",
+      "statement": "B1.1.3",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "The name 'hydrolysis' comes from 'hydro' (water) and 'lysis' (splitting).",
+      "stem": "This reflects that hydrolysis:",
+      "options": [
+        { "letter": "A", "text": "Uses water to split a polymer into monomers", "correct": true },
+        { "letter": "B", "text": "Removes water to build polymers", "correct": false },
+        { "letter": "C", "text": "Produces oxygen gas", "correct": false },
+        { "letter": "D", "text": "Never involves water", "correct": false }
+      ],
+      "explanation": "Water is split to provide the -H and -OH groups incorporated into the monomers during hydrolysis."
+    },
+    {
+      "id": "B1.1-038",
+      "level": "SL",
+      "statement": "B1.1.7",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "A glycoprotein consists of a protein combined with:",
+      "options": [
+        { "letter": "A", "text": "A carbohydrate", "correct": true },
+        { "letter": "B", "text": "A lipid only", "correct": false },
+        { "letter": "C", "text": "Another protein only", "correct": false },
+        { "letter": "D", "text": "A nucleic acid", "correct": false }
+      ],
+      "explanation": "A glycoprotein is a protein with an attached carbohydrate, important in cell recognition."
+    },
+    {
+      "id": "B1.1-039",
+      "level": "SL",
+      "statement": "B1.1.4",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which property of glucose relates directly to its role as a respiratory substrate?",
+      "options": [
+        { "letter": "A", "text": "The energy yielded when it is oxidised", "correct": true },
+        { "letter": "B", "text": "Its insolubility", "correct": false },
+        { "letter": "C", "text": "Its inability to be transported", "correct": false },
+        { "letter": "D", "text": "Its hydrophobic nature", "correct": false }
+      ],
+      "explanation": "Glucose yields energy on oxidation, alongside being soluble, transportable and chemically stable."
+    },
+    {
+      "id": "B1.1-040",
+      "level": "SL",
+      "statement": "B1.1.9",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Triglycerides and phospholipids are both formed by:",
+      "options": [
+        { "letter": "A", "text": "Condensation reactions involving glycerol and fatty acids", "correct": true },
+        { "letter": "B", "text": "Hydrolysis of proteins", "correct": false },
+        { "letter": "C", "text": "Joining nucleotides", "correct": false },
+        { "letter": "D", "text": "Linking beta-glucose units", "correct": false }
+      ],
+      "explanation": "Both are made by condensation of glycerol with fatty acids (and, for phospholipids, a phosphate group)."
+    },
+    {
+      "id": "B1.1-041",
+      "level": "SL",
+      "statement": "B1.1.1",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which SI prefix means one-thousandth?",
+      "options": [
+        { "letter": "A", "text": "milli", "correct": true },
+        { "letter": "B", "text": "kilo", "correct": false },
+        { "letter": "C", "text": "micro", "correct": false },
+        { "letter": "D", "text": "nano", "correct": false }
+      ],
+      "explanation": "Scientific conventions use agreed SI prefixes; 'milli' means one-thousandth (kilo = thousand, micro = millionth, nano = billionth)."
+    },
+    {
+      "id": "B1.1-042",
+      "level": "SL",
+      "statement": "B1.1.5",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "The relative insolubility of starch and glycogen is mainly due to their:",
+      "options": [
+        { "letter": "A", "text": "Large molecular size", "correct": true },
+        { "letter": "B", "text": "Small size", "correct": false },
+        { "letter": "C", "text": "Ionic charge", "correct": false },
+        { "letter": "D", "text": "Lipid content", "correct": false }
+      ],
+      "explanation": "Their large molecular size keeps them relatively insoluble, so stored glucose does not disturb osmotic balance."
+    },
+    {
+      "id": "B1.1-043",
+      "level": "SL",
+      "statement": "B1.1.6",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "The straight chains of cellulose are held together in bundles by:",
+      "options": [
+        { "letter": "A", "text": "Hydrogen bonds", "correct": true },
+        { "letter": "B", "text": "Ionic bonds", "correct": false },
+        { "letter": "C", "text": "Peptide bonds", "correct": false },
+        { "letter": "D", "text": "Double covalent bonds between chains", "correct": false }
+      ],
+      "explanation": "Cellulose chains are cross-linked by many hydrogen bonds, giving strong fibres."
+    },
+    {
+      "id": "B1.1-044",
+      "level": "SL",
+      "statement": "B1.1.8",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which group of substances includes fats, oils, waxes and steroids?",
+      "options": [
+        { "letter": "A", "text": "Lipids", "correct": true },
+        { "letter": "B", "text": "Carbohydrates", "correct": false },
+        { "letter": "C", "text": "Proteins", "correct": false },
+        { "letter": "D", "text": "Nucleic acids", "correct": false }
+      ],
+      "explanation": "Lipids include fats, oils, waxes and steroids, all sparingly soluble in water."
+    },
+    {
+      "id": "B1.1-045",
+      "level": "SL",
+      "statement": "B1.1.10",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "An oil remains liquid in a refrigerator while butter is solid.",
+      "stem": "The oil most likely contains a higher proportion of:",
+      "options": [
+        { "letter": "A", "text": "Polyunsaturated fatty acids", "correct": true },
+        { "letter": "B", "text": "Saturated fatty acids", "correct": false },
+        { "letter": "C", "text": "Amino acids", "correct": false },
+        { "letter": "D", "text": "Glucose", "correct": false }
+      ],
+      "explanation": "More double bonds (polyunsaturated) lower the melting point, keeping oils liquid at low temperatures."
+    },
+    {
+      "id": "B1.1-046",
+      "level": "SL",
+      "statement": "B1.1.12",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "The phospholipid bilayer forms the basis of:",
+      "options": [
+        { "letter": "A", "text": "Cell membranes", "correct": true },
+        { "letter": "B", "text": "Cell walls of plants", "correct": false },
+        { "letter": "C", "text": "Starch grains", "correct": false },
+        { "letter": "D", "text": "DNA", "correct": false }
+      ],
+      "explanation": "The amphipathic phospholipid bilayer is the structural basis of cell membranes."
+    },
+    {
+      "id": "B1.1-047",
+      "level": "SL",
+      "statement": "B1.1.2",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which set correctly lists three types of biological polymer?",
+      "options": [
+        { "letter": "A", "text": "Polysaccharides, polypeptides, nucleic acids", "correct": true },
+        { "letter": "B", "text": "Glucose, glycerol, fatty acids", "correct": false },
+        { "letter": "C", "text": "Water, oxygen, carbon dioxide", "correct": false },
+        { "letter": "D", "text": "Steroids, waxes, oils", "correct": false }
+      ],
+      "explanation": "Polysaccharides, polypeptides and nucleic acids are the three main polymer types made by condensation."
+    },
+    {
+      "id": "B1.1-048",
+      "level": "SL",
+      "statement": "B1.1.11",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "An Arctic animal stores fat under its skin.",
+      "stem": "How does the location of this triglyceride help it survive the cold?",
+      "options": [
+        { "letter": "A", "text": "It insulates the body, reducing heat loss", "correct": true },
+        { "letter": "B", "text": "It cools the body down", "correct": false },
+        { "letter": "C", "text": "It speeds up water loss", "correct": false },
+        { "letter": "D", "text": "It provides oxygen", "correct": false }
+      ],
+      "explanation": "Subcutaneous triglyceride acts as a thermal insulator, helping animals maintain body temperature in cold habitats."
+    },
+    {
+      "id": "B1.1-049",
+      "level": "SL",
+      "statement": "B1.1.13",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Because steroids can cross membranes freely, their receptors are often located:",
+      "options": [
+        { "letter": "A", "text": "Inside the cell", "correct": true },
+        { "letter": "B", "text": "Only on the outer membrane surface", "correct": false },
+        { "letter": "C", "text": "In the cell wall", "correct": false },
+        { "letter": "D", "text": "Outside the organism", "correct": false }
+      ],
+      "explanation": "Since non-polar steroids pass through the bilayer, they can bind receptors inside the cell."
+    },
+    {
+      "id": "B1.1-050",
+      "level": "SL",
+      "statement": "B1.1.4",
+      "category": "B1.1 Carbohydrates and lipids",
+      "scenario": "",
+      "stem": "Which set of properties makes glucose a good transport and respiratory molecule?",
+      "options": [
+        { "letter": "A", "text": "Soluble, transportable, chemically stable, energy-yielding", "correct": true },
+        { "letter": "B", "text": "Insoluble, non-transportable, unstable", "correct": false },
+        { "letter": "C", "text": "Hydrophobic and inert", "correct": false },
+        { "letter": "D", "text": "Large and branched", "correct": false }
+      ],
+      "explanation": "Glucose's solubility, transportability, chemical stability and energy yield on oxidation suit it to these roles."
+    }
+  ]
+}

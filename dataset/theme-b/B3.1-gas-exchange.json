@@ -1,0 +1,760 @@
+{
+  "id": "B3.1",
+  "name": "Gas exchange",
+  "theme": "B",
+  "themeName": "Form and function",
+  "levelOfOrganization": "Organisms",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "B3.1-001",
+      "level": "SL",
+      "statement": "B3.1.1",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Why does gas exchange become more challenging as an organism gets larger?",
+      "options": [
+        { "letter": "A", "text": "Its surface area-to-volume ratio decreases", "correct": true },
+        { "letter": "B", "text": "Its surface area-to-volume ratio increases", "correct": false },
+        { "letter": "C", "text": "It no longer needs oxygen", "correct": false },
+        { "letter": "D", "text": "Diffusion distances become shorter", "correct": false }
+      ],
+      "explanation": "As size increases, the surface area-to-volume ratio falls and diffusion distances increase, making exchange harder."
+    },
+    {
+      "id": "B3.1-002",
+      "level": "SL",
+      "statement": "B3.1.2",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Which is a property of an effective gas-exchange surface?",
+      "options": [
+        { "letter": "A", "text": "A large, thin, moist, permeable surface", "correct": true },
+        { "letter": "B", "text": "A small, thick, dry surface", "correct": false },
+        { "letter": "C", "text": "An impermeable barrier", "correct": false },
+        { "letter": "D", "text": "A rigid waterproof layer", "correct": false }
+      ],
+      "explanation": "Gas-exchange surfaces are permeable, thin, moist and have a large surface area."
+    },
+    {
+      "id": "B3.1-003",
+      "level": "SL",
+      "statement": "B3.1.3",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "How do animals maintain concentration gradients at gas-exchange surfaces?",
+      "options": [
+        { "letter": "A", "text": "By dense blood vessel networks, blood flow and ventilation", "correct": true },
+        { "letter": "B", "text": "By preventing all blood flow", "correct": false },
+        { "letter": "C", "text": "By sealing the surface", "correct": false },
+        { "letter": "D", "text": "By stopping ventilation", "correct": false }
+      ],
+      "explanation": "Dense capillary networks, continuous blood flow and ventilation maintain steep concentration gradients."
+    },
+    {
+      "id": "B3.1-004",
+      "level": "SL",
+      "statement": "B3.1.4",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Which is an adaptation of mammalian alveolar lungs for gas exchange?",
+      "options": [
+        { "letter": "A", "text": "A high surface area with extensive capillary beds", "correct": true },
+        { "letter": "B", "text": "A single large air sac with no capillaries", "correct": false },
+        { "letter": "C", "text": "Thick, impermeable walls", "correct": false },
+        { "letter": "D", "text": "A dry internal surface", "correct": false }
+      ],
+      "explanation": "Alveolar lungs have surfactant, branched bronchioles, extensive capillary beds and a high surface area."
+    },
+    {
+      "id": "B3.1-005",
+      "level": "SL",
+      "statement": "B3.1.4",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Surfactant in the alveoli functions to:",
+      "options": [
+        { "letter": "A", "text": "Reduce surface tension so alveoli do not collapse", "correct": true },
+        { "letter": "B", "text": "Increase diffusion distance", "correct": false },
+        { "letter": "C", "text": "Block oxygen entry", "correct": false },
+        { "letter": "D", "text": "Thicken the alveolar wall", "correct": false }
+      ],
+      "explanation": "Surfactant lowers surface tension, helping keep alveoli open for efficient gas exchange."
+    },
+    {
+      "id": "B3.1-006",
+      "level": "SL",
+      "statement": "B3.1.5",
+      "category": "B3.1 Gas exchange",
+      "scenario": "During inhalation the diaphragm contracts.",
+      "stem": "What happens to the diaphragm's shape?",
+      "options": [
+        { "letter": "A", "text": "It flattens and moves down", "correct": true },
+        { "letter": "B", "text": "It domes upward", "correct": false },
+        { "letter": "C", "text": "It stays completely still", "correct": false },
+        { "letter": "D", "text": "It splits in two", "correct": false }
+      ],
+      "explanation": "The diaphragm contracts and flattens during inhalation, increasing the volume of the thorax."
+    },
+    {
+      "id": "B3.1-007",
+      "level": "SL",
+      "statement": "B3.1.5",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Which muscles, together with the diaphragm, are involved in ventilating the lungs?",
+      "options": [
+        { "letter": "A", "text": "Intercostal and abdominal muscles", "correct": true },
+        { "letter": "B", "text": "Only the heart muscle", "correct": false },
+        { "letter": "C", "text": "Only leg muscles", "correct": false },
+        { "letter": "D", "text": "No muscles are involved", "correct": false }
+      ],
+      "explanation": "The diaphragm, intercostal muscles, abdominal muscles and ribs all take part in ventilation."
+    },
+    {
+      "id": "B3.1-008",
+      "level": "SL",
+      "statement": "B3.1.6",
+      "category": "B3.1 Gas exchange",
+      "scenario": "A student measures the maximum volume of air that can be exhaled after the deepest possible inhalation.",
+      "stem": "Which lung volume is this?",
+      "options": [
+        { "letter": "A", "text": "Vital capacity", "correct": true },
+        { "letter": "B", "text": "Tidal volume", "correct": false },
+        { "letter": "C", "text": "Inspiratory reserve only", "correct": false },
+        { "letter": "D", "text": "Residual volume", "correct": false }
+      ],
+      "explanation": "Vital capacity is the maximum volume that can be exhaled after the deepest inhalation."
+    },
+    {
+      "id": "B3.1-009",
+      "level": "SL",
+      "statement": "B3.1.6",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Tidal volume is the volume of air:",
+      "options": [
+        { "letter": "A", "text": "Breathed in or out during normal quiet breathing", "correct": true },
+        { "letter": "B", "text": "That can never be exhaled", "correct": false },
+        { "letter": "C", "text": "In the largest possible breath", "correct": false },
+        { "letter": "D", "text": "Left after full exhalation", "correct": false }
+      ],
+      "explanation": "Tidal volume is the amount of air moved in or out with each normal breath."
+    },
+    {
+      "id": "B3.1-010",
+      "level": "SL",
+      "statement": "B3.1.7",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Which leaf feature is an adaptation for gas exchange?",
+      "options": [
+        { "letter": "A", "text": "Air spaces in the spongy mesophyll", "correct": true },
+        { "letter": "B", "text": "A thick waxy layer blocking all gases", "correct": false },
+        { "letter": "C", "text": "The absence of stomata", "correct": false },
+        { "letter": "D", "text": "Solid tissue with no gaps", "correct": false }
+      ],
+      "explanation": "Leaf adaptations for gas exchange include air spaces, spongy mesophyll and stomatal guard cells."
+    },
+    {
+      "id": "B3.1-011",
+      "level": "SL",
+      "statement": "B3.1.7",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Gases enter and leave a leaf mainly through pores controlled by:",
+      "options": [
+        { "letter": "A", "text": "Stomatal guard cells", "correct": true },
+        { "letter": "B", "text": "The waxy cuticle", "correct": false },
+        { "letter": "C", "text": "The xylem", "correct": false },
+        { "letter": "D", "text": "Root hairs", "correct": false }
+      ],
+      "explanation": "Stomata, controlled by guard cells, are the main route for gas exchange in leaves."
+    },
+    {
+      "id": "B3.1-012",
+      "level": "SL",
+      "statement": "B3.1.8",
+      "category": "B3.1 Gas exchange",
+      "scenario": "A student draws a plan diagram of a transverse section of a leaf.",
+      "stem": "A plan diagram should show:",
+      "options": [
+        { "letter": "A", "text": "The distribution of tissues, without individual cells", "correct": true },
+        { "letter": "B", "text": "Every individual cell in detail", "correct": false },
+        { "letter": "C", "text": "Only the colour of the leaf", "correct": false },
+        { "letter": "D", "text": "The whole plant", "correct": false }
+      ],
+      "explanation": "A plan diagram shows the distribution of tissues in the section rather than individual cells."
+    },
+    {
+      "id": "B3.1-013",
+      "level": "SL",
+      "statement": "B3.1.9",
+      "category": "B3.1 Gas exchange",
+      "scenario": "Open stomata allow gas exchange but also let water escape.",
+      "stem": "This loss of water vapour from a leaf is called:",
+      "options": [
+        { "letter": "A", "text": "Transpiration", "correct": true },
+        { "letter": "B", "text": "Translocation", "correct": false },
+        { "letter": "C", "text": "Respiration", "correct": false },
+        { "letter": "D", "text": "Osmosis", "correct": false }
+      ],
+      "explanation": "Transpiration is the loss of water vapour that occurs as a consequence of gas exchange through stomata."
+    },
+    {
+      "id": "B3.1-014",
+      "level": "SL",
+      "statement": "B3.1.9",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Which factor is likely to increase the rate of transpiration?",
+      "options": [
+        { "letter": "A", "text": "Higher temperature", "correct": true },
+        { "letter": "B", "text": "Very high humidity", "correct": false },
+        { "letter": "C", "text": "Still, damp air", "correct": false },
+        { "letter": "D", "text": "Darkness closing the stomata", "correct": false }
+      ],
+      "explanation": "Higher temperature increases transpiration, while high humidity and darkness reduce it."
+    },
+    {
+      "id": "B3.1-015",
+      "level": "SL",
+      "statement": "B3.1.10",
+      "category": "B3.1 Gas exchange",
+      "scenario": "A student counts stomata in several fields of view under the microscope.",
+      "stem": "Why should the count be repeated in different fields of view?",
+      "options": [
+        { "letter": "A", "text": "Repeating measurements increases reliability", "correct": true },
+        { "letter": "B", "text": "One count is always perfectly accurate", "correct": false },
+        { "letter": "C", "text": "Repeating wastes time with no benefit", "correct": false },
+        { "letter": "D", "text": "Stomata cannot be counted", "correct": false }
+      ],
+      "explanation": "Repeating measurements increases the reliability of quantitative data given natural variability in biological material."
+    },
+    {
+      "id": "B3.1-016",
+      "level": "SL",
+      "statement": "B3.1.10",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Stomatal density is a measure of the:",
+      "options": [
+        { "letter": "A", "text": "Number of stomata per unit area of leaf", "correct": true },
+        { "letter": "B", "text": "Size of the whole leaf", "correct": false },
+        { "letter": "C", "text": "Thickness of the cuticle", "correct": false },
+        { "letter": "D", "text": "Rate of photosynthesis", "correct": false }
+      ],
+      "explanation": "Stomatal density is the number of stomata per unit area, determined from micrographs or leaf casts."
+    },
+    {
+      "id": "B3.1-017",
+      "level": "SL",
+      "statement": "B3.1.2",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Why must gas-exchange surfaces be moist?",
+      "options": [
+        { "letter": "A", "text": "Gases dissolve in the moisture before diffusing across", "correct": true },
+        { "letter": "B", "text": "To make them impermeable", "correct": false },
+        { "letter": "C", "text": "To increase diffusion distance", "correct": false },
+        { "letter": "D", "text": "To stop diffusion", "correct": false }
+      ],
+      "explanation": "A moist surface allows gases to dissolve so they can diffuse across the exchange surface."
+    },
+    {
+      "id": "B3.1-018",
+      "level": "SL",
+      "statement": "B3.1.3",
+      "category": "B3.1 Gas exchange",
+      "scenario": "Fish ventilate their gills with water.",
+      "stem": "Ventilation helps gas exchange by:",
+      "options": [
+        { "letter": "A", "text": "Maintaining a steep concentration gradient at the surface", "correct": true },
+        { "letter": "B", "text": "Removing the exchange surface", "correct": false },
+        { "letter": "C", "text": "Preventing water flow", "correct": false },
+        { "letter": "D", "text": "Blocking diffusion", "correct": false }
+      ],
+      "explanation": "Ventilation (with water for gills, air for lungs) refreshes the surface, maintaining concentration gradients."
+    },
+    {
+      "id": "B3.1-019",
+      "level": "SL",
+      "statement": "B3.1.4",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "The branched network of bronchioles in the lungs helps gas exchange by:",
+      "options": [
+        { "letter": "A", "text": "Delivering air to a very large alveolar surface area", "correct": true },
+        { "letter": "B", "text": "Reducing the surface area", "correct": false },
+        { "letter": "C", "text": "Blocking airflow", "correct": false },
+        { "letter": "D", "text": "Removing capillaries", "correct": false }
+      ],
+      "explanation": "Branched bronchioles distribute air across the many alveoli, giving a high surface area for exchange."
+    },
+    {
+      "id": "B3.1-020",
+      "level": "SL",
+      "statement": "B3.1.7",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "The waxy cuticle of a leaf functions mainly to:",
+      "options": [
+        { "letter": "A", "text": "Reduce water loss from the leaf surface", "correct": true },
+        { "letter": "B", "text": "Increase gas exchange through it", "correct": false },
+        { "letter": "C", "text": "Transport sugars", "correct": false },
+        { "letter": "D", "text": "Anchor the leaf", "correct": false }
+      ],
+      "explanation": "The waxy cuticle reduces water loss; gas exchange occurs mainly through the stomata."
+    },
+    {
+      "id": "B3.1-021",
+      "level": "SL",
+      "statement": "B3.1.1",
+      "category": "B3.1 Gas exchange",
+      "scenario": "A very small single-celled organism exchanges gases directly with its surroundings.",
+      "stem": "Why can it do this without special exchange organs?",
+      "options": [
+        { "letter": "A", "text": "It has a large surface area-to-volume ratio and short diffusion distances", "correct": true },
+        { "letter": "B", "text": "It has a very small surface area", "correct": false },
+        { "letter": "C", "text": "It does not respire", "correct": false },
+        { "letter": "D", "text": "It has lungs", "correct": false }
+      ],
+      "explanation": "Small organisms have a high surface area-to-volume ratio and short diffusion distances, so simple diffusion suffices."
+    },
+    {
+      "id": "B3.1-022",
+      "level": "SL",
+      "statement": "B3.1.5",
+      "category": "B3.1 Gas exchange",
+      "scenario": "During exhalation at rest, the diaphragm and external intercostals relax.",
+      "stem": "What happens to the volume of the thorax?",
+      "options": [
+        { "letter": "A", "text": "It decreases, pushing air out", "correct": true },
+        { "letter": "B", "text": "It increases, drawing air in", "correct": false },
+        { "letter": "C", "text": "It stays the same", "correct": false },
+        { "letter": "D", "text": "It disappears", "correct": false }
+      ],
+      "explanation": "Relaxation reduces thoracic volume, raising pressure so air is exhaled."
+    },
+    {
+      "id": "B3.1-023",
+      "level": "SL",
+      "statement": "B3.1.6",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "The inspiratory reserve volume is the extra air that can be:",
+      "options": [
+        { "letter": "A", "text": "Inhaled beyond a normal breath", "correct": true },
+        { "letter": "B", "text": "Never inhaled", "correct": false },
+        { "letter": "C", "text": "Exhaled beyond a normal breath", "correct": false },
+        { "letter": "D", "text": "Left in the lungs after full exhalation", "correct": false }
+      ],
+      "explanation": "The inspiratory reserve is the additional air that can be inhaled beyond a normal tidal breath."
+    },
+    {
+      "id": "B3.1-024",
+      "level": "SL",
+      "statement": "B3.1.8",
+      "category": "B3.1 Gas exchange",
+      "scenario": "A transverse section of a dicotyledonous leaf is examined.",
+      "stem": "Which tissues would be labelled on the plan diagram?",
+      "options": [
+        { "letter": "A", "text": "Epidermis, mesophyll and veins", "correct": true },
+        { "letter": "B", "text": "Alveoli and bronchioles", "correct": false },
+        { "letter": "C", "text": "Heart chambers", "correct": false },
+        { "letter": "D", "text": "Nephron tubules", "correct": false }
+      ],
+      "explanation": "A leaf plan diagram shows tissues such as the epidermis, mesophyll layers and veins."
+    },
+    {
+      "id": "B3.1-025",
+      "level": "SL",
+      "statement": "B3.1.9",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Which factor would decrease the rate of transpiration?",
+      "options": [
+        { "letter": "A", "text": "Increased humidity", "correct": true },
+        { "letter": "B", "text": "Increased temperature", "correct": false },
+        { "letter": "C", "text": "Increased air movement", "correct": false },
+        { "letter": "D", "text": "Increased light opening stomata", "correct": false }
+      ],
+      "explanation": "High humidity reduces the water vapour gradient, decreasing transpiration; heat, wind and light tend to increase it."
+    },
+    {
+      "id": "B3.1-026",
+      "level": "SL",
+      "statement": "B3.1.2",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "A thin tissue layer at a gas-exchange surface is important because it:",
+      "options": [
+        { "letter": "A", "text": "Shortens the diffusion distance for gases", "correct": true },
+        { "letter": "B", "text": "Lengthens the diffusion distance", "correct": false },
+        { "letter": "C", "text": "Stops gases moving", "correct": false },
+        { "letter": "D", "text": "Reduces the surface area", "correct": false }
+      ],
+      "explanation": "A thin surface reduces the distance gases must diffuse, speeding exchange."
+    },
+    {
+      "id": "B3.1-027",
+      "level": "SL",
+      "statement": "B3.1.4",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Extensive capillary beds around the alveoli help gas exchange by:",
+      "options": [
+        { "letter": "A", "text": "Carrying blood close to the exchange surface to maintain gradients", "correct": true },
+        { "letter": "B", "text": "Blocking blood flow", "correct": false },
+        { "letter": "C", "text": "Thickening the wall", "correct": false },
+        { "letter": "D", "text": "Reducing surface area", "correct": false }
+      ],
+      "explanation": "Dense capillaries bring blood close to the alveoli and, with continuous flow, maintain steep gas gradients."
+    },
+    {
+      "id": "B3.1-028",
+      "level": "SL",
+      "statement": "B3.1.7",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "The spongy mesophyll of a leaf is adapted for gas exchange because it:",
+      "options": [
+        { "letter": "A", "text": "Contains many air spaces increasing internal surface area", "correct": true },
+        { "letter": "B", "text": "Is completely solid", "correct": false },
+        { "letter": "C", "text": "Blocks all gas movement", "correct": false },
+        { "letter": "D", "text": "Transports water only", "correct": false }
+      ],
+      "explanation": "Air spaces in the spongy mesophyll increase internal surface area and allow gases to diffuse to and from cells."
+    },
+    {
+      "id": "B3.1-029",
+      "level": "SL",
+      "statement": "B3.1.1",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Gas exchange is described as a vital function because:",
+      "options": [
+        { "letter": "A", "text": "All organisms need to exchange gases for metabolism", "correct": true },
+        { "letter": "B", "text": "Only plants need it", "correct": false },
+        { "letter": "C", "text": "Only large animals need it", "correct": false },
+        { "letter": "D", "text": "It is unnecessary for life", "correct": false }
+      ],
+      "explanation": "Gas exchange is vital in all organisms because cells require gases such as oxygen and produce carbon dioxide."
+    },
+    {
+      "id": "B3.1-030",
+      "level": "SL",
+      "statement": "B3.1.6",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "The expiratory reserve volume is the extra air that can be:",
+      "options": [
+        { "letter": "A", "text": "Exhaled after a normal breath out", "correct": true },
+        { "letter": "B", "text": "Inhaled after a normal breath in", "correct": false },
+        { "letter": "C", "text": "Never moved", "correct": false },
+        { "letter": "D", "text": "Held permanently", "correct": false }
+      ],
+      "explanation": "The expiratory reserve is the additional air that can be exhaled beyond a normal tidal breath."
+    },
+    {
+      "id": "B3.1-031",
+      "level": "SL",
+      "statement": "B3.1.3",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Continuous blood flow at an exchange surface helps by:",
+      "options": [
+        { "letter": "A", "text": "Carrying away absorbed gases to maintain gradients", "correct": true },
+        { "letter": "B", "text": "Allowing gases to build up and stop diffusion", "correct": false },
+        { "letter": "C", "text": "Sealing the capillaries", "correct": false },
+        { "letter": "D", "text": "Removing the exchange surface", "correct": false }
+      ],
+      "explanation": "Continuous blood flow removes absorbed gases and brings fresh blood, keeping concentration gradients steep."
+    },
+    {
+      "id": "B3.1-032",
+      "level": "SL",
+      "statement": "B3.1.10",
+      "category": "B3.1 Gas exchange",
+      "scenario": "A student makes a leaf cast to study stomata.",
+      "stem": "A leaf cast is used to:",
+      "options": [
+        { "letter": "A", "text": "Produce an impression of the leaf surface for counting stomata", "correct": true },
+        { "letter": "B", "text": "Measure lung volume", "correct": false },
+        { "letter": "C", "text": "Weigh the leaf", "correct": false },
+        { "letter": "D", "text": "Extract DNA", "correct": false }
+      ],
+      "explanation": "A leaf cast makes an impression of the surface so stomata can be counted to find stomatal density."
+    },
+    {
+      "id": "B3.1-033",
+      "level": "SL",
+      "statement": "B3.1.5",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "The ribs contribute to ventilation by:",
+      "options": [
+        { "letter": "A", "text": "Moving to change the volume of the thoracic cavity", "correct": true },
+        { "letter": "B", "text": "Producing surfactant", "correct": false },
+        { "letter": "C", "text": "Absorbing oxygen directly", "correct": false },
+        { "letter": "D", "text": "Transporting blood", "correct": false }
+      ],
+      "explanation": "Movement of the ribs (with the intercostal muscles) changes thoracic volume during ventilation."
+    },
+    {
+      "id": "B3.1-034",
+      "level": "SL",
+      "statement": "B3.1.2",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "A large surface area at a gas-exchange surface allows:",
+      "options": [
+        { "letter": "A", "text": "More gas to diffuse in a given time", "correct": true },
+        { "letter": "B", "text": "Less gas to diffuse", "correct": false },
+        { "letter": "C", "text": "Diffusion to stop", "correct": false },
+        { "letter": "D", "text": "Water loss only", "correct": false }
+      ],
+      "explanation": "A large surface area increases the amount of gas that can diffuse across in a given time."
+    },
+    {
+      "id": "B3.1-035",
+      "level": "SL",
+      "statement": "B3.1.9",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Transpiration is best described as a consequence of:",
+      "options": [
+        { "letter": "A", "text": "Gas exchange requiring open stomata", "correct": true },
+        { "letter": "B", "text": "Active pumping of water out of leaves", "correct": false },
+        { "letter": "C", "text": "Respiration in roots", "correct": false },
+        { "letter": "D", "text": "Photosynthesis in the dark", "correct": false }
+      ],
+      "explanation": "Because stomata must open for gas exchange, water vapour is inevitably lost by transpiration."
+    },
+    {
+      "id": "B3.1-036",
+      "level": "SL",
+      "statement": "B3.1.4",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Which combination lists adaptations of mammalian alveolar lungs?",
+      "options": [
+        { "letter": "A", "text": "Surfactant, branched bronchioles, extensive capillaries, high surface area", "correct": true },
+        { "letter": "B", "text": "Thick walls, no capillaries, small surface area", "correct": false },
+        { "letter": "C", "text": "Waxy cuticle, guard cells, spongy mesophyll", "correct": false },
+        { "letter": "D", "text": "Sieve plates and companion cells", "correct": false }
+      ],
+      "explanation": "Alveolar lung adaptations include surfactant, branched bronchioles, extensive capillary beds and a high surface area."
+    },
+    {
+      "id": "B3.1-037",
+      "level": "SL",
+      "statement": "B3.1.1",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "As an organism increases in size, the distance from its centre to its surface:",
+      "options": [
+        { "letter": "A", "text": "Increases, making simple diffusion insufficient", "correct": true },
+        { "letter": "B", "text": "Decreases", "correct": false },
+        { "letter": "C", "text": "Stays constant", "correct": false },
+        { "letter": "D", "text": "Becomes zero", "correct": false }
+      ],
+      "explanation": "Greater size increases internal distances, so larger organisms need specialized gas-exchange systems."
+    },
+    {
+      "id": "B3.1-038",
+      "level": "SL",
+      "statement": "B3.1.7",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Which leaf tissue transports water and dissolved substances?",
+      "options": [
+        { "letter": "A", "text": "The veins (vascular tissue)", "correct": true },
+        { "letter": "B", "text": "The waxy cuticle", "correct": false },
+        { "letter": "C", "text": "The air spaces", "correct": false },
+        { "letter": "D", "text": "The guard cells", "correct": false }
+      ],
+      "explanation": "Veins contain vascular tissue (xylem and phloem) that transport water and dissolved substances in the leaf."
+    },
+    {
+      "id": "B3.1-039",
+      "level": "SL",
+      "statement": "B3.1.6",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Which apparatus is typically used to measure lung volumes such as tidal volume?",
+      "options": [
+        { "letter": "A", "text": "A spirometer", "correct": true },
+        { "letter": "B", "text": "A goniometer", "correct": false },
+        { "letter": "C", "text": "An eyepiece graticule", "correct": false },
+        { "letter": "D", "text": "A potometer", "correct": false }
+      ],
+      "explanation": "Lung volumes like tidal volume and vital capacity are commonly measured with a spirometer."
+    },
+    {
+      "id": "B3.1-040",
+      "level": "SL",
+      "statement": "B3.1.3",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Which structures maintain concentration gradients specifically in the lungs?",
+      "options": [
+        { "letter": "A", "text": "Ventilation with air and dense blood vessels", "correct": true },
+        { "letter": "B", "text": "Ventilation with water", "correct": false },
+        { "letter": "C", "text": "Stomata and guard cells", "correct": false },
+        { "letter": "D", "text": "Xylem vessels", "correct": false }
+      ],
+      "explanation": "In lungs, ventilation with air plus dense blood vessels and continuous flow maintain gradients (gills use water)."
+    },
+    {
+      "id": "B3.1-041",
+      "level": "HL",
+      "statement": "B3.1.11",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Cooperative binding of oxygen to haemoglobin means that:",
+      "options": [
+        { "letter": "A", "text": "Binding of one oxygen makes further binding easier", "correct": true },
+        { "letter": "B", "text": "Oxygen cannot bind at all", "correct": false },
+        { "letter": "C", "text": "Each haem group works independently with no effect on others", "correct": false },
+        { "letter": "D", "text": "Haemoglobin binds only carbon dioxide", "correct": false }
+      ],
+      "explanation": "Cooperative binding means that as oxygen binds to one haem group, the affinity of the others increases."
+    },
+    {
+      "id": "B3.1-042",
+      "level": "HL",
+      "statement": "B3.1.11",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Foetal haemoglobin differs from adult haemoglobin in that it has a:",
+      "options": [
+        { "letter": "A", "text": "Higher affinity for oxygen", "correct": true },
+        { "letter": "B", "text": "Lower affinity for oxygen", "correct": false },
+        { "letter": "C", "text": "Inability to bind oxygen", "correct": false },
+        { "letter": "D", "text": "Complete lack of haem groups", "correct": false }
+      ],
+      "explanation": "Foetal haemoglobin has a higher affinity for oxygen, allowing it to take up oxygen from the mother's blood."
+    },
+    {
+      "id": "B3.1-043",
+      "level": "HL",
+      "statement": "B3.1.12",
+      "category": "B3.1 Gas exchange",
+      "scenario": "Actively respiring tissue produces a lot of carbon dioxide.",
+      "stem": "According to the Bohr shift, this causes haemoglobin to:",
+      "options": [
+        { "letter": "A", "text": "Release more oxygen", "correct": true },
+        { "letter": "B", "text": "Bind more oxygen", "correct": false },
+        { "letter": "C", "text": "Stop functioning", "correct": false },
+        { "letter": "D", "text": "Lose its haem groups", "correct": false }
+      ],
+      "explanation": "The Bohr shift: increased carbon dioxide causes increased dissociation of oxygen, delivering more to active tissues."
+    },
+    {
+      "id": "B3.1-044",
+      "level": "HL",
+      "statement": "B3.1.12",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Why is the Bohr shift beneficial?",
+      "options": [
+        { "letter": "A", "text": "It delivers more oxygen where respiration is fastest", "correct": true },
+        { "letter": "B", "text": "It prevents oxygen delivery", "correct": false },
+        { "letter": "C", "text": "It reduces oxygen supply to active tissues", "correct": false },
+        { "letter": "D", "text": "It stops carbon dioxide transport", "correct": false }
+      ],
+      "explanation": "By releasing oxygen where carbon dioxide is high, the Bohr shift supplies more oxygen to actively respiring tissues."
+    },
+    {
+      "id": "B3.1-045",
+      "level": "HL",
+      "statement": "B3.1.13",
+      "category": "B3.1 Gas exchange",
+      "scenario": "An oxygen dissociation curve for haemoglobin is S-shaped (sigmoidal).",
+      "stem": "The S-shape is explained by:",
+      "options": [
+        { "letter": "A", "text": "Cooperative binding of oxygen", "correct": true },
+        { "letter": "B", "text": "The absence of haem groups", "correct": false },
+        { "letter": "C", "text": "Oxygen never binding", "correct": false },
+        { "letter": "D", "text": "A linear relationship", "correct": false }
+      ],
+      "explanation": "The sigmoidal (S-shaped) curve results from cooperative binding of oxygen to the haem groups."
+    },
+    {
+      "id": "B3.1-046",
+      "level": "HL",
+      "statement": "B3.1.13",
+      "category": "B3.1 Gas exchange",
+      "scenario": "An oxygen dissociation curve plots percentage saturation against oxygen concentration.",
+      "stem": "At high oxygen concentrations, haemoglobin is:",
+      "options": [
+        { "letter": "A", "text": "Highly saturated with oxygen", "correct": true },
+        { "letter": "B", "text": "Completely without oxygen", "correct": false },
+        { "letter": "C", "text": "Unable to bind oxygen", "correct": false },
+        { "letter": "D", "text": "Denatured", "correct": false }
+      ],
+      "explanation": "The dissociation curve shows haemoglobin becoming highly saturated at high oxygen concentrations, as in the lungs."
+    },
+    {
+      "id": "B3.1-047",
+      "level": "HL",
+      "statement": "B3.1.11",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "Carbon dioxide binding to haemoglobin is described as allosteric because it:",
+      "options": [
+        { "letter": "A", "text": "Binds at a site other than the oxygen-binding site and affects oxygen affinity", "correct": true },
+        { "letter": "B", "text": "Binds at the same site as oxygen", "correct": false },
+        { "letter": "C", "text": "Has no effect on the protein", "correct": false },
+        { "letter": "D", "text": "Destroys the haemoglobin", "correct": false }
+      ],
+      "explanation": "Allosteric binding of carbon dioxide occurs at a different site and alters haemoglobin's affinity for oxygen."
+    },
+    {
+      "id": "B3.1-048",
+      "level": "HL",
+      "statement": "B3.1.12",
+      "category": "B3.1 Gas exchange",
+      "scenario": "On a graph, increased carbon dioxide shifts the oxygen dissociation curve to the right.",
+      "stem": "A rightward shift indicates that haemoglobin:",
+      "options": [
+        { "letter": "A", "text": "Releases oxygen more readily", "correct": true },
+        { "letter": "B", "text": "Holds oxygen more tightly", "correct": false },
+        { "letter": "C", "text": "Cannot bind oxygen", "correct": false },
+        { "letter": "D", "text": "Has more haem groups", "correct": false }
+      ],
+      "explanation": "A rightward (Bohr) shift means oxygen is released more readily, benefiting actively respiring tissues."
+    },
+    {
+      "id": "B3.1-049",
+      "level": "HL",
+      "statement": "B3.1.11",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "The higher oxygen affinity of foetal haemoglobin allows the foetus to:",
+      "options": [
+        { "letter": "A", "text": "Take up oxygen from the mother's blood across the placenta", "correct": true },
+        { "letter": "B", "text": "Give oxygen to the mother", "correct": false },
+        { "letter": "C", "text": "Avoid needing oxygen", "correct": false },
+        { "letter": "D", "text": "Produce carbon dioxide only", "correct": false }
+      ],
+      "explanation": "With higher affinity, foetal haemoglobin can load oxygen from maternal haemoglobin at the placenta."
+    },
+    {
+      "id": "B3.1-050",
+      "level": "HL",
+      "statement": "B3.1.13",
+      "category": "B3.1 Gas exchange",
+      "scenario": "",
+      "stem": "The oxygen dissociation curve is a way of representing haemoglobin's:",
+      "options": [
+        { "letter": "A", "text": "Affinity for oxygen at different oxygen concentrations", "correct": true },
+        { "letter": "B", "text": "Carbon dioxide production", "correct": false },
+        { "letter": "C", "text": "Rate of denaturation", "correct": false },
+        { "letter": "D", "text": "Number of amino acids", "correct": false }
+      ],
+      "explanation": "The oxygen dissociation curve shows how haemoglobin's affinity for oxygen varies with oxygen concentration."
+    }
+  ]
+}

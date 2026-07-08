@@ -1,0 +1,760 @@
+{
+  "id": "B2.3",
+  "name": "Cell specialization",
+  "theme": "B",
+  "themeName": "Form and function",
+  "levelOfOrganization": "Cells",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "B2.3-001",
+      "level": "SL",
+      "statement": "B2.3.1",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "After fertilization, the first cells produced are:",
+      "options": [
+        { "letter": "A", "text": "Unspecialized", "correct": true },
+        { "letter": "B", "text": "Fully specialized neurons", "correct": false },
+        { "letter": "C", "text": "Red blood cells", "correct": false },
+        { "letter": "D", "text": "Muscle fibres", "correct": false }
+      ],
+      "explanation": "Fertilization produces unspecialized cells that later develop into specialized cells by differentiation."
+    },
+    {
+      "id": "B2.3-002",
+      "level": "SL",
+      "statement": "B2.3.1",
+      "category": "B2.3 Cell specialization",
+      "scenario": "In an early embryo, chemical gradients form.",
+      "stem": "What is the effect of these gradients?",
+      "options": [
+        { "letter": "A", "text": "They influence gene expression, guiding differentiation", "correct": true },
+        { "letter": "B", "text": "They stop all cell division", "correct": false },
+        { "letter": "C", "text": "They remove the genome", "correct": false },
+        { "letter": "D", "text": "They have no effect", "correct": false }
+      ],
+      "explanation": "Gradients in the early embryo affect gene expression, helping direct which cells become specialized in which ways."
+    },
+    {
+      "id": "B2.3-003",
+      "level": "SL",
+      "statement": "B2.3.2",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which two properties define stem cells?",
+      "options": [
+        { "letter": "A", "text": "The ability to divide endlessly and to differentiate", "correct": true },
+        { "letter": "B", "text": "The inability to divide", "correct": false },
+        { "letter": "C", "text": "Being fully specialized already", "correct": false },
+        { "letter": "D", "text": "Having no nucleus", "correct": false }
+      ],
+      "explanation": "Stem cells can divide endlessly and can differentiate along different pathways."
+    },
+    {
+      "id": "B2.3-004",
+      "level": "SL",
+      "statement": "B2.3.3",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which is an example of a stem cell niche in adult humans?",
+      "options": [
+        { "letter": "A", "text": "Bone marrow", "correct": true },
+        { "letter": "B", "text": "The lens of the eye", "correct": false },
+        { "letter": "C", "text": "A mature red blood cell", "correct": false },
+        { "letter": "D", "text": "Tooth enamel", "correct": false }
+      ],
+      "explanation": "Bone marrow and hair follicles are examples of stem cell niches in adult humans."
+    },
+    {
+      "id": "B2.3-005",
+      "level": "SL",
+      "statement": "B2.3.3",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "A stem cell niche can either maintain its cells or:",
+      "options": [
+        { "letter": "A", "text": "Promote their proliferation and differentiation", "correct": true },
+        { "letter": "B", "text": "Destroy them immediately", "correct": false },
+        { "letter": "C", "text": "Turn them into viruses", "correct": false },
+        { "letter": "D", "text": "Remove their genome", "correct": false }
+      ],
+      "explanation": "A stem cell niche can maintain the cells or promote their proliferation and differentiation."
+    },
+    {
+      "id": "B2.3-006",
+      "level": "SL",
+      "statement": "B2.3.4",
+      "category": "B2.3 Cell specialization",
+      "scenario": "Cells in a very early animal embryo can form any cell type of the body.",
+      "stem": "These cells are:",
+      "options": [
+        { "letter": "A", "text": "Totipotent", "correct": true },
+        { "letter": "B", "text": "Multipotent", "correct": false },
+        { "letter": "C", "text": "Fully differentiated", "correct": false },
+        { "letter": "D", "text": "Non-dividing", "correct": false }
+      ],
+      "explanation": "Cells in early-stage animal embryos are totipotent, able to form any cell type."
+    },
+    {
+      "id": "B2.3-007",
+      "level": "SL",
+      "statement": "B2.3.4",
+      "category": "B2.3 Cell specialization",
+      "scenario": "Stem cells in adult bone marrow can form several, but not all, cell types.",
+      "stem": "These cells are:",
+      "options": [
+        { "letter": "A", "text": "Multipotent", "correct": true },
+        { "letter": "B", "text": "Totipotent", "correct": false },
+        { "letter": "C", "text": "Pluripotent", "correct": false },
+        { "letter": "D", "text": "Non-potent", "correct": false }
+      ],
+      "explanation": "Adult tissue stem cells such as those in bone marrow are multipotent, forming a limited range of cell types."
+    },
+    {
+      "id": "B2.3-008",
+      "level": "SL",
+      "statement": "B2.3.4",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which is the correct order of decreasing potency?",
+      "options": [
+        { "letter": "A", "text": "Totipotent → pluripotent → multipotent", "correct": true },
+        { "letter": "B", "text": "Multipotent → pluripotent → totipotent", "correct": false },
+        { "letter": "C", "text": "Pluripotent → totipotent → multipotent", "correct": false },
+        { "letter": "D", "text": "Multipotent → totipotent → pluripotent", "correct": false }
+      ],
+      "explanation": "Early embryo cells are totipotent, soon becoming pluripotent, while adult stem cells are multipotent."
+    },
+    {
+      "id": "B2.3-009",
+      "level": "SL",
+      "statement": "B2.3.5",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Cell size varies with specialization. Which of these is among the largest human cells?",
+      "options": [
+        { "letter": "A", "text": "The egg cell (female gamete)", "correct": true },
+        { "letter": "B", "text": "A red blood cell", "correct": false },
+        { "letter": "C", "text": "The sperm cell", "correct": false },
+        { "letter": "D", "text": "A typical white blood cell", "correct": false }
+      ],
+      "explanation": "Cell size is an aspect of specialization; the egg cell is one of the largest human cells."
+    },
+    {
+      "id": "B2.3-010",
+      "level": "SL",
+      "statement": "B2.3.6",
+      "category": "B2.3 Cell specialization",
+      "scenario": "As a cell gets larger, its volume grows faster than its surface area.",
+      "stem": "What does this mean for its surface area-to-volume ratio?",
+      "options": [
+        { "letter": "A", "text": "The ratio decreases", "correct": true },
+        { "letter": "B", "text": "The ratio increases", "correct": false },
+        { "letter": "C", "text": "The ratio stays the same", "correct": false },
+        { "letter": "D", "text": "Surface area disappears", "correct": false }
+      ],
+      "explanation": "Volume increases faster than surface area, so the surface area-to-volume ratio decreases as a cell enlarges."
+    },
+    {
+      "id": "B2.3-011",
+      "level": "SL",
+      "statement": "B2.3.6",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Exchange of materials across a cell's surface depends on its surface area, while the need for exchange depends on its:",
+      "options": [
+        { "letter": "A", "text": "Volume", "correct": true },
+        { "letter": "B", "text": "Colour", "correct": false },
+        { "letter": "C", "text": "Age", "correct": false },
+        { "letter": "D", "text": "Number of genes", "correct": false }
+      ],
+      "explanation": "Exchange depends on surface area, but the need for exchange depends on volume, constraining cell size."
+    },
+    {
+      "id": "B2.3-012",
+      "level": "SL",
+      "statement": "B2.3.6",
+      "category": "B2.3 Cell specialization",
+      "scenario": "A cube model is used to show how surface area-to-volume ratio changes with size.",
+      "stem": "Why is a cube a useful model here?",
+      "options": [
+        { "letter": "A", "text": "Scale factors operate the same way as in real cells, though it is simpler", "correct": true },
+        { "letter": "B", "text": "Cells are actually cube-shaped", "correct": false },
+        { "letter": "C", "text": "It removes the need for calculation", "correct": false },
+        { "letter": "D", "text": "It has no surface area", "correct": false }
+      ],
+      "explanation": "Models are simplified versions of complex systems; a cube models surface-area-to-volume scaling despite being simpler than a cell."
+    },
+    {
+      "id": "B2.3-013",
+      "level": "SL",
+      "statement": "B2.3.2",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which best describes the differentiation ability of a stem cell?",
+      "options": [
+        { "letter": "A", "text": "It can develop along different pathways into specialized cells", "correct": true },
+        { "letter": "B", "text": "It can only ever become one fixed cell type from the start", "correct": false },
+        { "letter": "C", "text": "It cannot change at all", "correct": false },
+        { "letter": "D", "text": "It loses its genome when dividing", "correct": false }
+      ],
+      "explanation": "Stem cells can differentiate along different pathways, in addition to dividing endlessly."
+    },
+    {
+      "id": "B2.3-014",
+      "level": "SL",
+      "statement": "B2.3.1",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Differentiation is the process by which cells:",
+      "options": [
+        { "letter": "A", "text": "Become specialized for particular functions", "correct": true },
+        { "letter": "B", "text": "Lose all their DNA", "correct": false },
+        { "letter": "C", "text": "Divide without changing", "correct": false },
+        { "letter": "D", "text": "Turn into gametes only", "correct": false }
+      ],
+      "explanation": "Unspecialized cells develop into specialized cells through the process of differentiation."
+    },
+    {
+      "id": "B2.3-015",
+      "level": "SL",
+      "statement": "B2.3.5",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which human cell is specialized to be very small and lacks a nucleus when mature?",
+      "options": [
+        { "letter": "A", "text": "The red blood cell", "correct": true },
+        { "letter": "B", "text": "The egg cell", "correct": false },
+        { "letter": "C", "text": "The neuron", "correct": false },
+        { "letter": "D", "text": "A striated muscle fibre", "correct": false }
+      ],
+      "explanation": "Cell size reflects specialization; mature red blood cells are small and, in humans, lack a nucleus."
+    },
+    {
+      "id": "B2.3-016",
+      "level": "SL",
+      "statement": "B2.3.5",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Neurons can be very long cells. This length is an example of:",
+      "options": [
+        { "letter": "A", "text": "Specialization affecting cell size and shape", "correct": true },
+        { "letter": "B", "text": "A stem cell property", "correct": false },
+        { "letter": "C", "text": "A lack of differentiation", "correct": false },
+        { "letter": "D", "text": "Loss of function", "correct": false }
+      ],
+      "explanation": "The range of cell sizes, including long neurons, illustrates size as an aspect of specialization."
+    },
+    {
+      "id": "B2.3-017",
+      "level": "SL",
+      "statement": "B2.3.6",
+      "category": "B2.3 Cell specialization",
+      "scenario": "A very large cell struggles to exchange enough materials with its environment.",
+      "stem": "Why?",
+      "options": [
+        { "letter": "A", "text": "Its surface area is too small relative to its volume", "correct": true },
+        { "letter": "B", "text": "Its surface area is too large", "correct": false },
+        { "letter": "C", "text": "It has no need for exchange", "correct": false },
+        { "letter": "D", "text": "Its volume is too small", "correct": false }
+      ],
+      "explanation": "As cells enlarge, the falling surface area-to-volume ratio limits exchange, constraining cell size."
+    },
+    {
+      "id": "B2.3-018",
+      "level": "SL",
+      "statement": "B2.3.3",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which is a second example of a stem cell niche in adult humans?",
+      "options": [
+        { "letter": "A", "text": "Hair follicles", "correct": true },
+        { "letter": "B", "text": "Tooth enamel", "correct": false },
+        { "letter": "C", "text": "The cornea's outermost dead layer", "correct": false },
+        { "letter": "D", "text": "A mature neuron", "correct": false }
+      ],
+      "explanation": "Bone marrow and hair follicles are the suggested examples of adult stem cell niches."
+    },
+    {
+      "id": "B2.3-019",
+      "level": "SL",
+      "statement": "B2.3.4",
+      "category": "B2.3 Cell specialization",
+      "scenario": "Cells in an early embryo soon lose totipotency but can still form most body cell types.",
+      "stem": "These cells are now:",
+      "options": [
+        { "letter": "A", "text": "Pluripotent", "correct": true },
+        { "letter": "B", "text": "Totipotent", "correct": false },
+        { "letter": "C", "text": "Multipotent", "correct": false },
+        { "letter": "D", "text": "Fully specialized", "correct": false }
+      ],
+      "explanation": "Early embryo cells are totipotent but soon become pluripotent."
+    },
+    {
+      "id": "B2.3-020",
+      "level": "SL",
+      "statement": "B2.3.1",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which sequence correctly describes early development?",
+      "options": [
+        { "letter": "A", "text": "Fertilization → unspecialized cells → differentiation → specialized cells", "correct": true },
+        { "letter": "B", "text": "Fertilization → specialized cells → unspecialized cells", "correct": false },
+        { "letter": "C", "text": "Specialized cells → fertilization → stem cells", "correct": false },
+        { "letter": "D", "text": "Differentiation → fertilization → unspecialized cells", "correct": false }
+      ],
+      "explanation": "Fertilization produces unspecialized cells, which differentiate into specialized cells."
+    },
+    {
+      "id": "B2.3-021",
+      "level": "SL",
+      "statement": "B2.3.2",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Why are stem cells valuable in medicine and development?",
+      "options": [
+        { "letter": "A", "text": "They can both self-renew and differentiate into needed cell types", "correct": true },
+        { "letter": "B", "text": "They cannot divide", "correct": false },
+        { "letter": "C", "text": "They are already fully specialized", "correct": false },
+        { "letter": "D", "text": "They lack DNA", "correct": false }
+      ],
+      "explanation": "Stem cells' ability to divide endlessly and differentiate makes them valuable for replacing specialized cells."
+    },
+    {
+      "id": "B2.3-022",
+      "level": "SL",
+      "statement": "B2.3.6",
+      "category": "B2.3 Cell specialization",
+      "scenario": "A cube has sides of 2 units.",
+      "stem": "Compared with a cube of side 1 unit, its surface area-to-volume ratio is:",
+      "options": [
+        { "letter": "A", "text": "Smaller", "correct": true },
+        { "letter": "B", "text": "Larger", "correct": false },
+        { "letter": "C", "text": "The same", "correct": false },
+        { "letter": "D", "text": "Zero", "correct": false }
+      ],
+      "explanation": "Larger cubes have smaller surface area-to-volume ratios, modelling why large cells exchange materials less efficiently."
+    },
+    {
+      "id": "B2.3-023",
+      "level": "SL",
+      "statement": "B2.3.5",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "The wide range of cell sizes in humans, from tiny sperm to long muscle fibres, reflects:",
+      "options": [
+        { "letter": "A", "text": "Their specialization for different functions", "correct": true },
+        { "letter": "B", "text": "That all cells are the same", "correct": false },
+        { "letter": "C", "text": "A lack of differentiation", "correct": false },
+        { "letter": "D", "text": "That size is random", "correct": false }
+      ],
+      "explanation": "Differences in cell size are part of how cells are specialized for their particular functions."
+    },
+    {
+      "id": "B2.3-024",
+      "level": "SL",
+      "statement": "B2.3.3",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "The location where stem cells are maintained in the body is called a:",
+      "options": [
+        { "letter": "A", "text": "Stem cell niche", "correct": true },
+        { "letter": "B", "text": "Vesicle", "correct": false },
+        { "letter": "C", "text": "Cristae", "correct": false },
+        { "letter": "D", "text": "Clade", "correct": false }
+      ],
+      "explanation": "A stem cell niche is the location that maintains stem cells or promotes their proliferation and differentiation."
+    },
+    {
+      "id": "B2.3-025",
+      "level": "SL",
+      "statement": "B2.3.4",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "A totipotent cell differs from a multipotent cell in that a totipotent cell can form:",
+      "options": [
+        { "letter": "A", "text": "A wider range of cell types", "correct": true },
+        { "letter": "B", "text": "Fewer cell types", "correct": false },
+        { "letter": "C", "text": "No cell types", "correct": false },
+        { "letter": "D", "text": "Only muscle cells", "correct": false }
+      ],
+      "explanation": "Totipotent cells can form all cell types, whereas multipotent cells form only a limited range."
+    },
+    {
+      "id": "B2.3-026",
+      "level": "SL",
+      "statement": "B2.3.1",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Gradients of signalling molecules in an embryo lead to differentiation by:",
+      "options": [
+        { "letter": "A", "text": "Switching different genes on or off in different cells", "correct": true },
+        { "letter": "B", "text": "Deleting genes permanently", "correct": false },
+        { "letter": "C", "text": "Giving each cell different DNA", "correct": false },
+        { "letter": "D", "text": "Removing the nucleus", "correct": false }
+      ],
+      "explanation": "Gradients influence gene expression, switching genes on or off, so cells differentiate differently."
+    },
+    {
+      "id": "B2.3-027",
+      "level": "SL",
+      "statement": "B2.3.6",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which mathematical relationship constrains how large a single cell can be?",
+      "options": [
+        { "letter": "A", "text": "The surface area-to-volume ratio", "correct": true },
+        { "letter": "B", "text": "The number of chromosomes", "correct": false },
+        { "letter": "C", "text": "The pH of the cytoplasm", "correct": false },
+        { "letter": "D", "text": "The colour of the cell", "correct": false }
+      ],
+      "explanation": "The surface area-to-volume ratio limits cell size because exchange depends on area while need depends on volume."
+    },
+    {
+      "id": "B2.3-028",
+      "level": "SL",
+      "statement": "B2.3.2",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which is NOT a property of stem cells?",
+      "options": [
+        { "letter": "A", "text": "Being fully specialized and unable to change", "correct": true },
+        { "letter": "B", "text": "The capacity to divide endlessly", "correct": false },
+        { "letter": "C", "text": "The ability to differentiate", "correct": false },
+        { "letter": "D", "text": "Self-renewal", "correct": false }
+      ],
+      "explanation": "Stem cells are defined by endless division and the ability to differentiate; they are not already fully specialized."
+    },
+    {
+      "id": "B2.3-029",
+      "level": "SL",
+      "statement": "B2.3.5",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Comparing a sperm cell and an egg cell in humans shows that:",
+      "options": [
+        { "letter": "A", "text": "Gametes can differ greatly in size", "correct": true },
+        { "letter": "B", "text": "All gametes are the same size", "correct": false },
+        { "letter": "C", "text": "Gametes have no specialization", "correct": false },
+        { "letter": "D", "text": "Sperm are larger than eggs", "correct": false }
+      ],
+      "explanation": "Male and female gametes illustrate the range of cell size that comes with specialization."
+    },
+    {
+      "id": "B2.3-030",
+      "level": "SL",
+      "statement": "B2.3.4",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which statement about potency is correct?",
+      "options": [
+        { "letter": "A", "text": "Adult bone marrow stem cells are multipotent", "correct": true },
+        { "letter": "B", "text": "Adult bone marrow stem cells are totipotent", "correct": false },
+        { "letter": "C", "text": "All adult stem cells are pluripotent", "correct": false },
+        { "letter": "D", "text": "Embryo cells are always multipotent", "correct": false }
+      ],
+      "explanation": "Adult tissue stem cells such as those in bone marrow are multipotent, unlike the totipotent/pluripotent embryo cells."
+    },
+    {
+      "id": "B2.3-031",
+      "level": "SL",
+      "statement": "B2.3.6",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "A model such as a cube is described as a simplified version of a complex system. This is because models:",
+      "options": [
+        { "letter": "A", "text": "Represent the key features while leaving out complexity", "correct": true },
+        { "letter": "B", "text": "Are always more complex than reality", "correct": false },
+        { "letter": "C", "text": "Cannot be used in science", "correct": false },
+        { "letter": "D", "text": "Must match reality exactly", "correct": false }
+      ],
+      "explanation": "Models simplify complex systems while still capturing key relationships, such as surface-area-to-volume scaling."
+    },
+    {
+      "id": "B2.3-032",
+      "level": "SL",
+      "statement": "B2.3.1",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "All specialized cells in one organism generally contain:",
+      "options": [
+        { "letter": "A", "text": "The same genes, expressed differently", "correct": true },
+        { "letter": "B", "text": "Completely different genes", "correct": false },
+        { "letter": "C", "text": "No genes", "correct": false },
+        { "letter": "D", "text": "Genes from another organism", "correct": false }
+      ],
+      "explanation": "Differentiation arises from differential gene expression, not from cells having different genes."
+    },
+    {
+      "id": "B2.3-033",
+      "level": "SL",
+      "statement": "B2.3.2",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which property allows a stem cell population to be maintained over time?",
+      "options": [
+        { "letter": "A", "text": "Endless (self-renewing) division", "correct": true },
+        { "letter": "B", "text": "Immediate death after one division", "correct": false },
+        { "letter": "C", "text": "Full specialization", "correct": false },
+        { "letter": "D", "text": "Loss of the nucleus", "correct": false }
+      ],
+      "explanation": "The capacity to divide endlessly (self-renew) maintains the stem cell population."
+    },
+    {
+      "id": "B2.3-034",
+      "level": "SL",
+      "statement": "B2.3.5",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Striated muscle fibres are notable for being:",
+      "options": [
+        { "letter": "A", "text": "Large and elongated", "correct": true },
+        { "letter": "B", "text": "The smallest human cells", "correct": false },
+        { "letter": "C", "text": "Without any cytoplasm", "correct": false },
+        { "letter": "D", "text": "Identical to red blood cells", "correct": false }
+      ],
+      "explanation": "Striated muscle fibres are among the larger, elongated cells, illustrating size as specialization."
+    },
+    {
+      "id": "B2.3-035",
+      "level": "HL",
+      "statement": "B2.3.7",
+      "category": "B2.3 Cell specialization",
+      "scenario": "A cell needs a high rate of exchange with its surroundings.",
+      "stem": "Which adaptation increases its surface area-to-volume ratio?",
+      "options": [
+        { "letter": "A", "text": "Microvilli", "correct": true },
+        { "letter": "B", "text": "Becoming spherical", "correct": false },
+        { "letter": "C", "text": "Thickening its walls", "correct": false },
+        { "letter": "D", "text": "Losing its membrane", "correct": false }
+      ],
+      "explanation": "Adaptations such as flattening, microvilli and invagination increase the surface area-to-volume ratio for exchange."
+    },
+    {
+      "id": "B2.3-036",
+      "level": "HL",
+      "statement": "B2.3.7",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Proximal convoluted tubule cells in the nephron have many microvilli. This adaptation:",
+      "options": [
+        { "letter": "A", "text": "Increases surface area for reabsorption", "correct": true },
+        { "letter": "B", "text": "Reduces surface area", "correct": false },
+        { "letter": "C", "text": "Stops all exchange", "correct": false },
+        { "letter": "D", "text": "Removes the need for transport proteins", "correct": false }
+      ],
+      "explanation": "Microvilli on proximal convoluted tubule cells increase surface area, aiding reabsorption in the nephron."
+    },
+    {
+      "id": "B2.3-037",
+      "level": "HL",
+      "statement": "B2.3.7",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "The flattened, biconcave shape of an erythrocyte is an adaptation that:",
+      "options": [
+        { "letter": "A", "text": "Increases its surface area-to-volume ratio for gas exchange", "correct": true },
+        { "letter": "B", "text": "Decreases its surface area", "correct": false },
+        { "letter": "C", "text": "Adds a nucleus", "correct": false },
+        { "letter": "D", "text": "Prevents oxygen transport", "correct": false }
+      ],
+      "explanation": "Flattening of erythrocytes increases the surface area-to-volume ratio, improving gas exchange."
+    },
+    {
+      "id": "B2.3-038",
+      "level": "HL",
+      "statement": "B2.3.8",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Type I pneumocytes in the alveoli are adapted for gas exchange by being:",
+      "options": [
+        { "letter": "A", "text": "Extremely thin, reducing diffusion distance", "correct": true },
+        { "letter": "B", "text": "Very thick and multilayered", "correct": false },
+        { "letter": "C", "text": "Full of secretory vesicles", "correct": false },
+        { "letter": "D", "text": "Without any membrane", "correct": false }
+      ],
+      "explanation": "Type I pneumocytes are extremely thin to reduce the distance over which gases diffuse."
+    },
+    {
+      "id": "B2.3-039",
+      "level": "HL",
+      "statement": "B2.3.8",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Type II pneumocytes are adapted to:",
+      "options": [
+        { "letter": "A", "text": "Secrete surfactant into the alveolar lumen", "correct": true },
+        { "letter": "B", "text": "Be extremely thin for diffusion", "correct": false },
+        { "letter": "C", "text": "Pump blood", "correct": false },
+        { "letter": "D", "text": "Carry out photosynthesis", "correct": false }
+      ],
+      "explanation": "Type II pneumocytes contain many lamellar bodies (secretory vesicles) that discharge surfactant into the alveolus."
+    },
+    {
+      "id": "B2.3-040",
+      "level": "HL",
+      "statement": "B2.3.8",
+      "category": "B2.3 Cell specialization",
+      "scenario": "The alveolar epithelium contains both type I and type II pneumocytes.",
+      "stem": "This shows that a tissue may:",
+      "options": [
+        { "letter": "A", "text": "Contain more than one cell type for its overall function", "correct": true },
+        { "letter": "B", "text": "Only ever contain one cell type", "correct": false },
+        { "letter": "C", "text": "Have no specialized cells", "correct": false },
+        { "letter": "D", "text": "Be made of a single cell", "correct": false }
+      ],
+      "explanation": "Alveolar epithelium shows that different adaptations (thin cells and surfactant-secreting cells) can combine in one tissue."
+    },
+    {
+      "id": "B2.3-041",
+      "level": "HL",
+      "statement": "B2.3.9",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Both cardiac muscle cells and striated muscle fibres contain:",
+      "options": [
+        { "letter": "A", "text": "Contractile myofibrils", "correct": true },
+        { "letter": "B", "text": "Chloroplasts", "correct": false },
+        { "letter": "C", "text": "Cellulose walls", "correct": false },
+        { "letter": "D", "text": "No cytoplasm", "correct": false }
+      ],
+      "explanation": "Both cardiac muscle cells and striated muscle fibres contain contractile myofibrils."
+    },
+    {
+      "id": "B2.3-042",
+      "level": "HL",
+      "statement": "B2.3.9",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "A difference between cardiac muscle cells and striated (skeletal) muscle fibres is:",
+      "options": [
+        { "letter": "A", "text": "Cardiac cells are branched; skeletal fibres are unbranched", "correct": true },
+        { "letter": "B", "text": "Only cardiac cells contain myofibrils", "correct": false },
+        { "letter": "C", "text": "Skeletal fibres have no nuclei", "correct": false },
+        { "letter": "D", "text": "Cardiac cells contain chloroplasts", "correct": false }
+      ],
+      "explanation": "Cardiac muscle cells are branched, while skeletal muscle fibres are unbranched; they also differ in length and nuclei number."
+    },
+    {
+      "id": "B2.3-043",
+      "level": "HL",
+      "statement": "B2.3.9",
+      "category": "B2.3 Cell specialization",
+      "scenario": "A striated muscle fibre is very long and contains many nuclei.",
+      "stem": "This raises the question of:",
+      "options": [
+        { "letter": "A", "text": "Whether a striated muscle fibre should be regarded as a single cell", "correct": true },
+        { "letter": "B", "text": "Whether it contains DNA", "correct": false },
+        { "letter": "C", "text": "Whether it can contract", "correct": false },
+        { "letter": "D", "text": "Whether it is a plant cell", "correct": false }
+      ],
+      "explanation": "Because striated muscle fibres are large and multinucleate, there is discussion about whether a fibre is truly a single cell."
+    },
+    {
+      "id": "B2.3-044",
+      "level": "HL",
+      "statement": "B2.3.10",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "A human sperm cell is specialized for its function by having:",
+      "options": [
+        { "letter": "A", "text": "A flagellum for swimming and many mitochondria", "correct": true },
+        { "letter": "B", "text": "A large food store and no movement", "correct": false },
+        { "letter": "C", "text": "Chloroplasts", "correct": false },
+        { "letter": "D", "text": "A thick cellulose wall", "correct": false }
+      ],
+      "explanation": "Sperm are adapted with a flagellum for movement and mitochondria to power swimming."
+    },
+    {
+      "id": "B2.3-045",
+      "level": "HL",
+      "statement": "B2.3.10",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "A human egg cell is adapted to its function by:",
+      "options": [
+        { "letter": "A", "text": "Being large with food reserves for the early embryo", "correct": true },
+        { "letter": "B", "text": "Having a flagellum for rapid swimming", "correct": false },
+        { "letter": "C", "text": "Containing chloroplasts", "correct": false },
+        { "letter": "D", "text": "Lacking any cytoplasm", "correct": false }
+      ],
+      "explanation": "The egg cell is large and stores nutrients to support the early development of the embryo."
+    },
+    {
+      "id": "B2.3-046",
+      "level": "HL",
+      "statement": "B2.3.7",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which set of features all increase a cell's surface area-to-volume ratio?",
+      "options": [
+        { "letter": "A", "text": "Flattening, microvilli and invagination", "correct": true },
+        { "letter": "B", "text": "Becoming spherical and thickening", "correct": false },
+        { "letter": "C", "text": "Losing the membrane and enlarging", "correct": false },
+        { "letter": "D", "text": "Gaining chloroplasts", "correct": false }
+      ],
+      "explanation": "Flattening, microvilli and invagination are adaptations that raise the surface area-to-volume ratio."
+    },
+    {
+      "id": "B2.3-047",
+      "level": "HL",
+      "statement": "B2.3.8",
+      "category": "B2.3 Cell specialization",
+      "scenario": "Surfactant reduces surface tension in the alveoli.",
+      "stem": "Which cell type produces it?",
+      "options": [
+        { "letter": "A", "text": "Type II pneumocytes", "correct": true },
+        { "letter": "B", "text": "Type I pneumocytes", "correct": false },
+        { "letter": "C", "text": "Red blood cells", "correct": false },
+        { "letter": "D", "text": "Cardiac muscle cells", "correct": false }
+      ],
+      "explanation": "Type II pneumocytes discharge surfactant from lamellar bodies into the alveolar lumen."
+    },
+    {
+      "id": "B2.3-048",
+      "level": "HL",
+      "statement": "B2.3.9",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Which feature is used to compare cardiac and skeletal muscle?",
+      "options": [
+        { "letter": "A", "text": "Branching and the length and number of nuclei", "correct": true },
+        { "letter": "B", "text": "Presence of chlorophyll", "correct": false },
+        { "letter": "C", "text": "Whether they contain DNA", "correct": false },
+        { "letter": "D", "text": "The presence of a cell wall", "correct": false }
+      ],
+      "explanation": "Cardiac and skeletal muscle are compared by branching and by the length and number of nuclei, among other features."
+    },
+    {
+      "id": "B2.3-049",
+      "level": "HL",
+      "statement": "B2.3.7",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Adaptations that increase surface area are especially important in cells specialized for:",
+      "options": [
+        { "letter": "A", "text": "Absorption or exchange", "correct": true },
+        { "letter": "B", "text": "Storing the genome", "correct": false },
+        { "letter": "C", "text": "Contraction only", "correct": false },
+        { "letter": "D", "text": "Being as small as possible", "correct": false }
+      ],
+      "explanation": "Cells specialized for absorption or exchange, like tubule and alveolar cells, benefit from a larger surface area."
+    },
+    {
+      "id": "B2.3-050",
+      "level": "HL",
+      "statement": "B2.3.10",
+      "category": "B2.3 Cell specialization",
+      "scenario": "",
+      "stem": "Comparing sperm and egg cells shows that gametes are:",
+      "options": [
+        { "letter": "A", "text": "Each specialized for their distinct roles in reproduction", "correct": true },
+        { "letter": "B", "text": "Identical in structure", "correct": false },
+        { "letter": "C", "text": "Unspecialized stem cells", "correct": false },
+        { "letter": "D", "text": "Unable to function", "correct": false }
+      ],
+      "explanation": "Sperm (motile, mitochondria-rich) and eggs (large, nutrient-rich) are each specialized for their reproductive roles."
+    }
+  ]
+}

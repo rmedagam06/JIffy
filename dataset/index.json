@@ -87,6 +87,102 @@
           "HL": 0
         }
       ]
+    },
+    {
+      "theme": "B",
+      "themeName": "Form and function",
+      "subtopics": [
+        {
+          "id": "B1.1",
+          "name": "Carbohydrates and lipids",
+          "level": "SL/HL",
+          "file": "theme-b/B1.1-carbohydrates-and-lipids.json",
+          "count": 50,
+          "SL": 50,
+          "HL": 0
+        },
+        {
+          "id": "B1.2",
+          "name": "Proteins",
+          "level": "SL/HL",
+          "file": "theme-b/B1.2-proteins.json",
+          "count": 50,
+          "SL": 33,
+          "HL": 17
+        },
+        {
+          "id": "B2.1",
+          "name": "Membranes and membrane transport",
+          "level": "SL/HL",
+          "file": "theme-b/B2.1-membranes-and-membrane-transport.json",
+          "count": 50,
+          "SL": 34,
+          "HL": 16
+        },
+        {
+          "id": "B2.2",
+          "name": "Organelles and compartmentalization",
+          "level": "SL/HL",
+          "file": "theme-b/B2.2-organelles-and-compartmentalization.json",
+          "count": 50,
+          "SL": 25,
+          "HL": 25
+        },
+        {
+          "id": "B2.3",
+          "name": "Cell specialization",
+          "level": "SL/HL",
+          "file": "theme-b/B2.3-cell-specialization.json",
+          "count": 50,
+          "SL": 34,
+          "HL": 16
+        },
+        {
+          "id": "B3.1",
+          "name": "Gas exchange",
+          "level": "SL/HL",
+          "file": "theme-b/B3.1-gas-exchange.json",
+          "count": 50,
+          "SL": 40,
+          "HL": 10
+        },
+        {
+          "id": "B3.2",
+          "name": "Transport",
+          "level": "SL/HL",
+          "file": "theme-b/B3.2-transport.json",
+          "count": 50,
+          "SL": 34,
+          "HL": 16
+        },
+        {
+          "id": "B3.3",
+          "name": "Muscle and motility",
+          "level": "HL",
+          "file": "theme-b/B3.3-muscle-and-motility.json",
+          "count": 50,
+          "SL": 0,
+          "HL": 50
+        },
+        {
+          "id": "B4.1",
+          "name": "Adaptation to environment",
+          "level": "SL/HL",
+          "file": "theme-b/B4.1-adaptation-to-environment.json",
+          "count": 50,
+          "SL": 50,
+          "HL": 0
+        },
+        {
+          "id": "B4.2",
+          "name": "Ecological niches",
+          "level": "SL/HL",
+          "file": "theme-b/B4.2-ecological-niches.json",
+          "count": 50,
+          "SL": 50,
+          "HL": 0
+        }
+      ]
     }
   ]
 }

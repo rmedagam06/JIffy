@@ -1,0 +1,760 @@
+{
+  "id": "B4.2",
+  "name": "Ecological niches",
+  "theme": "B",
+  "themeName": "Form and function",
+  "levelOfOrganization": "Ecosystems",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "B4.2-001",
+      "level": "SL",
+      "statement": "B4.2.1",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "An ecological niche is best described as:",
+      "options": [
+        { "letter": "A", "text": "The role of a species in an ecosystem", "correct": true },
+        { "letter": "B", "text": "The place where a species lives", "correct": false },
+        { "letter": "C", "text": "The total number of species", "correct": false },
+        { "letter": "D", "text": "A single cell's function", "correct": false }
+      ],
+      "explanation": "An ecological niche is the role of a species in its ecosystem, including its biotic and abiotic interactions."
+    },
+    {
+      "id": "B4.2-002",
+      "level": "SL",
+      "statement": "B4.2.1",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "A species' niche includes interactions that influence its:",
+      "options": [
+        { "letter": "A", "text": "Growth, survival and reproduction", "correct": true },
+        { "letter": "B", "text": "DNA base sequence", "correct": false },
+        { "letter": "C", "text": "Chromosome number", "correct": false },
+        { "letter": "D", "text": "Molecular clock", "correct": false }
+      ],
+      "explanation": "The niche includes biotic and abiotic interactions that influence a species' growth, survival and reproduction, including how it obtains food."
+    },
+    {
+      "id": "B4.2-003",
+      "level": "SL",
+      "statement": "B4.2.2",
+      "category": "B4.2 Ecological niches",
+      "scenario": "An organism cannot survive in the presence of oxygen.",
+      "stem": "It is best described as an:",
+      "options": [
+        { "letter": "A", "text": "Obligate anaerobe", "correct": true },
+        { "letter": "B", "text": "Obligate aerobe", "correct": false },
+        { "letter": "C", "text": "Facultative anaerobe", "correct": false },
+        { "letter": "D", "text": "Autotroph", "correct": false }
+      ],
+      "explanation": "Obligate anaerobes cannot tolerate oxygen; obligate aerobes require it; facultative anaerobes can live with or without it."
+    },
+    {
+      "id": "B4.2-004",
+      "level": "SL",
+      "statement": "B4.2.2",
+      "category": "B4.2 Ecological niches",
+      "scenario": "An organism can live with or without oxygen.",
+      "stem": "It is a:",
+      "options": [
+        { "letter": "A", "text": "Facultative anaerobe", "correct": true },
+        { "letter": "B", "text": "Obligate aerobe", "correct": false },
+        { "letter": "C", "text": "Obligate anaerobe", "correct": false },
+        { "letter": "D", "text": "Saprotroph", "correct": false }
+      ],
+      "explanation": "Facultative anaerobes can survive with or without oxygen, unlike the obligate types."
+    },
+    {
+      "id": "B4.2-005",
+      "level": "SL",
+      "statement": "B4.2.2",
+      "category": "B4.2 Ecological niches",
+      "scenario": "An organism requires oxygen to survive.",
+      "stem": "It is an:",
+      "options": [
+        { "letter": "A", "text": "Obligate aerobe", "correct": true },
+        { "letter": "B", "text": "Obligate anaerobe", "correct": false },
+        { "letter": "C", "text": "Facultative anaerobe", "correct": false },
+        { "letter": "D", "text": "Mixotroph", "correct": false }
+      ],
+      "explanation": "Obligate aerobes require oxygen for their metabolism."
+    },
+    {
+      "id": "B4.2-006",
+      "level": "SL",
+      "statement": "B4.2.3",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Photosynthesis is the mode of nutrition in plants, algae and:",
+      "options": [
+        { "letter": "A", "text": "Several groups of photosynthetic prokaryotes", "correct": true },
+        { "letter": "B", "text": "All animals", "correct": false },
+        { "letter": "C", "text": "All fungi", "correct": false },
+        { "letter": "D", "text": "Viruses", "correct": false }
+      ],
+      "explanation": "Photosynthesis occurs in plants, algae and several groups of photosynthetic prokaryotes."
+    },
+    {
+      "id": "B4.2-007",
+      "level": "SL",
+      "statement": "B4.2.4",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "In holozoic nutrition, food is:",
+      "options": [
+        { "letter": "A", "text": "Ingested, digested internally, absorbed and assimilated", "correct": true },
+        { "letter": "B", "text": "Made from carbon dioxide and water", "correct": false },
+        { "letter": "C", "text": "Digested externally then absorbed", "correct": false },
+        { "letter": "D", "text": "Never taken in", "correct": false }
+      ],
+      "explanation": "In holozoic nutrition, seen in animals, food is ingested, digested internally, absorbed and assimilated."
+    },
+    {
+      "id": "B4.2-008",
+      "level": "SL",
+      "statement": "B4.2.4",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "All animals obtain their food by which broad mode of nutrition?",
+      "options": [
+        { "letter": "A", "text": "Heterotrophic", "correct": true },
+        { "letter": "B", "text": "Autotrophic", "correct": false },
+        { "letter": "C", "text": "Photosynthetic", "correct": false },
+        { "letter": "D", "text": "Chemosynthetic only", "correct": false }
+      ],
+      "explanation": "All animals are heterotrophic, obtaining organic food from other organisms; holozoic nutrition is one form of this."
+    },
+    {
+      "id": "B4.2-009",
+      "level": "SL",
+      "statement": "B4.2.5",
+      "category": "B4.2 Ecological niches",
+      "scenario": "Euglena can photosynthesize but also ingest food.",
+      "stem": "This mode of nutrition is:",
+      "options": [
+        { "letter": "A", "text": "Mixotrophic", "correct": true },
+        { "letter": "B", "text": "Only autotrophic", "correct": false },
+        { "letter": "C", "text": "Only heterotrophic", "correct": false },
+        { "letter": "D", "text": "Saprotrophic", "correct": false }
+      ],
+      "explanation": "Mixotrophs such as Euglena can be both autotrophic and heterotrophic."
+    },
+    {
+      "id": "B4.2-010",
+      "level": "SL",
+      "statement": "B4.2.5",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "A mixotroph that can switch between autotrophy and heterotrophy as needed is:",
+      "options": [
+        { "letter": "A", "text": "A facultative mixotroph", "correct": true },
+        { "letter": "B", "text": "An obligate aerobe", "correct": false },
+        { "letter": "C", "text": "A saprotroph", "correct": false },
+        { "letter": "D", "text": "An obligate anaerobe", "correct": false }
+      ],
+      "explanation": "Some mixotrophs are obligate and others are facultative, able to switch modes as conditions require."
+    },
+    {
+      "id": "B4.2-011",
+      "level": "SL",
+      "statement": "B4.2.6",
+      "category": "B4.2 Ecological niches",
+      "scenario": "Some fungi and bacteria feed on dead organic matter by secreting enzymes onto it.",
+      "stem": "This mode of nutrition is:",
+      "options": [
+        { "letter": "A", "text": "Saprotrophic", "correct": true },
+        { "letter": "B", "text": "Holozoic", "correct": false },
+        { "letter": "C", "text": "Photosynthetic", "correct": false },
+        { "letter": "D", "text": "Mixotrophic", "correct": false }
+      ],
+      "explanation": "Saprotrophic organisms digest dead matter externally and absorb the products; they are decomposers."
+    },
+    {
+      "id": "B4.2-012",
+      "level": "SL",
+      "statement": "B4.2.6",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Saprotrophic fungi and bacteria are also known as:",
+      "options": [
+        { "letter": "A", "text": "Decomposers", "correct": true },
+        { "letter": "B", "text": "Producers", "correct": false },
+        { "letter": "C", "text": "Primary consumers", "correct": false },
+        { "letter": "D", "text": "Autotrophs", "correct": false }
+      ],
+      "explanation": "Saprotrophs feeding on dead organic matter are referred to as decomposers."
+    },
+    {
+      "id": "B4.2-013",
+      "level": "SL",
+      "statement": "B4.2.7",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Archaea are described as being metabolically:",
+      "options": [
+        { "letter": "A", "text": "Very diverse", "correct": true },
+        { "letter": "B", "text": "All identical", "correct": false },
+        { "letter": "C", "text": "Unable to make ATP", "correct": false },
+        { "letter": "D", "text": "Only photosynthetic", "correct": false }
+      ],
+      "explanation": "Archaea, one of the three domains, are metabolically very diverse in how they obtain energy."
+    },
+    {
+      "id": "B4.2-014",
+      "level": "SL",
+      "statement": "B4.2.7",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Which energy source can archaea use for ATP production?",
+      "options": [
+        { "letter": "A", "text": "Light, oxidation of inorganic chemicals, or oxidation of carbon compounds", "correct": true },
+        { "letter": "B", "text": "Only sunlight", "correct": false },
+        { "letter": "C", "text": "Only glucose", "correct": false },
+        { "letter": "D", "text": "None; archaea do not make ATP", "correct": false }
+      ],
+      "explanation": "Archaea use light, oxidation of inorganic chemicals, or oxidation of carbon compounds to provide energy for ATP production."
+    },
+    {
+      "id": "B4.2-015",
+      "level": "SL",
+      "statement": "B4.2.8",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A skull has flat, broad molars and few sharp teeth.",
+      "stem": "This dentition suggests a diet that is largely:",
+      "options": [
+        { "letter": "A", "text": "Herbivorous", "correct": true },
+        { "letter": "B", "text": "Purely carnivorous", "correct": false },
+        { "letter": "C", "text": "Non-existent", "correct": false },
+        { "letter": "D", "text": "Photosynthetic", "correct": false }
+      ],
+      "explanation": "Broad, flat molars are adapted for grinding plant material, suggesting a herbivorous diet."
+    },
+    {
+      "id": "B4.2-016",
+      "level": "SL",
+      "statement": "B4.2.8",
+      "category": "B4.2 Ecological niches",
+      "scenario": "Scientists infer the diet of an extinct hominid from its teeth.",
+      "stem": "This is possible because theories relating dentition to diet allow:",
+      "options": [
+        { "letter": "A", "text": "Deductions about the diet of extinct organisms", "correct": true },
+        { "letter": "B", "text": "No conclusions to be drawn", "correct": false },
+        { "letter": "C", "text": "Direct observation of the extinct animal feeding", "correct": false },
+        { "letter": "D", "text": "The genome to be read from teeth", "correct": false }
+      ],
+      "explanation": "Theories linking dentition to diet in living mammals allow the diet of extinct organisms to be deduced from their teeth."
+    },
+    {
+      "id": "B4.2-017",
+      "level": "SL",
+      "statement": "B4.2.9",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A plant produces toxic compounds in its leaves.",
+      "stem": "This is an adaptation for:",
+      "options": [
+        { "letter": "A", "text": "Resisting herbivory", "correct": true },
+        { "letter": "B", "text": "Attracting herbivores", "correct": false },
+        { "letter": "C", "text": "Photosynthesizing faster", "correct": false },
+        { "letter": "D", "text": "Absorbing water", "correct": false }
+      ],
+      "explanation": "Producing toxic secondary compounds is a way plants resist herbivory; thorns are a physical example."
+    },
+    {
+      "id": "B4.2-018",
+      "level": "SL",
+      "statement": "B4.2.9",
+      "category": "B4.2 Ecological niches",
+      "scenario": "Some insects have piercing and chewing mouthparts.",
+      "stem": "These are adaptations for:",
+      "options": [
+        { "letter": "A", "text": "Feeding on plants (herbivory)", "correct": true },
+        { "letter": "B", "text": "Photosynthesis", "correct": false },
+        { "letter": "C", "text": "Resisting predators only", "correct": false },
+        { "letter": "D", "text": "Swimming", "correct": false }
+      ],
+      "explanation": "Piercing and chewing mouthparts are herbivore adaptations for feeding on plant material such as leaves."
+    },
+    {
+      "id": "B4.2-019",
+      "level": "SL",
+      "statement": "B4.2.9",
+      "category": "B4.2 Ecological niches",
+      "scenario": "An animal has enzymes that break down a plant toxin.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "A metabolic adaptation for detoxifying plant defences", "correct": true },
+        { "letter": "B", "text": "A plant adaptation", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "A physical predator defence", "correct": false }
+      ],
+      "explanation": "Some herbivores have metabolic adaptations for detoxifying the toxic secondary compounds produced by plants."
+    },
+    {
+      "id": "B4.2-020",
+      "level": "SL",
+      "statement": "B4.2.10",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A predator has sharp claws and excellent night vision.",
+      "stem": "These are adaptations for:",
+      "options": [
+        { "letter": "A", "text": "Finding, catching and killing prey", "correct": true },
+        { "letter": "B", "text": "Resisting predation", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "Herbivory", "correct": false }
+      ],
+      "explanation": "Predators have chemical, physical and behavioural adaptations for finding, catching and killing prey."
+    },
+    {
+      "id": "B4.2-021",
+      "level": "SL",
+      "statement": "B4.2.10",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A prey animal freezes and blends into its background when a predator is near.",
+      "stem": "This is an example of a:",
+      "options": [
+        { "letter": "A", "text": "Behavioural/physical adaptation for resisting predation", "correct": true },
+        { "letter": "B", "text": "Predator adaptation", "correct": false },
+        { "letter": "C", "text": "Plant defence", "correct": false },
+        { "letter": "D", "text": "Mode of nutrition", "correct": false }
+      ],
+      "explanation": "Camouflage and freezing are behavioural and physical adaptations that help prey resist predation."
+    },
+    {
+      "id": "B4.2-022",
+      "level": "SL",
+      "statement": "B4.2.11",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A liana climbs up tree trunks to reach sunlight in a forest.",
+      "stem": "This is an adaptation of plant form for:",
+      "options": [
+        { "letter": "A", "text": "Harvesting light", "correct": true },
+        { "letter": "B", "text": "Resisting herbivory", "correct": false },
+        { "letter": "C", "text": "Gas exchange only", "correct": false },
+        { "letter": "D", "text": "Nitrogen fixation", "correct": false }
+      ],
+      "explanation": "Lianas, like canopy trees and epiphytes, are adaptations of plant form for harvesting light in forests."
+    },
+    {
+      "id": "B4.2-023",
+      "level": "SL",
+      "statement": "B4.2.11",
+      "category": "B4.2 Ecological niches",
+      "scenario": "An epiphyte grows on the branches of a tall tree.",
+      "stem": "How does this help the epiphyte?",
+      "options": [
+        { "letter": "A", "text": "It reaches light higher in the forest", "correct": true },
+        { "letter": "B", "text": "It avoids all light", "correct": false },
+        { "letter": "C", "text": "It becomes a predator", "correct": false },
+        { "letter": "D", "text": "It fixes nitrogen for the tree", "correct": false }
+      ],
+      "explanation": "Epiphytes grow on tree branches to reach light, one of several strategies plants use to harvest light in forests."
+    },
+    {
+      "id": "B4.2-024",
+      "level": "SL",
+      "statement": "B4.2.12",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "The fundamental niche of a species is:",
+      "options": [
+        { "letter": "A", "text": "Its potential niche based on adaptations and tolerance limits", "correct": true },
+        { "letter": "B", "text": "Its actual niche when competing with others", "correct": false },
+        { "letter": "C", "text": "The place it lives", "correct": false },
+        { "letter": "D", "text": "Its number of chromosomes", "correct": false }
+      ],
+      "explanation": "The fundamental niche is a species' potential niche given its adaptations and tolerance limits, in the absence of competition."
+    },
+    {
+      "id": "B4.2-025",
+      "level": "SL",
+      "statement": "B4.2.12",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "The realized niche of a species is:",
+      "options": [
+        { "letter": "A", "text": "The actual niche it occupies when competing with other species", "correct": true },
+        { "letter": "B", "text": "Its full potential niche with no competition", "correct": false },
+        { "letter": "C", "text": "Its habitat only", "correct": false },
+        { "letter": "D", "text": "The same as its genome", "correct": false }
+      ],
+      "explanation": "The realized niche is the actual extent of the niche when the species is in competition with others, usually smaller than the fundamental niche."
+    },
+    {
+      "id": "B4.2-026",
+      "level": "SL",
+      "statement": "B4.2.13",
+      "category": "B4.2 Ecological niches",
+      "scenario": "Two species compete for exactly the same resources in the same place.",
+      "stem": "According to the competitive exclusion principle, a likely outcome is:",
+      "options": [
+        { "letter": "A", "text": "One species is eliminated or both are restricted to part of their niche", "correct": true },
+        { "letter": "B", "text": "Both occupy the identical niche indefinitely", "correct": false },
+        { "letter": "C", "text": "They merge into one species", "correct": false },
+        { "letter": "D", "text": "Neither is affected", "correct": false }
+      ],
+      "explanation": "Competitive exclusion means two species cannot occupy the same niche; one is eliminated or both are restricted to part of their fundamental niche."
+    },
+    {
+      "id": "B4.2-027",
+      "level": "SL",
+      "statement": "B4.2.13",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "The competitive exclusion principle implies that ecological niches are:",
+      "options": [
+        { "letter": "A", "text": "Unique to each species", "correct": true },
+        { "letter": "B", "text": "Shared identically by many species", "correct": false },
+        { "letter": "C", "text": "Unimportant", "correct": false },
+        { "letter": "D", "text": "Determined only by genome size", "correct": false }
+      ],
+      "explanation": "Because two species cannot coexist in exactly the same niche, each species' niche is effectively unique."
+    },
+    {
+      "id": "B4.2-028",
+      "level": "SL",
+      "statement": "B4.2.1",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "How a species obtains its food is part of its:",
+      "options": [
+        { "letter": "A", "text": "Ecological niche", "correct": true },
+        { "letter": "B", "text": "Habitat only", "correct": false },
+        { "letter": "C", "text": "Karyotype", "correct": false },
+        { "letter": "D", "text": "Cladogram", "correct": false }
+      ],
+      "explanation": "The niche includes how a species obtains food, among its biotic and abiotic interactions."
+    },
+    {
+      "id": "B4.2-029",
+      "level": "SL",
+      "statement": "B4.2.2",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "The three groups obligate anaerobe, facultative anaerobe and obligate aerobe differ in their:",
+      "options": [
+        { "letter": "A", "text": "Tolerance of oxygen", "correct": true },
+        { "letter": "B", "text": "Number of chromosomes", "correct": false },
+        { "letter": "C", "text": "Mode of movement", "correct": false },
+        { "letter": "D", "text": "Cell wall composition", "correct": false }
+      ],
+      "explanation": "These groups are distinguished by their tolerance of the presence or absence of oxygen in the environment."
+    },
+    {
+      "id": "B4.2-030",
+      "level": "SL",
+      "statement": "B4.2.3",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Organisms that make their own food from inorganic sources by photosynthesis are:",
+      "options": [
+        { "letter": "A", "text": "Autotrophs", "correct": true },
+        { "letter": "B", "text": "Heterotrophs", "correct": false },
+        { "letter": "C", "text": "Saprotrophs", "correct": false },
+        { "letter": "D", "text": "Obligate anaerobes", "correct": false }
+      ],
+      "explanation": "Photosynthetic organisms are autotrophs, making organic food from inorganic sources using light."
+    },
+    {
+      "id": "B4.2-031",
+      "level": "SL",
+      "statement": "B4.2.6",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "In saprotrophic nutrition, digestion occurs:",
+      "options": [
+        { "letter": "A", "text": "Externally, before absorption", "correct": true },
+        { "letter": "B", "text": "Internally, after ingestion", "correct": false },
+        { "letter": "C", "text": "Not at all", "correct": false },
+        { "letter": "D", "text": "Only using light", "correct": false }
+      ],
+      "explanation": "Saprotrophs secrete enzymes to digest dead matter externally, then absorb the products; this contrasts with holozoic nutrition."
+    },
+    {
+      "id": "B4.2-032",
+      "level": "SL",
+      "statement": "B4.2.4",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Which sequence correctly describes holozoic nutrition?",
+      "options": [
+        { "letter": "A", "text": "Ingestion → digestion → absorption → assimilation", "correct": true },
+        { "letter": "B", "text": "Absorption → ingestion → digestion", "correct": false },
+        { "letter": "C", "text": "Photosynthesis → ingestion", "correct": false },
+        { "letter": "D", "text": "External digestion → absorption", "correct": false }
+      ],
+      "explanation": "Holozoic nutrition proceeds by ingestion, internal digestion, absorption and assimilation."
+    },
+    {
+      "id": "B4.2-033",
+      "level": "SL",
+      "statement": "B4.2.7",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Archaea are one of the three:",
+      "options": [
+        { "letter": "A", "text": "Domains of life", "correct": true },
+        { "letter": "B", "text": "Kingdoms of animals", "correct": false },
+        { "letter": "C", "text": "Types of tissue", "correct": false },
+        { "letter": "D", "text": "Stages of mitosis", "correct": false }
+      ],
+      "explanation": "Archaea are one of the three domains of life (with Bacteria and Eukaryota) and are metabolically very diverse."
+    },
+    {
+      "id": "B4.2-034",
+      "level": "SL",
+      "statement": "B4.2.8",
+      "category": "B4.2 Ecological niches",
+      "scenario": "The family Hominidae includes omnivorous and herbivorous members.",
+      "stem": "Studying their dentition allows inferences about their:",
+      "options": [
+        { "letter": "A", "text": "Diet", "correct": true },
+        { "letter": "B", "text": "Genome size", "correct": false },
+        { "letter": "C", "text": "Habitat location only", "correct": false },
+        { "letter": "D", "text": "Number of offspring", "correct": false }
+      ],
+      "explanation": "Dentition is related to diet, so examining teeth in Hominidae allows diet to be inferred."
+    },
+    {
+      "id": "B4.2-035",
+      "level": "SL",
+      "statement": "B4.2.9",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A plant has sharp thorns along its stems.",
+      "stem": "These thorns are a:",
+      "options": [
+        { "letter": "A", "text": "Physical adaptation for resisting herbivory", "correct": true },
+        { "letter": "B", "text": "Predator adaptation", "correct": false },
+        { "letter": "C", "text": "Mode of nutrition", "correct": false },
+        { "letter": "D", "text": "Light-harvesting structure", "correct": false }
+      ],
+      "explanation": "Thorns are a physical structure by which plants resist herbivory."
+    },
+    {
+      "id": "B4.2-036",
+      "level": "SL",
+      "statement": "B4.2.10",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A prey species produces a foul-tasting chemical.",
+      "stem": "This is an example of a:",
+      "options": [
+        { "letter": "A", "text": "Chemical adaptation for resisting predation", "correct": true },
+        { "letter": "B", "text": "Physical predator adaptation", "correct": false },
+        { "letter": "C", "text": "Light-harvesting adaptation", "correct": false },
+        { "letter": "D", "text": "Mode of nutrition", "correct": false }
+      ],
+      "explanation": "Producing distasteful chemicals is a chemical adaptation by which prey resist predation."
+    },
+    {
+      "id": "B4.2-037",
+      "level": "SL",
+      "statement": "B4.2.11",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A shrub grows well in the low light of the forest floor.",
+      "stem": "It is best described as:",
+      "options": [
+        { "letter": "A", "text": "Shade-tolerant", "correct": true },
+        { "letter": "B", "text": "A canopy tree", "correct": false },
+        { "letter": "C", "text": "A strangler epiphyte", "correct": false },
+        { "letter": "D", "text": "A liana", "correct": false }
+      ],
+      "explanation": "Shade-tolerant shrubs and herbs are adapted to harvest the limited light available on the forest floor."
+    },
+    {
+      "id": "B4.2-038",
+      "level": "SL",
+      "statement": "B4.2.12",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A species could potentially live across a wide range of conditions, but competition restricts it to a narrower range.",
+      "stem": "The narrower range it actually occupies is its:",
+      "options": [
+        { "letter": "A", "text": "Realized niche", "correct": true },
+        { "letter": "B", "text": "Fundamental niche", "correct": false },
+        { "letter": "C", "text": "Habitat", "correct": false },
+        { "letter": "D", "text": "Genome", "correct": false }
+      ],
+      "explanation": "Competition restricts a species to its realized niche, which is smaller than its fundamental niche."
+    },
+    {
+      "id": "B4.2-039",
+      "level": "SL",
+      "statement": "B4.2.13",
+      "category": "B4.2 Ecological niches",
+      "scenario": "Two competing species end up using slightly different parts of a habitat.",
+      "stem": "This outcome of competition is:",
+      "options": [
+        { "letter": "A", "text": "Restriction of both to part of their fundamental niche", "correct": true },
+        { "letter": "B", "text": "Extinction of both species", "correct": false },
+        { "letter": "C", "text": "Merging into one species", "correct": false },
+        { "letter": "D", "text": "No effect at all", "correct": false }
+      ],
+      "explanation": "Competition may restrict both species to parts of their fundamental niche, a possible outcome under competitive exclusion."
+    },
+    {
+      "id": "B4.2-040",
+      "level": "SL",
+      "statement": "B4.2.1",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Which best distinguishes a niche from a habitat?",
+      "options": [
+        { "letter": "A", "text": "A niche is a role; a habitat is a place", "correct": true },
+        { "letter": "B", "text": "A niche is a place; a habitat is a role", "correct": false },
+        { "letter": "C", "text": "They are identical", "correct": false },
+        { "letter": "D", "text": "Both refer to DNA", "correct": false }
+      ],
+      "explanation": "A niche is the role a species plays; a habitat is the place where it lives."
+    },
+    {
+      "id": "B4.2-041",
+      "level": "SL",
+      "statement": "B4.2.5",
+      "category": "B4.2 Ecological niches",
+      "scenario": "Many mixotrophic species are part of oceanic plankton.",
+      "stem": "This shows that mixotrophy is:",
+      "options": [
+        { "letter": "A", "text": "Widespread, not limited to Euglena", "correct": true },
+        { "letter": "B", "text": "Found only in Euglena", "correct": false },
+        { "letter": "C", "text": "Impossible in the ocean", "correct": false },
+        { "letter": "D", "text": "Only autotrophic", "correct": false }
+      ],
+      "explanation": "Besides the freshwater example Euglena, many oceanic plankton are mixotrophic, showing the mode is widespread."
+    },
+    {
+      "id": "B4.2-042",
+      "level": "SL",
+      "statement": "B4.2.6",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Why are decomposers important in ecosystems?",
+      "options": [
+        { "letter": "A", "text": "They break down dead organic matter, recycling nutrients", "correct": true },
+        { "letter": "B", "text": "They only produce oxygen", "correct": false },
+        { "letter": "C", "text": "They prevent all decay", "correct": false },
+        { "letter": "D", "text": "They are producers", "correct": false }
+      ],
+      "explanation": "Saprotrophic decomposers break down dead matter externally, releasing nutrients back into the ecosystem."
+    },
+    {
+      "id": "B4.2-043",
+      "level": "SL",
+      "statement": "B4.2.8",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A skull has large, sharp canine teeth.",
+      "stem": "This dentition suggests a diet including:",
+      "options": [
+        { "letter": "A", "text": "Meat (a carnivorous or omnivorous diet)", "correct": true },
+        { "letter": "B", "text": "Only leaves", "correct": false },
+        { "letter": "C", "text": "Only sunlight", "correct": false },
+        { "letter": "D", "text": "No food at all", "correct": false }
+      ],
+      "explanation": "Large sharp canines are associated with tearing meat, indicating a carnivorous or omnivorous diet."
+    },
+    {
+      "id": "B4.2-044",
+      "level": "SL",
+      "statement": "B4.2.9",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Plant adaptations to resist herbivory include:",
+      "options": [
+        { "letter": "A", "text": "Physical structures like thorns and toxic secondary compounds", "correct": true },
+        { "letter": "B", "text": "Sharp claws and fangs", "correct": false },
+        { "letter": "C", "text": "Camouflage colouring", "correct": false },
+        { "letter": "D", "text": "Fast running", "correct": false }
+      ],
+      "explanation": "Plants resist herbivory with physical structures such as thorns and by producing toxic secondary compounds."
+    },
+    {
+      "id": "B4.2-045",
+      "level": "SL",
+      "statement": "B4.2.10",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Adaptations of predators and prey can be:",
+      "options": [
+        { "letter": "A", "text": "Chemical, physical or behavioural", "correct": true },
+        { "letter": "B", "text": "Only physical", "correct": false },
+        { "letter": "C", "text": "Only behavioural", "correct": false },
+        { "letter": "D", "text": "Only chemical", "correct": false }
+      ],
+      "explanation": "Both predators and prey show chemical, physical and behavioural adaptations."
+    },
+    {
+      "id": "B4.2-046",
+      "level": "SL",
+      "statement": "B4.2.11",
+      "category": "B4.2 Ecological niches",
+      "scenario": "A tall tree grows straight up to reach the forest canopy.",
+      "stem": "This strategy for harvesting light is used by:",
+      "options": [
+        { "letter": "A", "text": "Canopy trees", "correct": true },
+        { "letter": "B", "text": "Shade-tolerant floor herbs", "correct": false },
+        { "letter": "C", "text": "Saprotrophic fungi", "correct": false },
+        { "letter": "D", "text": "Obligate anaerobes", "correct": false }
+      ],
+      "explanation": "Reaching the canopy is one of several strategies (with lianas, epiphytes, shade-tolerant plants) for harvesting light in forests."
+    },
+    {
+      "id": "B4.2-047",
+      "level": "SL",
+      "statement": "B4.2.12",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "The realized niche is usually smaller than the fundamental niche because of:",
+      "options": [
+        { "letter": "A", "text": "Competition with other species", "correct": true },
+        { "letter": "B", "text": "A lack of any predators", "correct": false },
+        { "letter": "C", "text": "Unlimited resources", "correct": false },
+        { "letter": "D", "text": "Absence of competition", "correct": false }
+      ],
+      "explanation": "Competition restricts a species to its realized niche, narrower than its potential fundamental niche."
+    },
+    {
+      "id": "B4.2-048",
+      "level": "SL",
+      "statement": "B4.2.13",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Which is a possible outcome when two species compete for the same niche?",
+      "options": [
+        { "letter": "A", "text": "One competing species is eliminated", "correct": true },
+        { "letter": "B", "text": "Both expand into a larger identical niche", "correct": false },
+        { "letter": "C", "text": "They fuse into one organism", "correct": false },
+        { "letter": "D", "text": "Nothing changes ever", "correct": false }
+      ],
+      "explanation": "Competitive exclusion can lead to one species being eliminated or both being restricted to part of their fundamental niche."
+    },
+    {
+      "id": "B4.2-049",
+      "level": "SL",
+      "statement": "B4.2.3",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Which group is NOT capable of photosynthesis?",
+      "options": [
+        { "letter": "A", "text": "Animals", "correct": true },
+        { "letter": "B", "text": "Plants", "correct": false },
+        { "letter": "C", "text": "Algae", "correct": false },
+        { "letter": "D", "text": "Photosynthetic prokaryotes", "correct": false }
+      ],
+      "explanation": "Photosynthesis occurs in plants, algae and some prokaryotes; animals are heterotrophic and do not photosynthesize."
+    },
+    {
+      "id": "B4.2-050",
+      "level": "SL",
+      "statement": "B4.2.1",
+      "category": "B4.2 Ecological niches",
+      "scenario": "",
+      "stem": "Which factors are included in a species' ecological niche?",
+      "options": [
+        { "letter": "A", "text": "Both biotic and abiotic interactions", "correct": true },
+        { "letter": "B", "text": "Only abiotic factors", "correct": false },
+        { "letter": "C", "text": "Only biotic factors", "correct": false },
+        { "letter": "D", "text": "Only its DNA", "correct": false }
+      ],
+      "explanation": "A niche includes the biotic and abiotic interactions affecting a species' growth, survival and reproduction."
+    }
+  ]
+}

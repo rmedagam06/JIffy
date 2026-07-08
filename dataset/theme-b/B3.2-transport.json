@@ -1,0 +1,760 @@
+{
+  "id": "B3.2",
+  "name": "Transport",
+  "theme": "B",
+  "themeName": "Form and function",
+  "levelOfOrganization": "Organisms",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "B3.2-001",
+      "level": "SL",
+      "statement": "B3.2.1",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which adaptation of capillaries aids the exchange of materials?",
+      "options": [
+        { "letter": "A", "text": "Thin walls, one cell thick", "correct": true },
+        { "letter": "B", "text": "Very thick muscular walls", "correct": false },
+        { "letter": "C", "text": "A wide lumen with no branching", "correct": false },
+        { "letter": "D", "text": "An impermeable lining", "correct": false }
+      ],
+      "explanation": "Capillaries have thin walls, a large surface area from branching and narrow diameters, aiding exchange."
+    },
+    {
+      "id": "B3.2-002",
+      "level": "SL",
+      "statement": "B3.2.1",
+      "category": "B3.2 Transport",
+      "scenario": "Some capillaries have tiny pores in their walls where rapid exchange is needed.",
+      "stem": "These pores are called:",
+      "options": [
+        { "letter": "A", "text": "Fenestrations", "correct": true },
+        { "letter": "B", "text": "Valves", "correct": false },
+        { "letter": "C", "text": "Sieve plates", "correct": false },
+        { "letter": "D", "text": "Stomata", "correct": false }
+      ],
+      "explanation": "Fenestrations are pores in some capillaries where exchange needs to be particularly rapid."
+    },
+    {
+      "id": "B3.2-003",
+      "level": "SL",
+      "statement": "B3.2.2",
+      "category": "B3.2 Transport",
+      "scenario": "In a micrograph, one vessel has a thick wall relative to a small lumen.",
+      "stem": "This vessel is most likely a(n):",
+      "options": [
+        { "letter": "A", "text": "Artery", "correct": true },
+        { "letter": "B", "text": "Vein", "correct": false },
+        { "letter": "C", "text": "Capillary", "correct": false },
+        { "letter": "D", "text": "Lymph vessel", "correct": false }
+      ],
+      "explanation": "Arteries have thick walls relative to a small lumen; veins have thinner walls and a larger lumen."
+    },
+    {
+      "id": "B3.2-004",
+      "level": "SL",
+      "statement": "B3.2.3",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "The thick layers of muscle and elastic tissue in artery walls help them to:",
+      "options": [
+        { "letter": "A", "text": "Withstand and maintain high blood pressure", "correct": true },
+        { "letter": "B", "text": "Prevent all blood flow", "correct": false },
+        { "letter": "C", "text": "Exchange gases directly", "correct": false },
+        { "letter": "D", "text": "Store nutrients", "correct": false }
+      ],
+      "explanation": "Muscle and elastic tissue allow arteries to withstand and maintain the high pressures of blood leaving the heart."
+    },
+    {
+      "id": "B3.2-005",
+      "level": "SL",
+      "statement": "B3.2.4",
+      "category": "B3.2 Transport",
+      "scenario": "A student measures heart rate by feeling a pulse.",
+      "stem": "Which is a suitable site to feel the pulse?",
+      "options": [
+        { "letter": "A", "text": "The radial artery at the wrist", "correct": true },
+        { "letter": "B", "text": "A vein in the leg", "correct": false },
+        { "letter": "C", "text": "A capillary", "correct": false },
+        { "letter": "D", "text": "The lymph duct", "correct": false }
+      ],
+      "explanation": "Heart rate can be measured by feeling the radial (wrist) or carotid (neck) pulse with the fingertips."
+    },
+    {
+      "id": "B3.2-006",
+      "level": "SL",
+      "statement": "B3.2.5",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which adaptation of veins prevents the backflow of blood?",
+      "options": [
+        { "letter": "A", "text": "Valves", "correct": true },
+        { "letter": "B", "text": "Thick muscular walls", "correct": false },
+        { "letter": "C", "text": "Fenestrations", "correct": false },
+        { "letter": "D", "text": "Sieve plates", "correct": false }
+      ],
+      "explanation": "Veins have valves to prevent backflow and flexible walls that can be compressed by muscle action."
+    },
+    {
+      "id": "B3.2-007",
+      "level": "SL",
+      "statement": "B3.2.5",
+      "category": "B3.2 Transport",
+      "scenario": "Blood in veins is often at low pressure.",
+      "stem": "How is blood helped back to the heart?",
+      "options": [
+        { "letter": "A", "text": "Compression of veins by surrounding muscles, with valves preventing backflow", "correct": true },
+        { "letter": "B", "text": "High pressure generated in the veins themselves", "correct": false },
+        { "letter": "C", "text": "Thick elastic artery walls", "correct": false },
+        { "letter": "D", "text": "Root pressure", "correct": false }
+      ],
+      "explanation": "Muscle action compresses the flexible veins, and valves ensure blood flows only toward the heart."
+    },
+    {
+      "id": "B3.2-008",
+      "level": "SL",
+      "statement": "B3.2.6",
+      "category": "B3.2 Transport",
+      "scenario": "The coronary arteries become narrowed by fatty deposits.",
+      "stem": "This occlusion can lead to:",
+      "options": [
+        { "letter": "A", "text": "Coronary heart disease", "correct": true },
+        { "letter": "B", "text": "Improved oxygen supply to the heart", "correct": false },
+        { "letter": "C", "text": "Faster transpiration", "correct": false },
+        { "letter": "D", "text": "Increased root pressure", "correct": false }
+      ],
+      "explanation": "Occlusion of the coronary arteries reduces blood supply to the heart muscle, causing coronary heart disease."
+    },
+    {
+      "id": "B3.2-009",
+      "level": "SL",
+      "statement": "B3.2.6",
+      "category": "B3.2 Transport",
+      "scenario": "A study finds a strong correlation between saturated fat intake and coronary heart disease.",
+      "stem": "What can be concluded?",
+      "options": [
+        { "letter": "A", "text": "A strong correlation does not by itself prove a causal link", "correct": true },
+        { "letter": "B", "text": "Saturated fat definitely causes the disease", "correct": false },
+        { "letter": "C", "text": "There is no relationship", "correct": false },
+        { "letter": "D", "text": "Correlation always proves causation", "correct": false }
+      ],
+      "explanation": "Even strong correlations do not prove causation; correlation coefficients quantify the relationship's strength only."
+    },
+    {
+      "id": "B3.2-010",
+      "level": "SL",
+      "statement": "B3.2.7",
+      "category": "B3.2 Transport",
+      "scenario": "Water evaporates from leaf cell walls during transpiration.",
+      "stem": "What is the direct effect on the xylem?",
+      "options": [
+        { "letter": "A", "text": "Water is drawn up under tension (negative pressure)", "correct": true },
+        { "letter": "B", "text": "Water is pushed up under positive pressure only", "correct": false },
+        { "letter": "C", "text": "Water flow stops", "correct": false },
+        { "letter": "D", "text": "Water moves downward", "correct": false }
+      ],
+      "explanation": "Transpiration generates tension (negative pressure) that draws a continuous column of water up the xylem."
+    },
+    {
+      "id": "B3.2-011",
+      "level": "SL",
+      "statement": "B3.2.7",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which property of water keeps the column in the xylem unbroken under tension?",
+      "options": [
+        { "letter": "A", "text": "Cohesion", "correct": true },
+        { "letter": "B", "text": "Low specific heat capacity", "correct": false },
+        { "letter": "C", "text": "Buoyancy", "correct": false },
+        { "letter": "D", "text": "Being a poor solvent", "correct": false }
+      ],
+      "explanation": "Cohesion between water molecules maintains a continuous column that can be drawn up under tension."
+    },
+    {
+      "id": "B3.2-012",
+      "level": "SL",
+      "statement": "B3.2.8",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which adaptation of xylem vessels allows unimpeded water flow?",
+      "options": [
+        { "letter": "A", "text": "Lack of cell contents and incomplete/absent end walls", "correct": true },
+        { "letter": "B", "text": "Dense cytoplasm filling the vessel", "correct": false },
+        { "letter": "C", "text": "A nucleus in every cell", "correct": false },
+        { "letter": "D", "text": "Many mitochondria blocking the lumen", "correct": false }
+      ],
+      "explanation": "Xylem vessels lack cell contents and have incomplete or absent end walls, allowing unimpeded water flow."
+    },
+    {
+      "id": "B3.2-013",
+      "level": "SL",
+      "statement": "B3.2.8",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Lignified walls in xylem vessels are important because they:",
+      "options": [
+        { "letter": "A", "text": "Withstand the tensions during water transport", "correct": true },
+        { "letter": "B", "text": "Allow the vessel to photosynthesize", "correct": false },
+        { "letter": "C", "text": "Store starch", "correct": false },
+        { "letter": "D", "text": "Actively pump water", "correct": false }
+      ],
+      "explanation": "Lignified walls give strength so xylem can withstand the tensions generated during transpiration."
+    },
+    {
+      "id": "B3.2-014",
+      "level": "SL",
+      "statement": "B3.2.9",
+      "category": "B3.2 Transport",
+      "scenario": "A student draws a plan diagram of a dicot stem.",
+      "stem": "Which tissues would be identified?",
+      "options": [
+        { "letter": "A", "text": "Vascular bundles (xylem and phloem), cortex and epidermis", "correct": true },
+        { "letter": "B", "text": "Alveoli and bronchioles", "correct": false },
+        { "letter": "C", "text": "Heart valves", "correct": false },
+        { "letter": "D", "text": "Nephron tubules", "correct": false }
+      ],
+      "explanation": "A dicot stem plan diagram identifies vascular bundles (xylem and phloem), cortex and epidermis."
+    },
+    {
+      "id": "B3.2-015",
+      "level": "SL",
+      "statement": "B3.2.10",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "In a transverse section of a dicot root, the vascular tissue is typically found:",
+      "options": [
+        { "letter": "A", "text": "In the centre of the root", "correct": true },
+        { "letter": "B", "text": "Only in the epidermis", "correct": false },
+        { "letter": "C", "text": "Outside the cortex", "correct": false },
+        { "letter": "D", "text": "In the waxy cuticle", "correct": false }
+      ],
+      "explanation": "In dicot roots, the xylem and phloem are located centrally, surrounded by the cortex and epidermis."
+    },
+    {
+      "id": "B3.2-016",
+      "level": "SL",
+      "statement": "B3.2.2",
+      "category": "B3.2 Transport",
+      "scenario": "In a micrograph a vessel has a thin wall and a relatively large lumen.",
+      "stem": "This is most likely a:",
+      "options": [
+        { "letter": "A", "text": "Vein", "correct": true },
+        { "letter": "B", "text": "Artery", "correct": false },
+        { "letter": "C", "text": "Xylem vessel", "correct": false },
+        { "letter": "D", "text": "Bronchiole", "correct": false }
+      ],
+      "explanation": "Veins have thin walls relative to a large lumen, unlike the thick-walled, narrow-lumen arteries."
+    },
+    {
+      "id": "B3.2-017",
+      "level": "SL",
+      "statement": "B3.2.3",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Why do arteries need elastic tissue in their walls?",
+      "options": [
+        { "letter": "A", "text": "To stretch and recoil, smoothing pressure surges from the heart", "correct": true },
+        { "letter": "B", "text": "To pump blood themselves", "correct": false },
+        { "letter": "C", "text": "To exchange gases", "correct": false },
+        { "letter": "D", "text": "To prevent all blood flow", "correct": false }
+      ],
+      "explanation": "Elastic tissue lets arteries stretch and recoil, helping withstand and maintain high blood pressures."
+    },
+    {
+      "id": "B3.2-018",
+      "level": "SL",
+      "statement": "B3.2.1",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Why are capillaries so numerous and branched?",
+      "options": [
+        { "letter": "A", "text": "To provide a large surface area for exchange", "correct": true },
+        { "letter": "B", "text": "To reduce the exchange surface", "correct": false },
+        { "letter": "C", "text": "To carry blood at high pressure", "correct": false },
+        { "letter": "D", "text": "To store blood", "correct": false }
+      ],
+      "explanation": "Extensive branching gives capillaries a large surface area and narrow diameters for efficient exchange."
+    },
+    {
+      "id": "B3.2-019",
+      "level": "SL",
+      "statement": "B3.2.7",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "The transport of water from roots to leaves is driven mainly by:",
+      "options": [
+        { "letter": "A", "text": "Tension generated by transpiration", "correct": true },
+        { "letter": "B", "text": "Active pumping in the leaves", "correct": false },
+        { "letter": "C", "text": "Gravity pulling water up", "correct": false },
+        { "letter": "D", "text": "Respiration in the xylem", "correct": false }
+      ],
+      "explanation": "Transpiration from the leaves generates tension that draws water up the xylem; cohesion keeps the column intact."
+    },
+    {
+      "id": "B3.2-020",
+      "level": "SL",
+      "statement": "B3.2.4",
+      "category": "B3.2 Transport",
+      "scenario": "A student compares feeling the pulse manually with using a digital heart-rate monitor.",
+      "stem": "This comparison is an example of:",
+      "options": [
+        { "letter": "A", "text": "Comparing traditional and digital measurement methods", "correct": true },
+        { "letter": "B", "text": "Measuring lung volume", "correct": false },
+        { "letter": "C", "text": "Counting stomata", "correct": false },
+        { "letter": "D", "text": "Drawing a plan diagram", "correct": false }
+      ],
+      "explanation": "Determining heart rate can compare traditional (fingertip pulse) methods with digital ones."
+    },
+    {
+      "id": "B3.2-021",
+      "level": "SL",
+      "statement": "B3.2.8",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Pits in xylem vessel walls allow:",
+      "options": [
+        { "letter": "A", "text": "Water to enter and exit the vessel", "correct": true },
+        { "letter": "B", "text": "Sugars to be actively pumped", "correct": false },
+        { "letter": "C", "text": "Gas exchange with the air", "correct": false },
+        { "letter": "D", "text": "The vessel to contract", "correct": false }
+      ],
+      "explanation": "Pits are gaps in the lignified wall that allow water to enter and exit xylem vessels."
+    },
+    {
+      "id": "B3.2-022",
+      "level": "SL",
+      "statement": "B3.2.9",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "In a dicot stem, xylem and phloem are grouped together in structures called:",
+      "options": [
+        { "letter": "A", "text": "Vascular bundles", "correct": true },
+        { "letter": "B", "text": "Alveoli", "correct": false },
+        { "letter": "C", "text": "Nephrons", "correct": false },
+        { "letter": "D", "text": "Sarcomeres", "correct": false }
+      ],
+      "explanation": "In dicot stems the xylem and phloem are arranged in vascular bundles."
+    },
+    {
+      "id": "B3.2-023",
+      "level": "SL",
+      "statement": "B3.2.5",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which statement about veins is correct?",
+      "options": [
+        { "letter": "A", "text": "They return blood to the heart and contain valves", "correct": true },
+        { "letter": "B", "text": "They carry blood away from the heart at high pressure", "correct": false },
+        { "letter": "C", "text": "They have the thickest walls of all vessels", "correct": false },
+        { "letter": "D", "text": "They exchange gases directly with tissues", "correct": false }
+      ],
+      "explanation": "Veins return blood to the heart and have valves to prevent backflow."
+    },
+    {
+      "id": "B3.2-024",
+      "level": "SL",
+      "statement": "B3.2.6",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "What is a correlation coefficient used for?",
+      "options": [
+        { "letter": "A", "text": "To quantify the strength of a relationship between variables", "correct": true },
+        { "letter": "B", "text": "To prove causation directly", "correct": false },
+        { "letter": "C", "text": "To measure heart rate", "correct": false },
+        { "letter": "D", "text": "To count cells", "correct": false }
+      ],
+      "explanation": "Correlation coefficients quantify how strongly variables are related, but do not by themselves prove causation."
+    },
+    {
+      "id": "B3.2-025",
+      "level": "SL",
+      "statement": "B3.2.1",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "The narrow diameter of capillaries helps exchange by:",
+      "options": [
+        { "letter": "A", "text": "Slowing blood flow and bringing cells close to the wall", "correct": true },
+        { "letter": "B", "text": "Speeding blood past too fast to exchange", "correct": false },
+        { "letter": "C", "text": "Preventing any exchange", "correct": false },
+        { "letter": "D", "text": "Thickening the wall", "correct": false }
+      ],
+      "explanation": "Narrow capillaries slow flow and keep blood cells near the thin walls, aiding exchange."
+    },
+    {
+      "id": "B3.2-026",
+      "level": "SL",
+      "statement": "B3.2.3",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Compared with veins, arteries have:",
+      "options": [
+        { "letter": "A", "text": "Thicker walls with more muscle and elastic tissue", "correct": true },
+        { "letter": "B", "text": "Thinner walls and valves", "correct": false },
+        { "letter": "C", "text": "Pores called sieve plates", "correct": false },
+        { "letter": "D", "text": "No wall at all", "correct": false }
+      ],
+      "explanation": "Arteries have thicker, more muscular and elastic walls to cope with high pressure; veins are thinner and valved."
+    },
+    {
+      "id": "B3.2-027",
+      "level": "SL",
+      "statement": "B3.2.7",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which process pulls water through cell walls in the leaf, generating tension?",
+      "options": [
+        { "letter": "A", "text": "Capillary action as water evaporates", "correct": true },
+        { "letter": "B", "text": "Active transport of water", "correct": false },
+        { "letter": "C", "text": "Respiration", "correct": false },
+        { "letter": "D", "text": "Osmosis into the air", "correct": false }
+      ],
+      "explanation": "Evaporation draws water from cell walls by capillary action, creating the tension that pulls water up the xylem."
+    },
+    {
+      "id": "B3.2-028",
+      "level": "SL",
+      "statement": "B3.2.10",
+      "category": "B3.2 Transport",
+      "scenario": "A student draws a dicot root section from a micrograph.",
+      "stem": "Which structures should be identified?",
+      "options": [
+        { "letter": "A", "text": "Vascular bundles, xylem, phloem, cortex and epidermis", "correct": true },
+        { "letter": "B", "text": "Alveoli and capillaries", "correct": false },
+        { "letter": "C", "text": "Sarcomeres and myofibrils", "correct": false },
+        { "letter": "D", "text": "Guard cells and stomata", "correct": false }
+      ],
+      "explanation": "A dicot root section shows vascular tissue (xylem and phloem), cortex and epidermis."
+    },
+    {
+      "id": "B3.2-029",
+      "level": "SL",
+      "statement": "B3.2.2",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which feature best distinguishes an artery from a vein in a micrograph?",
+      "options": [
+        { "letter": "A", "text": "Wall thickness relative to lumen diameter", "correct": true },
+        { "letter": "B", "text": "The colour of the blood", "correct": false },
+        { "letter": "C", "text": "The presence of chlorophyll", "correct": false },
+        { "letter": "D", "text": "The number of nuclei", "correct": false }
+      ],
+      "explanation": "Arteries and veins are distinguished by the thickness of the wall relative to the lumen diameter."
+    },
+    {
+      "id": "B3.2-030",
+      "level": "SL",
+      "statement": "B3.2.6",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Occlusion of a coronary artery reduces blood flow to the:",
+      "options": [
+        { "letter": "A", "text": "Heart muscle", "correct": true },
+        { "letter": "B", "text": "Leaves", "correct": false },
+        { "letter": "C", "text": "Alveoli", "correct": false },
+        { "letter": "D", "text": "Roots", "correct": false }
+      ],
+      "explanation": "Coronary arteries supply the heart muscle, so their occlusion reduces the heart's blood supply."
+    },
+    {
+      "id": "B3.2-031",
+      "level": "SL",
+      "statement": "B3.2.8",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which combination lists adaptations of xylem vessels?",
+      "options": [
+        { "letter": "A", "text": "No cell contents, lignified walls, pits, open end walls", "correct": true },
+        { "letter": "B", "text": "Dense cytoplasm, a nucleus, valves", "correct": false },
+        { "letter": "C", "text": "Sieve plates and companion cells", "correct": false },
+        { "letter": "D", "text": "Surfactant and cilia", "correct": false }
+      ],
+      "explanation": "Xylem vessels lack contents, have lignified walls, pits and incomplete/absent end walls for water transport."
+    },
+    {
+      "id": "B3.2-032",
+      "level": "SL",
+      "statement": "B3.2.5",
+      "category": "B3.2 Transport",
+      "scenario": "A vein is compressed by a contracting muscle.",
+      "stem": "The valves ensure that blood:",
+      "options": [
+        { "letter": "A", "text": "Moves only toward the heart", "correct": true },
+        { "letter": "B", "text": "Flows backward away from the heart", "correct": false },
+        { "letter": "C", "text": "Stops moving", "correct": false },
+        { "letter": "D", "text": "Leaves the vessel", "correct": false }
+      ],
+      "explanation": "Valves prevent backflow, so muscle compression pushes venous blood toward the heart."
+    },
+    {
+      "id": "B3.2-033",
+      "level": "SL",
+      "statement": "B3.2.1",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Capillaries allow exchange between the blood and:",
+      "options": [
+        { "letter": "A", "text": "The internal or external environment (tissues)", "correct": true },
+        { "letter": "B", "text": "Only the heart", "correct": false },
+        { "letter": "C", "text": "Only other capillaries", "correct": false },
+        { "letter": "D", "text": "The xylem", "correct": false }
+      ],
+      "explanation": "Capillaries are adapted for exchange of materials between blood and the internal or external environment."
+    },
+    {
+      "id": "B3.2-034",
+      "level": "SL",
+      "statement": "B3.2.9",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "When annotating a stem plan diagram, students should add:",
+      "options": [
+        { "letter": "A", "text": "The main functions of the labelled structures", "correct": true },
+        { "letter": "B", "text": "The colour of each cell", "correct": false },
+        { "letter": "C", "text": "The mass of the plant", "correct": false },
+        { "letter": "D", "text": "The DNA sequence", "correct": false }
+      ],
+      "explanation": "Students annotate the diagram with the main functions of the structures such as xylem and phloem."
+    },
+    {
+      "id": "B3.2-035",
+      "level": "HL",
+      "statement": "B3.2.11",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Tissue fluid is formed at capillaries by:",
+      "options": [
+        { "letter": "A", "text": "Pressure filtration of plasma", "correct": true },
+        { "letter": "B", "text": "Active transport of whole cells", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "Transpiration", "correct": false }
+      ],
+      "explanation": "Tissue fluid forms by pressure filtration of plasma, promoted by high blood pressure at the arteriole end."
+    },
+    {
+      "id": "B3.2-036",
+      "level": "HL",
+      "statement": "B3.2.11",
+      "category": "B3.2 Transport",
+      "scenario": "At the venule end of a capillary, blood pressure is lower.",
+      "stem": "What happens to most tissue fluid here?",
+      "options": [
+        { "letter": "A", "text": "It drains back into the capillary", "correct": true },
+        { "letter": "B", "text": "It is filtered out faster", "correct": false },
+        { "letter": "C", "text": "It becomes blood cells", "correct": false },
+        { "letter": "D", "text": "It evaporates", "correct": false }
+      ],
+      "explanation": "Lower pressure at the venule end allows tissue fluid to drain back into the capillary."
+    },
+    {
+      "id": "B3.2-037",
+      "level": "HL",
+      "statement": "B3.2.12",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Tissue fluid differs from blood plasma mainly in that tissue fluid has:",
+      "options": [
+        { "letter": "A", "text": "Fewer large plasma proteins and no blood cells", "correct": true },
+        { "letter": "B", "text": "More red blood cells", "correct": false },
+        { "letter": "C", "text": "No water", "correct": false },
+        { "letter": "D", "text": "More large proteins than plasma", "correct": false }
+      ],
+      "explanation": "Tissue fluid resembles plasma but lacks most large proteins and cells, which stay in the capillaries."
+    },
+    {
+      "id": "B3.2-038",
+      "level": "HL",
+      "statement": "B3.2.13",
+      "category": "B3.2 Transport",
+      "scenario": "Excess tissue fluid is not all reabsorbed by the capillaries.",
+      "stem": "Where does this excess drain?",
+      "options": [
+        { "letter": "A", "text": "Into lymph ducts", "correct": true },
+        { "letter": "B", "text": "Into the xylem", "correct": false },
+        { "letter": "C", "text": "Into the alveoli", "correct": false },
+        { "letter": "D", "text": "Out through the skin", "correct": false }
+      ],
+      "explanation": "Excess tissue fluid drains into lymph ducts, which have valves and thin walls, and returns to the blood circulation."
+    },
+    {
+      "id": "B3.2-039",
+      "level": "HL",
+      "statement": "B3.2.14",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which correctly describes the circulation of a bony fish compared with a mammal?",
+      "options": [
+        { "letter": "A", "text": "Fish have single circulation; mammals have double circulation", "correct": true },
+        { "letter": "B", "text": "Fish have double circulation; mammals have single", "correct": false },
+        { "letter": "C", "text": "Both have single circulation", "correct": false },
+        { "letter": "D", "text": "Neither has a circulatory system", "correct": false }
+      ],
+      "explanation": "Bony fish have single circulation (blood passes the heart once per circuit); mammals have double circulation."
+    },
+    {
+      "id": "B3.2-040",
+      "level": "HL",
+      "statement": "B3.2.15",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which structure sets the rhythm of the mammalian heartbeat?",
+      "options": [
+        { "letter": "A", "text": "The pacemaker (sinoatrial node)", "correct": true },
+        { "letter": "B", "text": "The semilunar valve", "correct": false },
+        { "letter": "C", "text": "The septum", "correct": false },
+        { "letter": "D", "text": "A coronary vein", "correct": false }
+      ],
+      "explanation": "The pacemaker (sinoatrial node) initiates and sets the rhythm of the heartbeat."
+    },
+    {
+      "id": "B3.2-041",
+      "level": "HL",
+      "statement": "B3.2.15",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "The role of the atrioventricular valves is to:",
+      "options": [
+        { "letter": "A", "text": "Prevent backflow of blood from ventricles into atria", "correct": true },
+        { "letter": "B", "text": "Set the heart rhythm", "correct": false },
+        { "letter": "C", "text": "Separate the left and right sides", "correct": false },
+        { "letter": "D", "text": "Supply the heart muscle with blood", "correct": false }
+      ],
+      "explanation": "Atrioventricular valves prevent blood flowing back from the ventricles into the atria, ensuring unidirectional flow."
+    },
+    {
+      "id": "B3.2-042",
+      "level": "HL",
+      "statement": "B3.2.16",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "The cardiac cycle is initiated by the:",
+      "options": [
+        { "letter": "A", "text": "Sinoatrial node", "correct": true },
+        { "letter": "B", "text": "Semilunar valve", "correct": false },
+        { "letter": "C", "text": "Coronary artery", "correct": false },
+        { "letter": "D", "text": "Aorta", "correct": false }
+      ],
+      "explanation": "The sinoatrial node (pacemaker) initiates the sequence of events of the cardiac cycle."
+    },
+    {
+      "id": "B3.2-043",
+      "level": "HL",
+      "statement": "B3.2.16",
+      "category": "B3.2 Transport",
+      "scenario": "A blood pressure reading is given as systolic over diastolic.",
+      "stem": "Systolic pressure is measured when the:",
+      "options": [
+        { "letter": "A", "text": "Ventricles contract", "correct": true },
+        { "letter": "B", "text": "Ventricles relax", "correct": false },
+        { "letter": "C", "text": "Heart stops", "correct": false },
+        { "letter": "D", "text": "Atria fill only", "correct": false }
+      ],
+      "explanation": "Systolic pressure is the higher pressure during ventricular contraction; diastolic is during relaxation."
+    },
+    {
+      "id": "B3.2-044",
+      "level": "HL",
+      "statement": "B3.2.17",
+      "category": "B3.2 Transport",
+      "scenario": "In spring, before leaves open, a deciduous tree still moves water up its stem.",
+      "stem": "What mechanism generates this movement when transpiration is low?",
+      "options": [
+        { "letter": "A", "text": "Root pressure from active transport of mineral ions", "correct": true },
+        { "letter": "B", "text": "Tension from rapid transpiration", "correct": false },
+        { "letter": "C", "text": "Photosynthesis in the roots", "correct": false },
+        { "letter": "D", "text": "Gravity", "correct": false }
+      ],
+      "explanation": "Root pressure, a positive pressure generated by active transport of mineral ions, moves water when transpiration is insufficient."
+    },
+    {
+      "id": "B3.2-045",
+      "level": "HL",
+      "statement": "B3.2.17",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Root pressure is described as a positive pressure potential because it:",
+      "options": [
+        { "letter": "A", "text": "Pushes water upward, unlike the tension of transpiration", "correct": true },
+        { "letter": "B", "text": "Pulls water down", "correct": false },
+        { "letter": "C", "text": "Is the same as transpiration pull", "correct": false },
+        { "letter": "D", "text": "Requires no energy", "correct": false }
+      ],
+      "explanation": "Root pressure is a positive pressure that pushes water up, generated by active transport of ions into the xylem."
+    },
+    {
+      "id": "B3.2-046",
+      "level": "HL",
+      "statement": "B3.2.18",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Which adaptation of phloem sieve tube elements eases the flow of sap?",
+      "options": [
+        { "letter": "A", "text": "Reduced cytoplasm, no nucleus and sieve plates", "correct": true },
+        { "letter": "B", "text": "Dense cytoplasm packed with organelles", "correct": false },
+        { "letter": "C", "text": "Lignified, thick walls", "correct": false },
+        { "letter": "D", "text": "Complete end walls with no pores", "correct": false }
+      ],
+      "explanation": "Sieve tube elements have reduced cytoplasm, no nucleus and sieve plates, easing the flow of sap."
+    },
+    {
+      "id": "B3.2-047",
+      "level": "HL",
+      "statement": "B3.2.18",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "Companion cells support phloem transport because they have:",
+      "options": [
+        { "letter": "A", "text": "Many mitochondria to power loading of sap", "correct": true },
+        { "letter": "B", "text": "No cytoplasm", "correct": false },
+        { "letter": "C", "text": "Lignified walls", "correct": false },
+        { "letter": "D", "text": "No connection to sieve tubes", "correct": false }
+      ],
+      "explanation": "Companion cells have many mitochondria and are linked by plasmodesmata, supporting the loading of carbon compounds into sieve tubes."
+    },
+    {
+      "id": "B3.2-048",
+      "level": "HL",
+      "statement": "B3.2.18",
+      "category": "B3.2 Transport",
+      "scenario": "In phloem, carbon compounds are loaded at sources and removed at sinks.",
+      "stem": "This overall movement of sap is called:",
+      "options": [
+        { "letter": "A", "text": "Translocation", "correct": true },
+        { "letter": "B", "text": "Transpiration", "correct": false },
+        { "letter": "C", "text": "Transamination", "correct": false },
+        { "letter": "D", "text": "Filtration", "correct": false }
+      ],
+      "explanation": "Translocation is the movement of sap in the phloem from sources to sinks."
+    },
+    {
+      "id": "B3.2-049",
+      "level": "HL",
+      "statement": "B3.2.14",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "An advantage of double circulation in mammals is that:",
+      "options": [
+        { "letter": "A", "text": "Blood can be repressurized after the lungs, giving efficient delivery", "correct": true },
+        { "letter": "B", "text": "Blood passes the heart only once per circuit", "correct": false },
+        { "letter": "C", "text": "The heart is not needed", "correct": false },
+        { "letter": "D", "text": "Blood pressure is always low", "correct": false }
+      ],
+      "explanation": "Double circulation lets blood be repressurized by the heart after passing the lungs, giving efficient delivery to tissues."
+    },
+    {
+      "id": "B3.2-050",
+      "level": "HL",
+      "statement": "B3.2.15",
+      "category": "B3.2 Transport",
+      "scenario": "",
+      "stem": "The septum of the mammalian heart functions to:",
+      "options": [
+        { "letter": "A", "text": "Separate oxygenated and deoxygenated blood", "correct": true },
+        { "letter": "B", "text": "Set the heart rhythm", "correct": false },
+        { "letter": "C", "text": "Act as a valve", "correct": false },
+        { "letter": "D", "text": "Supply the heart with blood", "correct": false }
+      ],
+      "explanation": "The septum separates the left and right sides, keeping oxygenated and deoxygenated blood apart."
+    }
+  ]
+}

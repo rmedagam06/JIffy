@@ -1,0 +1,760 @@
+{
+  "id": "B3.3",
+  "name": "Muscle and motility",
+  "theme": "B",
+  "themeName": "Form and function",
+  "levelOfOrganization": "Organisms",
+  "level": "HL",
+  "questions": [
+    {
+      "id": "B3.3-001",
+      "level": "HL",
+      "statement": "B3.3.1",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Adaptations for movement are described as:",
+      "options": [
+        { "letter": "A", "text": "A universal feature of living organisms", "correct": true },
+        { "letter": "B", "text": "Found only in mammals", "correct": false },
+        { "letter": "C", "text": "Absent in all plants and microbes", "correct": false },
+        { "letter": "D", "text": "Unimportant to survival", "correct": false }
+      ],
+      "explanation": "Adaptations for movement are a universal feature of living organisms, explored using both motile and sessile species."
+    },
+    {
+      "id": "B3.3-002",
+      "level": "HL",
+      "statement": "B3.3.1",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "A sessile organism stays fixed in one place.",
+      "stem": "This means it:",
+      "options": [
+        { "letter": "A", "text": "Does not move from place to place as an adult", "correct": true },
+        { "letter": "B", "text": "Moves rapidly over long distances", "correct": false },
+        { "letter": "C", "text": "Has no cells", "correct": false },
+        { "letter": "D", "text": "Cannot be a living organism", "correct": false }
+      ],
+      "explanation": "Sessile organisms are fixed in place; comparing them with motile species illustrates the concept of movement."
+    },
+    {
+      "id": "B3.3-003",
+      "level": "HL",
+      "statement": "B3.3.2",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "According to the sliding filament model, muscle contraction occurs when:",
+      "options": [
+        { "letter": "A", "text": "Actin and myosin filaments slide past each other", "correct": true },
+        { "letter": "B", "text": "The filaments themselves shorten", "correct": false },
+        { "letter": "C", "text": "New filaments are made", "correct": false },
+        { "letter": "D", "text": "The sarcomere lengthens", "correct": false }
+      ],
+      "explanation": "In the sliding filament model, actin and myosin filaments slide past one another, shortening the sarcomere."
+    },
+    {
+      "id": "B3.3-004",
+      "level": "HL",
+      "statement": "B3.3.2",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "A sarcomere contracts.",
+      "stem": "What happens to its length?",
+      "options": [
+        { "letter": "A", "text": "It shortens", "correct": true },
+        { "letter": "B", "text": "It lengthens", "correct": false },
+        { "letter": "C", "text": "It stays the same", "correct": false },
+        { "letter": "D", "text": "It disappears", "correct": false }
+      ],
+      "explanation": "As the filaments slide, the sarcomere shortens during contraction."
+    },
+    {
+      "id": "B3.3-005",
+      "level": "HL",
+      "statement": "B3.3.2",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "The two main filament proteins involved in the sliding filament model are:",
+      "options": [
+        { "letter": "A", "text": "Actin and myosin", "correct": true },
+        { "letter": "B", "text": "Collagen and keratin", "correct": false },
+        { "letter": "C", "text": "Haemoglobin and insulin", "correct": false },
+        { "letter": "D", "text": "Cellulose and chitin", "correct": false }
+      ],
+      "explanation": "Actin (thin) and myosin (thick) filaments slide past each other during contraction."
+    },
+    {
+      "id": "B3.3-006",
+      "level": "HL",
+      "statement": "B3.3.3",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "The role of the protein titin is to:",
+      "options": [
+        { "letter": "A", "text": "Help sarcomeres recoil and prevent overstretching", "correct": true },
+        { "letter": "B", "text": "Actively pull filaments together", "correct": false },
+        { "letter": "C", "text": "Transport oxygen", "correct": false },
+        { "letter": "D", "text": "Digest actin", "correct": false }
+      ],
+      "explanation": "The huge protein titin helps sarcomeres recoil after stretching and prevents them from overstretching."
+    },
+    {
+      "id": "B3.3-007",
+      "level": "HL",
+      "statement": "B3.3.3",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "Muscle tissue can only exert force when it contracts, not when it relaxes.",
+      "stem": "Why are antagonistic muscles needed?",
+      "options": [
+        { "letter": "A", "text": "One muscle's contraction is needed to reverse another's movement", "correct": true },
+        { "letter": "B", "text": "Muscles can push as well as pull", "correct": false },
+        { "letter": "C", "text": "Muscles never need to relax", "correct": false },
+        { "letter": "D", "text": "A single muscle can move a joint both ways", "correct": false }
+      ],
+      "explanation": "Because muscles only pull (contract), antagonistic pairs are needed so that one can reverse the movement caused by the other."
+    },
+    {
+      "id": "B3.3-008",
+      "level": "HL",
+      "statement": "B3.3.4",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "A motor unit in skeletal muscle consists of:",
+      "options": [
+        { "letter": "A", "text": "A motor neuron and the muscle fibres it controls", "correct": true },
+        { "letter": "B", "text": "Only a single sarcomere", "correct": false },
+        { "letter": "C", "text": "Two bones and a joint", "correct": false },
+        { "letter": "D", "text": "A tendon alone", "correct": false }
+      ],
+      "explanation": "A motor unit includes a motor neuron, the muscle fibres it stimulates and the neuromuscular junctions connecting them."
+    },
+    {
+      "id": "B3.3-009",
+      "level": "HL",
+      "statement": "B3.3.4",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "The connection between a motor neuron and a muscle fibre is called the:",
+      "options": [
+        { "letter": "A", "text": "Neuromuscular junction", "correct": true },
+        { "letter": "B", "text": "Synovial joint", "correct": false },
+        { "letter": "C", "text": "Sieve plate", "correct": false },
+        { "letter": "D", "text": "Sarcomere", "correct": false }
+      ],
+      "explanation": "The neuromuscular junction connects a motor neuron to the muscle fibres it controls."
+    },
+    {
+      "id": "B3.3-010",
+      "level": "HL",
+      "statement": "B3.3.5",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Skeletons act as anchorage for muscles and as:",
+      "options": [
+        { "letter": "A", "text": "Levers", "correct": true },
+        { "letter": "B", "text": "Enzymes", "correct": false },
+        { "letter": "C", "text": "Gas-exchange surfaces", "correct": false },
+        { "letter": "D", "text": "Energy stores", "correct": false }
+      ],
+      "explanation": "Skeletons provide anchorage for muscles and act as levers to produce movement."
+    },
+    {
+      "id": "B3.3-011",
+      "level": "HL",
+      "statement": "B3.3.5",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Arthropods have exoskeletons, whereas vertebrates have:",
+      "options": [
+        { "letter": "A", "text": "Endoskeletons", "correct": true },
+        { "letter": "B", "text": "No skeletons", "correct": false },
+        { "letter": "C", "text": "Only exoskeletons too", "correct": false },
+        { "letter": "D", "text": "Hydrostatic skeletons only", "correct": false }
+      ],
+      "explanation": "Arthropods have exoskeletons; vertebrates have internal endoskeletons."
+    },
+    {
+      "id": "B3.3-012",
+      "level": "HL",
+      "statement": "B3.3.6",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "The human hip is used as an example of a synovial joint.",
+      "stem": "Which structure reduces friction within a synovial joint?",
+      "options": [
+        { "letter": "A", "text": "Synovial fluid", "correct": true },
+        { "letter": "B", "text": "A tendon", "correct": false },
+        { "letter": "C", "text": "The femur", "correct": false },
+        { "letter": "D", "text": "A motor neuron", "correct": false }
+      ],
+      "explanation": "Synovial fluid lubricates the joint, reducing friction; cartilage also cushions the bone ends."
+    },
+    {
+      "id": "B3.3-013",
+      "level": "HL",
+      "statement": "B3.3.6",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "At a synovial joint, what connects muscle to bone?",
+      "options": [
+        { "letter": "A", "text": "Tendons", "correct": true },
+        { "letter": "B", "text": "Ligaments", "correct": false },
+        { "letter": "C", "text": "Cartilage", "correct": false },
+        { "letter": "D", "text": "Synovial fluid", "correct": false }
+      ],
+      "explanation": "Tendons connect muscle to bone; ligaments connect bone to bone."
+    },
+    {
+      "id": "B3.3-014",
+      "level": "HL",
+      "statement": "B3.3.6",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "In the human hip joint, students should be able to name which two bones?",
+      "options": [
+        { "letter": "A", "text": "The femur and the pelvis", "correct": true },
+        { "letter": "B", "text": "The humerus and the radius", "correct": false },
+        { "letter": "C", "text": "The tibia and the fibula", "correct": false },
+        { "letter": "D", "text": "The skull and the jaw", "correct": false }
+      ],
+      "explanation": "For the hip joint, students should be able to name the femur and the pelvis."
+    },
+    {
+      "id": "B3.3-015",
+      "level": "HL",
+      "statement": "B3.3.6",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "At a synovial joint, ligaments function to:",
+      "options": [
+        { "letter": "A", "text": "Connect bone to bone and stabilize the joint", "correct": true },
+        { "letter": "B", "text": "Connect muscle to bone", "correct": false },
+        { "letter": "C", "text": "Reduce friction as a fluid", "correct": false },
+        { "letter": "D", "text": "Generate the nerve impulse", "correct": false }
+      ],
+      "explanation": "Ligaments connect bone to bone, helping to stabilize the joint."
+    },
+    {
+      "id": "B3.3-016",
+      "level": "HL",
+      "statement": "B3.3.7",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "A student measures how far a joint can move in different directions.",
+      "stem": "This is measuring the joint's:",
+      "options": [
+        { "letter": "A", "text": "Range of motion", "correct": true },
+        { "letter": "B", "text": "Tidal volume", "correct": false },
+        { "letter": "C", "text": "Stomatal density", "correct": false },
+        { "letter": "D", "text": "Correlation coefficient", "correct": false }
+      ],
+      "explanation": "Range of motion is how far a joint can move; it can be compared across several dimensions."
+    },
+    {
+      "id": "B3.3-017",
+      "level": "HL",
+      "statement": "B3.3.7",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Which instrument is used to measure joint angles?",
+      "options": [
+        { "letter": "A", "text": "A goniometer", "correct": true },
+        { "letter": "B", "text": "A spirometer", "correct": false },
+        { "letter": "C", "text": "A potometer", "correct": false },
+        { "letter": "D", "text": "A thermometer", "correct": false }
+      ],
+      "explanation": "A goniometer (or computer analysis of images) is used to measure joint angles when assessing range of motion."
+    },
+    {
+      "id": "B3.3-018",
+      "level": "HL",
+      "statement": "B3.3.8",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "The internal and external intercostal muscles work as an antagonistic pair.",
+      "stem": "This means they:",
+      "options": [
+        { "letter": "A", "text": "Move the ribcage in opposite directions", "correct": true },
+        { "letter": "B", "text": "Always contract together", "correct": false },
+        { "letter": "C", "text": "Have no effect on the ribcage", "correct": false },
+        { "letter": "D", "text": "Move only the diaphragm", "correct": false }
+      ],
+      "explanation": "The differently oriented internal and external intercostals move the ribcage in opposite directions, an antagonistic action."
+    },
+    {
+      "id": "B3.3-019",
+      "level": "HL",
+      "statement": "B3.3.8",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "One layer of intercostal muscle contracts.",
+      "stem": "What happens to the other layer?",
+      "options": [
+        { "letter": "A", "text": "It is stretched, storing potential energy in titin", "correct": true },
+        { "letter": "B", "text": "It also fully contracts", "correct": false },
+        { "letter": "C", "text": "It is destroyed", "correct": false },
+        { "letter": "D", "text": "It generates a nerve impulse", "correct": false }
+      ],
+      "explanation": "When one intercostal layer contracts, it stretches the other, storing potential energy in the protein titin."
+    },
+    {
+      "id": "B3.3-020",
+      "level": "HL",
+      "statement": "B3.3.9",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Which is a reason animals use locomotion?",
+      "options": [
+        { "letter": "A", "text": "Foraging for food", "correct": true },
+        { "letter": "B", "text": "Photosynthesis", "correct": false },
+        { "letter": "C", "text": "Producing surfactant", "correct": false },
+        { "letter": "D", "text": "Transpiration", "correct": false }
+      ],
+      "explanation": "Reasons for locomotion include foraging for food, escaping danger, searching for a mate and migration."
+    },
+    {
+      "id": "B3.3-021",
+      "level": "HL",
+      "statement": "B3.3.9",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "An animal travels a long seasonal distance to a breeding ground.",
+      "stem": "This reason for locomotion is:",
+      "options": [
+        { "letter": "A", "text": "Migration", "correct": true },
+        { "letter": "B", "text": "Escaping danger", "correct": false },
+        { "letter": "C", "text": "Foraging", "correct": false },
+        { "letter": "D", "text": "Excretion", "correct": false }
+      ],
+      "explanation": "Migration is one of the reasons for locomotion, alongside foraging, escaping danger and searching for a mate."
+    },
+    {
+      "id": "B3.3-022",
+      "level": "HL",
+      "statement": "B3.3.10",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Which is an adaptation for swimming in marine mammals?",
+      "options": [
+        { "letter": "A", "text": "A streamlined body and limbs modified into flippers", "correct": true },
+        { "letter": "B", "text": "A thick waxy cuticle", "correct": false },
+        { "letter": "C", "text": "Sieve plates", "correct": false },
+        { "letter": "D", "text": "Root pressure", "correct": false }
+      ],
+      "explanation": "Marine mammals show streamlining, flippers, a tail fluke and airway changes for periodic breathing between dives."
+    },
+    {
+      "id": "B3.3-023",
+      "level": "HL",
+      "statement": "B3.3.10",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "A whale's tail moves up and down to propel it through water.",
+      "stem": "This tail structure is called a:",
+      "options": [
+        { "letter": "A", "text": "Fluke", "correct": true },
+        { "letter": "B", "text": "Flipper", "correct": false },
+        { "letter": "C", "text": "Sarcomere", "correct": false },
+        { "letter": "D", "text": "Tendon", "correct": false }
+      ],
+      "explanation": "The tail of marine mammals forms a fluke that moves up and down for swimming."
+    },
+    {
+      "id": "B3.3-024",
+      "level": "HL",
+      "statement": "B3.3.2",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "The functional contractile unit of a muscle fibre is the:",
+      "options": [
+        { "letter": "A", "text": "Sarcomere", "correct": true },
+        { "letter": "B", "text": "Alveolus", "correct": false },
+        { "letter": "C", "text": "Nephron", "correct": false },
+        { "letter": "D", "text": "Synovial capsule", "correct": false }
+      ],
+      "explanation": "The sarcomere is the functional contractile unit that shortens when actin and myosin slide past each other."
+    },
+    {
+      "id": "B3.3-025",
+      "level": "HL",
+      "statement": "B3.3.3",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Titin is described as an 'immense' protein because it:",
+      "options": [
+        { "letter": "A", "text": "Is very large, spanning much of the sarcomere", "correct": true },
+        { "letter": "B", "text": "Is the smallest known protein", "correct": false },
+        { "letter": "C", "text": "Contains no amino acids", "correct": false },
+        { "letter": "D", "text": "Is a carbohydrate", "correct": false }
+      ],
+      "explanation": "Titin is a very large protein that helps the sarcomere recoil and prevents overstretching."
+    },
+    {
+      "id": "B3.3-026",
+      "level": "HL",
+      "statement": "B3.3.4",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "A single motor neuron stimulates a group of muscle fibres.",
+      "stem": "When the neuron fires, these fibres will:",
+      "options": [
+        { "letter": "A", "text": "Contract together as one unit", "correct": true },
+        { "letter": "B", "text": "Each contract at random times", "correct": false },
+        { "letter": "C", "text": "Never contract", "correct": false },
+        { "letter": "D", "text": "Relax individually", "correct": false }
+      ],
+      "explanation": "All fibres in a motor unit are stimulated by the same neuron, so they contract together."
+    },
+    {
+      "id": "B3.3-027",
+      "level": "HL",
+      "statement": "B3.3.5",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "A muscle contracts and pulls on a bone, which pivots at a joint.",
+      "stem": "The bone is acting as a:",
+      "options": [
+        { "letter": "A", "text": "Lever", "correct": true },
+        { "letter": "B", "text": "Pump", "correct": false },
+        { "letter": "C", "text": "Gas-exchange surface", "correct": false },
+        { "letter": "D", "text": "Filter", "correct": false }
+      ],
+      "explanation": "Bones act as levers, with muscles anchored to them producing movement about a joint."
+    },
+    {
+      "id": "B3.3-028",
+      "level": "HL",
+      "statement": "B3.3.6",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Cartilage at the ends of bones in a synovial joint functions to:",
+      "options": [
+        { "letter": "A", "text": "Cushion and reduce friction between bones", "correct": true },
+        { "letter": "B", "text": "Connect muscle to bone", "correct": false },
+        { "letter": "C", "text": "Generate ATP", "correct": false },
+        { "letter": "D", "text": "Produce nerve impulses", "correct": false }
+      ],
+      "explanation": "Cartilage covers the bone ends, cushioning them and, with synovial fluid, reducing friction."
+    },
+    {
+      "id": "B3.3-029",
+      "level": "HL",
+      "statement": "B3.3.7",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Comparing the range of motion of a joint 'in a number of dimensions' means measuring how it moves:",
+      "options": [
+        { "letter": "A", "text": "In several directions or planes", "correct": true },
+        { "letter": "B", "text": "Only forwards", "correct": false },
+        { "letter": "C", "text": "Only once", "correct": false },
+        { "letter": "D", "text": "Without any measurement", "correct": false }
+      ],
+      "explanation": "Range of motion is compared across several dimensions (directions/planes) using tools like a goniometer."
+    },
+    {
+      "id": "B3.3-030",
+      "level": "HL",
+      "statement": "B3.3.8",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "The different fibre orientations of the internal and external intercostals allow them to:",
+      "options": [
+        { "letter": "A", "text": "Move the ribcage in opposite directions", "correct": true },
+        { "letter": "B", "text": "Move the ribcage in the same direction", "correct": false },
+        { "letter": "C", "text": "Have no combined effect", "correct": false },
+        { "letter": "D", "text": "Replace the diaphragm", "correct": false }
+      ],
+      "explanation": "Because their fibres run in different orientations, the two intercostal layers move the ribcage in opposite directions."
+    },
+    {
+      "id": "B3.3-031",
+      "level": "HL",
+      "statement": "B3.3.1",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Studying both a motile and a sessile species helps students:",
+      "options": [
+        { "letter": "A", "text": "Explore the concept of movement across organisms", "correct": true },
+        { "letter": "B", "text": "Prove all organisms are motile", "correct": false },
+        { "letter": "C", "text": "Show movement is unimportant", "correct": false },
+        { "letter": "D", "text": "Avoid studying movement", "correct": false }
+      ],
+      "explanation": "Comparing a motile and a sessile species helps explore the range of adaptations for movement in living organisms."
+    },
+    {
+      "id": "B3.3-032",
+      "level": "HL",
+      "statement": "B3.3.2",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "During contraction, do the actin and myosin filaments themselves shorten?",
+      "stem": "According to the sliding filament model:",
+      "options": [
+        { "letter": "A", "text": "No, they slide past each other without shortening", "correct": true },
+        { "letter": "B", "text": "Yes, both filaments shorten", "correct": false },
+        { "letter": "C", "text": "Only myosin shortens", "correct": false },
+        { "letter": "D", "text": "Only actin shortens", "correct": false }
+      ],
+      "explanation": "The filaments do not shorten; they slide past each other, shortening the sarcomere overall."
+    },
+    {
+      "id": "B3.3-033",
+      "level": "HL",
+      "statement": "B3.3.3",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "After a stretched muscle is released, the sarcomere returns to its resting length.",
+      "stem": "Which protein assists this recoil?",
+      "options": [
+        { "letter": "A", "text": "Titin", "correct": true },
+        { "letter": "B", "text": "Collagen", "correct": false },
+        { "letter": "C", "text": "Haemoglobin", "correct": false },
+        { "letter": "D", "text": "Clathrin", "correct": false }
+      ],
+      "explanation": "Titin helps the sarcomere recoil after being stretched and prevents overstretching."
+    },
+    {
+      "id": "B3.3-034",
+      "level": "HL",
+      "statement": "B3.3.5",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "An advantage of an endoskeleton over an exoskeleton is that it:",
+      "options": [
+        { "letter": "A", "text": "Can grow with the organism without being shed", "correct": true },
+        { "letter": "B", "text": "Must be moulted to grow", "correct": false },
+        { "letter": "C", "text": "Provides no anchorage for muscles", "correct": false },
+        { "letter": "D", "text": "Cannot act as a lever", "correct": false }
+      ],
+      "explanation": "An internal endoskeleton can grow with the vertebrate, whereas an exoskeleton must be moulted to allow growth."
+    },
+    {
+      "id": "B3.3-035",
+      "level": "HL",
+      "statement": "B3.3.6",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Which set of structures is involved in movement at a synovial joint?",
+      "options": [
+        { "letter": "A", "text": "Bones, cartilage, synovial fluid, ligaments, muscles and tendons", "correct": true },
+        { "letter": "B", "text": "Alveoli, bronchioles and surfactant", "correct": false },
+        { "letter": "C", "text": "Xylem, phloem and companion cells", "correct": false },
+        { "letter": "D", "text": "Actin only", "correct": false }
+      ],
+      "explanation": "Movement at a synovial joint involves bones, cartilage, synovial fluid, ligaments, muscles and tendons."
+    },
+    {
+      "id": "B3.3-036",
+      "level": "HL",
+      "statement": "B3.3.4",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "The strength of a muscle contraction can be increased by recruiting:",
+      "options": [
+        { "letter": "A", "text": "More motor units", "correct": true },
+        { "letter": "B", "text": "Fewer motor units", "correct": false },
+        { "letter": "C", "text": "No motor units", "correct": false },
+        { "letter": "D", "text": "Only tendons", "correct": false }
+      ],
+      "explanation": "Recruiting more motor units brings more muscle fibres into action, increasing the force of contraction."
+    },
+    {
+      "id": "B3.3-037",
+      "level": "HL",
+      "statement": "B3.3.9",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "An animal runs away from a predator.",
+      "stem": "This reason for locomotion is:",
+      "options": [
+        { "letter": "A", "text": "Escaping from danger", "correct": true },
+        { "letter": "B", "text": "Foraging for food", "correct": false },
+        { "letter": "C", "text": "Searching for a mate", "correct": false },
+        { "letter": "D", "text": "Migration", "correct": false }
+      ],
+      "explanation": "Escaping from danger is one reason for locomotion, along with foraging, mating and migration."
+    },
+    {
+      "id": "B3.3-038",
+      "level": "HL",
+      "statement": "B3.3.10",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "A marine mammal must breathe air but spends time underwater.",
+      "stem": "Which adaptation supports this lifestyle?",
+      "options": [
+        { "letter": "A", "text": "Changes to the airways to allow periodic breathing between dives", "correct": true },
+        { "letter": "B", "text": "Gills for underwater breathing", "correct": false },
+        { "letter": "C", "text": "Stomata", "correct": false },
+        { "letter": "D", "text": "A waxy cuticle", "correct": false }
+      ],
+      "explanation": "Marine mammals have airway changes allowing periodic breathing between dives, alongside streamlining and flippers."
+    },
+    {
+      "id": "B3.3-039",
+      "level": "HL",
+      "statement": "B3.3.7",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Which method could be used to measure a joint's range of motion?",
+      "options": [
+        { "letter": "A", "text": "Computer analysis of images or a goniometer", "correct": true },
+        { "letter": "B", "text": "A spirometer", "correct": false },
+        { "letter": "C", "text": "A leaf cast", "correct": false },
+        { "letter": "D", "text": "A potometer", "correct": false }
+      ],
+      "explanation": "Joint angles for range of motion are measured using computer image analysis or a goniometer."
+    },
+    {
+      "id": "B3.3-040",
+      "level": "HL",
+      "statement": "B3.3.8",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "The intercostal muscles are given as an example of antagonistic action facilitating:",
+      "options": [
+        { "letter": "A", "text": "Internal body movements (of the ribcage)", "correct": true },
+        { "letter": "B", "text": "Locomotion across the ground", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "Digestion", "correct": false }
+      ],
+      "explanation": "The intercostals illustrate antagonistic muscle action producing internal body movements of the ribcage."
+    },
+    {
+      "id": "B3.3-041",
+      "level": "HL",
+      "statement": "B3.3.3",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "A biceps and triceps work as an antagonistic pair at the elbow.",
+      "stem": "To straighten the arm, the triceps contracts and the biceps:",
+      "options": [
+        { "letter": "A", "text": "Relaxes", "correct": true },
+        { "letter": "B", "text": "Also contracts fully", "correct": false },
+        { "letter": "C", "text": "Is destroyed", "correct": false },
+        { "letter": "D", "text": "Generates ATP for the triceps", "correct": false }
+      ],
+      "explanation": "In an antagonistic pair, one muscle relaxes as the other contracts, since muscles can only pull."
+    },
+    {
+      "id": "B3.3-042",
+      "level": "HL",
+      "statement": "B3.3.2",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "During contraction, the region where actin and myosin overlap:",
+      "options": [
+        { "letter": "A", "text": "Increases as filaments slide together", "correct": true },
+        { "letter": "B", "text": "Decreases to zero", "correct": false },
+        { "letter": "C", "text": "Stays the same", "correct": false },
+        { "letter": "D", "text": "Disappears entirely", "correct": false }
+      ],
+      "explanation": "As the filaments slide past one another during contraction, their overlap increases and the sarcomere shortens."
+    },
+    {
+      "id": "B3.3-043",
+      "level": "HL",
+      "statement": "B3.3.5",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "For a muscle to move a bone, the muscle must be:",
+      "options": [
+        { "letter": "A", "text": "Anchored to the skeleton", "correct": true },
+        { "letter": "B", "text": "Free-floating in the body", "correct": false },
+        { "letter": "C", "text": "Attached only to another muscle", "correct": false },
+        { "letter": "D", "text": "Inside the bone marrow", "correct": false }
+      ],
+      "explanation": "Skeletons provide anchorage for muscles so that muscle contraction can move the bones as levers."
+    },
+    {
+      "id": "B3.3-044",
+      "level": "HL",
+      "statement": "B3.3.9",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "An animal moves around to find a partner for reproduction.",
+      "stem": "This reason for locomotion is:",
+      "options": [
+        { "letter": "A", "text": "Searching for a mate", "correct": true },
+        { "letter": "B", "text": "Escaping danger", "correct": false },
+        { "letter": "C", "text": "Foraging for food", "correct": false },
+        { "letter": "D", "text": "Excretion", "correct": false }
+      ],
+      "explanation": "Searching for a mate is one of the reasons for locomotion, along with foraging, escaping danger and migration."
+    },
+    {
+      "id": "B3.3-045",
+      "level": "HL",
+      "statement": "B3.3.10",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Streamlining in marine mammals is beneficial because it:",
+      "options": [
+        { "letter": "A", "text": "Reduces drag while swimming", "correct": true },
+        { "letter": "B", "text": "Increases water resistance", "correct": false },
+        { "letter": "C", "text": "Prevents breathing", "correct": false },
+        { "letter": "D", "text": "Stops movement", "correct": false }
+      ],
+      "explanation": "A streamlined body reduces drag, making swimming more efficient for marine mammals."
+    },
+    {
+      "id": "B3.3-046",
+      "level": "HL",
+      "statement": "B3.3.4",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Which components make up a motor unit?",
+      "options": [
+        { "letter": "A", "text": "A motor neuron, muscle fibres and neuromuscular junctions", "correct": true },
+        { "letter": "B", "text": "Bones, cartilage and ligaments", "correct": false },
+        { "letter": "C", "text": "Xylem, phloem and companion cells", "correct": false },
+        { "letter": "D", "text": "Actin and titin only", "correct": false }
+      ],
+      "explanation": "A motor unit comprises a motor neuron, the muscle fibres it controls and the neuromuscular junctions between them."
+    },
+    {
+      "id": "B3.3-047",
+      "level": "HL",
+      "statement": "B3.3.6",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "The human hip joint allows a wide range of movement because it is a:",
+      "options": [
+        { "letter": "A", "text": "Synovial (ball-and-socket) joint", "correct": true },
+        { "letter": "B", "text": "Fixed joint", "correct": false },
+        { "letter": "C", "text": "Tendon", "correct": false },
+        { "letter": "D", "text": "Ligament", "correct": false }
+      ],
+      "explanation": "The hip is a synovial ball-and-socket joint, allowing a wide range of motion; students name the femur and pelvis."
+    },
+    {
+      "id": "B3.3-048",
+      "level": "HL",
+      "statement": "B3.3.8",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "Potential energy is stored in titin when an intercostal layer is stretched.",
+      "stem": "This stored energy can help:",
+      "options": [
+        { "letter": "A", "text": "The muscle recoil when it later contracts or relaxes", "correct": true },
+        { "letter": "B", "text": "Generate a nerve impulse", "correct": false },
+        { "letter": "C", "text": "Produce ATP directly", "correct": false },
+        { "letter": "D", "text": "Digest the muscle", "correct": false }
+      ],
+      "explanation": "Stretching stores potential energy in titin, contributing to the recoil of the sarcomere."
+    },
+    {
+      "id": "B3.3-049",
+      "level": "HL",
+      "statement": "B3.3.5",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "Which pairing of animal group and skeleton type is correct?",
+      "options": [
+        { "letter": "A", "text": "Arthropods — exoskeleton; vertebrates — endoskeleton", "correct": true },
+        { "letter": "B", "text": "Arthropods — endoskeleton; vertebrates — exoskeleton", "correct": false },
+        { "letter": "C", "text": "Both have endoskeletons", "correct": false },
+        { "letter": "D", "text": "Neither has a skeleton", "correct": false }
+      ],
+      "explanation": "Arthropods have exoskeletons; vertebrates have endoskeletons, both anchoring muscles and acting as levers."
+    },
+    {
+      "id": "B3.3-050",
+      "level": "HL",
+      "statement": "B3.3.2",
+      "category": "B3.3 Muscle and motility",
+      "scenario": "",
+      "stem": "The sliding filament model explains how a muscle:",
+      "options": [
+        { "letter": "A", "text": "Generates force and shortens during contraction", "correct": true },
+        { "letter": "B", "text": "Produces new bone", "correct": false },
+        { "letter": "C", "text": "Carries out gas exchange", "correct": false },
+        { "letter": "D", "text": "Transports water", "correct": false }
+      ],
+      "explanation": "The sliding filament model explains muscle contraction as actin and myosin sliding to shorten sarcomeres and generate force."
+    }
+  ]
+}

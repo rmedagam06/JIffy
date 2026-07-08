@@ -1,0 +1,760 @@
+{
+  "id": "B4.1",
+  "name": "Adaptation to environment",
+  "theme": "B",
+  "themeName": "Form and function",
+  "levelOfOrganization": "Ecosystems",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "B4.1-001",
+      "level": "SL",
+      "statement": "B4.1.1",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "A habitat is best defined as:",
+      "options": [
+        { "letter": "A", "text": "The place in which an organism, population, species or community lives", "correct": true },
+        { "letter": "B", "text": "The role of a species in an ecosystem", "correct": false },
+        { "letter": "C", "text": "The total number of species on Earth", "correct": false },
+        { "letter": "D", "text": "A single cell's function", "correct": false }
+      ],
+      "explanation": "A habitat is the place where a community, species, population or organism lives."
+    },
+    {
+      "id": "B4.1-002",
+      "level": "SL",
+      "statement": "B4.1.1",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "A description of a species' habitat can include:",
+      "options": [
+        { "letter": "A", "text": "Geographical and physical location and ecosystem type", "correct": true },
+        { "letter": "B", "text": "Only its DNA sequence", "correct": false },
+        { "letter": "C", "text": "Only the number of chromosomes", "correct": false },
+        { "letter": "D", "text": "Only its common name", "correct": false }
+      ],
+      "explanation": "Habitat descriptions can include geographical and physical location and the type of ecosystem."
+    },
+    {
+      "id": "B4.1-003",
+      "level": "SL",
+      "statement": "B4.1.2",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A grass species grows on shifting, dry sand dunes.",
+      "stem": "Its features that suit it to this environment are examples of:",
+      "options": [
+        { "letter": "A", "text": "Adaptations to the abiotic environment", "correct": true },
+        { "letter": "B", "text": "Random variation with no function", "correct": false },
+        { "letter": "C", "text": "Ecosystem loss", "correct": false },
+        { "letter": "D", "text": "Speciation", "correct": false }
+      ],
+      "explanation": "Features suiting an organism to non-living conditions, like a dune grass, are adaptations to the abiotic environment."
+    },
+    {
+      "id": "B4.1-004",
+      "level": "SL",
+      "statement": "B4.1.2",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A tree species grows in salty, waterlogged mangrove swamps.",
+      "stem": "Its specialized features are adaptations to:",
+      "options": [
+        { "letter": "A", "text": "The abiotic conditions of its habitat", "correct": true },
+        { "letter": "B", "text": "The behaviour of predators", "correct": false },
+        { "letter": "C", "text": "Its own genome size", "correct": false },
+        { "letter": "D", "text": "Classification systems", "correct": false }
+      ],
+      "explanation": "Mangrove trees show adaptations to abiotic conditions such as salinity and waterlogging."
+    },
+    {
+      "id": "B4.1-005",
+      "level": "SL",
+      "statement": "B4.1.3",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "An abiotic variable is a factor that is:",
+      "options": [
+        { "letter": "A", "text": "Non-living, such as temperature or pH", "correct": true },
+        { "letter": "B", "text": "Living, such as a predator", "correct": false },
+        { "letter": "C", "text": "Always genetic", "correct": false },
+        { "letter": "D", "text": "A type of organism", "correct": false }
+      ],
+      "explanation": "Abiotic variables are non-living factors such as temperature, light and pH that can affect species distribution."
+    },
+    {
+      "id": "B4.1-006",
+      "level": "SL",
+      "statement": "B4.1.3",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "The adaptations of a species give it a range of:",
+      "options": [
+        { "letter": "A", "text": "Tolerance to an abiotic variable", "correct": true },
+        { "letter": "B", "text": "Chromosome numbers", "correct": false },
+        { "letter": "C", "text": "Common names", "correct": false },
+        { "letter": "D", "text": "Predators", "correct": false }
+      ],
+      "explanation": "A species' adaptations give it a range of tolerance for abiotic variables, affecting where it can live."
+    },
+    {
+      "id": "B4.1-007",
+      "level": "SL",
+      "statement": "B4.1.4",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A student samples plants along a line across a habitat to relate distribution to soil pH.",
+      "stem": "This sampling method is called a:",
+      "options": [
+        { "letter": "A", "text": "Transect", "correct": true },
+        { "letter": "B", "text": "Karyogram", "correct": false },
+        { "letter": "C", "text": "Cladogram", "correct": false },
+        { "letter": "D", "text": "Spirometer trace", "correct": false }
+      ],
+      "explanation": "A transect is a line along which data are collected to correlate species distribution with an abiotic variable."
+    },
+    {
+      "id": "B4.1-008",
+      "level": "SL",
+      "statement": "B4.1.4",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A semi-natural habitat is used for fieldwork.",
+      "stem": "A semi-natural habitat is one that:",
+      "options": [
+        { "letter": "A", "text": "Has been influenced by humans but is dominated by wild species", "correct": true },
+        { "letter": "B", "text": "Is completely untouched by humans", "correct": false },
+        { "letter": "C", "text": "Contains only cultivated crops", "correct": false },
+        { "letter": "D", "text": "Has no living organisms", "correct": false }
+      ],
+      "explanation": "Semi-natural habitats have been influenced by humans but are dominated by wild rather than cultivated species."
+    },
+    {
+      "id": "B4.1-009",
+      "level": "SL",
+      "statement": "B4.1.4",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which device could measure an abiotic variable during fieldwork?",
+      "options": [
+        { "letter": "A", "text": "A light or temperature sensor", "correct": true },
+        { "letter": "B", "text": "A cladogram", "correct": false },
+        { "letter": "C", "text": "A Punnett square", "correct": false },
+        { "letter": "D", "text": "A karyogram", "correct": false }
+      ],
+      "explanation": "Sensors can measure abiotic variables such as temperature, light intensity and soil pH."
+    },
+    {
+      "id": "B4.1-010",
+      "level": "SL",
+      "statement": "B4.1.5",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "Coral reefs are used as an example of a marine ecosystem.",
+      "stem": "Which factor is required for coral reef formation?",
+      "options": [
+        { "letter": "A", "text": "Warm, clear, shallow water", "correct": true },
+        { "letter": "B", "text": "Deep, cold, murky water", "correct": false },
+        { "letter": "C", "text": "Freshwater with no salt", "correct": false },
+        { "letter": "D", "text": "Complete darkness", "correct": false }
+      ],
+      "explanation": "Coral reef formation requires suitable water depth, pH, salinity, clarity and temperature — generally warm, clear, shallow water."
+    },
+    {
+      "id": "B4.1-011",
+      "level": "SL",
+      "statement": "B4.1.5",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which of these is a factor affecting coral reef formation?",
+      "options": [
+        { "letter": "A", "text": "Salinity", "correct": true },
+        { "letter": "B", "text": "Soil nitrogen", "correct": false },
+        { "letter": "C", "text": "Wind speed on land", "correct": false },
+        { "letter": "D", "text": "The number of genes in coral", "correct": false }
+      ],
+      "explanation": "Factors for coral reef formation include water depth, pH, salinity, clarity and temperature."
+    },
+    {
+      "id": "B4.1-012",
+      "level": "SL",
+      "statement": "B4.1.6",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which two climatic variables largely determine which terrestrial biome develops?",
+      "options": [
+        { "letter": "A", "text": "Temperature and rainfall", "correct": true },
+        { "letter": "B", "text": "pH and salinity", "correct": false },
+        { "letter": "C", "text": "Genome size and chromosome number", "correct": false },
+        { "letter": "D", "text": "Predation and competition only", "correct": false }
+      ],
+      "explanation": "For a given temperature and rainfall pattern, one natural ecosystem type is likely to develop."
+    },
+    {
+      "id": "B4.1-013",
+      "level": "SL",
+      "statement": "B4.1.6",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Abiotic factors are described as the determinants of:",
+      "options": [
+        { "letter": "A", "text": "Terrestrial biome distribution", "correct": true },
+        { "letter": "B", "text": "The genetic code", "correct": false },
+        { "letter": "C", "text": "Chromosome number", "correct": false },
+        { "letter": "D", "text": "Protein structure", "correct": false }
+      ],
+      "explanation": "Abiotic factors, chiefly temperature and rainfall, determine which terrestrial biome develops in a region."
+    },
+    {
+      "id": "B4.1-014",
+      "level": "SL",
+      "statement": "B4.1.7",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "A biome is a group of ecosystems with similar communities due to:",
+      "options": [
+        { "letter": "A", "text": "Similar abiotic conditions and convergent evolution", "correct": true },
+        { "letter": "B", "text": "Sharing exactly the same species", "correct": false },
+        { "letter": "C", "text": "Having identical DNA", "correct": false },
+        { "letter": "D", "text": "Being in the same country", "correct": false }
+      ],
+      "explanation": "Biomes are groups of ecosystems with similar communities arising from similar abiotic conditions and convergent evolution."
+    },
+    {
+      "id": "B4.1-015",
+      "level": "SL",
+      "statement": "B4.1.7",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which of these is one of the biomes students should recognise by its climate?",
+      "options": [
+        { "letter": "A", "text": "Tropical forest", "correct": true },
+        { "letter": "B", "text": "Coral reef", "correct": false },
+        { "letter": "C", "text": "The open ocean", "correct": false },
+        { "letter": "D", "text": "A single pond", "correct": false }
+      ],
+      "explanation": "Recognised terrestrial biomes include tropical forest, temperate forest, taiga, grassland, tundra and hot desert."
+    },
+    {
+      "id": "B4.1-016",
+      "level": "SL",
+      "statement": "B4.1.8",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A desert plant has thick, waxy leaves and stores water in its stem.",
+      "stem": "These are adaptations to life in a:",
+      "options": [
+        { "letter": "A", "text": "Hot desert", "correct": true },
+        { "letter": "B", "text": "Tropical rainforest floor", "correct": false },
+        { "letter": "C", "text": "Coral reef", "correct": false },
+        { "letter": "D", "text": "Tundra bog", "correct": false }
+      ],
+      "explanation": "Water-conserving features such as waxy leaves and water storage are adaptations to hot deserts."
+    },
+    {
+      "id": "B4.1-017",
+      "level": "SL",
+      "statement": "B4.1.8",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A rainforest plant grows tall quickly to reach light through dense canopy.",
+      "stem": "This is an adaptation to life in:",
+      "options": [
+        { "letter": "A", "text": "Tropical rainforest", "correct": true },
+        { "letter": "B", "text": "Hot desert", "correct": false },
+        { "letter": "C", "text": "Tundra", "correct": false },
+        { "letter": "D", "text": "Taiga", "correct": false }
+      ],
+      "explanation": "Rapid growth toward light is an adaptation to the tropical rainforest, where competition for light is intense."
+    },
+    {
+      "id": "B4.1-018",
+      "level": "SL",
+      "statement": "B4.1.1",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which correctly matches the term 'habitat'?",
+      "options": [
+        { "letter": "A", "text": "Where an organism lives", "correct": true },
+        { "letter": "B", "text": "What an organism does in its ecosystem", "correct": false },
+        { "letter": "C", "text": "The organism's genome", "correct": false },
+        { "letter": "D", "text": "The number of offspring produced", "correct": false }
+      ],
+      "explanation": "Habitat is where an organism lives; the role it plays is its ecological niche."
+    },
+    {
+      "id": "B4.1-019",
+      "level": "SL",
+      "statement": "B4.1.3",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A plant can only survive within a certain range of soil pH.",
+      "stem": "Outside this range it cannot thrive because it has exceeded its:",
+      "options": [
+        { "letter": "A", "text": "Range of tolerance", "correct": true },
+        { "letter": "B", "text": "Fundamental habitat", "correct": false },
+        { "letter": "C", "text": "Genome size", "correct": false },
+        { "letter": "D", "text": "Number of chromosomes", "correct": false }
+      ],
+      "explanation": "Each species has a range of tolerance for an abiotic variable; beyond it, the species cannot survive well."
+    },
+    {
+      "id": "B4.1-020",
+      "level": "SL",
+      "statement": "B4.1.4",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A transect shows a plant becomes more common as soil moisture increases.",
+      "stem": "This suggests the plant's distribution is:",
+      "options": [
+        { "letter": "A", "text": "Correlated with soil moisture", "correct": true },
+        { "letter": "B", "text": "Random", "correct": false },
+        { "letter": "C", "text": "Unrelated to any abiotic factor", "correct": false },
+        { "letter": "D", "text": "Determined only by predators", "correct": false }
+      ],
+      "explanation": "Transect data can reveal correlations between species distribution and abiotic variables such as soil moisture."
+    },
+    {
+      "id": "B4.1-021",
+      "level": "SL",
+      "statement": "B4.1.2",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Adaptations of organisms to the abiotic environment mean their features:",
+      "options": [
+        { "letter": "A", "text": "Suit them to the non-living conditions of their habitat", "correct": true },
+        { "letter": "B", "text": "Have no relationship to their surroundings", "correct": false },
+        { "letter": "C", "text": "Only respond to other organisms", "correct": false },
+        { "letter": "D", "text": "Are the same in every habitat", "correct": false }
+      ],
+      "explanation": "Adaptations to the abiotic environment are features that suit organisms to non-living conditions like temperature and salinity."
+    },
+    {
+      "id": "B4.1-022",
+      "level": "SL",
+      "statement": "B4.1.7",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which biome is characterised by cold conditions and coniferous forest?",
+      "options": [
+        { "letter": "A", "text": "Taiga", "correct": true },
+        { "letter": "B", "text": "Hot desert", "correct": false },
+        { "letter": "C", "text": "Tropical forest", "correct": false },
+        { "letter": "D", "text": "Grassland", "correct": false }
+      ],
+      "explanation": "The taiga (boreal forest) is a cold biome dominated by coniferous trees."
+    },
+    {
+      "id": "B4.1-023",
+      "level": "SL",
+      "statement": "B4.1.7",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "Two rainforests on different continents contain unrelated species that look and function similarly.",
+      "stem": "This similarity between biomes is largely due to:",
+      "options": [
+        { "letter": "A", "text": "Similar abiotic conditions driving convergent evolution", "correct": true },
+        { "letter": "B", "text": "Recent common ancestry of all the species", "correct": false },
+        { "letter": "C", "text": "The species being identical", "correct": false },
+        { "letter": "D", "text": "Random chance only", "correct": false }
+      ],
+      "explanation": "Similar communities in the same biome on different continents arise from similar abiotic conditions and convergent evolution."
+    },
+    {
+      "id": "B4.1-024",
+      "level": "SL",
+      "statement": "B4.1.6",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A graph plots biome distribution against temperature and rainfall.",
+      "stem": "What does such a graph show?",
+      "options": [
+        { "letter": "A", "text": "Which biome develops for a given temperature and rainfall", "correct": true },
+        { "letter": "B", "text": "The DNA sequence of each species", "correct": false },
+        { "letter": "C", "text": "The number of predators", "correct": false },
+        { "letter": "D", "text": "The chromosome number of plants", "correct": false }
+      ],
+      "explanation": "Such graphs show how biomes are distributed according to the two climatic variables of temperature and rainfall."
+    },
+    {
+      "id": "B4.1-025",
+      "level": "SL",
+      "statement": "B4.1.8",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A desert animal is active at night and rests in burrows by day.",
+      "stem": "This behaviour is an adaptation to:",
+      "options": [
+        { "letter": "A", "text": "Avoiding extreme daytime heat and water loss", "correct": true },
+        { "letter": "B", "text": "Cold rainforest conditions", "correct": false },
+        { "letter": "C", "text": "Deep ocean life", "correct": false },
+        { "letter": "D", "text": "High salinity only", "correct": false }
+      ],
+      "explanation": "Being nocturnal and sheltering by day are adaptations that help desert animals avoid heat and reduce water loss."
+    },
+    {
+      "id": "B4.1-026",
+      "level": "SL",
+      "statement": "B4.1.1",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which of these could be part of a habitat description?",
+      "options": [
+        { "letter": "A", "text": "The type of ecosystem the organism lives in", "correct": true },
+        { "letter": "B", "text": "The organism's amino acid sequence", "correct": false },
+        { "letter": "C", "text": "The number of ribosomes per cell", "correct": false },
+        { "letter": "D", "text": "The organism's molecular clock", "correct": false }
+      ],
+      "explanation": "A habitat description can include geographical and physical location and the type of ecosystem."
+    },
+    {
+      "id": "B4.1-027",
+      "level": "SL",
+      "statement": "B4.1.3",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which is an example of an abiotic variable affecting animals?",
+      "options": [
+        { "letter": "A", "text": "Temperature", "correct": true },
+        { "letter": "B", "text": "The presence of predators", "correct": false },
+        { "letter": "C", "text": "Competition for mates", "correct": false },
+        { "letter": "D", "text": "Availability of prey", "correct": false }
+      ],
+      "explanation": "Abiotic variables are non-living factors such as temperature; predators, mates and prey are biotic factors."
+    },
+    {
+      "id": "B4.1-028",
+      "level": "SL",
+      "statement": "B4.1.5",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A coral reef is found in shallow, sunlit water.",
+      "stem": "Why is water clarity important for reefs?",
+      "options": [
+        { "letter": "A", "text": "It allows light to reach the reef for photosynthesis", "correct": true },
+        { "letter": "B", "text": "It removes all salt", "correct": false },
+        { "letter": "C", "text": "It cools the water to freezing", "correct": false },
+        { "letter": "D", "text": "It blocks all light", "correct": false }
+      ],
+      "explanation": "Clear water lets light reach the reef, supporting the photosynthetic algae associated with corals."
+    },
+    {
+      "id": "B4.1-029",
+      "level": "SL",
+      "statement": "B4.1.7",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which biome is characterised by very cold conditions and low-growing vegetation with no trees?",
+      "options": [
+        { "letter": "A", "text": "Tundra", "correct": true },
+        { "letter": "B", "text": "Tropical forest", "correct": false },
+        { "letter": "C", "text": "Hot desert", "correct": false },
+        { "letter": "D", "text": "Temperate forest", "correct": false }
+      ],
+      "explanation": "The tundra is a very cold biome with low-growing vegetation and no trees."
+    },
+    {
+      "id": "B4.1-030",
+      "level": "SL",
+      "statement": "B4.1.8",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Adaptations of species to hot deserts often focus on:",
+      "options": [
+        { "letter": "A", "text": "Conserving water", "correct": true },
+        { "letter": "B", "text": "Removing excess water", "correct": false },
+        { "letter": "C", "text": "Surviving without light", "correct": false },
+        { "letter": "D", "text": "Living underwater", "correct": false }
+      ],
+      "explanation": "Desert species commonly have adaptations for conserving water given the dry, hot conditions."
+    },
+    {
+      "id": "B4.1-031",
+      "level": "SL",
+      "statement": "B4.1.6",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A region has high temperature and low rainfall.",
+      "stem": "Which biome is most likely to develop there?",
+      "options": [
+        { "letter": "A", "text": "Hot desert", "correct": true },
+        { "letter": "B", "text": "Tropical rainforest", "correct": false },
+        { "letter": "C", "text": "Taiga", "correct": false },
+        { "letter": "D", "text": "Tundra", "correct": false }
+      ],
+      "explanation": "High temperature with low rainfall favours the development of a hot desert biome."
+    },
+    {
+      "id": "B4.1-032",
+      "level": "SL",
+      "statement": "B4.1.2",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "Mangrove trees have specialized roots that cope with waterlogged, salty soil.",
+      "stem": "These roots are an example of adaptation to:",
+      "options": [
+        { "letter": "A", "text": "Abiotic conditions of the habitat", "correct": true },
+        { "letter": "B", "text": "The behaviour of other trees", "correct": false },
+        { "letter": "C", "text": "The molecular clock", "correct": false },
+        { "letter": "D", "text": "Classification", "correct": false }
+      ],
+      "explanation": "Specialized mangrove roots are adaptations to abiotic conditions such as salinity and waterlogging."
+    },
+    {
+      "id": "B4.1-033",
+      "level": "SL",
+      "statement": "B4.1.4",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A student collects transect data from a semi-natural habitat.",
+      "stem": "Why is this preferable to inventing the data?",
+      "options": [
+        { "letter": "A", "text": "First-hand data supports valid conclusions about distribution", "correct": true },
+        { "letter": "B", "text": "Invented data is more reliable", "correct": false },
+        { "letter": "C", "text": "Real data cannot be collected", "correct": false },
+        { "letter": "D", "text": "Data is not needed at all", "correct": false }
+      ],
+      "explanation": "Students collect the data themselves so they can validly correlate species distribution with abiotic variables."
+    },
+    {
+      "id": "B4.1-034",
+      "level": "SL",
+      "statement": "B4.1.7",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Grassland and temperate forest are examples of:",
+      "options": [
+        { "letter": "A", "text": "Terrestrial biomes", "correct": true },
+        { "letter": "B", "text": "Marine ecosystems", "correct": false },
+        { "letter": "C", "text": "Individual species", "correct": false },
+        { "letter": "D", "text": "Cell types", "correct": false }
+      ],
+      "explanation": "Grassland and temperate forest are among the terrestrial biomes recognised by their climate conditions."
+    },
+    {
+      "id": "B4.1-035",
+      "level": "SL",
+      "statement": "B4.1.5",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Why does coral reef formation require relatively shallow water?",
+      "options": [
+        { "letter": "A", "text": "Enough light must reach the reef", "correct": true },
+        { "letter": "B", "text": "Deep water is too clear", "correct": false },
+        { "letter": "C", "text": "Shallow water has no salt", "correct": false },
+        { "letter": "D", "text": "Corals avoid light", "correct": false }
+      ],
+      "explanation": "Shallow depth allows sufficient light to reach the reef; depth is one of the factors for coral reef formation."
+    },
+    {
+      "id": "B4.1-036",
+      "level": "SL",
+      "statement": "B4.1.3",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Abiotic variables can affect the distribution of:",
+      "options": [
+        { "letter": "A", "text": "Both plants and animals", "correct": true },
+        { "letter": "B", "text": "Only plants", "correct": false },
+        { "letter": "C", "text": "Only animals", "correct": false },
+        { "letter": "D", "text": "Neither plants nor animals", "correct": false }
+      ],
+      "explanation": "Abiotic variables affect the distribution of both plants and animals, each within their range of tolerance."
+    },
+    {
+      "id": "B4.1-037",
+      "level": "SL",
+      "statement": "B4.1.8",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Studying named species' adaptations to deserts and rainforests illustrates that:",
+      "options": [
+        { "letter": "A", "text": "Adaptations match organisms to their habitats", "correct": true },
+        { "letter": "B", "text": "All habitats are identical", "correct": false },
+        { "letter": "C", "text": "Adaptations are unrelated to habitat", "correct": false },
+        { "letter": "D", "text": "Organisms cannot adapt", "correct": false }
+      ],
+      "explanation": "Examples of adaptations in named desert and rainforest species show how adaptations match organisms to their habitats."
+    },
+    {
+      "id": "B4.1-038",
+      "level": "SL",
+      "statement": "B4.1.1",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "The habitat of a fish species could be described as:",
+      "options": [
+        { "letter": "A", "text": "A particular coral reef in a tropical sea", "correct": true },
+        { "letter": "B", "text": "Its role as a predator", "correct": false },
+        { "letter": "C", "text": "Its number of chromosomes", "correct": false },
+        { "letter": "D", "text": "Its amino acid sequence", "correct": false }
+      ],
+      "explanation": "A habitat is a place, such as a specific coral reef, including geographical and physical location and ecosystem type."
+    },
+    {
+      "id": "B4.1-039",
+      "level": "SL",
+      "statement": "B4.1.6",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "The statement that 'for any given temperature and rainfall one natural ecosystem is likely to develop' means abiotic factors:",
+      "options": [
+        { "letter": "A", "text": "Strongly determine the type of biome", "correct": true },
+        { "letter": "B", "text": "Have no effect on biomes", "correct": false },
+        { "letter": "C", "text": "Only affect marine life", "correct": false },
+        { "letter": "D", "text": "Are the same everywhere", "correct": false }
+      ],
+      "explanation": "Temperature and rainfall largely determine which terrestrial biome develops in a region."
+    },
+    {
+      "id": "B4.1-040",
+      "level": "SL",
+      "statement": "B4.1.7",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which list contains only terrestrial biomes?",
+      "options": [
+        { "letter": "A", "text": "Tropical forest, taiga, grassland, tundra, hot desert", "correct": true },
+        { "letter": "B", "text": "Coral reef, open ocean, pond, river", "correct": false },
+        { "letter": "C", "text": "Nucleus, mitochondrion, chloroplast", "correct": false },
+        { "letter": "D", "text": "Xylem, phloem, cortex", "correct": false }
+      ],
+      "explanation": "Recognised terrestrial biomes include tropical forest, temperate forest, taiga, grassland, tundra and hot desert."
+    },
+    {
+      "id": "B4.1-041",
+      "level": "SL",
+      "statement": "B4.1.2",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A dune grass has deep, spreading roots and narrow, rolled leaves.",
+      "stem": "These features most likely help it to:",
+      "options": [
+        { "letter": "A", "text": "Anchor in shifting sand and reduce water loss", "correct": true },
+        { "letter": "B", "text": "Float on water", "correct": false },
+        { "letter": "C", "text": "Capture prey", "correct": false },
+        { "letter": "D", "text": "Survive in deep ocean", "correct": false }
+      ],
+      "explanation": "Such features are adaptations to the abiotic conditions of dry, shifting sand dunes."
+    },
+    {
+      "id": "B4.1-042",
+      "level": "SL",
+      "statement": "B4.1.5",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "If sea temperature rises too far above the tolerance of corals, reefs may:",
+      "options": [
+        { "letter": "A", "text": "Be damaged, as temperature is a key factor for reefs", "correct": true },
+        { "letter": "B", "text": "Grow faster indefinitely", "correct": false },
+        { "letter": "C", "text": "Be unaffected", "correct": false },
+        { "letter": "D", "text": "Move onto land", "correct": false }
+      ],
+      "explanation": "Temperature is one of the factors required for coral reef formation, so excessive warming can damage reefs."
+    },
+    {
+      "id": "B4.1-043",
+      "level": "SL",
+      "statement": "B4.1.3",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A species grows best at a particular light intensity and less well above or below it.",
+      "stem": "This describes its:",
+      "options": [
+        { "letter": "A", "text": "Range of tolerance for that abiotic variable", "correct": true },
+        { "letter": "B", "text": "Ecological niche only", "correct": false },
+        { "letter": "C", "text": "Genome size", "correct": false },
+        { "letter": "D", "text": "Classification", "correct": false }
+      ],
+      "explanation": "A species performs best within its range of tolerance for an abiotic variable such as light intensity."
+    },
+    {
+      "id": "B4.1-044",
+      "level": "SL",
+      "statement": "B4.1.4",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "A transect is especially useful for studying how species change:",
+      "options": [
+        { "letter": "A", "text": "Across a gradient in an abiotic variable", "correct": true },
+        { "letter": "B", "text": "Over evolutionary time only", "correct": false },
+        { "letter": "C", "text": "In their DNA sequence", "correct": false },
+        { "letter": "D", "text": "In chromosome number", "correct": false }
+      ],
+      "explanation": "Transects reveal how species distribution changes along a gradient of an abiotic variable."
+    },
+    {
+      "id": "B4.1-045",
+      "level": "SL",
+      "statement": "B4.1.7",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Convergent evolution contributes to biome similarity by producing:",
+      "options": [
+        { "letter": "A", "text": "Similar features in unrelated species facing similar conditions", "correct": true },
+        { "letter": "B", "text": "Identical genomes across continents", "correct": false },
+        { "letter": "C", "text": "The same species everywhere", "correct": false },
+        { "letter": "D", "text": "No adaptations at all", "correct": false }
+      ],
+      "explanation": "Convergent evolution produces similar adaptations in unrelated species under similar abiotic conditions, giving biomes their similarity."
+    },
+    {
+      "id": "B4.1-046",
+      "level": "SL",
+      "statement": "B4.1.1",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "The habitat of a community differs from a niche because a habitat is:",
+      "options": [
+        { "letter": "A", "text": "A place, whereas a niche is a role", "correct": true },
+        { "letter": "B", "text": "A role, whereas a niche is a place", "correct": false },
+        { "letter": "C", "text": "The same thing as a niche", "correct": false },
+        { "letter": "D", "text": "A type of adaptation", "correct": false }
+      ],
+      "explanation": "Habitat is where organisms live (a place); a niche is the role a species plays in its ecosystem."
+    },
+    {
+      "id": "B4.1-047",
+      "level": "SL",
+      "statement": "B4.1.6",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "A region has high temperature and high rainfall all year.",
+      "stem": "Which biome is most likely?",
+      "options": [
+        { "letter": "A", "text": "Tropical forest", "correct": true },
+        { "letter": "B", "text": "Hot desert", "correct": false },
+        { "letter": "C", "text": "Tundra", "correct": false },
+        { "letter": "D", "text": "Taiga", "correct": false }
+      ],
+      "explanation": "Consistently high temperature and rainfall favour the development of tropical forest."
+    },
+    {
+      "id": "B4.1-048",
+      "level": "SL",
+      "statement": "B4.1.8",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Adaptations of rainforest plants often address the challenge of:",
+      "options": [
+        { "letter": "A", "text": "Competing for light in dense vegetation", "correct": true },
+        { "letter": "B", "text": "Extreme lack of water", "correct": false },
+        { "letter": "C", "text": "Freezing temperatures", "correct": false },
+        { "letter": "D", "text": "High salinity", "correct": false }
+      ],
+      "explanation": "In tropical rainforests, competition for light is a key challenge, so many plant adaptations help capture light."
+    },
+    {
+      "id": "B4.1-049",
+      "level": "SL",
+      "statement": "B4.1.5",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Coral reefs are used in this topic as an example of a:",
+      "options": [
+        { "letter": "A", "text": "Marine ecosystem", "correct": true },
+        { "letter": "B", "text": "Terrestrial biome", "correct": false },
+        { "letter": "C", "text": "Freshwater biome", "correct": false },
+        { "letter": "D", "text": "Desert habitat", "correct": false }
+      ],
+      "explanation": "Coral reefs are used as an example of a marine ecosystem whose formation depends on several abiotic factors."
+    },
+    {
+      "id": "B4.1-050",
+      "level": "SL",
+      "statement": "B4.1.3",
+      "category": "B4.1 Adaptation to environment",
+      "scenario": "",
+      "stem": "Which best explains why a species is found only in certain areas?",
+      "options": [
+        { "letter": "A", "text": "Its range of tolerance limits it to areas with suitable abiotic conditions", "correct": true },
+        { "letter": "B", "text": "It can survive anywhere equally", "correct": false },
+        { "letter": "C", "text": "Abiotic factors never affect distribution", "correct": false },
+        { "letter": "D", "text": "Distribution is purely random", "correct": false }
+      ],
+      "explanation": "A species is limited to areas where abiotic variables fall within its range of tolerance."
+    }
+  ]
+}

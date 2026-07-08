@@ -1,0 +1,760 @@
+{
+  "id": "B2.1",
+  "name": "Membranes and membrane transport",
+  "theme": "B",
+  "themeName": "Form and function",
+  "levelOfOrganization": "Cells",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "B2.1-001",
+      "level": "SL",
+      "statement": "B2.1.1",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "What forms the basic structure of all cell membranes?",
+      "options": [
+        { "letter": "A", "text": "A lipid (phospholipid) bilayer", "correct": true },
+        { "letter": "B", "text": "A cellulose wall", "correct": false },
+        { "letter": "C", "text": "A layer of DNA", "correct": false },
+        { "letter": "D", "text": "A single sheet of protein", "correct": false }
+      ],
+      "explanation": "Amphipathic phospholipids naturally form continuous bilayers in water, the basis of cell membranes."
+    },
+    {
+      "id": "B2.1-002",
+      "level": "SL",
+      "statement": "B2.1.2",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "The hydrophobic core of a membrane has low permeability to:",
+      "options": [
+        { "letter": "A", "text": "Ions and large polar molecules", "correct": true },
+        { "letter": "B", "text": "Small non-polar molecules", "correct": false },
+        { "letter": "C", "text": "Oxygen gas", "correct": false },
+        { "letter": "D", "text": "Carbon dioxide", "correct": false }
+      ],
+      "explanation": "The hydrophobic hydrocarbon core blocks large molecules and hydrophilic particles such as ions and polar molecules."
+    },
+    {
+      "id": "B2.1-003",
+      "level": "SL",
+      "statement": "B2.1.3",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "Oxygen moves across a membrane from high to low concentration without energy or proteins.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Simple diffusion", "correct": true },
+        { "letter": "B", "text": "Active transport", "correct": false },
+        { "letter": "C", "text": "Facilitated diffusion through a channel", "correct": false },
+        { "letter": "D", "text": "Exocytosis", "correct": false }
+      ],
+      "explanation": "Small non-polar molecules like oxygen and carbon dioxide cross directly between phospholipids by simple diffusion."
+    },
+    {
+      "id": "B2.1-004",
+      "level": "SL",
+      "statement": "B2.1.4",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Integral membrane proteins are:",
+      "options": [
+        { "letter": "A", "text": "Embedded in one or both lipid layers", "correct": true },
+        { "letter": "B", "text": "Only attached to the membrane surface", "correct": false },
+        { "letter": "C", "text": "Found only outside the cell", "correct": false },
+        { "letter": "D", "text": "Made of carbohydrate", "correct": false }
+      ],
+      "explanation": "Integral proteins are embedded within the lipid layers, whereas peripheral proteins attach to a surface."
+    },
+    {
+      "id": "B2.1-005",
+      "level": "SL",
+      "statement": "B2.1.4",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Peripheral membrane proteins are:",
+      "options": [
+        { "letter": "A", "text": "Attached to one surface of the bilayer", "correct": true },
+        { "letter": "B", "text": "Fully embedded through both layers", "correct": false },
+        { "letter": "C", "text": "Located in the nucleus", "correct": false },
+        { "letter": "D", "text": "Made of phospholipid", "correct": false }
+      ],
+      "explanation": "Peripheral proteins are attached to one or other surface of the bilayer, not embedded within it."
+    },
+    {
+      "id": "B2.1-006",
+      "level": "SL",
+      "statement": "B2.1.5",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "Water moves across a membrane from a dilute to a more concentrated solution.",
+      "stem": "This movement of water is called:",
+      "options": [
+        { "letter": "A", "text": "Osmosis", "correct": true },
+        { "letter": "B", "text": "Active transport", "correct": false },
+        { "letter": "C", "text": "Endocytosis", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "Osmosis is the movement of water across a membrane from lower to higher solute concentration."
+    },
+    {
+      "id": "B2.1-007",
+      "level": "SL",
+      "statement": "B2.1.5",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Which membrane proteins speed up the movement of water by osmosis?",
+      "options": [
+        { "letter": "A", "text": "Aquaporins", "correct": true },
+        { "letter": "B", "text": "Pump proteins", "correct": false },
+        { "letter": "C", "text": "Glycolipids", "correct": false },
+        { "letter": "D", "text": "Ribosomes", "correct": false }
+      ],
+      "explanation": "Aquaporins are channel proteins that allow water to cross membranes more rapidly by osmosis."
+    },
+    {
+      "id": "B2.1-008",
+      "level": "SL",
+      "statement": "B2.1.6",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A specific ion crosses the membrane through a protein, down its concentration gradient, without using energy.",
+      "stem": "This is:",
+      "options": [
+        { "letter": "A", "text": "Facilitated diffusion through a channel protein", "correct": true },
+        { "letter": "B", "text": "Active transport", "correct": false },
+        { "letter": "C", "text": "Simple diffusion", "correct": false },
+        { "letter": "D", "text": "Exocytosis", "correct": false }
+      ],
+      "explanation": "Channel proteins allow specific ions to diffuse down their gradient when open — facilitated diffusion, needing no energy."
+    },
+    {
+      "id": "B2.1-009",
+      "level": "SL",
+      "statement": "B2.1.6",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Channel proteins make a membrane selectively permeable because they:",
+      "options": [
+        { "letter": "A", "text": "Allow only specific ions through, and only when open", "correct": true },
+        { "letter": "B", "text": "Allow every substance through equally", "correct": false },
+        { "letter": "C", "text": "Block all movement permanently", "correct": false },
+        { "letter": "D", "text": "Use ATP to open", "correct": false }
+      ],
+      "explanation": "Their structure lets specific ions diffuse through when channels are open but not when closed, giving selective permeability."
+    },
+    {
+      "id": "B2.1-010",
+      "level": "SL",
+      "statement": "B2.1.7",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A substance is moved across a membrane against its concentration gradient.",
+      "stem": "This requires:",
+      "options": [
+        { "letter": "A", "text": "Pump proteins using energy from ATP", "correct": true },
+        { "letter": "B", "text": "Simple diffusion", "correct": false },
+        { "letter": "C", "text": "Osmosis", "correct": false },
+        { "letter": "D", "text": "No energy at all", "correct": false }
+      ],
+      "explanation": "Active transport uses pump proteins powered by ATP to move particles against a concentration gradient."
+    },
+    {
+      "id": "B2.1-011",
+      "level": "SL",
+      "statement": "B2.1.7",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "The energy for active transport comes from:",
+      "options": [
+        { "letter": "A", "text": "ATP", "correct": true },
+        { "letter": "B", "text": "Sunlight directly", "correct": false },
+        { "letter": "C", "text": "The concentration gradient alone", "correct": false },
+        { "letter": "D", "text": "Heat from the environment", "correct": false }
+      ],
+      "explanation": "Pumps use energy from ATP to transfer specific particles across membranes."
+    },
+    {
+      "id": "B2.1-012",
+      "level": "SL",
+      "statement": "B2.1.8",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Which process is NOT selective, depending only on particle size and hydrophilic/hydrophobic properties?",
+      "options": [
+        { "letter": "A", "text": "Simple diffusion", "correct": true },
+        { "letter": "B", "text": "Facilitated diffusion", "correct": false },
+        { "letter": "C", "text": "Active transport", "correct": false },
+        { "letter": "D", "text": "Sodium-potassium pumping", "correct": false }
+      ],
+      "explanation": "Simple diffusion is non-selective, depending on size and hydrophobicity; facilitated diffusion and active transport are selective."
+    },
+    {
+      "id": "B2.1-013",
+      "level": "SL",
+      "statement": "B2.1.8",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Selective permeability of membranes is provided by:",
+      "options": [
+        { "letter": "A", "text": "Facilitated diffusion and active transport", "correct": true },
+        { "letter": "B", "text": "Simple diffusion only", "correct": false },
+        { "letter": "C", "text": "The cell wall", "correct": false },
+        { "letter": "D", "text": "Osmosis of solutes", "correct": false }
+      ],
+      "explanation": "Facilitated diffusion and active transport allow selective permeability; simple diffusion is not selective."
+    },
+    {
+      "id": "B2.1-014",
+      "level": "SL",
+      "statement": "B2.1.9",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Glycoproteins and glycolipids have their carbohydrate portions located:",
+      "options": [
+        { "letter": "A", "text": "On the extracellular side of the membrane", "correct": true },
+        { "letter": "B", "text": "In the hydrophobic core", "correct": false },
+        { "letter": "C", "text": "Only inside the nucleus", "correct": false },
+        { "letter": "D", "text": "Facing the cytoplasm", "correct": false }
+      ],
+      "explanation": "The carbohydrate parts of glycoproteins and glycolipids are on the extracellular surface, aiding recognition and adhesion."
+    },
+    {
+      "id": "B2.1-015",
+      "level": "SL",
+      "statement": "B2.1.9",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Glycoproteins and glycolipids function in:",
+      "options": [
+        { "letter": "A", "text": "Cell adhesion and cell recognition", "correct": true },
+        { "letter": "B", "text": "Energy storage", "correct": false },
+        { "letter": "C", "text": "DNA replication", "correct": false },
+        { "letter": "D", "text": "Protein synthesis", "correct": false }
+      ],
+      "explanation": "Their extracellular carbohydrates give roles in cell adhesion and cell recognition."
+    },
+    {
+      "id": "B2.1-016",
+      "level": "SL",
+      "statement": "B2.1.10",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "The accepted model of membrane structure is called the:",
+      "options": [
+        { "letter": "A", "text": "Fluid mosaic model", "correct": true },
+        { "letter": "B", "text": "Lock and key model", "correct": false },
+        { "letter": "C", "text": "Double helix model", "correct": false },
+        { "letter": "D", "text": "Induced fit model", "correct": false }
+      ],
+      "explanation": "The fluid mosaic model describes membranes as a fluid phospholipid bilayer with a mosaic of proteins."
+    },
+    {
+      "id": "B2.1-017",
+      "level": "SL",
+      "statement": "B2.1.10",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A student draws the fluid mosaic model.",
+      "stem": "Which components should the drawing include?",
+      "options": [
+        { "letter": "A", "text": "Phospholipids, integral and peripheral proteins, glycoproteins and cholesterol", "correct": true },
+        { "letter": "B", "text": "Only phospholipids", "correct": false },
+        { "letter": "C", "text": "DNA and ribosomes", "correct": false },
+        { "letter": "D", "text": "Cellulose fibres", "correct": false }
+      ],
+      "explanation": "A fluid mosaic diagram should show phospholipids, integral and peripheral proteins, glycoproteins and cholesterol."
+    },
+    {
+      "id": "B2.1-018",
+      "level": "SL",
+      "statement": "B2.1.1",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Phospholipids form bilayers in water because they are:",
+      "options": [
+        { "letter": "A", "text": "Amphipathic", "correct": true },
+        { "letter": "B", "text": "Entirely hydrophobic", "correct": false },
+        { "letter": "C", "text": "Charged all over", "correct": false },
+        { "letter": "D", "text": "Made of protein", "correct": false }
+      ],
+      "explanation": "Amphipathic phospholipids arrange with hydrophilic heads outward and hydrophobic tails inward, forming bilayers."
+    },
+    {
+      "id": "B2.1-019",
+      "level": "SL",
+      "statement": "B2.1.3",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Which molecule can cross a membrane most easily by simple diffusion?",
+      "options": [
+        { "letter": "A", "text": "Carbon dioxide", "correct": true },
+        { "letter": "B", "text": "A sodium ion", "correct": false },
+        { "letter": "C", "text": "A large protein", "correct": false },
+        { "letter": "D", "text": "Glucose", "correct": false }
+      ],
+      "explanation": "Small non-polar molecules such as carbon dioxide and oxygen diffuse readily through the phospholipid bilayer."
+    },
+    {
+      "id": "B2.1-020",
+      "level": "SL",
+      "statement": "B2.1.5",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Osmosis can be explained by the random movement of particles and:",
+      "options": [
+        { "letter": "A", "text": "Differences in solute concentration across a membrane impermeable to solutes", "correct": true },
+        { "letter": "B", "text": "Active pumping of water", "correct": false },
+        { "letter": "C", "text": "The breakdown of ATP", "correct": false },
+        { "letter": "D", "text": "The membrane being permeable to all solutes", "correct": false }
+      ],
+      "explanation": "Osmosis results from random particle movement, membrane impermeability to solutes, and solute concentration differences."
+    },
+    {
+      "id": "B2.1-021",
+      "level": "SL",
+      "statement": "B2.1.6",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A channel protein is closed.",
+      "stem": "What happens to the ions it normally transports?",
+      "options": [
+        { "letter": "A", "text": "They cannot pass through that channel", "correct": true },
+        { "letter": "B", "text": "They pass through freely", "correct": false },
+        { "letter": "C", "text": "They are actively pumped out", "correct": false },
+        { "letter": "D", "text": "They diffuse through the lipid core", "correct": false }
+      ],
+      "explanation": "When a channel is closed, its specific ions cannot diffuse through, contributing to selective permeability."
+    },
+    {
+      "id": "B2.1-022",
+      "level": "SL",
+      "statement": "B2.1.7",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Which statement about active transport is correct?",
+      "options": [
+        { "letter": "A", "text": "It can move particles against a concentration gradient", "correct": true },
+        { "letter": "B", "text": "It only moves particles down a gradient", "correct": false },
+        { "letter": "C", "text": "It requires no proteins", "correct": false },
+        { "letter": "D", "text": "It never uses energy", "correct": false }
+      ],
+      "explanation": "Active transport uses ATP-powered pumps to move specific particles against their concentration gradient."
+    },
+    {
+      "id": "B2.1-023",
+      "level": "SL",
+      "statement": "B2.1.2",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Why do membranes act as effective barriers between aqueous solutions?",
+      "options": [
+        { "letter": "A", "text": "Their hydrophobic core resists the passage of ions and polar molecules", "correct": true },
+        { "letter": "B", "text": "They are made of water", "correct": false },
+        { "letter": "C", "text": "They contain no lipids", "correct": false },
+        { "letter": "D", "text": "They are freely permeable to everything", "correct": false }
+      ],
+      "explanation": "The hydrophobic hydrocarbon core has low permeability to hydrophilic particles, so membranes separate aqueous compartments."
+    },
+    {
+      "id": "B2.1-024",
+      "level": "SL",
+      "statement": "B2.1.4",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Which statement about membrane proteins is correct?",
+      "options": [
+        { "letter": "A", "text": "They have diverse structures, locations and functions", "correct": true },
+        { "letter": "B", "text": "They are all identical", "correct": false },
+        { "letter": "C", "text": "They only ever store energy", "correct": false },
+        { "letter": "D", "text": "They are all on the outer surface", "correct": false }
+      ],
+      "explanation": "Membrane proteins are highly diverse in structure, location (integral or peripheral) and function."
+    },
+    {
+      "id": "B2.1-025",
+      "level": "SL",
+      "statement": "B2.1.10",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "The membrane is described as 'fluid'.",
+      "stem": "This means that:",
+      "options": [
+        { "letter": "A", "text": "Its molecules can move within the layer", "correct": true },
+        { "letter": "B", "text": "It is completely rigid", "correct": false },
+        { "letter": "C", "text": "It is a liquid drop", "correct": false },
+        { "letter": "D", "text": "It cannot contain proteins", "correct": false }
+      ],
+      "explanation": "'Fluid' refers to the ability of phospholipids and proteins to move laterally within the membrane."
+    },
+    {
+      "id": "B2.1-026",
+      "level": "SL",
+      "statement": "B2.1.9",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "A glycolipid consists of a carbohydrate attached to a:",
+      "options": [
+        { "letter": "A", "text": "Lipid", "correct": true },
+        { "letter": "B", "text": "Nucleic acid", "correct": false },
+        { "letter": "C", "text": "Protein", "correct": false },
+        { "letter": "D", "text": "Sugar-phosphate backbone", "correct": false }
+      ],
+      "explanation": "A glycolipid is a carbohydrate linked to a lipid; a glycoprotein has carbohydrate linked to protein."
+    },
+    {
+      "id": "B2.1-027",
+      "level": "SL",
+      "statement": "B2.1.3",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Simple diffusion across a membrane occurs:",
+      "options": [
+        { "letter": "A", "text": "Down a concentration gradient without energy input", "correct": true },
+        { "letter": "B", "text": "Against a gradient using ATP", "correct": false },
+        { "letter": "C", "text": "Only through pump proteins", "correct": false },
+        { "letter": "D", "text": "Only for large charged molecules", "correct": false }
+      ],
+      "explanation": "Simple diffusion moves particles down their concentration gradient without energy or transport proteins."
+    },
+    {
+      "id": "B2.1-028",
+      "level": "SL",
+      "statement": "B2.1.6",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Facilitated diffusion differs from simple diffusion because it:",
+      "options": [
+        { "letter": "A", "text": "Uses membrane proteins for specific substances", "correct": true },
+        { "letter": "B", "text": "Requires ATP", "correct": false },
+        { "letter": "C", "text": "Moves substances against the gradient", "correct": false },
+        { "letter": "D", "text": "Only moves gases", "correct": false }
+      ],
+      "explanation": "Facilitated diffusion uses channel (or carrier) proteins to move specific substances down their gradient, without energy."
+    },
+    {
+      "id": "B2.1-029",
+      "level": "SL",
+      "statement": "B2.1.1",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "In a phospholipid bilayer, the two rows of hydrophilic heads face:",
+      "options": [
+        { "letter": "A", "text": "Outward, toward the watery environments", "correct": true },
+        { "letter": "B", "text": "Inward, toward each other", "correct": false },
+        { "letter": "C", "text": "Toward the nucleus only", "correct": false },
+        { "letter": "D", "text": "Away from all water", "correct": false }
+      ],
+      "explanation": "Hydrophilic heads face the aqueous environments on both sides, while hydrophobic tails point inward."
+    },
+    {
+      "id": "B2.1-030",
+      "level": "SL",
+      "statement": "B2.1.8",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A cell needs to control precisely which ions enter it.",
+      "stem": "This control is achieved mainly through:",
+      "options": [
+        { "letter": "A", "text": "Selective channel and pump proteins", "correct": true },
+        { "letter": "B", "text": "Simple diffusion of everything", "correct": false },
+        { "letter": "C", "text": "The cell wall", "correct": false },
+        { "letter": "D", "text": "Random leakage", "correct": false }
+      ],
+      "explanation": "Selective permeability comes from facilitated diffusion and active transport via specific channel and pump proteins."
+    },
+    {
+      "id": "B2.1-031",
+      "level": "SL",
+      "statement": "B2.1.5",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A cell is placed in pure water.",
+      "stem": "Water will move into the cell by osmosis because:",
+      "options": [
+        { "letter": "A", "text": "The solute concentration is higher inside the cell", "correct": true },
+        { "letter": "B", "text": "The cell actively pumps water in", "correct": false },
+        { "letter": "C", "text": "Water always leaves cells", "correct": false },
+        { "letter": "D", "text": "The membrane is impermeable to water", "correct": false }
+      ],
+      "explanation": "Water moves by osmosis from the dilute exterior to the more concentrated cytoplasm."
+    },
+    {
+      "id": "B2.1-032",
+      "level": "SL",
+      "statement": "B2.1.4",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A protein spans the entire width of the membrane.",
+      "stem": "This is best classified as:",
+      "options": [
+        { "letter": "A", "text": "An integral (transmembrane) protein", "correct": true },
+        { "letter": "B", "text": "A peripheral protein", "correct": false },
+        { "letter": "C", "text": "A glycolipid", "correct": false },
+        { "letter": "D", "text": "A phospholipid", "correct": false }
+      ],
+      "explanation": "A protein embedded through the membrane is an integral (transmembrane) protein."
+    },
+    {
+      "id": "B2.1-033",
+      "level": "SL",
+      "statement": "B2.1.10",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "The word 'mosaic' in the fluid mosaic model refers to the:",
+      "options": [
+        { "letter": "A", "text": "Scattered arrangement of proteins in the bilayer", "correct": true },
+        { "letter": "B", "text": "Single uniform layer of lipid", "correct": false },
+        { "letter": "C", "text": "Rigid crystal structure", "correct": false },
+        { "letter": "D", "text": "Carbohydrate core", "correct": false }
+      ],
+      "explanation": "'Mosaic' describes the varied proteins scattered throughout the fluid phospholipid bilayer."
+    },
+    {
+      "id": "B2.1-034",
+      "level": "SL",
+      "statement": "B2.1.2",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Which substance would find it HARDEST to cross the lipid bilayer by simple diffusion?",
+      "options": [
+        { "letter": "A", "text": "A charged ion", "correct": true },
+        { "letter": "B", "text": "Oxygen", "correct": false },
+        { "letter": "C", "text": "Carbon dioxide", "correct": false },
+        { "letter": "D", "text": "A small non-polar molecule", "correct": false }
+      ],
+      "explanation": "Charged ions are strongly repelled by the hydrophobic core, so they cannot easily cross by simple diffusion."
+    },
+    {
+      "id": "B2.1-035",
+      "level": "HL",
+      "statement": "B2.1.11",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A membrane contains many unsaturated fatty acids.",
+      "stem": "What effect does this have on the membrane?",
+      "options": [
+        { "letter": "A", "text": "It makes the membrane more fluid", "correct": true },
+        { "letter": "B", "text": "It makes the membrane more rigid", "correct": false },
+        { "letter": "C", "text": "It removes all proteins", "correct": false },
+        { "letter": "D", "text": "It stops diffusion entirely", "correct": false }
+      ],
+      "explanation": "Unsaturated fatty acids have lower melting points, keeping membranes fluid and flexible at the cell's temperature."
+    },
+    {
+      "id": "B2.1-036",
+      "level": "HL",
+      "statement": "B2.1.11",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "An organism lives at high temperatures.",
+      "stem": "Its membranes are likely to contain more:",
+      "options": [
+        { "letter": "A", "text": "Saturated fatty acids, for greater stability", "correct": true },
+        { "letter": "B", "text": "Unsaturated fatty acids, for more fluidity", "correct": false },
+        { "letter": "C", "text": "Carbohydrates instead of lipids", "correct": false },
+        { "letter": "D", "text": "No fatty acids at all", "correct": false }
+      ],
+      "explanation": "Saturated fatty acids have higher melting points and make membranes stronger and stable at higher temperatures."
+    },
+    {
+      "id": "B2.1-037",
+      "level": "HL",
+      "statement": "B2.1.12",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "In animal cell membranes, cholesterol acts as a:",
+      "options": [
+        { "letter": "A", "text": "Modulator of membrane fluidity", "correct": true },
+        { "letter": "B", "text": "Source of ATP", "correct": false },
+        { "letter": "C", "text": "Carbohydrate marker", "correct": false },
+        { "letter": "D", "text": "Channel for ions", "correct": false }
+      ],
+      "explanation": "Cholesterol modulates fluidity, stabilizing membranes at higher temperatures and preventing stiffening at lower ones."
+    },
+    {
+      "id": "B2.1-038",
+      "level": "HL",
+      "statement": "B2.1.12",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "Temperature drops sharply around an animal cell.",
+      "stem": "How does cholesterol help the membrane?",
+      "options": [
+        { "letter": "A", "text": "It prevents the membrane from stiffening too much", "correct": true },
+        { "letter": "B", "text": "It freezes the membrane solid", "correct": false },
+        { "letter": "C", "text": "It removes all phospholipids", "correct": false },
+        { "letter": "D", "text": "It increases active transport", "correct": false }
+      ],
+      "explanation": "At low temperatures cholesterol prevents excessive stiffening, helping maintain appropriate fluidity."
+    },
+    {
+      "id": "B2.1-039",
+      "level": "HL",
+      "statement": "B2.1.13",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A cell takes in material by folding its membrane inward to form a vesicle.",
+      "stem": "This process is called:",
+      "options": [
+        { "letter": "A", "text": "Endocytosis", "correct": true },
+        { "letter": "B", "text": "Exocytosis", "correct": false },
+        { "letter": "C", "text": "Osmosis", "correct": false },
+        { "letter": "D", "text": "Simple diffusion", "correct": false }
+      ],
+      "explanation": "Endocytosis brings material into the cell by forming vesicles; exocytosis releases material outward."
+    },
+    {
+      "id": "B2.1-040",
+      "level": "HL",
+      "statement": "B2.1.13",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A vesicle fuses with the plasma membrane to release its contents outside the cell.",
+      "stem": "This is:",
+      "options": [
+        { "letter": "A", "text": "Exocytosis", "correct": true },
+        { "letter": "B", "text": "Endocytosis", "correct": false },
+        { "letter": "C", "text": "Active transport by a pump", "correct": false },
+        { "letter": "D", "text": "Facilitated diffusion", "correct": false }
+      ],
+      "explanation": "Exocytosis releases materials as vesicles fuse with the membrane; membrane fluidity allows this fusion."
+    },
+    {
+      "id": "B2.1-041",
+      "level": "HL",
+      "statement": "B2.1.13",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Endocytosis and exocytosis both depend on the membrane's ability to:",
+      "options": [
+        { "letter": "A", "text": "Form and fuse vesicles (fluidity)", "correct": true },
+        { "letter": "B", "text": "Remain completely rigid", "correct": false },
+        { "letter": "C", "text": "Block all movement", "correct": false },
+        { "letter": "D", "text": "Synthesize proteins", "correct": false }
+      ],
+      "explanation": "Membrane fluidity allows the fusion and formation of vesicles needed for endocytosis and exocytosis."
+    },
+    {
+      "id": "B2.1-042",
+      "level": "HL",
+      "statement": "B2.1.14",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "In a neuron, a channel opens when a neurotransmitter binds to it.",
+      "stem": "This is an example of a:",
+      "options": [
+        { "letter": "A", "text": "Neurotransmitter-gated ion channel", "correct": true },
+        { "letter": "B", "text": "Voltage-gated channel", "correct": false },
+        { "letter": "C", "text": "Cholesterol molecule", "correct": false },
+        { "letter": "D", "text": "Sodium-potassium pump", "correct": false }
+      ],
+      "explanation": "Nicotinic acetylcholine receptors are neurotransmitter-gated ion channels, opening when the transmitter binds."
+    },
+    {
+      "id": "B2.1-043",
+      "level": "HL",
+      "statement": "B2.1.14",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "A channel in a neuron opens in response to a change in membrane potential.",
+      "stem": "This is a:",
+      "options": [
+        { "letter": "A", "text": "Voltage-gated channel", "correct": true },
+        { "letter": "B", "text": "Neurotransmitter-gated channel", "correct": false },
+        { "letter": "C", "text": "Glycolipid", "correct": false },
+        { "letter": "D", "text": "Peripheral protein", "correct": false }
+      ],
+      "explanation": "Sodium and potassium channels that open with voltage changes are voltage-gated ion channels."
+    },
+    {
+      "id": "B2.1-044",
+      "level": "HL",
+      "statement": "B2.1.15",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "The sodium-potassium pump is important because it:",
+      "options": [
+        { "letter": "A", "text": "Helps generate membrane potentials", "correct": true },
+        { "letter": "B", "text": "Only allows simple diffusion", "correct": false },
+        { "letter": "C", "text": "Removes cholesterol", "correct": false },
+        { "letter": "D", "text": "Synthesizes ATP directly", "correct": false }
+      ],
+      "explanation": "Sodium-potassium pumps are exchange transporters important in generating membrane potentials."
+    },
+    {
+      "id": "B2.1-045",
+      "level": "HL",
+      "statement": "B2.1.15",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "The sodium-potassium pump is described as an exchange transporter because it:",
+      "options": [
+        { "letter": "A", "text": "Moves sodium one way and potassium the other", "correct": true },
+        { "letter": "B", "text": "Moves only water", "correct": false },
+        { "letter": "C", "text": "Does not use ATP", "correct": false },
+        { "letter": "D", "text": "Moves both ions in the same direction", "correct": false }
+      ],
+      "explanation": "It exchanges sodium and potassium ions across the membrane, using ATP, to help establish membrane potentials."
+    },
+    {
+      "id": "B2.1-046",
+      "level": "HL",
+      "statement": "B2.1.16",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "Glucose is absorbed in the small intestine coupled to the movement of sodium ions.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Indirect active transport (cotransport)", "correct": true },
+        { "letter": "B", "text": "Simple diffusion", "correct": false },
+        { "letter": "C", "text": "Osmosis", "correct": false },
+        { "letter": "D", "text": "Exocytosis", "correct": false }
+      ],
+      "explanation": "Sodium-dependent glucose cotransporters carry glucose using the sodium gradient — indirect active transport."
+    },
+    {
+      "id": "B2.1-047",
+      "level": "HL",
+      "statement": "B2.1.16",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Sodium-dependent glucose cotransporters are important in glucose reabsorption in the:",
+      "options": [
+        { "letter": "A", "text": "Nephron of the kidney", "correct": true },
+        { "letter": "B", "text": "Alveoli of the lungs", "correct": false },
+        { "letter": "C", "text": "Chloroplast", "correct": false },
+        { "letter": "D", "text": "Xylem", "correct": false }
+      ],
+      "explanation": "These cotransporters aid glucose absorption in the small intestine and reabsorption by cells in the nephron."
+    },
+    {
+      "id": "B2.1-048",
+      "level": "HL",
+      "statement": "B2.1.17",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "Cells stick together to form a tissue.",
+      "stem": "This adhesion involves molecules called:",
+      "options": [
+        { "letter": "A", "text": "Cell-adhesion molecules (CAMs)", "correct": true },
+        { "letter": "B", "text": "Aquaporins", "correct": false },
+        { "letter": "C", "text": "Ribosomes", "correct": false },
+        { "letter": "D", "text": "Sodium-potassium pumps", "correct": false }
+      ],
+      "explanation": "Cell-adhesion molecules (CAMs) enable cells to adhere and form tissues, with different CAMs for different junctions."
+    },
+    {
+      "id": "B2.1-049",
+      "level": "HL",
+      "statement": "B2.1.11",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "The relationship between fatty acid saturation and membrane fluidity is that:",
+      "options": [
+        { "letter": "A", "text": "More unsaturation gives greater fluidity", "correct": true },
+        { "letter": "B", "text": "More unsaturation gives greater rigidity", "correct": false },
+        { "letter": "C", "text": "Saturation has no effect", "correct": false },
+        { "letter": "D", "text": "Only cholesterol affects fluidity", "correct": false }
+      ],
+      "explanation": "Unsaturated fatty acids lower melting point and increase fluidity; saturated ones increase rigidity."
+    },
+    {
+      "id": "B2.1-050",
+      "level": "HL",
+      "statement": "B2.1.14",
+      "category": "B2.1 Membranes and membrane transport",
+      "scenario": "",
+      "stem": "Which pair correctly matches channel type to trigger?",
+      "options": [
+        { "letter": "A", "text": "Voltage-gated — membrane potential change; neurotransmitter-gated — chemical binding", "correct": true },
+        { "letter": "B", "text": "Voltage-gated — chemical binding; neurotransmitter-gated — voltage", "correct": false },
+        { "letter": "C", "text": "Both are triggered only by light", "correct": false },
+        { "letter": "D", "text": "Neither responds to any trigger", "correct": false }
+      ],
+      "explanation": "Voltage-gated channels respond to membrane potential changes; neurotransmitter-gated channels open when a transmitter binds."
+    }
+  ]
+}

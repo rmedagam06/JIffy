@@ -1,0 +1,760 @@
+{
+  "id": "A2.2",
+  "name": "Cell structure",
+  "theme": "A",
+  "themeName": "Unity and diversity",
+  "levelOfOrganization": "Cells",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "A2.2-001",
+      "level": "SL",
+      "statement": "A2.2.1",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "According to cell theory, cells are:",
+      "options": [
+        { "letter": "A", "text": "The basic structural unit of all living organisms", "correct": true },
+        { "letter": "B", "text": "Found only in animals", "correct": false },
+        { "letter": "C", "text": "Non-living components of tissue", "correct": false },
+        { "letter": "D", "text": "Larger than any organism", "correct": false }
+      ],
+      "explanation": "Cell theory states that cells are the basic structural unit of all living organisms."
+    },
+    {
+      "id": "A2.2-002",
+      "level": "SL",
+      "statement": "A2.2.1",
+      "category": "A2.2 Cell structure",
+      "scenario": "A new organism is discovered.",
+      "stem": "Using cell theory, what can be deductively predicted about it?",
+      "options": [
+        { "letter": "A", "text": "It will consist of one or more cells", "correct": true },
+        { "letter": "B", "text": "It will have no cells", "correct": false },
+        { "letter": "C", "text": "It will be a virus", "correct": false },
+        { "letter": "D", "text": "It will be made of pure protein", "correct": false }
+      ],
+      "explanation": "Deductive reasoning from cell theory predicts a newly discovered organism will consist of one or more cells."
+    },
+    {
+      "id": "A2.2-003",
+      "level": "SL",
+      "statement": "A2.2.2",
+      "category": "A2.2 Cell structure",
+      "scenario": "A student measures the size of cells under a microscope.",
+      "stem": "Which tool is used to measure cell sizes with a light microscope?",
+      "options": [
+        { "letter": "A", "text": "An eyepiece graticule", "correct": true },
+        { "letter": "B", "text": "A ruler placed on the screen", "correct": false },
+        { "letter": "C", "text": "A thermometer", "correct": false },
+        { "letter": "D", "text": "A pipette", "correct": false }
+      ],
+      "explanation": "Sizes are measured using an eyepiece graticule, which is calibrated against a stage micrometer."
+    },
+    {
+      "id": "A2.2-004",
+      "level": "SL",
+      "statement": "A2.2.2",
+      "category": "A2.2 Cell structure",
+      "scenario": "A drawing of a cell is 50 mm wide, and the cell's actual width is 0.05 mm.",
+      "stem": "What is the magnification of the drawing?",
+      "options": [
+        { "letter": "A", "text": "×1000", "correct": true },
+        { "letter": "B", "text": "×100", "correct": false },
+        { "letter": "C", "text": "×10", "correct": false },
+        { "letter": "D", "text": "×50", "correct": false }
+      ],
+      "explanation": "Magnification = image size ÷ actual size = 50 ÷ 0.05 = ×1000."
+    },
+    {
+      "id": "A2.2-005",
+      "level": "SL",
+      "statement": "A2.2.2",
+      "category": "A2.2 Cell structure",
+      "scenario": "A cell appears 40 mm long in a photo taken at ×2000 magnification.",
+      "stem": "What is the actual length of the cell?",
+      "options": [
+        { "letter": "A", "text": "20 µm", "correct": true },
+        { "letter": "B", "text": "200 µm", "correct": false },
+        { "letter": "C", "text": "2 µm", "correct": false },
+        { "letter": "D", "text": "80 µm", "correct": false }
+      ],
+      "explanation": "Actual size = image size ÷ magnification = 40 mm ÷ 2000 = 0.02 mm = 20 µm."
+    },
+    {
+      "id": "A2.2-006",
+      "level": "SL",
+      "statement": "A2.2.3",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "A major advantage of electron microscopy over light microscopy is:",
+      "options": [
+        { "letter": "A", "text": "Much higher resolution", "correct": true },
+        { "letter": "B", "text": "It shows living cells in natural colour", "correct": false },
+        { "letter": "C", "text": "It requires no preparation", "correct": false },
+        { "letter": "D", "text": "It is cheaper and portable", "correct": false }
+      ],
+      "explanation": "Electron microscopy has far higher resolution, revealing fine detail that light microscopes cannot."
+    },
+    {
+      "id": "A2.2-007",
+      "level": "SL",
+      "statement": "A2.2.3",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Immunofluorescence in light microscopy is used to:",
+      "options": [
+        { "letter": "A", "text": "Locate specific molecules using fluorescent markers", "correct": true },
+        { "letter": "B", "text": "Freeze samples instantly", "correct": false },
+        { "letter": "C", "text": "Increase the mass of the cell", "correct": false },
+        { "letter": "D", "text": "Replace the need for any stain", "correct": false }
+      ],
+      "explanation": "Fluorescent stains and immunofluorescence let specific molecules be located and imaged in light microscopy."
+    },
+    {
+      "id": "A2.2-008",
+      "level": "SL",
+      "statement": "A2.2.4",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which feature is common to the cells of ALL living organisms?",
+      "options": [
+        { "letter": "A", "text": "A plasma membrane", "correct": true },
+        { "letter": "B", "text": "A cell wall of cellulose", "correct": false },
+        { "letter": "C", "text": "Chloroplasts", "correct": false },
+        { "letter": "D", "text": "A nucleus", "correct": false }
+      ],
+      "explanation": "All cells have DNA, cytoplasm mainly of water, and a plasma membrane made of lipids; not all have walls, chloroplasts or nuclei."
+    },
+    {
+      "id": "A2.2-009",
+      "level": "SL",
+      "statement": "A2.2.4",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "The cytoplasm of a typical cell is composed mainly of:",
+      "options": [
+        { "letter": "A", "text": "Water", "correct": true },
+        { "letter": "B", "text": "Lipid", "correct": false },
+        { "letter": "C", "text": "Cellulose", "correct": false },
+        { "letter": "D", "text": "DNA", "correct": false }
+      ],
+      "explanation": "Cytoplasm common to all cells is composed mainly of water, the medium for life's processes."
+    },
+    {
+      "id": "A2.2-010",
+      "level": "SL",
+      "statement": "A2.2.4",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "The plasma membrane of all cells is composed mainly of:",
+      "options": [
+        { "letter": "A", "text": "Lipids", "correct": true },
+        { "letter": "B", "text": "Cellulose", "correct": false },
+        { "letter": "C", "text": "Starch", "correct": false },
+        { "letter": "D", "text": "DNA", "correct": false }
+      ],
+      "explanation": "All cells are enclosed by a plasma membrane composed of lipids."
+    },
+    {
+      "id": "A2.2-011",
+      "level": "SL",
+      "statement": "A2.2.5",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which type of ribosome is found in prokaryotic cells?",
+      "options": [
+        { "letter": "A", "text": "70S ribosomes", "correct": true },
+        { "letter": "B", "text": "80S ribosomes", "correct": false },
+        { "letter": "C", "text": "90S ribosomes", "correct": false },
+        { "letter": "D", "text": "No ribosomes at all", "correct": false }
+      ],
+      "explanation": "Prokaryotes have smaller 70S ribosomes, whereas eukaryotes have 80S ribosomes in their cytoplasm."
+    },
+    {
+      "id": "A2.2-012",
+      "level": "SL",
+      "statement": "A2.2.5",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "How is the DNA of a prokaryotic cell arranged?",
+      "options": [
+        { "letter": "A", "text": "As naked DNA in a loop, not in a nucleus", "correct": true },
+        { "letter": "B", "text": "Inside a membrane-bound nucleus", "correct": false },
+        { "letter": "C", "text": "Wrapped around histones in chromosomes", "correct": false },
+        { "letter": "D", "text": "Stored only in mitochondria", "correct": false }
+      ],
+      "explanation": "Prokaryotes have naked DNA in a loop, without a nuclear membrane or histones."
+    },
+    {
+      "id": "A2.2-013",
+      "level": "SL",
+      "statement": "A2.2.5",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which of these is a component of a prokaryotic cell?",
+      "options": [
+        { "letter": "A", "text": "Cell wall", "correct": true },
+        { "letter": "B", "text": "Mitochondrion", "correct": false },
+        { "letter": "C", "text": "Golgi apparatus", "correct": false },
+        { "letter": "D", "text": "Nucleus", "correct": false }
+      ],
+      "explanation": "Prokaryotic cells have a cell wall, plasma membrane, cytoplasm, naked looped DNA and 70S ribosomes, but no membrane-bound organelles."
+    },
+    {
+      "id": "A2.2-014",
+      "level": "SL",
+      "statement": "A2.2.6",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which type of ribosome is found in the cytoplasm of eukaryotic cells?",
+      "options": [
+        { "letter": "A", "text": "80S ribosomes", "correct": true },
+        { "letter": "B", "text": "70S ribosomes", "correct": false },
+        { "letter": "C", "text": "50S ribosomes only", "correct": false },
+        { "letter": "D", "text": "No ribosomes", "correct": false }
+      ],
+      "explanation": "Eukaryotic cytoplasm contains 80S ribosomes, larger than the 70S ribosomes of prokaryotes."
+    },
+    {
+      "id": "A2.2-015",
+      "level": "SL",
+      "statement": "A2.2.6",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "In a eukaryotic cell, the DNA in the nucleus is bound to which proteins?",
+      "options": [
+        { "letter": "A", "text": "Histones", "correct": true },
+        { "letter": "B", "text": "Enzymes only", "correct": false },
+        { "letter": "C", "text": "Haemoglobin", "correct": false },
+        { "letter": "D", "text": "Collagen", "correct": false }
+      ],
+      "explanation": "Eukaryotic chromosomes are made of DNA bound to histone proteins, contained in a double membrane with pores."
+    },
+    {
+      "id": "A2.2-016",
+      "level": "SL",
+      "statement": "A2.2.6",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "The nuclear envelope of a eukaryotic cell is described as:",
+      "options": [
+        { "letter": "A", "text": "A double membrane with pores", "correct": true },
+        { "letter": "B", "text": "A single membrane with no pores", "correct": false },
+        { "letter": "C", "text": "A solid protein wall", "correct": false },
+        { "letter": "D", "text": "Absent in all eukaryotes", "correct": false }
+      ],
+      "explanation": "The nucleus is enclosed by a double membrane containing pores, allowing exchange with the cytoplasm."
+    },
+    {
+      "id": "A2.2-017",
+      "level": "SL",
+      "statement": "A2.2.6",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which of these is a membrane-bound organelle found in eukaryotic cells?",
+      "options": [
+        { "letter": "A", "text": "Mitochondrion", "correct": true },
+        { "letter": "B", "text": "Naked looped DNA", "correct": false },
+        { "letter": "C", "text": "70S ribosome in cytoplasm", "correct": false },
+        { "letter": "D", "text": "Bacterial flagellum", "correct": false }
+      ],
+      "explanation": "Eukaryotes have membrane-bound organelles such as mitochondria, ER, Golgi apparatus and vesicles."
+    },
+    {
+      "id": "A2.2-018",
+      "level": "SL",
+      "statement": "A2.2.6",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "The cytoskeleton of eukaryotic cells is made of:",
+      "options": [
+        { "letter": "A", "text": "Microtubules and microfilaments", "correct": true },
+        { "letter": "B", "text": "Cellulose fibres", "correct": false },
+        { "letter": "C", "text": "Phospholipid bilayers", "correct": false },
+        { "letter": "D", "text": "Ribosomal RNA", "correct": false }
+      ],
+      "explanation": "The eukaryotic cytoskeleton is composed of microtubules and microfilaments."
+    },
+    {
+      "id": "A2.2-019",
+      "level": "SL",
+      "statement": "A2.2.7",
+      "category": "A2.2 Cell structure",
+      "scenario": "A single-celled organism carries out all life processes within one cell.",
+      "stem": "Which of these is a function of life shown by unicellular organisms?",
+      "options": [
+        { "letter": "A", "text": "Homeostasis", "correct": true },
+        { "letter": "B", "text": "Photosynthesis in all of them", "correct": false },
+        { "letter": "C", "text": "Having many specialized tissues", "correct": false },
+        { "letter": "D", "text": "Cell differentiation", "correct": false }
+      ],
+      "explanation": "Unicellular organisms carry out functions of life such as homeostasis, metabolism, nutrition, movement, excretion, growth, response and reproduction."
+    },
+    {
+      "id": "A2.2-020",
+      "level": "SL",
+      "statement": "A2.2.7",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which list correctly names functions of life shown by unicellular organisms?",
+      "options": [
+        { "letter": "A", "text": "Nutrition, excretion, growth, reproduction", "correct": true },
+        { "letter": "B", "text": "Transcription, translation, replication, mutation", "correct": false },
+        { "letter": "C", "text": "Cohesion, adhesion, buoyancy, viscosity", "correct": false },
+        { "letter": "D", "text": "Mitosis, meiosis, cytokinesis, karyotyping", "correct": false }
+      ],
+      "explanation": "The functions of life include homeostasis, metabolism, nutrition, movement, excretion, growth, response to stimuli and reproduction."
+    },
+    {
+      "id": "A2.2-021",
+      "level": "SL",
+      "statement": "A2.2.8",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which structure is present in plant cells but absent in animal cells?",
+      "options": [
+        { "letter": "A", "text": "Chloroplast", "correct": true },
+        { "letter": "B", "text": "Mitochondrion", "correct": false },
+        { "letter": "C", "text": "Plasma membrane", "correct": false },
+        { "letter": "D", "text": "Ribosome", "correct": false }
+      ],
+      "explanation": "Chloroplasts are found in plant cells (and some protists) but not in animal or fungal cells."
+    },
+    {
+      "id": "A2.2-022",
+      "level": "SL",
+      "statement": "A2.2.8",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "The cell wall of a plant cell is composed mainly of cellulose, whereas a fungal cell wall is made of:",
+      "options": [
+        { "letter": "A", "text": "Chitin", "correct": true },
+        { "letter": "B", "text": "Cellulose", "correct": false },
+        { "letter": "C", "text": "Phospholipid", "correct": false },
+        { "letter": "D", "text": "Protein only", "correct": false }
+      ],
+      "explanation": "Animal, fungal and plant cells differ in cell wall composition: plants use cellulose while fungi use chitin; animal cells have no wall."
+    },
+    {
+      "id": "A2.2-023",
+      "level": "SL",
+      "statement": "A2.2.8",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Centrioles, cilia and flagella are typically associated with which cell type?",
+      "options": [
+        { "letter": "A", "text": "Animal cells", "correct": true },
+        { "letter": "B", "text": "Plant cells only", "correct": false },
+        { "letter": "C", "text": "Prokaryotic cells only", "correct": false },
+        { "letter": "D", "text": "Viruses", "correct": false }
+      ],
+      "explanation": "Presence of centrioles, cilia and flagella is one of the features distinguishing animal cells from fungi and plants."
+    },
+    {
+      "id": "A2.2-024",
+      "level": "SL",
+      "statement": "A2.2.9",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "A mature mammalian red blood cell is atypical because it:",
+      "options": [
+        { "letter": "A", "text": "Has no nucleus", "correct": true },
+        { "letter": "B", "text": "Has many nuclei", "correct": false },
+        { "letter": "C", "text": "Contains chloroplasts", "correct": false },
+        { "letter": "D", "text": "Has a cellulose wall", "correct": false }
+      ],
+      "explanation": "Red blood cells are atypical because they lack a nucleus, an example of variation in nuclei number."
+    },
+    {
+      "id": "A2.2-025",
+      "level": "SL",
+      "statement": "A2.2.9",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Skeletal muscle fibres are described as atypical cells because they:",
+      "options": [
+        { "letter": "A", "text": "Contain many nuclei", "correct": true },
+        { "letter": "B", "text": "Have no cytoplasm", "correct": false },
+        { "letter": "C", "text": "Lack any membrane", "correct": false },
+        { "letter": "D", "text": "Are prokaryotic", "correct": false }
+      ],
+      "explanation": "Skeletal muscle fibres are multinucleate, illustrating atypical cell structure based on nuclei number."
+    },
+    {
+      "id": "A2.2-026",
+      "level": "SL",
+      "statement": "A2.2.9",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which is an example of atypical eukaryotic cell structure using nuclei number?",
+      "options": [
+        { "letter": "A", "text": "Aseptate fungal hyphae with many nuclei", "correct": true },
+        { "letter": "B", "text": "A typical liver cell with one nucleus", "correct": false },
+        { "letter": "C", "text": "A prokaryote with looped DNA", "correct": false },
+        { "letter": "D", "text": "A virus with a capsid", "correct": false }
+      ],
+      "explanation": "Aseptate fungal hyphae contain many nuclei in a continuous cytoplasm, an example of atypical structure."
+    },
+    {
+      "id": "A2.2-027",
+      "level": "SL",
+      "statement": "A2.2.10",
+      "category": "A2.2 Cell structure",
+      "scenario": "A micrograph shows a cell with a nucleus, mitochondria and no cell wall.",
+      "stem": "This cell is most likely a:",
+      "options": [
+        { "letter": "A", "text": "Animal cell", "correct": true },
+        { "letter": "B", "text": "Plant cell", "correct": false },
+        { "letter": "C", "text": "Prokaryotic cell", "correct": false },
+        { "letter": "D", "text": "Bacterial cell", "correct": false }
+      ],
+      "explanation": "A eukaryotic cell with a nucleus and mitochondria but no cell wall or chloroplasts is an animal cell."
+    },
+    {
+      "id": "A2.2-028",
+      "level": "SL",
+      "statement": "A2.2.10",
+      "category": "A2.2 Cell structure",
+      "scenario": "A micrograph shows a cell with a nucleus, chloroplasts, a large central vacuole and a cell wall.",
+      "stem": "This cell is a:",
+      "options": [
+        { "letter": "A", "text": "Plant cell", "correct": true },
+        { "letter": "B", "text": "Animal cell", "correct": false },
+        { "letter": "C", "text": "Prokaryotic cell", "correct": false },
+        { "letter": "D", "text": "Virus", "correct": false }
+      ],
+      "explanation": "Chloroplasts, a large sap vacuole and a cell wall together identify a plant cell."
+    },
+    {
+      "id": "A2.2-029",
+      "level": "SL",
+      "statement": "A2.2.10",
+      "category": "A2.2 Cell structure",
+      "scenario": "An electron micrograph shows a small cell with a nucleoid region and no membrane-bound organelles.",
+      "stem": "This cell is:",
+      "options": [
+        { "letter": "A", "text": "Prokaryotic", "correct": true },
+        { "letter": "B", "text": "An animal cell", "correct": false },
+        { "letter": "C", "text": "A plant cell", "correct": false },
+        { "letter": "D", "text": "A fungal cell", "correct": false }
+      ],
+      "explanation": "A nucleoid region and absence of membrane-bound organelles identify a prokaryotic cell."
+    },
+    {
+      "id": "A2.2-030",
+      "level": "SL",
+      "statement": "A2.2.11",
+      "category": "A2.2 Cell structure",
+      "scenario": "A student annotates a diagram of a mitochondrion from an electron micrograph.",
+      "stem": "According to the syllabus, the annotation must include the organelle's:",
+      "options": [
+        { "letter": "A", "text": "Function", "correct": true },
+        { "letter": "B", "text": "Price", "correct": false },
+        { "letter": "C", "text": "Chemical formula", "correct": false },
+        { "letter": "D", "text": "Colour when stained", "correct": false }
+      ],
+      "explanation": "Students are required to include functions in their annotations of organelles and structures."
+    },
+    {
+      "id": "A2.2-031",
+      "level": "SL",
+      "statement": "A2.2.6",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which organelle is responsible for modifying and packaging proteins for secretion?",
+      "options": [
+        { "letter": "A", "text": "Golgi apparatus", "correct": true },
+        { "letter": "B", "text": "Nucleus", "correct": false },
+        { "letter": "C", "text": "Mitochondrion", "correct": false },
+        { "letter": "D", "text": "Ribosome", "correct": false }
+      ],
+      "explanation": "The Golgi apparatus modifies and packages proteins, often into secretory vesicles."
+    },
+    {
+      "id": "A2.2-032",
+      "level": "SL",
+      "statement": "A2.2.6",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Lysosomes are best described as:",
+      "options": [
+        { "letter": "A", "text": "Vesicles containing digestive enzymes", "correct": true },
+        { "letter": "B", "text": "Sites of photosynthesis", "correct": false },
+        { "letter": "C", "text": "The genetic control centre", "correct": false },
+        { "letter": "D", "text": "Structures made of cellulose", "correct": false }
+      ],
+      "explanation": "Lysosomes are membrane-bound vesicles containing digestive enzymes, part of the eukaryotic organelle system."
+    },
+    {
+      "id": "A2.2-033",
+      "level": "SL",
+      "statement": "A2.2.5",
+      "category": "A2.2 Cell structure",
+      "scenario": "The syllabus uses Gram-positive eubacteria as the model prokaryote.",
+      "stem": "Which of these is an example given?",
+      "options": [
+        { "letter": "A", "text": "Staphylococcus", "correct": true },
+        { "letter": "B", "text": "Amoeba", "correct": false },
+        { "letter": "C", "text": "Yeast", "correct": false },
+        { "letter": "D", "text": "Chlamydomonas", "correct": false }
+      ],
+      "explanation": "The required prokaryote structure is that of Gram-positive eubacteria such as Bacillus and Staphylococcus."
+    },
+    {
+      "id": "A2.2-034",
+      "level": "SL",
+      "statement": "A2.2.3",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Cryogenic electron microscopy (cryo-EM) is a development that allows:",
+      "options": [
+        { "letter": "A", "text": "Imaging of rapidly frozen samples in near-native state", "correct": true },
+        { "letter": "B", "text": "Viewing living cells in colour with the naked eye", "correct": false },
+        { "letter": "C", "text": "Cells to grow larger", "correct": false },
+        { "letter": "D", "text": "DNA to replicate faster", "correct": false }
+      ],
+      "explanation": "Cryo-EM is one of the microscopy developments, imaging rapidly frozen samples at high resolution."
+    },
+    {
+      "id": "A2.2-035",
+      "level": "SL",
+      "statement": "A2.2.2",
+      "category": "A2.2 Cell structure",
+      "scenario": "A student prepares cells to view under a light microscope.",
+      "stem": "Making a 'temporary mount' involves:",
+      "options": [
+        { "letter": "A", "text": "Placing a specimen on a slide, often with stain and a coverslip", "correct": true },
+        { "letter": "B", "text": "Permanently sealing the specimen in resin", "correct": false },
+        { "letter": "C", "text": "Freezing the specimen for years", "correct": false },
+        { "letter": "D", "text": "Coating the specimen in gold", "correct": false }
+      ],
+      "explanation": "Microscopy skills include making temporary mounts of cells and tissues, often with staining and a coverslip."
+    },
+    {
+      "id": "A2.2-036",
+      "level": "SL",
+      "statement": "A2.2.4",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which molecule serves as the genetic material common to all cells?",
+      "options": [
+        { "letter": "A", "text": "DNA", "correct": true },
+        { "letter": "B", "text": "Cellulose", "correct": false },
+        { "letter": "C", "text": "Phospholipid", "correct": false },
+        { "letter": "D", "text": "Glycogen", "correct": false }
+      ],
+      "explanation": "All cells have DNA as their genetic material, along with cytoplasm and a plasma membrane."
+    },
+    {
+      "id": "A2.2-037",
+      "level": "SL",
+      "statement": "A2.2.8",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Compared with a small vacuole in an animal cell, a plant cell typically has:",
+      "options": [
+        { "letter": "A", "text": "A large permanent central vacuole", "correct": true },
+        { "letter": "B", "text": "No vacuole at all", "correct": false },
+        { "letter": "C", "text": "Many tiny vacuoles only", "correct": false },
+        { "letter": "D", "text": "A vacuole made of chitin", "correct": false }
+      ],
+      "explanation": "Differences in the size and function of vacuoles distinguish plant cells, which have a large central sap vacuole."
+    },
+    {
+      "id": "A2.2-038",
+      "level": "SL",
+      "statement": "A2.2.10",
+      "category": "A2.2 Cell structure",
+      "scenario": "A student views an electron micrograph and must identify structures.",
+      "stem": "Which of these can be identified in an electron micrograph but not resolved by light microscopy?",
+      "options": [
+        { "letter": "A", "text": "Ribosomes", "correct": true },
+        { "letter": "B", "text": "The whole cell outline", "correct": false },
+        { "letter": "C", "text": "The nucleus of a large cell", "correct": false },
+        { "letter": "D", "text": "A leaf", "correct": false }
+      ],
+      "explanation": "Fine structures such as ribosomes require the higher resolution of electron microscopy to be seen."
+    },
+    {
+      "id": "A2.2-039",
+      "level": "SL",
+      "statement": "A2.2.6",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "The rough endoplasmic reticulum is 'rough' because it is studded with:",
+      "options": [
+        { "letter": "A", "text": "Ribosomes", "correct": true },
+        { "letter": "B", "text": "Mitochondria", "correct": false },
+        { "letter": "C", "text": "Chloroplasts", "correct": false },
+        { "letter": "D", "text": "Vacuoles", "correct": false }
+      ],
+      "explanation": "Rough ER is covered with ribosomes, giving it a rough appearance and a role in protein synthesis."
+    },
+    {
+      "id": "A2.2-040",
+      "level": "SL",
+      "statement": "A2.2.7",
+      "category": "A2.2 Cell structure",
+      "scenario": "A unicellular organism responds to a change in light.",
+      "stem": "This behaviour is which function of life?",
+      "options": [
+        { "letter": "A", "text": "Response to stimuli", "correct": true },
+        { "letter": "B", "text": "Excretion", "correct": false },
+        { "letter": "C", "text": "Reproduction", "correct": false },
+        { "letter": "D", "text": "Nutrition", "correct": false }
+      ],
+      "explanation": "Reacting to an environmental change such as light is the function of life called response to stimuli."
+    },
+    {
+      "id": "A2.2-041",
+      "level": "HL",
+      "statement": "A2.2.12",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "According to the theory of endosymbiosis, mitochondria originated as:",
+      "options": [
+        { "letter": "A", "text": "Free-living prokaryotes taken up by a host cell", "correct": true },
+        { "letter": "B", "text": "Folds of the plasma membrane", "correct": false },
+        { "letter": "C", "text": "Fragments of the nucleus", "correct": false },
+        { "letter": "D", "text": "Viruses that entered the cell", "correct": false }
+      ],
+      "explanation": "Endosymbiosis proposes mitochondria evolved from free-living prokaryotes engulfed by an ancestral eukaryote."
+    },
+    {
+      "id": "A2.2-042",
+      "level": "HL",
+      "statement": "A2.2.12",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which feature of mitochondria and chloroplasts supports the endosymbiotic theory?",
+      "options": [
+        { "letter": "A", "text": "They contain 70S ribosomes and naked circular DNA", "correct": true },
+        { "letter": "B", "text": "They have 80S ribosomes like the cytoplasm", "correct": false },
+        { "letter": "C", "text": "They lack any DNA", "correct": false },
+        { "letter": "D", "text": "They cannot replicate", "correct": false }
+      ],
+      "explanation": "The presence of 70S ribosomes, naked circular DNA and the ability to replicate all point to a prokaryotic origin."
+    },
+    {
+      "id": "A2.2-043",
+      "level": "HL",
+      "statement": "A2.2.12",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "The endosymbiotic origin of chloroplasts is thought to have occurred:",
+      "options": [
+        { "letter": "A", "text": "After mitochondria, in some eukaryote lineages", "correct": true },
+        { "letter": "B", "text": "Before the nucleus evolved", "correct": false },
+        { "letter": "C", "text": "In all eukaryotes", "correct": false },
+        { "letter": "D", "text": "Never; chloroplasts are not endosymbiotic", "correct": false }
+      ],
+      "explanation": "Mitochondria arose first by endosymbiosis; chloroplasts then had an endosymbiotic origin in some eukaryotes."
+    },
+    {
+      "id": "A2.2-044",
+      "level": "HL",
+      "statement": "A2.2.12",
+      "category": "A2.2 Cell structure",
+      "scenario": "A theory explains a wide range of observations and supports many predictions.",
+      "stem": "What does this indicate about the theory of endosymbiosis?",
+      "options": [
+        { "letter": "A", "text": "Its strength comes from the many observations it explains", "correct": true },
+        { "letter": "B", "text": "It must be false because it is old", "correct": false },
+        { "letter": "C", "text": "Theories cannot make predictions", "correct": false },
+        { "letter": "D", "text": "It explains nothing about cells", "correct": false }
+      ],
+      "explanation": "A theory's strength comes from the observations it explains and predictions it supports, as with endosymbiosis."
+    },
+    {
+      "id": "A2.2-045",
+      "level": "HL",
+      "statement": "A2.2.13",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Cell differentiation in multicellular organisms is based on:",
+      "options": [
+        { "letter": "A", "text": "Different patterns of gene expression", "correct": true },
+        { "letter": "B", "text": "Cells losing all their genes", "correct": false },
+        { "letter": "C", "text": "Cells gaining extra chromosomes", "correct": false },
+        { "letter": "D", "text": "Random changes in DNA sequence", "correct": false }
+      ],
+      "explanation": "Differentiation results from different patterns of gene expression, often triggered by environmental changes."
+    },
+    {
+      "id": "A2.2-046",
+      "level": "HL",
+      "statement": "A2.2.13",
+      "category": "A2.2 Cell structure",
+      "scenario": "Two body cells contain the same genes but perform very different roles.",
+      "stem": "How is this possible?",
+      "options": [
+        { "letter": "A", "text": "They express different subsets of their genes", "correct": true },
+        { "letter": "B", "text": "They contain completely different DNA", "correct": false },
+        { "letter": "C", "text": "One has no DNA", "correct": false },
+        { "letter": "D", "text": "They are from different organisms", "correct": false }
+      ],
+      "explanation": "Cells with identical genomes differentiate because they express different genes."
+    },
+    {
+      "id": "A2.2-047",
+      "level": "HL",
+      "statement": "A2.2.14",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which statement about the evolution of multicellularity is correct?",
+      "options": [
+        { "letter": "A", "text": "It has evolved repeatedly in different lineages", "correct": true },
+        { "letter": "B", "text": "It evolved only once, in animals", "correct": false },
+        { "letter": "C", "text": "It only occurs in prokaryotes", "correct": false },
+        { "letter": "D", "text": "It prevents cell specialization", "correct": false }
+      ],
+      "explanation": "Multicellularity has evolved repeatedly, appearing in many fungi, algae, and all plants and animals."
+    },
+    {
+      "id": "A2.2-048",
+      "level": "HL",
+      "statement": "A2.2.14",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Which is an advantage of multicellularity?",
+      "options": [
+        { "letter": "A", "text": "It allows larger body size and cell specialization", "correct": true },
+        { "letter": "B", "text": "It prevents any cell differentiation", "correct": false },
+        { "letter": "C", "text": "It removes the need for a plasma membrane", "correct": false },
+        { "letter": "D", "text": "It makes organisms always smaller", "correct": false }
+      ],
+      "explanation": "Multicellularity gives the advantages of larger body size and specialization of cells."
+    },
+    {
+      "id": "A2.2-049",
+      "level": "HL",
+      "statement": "A2.2.12",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "The common ancestor of all eukaryotes is thought to have already had:",
+      "options": [
+        { "letter": "A", "text": "A nucleus and the ability to reproduce sexually", "correct": true },
+        { "letter": "B", "text": "Chloroplasts in every cell", "correct": false },
+        { "letter": "C", "text": "No genetic material", "correct": false },
+        { "letter": "D", "text": "A cell wall of chitin", "correct": false }
+      ],
+      "explanation": "Evidence suggests the common eukaryote ancestor had a nucleus and reproduced sexually before mitochondria arose by endosymbiosis."
+    },
+    {
+      "id": "A2.2-050",
+      "level": "HL",
+      "statement": "A2.2.13",
+      "category": "A2.2 Cell structure",
+      "scenario": "",
+      "stem": "Cell differentiation is often triggered by:",
+      "options": [
+        { "letter": "A", "text": "Changes in the environment", "correct": true },
+        { "letter": "B", "text": "The complete loss of the nucleus", "correct": false },
+        { "letter": "C", "text": "A reduction in chromosome number", "correct": false },
+        { "letter": "D", "text": "The removal of all ribosomes", "correct": false }
+      ],
+      "explanation": "Different patterns of gene expression that drive differentiation are often triggered by environmental changes."
+    }
+  ]
+}

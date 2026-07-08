@@ -1,0 +1,760 @@
+{
+  "id": "A3.1",
+  "name": "Diversity of organisms",
+  "theme": "A",
+  "themeName": "Unity and diversity",
+  "levelOfOrganization": "Organisms",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "A3.1-001",
+      "level": "SL",
+      "statement": "A3.1.1",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Variation between organisms is described as:",
+      "options": [
+        { "letter": "A", "text": "A defining feature of life", "correct": true },
+        { "letter": "B", "text": "Extremely rare in nature", "correct": false },
+        { "letter": "C", "text": "Only found in plants", "correct": false },
+        { "letter": "D", "text": "A sign that organisms are non-living", "correct": false }
+      ],
+      "explanation": "No two individuals are identical in all traits; variation is a defining feature of life and the basis for classification."
+    },
+    {
+      "id": "A3.1-002",
+      "level": "SL",
+      "statement": "A3.1.2",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "The original morphological concept of a species, used by Linnaeus, defined a species as a group of organisms with:",
+      "options": [
+        { "letter": "A", "text": "Shared physical traits", "correct": true },
+        { "letter": "B", "text": "Identical DNA sequences", "correct": false },
+        { "letter": "C", "text": "The same number of offspring", "correct": false },
+        { "letter": "D", "text": "The same habitat only", "correct": false }
+      ],
+      "explanation": "Linnaeus used the morphological concept, grouping organisms by shared physical traits."
+    },
+    {
+      "id": "A3.1-003",
+      "level": "SL",
+      "statement": "A3.1.3",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "The scientific name of the human is Homo sapiens.",
+      "stem": "In this binomial name, what does 'Homo' represent?",
+      "options": [
+        { "letter": "A", "text": "The genus", "correct": true },
+        { "letter": "B", "text": "The species", "correct": false },
+        { "letter": "C", "text": "The family", "correct": false },
+        { "letter": "D", "text": "The kingdom", "correct": false }
+      ],
+      "explanation": "In the binomial system the first name is the genus and the second distinguishes the species."
+    },
+    {
+      "id": "A3.1-004",
+      "level": "SL",
+      "statement": "A3.1.3",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Which is the correct way to write a binomial name?",
+      "options": [
+        { "letter": "A", "text": "Panthera leo (genus capitalised, species lowercase)", "correct": true },
+        { "letter": "B", "text": "panthera Leo", "correct": false },
+        { "letter": "C", "text": "PANTHERA LEO", "correct": false },
+        { "letter": "D", "text": "Panthera Leo", "correct": false }
+      ],
+      "explanation": "The genus takes an initial capital letter and the species name is lowercase."
+    },
+    {
+      "id": "A3.1-005",
+      "level": "SL",
+      "statement": "A3.1.4",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "According to the biological species concept, members of the same species can:",
+      "options": [
+        { "letter": "A", "text": "Interbreed to produce fertile offspring", "correct": true },
+        { "letter": "B", "text": "Only look identical", "correct": false },
+        { "letter": "C", "text": "Never reproduce", "correct": false },
+        { "letter": "D", "text": "Live only in one habitat", "correct": false }
+      ],
+      "explanation": "The biological species concept defines a species as a group that can breed and produce fertile offspring."
+    },
+    {
+      "id": "A3.1-006",
+      "level": "SL",
+      "statement": "A3.1.4",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "A horse and a donkey breed to produce a mule, which is sterile.",
+      "stem": "According to the biological species concept, this shows that horses and donkeys are:",
+      "options": [
+        { "letter": "A", "text": "Different species", "correct": true },
+        { "letter": "B", "text": "The same species", "correct": false },
+        { "letter": "C", "text": "Members of the same population", "correct": false },
+        { "letter": "D", "text": "Not living organisms", "correct": false }
+      ],
+      "explanation": "Because their offspring (the mule) is sterile, they do not produce fertile offspring and are considered separate species."
+    },
+    {
+      "id": "A3.1-007",
+      "level": "SL",
+      "statement": "A3.1.5",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Speciation is best described as:",
+      "options": [
+        { "letter": "A", "text": "The splitting of one species into two or more", "correct": true },
+        { "letter": "B", "text": "The death of a species", "correct": false },
+        { "letter": "C", "text": "The naming of a species", "correct": false },
+        { "letter": "D", "text": "The merging of two species into one", "correct": false }
+      ],
+      "explanation": "Speciation is the splitting of one species into two or more, usually gradually."
+    },
+    {
+      "id": "A3.1-008",
+      "level": "SL",
+      "statement": "A3.1.5",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "Two populations are diverging but can still occasionally interbreed.",
+      "stem": "Why can it be difficult to decide whether they are one species or two?",
+      "options": [
+        { "letter": "A", "text": "Speciation is gradual, so the boundary can be arbitrary", "correct": true },
+        { "letter": "B", "text": "Species never change over time", "correct": false },
+        { "letter": "C", "text": "All populations are always separate species", "correct": false },
+        { "letter": "D", "text": "Interbreeding never occurs between species", "correct": false }
+      ],
+      "explanation": "Because divergence is gradual, deciding whether diverging populations are the same or different species can be arbitrary."
+    },
+    {
+      "id": "A3.1-009",
+      "level": "SL",
+      "statement": "A3.1.6",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "How many chromosomes do human body cells contain?",
+      "options": [
+        { "letter": "A", "text": "46", "correct": true },
+        { "letter": "B", "text": "48", "correct": false },
+        { "letter": "C", "text": "23", "correct": false },
+        { "letter": "D", "text": "92", "correct": false }
+      ],
+      "explanation": "Humans have 46 chromosomes, while chimpanzees have 48."
+    },
+    {
+      "id": "A3.1-010",
+      "level": "SL",
+      "statement": "A3.1.6",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Why do diploid cells always have an even number of chromosomes?",
+      "options": [
+        { "letter": "A", "text": "Chromosomes occur in matching pairs", "correct": true },
+        { "letter": "B", "text": "Chromosomes are always odd", "correct": false },
+        { "letter": "C", "text": "There is only ever one chromosome", "correct": false },
+        { "letter": "D", "text": "Diploid means single copies", "correct": false }
+      ],
+      "explanation": "Diploid cells contain chromosomes in homologous pairs, so the total is always even."
+    },
+    {
+      "id": "A3.1-011",
+      "level": "SL",
+      "statement": "A3.1.7",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "A karyogram arranges chromosomes for study.",
+      "stem": "Chromosomes in a karyogram are classified by all of the following EXCEPT:",
+      "options": [
+        { "letter": "A", "text": "Their base sequence letter by letter", "correct": true },
+        { "letter": "B", "text": "Banding patterns", "correct": false },
+        { "letter": "C", "text": "Length", "correct": false },
+        { "letter": "D", "text": "Centromere position", "correct": false }
+      ],
+      "explanation": "Karyograms classify chromosomes by banding pattern, length and centromere position, not by full base sequence."
+    },
+    {
+      "id": "A3.1-012",
+      "level": "SL",
+      "statement": "A3.1.7",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "Humans have 46 chromosomes while other great apes have 48.",
+      "stem": "The evidence suggests human chromosome 2 arose from:",
+      "options": [
+        { "letter": "A", "text": "The fusion of two ancestral chromosomes", "correct": true },
+        { "letter": "B", "text": "The loss of a chromosome", "correct": false },
+        { "letter": "C", "text": "A gene mutation only", "correct": false },
+        { "letter": "D", "text": "Duplication of chromosome 1", "correct": false }
+      ],
+      "explanation": "Evidence suggests human chromosome 2 arose from the fusion of two chromosomes seen separately in a shared primate ancestor."
+    },
+    {
+      "id": "A3.1-013",
+      "level": "SL",
+      "statement": "A3.1.8",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "The genome of an organism is defined as:",
+      "options": [
+        { "letter": "A", "text": "All of its genetic information", "correct": true },
+        { "letter": "B", "text": "A single gene", "correct": false },
+        { "letter": "C", "text": "Only its mitochondrial DNA", "correct": false },
+        { "letter": "D", "text": "Its proteins", "correct": false }
+      ],
+      "explanation": "The genome is all the genetic information of an organism."
+    },
+    {
+      "id": "A3.1-014",
+      "level": "SL",
+      "statement": "A3.1.8",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Small differences in single bases that create variation within a species are called:",
+      "options": [
+        { "letter": "A", "text": "Single-nucleotide polymorphisms (SNPs)", "correct": true },
+        { "letter": "B", "text": "Chromosomes", "correct": false },
+        { "letter": "C", "text": "Ribosomes", "correct": false },
+        { "letter": "D", "text": "Karyograms", "correct": false }
+      ],
+      "explanation": "Members of a species share most of their genome, but single-nucleotide polymorphisms give some diversity."
+    },
+    {
+      "id": "A3.1-015",
+      "level": "SL",
+      "statement": "A3.1.9",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Eukaryotic genomes vary in size, which is determined by:",
+      "options": [
+        { "letter": "A", "text": "The total amount of DNA", "correct": true },
+        { "letter": "B", "text": "The number of proteins made", "correct": false },
+        { "letter": "C", "text": "The size of the organism only", "correct": false },
+        { "letter": "D", "text": "The number of cells", "correct": false }
+      ],
+      "explanation": "Genome size is determined by the total amount of DNA an organism has."
+    },
+    {
+      "id": "A3.1-016",
+      "level": "SL",
+      "statement": "A3.1.9",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "How does genetic variation within a species compare with variation between species?",
+      "options": [
+        { "letter": "A", "text": "Variation between species is much larger", "correct": true },
+        { "letter": "B", "text": "Variation within a species is much larger", "correct": false },
+        { "letter": "C", "text": "They are always exactly equal", "correct": false },
+        { "letter": "D", "text": "There is no variation between species", "correct": false }
+      ],
+      "explanation": "Variation between species is much larger than variation within a species."
+    },
+    {
+      "id": "A3.1-017",
+      "level": "SL",
+      "statement": "A3.1.11",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "A potential future use of whole genome sequencing is:",
+      "options": [
+        { "letter": "A", "text": "Personalized medicine", "correct": true },
+        { "letter": "B", "text": "Increasing the cost of sequencing", "correct": false },
+        { "letter": "C", "text": "Stopping all evolution", "correct": false },
+        { "letter": "D", "text": "Removing all genetic variation", "correct": false }
+      ],
+      "explanation": "A potential future use of whole genome sequencing is personalized medicine, tailored to an individual's genome."
+    },
+    {
+      "id": "A3.1-018",
+      "level": "SL",
+      "statement": "A3.1.11",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "A current use of whole genome sequencing is:",
+      "options": [
+        { "letter": "A", "text": "Researching evolutionary relationships", "correct": true },
+        { "letter": "B", "text": "Making organisms immortal", "correct": false },
+        { "letter": "C", "text": "Eliminating all species", "correct": false },
+        { "letter": "D", "text": "Preventing DNA from mutating", "correct": false }
+      ],
+      "explanation": "Current uses of whole genome sequencing include research into evolutionary relationships."
+    },
+    {
+      "id": "A3.1-019",
+      "level": "SL",
+      "statement": "A3.1.11",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "Over recent decades genome sequencing has changed dramatically.",
+      "stem": "Which trend describes these changes?",
+      "options": [
+        { "letter": "A", "text": "Increasing speed and decreasing cost", "correct": true },
+        { "letter": "B", "text": "Decreasing speed and increasing cost", "correct": false },
+        { "letter": "C", "text": "No change over time", "correct": false },
+        { "letter": "D", "text": "It has become impossible", "correct": false }
+      ],
+      "explanation": "Whole genome sequencing has become faster and cheaper over time."
+    },
+    {
+      "id": "A3.1-020",
+      "level": "SL",
+      "statement": "A3.1.2",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "A species defined only by shared visible characteristics is being defined by the:",
+      "options": [
+        { "letter": "A", "text": "Morphological species concept", "correct": true },
+        { "letter": "B", "text": "Biological species concept", "correct": false },
+        { "letter": "C", "text": "Molecular clock", "correct": false },
+        { "letter": "D", "text": "Genome size concept", "correct": false }
+      ],
+      "explanation": "Defining a species by shared physical traits is the morphological concept used by Linnaeus."
+    },
+    {
+      "id": "A3.1-021",
+      "level": "SL",
+      "statement": "A3.1.4",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Which is a challenge for the biological species concept?",
+      "options": [
+        { "letter": "A", "text": "It cannot easily be applied to organisms that do not reproduce sexually", "correct": true },
+        { "letter": "B", "text": "It works perfectly for every organism", "correct": false },
+        { "letter": "C", "text": "It ignores whether offspring are fertile", "correct": false },
+        { "letter": "D", "text": "It relies only on appearance", "correct": false }
+      ],
+      "explanation": "The biological species concept struggles with organisms that do not breed sexually, among other challenges."
+    },
+    {
+      "id": "A3.1-022",
+      "level": "SL",
+      "statement": "A3.1.1",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "The patterns of variation among organisms provide the basis for:",
+      "options": [
+        { "letter": "A", "text": "Naming and classifying organisms", "correct": true },
+        { "letter": "B", "text": "Preventing evolution", "correct": false },
+        { "letter": "C", "text": "Making all organisms identical", "correct": false },
+        { "letter": "D", "text": "Removing genetic information", "correct": false }
+      ],
+      "explanation": "The complex patterns of variation are the basis for naming and classifying organisms."
+    },
+    {
+      "id": "A3.1-023",
+      "level": "SL",
+      "statement": "A3.1.6",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Chimpanzees have how many chromosomes in their body cells?",
+      "options": [
+        { "letter": "A", "text": "48", "correct": true },
+        { "letter": "B", "text": "46", "correct": false },
+        { "letter": "C", "text": "23", "correct": false },
+        { "letter": "D", "text": "24", "correct": false }
+      ],
+      "explanation": "Chimpanzees have 48 chromosomes, two more than humans."
+    },
+    {
+      "id": "A3.1-024",
+      "level": "SL",
+      "statement": "A3.1.8",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Two humans differ slightly in their DNA. This is because:",
+      "options": [
+        { "letter": "A", "text": "They share most of their genome but have some variations such as SNPs", "correct": true },
+        { "letter": "B", "text": "They have completely different genomes", "correct": false },
+        { "letter": "C", "text": "They belong to different species", "correct": false },
+        { "letter": "D", "text": "Humans have no genetic variation", "correct": false }
+      ],
+      "explanation": "Members of a species share most of the genome, with variation such as SNPs giving individual differences."
+    },
+    {
+      "id": "A3.1-025",
+      "level": "SL",
+      "statement": "A3.1.7",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "The position of the centromere is one feature used to:",
+      "options": [
+        { "letter": "A", "text": "Classify chromosomes in a karyogram", "correct": true },
+        { "letter": "B", "text": "Measure the genome size in bases", "correct": false },
+        { "letter": "C", "text": "Count the number of genes exactly", "correct": false },
+        { "letter": "D", "text": "Determine an organism's habitat", "correct": false }
+      ],
+      "explanation": "Chromosomes are classified in karyograms by banding patterns, length and centromere position."
+    },
+    {
+      "id": "A3.1-026",
+      "level": "SL",
+      "statement": "A3.1.9",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Besides overall size, eukaryote genomes also vary in their:",
+      "options": [
+        { "letter": "A", "text": "Base sequence", "correct": true },
+        { "letter": "B", "text": "Number of ribosomes", "correct": false },
+        { "letter": "C", "text": "Colour", "correct": false },
+        { "letter": "D", "text": "Temperature", "correct": false }
+      ],
+      "explanation": "Genomes vary both in overall size and in base sequence."
+    },
+    {
+      "id": "A3.1-027",
+      "level": "SL",
+      "statement": "A3.1.10",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "A student compares genome sizes from a database across taxonomic groups.",
+      "stem": "A key finding is that genome size:",
+      "options": [
+        { "letter": "A", "text": "Does not always match organism complexity", "correct": true },
+        { "letter": "B", "text": "Always increases with complexity", "correct": false },
+        { "letter": "C", "text": "Is identical in all organisms", "correct": false },
+        { "letter": "D", "text": "Cannot be measured", "correct": false }
+      ],
+      "explanation": "Comparing genome sizes shows that larger genomes do not always correspond to more complex organisms."
+    },
+    {
+      "id": "A3.1-028",
+      "level": "SL",
+      "statement": "A3.1.3",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "Two organisms are named Quercus robur and Quercus alba.",
+      "stem": "What can you conclude about them?",
+      "options": [
+        { "letter": "A", "text": "They belong to the same genus and have similar traits", "correct": true },
+        { "letter": "B", "text": "They are the same species", "correct": false },
+        { "letter": "C", "text": "They are in different kingdoms", "correct": false },
+        { "letter": "D", "text": "They cannot be related", "correct": false }
+      ],
+      "explanation": "Sharing the genus name Quercus means they are in the same genus and have similar traits."
+    },
+    {
+      "id": "A3.1-029",
+      "level": "SL",
+      "statement": "A3.1.5",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Speciation usually happens:",
+      "options": [
+        { "letter": "A", "text": "Gradually, as populations diverge", "correct": true },
+        { "letter": "B", "text": "Instantly in a single generation always", "correct": false },
+        { "letter": "C", "text": "Only when species merge", "correct": false },
+        { "letter": "D", "text": "Never in nature", "correct": false }
+      ],
+      "explanation": "Speciation usually happens gradually, with populations becoming increasingly different in their traits."
+    },
+    {
+      "id": "A3.1-030",
+      "level": "SL",
+      "statement": "A3.1.4",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "That more than one definition of 'species' exists shows that:",
+      "options": [
+        { "letter": "A", "text": "Competing species concepts are used by biologists", "correct": true },
+        { "letter": "B", "text": "Only one definition has ever existed", "correct": false },
+        { "letter": "C", "text": "Species do not exist", "correct": false },
+        { "letter": "D", "text": "Definitions are never debated", "correct": false }
+      ],
+      "explanation": "Competing species definitions exist, each with strengths and limitations."
+    },
+    {
+      "id": "A3.1-031",
+      "level": "SL",
+      "statement": "A3.1.1",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Which statement about individuals within a species is correct?",
+      "options": [
+        { "letter": "A", "text": "No two individuals are identical in all their traits", "correct": true },
+        { "letter": "B", "text": "All individuals are exactly identical", "correct": false },
+        { "letter": "C", "text": "Individuals show no variation", "correct": false },
+        { "letter": "D", "text": "Variation only occurs between kingdoms", "correct": false }
+      ],
+      "explanation": "Variation is universal: no two individuals are identical in all traits."
+    },
+    {
+      "id": "A3.1-032",
+      "level": "SL",
+      "statement": "A3.1.8",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "The fact that organisms in the same species share most of their genome demonstrates:",
+      "options": [
+        { "letter": "A", "text": "Unity within a species", "correct": true },
+        { "letter": "B", "text": "That the species has no diversity", "correct": false },
+        { "letter": "C", "text": "That they are different species", "correct": false },
+        { "letter": "D", "text": "That genomes are all identical between species", "correct": false }
+      ],
+      "explanation": "Sharing most of the genome reflects unity within a species, while variations such as SNPs provide diversity."
+    },
+    {
+      "id": "A3.1-033",
+      "level": "SL",
+      "statement": "A3.1.6",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Different species tend to have different chromosome numbers. This illustrates:",
+      "options": [
+        { "letter": "A", "text": "Diversity in chromosome numbers between species", "correct": true },
+        { "letter": "B", "text": "That all species have 46 chromosomes", "correct": false },
+        { "letter": "C", "text": "That chromosome number never varies", "correct": false },
+        { "letter": "D", "text": "That chromosomes do not exist in some species", "correct": false }
+      ],
+      "explanation": "Chromosome numbers vary between species, part of the diversity of organisms."
+    },
+    {
+      "id": "A3.1-034",
+      "level": "SL",
+      "statement": "A3.1.7",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "A statement claims chromosome 2 arose by fusion; another claims humans are 'special creations'.",
+      "stem": "Which statement is testable using scientific evidence?",
+      "options": [
+        { "letter": "A", "text": "The chromosome 2 fusion hypothesis", "correct": true },
+        { "letter": "B", "text": "The 'special creation' statement", "correct": false },
+        { "letter": "C", "text": "Neither is testable", "correct": false },
+        { "letter": "D", "text": "Both are equally untestable", "correct": false }
+      ],
+      "explanation": "The chromosome 2 fusion hypothesis makes predictions that can be tested against genomic evidence, unlike untestable statements."
+    },
+    {
+      "id": "A3.1-035",
+      "level": "SL",
+      "statement": "A3.1.3",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Why is the binomial naming system useful?",
+      "options": [
+        { "letter": "A", "text": "It gives each species a unique, universally recognised name", "correct": true },
+        { "letter": "B", "text": "It uses a different name in every country", "correct": false },
+        { "letter": "C", "text": "It avoids naming organisms at all", "correct": false },
+        { "letter": "D", "text": "It only names the kingdom", "correct": false }
+      ],
+      "explanation": "The binomial system provides each species with a unique, internationally understood two-part name."
+    },
+    {
+      "id": "A3.1-036",
+      "level": "SL",
+      "statement": "A3.1.9",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Which comparison of genomes is correct?",
+      "options": [
+        { "letter": "A", "text": "Between-species variation exceeds within-species variation", "correct": true },
+        { "letter": "B", "text": "Genomes of all eukaryotes are the same size", "correct": false },
+        { "letter": "C", "text": "Genome size never varies", "correct": false },
+        { "letter": "D", "text": "Base sequences are identical across species", "correct": false }
+      ],
+      "explanation": "Genomes vary in size and sequence, with far greater variation between species than within one."
+    },
+    {
+      "id": "A3.1-037",
+      "level": "SL",
+      "statement": "A3.1.11",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "As sequencing costs have fallen, whole genome sequencing has become:",
+      "options": [
+        { "letter": "A", "text": "More widely available for research and medicine", "correct": true },
+        { "letter": "B", "text": "Impossible to perform", "correct": false },
+        { "letter": "C", "text": "Restricted to a single species", "correct": false },
+        { "letter": "D", "text": "Slower each year", "correct": false }
+      ],
+      "explanation": "Falling costs and increasing speed have made whole genome sequencing more accessible for many uses."
+    },
+    {
+      "id": "A3.1-038",
+      "level": "SL",
+      "statement": "A3.1.4",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "Two populations look identical but never interbreed in the wild.",
+      "stem": "Under the biological species concept, deciding if they are one species is difficult because:",
+      "options": [
+        { "letter": "A", "text": "Whether they could produce fertile offspring may be unknown", "correct": true },
+        { "letter": "B", "text": "They obviously cannot be species", "correct": false },
+        { "letter": "C", "text": "Appearance alone always settles it", "correct": false },
+        { "letter": "D", "text": "The concept ignores reproduction", "correct": false }
+      ],
+      "explanation": "The biological concept relies on interbreeding and fertile offspring, which may be hard to assess, creating challenges."
+    },
+    {
+      "id": "A3.1-039",
+      "level": "SL",
+      "statement": "A3.1.2",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Members of the same species in the morphological concept are grouped because they:",
+      "options": [
+        { "letter": "A", "text": "Share a set of common physical traits", "correct": true },
+        { "letter": "B", "text": "Have completely different appearances", "correct": false },
+        { "letter": "C", "text": "Live at different times", "correct": false },
+        { "letter": "D", "text": "Cannot be observed", "correct": false }
+      ],
+      "explanation": "The morphological concept groups organisms with shared traits into a species."
+    },
+    {
+      "id": "A3.1-040",
+      "level": "SL",
+      "statement": "A3.1.1",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Variation among organisms is best described as:",
+      "options": [
+        { "letter": "A", "text": "Complex and universal", "correct": true },
+        { "letter": "B", "text": "Simple and rare", "correct": false },
+        { "letter": "C", "text": "Absent in most species", "correct": false },
+        { "letter": "D", "text": "Only present in bacteria", "correct": false }
+      ],
+      "explanation": "Patterns of variation are complex and found in all life, forming the basis of classification."
+    },
+    {
+      "id": "A3.1-041",
+      "level": "HL",
+      "statement": "A3.1.12",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "Bacteria can transfer genes between different species.",
+      "stem": "Why does this cause problems for the biological species concept?",
+      "options": [
+        { "letter": "A", "text": "The concept assumes genes stay within a sexually breeding group", "correct": true },
+        { "letter": "B", "text": "Bacteria have no genes", "correct": false },
+        { "letter": "C", "text": "Bacteria always breed sexually", "correct": false },
+        { "letter": "D", "text": "Gene transfer never happens", "correct": false }
+      ],
+      "explanation": "The biological species concept does not work well where genes can be transferred between species, as with horizontal gene transfer in bacteria."
+    },
+    {
+      "id": "A3.1-042",
+      "level": "HL",
+      "statement": "A3.1.12",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "The biological species concept is hard to apply to asexually reproducing organisms because:",
+      "options": [
+        { "letter": "A", "text": "They do not breed sexually to produce fertile offspring", "correct": true },
+        { "letter": "B", "text": "They reproduce too rarely to observe", "correct": false },
+        { "letter": "C", "text": "They have no DNA", "correct": false },
+        { "letter": "D", "text": "They never vary", "correct": false }
+      ],
+      "explanation": "Because the concept depends on interbreeding, it does not work well for organisms that reproduce asexually."
+    },
+    {
+      "id": "A3.1-043",
+      "level": "HL",
+      "statement": "A3.1.13",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "Two closely related species have different chromosome numbers.",
+      "stem": "Cross-breeding between them is unlikely to produce fertile offspring because:",
+      "options": [
+        { "letter": "A", "text": "Chromosomes cannot pair properly during meiosis", "correct": true },
+        { "letter": "B", "text": "They have identical genomes", "correct": false },
+        { "letter": "C", "text": "They cannot mate at all", "correct": false },
+        { "letter": "D", "text": "They belong to the same species", "correct": false }
+      ],
+      "explanation": "Different parental chromosome numbers prevent proper pairing in meiosis, so fertile offspring are unlikely."
+    },
+    {
+      "id": "A3.1-044",
+      "level": "HL",
+      "statement": "A3.1.13",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Chromosome number is described as a shared trait within a species because:",
+      "options": [
+        { "letter": "A", "text": "Members of a species typically have the same chromosome number", "correct": true },
+        { "letter": "B", "text": "Every individual has a different number", "correct": false },
+        { "letter": "C", "text": "Chromosome number is random", "correct": false },
+        { "letter": "D", "text": "Only one member has chromosomes", "correct": false }
+      ],
+      "explanation": "Within a species chromosome number is usually the same, acting as a shared trait."
+    },
+    {
+      "id": "A3.1-045",
+      "level": "HL",
+      "statement": "A3.1.14",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "A student sorts local plants using a series of paired either/or questions.",
+      "stem": "What tool is being used?",
+      "options": [
+        { "letter": "A", "text": "A dichotomous key", "correct": true },
+        { "letter": "B", "text": "A cladogram", "correct": false },
+        { "letter": "C", "text": "A karyogram", "correct": false },
+        { "letter": "D", "text": "A pedigree chart", "correct": false }
+      ],
+      "explanation": "A dichotomous key identifies organisms through a series of paired (either/or) choices."
+    },
+    {
+      "id": "A3.1-046",
+      "level": "HL",
+      "statement": "A3.1.15",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "Scientists collect water and analyse the DNA it contains to list the species present.",
+      "stem": "This technique uses:",
+      "options": [
+        { "letter": "A", "text": "Environmental DNA and barcodes", "correct": true },
+        { "letter": "B", "text": "A dichotomous key only", "correct": false },
+        { "letter": "C", "text": "A karyogram", "correct": false },
+        { "letter": "D", "text": "The molecular clock", "correct": false }
+      ],
+      "explanation": "Environmental DNA combined with barcodes allows rapid identification of species and biodiversity in a habitat."
+    },
+    {
+      "id": "A3.1-047",
+      "level": "HL",
+      "statement": "A3.1.15",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "A major advantage of using environmental DNA and barcodes is that biodiversity can be assessed:",
+      "options": [
+        { "letter": "A", "text": "Rapidly, without capturing every organism", "correct": true },
+        { "letter": "B", "text": "Only after decades of study", "correct": false },
+        { "letter": "C", "text": "Without any DNA analysis", "correct": false },
+        { "letter": "D", "text": "By breeding all the organisms", "correct": false }
+      ],
+      "explanation": "Environmental DNA and barcodes allow the biodiversity of habitats to be investigated rapidly."
+    },
+    {
+      "id": "A3.1-048",
+      "level": "HL",
+      "statement": "A3.1.12",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "Horizontal gene transfer refers to genes being passed:",
+      "options": [
+        { "letter": "A", "text": "Between organisms other than from parent to offspring", "correct": true },
+        { "letter": "B", "text": "Only from parent to offspring", "correct": false },
+        { "letter": "C", "text": "Only during meiosis", "correct": false },
+        { "letter": "D", "text": "Never between cells", "correct": false }
+      ],
+      "explanation": "Horizontal gene transfer moves genes between organisms (even between species), not through normal parent-to-offspring inheritance."
+    },
+    {
+      "id": "A3.1-049",
+      "level": "HL",
+      "statement": "A3.1.13",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "",
+      "stem": "A hybrid formed from parents with different chromosome numbers is often:",
+      "options": [
+        { "letter": "A", "text": "Sterile", "correct": true },
+        { "letter": "B", "text": "Always highly fertile", "correct": false },
+        { "letter": "C", "text": "Unable to survive at all", "correct": false },
+        { "letter": "D", "text": "Genetically identical to one parent", "correct": false }
+      ],
+      "explanation": "Mismatched chromosome numbers usually make hybrids sterile because chromosomes cannot pair correctly in meiosis."
+    },
+    {
+      "id": "A3.1-050",
+      "level": "HL",
+      "statement": "A3.1.14",
+      "category": "A3.1 Diversity of organisms",
+      "scenario": "In a dichotomous key, each step offers two contrasting options.",
+      "stem": "Following the key correctly leads to:",
+      "options": [
+        { "letter": "A", "text": "The identity of the organism", "correct": true },
+        { "letter": "B", "text": "The organism's chromosome number", "correct": false },
+        { "letter": "C", "text": "The organism's genome size", "correct": false },
+        { "letter": "D", "text": "A random answer", "correct": false }
+      ],
+      "explanation": "Working through the paired choices of a dichotomous key leads to the identification of the organism."
+    }
+  ]
+}

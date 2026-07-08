@@ -1,0 +1,760 @@
+{
+  "id": "A2.1",
+  "name": "Origins of cells",
+  "theme": "A",
+  "themeName": "Unity and diversity",
+  "levelOfOrganization": "Cells",
+  "level": "HL",
+  "questions": [
+    {
+      "id": "A2.1-001",
+      "level": "HL",
+      "statement": "A2.1.1",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which gas was essentially absent from the atmosphere of early Earth?",
+      "options": [
+        { "letter": "A", "text": "Free oxygen", "correct": true },
+        { "letter": "B", "text": "Carbon dioxide", "correct": false },
+        { "letter": "C", "text": "Methane", "correct": false },
+        { "letter": "D", "text": "Water vapour", "correct": false }
+      ],
+      "explanation": "Early Earth lacked free oxygen (and therefore ozone), while carbon dioxide and methane were more abundant."
+    },
+    {
+      "id": "A2.1-002",
+      "level": "HL",
+      "statement": "A2.1.1",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Because early Earth had no ozone layer, its surface received high levels of:",
+      "options": [
+        { "letter": "A", "text": "Ultraviolet light", "correct": true },
+        { "letter": "B", "text": "Free oxygen", "correct": false },
+        { "letter": "C", "text": "Liquid nitrogen", "correct": false },
+        { "letter": "D", "text": "Ozone", "correct": false }
+      ],
+      "explanation": "With no free oxygen there was no ozone, so more ultraviolet light penetrated to the surface."
+    },
+    {
+      "id": "A2.1-003",
+      "level": "HL",
+      "statement": "A2.1.1",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "The conditions on early Earth are thought to have allowed carbon compounds to form:",
+      "options": [
+        { "letter": "A", "text": "Spontaneously by chemical processes", "correct": true },
+        { "letter": "B", "text": "Only inside existing cells", "correct": false },
+        { "letter": "C", "text": "Through photosynthesis by plants", "correct": false },
+        { "letter": "D", "text": "Only in the absence of any energy", "correct": false }
+      ],
+      "explanation": "The conditions may have caused a variety of carbon compounds to form spontaneously by chemical processes that do not occur now."
+    },
+    {
+      "id": "A2.1-004",
+      "level": "HL",
+      "statement": "A2.1.1",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Higher concentrations of carbon dioxide and methane on early Earth would have resulted in:",
+      "options": [
+        { "letter": "A", "text": "Higher temperatures", "correct": true },
+        { "letter": "B", "text": "An ozone-rich atmosphere", "correct": false },
+        { "letter": "C", "text": "Abundant free oxygen", "correct": false },
+        { "letter": "D", "text": "A frozen planet", "correct": false }
+      ],
+      "explanation": "The greenhouse gases carbon dioxide and methane raised temperatures on early Earth."
+    },
+    {
+      "id": "A2.1-005",
+      "level": "HL",
+      "statement": "A2.1.2",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "What is described as the smallest unit of self-sustaining life?",
+      "options": [
+        { "letter": "A", "text": "The cell", "correct": true },
+        { "letter": "B", "text": "The organelle", "correct": false },
+        { "letter": "C", "text": "The virus", "correct": false },
+        { "letter": "D", "text": "The molecule", "correct": false }
+      ],
+      "explanation": "Cells are the smallest units of self-sustaining life."
+    },
+    {
+      "id": "A2.1-006",
+      "level": "HL",
+      "statement": "A2.1.2",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Why are viruses considered non-living?",
+      "options": [
+        { "letter": "A", "text": "They cannot sustain life processes independently of a host", "correct": true },
+        { "letter": "B", "text": "They contain no nucleic acid", "correct": false },
+        { "letter": "C", "text": "They are larger than cells", "correct": false },
+        { "letter": "D", "text": "They are made of only lipids", "correct": false }
+      ],
+      "explanation": "Viruses are non-living because they cannot carry out self-sustaining life processes without a host cell."
+    },
+    {
+      "id": "A2.1-007",
+      "level": "HL",
+      "statement": "A2.1.3",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "How are all cells produced today?",
+      "options": [
+        { "letter": "A", "text": "By division of pre-existing cells", "correct": true },
+        { "letter": "B", "text": "By spontaneous assembly from molecules", "correct": false },
+        { "letter": "C", "text": "By viruses becoming living", "correct": false },
+        { "letter": "D", "text": "Directly from rock minerals", "correct": false }
+      ],
+      "explanation": "Cells are highly complex and can currently only be produced by the division of pre-existing cells."
+    },
+    {
+      "id": "A2.1-008",
+      "level": "HL",
+      "statement": "A2.1.3",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which of the following was NOT a necessary requirement for the evolution of the first cells?",
+      "options": [
+        { "letter": "A", "text": "Aerobic respiration using oxygen", "correct": true },
+        { "letter": "B", "text": "Catalysis", "correct": false },
+        { "letter": "C", "text": "Self-replication of molecules", "correct": false },
+        { "letter": "D", "text": "Self-assembly and compartmentalization", "correct": false }
+      ],
+      "explanation": "Catalysis, self-replication, self-assembly and compartmentalization were required; early Earth lacked free oxygen for aerobic respiration."
+    },
+    {
+      "id": "A2.1-009",
+      "level": "HL",
+      "statement": "A2.1.3",
+      "category": "A2.1 Origins of cells",
+      "scenario": "A hypothesis about the origin of life cannot be tested by recreating the exact conditions of early Earth.",
+      "stem": "What does this illustrate about scientific claims?",
+      "options": [
+        { "letter": "A", "text": "Some hypotheses are difficult to test even though claims must be testable", "correct": true },
+        { "letter": "B", "text": "Scientific claims never need to be testable", "correct": false },
+        { "letter": "C", "text": "The hypothesis must be false", "correct": false },
+        { "letter": "D", "text": "Testability is unimportant in science", "correct": false }
+      ],
+      "explanation": "Claims in science must be testable, but scientists sometimes struggle with hypotheses that are hard to test, such as the origin of cells."
+    },
+    {
+      "id": "A2.1-010",
+      "level": "HL",
+      "statement": "A2.1.4",
+      "category": "A2.1 Origins of cells",
+      "scenario": "The Miller–Urey experiment passed sparks through a mixture of gases thought to resemble early Earth's atmosphere.",
+      "stem": "What did the experiment demonstrate?",
+      "options": [
+        { "letter": "A", "text": "Organic carbon compounds can form from simpler inorganic molecules", "correct": true },
+        { "letter": "B", "text": "Cells can be created from scratch", "correct": false },
+        { "letter": "C", "text": "DNA replicates without enzymes", "correct": false },
+        { "letter": "D", "text": "Oxygen was abundant on early Earth", "correct": false }
+      ],
+      "explanation": "The Miller–Urey experiment provided evidence that carbon compounds could form spontaneously under early-Earth-like conditions."
+    },
+    {
+      "id": "A2.1-011",
+      "level": "HL",
+      "statement": "A2.1.5",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Fatty acids can spontaneously form which structure important to the origin of cells?",
+      "options": [
+        { "letter": "A", "text": "Spherical bilayer vesicles", "correct": true },
+        { "letter": "B", "text": "Solid protein crystals", "correct": false },
+        { "letter": "C", "text": "Double-stranded DNA", "correct": false },
+        { "letter": "D", "text": "Ribosomes", "correct": false }
+      ],
+      "explanation": "Fatty acids can coalesce into spherical bilayers, forming vesicles that create membrane-bound compartments."
+    },
+    {
+      "id": "A2.1-012",
+      "level": "HL",
+      "statement": "A2.1.5",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Why was the formation of a membrane-bound compartment important for the first cells?",
+      "options": [
+        { "letter": "A", "text": "It allowed internal chemistry to differ from the surroundings", "correct": true },
+        { "letter": "B", "text": "It provided a source of oxygen", "correct": false },
+        { "letter": "C", "text": "It removed the need for genetic material", "correct": false },
+        { "letter": "D", "text": "It stopped all chemical reactions", "correct": false }
+      ],
+      "explanation": "A membrane compartment let the chemistry inside become different from that outside, a key step towards cells."
+    },
+    {
+      "id": "A2.1-013",
+      "level": "HL",
+      "statement": "A2.1.6",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "RNA is proposed as the first genetic material because, unlike DNA, it can:",
+      "options": [
+        { "letter": "A", "text": "Be replicated AND act as a catalyst", "correct": true },
+        { "letter": "B", "text": "Only store information", "correct": false },
+        { "letter": "C", "text": "Only speed up reactions", "correct": false },
+        { "letter": "D", "text": "Neither store information nor catalyse", "correct": false }
+      ],
+      "explanation": "RNA can be replicated and has catalytic activity, so it may have acted as both genetic material and enzyme in the earliest cells."
+    },
+    {
+      "id": "A2.1-014",
+      "level": "HL",
+      "statement": "A2.1.6",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which present-day example supports the idea that RNA can act as a catalyst?",
+      "options": [
+        { "letter": "A", "text": "Ribozymes in the ribosome catalysing peptide bond formation", "correct": true },
+        { "letter": "B", "text": "DNA polymerase copying DNA", "correct": false },
+        { "letter": "C", "text": "Haemoglobin carrying oxygen", "correct": false },
+        { "letter": "D", "text": "Lipids forming membranes", "correct": false }
+      ],
+      "explanation": "Ribozymes in the ribosome still catalyse peptide bond formation, showing RNA's catalytic ability."
+    },
+    {
+      "id": "A2.1-015",
+      "level": "HL",
+      "statement": "A2.1.7",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "What does LUCA stand for?",
+      "options": [
+        { "letter": "A", "text": "Last universal common ancestor", "correct": true },
+        { "letter": "B", "text": "Living unicellular cell ancestor", "correct": false },
+        { "letter": "C", "text": "Largest universal carbon assembly", "correct": false },
+        { "letter": "D", "text": "Late unicellular common alga", "correct": false }
+      ],
+      "explanation": "LUCA is the last universal common ancestor from which all present-day life is descended."
+    },
+    {
+      "id": "A2.1-016",
+      "level": "HL",
+      "statement": "A2.1.7",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which of these is evidence for a last universal common ancestor?",
+      "options": [
+        { "letter": "A", "text": "The universal genetic code and shared genes across organisms", "correct": true },
+        { "letter": "B", "text": "Different genetic codes in each kingdom", "correct": false },
+        { "letter": "C", "text": "The absence of any shared genes", "correct": false },
+        { "letter": "D", "text": "Oxygen in the early atmosphere", "correct": false }
+      ],
+      "explanation": "The universal genetic code and genes shared across all organisms are evidence for a common ancestor, LUCA."
+    },
+    {
+      "id": "A2.1-017",
+      "level": "HL",
+      "statement": "A2.1.7",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Why might other early forms of life have become extinct even if they existed?",
+      "options": [
+        { "letter": "A", "text": "Competition from LUCA and its descendants", "correct": true },
+        { "letter": "B", "text": "They had better adaptations than LUCA", "correct": false },
+        { "letter": "C", "text": "They evolved into viruses", "correct": false },
+        { "letter": "D", "text": "They never actually existed", "correct": false }
+      ],
+      "explanation": "Other forms of life may have evolved but become extinct due to competition from LUCA and its descendants."
+    },
+    {
+      "id": "A2.1-018",
+      "level": "HL",
+      "statement": "A2.1.8",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Studying the dates of the first cells and LUCA helps students appreciate:",
+      "options": [
+        { "letter": "A", "text": "The immense length of time over which life has evolved", "correct": true },
+        { "letter": "B", "text": "That life appeared only recently", "correct": false },
+        { "letter": "C", "text": "That evolution happens within days", "correct": false },
+        { "letter": "D", "text": "That dates cannot be estimated at all", "correct": false }
+      ],
+      "explanation": "Estimating these dates develops an appreciation of the immense timescale over which life has been evolving."
+    },
+    {
+      "id": "A2.1-019",
+      "level": "HL",
+      "statement": "A2.1.9",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "LUCA is thought to have evolved in the vicinity of:",
+      "options": [
+        { "letter": "A", "text": "Hydrothermal vents", "correct": true },
+        { "letter": "B", "text": "Mountain glaciers", "correct": false },
+        { "letter": "C", "text": "Deserts", "correct": false },
+        { "letter": "D", "text": "The upper atmosphere", "correct": false }
+      ],
+      "explanation": "Evidence suggests LUCA evolved in the vicinity of seafloor hydrothermal vents."
+    },
+    {
+      "id": "A2.1-020",
+      "level": "HL",
+      "statement": "A2.1.9",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which is cited as evidence for the evolution of LUCA near hydrothermal vents?",
+      "options": [
+        { "letter": "A", "text": "Fossilized life from ancient seafloor vent precipitates and conserved gene sequences", "correct": true },
+        { "letter": "B", "text": "Fossils of large land animals", "correct": false },
+        { "letter": "C", "text": "The presence of ozone in ancient rocks", "correct": false },
+        { "letter": "D", "text": "Modern coral reefs", "correct": false }
+      ],
+      "explanation": "Evidence includes fossilized life from ancient seafloor hydrothermal vent precipitates and conserved sequences from genomic analysis."
+    },
+    {
+      "id": "A2.1-021",
+      "level": "HL",
+      "statement": "A2.1.1",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Why do the spontaneous chemical processes that formed early carbon compounds not occur on Earth now?",
+      "options": [
+        { "letter": "A", "text": "Atmospheric conditions, including oxygen levels, have changed", "correct": true },
+        { "letter": "B", "text": "Carbon no longer exists", "correct": false },
+        { "letter": "C", "text": "The Sun has switched off", "correct": false },
+        { "letter": "D", "text": "There is no longer any water", "correct": false }
+      ],
+      "explanation": "Today's atmosphere (notably its free oxygen) differs from early Earth, so those spontaneous processes no longer occur."
+    },
+    {
+      "id": "A2.1-022",
+      "level": "HL",
+      "statement": "A2.1.2",
+      "category": "A2.1 Origins of cells",
+      "scenario": "A scientist debates whether a newly found particle is living.",
+      "stem": "Which feature would best support classifying something as living?",
+      "options": [
+        { "letter": "A", "text": "It is a self-sustaining unit carrying out life processes", "correct": true },
+        { "letter": "B", "text": "It contains carbon atoms", "correct": false },
+        { "letter": "C", "text": "It is very small", "correct": false },
+        { "letter": "D", "text": "It reflects light", "correct": false }
+      ],
+      "explanation": "A defining feature of life is being a self-sustaining unit; this is why cells are living but viruses are not."
+    },
+    {
+      "id": "A2.1-023",
+      "level": "HL",
+      "statement": "A2.1.3",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Explaining the spontaneous origin of cells is challenging mainly because cells are:",
+      "options": [
+        { "letter": "A", "text": "Highly complex structures", "correct": true },
+        { "letter": "B", "text": "Too simple to study", "correct": false },
+        { "letter": "C", "text": "Made only of water", "correct": false },
+        { "letter": "D", "text": "Unable to divide", "correct": false }
+      ],
+      "explanation": "The great complexity of cells makes explaining their spontaneous origin difficult."
+    },
+    {
+      "id": "A2.1-024",
+      "level": "HL",
+      "statement": "A2.1.6",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "The 'RNA world' hypothesis suggests that in the earliest cells, RNA served as:",
+      "options": [
+        { "letter": "A", "text": "Both the genetic material and the catalysts", "correct": true },
+        { "letter": "B", "text": "Only a structural membrane", "correct": false },
+        { "letter": "C", "text": "An energy store like fat", "correct": false },
+        { "letter": "D", "text": "A source of oxygen", "correct": false }
+      ],
+      "explanation": "RNA may have initially acted as both the genetic material and the enzymes of the earliest cells."
+    },
+    {
+      "id": "A2.1-025",
+      "level": "HL",
+      "statement": "A2.1.5",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Vesicles form when fatty acids arrange themselves into bilayers because fatty acids have:",
+      "options": [
+        { "letter": "A", "text": "Both hydrophilic and hydrophobic regions", "correct": true },
+        { "letter": "B", "text": "Only hydrophilic regions", "correct": false },
+        { "letter": "C", "text": "Only charged phosphate groups", "correct": false },
+        { "letter": "D", "text": "No interaction with water", "correct": false }
+      ],
+      "explanation": "The dual nature of fatty acids drives them to self-assemble into spherical bilayers in water, forming vesicles."
+    },
+    {
+      "id": "A2.1-026",
+      "level": "HL",
+      "statement": "A2.1.4",
+      "category": "A2.1 Origins of cells",
+      "scenario": "A student is asked to 'evaluate' the Miller–Urey experiment.",
+      "stem": "A valid limitation of the experiment is that:",
+      "options": [
+        { "letter": "A", "text": "The exact composition of early Earth's atmosphere is uncertain", "correct": true },
+        { "letter": "B", "text": "It produced no organic molecules at all", "correct": false },
+        { "letter": "C", "text": "It created complete living cells", "correct": false },
+        { "letter": "D", "text": "It used modern oxygen-rich air", "correct": false }
+      ],
+      "explanation": "A limitation is that the true early atmosphere is uncertain, so the simulated conditions may not match reality."
+    },
+    {
+      "id": "A2.1-027",
+      "level": "HL",
+      "statement": "A2.1.7",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "The sharing of many of the same genes across bacteria, archaea and eukaryotes suggests:",
+      "options": [
+        { "letter": "A", "text": "Descent from a common ancestor", "correct": true },
+        { "letter": "B", "text": "That genes were invented separately each time", "correct": false },
+        { "letter": "C", "text": "That the groups are unrelated", "correct": false },
+        { "letter": "D", "text": "That DNA is not inherited", "correct": false }
+      ],
+      "explanation": "Shared genes across all domains are evidence of descent from a last universal common ancestor."
+    },
+    {
+      "id": "A2.1-028",
+      "level": "HL",
+      "statement": "A2.1.1",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which combination best describes early Earth's atmosphere?",
+      "options": [
+        { "letter": "A", "text": "No free oxygen, high carbon dioxide and methane", "correct": true },
+        { "letter": "B", "text": "High free oxygen, low carbon dioxide", "correct": false },
+        { "letter": "C", "text": "Pure nitrogen only", "correct": false },
+        { "letter": "D", "text": "Rich in ozone", "correct": false }
+      ],
+      "explanation": "Early Earth had no free oxygen (and no ozone) but higher levels of carbon dioxide and methane."
+    },
+    {
+      "id": "A2.1-029",
+      "level": "HL",
+      "statement": "A2.1.2",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which is a reason a virus is NOT a self-sustaining unit of life?",
+      "options": [
+        { "letter": "A", "text": "It cannot metabolise or reproduce without a host cell", "correct": true },
+        { "letter": "B", "text": "It is made only of DNA", "correct": false },
+        { "letter": "C", "text": "It has too many organelles", "correct": false },
+        { "letter": "D", "text": "It carries out photosynthesis", "correct": false }
+      ],
+      "explanation": "Viruses depend entirely on host cells for their life functions, so they are not self-sustaining and are non-living."
+    },
+    {
+      "id": "A2.1-030",
+      "level": "HL",
+      "statement": "A2.1.3",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which process allows a molecule to make copies of itself, a requirement for the first cells?",
+      "options": [
+        { "letter": "A", "text": "Self-replication", "correct": true },
+        { "letter": "B", "text": "Excretion", "correct": false },
+        { "letter": "C", "text": "Osmosis", "correct": false },
+        { "letter": "D", "text": "Combustion", "correct": false }
+      ],
+      "explanation": "Self-replication of molecules was one of the necessary requirements for the evolution of the first cells."
+    },
+    {
+      "id": "A2.1-031",
+      "level": "HL",
+      "statement": "A2.1.3",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "The spontaneous coming-together of molecules into ordered structures without external direction is called:",
+      "options": [
+        { "letter": "A", "text": "Self-assembly", "correct": true },
+        { "letter": "B", "text": "Digestion", "correct": false },
+        { "letter": "C", "text": "Translation", "correct": false },
+        { "letter": "D", "text": "Respiration", "correct": false }
+      ],
+      "explanation": "Self-assembly of molecules was among the requirements for the emergence of the first cells."
+    },
+    {
+      "id": "A2.1-032",
+      "level": "HL",
+      "statement": "A2.1.5",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Compartmentalization created by a vesicle membrane is significant because it enables:",
+      "options": [
+        { "letter": "A", "text": "A separation between internal and external chemistry", "correct": true },
+        { "letter": "B", "text": "The destruction of all enzymes", "correct": false },
+        { "letter": "C", "text": "The removal of genetic material", "correct": false },
+        { "letter": "D", "text": "Continuous mixing with the surroundings", "correct": false }
+      ],
+      "explanation": "Compartmentalization allows the internal chemistry to become different from the external environment."
+    },
+    {
+      "id": "A2.1-033",
+      "level": "HL",
+      "statement": "A2.1.6",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "A key advantage of RNA over DNA as a first genetic material is that RNA:",
+      "options": [
+        { "letter": "A", "text": "Has catalytic activity of its own", "correct": true },
+        { "letter": "B", "text": "Cannot be copied", "correct": false },
+        { "letter": "C", "text": "Is always double-stranded", "correct": false },
+        { "letter": "D", "text": "Contains no bases", "correct": false }
+      ],
+      "explanation": "Unlike DNA, RNA has some catalytic activity, so it could act as both information store and enzyme."
+    },
+    {
+      "id": "A2.1-034",
+      "level": "HL",
+      "statement": "A2.1.8",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Estimating when the first cells appeared relies on interpreting evidence such as:",
+      "options": [
+        { "letter": "A", "text": "Fossils and genomic analysis", "correct": true },
+        { "letter": "B", "text": "The current human population", "correct": false },
+        { "letter": "C", "text": "The colour of the sky", "correct": false },
+        { "letter": "D", "text": "Modern atmospheric oxygen only", "correct": false }
+      ],
+      "explanation": "Approaches to dating the first cells and LUCA draw on fossil and genomic evidence."
+    },
+    {
+      "id": "A2.1-035",
+      "level": "HL",
+      "statement": "A2.1.9",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Hydrothermal vents are considered a plausible site for the origin of life because they provide:",
+      "options": [
+        { "letter": "A", "text": "Energy and chemicals for early reactions", "correct": true },
+        { "letter": "B", "text": "Abundant sunlight", "correct": false },
+        { "letter": "C", "text": "High oxygen concentrations", "correct": false },
+        { "letter": "D", "text": "A dry environment", "correct": false }
+      ],
+      "explanation": "Seafloor hydrothermal vents supply energy and chemicals that could support the reactions needed for early life."
+    },
+    {
+      "id": "A2.1-036",
+      "level": "HL",
+      "statement": "A2.1.1",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which of these carbon-containing gases contributed to greenhouse warming on early Earth?",
+      "options": [
+        { "letter": "A", "text": "Methane and carbon dioxide", "correct": true },
+        { "letter": "B", "text": "Oxygen and ozone", "correct": false },
+        { "letter": "C", "text": "Helium and neon", "correct": false },
+        { "letter": "D", "text": "Argon only", "correct": false }
+      ],
+      "explanation": "Higher concentrations of the carbon compounds methane and carbon dioxide raised early temperatures."
+    },
+    {
+      "id": "A2.1-037",
+      "level": "HL",
+      "statement": "A2.1.7",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "The idea that some early life forms evolved but then died out implies LUCA was:",
+      "options": [
+        { "letter": "A", "text": "The ancestor whose descendants outcompeted the others", "correct": true },
+        { "letter": "B", "text": "The very first molecule on Earth", "correct": false },
+        { "letter": "C", "text": "Unrelated to modern life", "correct": false },
+        { "letter": "D", "text": "A type of virus", "correct": false }
+      ],
+      "explanation": "LUCA is the common ancestor of surviving life; other lineages may have existed but became extinct through competition."
+    },
+    {
+      "id": "A2.1-038",
+      "level": "HL",
+      "statement": "A2.1.3",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "The ability of molecules to speed up chemical reactions, required for the first cells, is called:",
+      "options": [
+        { "letter": "A", "text": "Catalysis", "correct": true },
+        { "letter": "B", "text": "Diffusion", "correct": false },
+        { "letter": "C", "text": "Condensation", "correct": false },
+        { "letter": "D", "text": "Excretion", "correct": false }
+      ],
+      "explanation": "Catalysis (speeding up reactions) was one of the necessary requirements for the emergence of cells."
+    },
+    {
+      "id": "A2.1-039",
+      "level": "HL",
+      "statement": "A2.1.4",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "The Miller–Urey experiment is best described as evidence for the:",
+      "options": [
+        { "letter": "A", "text": "Spontaneous formation of organic carbon compounds", "correct": true },
+        { "letter": "B", "text": "Origin of the ozone layer", "correct": false },
+        { "letter": "C", "text": "Existence of LUCA at hydrothermal vents", "correct": false },
+        { "letter": "D", "text": "Structure of the ribosome", "correct": false }
+      ],
+      "explanation": "Miller–Urey provided evidence that organic carbon compounds could form spontaneously from simple molecules."
+    },
+    {
+      "id": "A2.1-040",
+      "level": "HL",
+      "statement": "A2.1.6",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Ribozymes are best described as:",
+      "options": [
+        { "letter": "A", "text": "RNA molecules that act as catalysts", "correct": true },
+        { "letter": "B", "text": "Protein enzymes that copy DNA", "correct": false },
+        { "letter": "C", "text": "Lipids that form membranes", "correct": false },
+        { "letter": "D", "text": "Sugars used for energy", "correct": false }
+      ],
+      "explanation": "Ribozymes are catalytic RNA molecules, such as those in the ribosome that catalyse peptide bond formation."
+    },
+    {
+      "id": "A2.1-041",
+      "level": "HL",
+      "statement": "A2.1.2",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Distinguishing living from non-living things is difficult partly because:",
+      "options": [
+        { "letter": "A", "text": "Some entities, like viruses, share only some features of life", "correct": true },
+        { "letter": "B", "text": "All non-living things reproduce", "correct": false },
+        { "letter": "C", "text": "Living things never contain carbon", "correct": false },
+        { "letter": "D", "text": "There are no shared features at all", "correct": false }
+      ],
+      "explanation": "Discussing living versus non-living includes cases like viruses that share some but not all features of life."
+    },
+    {
+      "id": "A2.1-042",
+      "level": "HL",
+      "statement": "A2.1.9",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "'Conserved sequences' used as evidence for LUCA refers to:",
+      "options": [
+        { "letter": "A", "text": "Gene or protein sequences shared with little change across organisms", "correct": true },
+        { "letter": "B", "text": "Fossils preserved in ice", "correct": false },
+        { "letter": "C", "text": "Sequences that change rapidly every generation", "correct": false },
+        { "letter": "D", "text": "The order of minerals in vent rocks", "correct": false }
+      ],
+      "explanation": "Conserved sequences are those retained with little change across organisms, pointing to a common ancestor."
+    },
+    {
+      "id": "A2.1-043",
+      "level": "HL",
+      "statement": "A2.1.1",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "The absence of an ozone layer on early Earth is directly linked to the absence of:",
+      "options": [
+        { "letter": "A", "text": "Free oxygen", "correct": true },
+        { "letter": "B", "text": "Carbon dioxide", "correct": false },
+        { "letter": "C", "text": "Water", "correct": false },
+        { "letter": "D", "text": "Methane", "correct": false }
+      ],
+      "explanation": "Ozone is formed from oxygen, so with no free oxygen there was no ozone layer."
+    },
+    {
+      "id": "A2.1-044",
+      "level": "HL",
+      "statement": "A2.1.5",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "A vesicle is best described as:",
+      "options": [
+        { "letter": "A", "text": "A small membrane-bound sac", "correct": true },
+        { "letter": "B", "text": "A strand of RNA", "correct": false },
+        { "letter": "C", "text": "A protein enzyme", "correct": false },
+        { "letter": "D", "text": "A type of sugar", "correct": false }
+      ],
+      "explanation": "A vesicle is a small membrane-bound compartment, here formed spontaneously from fatty acid bilayers."
+    },
+    {
+      "id": "A2.1-045",
+      "level": "HL",
+      "statement": "A2.1.8",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Life is estimated to have been evolving on Earth for a period best described as:",
+      "options": [
+        { "letter": "A", "text": "Billions of years", "correct": true },
+        { "letter": "B", "text": "A few thousand years", "correct": false },
+        { "letter": "C", "text": "A few centuries", "correct": false },
+        { "letter": "D", "text": "Millions of days only", "correct": false }
+      ],
+      "explanation": "The dating of the first cells and LUCA emphasises the immense timescale of billions of years."
+    },
+    {
+      "id": "A2.1-046",
+      "level": "HL",
+      "statement": "A2.1.3",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which of the following is a reason it is hard to test hypotheses about the first protocells?",
+      "options": [
+        { "letter": "A", "text": "The first protocells did not fossilize and conditions cannot be exactly replicated", "correct": true },
+        { "letter": "B", "text": "Protocells are still common today", "correct": false },
+        { "letter": "C", "text": "We can directly observe them forming", "correct": false },
+        { "letter": "D", "text": "They left detailed written records", "correct": false }
+      ],
+      "explanation": "The exact pre-biotic conditions cannot be replicated and the first protocells did not fossilize, making testing difficult."
+    },
+    {
+      "id": "A2.1-047",
+      "level": "HL",
+      "statement": "A2.1.7",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "The universal genetic code is powerful evidence for common ancestry because it is:",
+      "options": [
+        { "letter": "A", "text": "Shared by essentially all organisms", "correct": true },
+        { "letter": "B", "text": "Completely different in every species", "correct": false },
+        { "letter": "C", "text": "Only found in bacteria", "correct": false },
+        { "letter": "D", "text": "Made of protein", "correct": false }
+      ],
+      "explanation": "The near-universal genetic code shared across life is strong evidence for descent from a common ancestor."
+    },
+    {
+      "id": "A2.1-048",
+      "level": "HL",
+      "statement": "A2.1.4",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which energy source did the Miller–Urey experiment use to drive reactions?",
+      "options": [
+        { "letter": "A", "text": "Electrical sparks (simulating lightning)", "correct": true },
+        { "letter": "B", "text": "Sunlight only", "correct": false },
+        { "letter": "C", "text": "Radioactive decay", "correct": false },
+        { "letter": "D", "text": "Sound waves", "correct": false }
+      ],
+      "explanation": "Miller–Urey used electrical sparks to simulate lightning, driving the formation of organic molecules."
+    },
+    {
+      "id": "A2.1-049",
+      "level": "HL",
+      "statement": "A2.1.2",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Which best completes the statement: 'A cell is the smallest unit that can...'",
+      "options": [
+        { "letter": "A", "text": "carry out all the functions of life independently", "correct": true },
+        { "letter": "B", "text": "contain a single atom", "correct": false },
+        { "letter": "C", "text": "exist without any membrane", "correct": false },
+        { "letter": "D", "text": "reproduce only inside a host", "correct": false }
+      ],
+      "explanation": "Cells are the smallest self-sustaining units of life, able to carry out life's functions independently."
+    },
+    {
+      "id": "A2.1-050",
+      "level": "HL",
+      "statement": "A2.1.9",
+      "category": "A2.1 Origins of cells",
+      "scenario": "",
+      "stem": "Fossilized evidence of early life at hydrothermal vents is found in:",
+      "options": [
+        { "letter": "A", "text": "Ancient seafloor vent precipitates", "correct": true },
+        { "letter": "B", "text": "Modern rainforest soil", "correct": false },
+        { "letter": "C", "text": "Polar ice cores only", "correct": false },
+        { "letter": "D", "text": "Meteorite craters on the Moon", "correct": false }
+      ],
+      "explanation": "Fossilized life has been found in ancient seafloor hydrothermal vent precipitates, supporting a vent origin for LUCA."
+    }
+  ]
+}

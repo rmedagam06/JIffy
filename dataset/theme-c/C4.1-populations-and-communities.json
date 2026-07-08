@@ -1,0 +1,760 @@
+{
+  "id": "C4.1",
+  "name": "Populations and communities",
+  "theme": "C",
+  "themeName": "Interaction and interdependence",
+  "levelOfOrganization": "Ecosystems",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "C4.1-001",
+      "level": "SL",
+      "statement": "C4.1.1",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "A population is best defined as:",
+      "options": [
+        { "letter": "A", "text": "A group of interacting organisms of the same species living in an area", "correct": true },
+        { "letter": "B", "text": "All the organisms of different species in an area", "correct": false },
+        { "letter": "C", "text": "The non-living parts of an ecosystem", "correct": false },
+        { "letter": "D", "text": "A single organism", "correct": false }
+      ],
+      "explanation": "A population is an interacting group of organisms of the same species living in an area."
+    },
+    {
+      "id": "C4.1-002",
+      "level": "SL",
+      "statement": "C4.1.1",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "What is used to distinguish one population of a species from another?",
+      "options": [
+        { "letter": "A", "text": "Reproductive isolation", "correct": true },
+        { "letter": "B", "text": "Identical DNA", "correct": false },
+        { "letter": "C", "text": "The same number of offspring", "correct": false },
+        { "letter": "D", "text": "Chromosome number", "correct": false }
+      ],
+      "explanation": "Members of a population normally breed together; reproductive isolation distinguishes separate populations."
+    },
+    {
+      "id": "C4.1-003",
+      "level": "SL",
+      "statement": "C4.1.2",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Why is population size usually estimated rather than counted exactly?",
+      "options": [
+        { "letter": "A", "text": "Counting every individual is often impractical", "correct": true },
+        { "letter": "B", "text": "Estimates are always wrong", "correct": false },
+        { "letter": "C", "text": "Populations never change", "correct": false },
+        { "letter": "D", "text": "Individuals cannot be counted at all", "correct": false }
+      ],
+      "explanation": "Estimating population size by sampling is used because counting every individual is usually impractical."
+    },
+    {
+      "id": "C4.1-004",
+      "level": "SL",
+      "statement": "C4.1.2",
+      "category": "C4.1 Populations and communities",
+      "scenario": "Samples are taken without bias in choosing locations.",
+      "stem": "Why must sampling be random?",
+      "options": [
+        { "letter": "A", "text": "To avoid bias and make the estimate representative", "correct": true },
+        { "letter": "B", "text": "To increase bias", "correct": false },
+        { "letter": "C", "text": "To count every individual", "correct": false },
+        { "letter": "D", "text": "To reduce the number of species", "correct": false }
+      ],
+      "explanation": "Randomness in sampling avoids bias so the sample represents the whole population."
+    },
+    {
+      "id": "C4.1-005",
+      "level": "SL",
+      "statement": "C4.1.2",
+      "category": "C4.1 Populations and communities",
+      "scenario": "An estimate of population size differs from the true size.",
+      "stem": "This difference is called:",
+      "options": [
+        { "letter": "A", "text": "Sampling error", "correct": true },
+        { "letter": "B", "text": "Carrying capacity", "correct": false },
+        { "letter": "C", "text": "Standard deviation", "correct": false },
+        { "letter": "D", "text": "Genetic drift", "correct": false }
+      ],
+      "explanation": "Random sampling inevitably produces sampling error: the difference between the estimate and the true population size."
+    },
+    {
+      "id": "C4.1-006",
+      "level": "SL",
+      "statement": "C4.1.3",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A student estimates the number of a plant species in a field.",
+      "stem": "Which method is appropriate?",
+      "options": [
+        { "letter": "A", "text": "Random quadrat sampling", "correct": true },
+        { "letter": "B", "text": "Capture-mark-release-recapture", "correct": false },
+        { "letter": "C", "text": "The chi-squared test", "correct": false },
+        { "letter": "D", "text": "Chromatography", "correct": false }
+      ],
+      "explanation": "Random quadrat sampling is used to estimate population size for sessile organisms such as plants."
+    },
+    {
+      "id": "C4.1-007",
+      "level": "SL",
+      "statement": "C4.1.3",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Quadrat sampling is suitable for organisms that are:",
+      "options": [
+        { "letter": "A", "text": "Sessile (non-moving), such as plants", "correct": true },
+        { "letter": "B", "text": "Fast-moving animals", "correct": false },
+        { "letter": "C", "text": "Microscopic viruses", "correct": false },
+        { "letter": "D", "text": "Extinct", "correct": false }
+      ],
+      "explanation": "Random quadrat sampling works for sessile organisms (plants and sessile animals) that can be counted."
+    },
+    {
+      "id": "C4.1-008",
+      "level": "SL",
+      "statement": "C4.1.3",
+      "category": "C4.1 Populations and communities",
+      "scenario": "The number of individuals per quadrat varies considerably.",
+      "stem": "Which statistic measures this variation?",
+      "options": [
+        { "letter": "A", "text": "The standard deviation of the mean", "correct": true },
+        { "letter": "B", "text": "The Lincoln index", "correct": false },
+        { "letter": "C", "text": "The carrying capacity", "correct": false },
+        { "letter": "D", "text": "The Rf value", "correct": false }
+      ],
+      "explanation": "The standard deviation of the mean number per quadrat measures variation and how evenly the population is spread."
+    },
+    {
+      "id": "C4.1-009",
+      "level": "SL",
+      "statement": "C4.1.4",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A student estimates a beetle population by catching, marking and releasing them, then recapturing.",
+      "stem": "Which method is this?",
+      "options": [
+        { "letter": "A", "text": "Capture-mark-release-recapture (Lincoln index)", "correct": true },
+        { "letter": "B", "text": "Quadrat sampling", "correct": false },
+        { "letter": "C", "text": "The chi-squared test", "correct": false },
+        { "letter": "D", "text": "Chromatography", "correct": false }
+      ],
+      "explanation": "Capture-mark-release-recapture with the Lincoln index estimates population size for motile organisms."
+    },
+    {
+      "id": "C4.1-010",
+      "level": "SL",
+      "statement": "C4.1.4",
+      "category": "C4.1 Populations and communities",
+      "scenario": "In the Lincoln index, 20 animals were marked, 25 recaptured, of which 5 were marked.",
+      "stem": "What is the estimated population size (M×N÷R)?",
+      "options": [
+        { "letter": "A", "text": "100", "correct": true },
+        { "letter": "B", "text": "50", "correct": false },
+        { "letter": "C", "text": "25", "correct": false },
+        { "letter": "D", "text": "500", "correct": false }
+      ],
+      "explanation": "Lincoln index = M×N÷R = 20×25÷5 = 100."
+    },
+    {
+      "id": "C4.1-011",
+      "level": "SL",
+      "statement": "C4.1.5",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Carrying capacity is the:",
+      "options": [
+        { "letter": "A", "text": "Maximum population size an environment can sustain", "correct": true },
+        { "letter": "B", "text": "Number of species in a community", "correct": false },
+        { "letter": "C", "text": "Rate of photosynthesis", "correct": false },
+        { "letter": "D", "text": "The smallest possible population", "correct": false }
+      ],
+      "explanation": "Carrying capacity is the maximum population size that an environment's limited resources can support."
+    },
+    {
+      "id": "C4.1-012",
+      "level": "SL",
+      "statement": "C4.1.5",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Which resource might limit the carrying capacity of a population?",
+      "options": [
+        { "letter": "A", "text": "Food supply", "correct": true },
+        { "letter": "B", "text": "The observer's opinion", "correct": false },
+        { "letter": "C", "text": "The colour of the organisms", "correct": false },
+        { "letter": "D", "text": "The number of chromosomes", "correct": false }
+      ],
+      "explanation": "Limited resources such as food, water or space determine the carrying capacity through competition."
+    },
+    {
+      "id": "C4.1-013",
+      "level": "SL",
+      "statement": "C4.1.6",
+      "category": "C4.1 Populations and communities",
+      "scenario": "As a population grows denser, disease spreads more easily and pushes numbers back down.",
+      "stem": "Disease acting in this way is a:",
+      "options": [
+        { "letter": "A", "text": "Density-dependent factor", "correct": true },
+        { "letter": "B", "text": "Density-independent factor", "correct": false },
+        { "letter": "C", "text": "Carrying capacity", "correct": false },
+        { "letter": "D", "text": "Sampling error", "correct": false }
+      ],
+      "explanation": "Density-dependent factors, such as pathogen transfer, predation and competition, push a population back towards carrying capacity."
+    },
+    {
+      "id": "C4.1-014",
+      "level": "SL",
+      "statement": "C4.1.6",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A flood kills organisms regardless of how crowded the population is.",
+      "stem": "This is a:",
+      "options": [
+        { "letter": "A", "text": "Density-independent factor", "correct": true },
+        { "letter": "B", "text": "Density-dependent factor", "correct": false },
+        { "letter": "C", "text": "Form of mutualism", "correct": false },
+        { "letter": "D", "text": "Carrying capacity", "correct": false }
+      ],
+      "explanation": "Density-independent factors, like a flood, affect populations regardless of their density."
+    },
+    {
+      "id": "C4.1-015",
+      "level": "SL",
+      "statement": "C4.1.6",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Density-dependent factors regulate population size by:",
+      "options": [
+        { "letter": "A", "text": "Negative feedback toward the carrying capacity", "correct": true },
+        { "letter": "B", "text": "Positive feedback increasing growth forever", "correct": false },
+        { "letter": "C", "text": "Having no effect", "correct": false },
+        { "letter": "D", "text": "Removing all resources", "correct": false }
+      ],
+      "explanation": "Density-dependent factors act by negative feedback, pushing the population back toward the carrying capacity."
+    },
+    {
+      "id": "C4.1-016",
+      "level": "SL",
+      "statement": "C4.1.7",
+      "category": "C4.1 Populations and communities",
+      "scenario": "In the early phase of a population growth curve, numbers rise very rapidly.",
+      "stem": "This phase shows:",
+      "options": [
+        { "letter": "A", "text": "Exponential growth", "correct": true },
+        { "letter": "B", "text": "A plateau", "correct": false },
+        { "letter": "C", "text": "A decline", "correct": false },
+        { "letter": "D", "text": "No growth", "correct": false }
+      ],
+      "explanation": "The initial phase of sigmoid population growth is exponential, with resources abundant."
+    },
+    {
+      "id": "C4.1-017",
+      "level": "SL",
+      "statement": "C4.1.7",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A sigmoid (S-shaped) population growth curve is used to model growth.",
+      "stem": "According to NOS, this curve is:",
+      "options": [
+        { "letter": "A", "text": "An idealized model that simplifies a complex system", "correct": true },
+        { "letter": "B", "text": "An exact record of every individual", "correct": false },
+        { "letter": "C", "text": "A proven law with no exceptions", "correct": false },
+        { "letter": "D", "text": "Impossible to plot", "correct": false }
+      ],
+      "explanation": "The sigmoid growth curve is an idealized graphical model; models are often simplifications of complex systems."
+    },
+    {
+      "id": "C4.1-018",
+      "level": "SL",
+      "statement": "C4.1.8",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A student grows a population to model sigmoid growth.",
+      "stem": "Which organism is recommended for this?",
+      "options": [
+        { "letter": "A", "text": "Yeast or duckweed", "correct": true },
+        { "letter": "B", "text": "Elephants", "correct": false },
+        { "letter": "C", "text": "Oak trees", "correct": false },
+        { "letter": "D", "text": "Whales", "correct": false }
+      ],
+      "explanation": "Yeast and duckweed are recommended because they proliferate quickly under experimental conditions."
+    },
+    {
+      "id": "C4.1-019",
+      "level": "SL",
+      "statement": "C4.1.9",
+      "category": "C4.1 Populations and communities",
+      "scenario": "Members of the same species compete for the same food.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Intraspecific competition", "correct": true },
+        { "letter": "B", "text": "Interspecific competition", "correct": false },
+        { "letter": "C", "text": "Mutualism", "correct": false },
+        { "letter": "D", "text": "Predation", "correct": false }
+      ],
+      "explanation": "Intraspecific competition is competition within a population, between members of the same species."
+    },
+    {
+      "id": "C4.1-020",
+      "level": "SL",
+      "statement": "C4.1.9",
+      "category": "C4.1 Populations and communities",
+      "scenario": "Meerkats take turns watching for predators while others feed.",
+      "stem": "This within-species behaviour is an example of:",
+      "options": [
+        { "letter": "A", "text": "Cooperation", "correct": true },
+        { "letter": "B", "text": "Interspecific competition", "correct": false },
+        { "letter": "C", "text": "Parasitism", "correct": false },
+        { "letter": "D", "text": "Allelopathy", "correct": false }
+      ],
+      "explanation": "Intraspecific relationships include both competition and cooperation, such as cooperative vigilance."
+    },
+    {
+      "id": "C4.1-021",
+      "level": "SL",
+      "statement": "C4.1.10",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "A community consists of:",
+      "options": [
+        { "letter": "A", "text": "All the interacting organisms (all populations) in an ecosystem", "correct": true },
+        { "letter": "B", "text": "Only the plants in an area", "correct": false },
+        { "letter": "C", "text": "One species only", "correct": false },
+        { "letter": "D", "text": "The non-living environment", "correct": false }
+      ],
+      "explanation": "A community is all of the interacting organisms in an ecosystem, including plants, animals, fungi and bacteria."
+    },
+    {
+      "id": "C4.1-022",
+      "level": "SL",
+      "statement": "C4.1.11",
+      "category": "C4.1 Populations and communities",
+      "scenario": "One organism kills and eats another.",
+      "stem": "This interspecific relationship is:",
+      "options": [
+        { "letter": "A", "text": "Predation", "correct": true },
+        { "letter": "B", "text": "Mutualism", "correct": false },
+        { "letter": "C", "text": "Intraspecific competition", "correct": false },
+        { "letter": "D", "text": "Allelopathy", "correct": false }
+      ],
+      "explanation": "Predation is an interspecific relationship in which one organism catches and eats another."
+    },
+    {
+      "id": "C4.1-023",
+      "level": "SL",
+      "statement": "C4.1.11",
+      "category": "C4.1 Populations and communities",
+      "scenario": "An animal eats a plant.",
+      "stem": "This interspecific relationship is:",
+      "options": [
+        { "letter": "A", "text": "Herbivory", "correct": true },
+        { "letter": "B", "text": "Mutualism", "correct": false },
+        { "letter": "C", "text": "Parasitism", "correct": false },
+        { "letter": "D", "text": "Predation of animals", "correct": false }
+      ],
+      "explanation": "Herbivory is the interspecific relationship where an animal feeds on a plant."
+    },
+    {
+      "id": "C4.1-024",
+      "level": "SL",
+      "statement": "C4.1.11",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A tapeworm lives inside a host, harming it while benefiting itself.",
+      "stem": "This relationship is:",
+      "options": [
+        { "letter": "A", "text": "Parasitism", "correct": true },
+        { "letter": "B", "text": "Mutualism", "correct": false },
+        { "letter": "C", "text": "Predation", "correct": false },
+        { "letter": "D", "text": "Cooperation", "correct": false }
+      ],
+      "explanation": "Parasitism benefits the parasite at the expense of the host, a category of interspecific relationship."
+    },
+    {
+      "id": "C4.1-025",
+      "level": "SL",
+      "statement": "C4.1.12",
+      "category": "C4.1 Populations and communities",
+      "scenario": "Two species interact and both benefit.",
+      "stem": "This relationship is:",
+      "options": [
+        { "letter": "A", "text": "Mutualism", "correct": true },
+        { "letter": "B", "text": "Parasitism", "correct": false },
+        { "letter": "C", "text": "Predation", "correct": false },
+        { "letter": "D", "text": "Interspecific competition", "correct": false }
+      ],
+      "explanation": "Mutualism is an interspecific relationship that benefits both species."
+    },
+    {
+      "id": "C4.1-026",
+      "level": "SL",
+      "statement": "C4.1.12",
+      "category": "C4.1 Populations and communities",
+      "scenario": "Nitrogen-fixing bacteria live in root nodules of legumes (Fabaceae).",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Mutualism", "correct": true },
+        { "letter": "B", "text": "Parasitism", "correct": false },
+        { "letter": "C", "text": "Predation", "correct": false },
+        { "letter": "D", "text": "Allelopathy", "correct": false }
+      ],
+      "explanation": "Root nodules in Fabaceae are a mutualism: bacteria fix nitrogen for the plant, which supplies them with carbon compounds."
+    },
+    {
+      "id": "C4.1-027",
+      "level": "SL",
+      "statement": "C4.1.12",
+      "category": "C4.1 Populations and communities",
+      "scenario": "Zooxanthellae live inside hard corals.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Mutualism", "correct": true },
+        { "letter": "B", "text": "Parasitism", "correct": false },
+        { "letter": "C", "text": "Competition", "correct": false },
+        { "letter": "D", "text": "Predation", "correct": false }
+      ],
+      "explanation": "Zooxanthellae in hard corals is a mutualism: the algae photosynthesize for the coral, which provides shelter and nutrients."
+    },
+    {
+      "id": "C4.1-028",
+      "level": "SL",
+      "statement": "C4.1.12",
+      "category": "C4.1 Populations and communities",
+      "scenario": "Mycorrhizae associate with the roots of orchids (Orchidaceae).",
+      "stem": "This relationship is a form of:",
+      "options": [
+        { "letter": "A", "text": "Mutualism between fungi and plant roots", "correct": true },
+        { "letter": "B", "text": "Predation", "correct": false },
+        { "letter": "C", "text": "Parasitism harming both", "correct": false },
+        { "letter": "D", "text": "Intraspecific competition", "correct": false }
+      ],
+      "explanation": "Mycorrhizae in Orchidaceae are a mutualism between fungi and plant roots, benefiting both organisms."
+    },
+    {
+      "id": "C4.1-029",
+      "level": "SL",
+      "statement": "C4.1.13",
+      "category": "C4.1 Populations and communities",
+      "scenario": "An introduced species outcompetes native species for resources.",
+      "stem": "The introduced species is described as:",
+      "options": [
+        { "letter": "A", "text": "Invasive", "correct": true },
+        { "letter": "B", "text": "Endemic", "correct": false },
+        { "letter": "C", "text": "A mutualist", "correct": false },
+        { "letter": "D", "text": "A decomposer", "correct": false }
+      ],
+      "explanation": "An introduced species that gains a competitive advantage over endemic species is invasive."
+    },
+    {
+      "id": "C4.1-030",
+      "level": "SL",
+      "statement": "C4.1.13",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "An endemic species is one that is:",
+      "options": [
+        { "letter": "A", "text": "Native to a particular area", "correct": true },
+        { "letter": "B", "text": "Introduced from elsewhere", "correct": false },
+        { "letter": "C", "text": "Always invasive", "correct": false },
+        { "letter": "D", "text": "A decomposer", "correct": false }
+      ],
+      "explanation": "Endemic species are native to a particular area; invasive species are introduced and outcompete them."
+    },
+    {
+      "id": "C4.1-031",
+      "level": "SL",
+      "statement": "C4.1.14",
+      "category": "C4.1 Populations and communities",
+      "scenario": "One species is more successful when a second species is absent.",
+      "stem": "This result:",
+      "options": [
+        { "letter": "A", "text": "Indicates but does not prove interspecific competition", "correct": true },
+        { "letter": "B", "text": "Proves there is no competition", "correct": false },
+        { "letter": "C", "text": "Proves mutualism", "correct": false },
+        { "letter": "D", "text": "Is meaningless", "correct": false }
+      ],
+      "explanation": "Greater success in the absence of another species indicates, but does not prove, interspecific competition."
+    },
+    {
+      "id": "C4.1-032",
+      "level": "SL",
+      "statement": "C4.1.14",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Which is a valid approach to investigating interspecific competition?",
+      "options": [
+        { "letter": "A", "text": "Field manipulation by removing one species", "correct": true },
+        { "letter": "B", "text": "Ignoring both species", "correct": false },
+        { "letter": "C", "text": "Reading a cladogram only", "correct": false },
+        { "letter": "D", "text": "Measuring chromosome number", "correct": false }
+      ],
+      "explanation": "Interspecific competition can be studied by laboratory experiments, field observations and field manipulation such as removal."
+    },
+    {
+      "id": "C4.1-033",
+      "level": "SL",
+      "statement": "C4.1.15",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A student tests whether two species tend to occur together or apart across sampling sites.",
+      "stem": "Which statistical test is appropriate?",
+      "options": [
+        { "letter": "A", "text": "The chi-squared test for association", "correct": true },
+        { "letter": "B", "text": "The Lincoln index", "correct": false },
+        { "letter": "C", "text": "Calculating Rf values", "correct": false },
+        { "letter": "D", "text": "Measuring standard deviation only", "correct": false }
+      ],
+      "explanation": "The chi-squared test can assess association between the presence/absence of two species across sampling sites."
+    },
+    {
+      "id": "C4.1-034",
+      "level": "SL",
+      "statement": "C4.1.15",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A chi-squared test shows two species rarely occur together.",
+      "stem": "This may provide evidence for:",
+      "options": [
+        { "letter": "A", "text": "Interspecific competition", "correct": true },
+        { "letter": "B", "text": "Mutualism", "correct": false },
+        { "letter": "C", "text": "No relationship at all", "correct": false },
+        { "letter": "D", "text": "Cooperation", "correct": false }
+      ],
+      "explanation": "A negative association (species rarely together) may provide evidence for interspecific competition."
+    },
+    {
+      "id": "C4.1-035",
+      "level": "SL",
+      "statement": "C4.1.16",
+      "category": "C4.1 Populations and communities",
+      "scenario": "As a prey population rises, the predator population later rises too, then prey numbers fall.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Density-dependent control by a predator-prey relationship", "correct": true },
+        { "letter": "B", "text": "Density-independent control", "correct": false },
+        { "letter": "C", "text": "Mutualism", "correct": false },
+        { "letter": "D", "text": "Allelopathy", "correct": false }
+      ],
+      "explanation": "Predator-prey relationships are an example of density-dependent control of animal populations."
+    },
+    {
+      "id": "C4.1-036",
+      "level": "SL",
+      "statement": "C4.1.17",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A population is controlled mainly by predators feeding on it.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Top-down control", "correct": true },
+        { "letter": "B", "text": "Bottom-up control", "correct": false },
+        { "letter": "C", "text": "Mutualism", "correct": false },
+        { "letter": "D", "text": "Density-independent control", "correct": false }
+      ],
+      "explanation": "Top-down control occurs when predators (higher trophic levels) regulate a population; bottom-up control comes from resources."
+    },
+    {
+      "id": "C4.1-037",
+      "level": "SL",
+      "statement": "C4.1.17",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A population is limited mainly by the availability of nutrients for producers.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Bottom-up control", "correct": true },
+        { "letter": "B", "text": "Top-down control", "correct": false },
+        { "letter": "C", "text": "Parasitism", "correct": false },
+        { "letter": "D", "text": "Sampling error", "correct": false }
+      ],
+      "explanation": "Bottom-up control occurs when resource availability at lower trophic levels limits populations."
+    },
+    {
+      "id": "C4.1-038",
+      "level": "SL",
+      "statement": "C4.1.18",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A plant releases chemicals into the soil that inhibit the growth of nearby competing plants.",
+      "stem": "This is called:",
+      "options": [
+        { "letter": "A", "text": "Allelopathy", "correct": true },
+        { "letter": "B", "text": "Mutualism", "correct": false },
+        { "letter": "C", "text": "Predation", "correct": false },
+        { "letter": "D", "text": "Herbivory", "correct": false }
+      ],
+      "explanation": "Allelopathy is the release of a chemical into the environment to deter potential competitors."
+    },
+    {
+      "id": "C4.1-039",
+      "level": "SL",
+      "statement": "C4.1.18",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A fungus secretes a chemical that kills nearby bacteria.",
+      "stem": "This secretion of antibiotics is similar to allelopathy because both:",
+      "options": [
+        { "letter": "A", "text": "Release a chemical to deter competitors", "correct": true },
+        { "letter": "B", "text": "Increase competitors' growth", "correct": false },
+        { "letter": "C", "text": "Involve eating other organisms", "correct": false },
+        { "letter": "D", "text": "Are forms of mutualism", "correct": false }
+      ],
+      "explanation": "Allelopathy and antibiotic secretion both release a chemical into the environment to deter potential competitors."
+    },
+    {
+      "id": "C4.1-040",
+      "level": "SL",
+      "statement": "C4.1.5",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A population reaches a stable size where births roughly balance deaths.",
+      "stem": "The population is at its:",
+      "options": [
+        { "letter": "A", "text": "Carrying capacity", "correct": true },
+        { "letter": "B", "text": "Exponential phase", "correct": false },
+        { "letter": "C", "text": "Lag phase", "correct": false },
+        { "letter": "D", "text": "Sampling error", "correct": false }
+      ],
+      "explanation": "At the carrying capacity, the population stabilizes as limited resources balance growth."
+    },
+    {
+      "id": "C4.1-041",
+      "level": "SL",
+      "statement": "C4.1.7",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A student plots population size on a logarithmic scale against time on a normal scale.",
+      "stem": "A straight line on this graph indicates:",
+      "options": [
+        { "letter": "A", "text": "Exponential growth", "correct": true },
+        { "letter": "B", "text": "No growth", "correct": false },
+        { "letter": "C", "text": "A decline", "correct": false },
+        { "letter": "D", "text": "Random change", "correct": false }
+      ],
+      "explanation": "Exponential growth appears as a straight line when population size is plotted on a logarithmic scale against time."
+    },
+    {
+      "id": "C4.1-042",
+      "level": "SL",
+      "statement": "C4.1.1",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Members of a population normally:",
+      "options": [
+        { "letter": "A", "text": "Breed with one another", "correct": true },
+        { "letter": "B", "text": "Belong to different species", "correct": false },
+        { "letter": "C", "text": "Never interact", "correct": false },
+        { "letter": "D", "text": "Are reproductively isolated from each other", "correct": false }
+      ],
+      "explanation": "A population is an interbreeding group of the same species; reproductive isolation separates different populations."
+    },
+    {
+      "id": "C4.1-043",
+      "level": "SL",
+      "statement": "C4.1.11",
+      "category": "C4.1 Populations and communities",
+      "scenario": "A bacterium causes disease in a plant.",
+      "stem": "This interspecific relationship is:",
+      "options": [
+        { "letter": "A", "text": "Pathogenicity", "correct": true },
+        { "letter": "B", "text": "Mutualism", "correct": false },
+        { "letter": "C", "text": "Predation", "correct": false },
+        { "letter": "D", "text": "Cooperation", "correct": false }
+      ],
+      "explanation": "Pathogenicity, in which one organism causes disease in another, is a category of interspecific relationship."
+    },
+    {
+      "id": "C4.1-044",
+      "level": "SL",
+      "statement": "C4.1.9",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Which is a reason for intraspecific competition?",
+      "options": [
+        { "letter": "A", "text": "Members of the same species need the same resources", "correct": true },
+        { "letter": "B", "text": "Members are of different species", "correct": false },
+        { "letter": "C", "text": "There are unlimited resources", "correct": false },
+        { "letter": "D", "text": "Members never interact", "correct": false }
+      ],
+      "explanation": "Intraspecific competition arises because members of the same species require the same limited resources."
+    },
+    {
+      "id": "C4.1-045",
+      "level": "SL",
+      "statement": "C4.1.6",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Which is a density-dependent factor limiting population size?",
+      "options": [
+        { "letter": "A", "text": "Competition for limited resources", "correct": true },
+        { "letter": "B", "text": "A sudden frost", "correct": false },
+        { "letter": "C", "text": "A volcanic eruption", "correct": false },
+        { "letter": "D", "text": "A flash flood", "correct": false }
+      ],
+      "explanation": "Density-dependent factors include competition, predation and disease; frosts, eruptions and floods are density-independent."
+    },
+    {
+      "id": "C4.1-046",
+      "level": "SL",
+      "statement": "C4.1.14",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Hypotheses about competition can be tested by:",
+      "options": [
+        { "letter": "A", "text": "Both experiments and observations", "correct": true },
+        { "letter": "B", "text": "Experiments only", "correct": false },
+        { "letter": "C", "text": "Observations only", "correct": false },
+        { "letter": "D", "text": "Neither", "correct": false }
+      ],
+      "explanation": "Hypotheses can be tested by both experiments and observations, which differ in approach."
+    },
+    {
+      "id": "C4.1-047",
+      "level": "SL",
+      "statement": "C4.1.16",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "In a predator-prey relationship, a rise in prey numbers tends to be followed by:",
+      "options": [
+        { "letter": "A", "text": "A rise in predator numbers", "correct": true },
+        { "letter": "B", "text": "The immediate extinction of the predator", "correct": false },
+        { "letter": "C", "text": "No change in predators", "correct": false },
+        { "letter": "D", "text": "A rise in decomposers only", "correct": false }
+      ],
+      "explanation": "More prey supports more predators, whose numbers rise after the prey; this density-dependent cycling regulates populations."
+    },
+    {
+      "id": "C4.1-048",
+      "level": "SL",
+      "statement": "C4.1.10",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Which of these would be included in a community?",
+      "options": [
+        { "letter": "A", "text": "Plants, animals, fungi and bacteria in the area", "correct": true },
+        { "letter": "B", "text": "Only the soil and water", "correct": false },
+        { "letter": "C", "text": "Only one species of plant", "correct": false },
+        { "letter": "D", "text": "Only the temperature", "correct": false }
+      ],
+      "explanation": "A community comprises all the populations of organisms (plants, animals, fungi, bacteria) interacting in an area."
+    },
+    {
+      "id": "C4.1-049",
+      "level": "SL",
+      "statement": "C4.1.17",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "In a given community, top-down and bottom-up control:",
+      "options": [
+        { "letter": "A", "text": "Are both possible, but one is usually dominant", "correct": true },
+        { "letter": "B", "text": "Never occur together", "correct": false },
+        { "letter": "C", "text": "Are the same thing", "correct": false },
+        { "letter": "D", "text": "Cannot affect populations", "correct": false }
+      ],
+      "explanation": "Both types of control are possible, but one or the other is likely to be dominant in a particular community."
+    },
+    {
+      "id": "C4.1-050",
+      "level": "SL",
+      "statement": "C4.1.2",
+      "category": "C4.1 Populations and communities",
+      "scenario": "",
+      "stem": "Increasing the number of samples taken generally:",
+      "options": [
+        { "letter": "A", "text": "Reduces sampling error and improves the estimate", "correct": true },
+        { "letter": "B", "text": "Increases sampling error", "correct": false },
+        { "letter": "C", "text": "Has no effect on the estimate", "correct": false },
+        { "letter": "D", "text": "Makes counting every individual necessary", "correct": false }
+      ],
+      "explanation": "More random samples generally reduce sampling error, giving a more reliable estimate of population size."
+    }
+  ]
+}

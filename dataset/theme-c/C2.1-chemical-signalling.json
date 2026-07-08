@@ -1,0 +1,760 @@
+{
+  "id": "C2.1",
+  "name": "Chemical signalling",
+  "theme": "C",
+  "themeName": "Interaction and interdependence",
+  "levelOfOrganization": "Cells",
+  "level": "HL",
+  "questions": [
+    {
+      "id": "C2.1-001",
+      "level": "HL",
+      "statement": "C2.1.1",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "A receptor for a signalling chemical is a:",
+      "options": [
+        { "letter": "A", "text": "Protein with a binding site for a specific chemical", "correct": true },
+        { "letter": "B", "text": "Carbohydrate store", "correct": false },
+        { "letter": "C", "text": "Strand of DNA", "correct": false },
+        { "letter": "D", "text": "Lipid droplet", "correct": false }
+      ],
+      "explanation": "Receptors are proteins with binding sites for specific signalling chemicals."
+    },
+    {
+      "id": "C2.1-002",
+      "level": "HL",
+      "statement": "C2.1.1",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "The term used for a signalling chemical that binds to a receptor is:",
+      "options": [
+        { "letter": "A", "text": "Ligand", "correct": true },
+        { "letter": "B", "text": "Substrate", "correct": false },
+        { "letter": "C", "text": "Antigen", "correct": false },
+        { "letter": "D", "text": "Codon", "correct": false }
+      ],
+      "explanation": "The signalling chemical that binds a receptor is called a ligand."
+    },
+    {
+      "id": "C2.1-003",
+      "level": "HL",
+      "statement": "C2.1.2",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "Bacteria coordinate behaviour based on their population density.",
+      "stem": "This form of cell signalling is called:",
+      "options": [
+        { "letter": "A", "text": "Quorum sensing", "correct": true },
+        { "letter": "B", "text": "Phototropism", "correct": false },
+        { "letter": "C", "text": "Chemiosmosis", "correct": false },
+        { "letter": "D", "text": "Denaturation", "correct": false }
+      ],
+      "explanation": "Quorum sensing is signalling by bacteria that coordinates behaviour according to population density."
+    },
+    {
+      "id": "C2.1-004",
+      "level": "HL",
+      "statement": "C2.1.2",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Which example is used to illustrate quorum sensing?",
+      "options": [
+        { "letter": "A", "text": "Bioluminescence in Vibrio fischeri", "correct": true },
+        { "letter": "B", "text": "Photosynthesis in a plant", "correct": false },
+        { "letter": "C", "text": "Muscle contraction", "correct": false },
+        { "letter": "D", "text": "DNA replication in humans", "correct": false }
+      ],
+      "explanation": "Bioluminescence in the marine bacterium Vibrio fischeri is the example of quorum sensing."
+    },
+    {
+      "id": "C2.1-005",
+      "level": "HL",
+      "statement": "C2.1.3",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Which of these is a functional category of signalling chemical in animals?",
+      "options": [
+        { "letter": "A", "text": "Hormones", "correct": true },
+        { "letter": "B", "text": "Ribosomes", "correct": false },
+        { "letter": "C", "text": "Chromosomes", "correct": false },
+        { "letter": "D", "text": "Cellulose", "correct": false }
+      ],
+      "explanation": "Hormones, neurotransmitters, cytokines and calcium ions are functional categories of signalling chemicals in animals."
+    },
+    {
+      "id": "C2.1-006",
+      "level": "HL",
+      "statement": "C2.1.3",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Which ion is listed as a category of signalling chemical?",
+      "options": [
+        { "letter": "A", "text": "Calcium ions", "correct": true },
+        { "letter": "B", "text": "Chloride ions", "correct": false },
+        { "letter": "C", "text": "Nitrate ions", "correct": false },
+        { "letter": "D", "text": "Sulfate ions", "correct": false }
+      ],
+      "explanation": "Calcium ions are one of the functional categories of signalling chemicals, alongside hormones, neurotransmitters and cytokines."
+    },
+    {
+      "id": "C2.1-007",
+      "level": "HL",
+      "statement": "C2.1.4",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Which chemical groups are used as hormones?",
+      "options": [
+        { "letter": "A", "text": "Amines, proteins and steroids", "correct": true },
+        { "letter": "B", "text": "Only steroids", "correct": false },
+        { "letter": "C", "text": "Only carbohydrates", "correct": false },
+        { "letter": "D", "text": "Only nucleic acids", "correct": false }
+      ],
+      "explanation": "Hormones include amines, proteins and steroids, reflecting the chemical diversity of signalling molecules."
+    },
+    {
+      "id": "C2.1-008",
+      "level": "HL",
+      "statement": "C2.1.4",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Which can serve as a neurotransmitter?",
+      "options": [
+        { "letter": "A", "text": "Amino acids, peptides, amines and nitrous oxide", "correct": true },
+        { "letter": "B", "text": "Only DNA", "correct": false },
+        { "letter": "C", "text": "Only cellulose", "correct": false },
+        { "letter": "D", "text": "Only triglycerides", "correct": false }
+      ],
+      "explanation": "A range of substances can be neurotransmitters, including amino acids, peptides, amines and nitrous oxide."
+    },
+    {
+      "id": "C2.1-009",
+      "level": "HL",
+      "statement": "C2.1.5",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A hormone is transported around the body in the blood.",
+      "stem": "This gives it a:",
+      "options": [
+        { "letter": "A", "text": "Distant effect on target cells", "correct": true },
+        { "letter": "B", "text": "Localized effect only", "correct": false },
+        { "letter": "C", "text": "No effect at all", "correct": false },
+        { "letter": "D", "text": "Effect only on the gland that made it", "correct": false }
+      ],
+      "explanation": "Hormones travel in the blood, giving distant effects, unlike neurotransmitters that act locally across a synapse."
+    },
+    {
+      "id": "C2.1-010",
+      "level": "HL",
+      "statement": "C2.1.5",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A neurotransmitter diffuses across a synaptic gap.",
+      "stem": "This gives it a:",
+      "options": [
+        { "letter": "A", "text": "Localized effect", "correct": true },
+        { "letter": "B", "text": "Distant, body-wide effect", "correct": false },
+        { "letter": "C", "text": "Permanent effect on all cells", "correct": false },
+        { "letter": "D", "text": "No effect", "correct": false }
+      ],
+      "explanation": "Neurotransmitters act locally, diffusing across the synaptic gap, contrasting with blood-borne hormones."
+    },
+    {
+      "id": "C2.1-011",
+      "level": "HL",
+      "statement": "C2.1.6",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A signalling chemical is hydrophilic and cannot cross the plasma membrane.",
+      "stem": "Its receptor is most likely a:",
+      "options": [
+        { "letter": "A", "text": "Transmembrane receptor in the plasma membrane", "correct": true },
+        { "letter": "B", "text": "Intracellular receptor in the cytoplasm", "correct": false },
+        { "letter": "C", "text": "Receptor in the nucleus", "correct": false },
+        { "letter": "D", "text": "Receptor outside the organism", "correct": false }
+      ],
+      "explanation": "Hydrophilic signals that cannot enter the cell bind transmembrane receptors in the plasma membrane."
+    },
+    {
+      "id": "C2.1-012",
+      "level": "HL",
+      "statement": "C2.1.6",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A hydrophobic steroid hormone passes through the membrane.",
+      "stem": "Its receptor is most likely:",
+      "options": [
+        { "letter": "A", "text": "Intracellular (in the cytoplasm or nucleus)", "correct": true },
+        { "letter": "B", "text": "Only on the cell surface", "correct": false },
+        { "letter": "C", "text": "In the cell wall", "correct": false },
+        { "letter": "D", "text": "Outside the cell", "correct": false }
+      ],
+      "explanation": "Hydrophobic signals that penetrate the cell bind intracellular receptors in the cytoplasm or nucleus."
+    },
+    {
+      "id": "C2.1-013",
+      "level": "HL",
+      "statement": "C2.1.7",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A signalling chemical binds to its receptor.",
+      "stem": "This initiates a:",
+      "options": [
+        { "letter": "A", "text": "Signal transduction pathway within the cell", "correct": true },
+        { "letter": "B", "text": "Complete stop to all cell activity", "correct": false },
+        { "letter": "C", "text": "Loss of the genome", "correct": false },
+        { "letter": "D", "text": "Denaturation of all proteins", "correct": false }
+      ],
+      "explanation": "Binding of a signalling chemical to a receptor sets off a sequence of responses — a signal transduction pathway."
+    },
+    {
+      "id": "C2.1-014",
+      "level": "HL",
+      "statement": "C2.1.8",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A neurotransmitter binds to the acetylcholine receptor.",
+      "stem": "What is the immediate effect?",
+      "options": [
+        { "letter": "A", "text": "An ion channel opens, letting positive ions into the cell", "correct": true },
+        { "letter": "B", "text": "The cell is destroyed", "correct": false },
+        { "letter": "C", "text": "DNA is transcribed directly", "correct": false },
+        { "letter": "D", "text": "Nothing happens", "correct": false }
+      ],
+      "explanation": "Binding to the acetylcholine receptor opens an ion channel, letting positive ions in and changing the membrane voltage."
+    },
+    {
+      "id": "C2.1-015",
+      "level": "HL",
+      "statement": "C2.1.8",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "Positive ions flow into a cell through a neurotransmitter receptor.",
+      "stem": "This causes a change in the:",
+      "options": [
+        { "letter": "A", "text": "Voltage across the plasma membrane", "correct": true },
+        { "letter": "B", "text": "DNA sequence", "correct": false },
+        { "letter": "C", "text": "Number of chromosomes", "correct": false },
+        { "letter": "D", "text": "Cell wall thickness", "correct": false }
+      ],
+      "explanation": "The entry of positive ions changes the membrane voltage, which may trigger further changes."
+    },
+    {
+      "id": "C2.1-016",
+      "level": "HL",
+      "statement": "C2.1.9",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "G protein-coupled receptors work by:",
+      "options": [
+        { "letter": "A", "text": "Activating G proteins to convey a signal into the cell", "correct": true },
+        { "letter": "B", "text": "Directly copying DNA", "correct": false },
+        { "letter": "C", "text": "Photosynthesizing", "correct": false },
+        { "letter": "D", "text": "Storing energy", "correct": false }
+      ],
+      "explanation": "G protein-coupled receptors activate G proteins to relay a signal into the cell; there are many in humans."
+    },
+    {
+      "id": "C2.1-017",
+      "level": "HL",
+      "statement": "C2.1.10",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "Epinephrine (adrenaline) binds to its receptor.",
+      "stem": "Which second messenger is involved in its mechanism?",
+      "options": [
+        { "letter": "A", "text": "Cyclic AMP (cAMP)", "correct": true },
+        { "letter": "B", "text": "DNA", "correct": false },
+        { "letter": "C", "text": "Glucose", "correct": false },
+        { "letter": "D", "text": "Oxygen", "correct": false }
+      ],
+      "explanation": "Epinephrine receptors use a G protein and cyclic AMP (cAMP) as the second messenger."
+    },
+    {
+      "id": "C2.1-018",
+      "level": "HL",
+      "statement": "C2.1.10",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "The terms 'adrenaline' and 'epinephrine' both refer to the same hormone.",
+      "stem": "According to NOS, this illustrates:",
+      "options": [
+        { "letter": "A", "text": "Naming conventions and international cooperation in science", "correct": true },
+        { "letter": "B", "text": "That the hormone does not exist", "correct": false },
+        { "letter": "C", "text": "That names are never standardized", "correct": false },
+        { "letter": "D", "text": "That the two are different molecules", "correct": false }
+      ],
+      "explanation": "The persistence of both names illustrates naming conventions as international cooperation; both mean 'at/above the kidney'."
+    },
+    {
+      "id": "C2.1-019",
+      "level": "HL",
+      "statement": "C2.1.11",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "Insulin binds to a receptor with tyrosine kinase activity.",
+      "stem": "This causes:",
+      "options": [
+        { "letter": "A", "text": "Phosphorylation of tyrosine inside the cell", "correct": true },
+        { "letter": "B", "text": "Immediate cell death", "correct": false },
+        { "letter": "C", "text": "Photolysis of water", "correct": false },
+        { "letter": "D", "text": "Loss of the genome", "correct": false }
+      ],
+      "explanation": "Insulin binding to its receptor causes phosphorylation of tyrosine inside the cell, starting a signalling cascade."
+    },
+    {
+      "id": "C2.1-020",
+      "level": "HL",
+      "statement": "C2.1.11",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "The insulin signalling pathway ends with vesicles moving to the plasma membrane.",
+      "stem": "These vesicles contain:",
+      "options": [
+        { "letter": "A", "text": "Glucose transporters", "correct": true },
+        { "letter": "B", "text": "DNA", "correct": false },
+        { "letter": "C", "text": "Chlorophyll", "correct": false },
+        { "letter": "D", "text": "Ribosomes", "correct": false }
+      ],
+      "explanation": "The insulin pathway ends with vesicles containing glucose transporters moving to the plasma membrane, increasing glucose uptake."
+    },
+    {
+      "id": "C2.1-021",
+      "level": "HL",
+      "statement": "C2.1.12",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A steroid hormone binds to an intracellular receptor.",
+      "stem": "The activated receptor then:",
+      "options": [
+        { "letter": "A", "text": "Binds to specific DNA sequences to promote transcription", "correct": true },
+        { "letter": "B", "text": "Opens an ion channel", "correct": false },
+        { "letter": "C", "text": "Is exported from the cell", "correct": false },
+        { "letter": "D", "text": "Denatures the DNA", "correct": false }
+      ],
+      "explanation": "Steroid hormones activate intracellular receptors that bind specific DNA sequences to promote gene transcription."
+    },
+    {
+      "id": "C2.1-022",
+      "level": "HL",
+      "statement": "C2.1.12",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Which hormones act via intracellular receptors affecting gene expression?",
+      "options": [
+        { "letter": "A", "text": "Steroid hormones such as oestradiol and testosterone", "correct": true },
+        { "letter": "B", "text": "Acetylcholine", "correct": false },
+        { "letter": "C", "text": "Insulin only", "correct": false },
+        { "letter": "D", "text": "Calcium ions only", "correct": false }
+      ],
+      "explanation": "Steroid hormones (oestradiol, progesterone, testosterone) use intracellular receptors that affect gene expression."
+    },
+    {
+      "id": "C2.1-023",
+      "level": "HL",
+      "statement": "C2.1.13",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "Progesterone acts on the endometrium.",
+      "stem": "This shows that a hormone can have:",
+      "options": [
+        { "letter": "A", "text": "Effects on specific target cells", "correct": true },
+        { "letter": "B", "text": "Effects on every cell equally", "correct": false },
+        { "letter": "C", "text": "No effect on any cell", "correct": false },
+        { "letter": "D", "text": "Effects only outside the body", "correct": false }
+      ],
+      "explanation": "Progesterone targets endometrial cells, illustrating a hormone's effect on specific target cells."
+    },
+    {
+      "id": "C2.1-024",
+      "level": "HL",
+      "statement": "C2.1.13",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "Oestradiol acts on cells in the hypothalamus.",
+      "stem": "These cells secrete:",
+      "options": [
+        { "letter": "A", "text": "Gonadotropin-releasing hormone", "correct": true },
+        { "letter": "B", "text": "Insulin", "correct": false },
+        { "letter": "C", "text": "Acetylcholine", "correct": false },
+        { "letter": "D", "text": "Rubisco", "correct": false }
+      ],
+      "explanation": "For oestradiol, the effect is limited to hypothalamus cells that secrete gonadotropin-releasing hormone."
+    },
+    {
+      "id": "C2.1-025",
+      "level": "HL",
+      "statement": "C2.1.14",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A signalling pathway's output reduces its own activity.",
+      "stem": "This regulation is:",
+      "options": [
+        { "letter": "A", "text": "Negative feedback", "correct": true },
+        { "letter": "B", "text": "Positive feedback", "correct": false },
+        { "letter": "C", "text": "Competitive inhibition", "correct": false },
+        { "letter": "D", "text": "Denaturation", "correct": false }
+      ],
+      "explanation": "Negative feedback occurs when a pathway's output reduces its own activity, regulating cell signalling."
+    },
+    {
+      "id": "C2.1-026",
+      "level": "HL",
+      "statement": "C2.1.14",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A signalling pathway's output increases its own activity.",
+      "stem": "This regulation is:",
+      "options": [
+        { "letter": "A", "text": "Positive feedback", "correct": true },
+        { "letter": "B", "text": "Negative feedback", "correct": false },
+        { "letter": "C", "text": "Feedback inhibition", "correct": false },
+        { "letter": "D", "text": "Chemiosmosis", "correct": false }
+      ],
+      "explanation": "Positive feedback amplifies a pathway; negative feedback dampens it. Both regulate cell signalling."
+    },
+    {
+      "id": "C2.1-027",
+      "level": "HL",
+      "statement": "C2.1.1",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A cell has receptors for only certain signalling chemicals.",
+      "stem": "This allows the cell to:",
+      "options": [
+        { "letter": "A", "text": "Respond selectively to specific signals", "correct": true },
+        { "letter": "B", "text": "Respond to every possible signal", "correct": false },
+        { "letter": "C", "text": "Ignore all signals", "correct": false },
+        { "letter": "D", "text": "Change its DNA sequence", "correct": false }
+      ],
+      "explanation": "Because receptors bind specific chemicals, cells respond selectively to the signals for which they have receptors."
+    },
+    {
+      "id": "C2.1-028",
+      "level": "HL",
+      "statement": "C2.1.6",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "The location of a receptor (membrane vs intracellular) depends largely on whether the signalling chemical is:",
+      "options": [
+        { "letter": "A", "text": "Hydrophilic or hydrophobic", "correct": true },
+        { "letter": "B", "text": "Large or small only", "correct": false },
+        { "letter": "C", "text": "Acidic or basic only", "correct": false },
+        { "letter": "D", "text": "Coloured or colourless", "correct": false }
+      ],
+      "explanation": "Hydrophilic signals bind membrane receptors; hydrophobic ones penetrate the cell to bind intracellular receptors."
+    },
+    {
+      "id": "C2.1-029",
+      "level": "HL",
+      "statement": "C2.1.4",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Why is a wide range of chemical substances used as signalling chemicals?",
+      "options": [
+        { "letter": "A", "text": "Chemical diversity allows many different specific signals", "correct": true },
+        { "letter": "B", "text": "Only one chemical could ever signal", "correct": false },
+        { "letter": "C", "text": "Signalling requires no diversity", "correct": false },
+        { "letter": "D", "text": "All signals are identical", "correct": false }
+      ],
+      "explanation": "The chemical diversity of hormones and neurotransmitters allows a large number of distinct, specific signals."
+    },
+    {
+      "id": "C2.1-030",
+      "level": "HL",
+      "statement": "C2.1.9",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "G protein-coupled receptors are notable in humans because they are:",
+      "options": [
+        { "letter": "A", "text": "Very numerous and diverse", "correct": true },
+        { "letter": "B", "text": "Extremely rare", "correct": false },
+        { "letter": "C", "text": "Found only in bacteria", "correct": false },
+        { "letter": "D", "text": "Made of DNA", "correct": false }
+      ],
+      "explanation": "There are many G protein-coupled receptors in humans, conveying diverse signals into cells."
+    },
+    {
+      "id": "C2.1-031",
+      "level": "HL",
+      "statement": "C2.1.10",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "The epinephrine receptor activates a G protein.",
+      "stem": "What is the role of the second messenger cAMP?",
+      "options": [
+        { "letter": "A", "text": "It relays the signal inside the cell", "correct": true },
+        { "letter": "B", "text": "It stores genetic information", "correct": false },
+        { "letter": "C", "text": "It leaves the cell", "correct": false },
+        { "letter": "D", "text": "It builds the cell wall", "correct": false }
+      ],
+      "explanation": "cAMP acts as a second messenger, relaying and amplifying the epinephrine signal inside the cell."
+    },
+    {
+      "id": "C2.1-032",
+      "level": "HL",
+      "statement": "C2.1.11",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Insulin is an example of a hormone that acts through:",
+      "options": [
+        { "letter": "A", "text": "A transmembrane receptor with tyrosine kinase activity", "correct": true },
+        { "letter": "B", "text": "An intracellular receptor affecting genes", "correct": false },
+        { "letter": "C", "text": "Direct diffusion into the nucleus", "correct": false },
+        { "letter": "D", "text": "Quorum sensing", "correct": false }
+      ],
+      "explanation": "Insulin binds a transmembrane receptor with tyrosine kinase activity, since it is a protein hormone."
+    },
+    {
+      "id": "C2.1-033",
+      "level": "HL",
+      "statement": "C2.1.3",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Cytokines are best described as:",
+      "options": [
+        { "letter": "A", "text": "A functional category of signalling chemicals", "correct": true },
+        { "letter": "B", "text": "Structural fibres", "correct": false },
+        { "letter": "C", "text": "Energy stores", "correct": false },
+        { "letter": "D", "text": "Genetic material", "correct": false }
+      ],
+      "explanation": "Cytokines are one of the functional categories of signalling chemicals in animals."
+    },
+    {
+      "id": "C2.1-034",
+      "level": "HL",
+      "statement": "C2.1.7",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A signal transduction pathway is triggered.",
+      "stem": "The overall effect is that the external signal:",
+      "options": [
+        { "letter": "A", "text": "Produces a response inside the cell", "correct": true },
+        { "letter": "B", "text": "Has no effect on the cell", "correct": false },
+        { "letter": "C", "text": "Destroys the receptor permanently", "correct": false },
+        { "letter": "D", "text": "Leaves the cell unchanged", "correct": false }
+      ],
+      "explanation": "Signal transduction converts the binding of an external signal into a response within the cell."
+    },
+    {
+      "id": "C2.1-035",
+      "level": "HL",
+      "statement": "C2.1.8",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "The acetylcholine receptor described here combines a receptor with:",
+      "options": [
+        { "letter": "A", "text": "An ion channel", "correct": true },
+        { "letter": "B", "text": "A ribosome", "correct": false },
+        { "letter": "C", "text": "A chloroplast", "correct": false },
+        { "letter": "D", "text": "A nucleus", "correct": false }
+      ],
+      "explanation": "This transmembrane receptor contains an ion channel that opens when acetylcholine binds."
+    },
+    {
+      "id": "C2.1-036",
+      "level": "HL",
+      "statement": "C2.1.12",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "A steroid hormone changes which genes are expressed in a cell.",
+      "stem": "This is possible because its receptor:",
+      "options": [
+        { "letter": "A", "text": "Binds DNA to promote transcription when activated", "correct": true },
+        { "letter": "B", "text": "Opens an ion channel", "correct": false },
+        { "letter": "C", "text": "Digests the DNA", "correct": false },
+        { "letter": "D", "text": "Stays outside the cell", "correct": false }
+      ],
+      "explanation": "The activated intracellular receptor binds specific DNA sequences, promoting transcription of certain genes."
+    },
+    {
+      "id": "C2.1-037",
+      "level": "HL",
+      "statement": "C2.1.5",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "The key contrast between hormones and neurotransmitters in range is that hormones:",
+      "options": [
+        { "letter": "A", "text": "Act at a distance via the blood; neurotransmitters act locally", "correct": true },
+        { "letter": "B", "text": "Act only locally; neurotransmitters act at a distance", "correct": false },
+        { "letter": "C", "text": "Have no effect; neurotransmitters do", "correct": false },
+        { "letter": "D", "text": "Are identical in range to neurotransmitters", "correct": false }
+      ],
+      "explanation": "Hormones travel in the blood to have distant effects, while neurotransmitters diffuse across a synapse locally."
+    },
+    {
+      "id": "C2.1-038",
+      "level": "HL",
+      "statement": "C2.1.2",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "In Vibrio fischeri, light is produced only when the bacterial population is large.",
+      "stem": "This coordination relies on:",
+      "options": [
+        { "letter": "A", "text": "Quorum sensing detecting population density", "correct": true },
+        { "letter": "B", "text": "Photosynthesis", "correct": false },
+        { "letter": "C", "text": "Muscle contraction", "correct": false },
+        { "letter": "D", "text": "DNA replication rate", "correct": false }
+      ],
+      "explanation": "Quorum sensing lets bacteria detect their density and coordinate behaviours such as bioluminescence in Vibrio fischeri."
+    },
+    {
+      "id": "C2.1-039",
+      "level": "HL",
+      "statement": "C2.1.4",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "Nitrous oxide can act as a neurotransmitter.",
+      "stem": "This illustrates that neurotransmitters:",
+      "options": [
+        { "letter": "A", "text": "Come from a chemically diverse range of substances", "correct": true },
+        { "letter": "B", "text": "Are all steroids", "correct": false },
+        { "letter": "C", "text": "Must be proteins", "correct": false },
+        { "letter": "D", "text": "Are all carbohydrates", "correct": false }
+      ],
+      "explanation": "Neurotransmitters are chemically diverse, including amino acids, peptides, amines and nitrous oxide."
+    },
+    {
+      "id": "C2.1-040",
+      "level": "HL",
+      "statement": "C2.1.14",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "The difference between positive and negative feedback in signalling is that positive feedback:",
+      "options": [
+        { "letter": "A", "text": "Amplifies a response, while negative feedback reduces it", "correct": true },
+        { "letter": "B", "text": "Reduces a response, while negative feedback amplifies it", "correct": false },
+        { "letter": "C", "text": "Has no effect on the response", "correct": false },
+        { "letter": "D", "text": "Is the same as negative feedback", "correct": false }
+      ],
+      "explanation": "Positive feedback amplifies a response; negative feedback dampens it. Both regulate signalling pathways."
+    },
+    {
+      "id": "C2.1-041",
+      "level": "HL",
+      "statement": "C2.1.1",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "A ligand binds to a receptor at a site that is:",
+      "options": [
+        { "letter": "A", "text": "Specific to that ligand's shape", "correct": true },
+        { "letter": "B", "text": "Able to bind any molecule", "correct": false },
+        { "letter": "C", "text": "Made of carbohydrate only", "correct": false },
+        { "letter": "D", "text": "Never specific", "correct": false }
+      ],
+      "explanation": "Receptors have binding sites specific to particular signalling chemicals (ligands)."
+    },
+    {
+      "id": "C2.1-042",
+      "level": "HL",
+      "statement": "C2.1.11",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Insulin ultimately increases glucose uptake by cells by:",
+      "options": [
+        { "letter": "A", "text": "Moving glucose transporters to the plasma membrane", "correct": true },
+        { "letter": "B", "text": "Removing all glucose transporters", "correct": false },
+        { "letter": "C", "text": "Breaking down the membrane", "correct": false },
+        { "letter": "D", "text": "Stopping transcription", "correct": false }
+      ],
+      "explanation": "Insulin signalling ends with glucose-transporter vesicles fusing with the plasma membrane, increasing glucose uptake."
+    },
+    {
+      "id": "C2.1-043",
+      "level": "HL",
+      "statement": "C2.1.6",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Transmembrane receptors differ from intracellular receptors in the distribution of:",
+      "options": [
+        { "letter": "A", "text": "Hydrophilic and hydrophobic amino acids", "correct": true },
+        { "letter": "B", "text": "Nucleotides", "correct": false },
+        { "letter": "C", "text": "Fatty acids only", "correct": false },
+        { "letter": "D", "text": "Carbohydrates only", "correct": false }
+      ],
+      "explanation": "Their differing hydrophilic/hydrophobic amino acid distribution suits transmembrane vs intracellular locations."
+    },
+    {
+      "id": "C2.1-044",
+      "level": "HL",
+      "statement": "C2.1.10",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Which pair correctly matches receptor mechanism and messenger?",
+      "options": [
+        { "letter": "A", "text": "Epinephrine receptor — G protein and cAMP", "correct": true },
+        { "letter": "B", "text": "Epinephrine receptor — tyrosine kinase and DNA", "correct": false },
+        { "letter": "C", "text": "Epinephrine receptor — ion channel and glucose", "correct": false },
+        { "letter": "D", "text": "Epinephrine receptor — intracellular DNA binding", "correct": false }
+      ],
+      "explanation": "The epinephrine receptor uses a G protein and cyclic AMP (cAMP) as the second messenger."
+    },
+    {
+      "id": "C2.1-045",
+      "level": "HL",
+      "statement": "C2.1.13",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Oestradiol and progesterone are examples of hormones that:",
+      "options": [
+        { "letter": "A", "text": "Have effects on specific target cells via gene expression", "correct": true },
+        { "letter": "B", "text": "Act only on the gland that made them", "correct": false },
+        { "letter": "C", "text": "Cannot enter cells", "correct": false },
+        { "letter": "D", "text": "Are neurotransmitters", "correct": false }
+      ],
+      "explanation": "As steroid hormones, oestradiol and progesterone affect target cells by influencing gene expression."
+    },
+    {
+      "id": "C2.1-046",
+      "level": "HL",
+      "statement": "C2.1.7",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Signal transduction can be described as:",
+      "options": [
+        { "letter": "A", "text": "Converting a received signal into a cellular response", "correct": true },
+        { "letter": "B", "text": "Copying DNA", "correct": false },
+        { "letter": "C", "text": "Transporting oxygen", "correct": false },
+        { "letter": "D", "text": "Storing energy as fat", "correct": false }
+      ],
+      "explanation": "Signal transduction is the process of converting an external signal into a response inside the cell."
+    },
+    {
+      "id": "C2.1-047",
+      "level": "HL",
+      "statement": "C2.1.3",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Which set correctly lists functional categories of animal signalling chemicals?",
+      "options": [
+        { "letter": "A", "text": "Hormones, neurotransmitters, cytokines, calcium ions", "correct": true },
+        { "letter": "B", "text": "Enzymes, ribosomes, chromosomes, vesicles", "correct": false },
+        { "letter": "C", "text": "Xylem, phloem, cortex, epidermis", "correct": false },
+        { "letter": "D", "text": "Actin, myosin, titin, tropomyosin", "correct": false }
+      ],
+      "explanation": "Hormones, neurotransmitters, cytokines and calcium ions are the functional categories of signalling chemicals."
+    },
+    {
+      "id": "C2.1-048",
+      "level": "HL",
+      "statement": "C2.1.8",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "A transmembrane receptor for a neurotransmitter changes the cell's membrane potential by:",
+      "options": [
+        { "letter": "A", "text": "Allowing ions to flow through an opened channel", "correct": true },
+        { "letter": "B", "text": "Binding DNA", "correct": false },
+        { "letter": "C", "text": "Digesting the membrane", "correct": false },
+        { "letter": "D", "text": "Making glucose", "correct": false }
+      ],
+      "explanation": "Neurotransmitter binding opens an ion channel, changing membrane potential as ions flow across."
+    },
+    {
+      "id": "C2.1-049",
+      "level": "HL",
+      "statement": "C2.1.9",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "A signal that binds a G protein-coupled receptor is conveyed into the cell by:",
+      "options": [
+        { "letter": "A", "text": "Activation of a G protein", "correct": true },
+        { "letter": "B", "text": "Direct entry of the receptor into the nucleus", "correct": false },
+        { "letter": "C", "text": "Photolysis", "correct": false },
+        { "letter": "D", "text": "The Calvin cycle", "correct": false }
+      ],
+      "explanation": "G protein-coupled receptors convey the signal into the cell by activating an associated G protein."
+    },
+    {
+      "id": "C2.1-050",
+      "level": "HL",
+      "statement": "C2.1.14",
+      "category": "C2.1 Chemical signalling",
+      "scenario": "",
+      "stem": "Feedback regulation of signalling pathways is important because it:",
+      "options": [
+        { "letter": "A", "text": "Controls the strength and duration of the response", "correct": true },
+        { "letter": "B", "text": "Makes responses random", "correct": false },
+        { "letter": "C", "text": "Removes all receptors", "correct": false },
+        { "letter": "D", "text": "Prevents any response", "correct": false }
+      ],
+      "explanation": "Positive and negative feedback regulate signalling pathways, controlling the strength and duration of responses."
+    }
+  ]
+}

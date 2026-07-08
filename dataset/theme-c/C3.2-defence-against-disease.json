@@ -1,0 +1,760 @@
+{
+  "id": "C3.2",
+  "name": "Defence against disease",
+  "theme": "C",
+  "themeName": "Interaction and interdependence",
+  "levelOfOrganization": "Organisms",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "C3.2-001",
+      "level": "SL",
+      "statement": "C3.2.1",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "A disease-causing organism is known as a:",
+      "options": [
+        { "letter": "A", "text": "Pathogen", "correct": true },
+        { "letter": "B", "text": "Producer", "correct": false },
+        { "letter": "C", "text": "Decomposer", "correct": false },
+        { "letter": "D", "text": "Autotroph", "correct": false }
+      ],
+      "explanation": "A pathogen is a disease-causing organism, typically a virus, bacterium, fungus or protist."
+    },
+    {
+      "id": "C3.2-002",
+      "level": "SL",
+      "statement": "C3.2.1",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Which domain is NOT known to cause diseases in humans?",
+      "options": [
+        { "letter": "A", "text": "Archaea", "correct": true },
+        { "letter": "B", "text": "Bacteria", "correct": false },
+        { "letter": "C", "text": "Eukaryota (e.g. fungi, protists)", "correct": false },
+        { "letter": "D", "text": "Viruses (although not living)", "correct": false }
+      ],
+      "explanation": "Archaea are not known to cause any diseases in humans, unlike viruses, bacteria, fungi and protists."
+    },
+    {
+      "id": "C3.2-003",
+      "level": "SL",
+      "statement": "C3.2.2",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "The skin acts as a primary defence by being:",
+      "options": [
+        { "letter": "A", "text": "Both a physical and chemical barrier", "correct": true },
+        { "letter": "B", "text": "Only a chemical barrier", "correct": false },
+        { "letter": "C", "text": "A source of antibodies", "correct": false },
+        { "letter": "D", "text": "A memory cell", "correct": false }
+      ],
+      "explanation": "The skin (and mucous membranes) act as both physical and chemical barriers to pathogens."
+    },
+    {
+      "id": "C3.2-004",
+      "level": "SL",
+      "statement": "C3.2.3",
+      "category": "C3.2 Defence against disease",
+      "scenario": "A cut in the skin is sealed by a blood clot.",
+      "stem": "The clot forms when fibrinogen is converted to:",
+      "options": [
+        { "letter": "A", "text": "Fibrin (by thrombin)", "correct": true },
+        { "letter": "B", "text": "Glucose", "correct": false },
+        { "letter": "C", "text": "Collagen", "correct": false },
+        { "letter": "D", "text": "Insulin", "correct": false }
+      ],
+      "explanation": "Clotting factors from platteets trigger a cascade converting fibrinogen to fibrin by thrombin, trapping erythrocytes."
+    },
+    {
+      "id": "C3.2-005",
+      "level": "SL",
+      "statement": "C3.2.3",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Which cell fragments release clotting factors to start blood clotting?",
+      "options": [
+        { "letter": "A", "text": "Platelets", "correct": true },
+        { "letter": "B", "text": "Lymphocytes", "correct": false },
+        { "letter": "C", "text": "Phagocytes", "correct": false },
+        { "letter": "D", "text": "Guard cells", "correct": false }
+      ],
+      "explanation": "Platelets release clotting factors that begin the cascade sealing a cut in the skin."
+    },
+    {
+      "id": "C3.2-006",
+      "level": "SL",
+      "statement": "C3.2.4",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "The innate immune system:",
+      "options": [
+        { "letter": "A", "text": "Responds to broad categories of pathogen and does not change during life", "correct": true },
+        { "letter": "B", "text": "Builds up a specific memory of each pathogen", "correct": false },
+        { "letter": "C", "text": "Only produces antibodies", "correct": false },
+        { "letter": "D", "text": "Only acts against archaea", "correct": false }
+      ],
+      "explanation": "The innate system responds to broad categories of pathogen and does not change during the organism's life."
+    },
+    {
+      "id": "C3.2-007",
+      "level": "SL",
+      "statement": "C3.2.4",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "The adaptive immune system differs from the innate system because it:",
+      "options": [
+        { "letter": "A", "text": "Responds specifically and builds a memory of pathogens", "correct": true },
+        { "letter": "B", "text": "Never changes", "correct": false },
+        { "letter": "C", "text": "Responds only to broad categories", "correct": false },
+        { "letter": "D", "text": "Has no cells", "correct": false }
+      ],
+      "explanation": "The adaptive system responds specifically to particular pathogens and builds a memory, becoming more effective over time."
+    },
+    {
+      "id": "C3.2-008",
+      "level": "SL",
+      "statement": "C3.2.5",
+      "category": "C3.2 Defence against disease",
+      "scenario": "A phagocyte engulfs a pathogen.",
+      "stem": "It engulfs the pathogen by:",
+      "options": [
+        { "letter": "A", "text": "Endocytosis", "correct": true },
+        { "letter": "B", "text": "Photosynthesis", "correct": false },
+        { "letter": "C", "text": "Transpiration", "correct": false },
+        { "letter": "D", "text": "Osmosis", "correct": false }
+      ],
+      "explanation": "Phagocytes recognize pathogens, engulf them by endocytosis and digest them with enzymes from lysosomes."
+    },
+    {
+      "id": "C3.2-009",
+      "level": "SL",
+      "statement": "C3.2.5",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Phagocytes digest engulfed pathogens using enzymes from:",
+      "options": [
+        { "letter": "A", "text": "Lysosomes", "correct": true },
+        { "letter": "B", "text": "Chloroplasts", "correct": false },
+        { "letter": "C", "text": "The nucleus", "correct": false },
+        { "letter": "D", "text": "Ribosomes only", "correct": false }
+      ],
+      "explanation": "After engulfing pathogens, phagocytes digest them using enzymes from lysosomes."
+    },
+    {
+      "id": "C3.2-010",
+      "level": "SL",
+      "statement": "C3.2.6",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Which cells of the adaptive immune system produce antibodies?",
+      "options": [
+        { "letter": "A", "text": "Lymphocytes (B-lymphocytes)", "correct": true },
+        { "letter": "B", "text": "Phagocytes", "correct": false },
+        { "letter": "C", "text": "Platelets", "correct": false },
+        { "letter": "D", "text": "Red blood cells", "correct": false }
+      ],
+      "explanation": "Lymphocytes cooperate to produce antibodies; each B-lymphocyte makes a specific type of antibody."
+    },
+    {
+      "id": "C3.2-011",
+      "level": "SL",
+      "statement": "C3.2.7",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "An antigen is a molecule that:",
+      "options": [
+        { "letter": "A", "text": "Triggers antibody production", "correct": true },
+        { "letter": "B", "text": "Digests pathogens", "correct": false },
+        { "letter": "C", "text": "Seals cuts in the skin", "correct": false },
+        { "letter": "D", "text": "Carries oxygen", "correct": false }
+      ],
+      "explanation": "Antigens are recognition molecules, usually surface glycoproteins or proteins, that trigger antibody production."
+    },
+    {
+      "id": "C3.2-012",
+      "level": "SL",
+      "statement": "C3.2.7",
+      "category": "C3.2 Defence against disease",
+      "scenario": "Blood is transfused into a person with a different blood group.",
+      "stem": "Antigens on the donor erythrocytes may:",
+      "options": [
+        { "letter": "A", "text": "Stimulate antibody production in the recipient", "correct": true },
+        { "letter": "B", "text": "Have no effect ever", "correct": false },
+        { "letter": "C", "text": "Turn into phagocytes", "correct": false },
+        { "letter": "D", "text": "Become memory cells", "correct": false }
+      ],
+      "explanation": "Antigens on erythrocytes can stimulate antibody production if transfused into someone with a different blood group."
+    },
+    {
+      "id": "C3.2-013",
+      "level": "SL",
+      "statement": "C3.2.8",
+      "category": "C3.2 Defence against disease",
+      "scenario": "A B-lymphocyte becomes activated.",
+      "stem": "Activation requires the antigen and contact with an activated:",
+      "options": [
+        { "letter": "A", "text": "Helper T-lymphocyte", "correct": true },
+        { "letter": "B", "text": "Platelet", "correct": false },
+        { "letter": "C", "text": "Red blood cell", "correct": false },
+        { "letter": "D", "text": "Phagocyte only", "correct": false }
+      ],
+      "explanation": "B-cells are activated by direct interaction with the specific antigen and contact with a helper T-cell activated by the same antigen."
+    },
+    {
+      "id": "C3.2-014",
+      "level": "SL",
+      "statement": "C3.2.9",
+      "category": "C3.2 Defence against disease",
+      "scenario": "An activated B-lymphocyte divides to produce many antibody-secreting cells.",
+      "stem": "These antibody-secreting cells are called:",
+      "options": [
+        { "letter": "A", "text": "Plasma cells", "correct": true },
+        { "letter": "B", "text": "Phagocytes", "correct": false },
+        { "letter": "C", "text": "Platelets", "correct": false },
+        { "letter": "D", "text": "Guard cells", "correct": false }
+      ],
+      "explanation": "Activated B-cells divide by mitosis to form clones of plasma cells that secrete large quantities of antibody."
+    },
+    {
+      "id": "C3.2-015",
+      "level": "SL",
+      "statement": "C3.2.9",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Why must activated B-cells divide by mitosis?",
+      "options": [
+        { "letter": "A", "text": "To produce enough plasma cells to make sufficient antibody", "correct": true },
+        { "letter": "B", "text": "To reduce antibody production", "correct": false },
+        { "letter": "C", "text": "To become phagocytes", "correct": false },
+        { "letter": "D", "text": "To make the pathogen", "correct": false }
+      ],
+      "explanation": "Few B-cells respond to a given antigen, so they divide to make large numbers of antibody-producing plasma cells."
+    },
+    {
+      "id": "C3.2-016",
+      "level": "SL",
+      "statement": "C3.2.10",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Immunity is due to the long-term survival of:",
+      "options": [
+        { "letter": "A", "text": "Memory cells", "correct": true },
+        { "letter": "B", "text": "Platelets", "correct": false },
+        { "letter": "C", "text": "Red blood cells", "correct": false },
+        { "letter": "D", "text": "Pathogens", "correct": false }
+      ],
+      "explanation": "Immunity results from retaining memory cells that can quickly make the specific antibodies needed."
+    },
+    {
+      "id": "C3.2-017",
+      "level": "SL",
+      "statement": "C3.2.10",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Immunity is best defined as the ability to:",
+      "options": [
+        { "letter": "A", "text": "Eliminate an infectious disease from the body", "correct": true },
+        { "letter": "B", "text": "Catch every disease", "correct": false },
+        { "letter": "C", "text": "Produce pathogens", "correct": false },
+        { "letter": "D", "text": "Prevent blood clotting", "correct": false }
+      ],
+      "explanation": "Immunity is the ability to eliminate an infectious disease, due to long-lived memory cells."
+    },
+    {
+      "id": "C3.2-018",
+      "level": "SL",
+      "statement": "C3.2.11",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "HIV is transmitted through:",
+      "options": [
+        { "letter": "A", "text": "Body fluids", "correct": true },
+        { "letter": "B", "text": "Air only", "correct": false },
+        { "letter": "C", "text": "Casual touch", "correct": false },
+        { "letter": "D", "text": "Sunlight", "correct": false }
+      ],
+      "explanation": "HIV is transmitted in body fluids by various mechanisms."
+    },
+    {
+      "id": "C3.2-019",
+      "level": "SL",
+      "statement": "C3.2.12",
+      "category": "C3.2 Defence against disease",
+      "scenario": "HIV infects and kills certain lymphocytes.",
+      "stem": "The consequence of this is:",
+      "options": [
+        { "letter": "A", "text": "A reduced ability to produce antibodies and fight infections", "correct": true },
+        { "letter": "B", "text": "Increased immunity", "correct": false },
+        { "letter": "C", "text": "Faster blood clotting", "correct": false },
+        { "letter": "D", "text": "More phagocytes", "correct": false }
+      ],
+      "explanation": "By killing certain lymphocytes, HIV reduces antibody production and the ability to fight opportunistic infections, causing AIDS."
+    },
+    {
+      "id": "C3.2-020",
+      "level": "SL",
+      "statement": "C3.2.13",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Antibiotics work by blocking processes that occur in:",
+      "options": [
+        { "letter": "A", "text": "Bacteria but not eukaryotic cells", "correct": true },
+        { "letter": "B", "text": "All cells equally", "correct": false },
+        { "letter": "C", "text": "Only human cells", "correct": false },
+        { "letter": "D", "text": "Viruses", "correct": false }
+      ],
+      "explanation": "Antibiotics block processes specific to bacteria, not eukaryotic cells, so they harm bacteria but not the host."
+    },
+    {
+      "id": "C3.2-021",
+      "level": "SL",
+      "statement": "C3.2.13",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Why do antibiotics fail to control viral infections?",
+      "options": [
+        { "letter": "A", "text": "Viruses lack the bacterial processes antibiotics target", "correct": true },
+        { "letter": "B", "text": "Viruses are bacteria", "correct": false },
+        { "letter": "C", "text": "Antibiotics are too strong", "correct": false },
+        { "letter": "D", "text": "Viruses have cell walls", "correct": false }
+      ],
+      "explanation": "Antibiotics target bacterial processes; viruses do not carry these out, so antibiotics do not affect them."
+    },
+    {
+      "id": "C3.2-022",
+      "level": "SL",
+      "statement": "C3.2.14",
+      "category": "C3.2 Defence against disease",
+      "scenario": "Some bacteria have evolved resistance to several antibiotics.",
+      "stem": "To slow the emergence of multiresistant bacteria, it is necessary to:",
+      "options": [
+        { "letter": "A", "text": "Use antibiotics carefully", "correct": true },
+        { "letter": "B", "text": "Use antibiotics as much as possible", "correct": false },
+        { "letter": "C", "text": "Stop making new antibiotics", "correct": false },
+        { "letter": "D", "text": "Give antibiotics for viral colds", "correct": false }
+      ],
+      "explanation": "Careful use of antibiotics is necessary to slow the evolution of multiresistant bacteria."
+    },
+    {
+      "id": "C3.2-023",
+      "level": "SL",
+      "statement": "C3.2.15",
+      "category": "C3.2 Defence against disease",
+      "scenario": "A disease can transfer from another animal species to humans.",
+      "stem": "Such a disease is called a:",
+      "options": [
+        { "letter": "A", "text": "Zoonosis", "correct": true },
+        { "letter": "B", "text": "Antigen", "correct": false },
+        { "letter": "C", "text": "Vaccine", "correct": false },
+        { "letter": "D", "text": "Memory cell", "correct": false }
+      ],
+      "explanation": "Zoonoses are infectious diseases that can transfer from other species to humans, such as rabies and COVID-19."
+    },
+    {
+      "id": "C3.2-024",
+      "level": "SL",
+      "statement": "C3.2.15",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Which is given as an example of a zoonosis?",
+      "options": [
+        { "letter": "A", "text": "Rabies", "correct": true },
+        { "letter": "B", "text": "Scurvy", "correct": false },
+        { "letter": "C", "text": "Diabetes", "correct": false },
+        { "letter": "D", "text": "Anaemia", "correct": false }
+      ],
+      "explanation": "Zoonoses include tuberculosis, rabies, Japanese encephalitis and COVID-19."
+    },
+    {
+      "id": "C3.2-025",
+      "level": "SL",
+      "statement": "C3.2.16",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Vaccines stimulate immunity by containing:",
+      "options": [
+        { "letter": "A", "text": "Antigens, or nucleic acids coding for antigens", "correct": true },
+        { "letter": "B", "text": "Only antibiotics", "correct": false },
+        { "letter": "C", "text": "Only platelets", "correct": false },
+        { "letter": "D", "text": "Live, fully active disease", "correct": false }
+      ],
+      "explanation": "Vaccines contain antigens (or nucleic acids coding for antigens) to develop immunity without causing the disease."
+    },
+    {
+      "id": "C3.2-026",
+      "level": "SL",
+      "statement": "C3.2.16",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "A vaccine develops immunity to a pathogen:",
+      "options": [
+        { "letter": "A", "text": "Without causing the disease", "correct": true },
+        { "letter": "B", "text": "Only by causing the full disease", "correct": false },
+        { "letter": "C", "text": "By removing all lymphocytes", "correct": false },
+        { "letter": "D", "text": "By blocking blood clotting", "correct": false }
+      ],
+      "explanation": "Vaccines stimulate immunity to a specific pathogen without causing the disease itself."
+    },
+    {
+      "id": "C3.2-027",
+      "level": "SL",
+      "statement": "C3.2.17",
+      "category": "C3.2 Defence against disease",
+      "scenario": "A high percentage of a population is immune to a disease.",
+      "stem": "This provides:",
+      "options": [
+        { "letter": "A", "text": "Herd immunity, greatly impeding transmission", "correct": true },
+        { "letter": "B", "text": "No protection at all", "correct": false },
+        { "letter": "C", "text": "Faster spread of the disease", "correct": false },
+        { "letter": "D", "text": "Immunity only to the vaccinated", "correct": false }
+      ],
+      "explanation": "Herd immunity arises when enough of a population is immune that transmission is greatly impeded, protecting others too."
+    },
+    {
+      "id": "C3.2-028",
+      "level": "SL",
+      "statement": "C3.2.17",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Herd immunity shows that members of a population are:",
+      "options": [
+        { "letter": "A", "text": "Interdependent in preventing epidemics", "correct": true },
+        { "letter": "B", "text": "Completely independent", "correct": false },
+        { "letter": "C", "text": "Unable to be immune", "correct": false },
+        { "letter": "D", "text": "Only protected individually", "correct": false }
+      ],
+      "explanation": "Herd immunity depends on interdependence: widespread immunity impedes transmission and protects the population."
+    },
+    {
+      "id": "C3.2-029",
+      "level": "SL",
+      "statement": "C3.2.18",
+      "category": "C3.2 Defence against disease",
+      "scenario": "Cases of a disease rise from 200 to 250.",
+      "stem": "The percentage change is:",
+      "options": [
+        { "letter": "A", "text": "25%", "correct": true },
+        { "letter": "B", "text": "50%", "correct": false },
+        { "letter": "C", "text": "20%", "correct": false },
+        { "letter": "D", "text": "80%", "correct": false }
+      ],
+      "explanation": "Percentage change = (250 − 200) ÷ 200 × 100 = 25%."
+    },
+    {
+      "id": "C3.2-030",
+      "level": "SL",
+      "statement": "C3.2.1",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Which of these is typically classed as a pathogen?",
+      "options": [
+        { "letter": "A", "text": "A disease-causing bacterium", "correct": true },
+        { "letter": "B", "text": "A red blood cell", "correct": false },
+        { "letter": "C", "text": "A platelet", "correct": false },
+        { "letter": "D", "text": "A memory cell", "correct": false }
+      ],
+      "explanation": "Pathogens are disease-causing organisms such as viruses, bacteria, fungi and protists."
+    },
+    {
+      "id": "C3.2-031",
+      "level": "SL",
+      "statement": "C3.2.5",
+      "category": "C3.2 Defence against disease",
+      "scenario": "Phagocytes move from the blood to a site of infection.",
+      "stem": "This movement is described as:",
+      "options": [
+        { "letter": "A", "text": "Amoeboid movement", "correct": true },
+        { "letter": "B", "text": "Saltatory conduction", "correct": false },
+        { "letter": "C", "text": "Transpiration", "correct": false },
+        { "letter": "D", "text": "Translocation", "correct": false }
+      ],
+      "explanation": "Phagocytes use amoeboid movement to travel from the blood to sites of infection."
+    },
+    {
+      "id": "C3.2-032",
+      "level": "SL",
+      "statement": "C3.2.6",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Lymphocytes are found circulating in the blood and contained in:",
+      "options": [
+        { "letter": "A", "text": "Lymph nodes", "correct": true },
+        { "letter": "B", "text": "The xylem", "correct": false },
+        { "letter": "C", "text": "Chloroplasts", "correct": false },
+        { "letter": "D", "text": "The stomach lining only", "correct": false }
+      ],
+      "explanation": "Lymphocytes circulate in the blood and are contained in lymph nodes."
+    },
+    {
+      "id": "C3.2-033",
+      "level": "SL",
+      "statement": "C3.2.7",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Antigens are usually located:",
+      "options": [
+        { "letter": "A", "text": "On the outer surfaces of pathogens", "correct": true },
+        { "letter": "B", "text": "Deep inside human DNA", "correct": false },
+        { "letter": "C", "text": "In the xylem", "correct": false },
+        { "letter": "D", "text": "Only in platelets", "correct": false }
+      ],
+      "explanation": "Antigens, mostly glycoproteins or proteins, are usually on the outer surfaces of pathogens."
+    },
+    {
+      "id": "C3.2-034",
+      "level": "SL",
+      "statement": "C3.2.8",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "A B-cell becomes a memory cell or plasma cell only after it has been:",
+      "options": [
+        { "letter": "A", "text": "Activated", "correct": true },
+        { "letter": "B", "text": "Digested", "correct": false },
+        { "letter": "C", "text": "Denatured", "correct": false },
+        { "letter": "D", "text": "Converted into a phagocyte", "correct": false }
+      ],
+      "explanation": "B-cells produce antibodies and become memory cells only after activation by antigen and a helper T-cell."
+    },
+    {
+      "id": "C3.2-035",
+      "level": "SL",
+      "statement": "C3.2.10",
+      "category": "C3.2 Defence against disease",
+      "scenario": "A person who recovered from a disease resists it if exposed again.",
+      "stem": "This is due to:",
+      "options": [
+        { "letter": "A", "text": "Memory cells producing a faster, stronger response", "correct": true },
+        { "letter": "B", "text": "New pathogens forming", "correct": false },
+        { "letter": "C", "text": "Loss of all antibodies", "correct": false },
+        { "letter": "D", "text": "Blood clotting", "correct": false }
+      ],
+      "explanation": "Long-lived memory cells enable a faster, stronger immune response on re-exposure, giving immunity."
+    },
+    {
+      "id": "C3.2-036",
+      "level": "SL",
+      "statement": "C3.2.12",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "AIDS develops as a consequence of HIV infecting and killing:",
+      "options": [
+        { "letter": "A", "text": "Certain lymphocytes", "correct": true },
+        { "letter": "B", "text": "All red blood cells", "correct": false },
+        { "letter": "C", "text": "Platelets", "correct": false },
+        { "letter": "D", "text": "Neurons", "correct": false }
+      ],
+      "explanation": "HIV infects and kills certain lymphocytes, weakening the immune response and leading to AIDS."
+    },
+    {
+      "id": "C3.2-037",
+      "level": "SL",
+      "statement": "C3.2.14",
+      "category": "C3.2 Defence against disease",
+      "scenario": "A new technique searches chemical libraries for antibiotics.",
+      "stem": "According to NOS, this shows that new techniques can:",
+      "options": [
+        { "letter": "A", "text": "Open new avenues of research", "correct": true },
+        { "letter": "B", "text": "Never help research", "correct": false },
+        { "letter": "C", "text": "Only slow research", "correct": false },
+        { "letter": "D", "text": "Replace all evidence", "correct": false }
+      ],
+      "explanation": "The development of new techniques, such as searching chemical libraries, can open new avenues of research yielding new antibiotics."
+    },
+    {
+      "id": "C3.2-038",
+      "level": "SL",
+      "statement": "C3.2.15",
+      "category": "C3.2 Defence against disease",
+      "scenario": "COVID-19 recently transferred to humans from another species.",
+      "stem": "This makes COVID-19 an example of a:",
+      "options": [
+        { "letter": "A", "text": "Zoonosis", "correct": true },
+        { "letter": "B", "text": "Non-infectious disease", "correct": false },
+        { "letter": "C", "text": "Deficiency disease", "correct": false },
+        { "letter": "D", "text": "Genetic disorder", "correct": false }
+      ],
+      "explanation": "COVID-19 is a zoonosis, recently transferred from another species with profound consequences for humans."
+    },
+    {
+      "id": "C3.2-039",
+      "level": "SL",
+      "statement": "C3.2.16",
+      "category": "C3.2 Defence against disease",
+      "scenario": "Some modern vaccines contain mRNA rather than whole antigens.",
+      "stem": "The mRNA works by:",
+      "options": [
+        { "letter": "A", "text": "Coding for antigens so the body makes them and develops immunity", "correct": true },
+        { "letter": "B", "text": "Directly killing pathogens", "correct": false },
+        { "letter": "C", "text": "Acting as an antibiotic", "correct": false },
+        { "letter": "D", "text": "Removing memory cells", "correct": false }
+      ],
+      "explanation": "Vaccines can contain nucleic acids (DNA or RNA) coding for antigens, so the body makes the antigen and develops immunity."
+    },
+    {
+      "id": "C3.2-040",
+      "level": "SL",
+      "statement": "C3.2.18",
+      "category": "C3.2 Defence against disease",
+      "scenario": "Region A reports 40 cases and Region B reports 50 cases.",
+      "stem": "The percentage difference relative to Region A is:",
+      "options": [
+        { "letter": "A", "text": "25%", "correct": true },
+        { "letter": "B", "text": "10%", "correct": false },
+        { "letter": "C", "text": "20%", "correct": false },
+        { "letter": "D", "text": "50%", "correct": false }
+      ],
+      "explanation": "Percentage difference = (50 − 40) ÷ 40 × 100 = 25%."
+    },
+    {
+      "id": "C3.2-041",
+      "level": "SL",
+      "statement": "C3.2.4",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Which cell type is the only component of the innate immune system students must know?",
+      "options": [
+        { "letter": "A", "text": "Phagocytes", "correct": true },
+        { "letter": "B", "text": "Plasma cells", "correct": false },
+        { "letter": "C", "text": "Memory cells", "correct": false },
+        { "letter": "D", "text": "Helper T-cells", "correct": false }
+      ],
+      "explanation": "Students are only required to know phagocytes as a component of the innate immune system."
+    },
+    {
+      "id": "C3.2-042",
+      "level": "SL",
+      "statement": "C3.2.2",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Besides the skin, which structures act as a primary defence?",
+      "options": [
+        { "letter": "A", "text": "Mucous membranes", "correct": true },
+        { "letter": "B", "text": "Lymph nodes", "correct": false },
+        { "letter": "C", "text": "Plasma cells", "correct": false },
+        { "letter": "D", "text": "Memory cells", "correct": false }
+      ],
+      "explanation": "Skin and mucous membranes together form the primary defence against pathogens."
+    },
+    {
+      "id": "C3.2-043",
+      "level": "SL",
+      "statement": "C3.2.3",
+      "category": "C3.2 Defence against disease",
+      "scenario": "During clotting, erythrocytes are trapped in a mesh.",
+      "stem": "The mesh is formed from:",
+      "options": [
+        { "letter": "A", "text": "Fibrin", "correct": true },
+        { "letter": "B", "text": "Fibrinogen only", "correct": false },
+        { "letter": "C", "text": "Antibodies", "correct": false },
+        { "letter": "D", "text": "Cellulose", "correct": false }
+      ],
+      "explanation": "Thrombin converts fibrinogen to fibrin, which forms a mesh trapping erythrocytes to make a clot."
+    },
+    {
+      "id": "C3.2-044",
+      "level": "SL",
+      "statement": "C3.2.6",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Each B-lymphocyte makes:",
+      "options": [
+        { "letter": "A", "text": "A specific type of antibody", "correct": true },
+        { "letter": "B", "text": "Every possible antibody", "correct": false },
+        { "letter": "C", "text": "No antibodies", "correct": false },
+        { "letter": "D", "text": "Only phagocytes", "correct": false }
+      ],
+      "explanation": "An individual has a large number of B-lymphocytes, each making a specific type of antibody."
+    },
+    {
+      "id": "C3.2-045",
+      "level": "SL",
+      "statement": "C3.2.13",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "Why don't antibiotics harm human cells?",
+      "options": [
+        { "letter": "A", "text": "They target processes found in bacteria but not eukaryotic cells", "correct": true },
+        { "letter": "B", "text": "Human cells are bacteria", "correct": false },
+        { "letter": "C", "text": "Antibiotics are too weak", "correct": false },
+        { "letter": "D", "text": "Human cells have no processes", "correct": false }
+      ],
+      "explanation": "Antibiotics block bacterial processes that eukaryotic (human) cells do not carry out, so the host is unharmed."
+    },
+    {
+      "id": "C3.2-046",
+      "level": "SL",
+      "statement": "C3.2.1",
+      "category": "C3.2 Defence against disease",
+      "scenario": "Careful 19th-century observations during epidemics led to disease-control breakthroughs.",
+      "stem": "According to NOS, this shows that:",
+      "options": [
+        { "letter": "A", "text": "Careful observation can lead to important progress", "correct": true },
+        { "letter": "B", "text": "Observation is unimportant", "correct": false },
+        { "letter": "C", "text": "Only experiments give knowledge", "correct": false },
+        { "letter": "D", "text": "Epidemics cannot be studied", "correct": false }
+      ],
+      "explanation": "Careful observation, as during 19th-century epidemics of childbed fever and cholera, can lead to important progress."
+    },
+    {
+      "id": "C3.2-047",
+      "level": "SL",
+      "statement": "C3.2.11",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "HIV cannot easily be transmitted through:",
+      "options": [
+        { "letter": "A", "text": "Casual contact such as shaking hands", "correct": true },
+        { "letter": "B", "text": "Certain body fluids", "correct": false },
+        { "letter": "C", "text": "Blood-to-blood contact", "correct": false },
+        { "letter": "D", "text": "Mother to child during birth", "correct": false }
+      ],
+      "explanation": "HIV is transmitted in body fluids, not by casual contact such as shaking hands."
+    },
+    {
+      "id": "C3.2-048",
+      "level": "SL",
+      "statement": "C3.2.17",
+      "category": "C3.2 Defence against disease",
+      "scenario": "Vaccination rates fall below the level needed for herd immunity.",
+      "stem": "The likely consequence is:",
+      "options": [
+        { "letter": "A", "text": "Easier transmission and possible epidemics", "correct": true },
+        { "letter": "B", "text": "Complete elimination of the disease", "correct": false },
+        { "letter": "C", "text": "No change at all", "correct": false },
+        { "letter": "D", "text": "Increased herd immunity", "correct": false }
+      ],
+      "explanation": "If too few are immune, herd immunity is lost and transmission becomes easier, risking epidemics."
+    },
+    {
+      "id": "C3.2-049",
+      "level": "SL",
+      "statement": "C3.2.16",
+      "category": "C3.2 Defence against disease",
+      "scenario": "Vaccines are tested rigorously before use.",
+      "stem": "According to NOS, consumers should be aware that:",
+      "options": [
+        { "letter": "A", "text": "Media may report on research while evaluation is still ongoing", "correct": true },
+        { "letter": "B", "text": "Vaccines are never tested", "correct": false },
+        { "letter": "C", "text": "Side effects are always guaranteed to be severe", "correct": false },
+        { "letter": "D", "text": "Scientists never publish research", "correct": false }
+      ],
+      "explanation": "Scientists publish research for evaluation; media may report before evaluation is complete, so consumers should be aware."
+    },
+    {
+      "id": "C3.2-050",
+      "level": "SL",
+      "statement": "C3.2.9",
+      "category": "C3.2 Defence against disease",
+      "scenario": "",
+      "stem": "A clone of plasma cells produced from one activated B-cell all make:",
+      "options": [
+        { "letter": "A", "text": "The same type of antibody", "correct": true },
+        { "letter": "B", "text": "Many different antibodies", "correct": false },
+        { "letter": "C", "text": "No antibodies", "correct": false },
+        { "letter": "D", "text": "Digestive enzymes only", "correct": false }
+      ],
+      "explanation": "Plasma cells cloned from one activated B-cell all produce the same specific antibody, in large amounts."
+    }
+  ]
+}

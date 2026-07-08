@@ -183,6 +183,93 @@
           "HL": 0
         }
       ]
+    },
+    {
+      "theme": "C",
+      "themeName": "Interaction and interdependence",
+      "subtopics": [
+        {
+          "id": "C1.1",
+          "name": "Enzymes and metabolism",
+          "level": "SL/HL",
+          "file": "theme-c/C1.1-enzymes-and-metabolism.json",
+          "count": 50,
+          "SL": 30,
+          "HL": 20
+        },
+        {
+          "id": "C1.2",
+          "name": "Cell respiration",
+          "level": "SL/HL",
+          "file": "theme-c/C1.2-cell-respiration.json",
+          "count": 50,
+          "SL": 26,
+          "HL": 24
+        },
+        {
+          "id": "C1.3",
+          "name": "Photosynthesis",
+          "level": "SL/HL",
+          "file": "theme-c/C1.3-photosynthesis.json",
+          "count": 50,
+          "SL": 26,
+          "HL": 24
+        },
+        {
+          "id": "C2.1",
+          "name": "Chemical signalling",
+          "level": "HL",
+          "file": "theme-c/C2.1-chemical-signalling.json",
+          "count": 50,
+          "SL": 0,
+          "HL": 50
+        },
+        {
+          "id": "C2.2",
+          "name": "Neural signalling",
+          "level": "SL/HL",
+          "file": "theme-c/C2.2-neural-signalling.json",
+          "count": 50,
+          "SL": 30,
+          "HL": 20
+        },
+        {
+          "id": "C3.1",
+          "name": "Integration of body systems",
+          "level": "SL/HL",
+          "file": "theme-c/C3.1-integration-of-body-systems.json",
+          "count": 50,
+          "SL": 35,
+          "HL": 15
+        },
+        {
+          "id": "C3.2",
+          "name": "Defence against disease",
+          "level": "SL/HL",
+          "file": "theme-c/C3.2-defence-against-disease.json",
+          "count": 50,
+          "SL": 50,
+          "HL": 0
+        },
+        {
+          "id": "C4.1",
+          "name": "Populations and communities",
+          "level": "SL/HL",
+          "file": "theme-c/C4.1-populations-and-communities.json",
+          "count": 50,
+          "SL": 50,
+          "HL": 0
+        },
+        {
+          "id": "C4.2",
+          "name": "Transfers of energy and matter",
+          "level": "SL/HL",
+          "file": "theme-c/C4.2-transfers-of-energy-and-matter.json",
+          "count": 50,
+          "SL": 50,
+          "HL": 0
+        }
+      ]
     }
   ]
 }

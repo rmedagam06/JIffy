@@ -1,0 +1,760 @@
+{
+  "id": "C1.3",
+  "name": "Photosynthesis",
+  "theme": "C",
+  "themeName": "Interaction and interdependence",
+  "levelOfOrganization": "Molecules",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "C1.3-001",
+      "level": "SL",
+      "statement": "C1.3.1",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "In photosynthesis, light energy is transformed into:",
+      "options": [
+        { "letter": "A", "text": "Chemical energy in carbon compounds", "correct": true },
+        { "letter": "B", "text": "Heat energy only", "correct": false },
+        { "letter": "C", "text": "Kinetic energy of the plant", "correct": false },
+        { "letter": "D", "text": "Sound energy", "correct": false }
+      ],
+      "explanation": "Photosynthesis transforms light energy into chemical energy, supplying most chemical energy for life in ecosystems."
+    },
+    {
+      "id": "C1.3-002",
+      "level": "SL",
+      "statement": "C1.3.2",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "In photosynthesis, carbon dioxide is converted to glucose using hydrogen obtained by:",
+      "options": [
+        { "letter": "A", "text": "Splitting water", "correct": true },
+        { "letter": "B", "text": "Breaking down glucose", "correct": false },
+        { "letter": "C", "text": "Oxidising oxygen", "correct": false },
+        { "letter": "D", "text": "Respiring lipids", "correct": false }
+      ],
+      "explanation": "Photosynthesis converts carbon dioxide to glucose using hydrogen obtained by splitting water."
+    },
+    {
+      "id": "C1.3-003",
+      "level": "SL",
+      "statement": "C1.3.2",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "The word equation for photosynthesis is:",
+      "options": [
+        { "letter": "A", "text": "carbon dioxide + water → glucose + oxygen", "correct": true },
+        { "letter": "B", "text": "glucose + oxygen → carbon dioxide + water", "correct": false },
+        { "letter": "C", "text": "glucose → lactate", "correct": false },
+        { "letter": "D", "text": "water → hydrogen + oxygen only", "correct": false }
+      ],
+      "explanation": "Photosynthesis: carbon dioxide + water → glucose + oxygen, using light energy."
+    },
+    {
+      "id": "C1.3-004",
+      "level": "SL",
+      "statement": "C1.3.3",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "The oxygen released by photosynthesis comes from:",
+      "options": [
+        { "letter": "A", "text": "The splitting of water", "correct": true },
+        { "letter": "B", "text": "Carbon dioxide", "correct": false },
+        { "letter": "C", "text": "Glucose", "correct": false },
+        { "letter": "D", "text": "The soil", "correct": false }
+      ],
+      "explanation": "The oxygen produced as a by-product of photosynthesis comes from splitting water."
+    },
+    {
+      "id": "C1.3-005",
+      "level": "SL",
+      "statement": "C1.3.3",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Oxygen is produced as a by-product of photosynthesis in plants, algae and:",
+      "options": [
+        { "letter": "A", "text": "Cyanobacteria", "correct": true },
+        { "letter": "B", "text": "All animals", "correct": false },
+        { "letter": "C", "text": "All fungi", "correct": false },
+        { "letter": "D", "text": "Viruses", "correct": false }
+      ],
+      "explanation": "Oxygen-producing photosynthesis occurs in plants, algae and cyanobacteria."
+    },
+    {
+      "id": "C1.3-006",
+      "level": "SL",
+      "statement": "C1.3.4",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "A student separates leaf pigments using chromatography.",
+      "stem": "What value is calculated to help identify each pigment?",
+      "options": [
+        { "letter": "A", "text": "The Rf value", "correct": true },
+        { "letter": "B", "text": "The correlation coefficient", "correct": false },
+        { "letter": "C", "text": "The magnification", "correct": false },
+        { "letter": "D", "text": "The Lincoln index", "correct": false }
+      ],
+      "explanation": "Rf values, calculated from chromatography, help identify photosynthetic pigments alongside their colour."
+    },
+    {
+      "id": "C1.3-007",
+      "level": "SL",
+      "statement": "C1.3.4",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "The Rf value is calculated as the distance moved by the pigment divided by the:",
+      "options": [
+        { "letter": "A", "text": "Distance moved by the solvent front", "correct": true },
+        { "letter": "B", "text": "Total mass of the leaf", "correct": false },
+        { "letter": "C", "text": "Number of pigments", "correct": false },
+        { "letter": "D", "text": "Light intensity", "correct": false }
+      ],
+      "explanation": "Rf = distance moved by pigment ÷ distance moved by the solvent front."
+    },
+    {
+      "id": "C1.3-008",
+      "level": "SL",
+      "statement": "C1.3.5",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "A pigment absorbs some wavelengths of light strongly and others weakly.",
+      "stem": "A graph of absorption against wavelength is called an:",
+      "options": [
+        { "letter": "A", "text": "Absorption spectrum", "correct": true },
+        { "letter": "B", "text": "Action spectrum", "correct": false },
+        { "letter": "C", "text": "Energy pyramid", "correct": false },
+        { "letter": "D", "text": "Oscilloscope trace", "correct": false }
+      ],
+      "explanation": "An absorption spectrum shows how much light of each wavelength a pigment absorbs."
+    },
+    {
+      "id": "C1.3-009",
+      "level": "SL",
+      "statement": "C1.3.5",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "When a pigment absorbs light, its electrons are:",
+      "stem": "What happens to the electrons?",
+      "options": [
+        { "letter": "A", "text": "Excited (raised to a higher energy level)", "correct": true },
+        { "letter": "B", "text": "Destroyed", "correct": false },
+        { "letter": "C", "text": "Converted to protons", "correct": false },
+        { "letter": "D", "text": "Removed from the atom permanently forever", "correct": false }
+      ],
+      "explanation": "Absorbed light excites electrons within the pigment, allowing light energy to be transformed into chemical energy."
+    },
+    {
+      "id": "C1.3-010",
+      "level": "SL",
+      "statement": "C1.3.6",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "An action spectrum shows the rate of photosynthesis against:",
+      "options": [
+        { "letter": "A", "text": "Wavelength of light", "correct": true },
+        { "letter": "B", "text": "Temperature", "correct": false },
+        { "letter": "C", "text": "Carbon dioxide concentration", "correct": false },
+        { "letter": "D", "text": "Time of day", "correct": false }
+      ],
+      "explanation": "An action spectrum plots the rate of photosynthesis (e.g. oxygen production) against wavelength."
+    },
+    {
+      "id": "C1.3-011",
+      "level": "SL",
+      "statement": "C1.3.6",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "The absorption spectrum and action spectrum of a plant are usually:",
+      "options": [
+        { "letter": "A", "text": "Similar, since absorbed light drives photosynthesis", "correct": true },
+        { "letter": "B", "text": "Completely unrelated", "correct": false },
+        { "letter": "C", "text": "Exact opposites", "correct": false },
+        { "letter": "D", "text": "Both flat lines", "correct": false }
+      ],
+      "explanation": "The action spectrum broadly matches the absorption spectrum because absorbed wavelengths drive photosynthesis."
+    },
+    {
+      "id": "C1.3-012",
+      "level": "SL",
+      "statement": "C1.3.7",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "A student investigates how light intensity affects photosynthesis rate.",
+      "stem": "Light intensity here is the:",
+      "options": [
+        { "letter": "A", "text": "Independent variable", "correct": true },
+        { "letter": "B", "text": "Dependent variable", "correct": false },
+        { "letter": "C", "text": "Controlled variable", "correct": false },
+        { "letter": "D", "text": "Rf value", "correct": false }
+      ],
+      "explanation": "Light intensity is the independent variable being changed; the rate of photosynthesis is the dependent variable."
+    },
+    {
+      "id": "C1.3-013",
+      "level": "SL",
+      "statement": "C1.3.7",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Which is a limiting factor that can be varied to study photosynthesis rate?",
+      "options": [
+        { "letter": "A", "text": "Carbon dioxide concentration", "correct": true },
+        { "letter": "B", "text": "The colour of the beaker", "correct": false },
+        { "letter": "C", "text": "The observer's name", "correct": false },
+        { "letter": "D", "text": "The Rf value", "correct": false }
+      ],
+      "explanation": "Carbon dioxide concentration, light intensity and temperature are limiting factors of photosynthesis."
+    },
+    {
+      "id": "C1.3-014",
+      "level": "SL",
+      "statement": "C1.3.7",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "A hypothesis is a provisional explanation.",
+      "stem": "According to NOS, hypotheses:",
+      "options": [
+        { "letter": "A", "text": "Require repeated testing", "correct": true },
+        { "letter": "B", "text": "Are never tested", "correct": false },
+        { "letter": "C", "text": "Cannot be based on evidence", "correct": false },
+        { "letter": "D", "text": "Are the same as laws", "correct": false }
+      ],
+      "explanation": "Hypotheses are provisional explanations requiring repeated testing, and can be formed before or after an experiment."
+    },
+    {
+      "id": "C1.3-015",
+      "level": "SL",
+      "statement": "C1.3.8",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "A FACE experiment increases carbon dioxide around crops in the field.",
+      "stem": "What is the purpose of such carbon dioxide enrichment experiments?",
+      "options": [
+        { "letter": "A", "text": "To predict future rates of photosynthesis and plant growth", "correct": true },
+        { "letter": "B", "text": "To measure chromosome number", "correct": false },
+        { "letter": "C", "text": "To separate pigments", "correct": false },
+        { "letter": "D", "text": "To count stomata", "correct": false }
+      ],
+      "explanation": "Carbon dioxide enrichment experiments (greenhouse and FACE) predict future photosynthesis and plant growth."
+    },
+    {
+      "id": "C1.3-016",
+      "level": "SL",
+      "statement": "C1.3.8",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "Some photosynthesis experiments can only be done in natural ecosystems.",
+      "stem": "These are examples of:",
+      "options": [
+        { "letter": "A", "text": "Field experiments", "correct": true },
+        { "letter": "B", "text": "Laboratory experiments only", "correct": false },
+        { "letter": "C", "text": "Chromatography", "correct": false },
+        { "letter": "D", "text": "Random sampling of pigments", "correct": false }
+      ],
+      "explanation": "Field experiments, including those in natural ecosystems, are sometimes the only way to control certain variables."
+    },
+    {
+      "id": "C1.3-017",
+      "level": "SL",
+      "statement": "C1.3.1",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Why is photosynthesis so important for ecosystems?",
+      "options": [
+        { "letter": "A", "text": "It supplies most of the chemical energy for life", "correct": true },
+        { "letter": "B", "text": "It removes all oxygen", "correct": false },
+        { "letter": "C", "text": "It produces no useful products", "correct": false },
+        { "letter": "D", "text": "It only occurs in animals", "correct": false }
+      ],
+      "explanation": "By transforming light into chemical energy, photosynthesis supplies most chemical energy for life processes in ecosystems."
+    },
+    {
+      "id": "C1.3-018",
+      "level": "SL",
+      "statement": "C1.3.5",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "Chlorophyll appears green.",
+      "stem": "This is because chlorophyll:",
+      "options": [
+        { "letter": "A", "text": "Reflects green light and absorbs other wavelengths", "correct": true },
+        { "letter": "B", "text": "Absorbs green light strongly", "correct": false },
+        { "letter": "C", "text": "Absorbs all wavelengths equally", "correct": false },
+        { "letter": "D", "text": "Emits its own green light", "correct": false }
+      ],
+      "explanation": "Chlorophyll absorbs mainly red and blue light and reflects green, so only some wavelengths are absorbed."
+    },
+    {
+      "id": "C1.3-019",
+      "level": "SL",
+      "statement": "C1.3.6",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "A student measures oxygen produced at different wavelengths to build an action spectrum.",
+      "stem": "The action spectrum typically peaks in the:",
+      "options": [
+        { "letter": "A", "text": "Red and blue regions", "correct": true },
+        { "letter": "B", "text": "Green region only", "correct": false },
+        { "letter": "C", "text": "Ultraviolet only", "correct": false },
+        { "letter": "D", "text": "Infrared only", "correct": false }
+      ],
+      "explanation": "Photosynthesis is fastest at red and blue wavelengths, which chlorophyll absorbs most strongly."
+    },
+    {
+      "id": "C1.3-020",
+      "level": "SL",
+      "statement": "C1.3.7",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "In an experiment, temperature is kept constant while light intensity is varied.",
+      "stem": "Temperature is acting as a:",
+      "options": [
+        { "letter": "A", "text": "Controlled variable", "correct": true },
+        { "letter": "B", "text": "Independent variable", "correct": false },
+        { "letter": "C", "text": "Dependent variable", "correct": false },
+        { "letter": "D", "text": "Random error", "correct": false }
+      ],
+      "explanation": "Keeping temperature constant makes it a controlled variable, so its effect does not confound the results."
+    },
+    {
+      "id": "C1.3-021",
+      "level": "SL",
+      "statement": "C1.3.4",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Which technique separates photosynthetic pigments based on how far they travel in a solvent?",
+      "options": [
+        { "letter": "A", "text": "Chromatography", "correct": true },
+        { "letter": "B", "text": "Centrifugation", "correct": false },
+        { "letter": "C", "text": "Electrophoresis of DNA", "correct": false },
+        { "letter": "D", "text": "Karyotyping", "correct": false }
+      ],
+      "explanation": "Thin-layer or paper chromatography separates pigments, which are identified by colour and Rf value."
+    },
+    {
+      "id": "C1.3-022",
+      "level": "SL",
+      "statement": "C1.3.2",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "The product of photosynthesis used in the simple word equation is:",
+      "options": [
+        { "letter": "A", "text": "Glucose", "correct": true },
+        { "letter": "B", "text": "Lactate", "correct": false },
+        { "letter": "C", "text": "Pyruvate", "correct": false },
+        { "letter": "D", "text": "ATP only", "correct": false }
+      ],
+      "explanation": "In the simple word equation, glucose is the carbohydrate product of photosynthesis."
+    },
+    {
+      "id": "C1.3-023",
+      "level": "SL",
+      "statement": "C1.3.8",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "A greenhouse experiment enriching carbon dioxide is used to:",
+      "options": [
+        { "letter": "A", "text": "Investigate effects on photosynthesis and growth in controlled conditions", "correct": true },
+        { "letter": "B", "text": "Measure the Lincoln index", "correct": false },
+        { "letter": "C", "text": "Separate pigments", "correct": false },
+        { "letter": "D", "text": "Count chromosomes", "correct": false }
+      ],
+      "explanation": "Enclosed greenhouse experiments enrich carbon dioxide to study photosynthesis and plant growth, alongside FACE experiments."
+    },
+    {
+      "id": "C1.3-024",
+      "level": "SL",
+      "statement": "C1.3.5",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Only some wavelengths of light are absorbed by a pigment because:",
+      "options": [
+        { "letter": "A", "text": "Only certain energies match what excites its electrons", "correct": true },
+        { "letter": "B", "text": "Pigments absorb all wavelengths equally", "correct": false },
+        { "letter": "C", "text": "Pigments cannot absorb light", "correct": false },
+        { "letter": "D", "text": "Light has only one wavelength", "correct": false }
+      ],
+      "explanation": "Pigments absorb only wavelengths whose energy can excite their electrons, so only some wavelengths are absorbed."
+    },
+    {
+      "id": "C1.3-025",
+      "level": "SL",
+      "statement": "C1.3.6",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "A difference between an absorption spectrum and an action spectrum is that the action spectrum measures:",
+      "options": [
+        { "letter": "A", "text": "The rate of photosynthesis, not just light absorbed", "correct": true },
+        { "letter": "B", "text": "Only the colour of the pigment", "correct": false },
+        { "letter": "C", "text": "Chromosome number", "correct": false },
+        { "letter": "D", "text": "The Rf value", "correct": false }
+      ],
+      "explanation": "The action spectrum plots the rate of photosynthesis against wavelength, while the absorption spectrum plots absorption."
+    },
+    {
+      "id": "C1.3-026",
+      "level": "SL",
+      "statement": "C1.3.3",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Which statement about oxygen in photosynthesis is correct?",
+      "options": [
+        { "letter": "A", "text": "It is a by-product, derived from water", "correct": true },
+        { "letter": "B", "text": "It is the main product used to store energy", "correct": false },
+        { "letter": "C", "text": "It comes from carbon dioxide", "correct": false },
+        { "letter": "D", "text": "It is absorbed, not released", "correct": false }
+      ],
+      "explanation": "Oxygen is a by-product of photosynthesis and comes from the splitting of water."
+    },
+    {
+      "id": "C1.3-027",
+      "level": "HL",
+      "statement": "C1.3.9",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "A photosystem is best described as:",
+      "options": [
+        { "letter": "A", "text": "An array of pigment molecules that can emit excited electrons", "correct": true },
+        { "letter": "B", "text": "A single chlorophyll molecule", "correct": false },
+        { "letter": "C", "text": "A carbohydrate store", "correct": false },
+        { "letter": "D", "text": "A strand of DNA", "correct": false }
+      ],
+      "explanation": "Photosystems are arrays of chlorophyll and accessory pigments with a reaction-centre chlorophyll that emits an excited electron."
+    },
+    {
+      "id": "C1.3-028",
+      "level": "HL",
+      "statement": "C1.3.9",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Photosystems are always located in:",
+      "options": [
+        { "letter": "A", "text": "Membranes", "correct": true },
+        { "letter": "B", "text": "The nucleus", "correct": false },
+        { "letter": "C", "text": "The cytoplasm freely", "correct": false },
+        { "letter": "D", "text": "The cell wall", "correct": false }
+      ],
+      "explanation": "Photosystems are located in membranes, occurring in cyanobacteria and in the chloroplasts of photosynthetic eukaryotes."
+    },
+    {
+      "id": "C1.3-029",
+      "level": "HL",
+      "statement": "C1.3.10",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Why is a structured array of many pigment molecules advantageous?",
+      "options": [
+        { "letter": "A", "text": "A single pigment molecule could not perform photosynthesis alone", "correct": true },
+        { "letter": "B", "text": "One pigment absorbs all wavelengths", "correct": false },
+        { "letter": "C", "text": "It reduces light capture", "correct": false },
+        { "letter": "D", "text": "It removes the reaction centre", "correct": false }
+      ],
+      "explanation": "A single pigment could not carry out photosynthesis; the array of pigments channels energy to the reaction centre."
+    },
+    {
+      "id": "C1.3-030",
+      "level": "HL",
+      "statement": "C1.3.11",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Photolysis of water occurs in which photosystem?",
+      "options": [
+        { "letter": "A", "text": "Photosystem II", "correct": true },
+        { "letter": "B", "text": "Photosystem I", "correct": false },
+        { "letter": "C", "text": "The Calvin cycle", "correct": false },
+        { "letter": "D", "text": "The mitochondrion", "correct": false }
+      ],
+      "explanation": "Photolysis of water, which generates oxygen as waste plus protons and electrons, occurs in photosystem II."
+    },
+    {
+      "id": "C1.3-031",
+      "level": "HL",
+      "statement": "C1.3.11",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "Photolysis of water generates protons, electrons and oxygen.",
+      "stem": "Which of these is a waste product?",
+      "options": [
+        { "letter": "A", "text": "Oxygen", "correct": true },
+        { "letter": "B", "text": "Protons", "correct": false },
+        { "letter": "C", "text": "Electrons", "correct": false },
+        { "letter": "D", "text": "Glucose", "correct": false }
+      ],
+      "explanation": "In photolysis, protons and electrons are used in photosynthesis, but oxygen is a waste product."
+    },
+    {
+      "id": "C1.3-032",
+      "level": "HL",
+      "statement": "C1.3.12",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "ATP production in thylakoids occurs by:",
+      "options": [
+        { "letter": "A", "text": "Chemiosmosis using a proton gradient and ATP synthase", "correct": true },
+        { "letter": "B", "text": "Glycolysis", "correct": false },
+        { "letter": "C", "text": "The Krebs cycle", "correct": false },
+        { "letter": "D", "text": "Carbon fixation", "correct": false }
+      ],
+      "explanation": "ATP is made in thylakoids by chemiosmosis, using a proton gradient generated by the electron carriers and ATP synthase."
+    },
+    {
+      "id": "C1.3-033",
+      "level": "HL",
+      "statement": "C1.3.12",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "Electrons for ATP production can come from photosystem I only, cycling back.",
+      "stem": "This is:",
+      "options": [
+        { "letter": "A", "text": "Cyclic photophosphorylation", "correct": true },
+        { "letter": "B", "text": "Non-cyclic photophosphorylation", "correct": false },
+        { "letter": "C", "text": "Photolysis", "correct": false },
+        { "letter": "D", "text": "The Calvin cycle", "correct": false }
+      ],
+      "explanation": "In cyclic photophosphorylation electrons come from photosystem I; in non-cyclic they come from photosystem II."
+    },
+    {
+      "id": "C1.3-034",
+      "level": "HL",
+      "statement": "C1.3.13",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "NADP is reduced by accepting electrons from:",
+      "options": [
+        { "letter": "A", "text": "Photosystem I", "correct": true },
+        { "letter": "B", "text": "Photosystem II directly", "correct": false },
+        { "letter": "C", "text": "The Krebs cycle", "correct": false },
+        { "letter": "D", "text": "Oxygen", "correct": false }
+      ],
+      "explanation": "NADP is reduced by accepting two electrons from photosystem I plus a hydrogen ion from the stroma."
+    },
+    {
+      "id": "C1.3-035",
+      "level": "HL",
+      "statement": "C1.3.13",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Which pairing of terms is used consistently for this coenzyme?",
+      "options": [
+        { "letter": "A", "text": "NADP and reduced NADP (or NADP+ and NADPH)", "correct": true },
+        { "letter": "B", "text": "NAD and reduced NADP", "correct": false },
+        { "letter": "C", "text": "ADP and ATP", "correct": false },
+        { "letter": "D", "text": "RuBP and GP", "correct": false }
+      ],
+      "explanation": "The terms should be paired consistently as 'NADP and reduced NADP' or 'NADP+ and NADPH'."
+    },
+    {
+      "id": "C1.3-036",
+      "level": "HL",
+      "statement": "C1.3.14",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "The light-dependent reactions of photosynthesis take place in the:",
+      "options": [
+        { "letter": "A", "text": "Thylakoids", "correct": true },
+        { "letter": "B", "text": "Stroma", "correct": false },
+        { "letter": "C", "text": "Mitochondrial matrix", "correct": false },
+        { "letter": "D", "text": "Nucleus", "correct": false }
+      ],
+      "explanation": "Photolysis, ATP synthesis by chemiosmosis and reduction of NADP all occur in the thylakoids."
+    },
+    {
+      "id": "C1.3-037",
+      "level": "HL",
+      "statement": "C1.3.15",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "Carbon dioxide is combined with RuBP in the Calvin cycle.",
+      "stem": "Which enzyme catalyses this carbon fixation?",
+      "options": [
+        { "letter": "A", "text": "Rubisco", "correct": true },
+        { "letter": "B", "text": "ATP synthase", "correct": false },
+        { "letter": "C", "text": "Amylase", "correct": false },
+        { "letter": "D", "text": "DNA polymerase", "correct": false }
+      ],
+      "explanation": "Rubisco catalyses carbon fixation, combining RuBP and CO2 to form glycerate 3-phosphate."
+    },
+    {
+      "id": "C1.3-038",
+      "level": "HL",
+      "statement": "C1.3.15",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "The product of carbon fixation by Rubisco is:",
+      "options": [
+        { "letter": "A", "text": "Glycerate 3-phosphate (GP)", "correct": true },
+        { "letter": "B", "text": "Glucose", "correct": false },
+        { "letter": "C", "text": "RuBP", "correct": false },
+        { "letter": "D", "text": "Pyruvate", "correct": false }
+      ],
+      "explanation": "Rubisco fixes CO2 onto RuBP to produce glycerate 3-phosphate (GP)."
+    },
+    {
+      "id": "C1.3-039",
+      "level": "HL",
+      "statement": "C1.3.15",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Why is a very high concentration of Rubisco needed in the stroma?",
+      "options": [
+        { "letter": "A", "text": "It works relatively slowly and is ineffective at low CO2", "correct": true },
+        { "letter": "B", "text": "It works extremely fast", "correct": false },
+        { "letter": "C", "text": "It is not really needed", "correct": false },
+        { "letter": "D", "text": "It stores oxygen", "correct": false }
+      ],
+      "explanation": "Rubisco, the most abundant enzyme on Earth, is present in high concentrations because it is slow and poor at low CO2."
+    },
+    {
+      "id": "C1.3-040",
+      "level": "HL",
+      "statement": "C1.3.16",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "Glycerate 3-phosphate is converted to triose phosphate.",
+      "stem": "This conversion uses:",
+      "options": [
+        { "letter": "A", "text": "Reduced NADP and ATP", "correct": true },
+        { "letter": "B", "text": "Oxygen and water", "correct": false },
+        { "letter": "C", "text": "Only sunlight", "correct": false },
+        { "letter": "D", "text": "Lactate", "correct": false }
+      ],
+      "explanation": "GP is converted into triose phosphate (TP) using NADPH and ATP from the light-dependent reactions."
+    },
+    {
+      "id": "C1.3-041",
+      "level": "HL",
+      "statement": "C1.3.17",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "In the Calvin cycle, some triose phosphate is used to regenerate RuBP.",
+      "stem": "This regeneration uses:",
+      "options": [
+        { "letter": "A", "text": "ATP", "correct": true },
+        { "letter": "B", "text": "Oxygen", "correct": false },
+        { "letter": "C", "text": "Carbon dioxide only", "correct": false },
+        { "letter": "D", "text": "DNA", "correct": false }
+      ],
+      "explanation": "RuBP is regenerated from triose phosphate using ATP, allowing the Calvin cycle to continue."
+    },
+    {
+      "id": "C1.3-042",
+      "level": "HL",
+      "statement": "C1.3.17",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "If glucose is the product of photosynthesis.",
+      "stem": "What fraction of triose phosphate must be converted back to RuBP?",
+      "options": [
+        { "letter": "A", "text": "Five-sixths", "correct": true },
+        { "letter": "B", "text": "One-sixth", "correct": false },
+        { "letter": "C", "text": "One-half", "correct": false },
+        { "letter": "D", "text": "None", "correct": false }
+      ],
+      "explanation": "Five molecules of TP become three RuBP; five-sixths of all TP produced must be recycled to RuBP."
+    },
+    {
+      "id": "C1.3-043",
+      "level": "HL",
+      "statement": "C1.3.18",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "All the carbon in compounds of a photosynthesizing organism is fixed:",
+      "options": [
+        { "letter": "A", "text": "In the Calvin cycle", "correct": true },
+        { "letter": "B", "text": "In the mitochondria", "correct": false },
+        { "letter": "C", "text": "During photolysis", "correct": false },
+        { "letter": "D", "text": "In the nucleus", "correct": false }
+      ],
+      "explanation": "All carbon in a photosynthesizing organism's compounds is fixed in the Calvin cycle; other compounds trace back to a cycle intermediate."
+    },
+    {
+      "id": "C1.3-044",
+      "level": "HL",
+      "statement": "C1.3.18",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Besides glucose, the products of the Calvin cycle are used to make:",
+      "options": [
+        { "letter": "A", "text": "Amino acids and other carbon compounds", "correct": true },
+        { "letter": "B", "text": "Only water", "correct": false },
+        { "letter": "C", "text": "Only oxygen", "correct": false },
+        { "letter": "D", "text": "DNA from nitrogen alone", "correct": false }
+      ],
+      "explanation": "Products of the Calvin cycle, with mineral nutrients, are used to synthesize carbohydrates, amino acids and other compounds."
+    },
+    {
+      "id": "C1.3-045",
+      "level": "HL",
+      "statement": "C1.3.19",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "A plant is placed in darkness.",
+      "stem": "What happens to the light-dependent reactions?",
+      "options": [
+        { "letter": "A", "text": "They stop", "correct": true },
+        { "letter": "B", "text": "They speed up", "correct": false },
+        { "letter": "C", "text": "They are unaffected", "correct": false },
+        { "letter": "D", "text": "They produce more ATP", "correct": false }
+      ],
+      "explanation": "A lack of light stops the light-dependent reactions, which in turn limits the light-independent reactions."
+    },
+    {
+      "id": "C1.3-046",
+      "level": "HL",
+      "statement": "C1.3.19",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "Carbon dioxide is removed from a photosynthesizing plant.",
+      "stem": "What is the effect on photosystem II?",
+      "options": [
+        { "letter": "A", "text": "It stops functioning, as the Calvin cycle backs up", "correct": true },
+        { "letter": "B", "text": "It works faster", "correct": false },
+        { "letter": "C", "text": "It is unaffected", "correct": false },
+        { "letter": "D", "text": "It produces glucose directly", "correct": false }
+      ],
+      "explanation": "Without CO2 the Calvin cycle halts, which prevents photosystem II from functioning — showing the reactions' interdependence."
+    },
+    {
+      "id": "C1.3-047",
+      "level": "HL",
+      "statement": "C1.3.11",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "The advent of oxygen generation by photolysis had major consequences for:",
+      "options": [
+        { "letter": "A", "text": "Living organisms and geological processes on Earth", "correct": true },
+        { "letter": "B", "text": "Only plants", "correct": false },
+        { "letter": "C", "text": "Nothing significant", "correct": false },
+        { "letter": "D", "text": "Only the Calvin cycle", "correct": false }
+      ],
+      "explanation": "Oxygen production by photolysis had immense consequences for living organisms and Earth's geology."
+    },
+    {
+      "id": "C1.3-048",
+      "level": "HL",
+      "statement": "C1.3.9",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "The special chlorophyll from which an excited electron is emitted is called the:",
+      "options": [
+        { "letter": "A", "text": "Reaction centre", "correct": true },
+        { "letter": "B", "text": "Accessory pigment", "correct": false },
+        { "letter": "C", "text": "Stroma", "correct": false },
+        { "letter": "D", "text": "Thylakoid lumen", "correct": false }
+      ],
+      "explanation": "The reaction-centre chlorophyll in a photosystem emits the excited electron."
+    },
+    {
+      "id": "C1.3-049",
+      "level": "HL",
+      "statement": "C1.3.14",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "Which process does NOT occur in the thylakoid?",
+      "options": [
+        { "letter": "A", "text": "Carbon fixation by Rubisco", "correct": true },
+        { "letter": "B", "text": "Photolysis of water", "correct": false },
+        { "letter": "C", "text": "ATP synthesis by chemiosmosis", "correct": false },
+        { "letter": "D", "text": "Reduction of NADP", "correct": false }
+      ],
+      "explanation": "The light-dependent reactions occur in the thylakoid; carbon fixation (Calvin cycle) occurs in the stroma."
+    },
+    {
+      "id": "C1.3-050",
+      "level": "HL",
+      "statement": "C1.3.19",
+      "category": "C1.3 Photosynthesis",
+      "scenario": "",
+      "stem": "The light-dependent and light-independent reactions are interdependent because:",
+      "options": [
+        { "letter": "A", "text": "The light reactions supply ATP and reduced NADP for the Calvin cycle", "correct": true },
+        { "letter": "B", "text": "They occur in completely unrelated organisms", "correct": false },
+        { "letter": "C", "text": "Neither needs the other", "correct": false },
+        { "letter": "D", "text": "The Calvin cycle supplies oxygen to the light reactions", "correct": false }
+      ],
+      "explanation": "The light-dependent reactions provide ATP and reduced NADP needed by the Calvin cycle, so the two are interdependent."
+    }
+  ]
+}

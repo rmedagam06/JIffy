@@ -1,0 +1,760 @@
+{
+  "id": "C4.2",
+  "name": "Transfers of energy and matter",
+  "theme": "C",
+  "themeName": "Interaction and interdependence",
+  "levelOfOrganization": "Ecosystems",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "C4.2-001",
+      "level": "SL",
+      "statement": "C4.2.1",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Ecosystems are described as open systems because:",
+      "options": [
+        { "letter": "A", "text": "Both energy and matter can enter and exit", "correct": true },
+        { "letter": "B", "text": "Only energy can enter and exit", "correct": false },
+        { "letter": "C", "text": "Nothing can enter or exit", "correct": false },
+        { "letter": "D", "text": "Only matter can enter and exit", "correct": false }
+      ],
+      "explanation": "Ecosystems are open systems: both energy and matter can enter and exit. In closed systems only energy passes in and out."
+    },
+    {
+      "id": "C4.2-002",
+      "level": "SL",
+      "statement": "C4.2.2",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "What is the principal source of energy that sustains most ecosystems?",
+      "options": [
+        { "letter": "A", "text": "Sunlight", "correct": true },
+        { "letter": "B", "text": "Geothermal heat", "correct": false },
+        { "letter": "C", "text": "Combustion of fuels", "correct": false },
+        { "letter": "D", "text": "Radioactivity", "correct": false }
+      ],
+      "explanation": "Sunlight is the principal energy source for most ecosystems; exceptions include caves and the deep ocean."
+    },
+    {
+      "id": "C4.2-003",
+      "level": "SL",
+      "statement": "C4.2.2",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Which ecosystem is an exception to sunlight being the principal energy source?",
+      "options": [
+        { "letter": "A", "text": "Deep-ocean ecosystems below the level of light penetration", "correct": true },
+        { "letter": "B", "text": "A grassland", "correct": false },
+        { "letter": "C", "text": "A tropical forest", "correct": false },
+        { "letter": "D", "text": "A coral reef in shallow water", "correct": false }
+      ],
+      "explanation": "Ecosystems in caves and below the level of light penetration in oceans are exceptions to sunlight-based energy."
+    },
+    {
+      "id": "C4.2-004",
+      "level": "SL",
+      "statement": "C4.2.3",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "A caterpillar eats a leaf.",
+      "stem": "What passes from the leaf to the caterpillar?",
+      "options": [
+        { "letter": "A", "text": "Chemical energy", "correct": true },
+        { "letter": "B", "text": "Only oxygen", "correct": false },
+        { "letter": "C", "text": "Only water", "correct": false },
+        { "letter": "D", "text": "Sunlight directly", "correct": false }
+      ],
+      "explanation": "Chemical energy passes to a consumer as it feeds on the previous stage of a food chain."
+    },
+    {
+      "id": "C4.2-005",
+      "level": "SL",
+      "statement": "C4.2.4",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "In a food chain diagram, arrows are drawn between organisms.",
+      "stem": "What does the direction of each arrow show?",
+      "options": [
+        { "letter": "A", "text": "The direction of transfer of energy and biomass", "correct": true },
+        { "letter": "B", "text": "The direction the animal walks", "correct": false },
+        { "letter": "C", "text": "Nothing in particular", "correct": false },
+        { "letter": "D", "text": "The flow of water", "correct": false }
+      ],
+      "explanation": "In food chains and webs, arrows indicate the direction of transfer of energy and biomass."
+    },
+    {
+      "id": "C4.2-006",
+      "level": "SL",
+      "statement": "C4.2.5",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Decomposers obtain energy from:",
+      "options": [
+        { "letter": "A", "text": "Carbon compounds in dead organisms, faeces and dead parts", "correct": true },
+        { "letter": "B", "text": "Sunlight directly", "correct": false },
+        { "letter": "C", "text": "Inorganic rocks only", "correct": false },
+        { "letter": "D", "text": "The atmosphere alone", "correct": false }
+      ],
+      "explanation": "Decomposers get energy from organic matter: faeces, dead parts of organisms and dead whole organisms."
+    },
+    {
+      "id": "C4.2-007",
+      "level": "SL",
+      "statement": "C4.2.6",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Autotrophs are organisms that:",
+      "options": [
+        { "letter": "A", "text": "Synthesize carbon compounds from inorganic substances using an external energy source", "correct": true },
+        { "letter": "B", "text": "Obtain carbon compounds only from other organisms", "correct": false },
+        { "letter": "C", "text": "Cannot make their own food", "correct": false },
+        { "letter": "D", "text": "Do not respire", "correct": false }
+      ],
+      "explanation": "Autotrophs use external energy to synthesize carbon compounds from simple inorganic substances."
+    },
+    {
+      "id": "C4.2-008",
+      "level": "SL",
+      "statement": "C4.2.7",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Photoautotrophs use which external energy source?",
+      "options": [
+        { "letter": "A", "text": "Light", "correct": true },
+        { "letter": "B", "text": "Oxidation of inorganic chemicals", "correct": false },
+        { "letter": "C", "text": "Carbon compounds from other organisms", "correct": false },
+        { "letter": "D", "text": "Heat from decomposition", "correct": false }
+      ],
+      "explanation": "Photoautotrophs use light as the external energy source; chemoautotrophs use oxidation reactions."
+    },
+    {
+      "id": "C4.2-009",
+      "level": "SL",
+      "statement": "C4.2.7",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "Iron-oxidizing bacteria obtain energy from chemical reactions.",
+      "stem": "These bacteria are:",
+      "options": [
+        { "letter": "A", "text": "Chemoautotrophs", "correct": true },
+        { "letter": "B", "text": "Photoautotrophs", "correct": false },
+        { "letter": "C", "text": "Heterotrophs", "correct": false },
+        { "letter": "D", "text": "Decomposers only", "correct": false }
+      ],
+      "explanation": "Chemoautotrophs such as iron-oxidizing bacteria use oxidation reactions as their energy source."
+    },
+    {
+      "id": "C4.2-010",
+      "level": "SL",
+      "statement": "C4.2.8",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Heterotrophs obtain carbon compounds by:",
+      "options": [
+        { "letter": "A", "text": "Taking them from other organisms", "correct": true },
+        { "letter": "B", "text": "Making them from carbon dioxide using light", "correct": false },
+        { "letter": "C", "text": "Oxidizing inorganic chemicals", "correct": false },
+        { "letter": "D", "text": "Absorbing sunlight", "correct": false }
+      ],
+      "explanation": "Heterotrophs use carbon compounds obtained from other organisms to build the compounds they need."
+    },
+    {
+      "id": "C4.2-011",
+      "level": "SL",
+      "statement": "C4.2.9",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Both autotrophs and heterotrophs release energy by:",
+      "options": [
+        { "letter": "A", "text": "Oxidation of carbon compounds in cell respiration", "correct": true },
+        { "letter": "B", "text": "Photosynthesis only", "correct": false },
+        { "letter": "C", "text": "Absorbing light", "correct": false },
+        { "letter": "D", "text": "Fixing nitrogen", "correct": false }
+      ],
+      "explanation": "Both autotrophs and heterotrophs release energy by oxidizing carbon compounds in cell respiration."
+    },
+    {
+      "id": "C4.2-012",
+      "level": "SL",
+      "statement": "C4.2.10",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "A plant makes its own food and is eaten by a rabbit.",
+      "stem": "The plant occupies which trophic level?",
+      "options": [
+        { "letter": "A", "text": "Producer", "correct": true },
+        { "letter": "B", "text": "Primary consumer", "correct": false },
+        { "letter": "C", "text": "Secondary consumer", "correct": false },
+        { "letter": "D", "text": "Tertiary consumer", "correct": false }
+      ],
+      "explanation": "Producers make their own food; primary consumers eat producers, and so on up the trophic levels."
+    },
+    {
+      "id": "C4.2-013",
+      "level": "SL",
+      "statement": "C4.2.10",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "A rabbit eats grass, and a fox eats the rabbit.",
+      "stem": "The fox is a:",
+      "options": [
+        { "letter": "A", "text": "Secondary consumer", "correct": true },
+        { "letter": "B", "text": "Producer", "correct": false },
+        { "letter": "C", "text": "Primary consumer", "correct": false },
+        { "letter": "D", "text": "Decomposer", "correct": false }
+      ],
+      "explanation": "The grass is a producer, the rabbit a primary consumer and the fox a secondary consumer."
+    },
+    {
+      "id": "C4.2-014",
+      "level": "SL",
+      "statement": "C4.2.10",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "An omnivore eats both plants and animals.",
+      "stem": "This shows that an organism can:",
+      "options": [
+        { "letter": "A", "text": "Occupy different trophic levels in different food chains", "correct": true },
+        { "letter": "B", "text": "Only ever be a producer", "correct": false },
+        { "letter": "C", "text": "Never be a consumer", "correct": false },
+        { "letter": "D", "text": "Have no trophic level", "correct": false }
+      ],
+      "explanation": "Many organisms have varied diets and occupy different trophic levels in different food chains."
+    },
+    {
+      "id": "C4.2-015",
+      "level": "SL",
+      "statement": "C4.2.11",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "A diagram shows energy at each trophic level, with each bar smaller than the one below.",
+      "stem": "This diagram is a(n):",
+      "options": [
+        { "letter": "A", "text": "Energy pyramid", "correct": true },
+        { "letter": "B", "text": "Carbon cycle", "correct": false },
+        { "letter": "C", "text": "Food web", "correct": false },
+        { "letter": "D", "text": "Cladogram", "correct": false }
+      ],
+      "explanation": "An energy pyramid represents energy transfer and losses between trophic levels, narrowing at higher levels."
+    },
+    {
+      "id": "C4.2-016",
+      "level": "SL",
+      "statement": "C4.2.12",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Why does the energy available decrease at each successive trophic level?",
+      "options": [
+        { "letter": "A", "text": "Large energy losses occur between trophic levels", "correct": true },
+        { "letter": "B", "text": "Energy is created at each level", "correct": false },
+        { "letter": "C", "text": "Producers use no energy", "correct": false },
+        { "letter": "D", "text": "Energy is recycled perfectly", "correct": false }
+      ],
+      "explanation": "Large energy losses between trophic levels reduce the energy available at each successive stage."
+    },
+    {
+      "id": "C4.2-017",
+      "level": "SL",
+      "statement": "C4.2.12",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Decomposers and detritus feeders are usually:",
+      "options": [
+        { "letter": "A", "text": "Not considered part of food chains, though important in energy transformations", "correct": true },
+        { "letter": "B", "text": "Always the top of the food chain", "correct": false },
+        { "letter": "C", "text": "Producers", "correct": false },
+        { "letter": "D", "text": "Ignored entirely", "correct": false }
+      ],
+      "explanation": "Decomposers and detritus feeders are not usually placed in food chains but play a key role in energy transformations."
+    },
+    {
+      "id": "C4.2-018",
+      "level": "SL",
+      "statement": "C4.2.13",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Heat is lost to the environment by organisms because:",
+      "options": [
+        { "letter": "A", "text": "Energy transfers in respiration are not 100% efficient", "correct": true },
+        { "letter": "B", "text": "Respiration creates energy", "correct": false },
+        { "letter": "C", "text": "Organisms absorb heat only", "correct": false },
+        { "letter": "D", "text": "No energy is transferred", "correct": false }
+      ],
+      "explanation": "Because energy transfers are not 100% efficient, heat is produced when ATP is made and used in cell respiration."
+    },
+    {
+      "id": "C4.2-019",
+      "level": "SL",
+      "statement": "C4.2.14",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Why is the number of trophic levels in an ecosystem limited?",
+      "options": [
+        { "letter": "A", "text": "Energy losses mean too little energy remains for higher levels", "correct": true },
+        { "letter": "B", "text": "There are too many producers", "correct": false },
+        { "letter": "C", "text": "Energy increases at each level", "correct": false },
+        { "letter": "D", "text": "Matter cannot be recycled", "correct": false }
+      ],
+      "explanation": "Energy losses between levels restrict the number of trophic levels, as insufficient energy reaches higher levels."
+    },
+    {
+      "id": "C4.2-020",
+      "level": "SL",
+      "statement": "C4.2.14",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "At each successive trophic level there is generally:",
+      "options": [
+        { "letter": "A", "text": "Less biomass", "correct": true },
+        { "letter": "B", "text": "More biomass", "correct": false },
+        { "letter": "C", "text": "The same biomass", "correct": false },
+        { "letter": "D", "text": "No living organisms", "correct": false }
+      ],
+      "explanation": "There are fewer or smaller organisms at higher levels, so there is less biomass (though energy per unit mass is not reduced)."
+    },
+    {
+      "id": "C4.2-021",
+      "level": "SL",
+      "statement": "C4.2.15",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Primary production is the accumulation of carbon compounds in biomass by:",
+      "options": [
+        { "letter": "A", "text": "Autotrophs", "correct": true },
+        { "letter": "B", "text": "Heterotrophs", "correct": false },
+        { "letter": "C", "text": "Decomposers only", "correct": false },
+        { "letter": "D", "text": "Non-living matter", "correct": false }
+      ],
+      "explanation": "Primary production is the accumulation of carbon compounds in biomass by autotrophs."
+    },
+    {
+      "id": "C4.2-022",
+      "level": "SL",
+      "statement": "C4.2.15",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Which units are usually used for primary production?",
+      "options": [
+        { "letter": "A", "text": "Mass of carbon per unit area per unit time (g m-2 yr-1)", "correct": true },
+        { "letter": "B", "text": "Metres per second", "correct": false },
+        { "letter": "C", "text": "Degrees Celsius", "correct": false },
+        { "letter": "D", "text": "Number of species", "correct": false }
+      ],
+      "explanation": "Primary production is measured as mass of carbon per unit area per unit time, usually g m-2 yr-1."
+    },
+    {
+      "id": "C4.2-023",
+      "level": "SL",
+      "statement": "C4.2.16",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Secondary production is the accumulation of biomass by:",
+      "options": [
+        { "letter": "A", "text": "Heterotrophs", "correct": true },
+        { "letter": "B", "text": "Autotrophs", "correct": false },
+        { "letter": "C", "text": "Sunlight", "correct": false },
+        { "letter": "D", "text": "Rocks", "correct": false }
+      ],
+      "explanation": "Secondary production is the accumulation of carbon compounds in biomass by heterotrophs."
+    },
+    {
+      "id": "C4.2-024",
+      "level": "SL",
+      "statement": "C4.2.16",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Compared with primary production, secondary production in an ecosystem is:",
+      "options": [
+        { "letter": "A", "text": "Lower", "correct": true },
+        { "letter": "B", "text": "Higher", "correct": false },
+        { "letter": "C", "text": "Exactly equal", "correct": false },
+        { "letter": "D", "text": "Zero", "correct": false }
+      ],
+      "explanation": "Secondary production is lower than primary production because biomass is lost when carbon compounds are respired."
+    },
+    {
+      "id": "C4.2-025",
+      "level": "SL",
+      "statement": "C4.2.17",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "A carbon cycle diagram is drawn.",
+      "stem": "Which processes recycle carbon in ecosystems?",
+      "options": [
+        { "letter": "A", "text": "Photosynthesis, feeding and respiration", "correct": true },
+        { "letter": "B", "text": "Only photosynthesis", "correct": false },
+        { "letter": "C", "text": "Only feeding", "correct": false },
+        { "letter": "D", "text": "Translation and transcription", "correct": false }
+      ],
+      "explanation": "Carbon is recycled in ecosystems by photosynthesis, feeding and respiration, shown in a carbon cycle diagram."
+    },
+    {
+      "id": "C4.2-026",
+      "level": "SL",
+      "statement": "C4.2.18",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "In an ecosystem, photosynthesis exceeds respiration.",
+      "stem": "The ecosystem is acting as a:",
+      "options": [
+        { "letter": "A", "text": "Carbon sink (net uptake of CO2)", "correct": true },
+        { "letter": "B", "text": "Carbon source (net release of CO2)", "correct": false },
+        { "letter": "C", "text": "Closed system", "correct": false },
+        { "letter": "D", "text": "Decomposer", "correct": false }
+      ],
+      "explanation": "When photosynthesis exceeds respiration there is a net uptake of carbon dioxide, so the ecosystem is a carbon sink."
+    },
+    {
+      "id": "C4.2-027",
+      "level": "SL",
+      "statement": "C4.2.18",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "In an ecosystem, respiration exceeds photosynthesis.",
+      "stem": "The ecosystem is acting as a:",
+      "options": [
+        { "letter": "A", "text": "Carbon source (net release of CO2)", "correct": true },
+        { "letter": "B", "text": "Carbon sink (net uptake of CO2)", "correct": false },
+        { "letter": "C", "text": "A closed system", "correct": false },
+        { "letter": "D", "text": "An autotroph", "correct": false }
+      ],
+      "explanation": "When respiration exceeds photosynthesis there is a net release of carbon dioxide, so the ecosystem is a carbon source."
+    },
+    {
+      "id": "C4.2-028",
+      "level": "SL",
+      "statement": "C4.2.19",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Which process releases carbon dioxide from carbon sinks such as coal and oil?",
+      "options": [
+        { "letter": "A", "text": "Combustion", "correct": true },
+        { "letter": "B", "text": "Photosynthesis", "correct": false },
+        { "letter": "C", "text": "Osmosis", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "Combustion of biomass, peat, coal, oil and natural gas releases carbon dioxide into the atmosphere."
+    },
+    {
+      "id": "C4.2-029",
+      "level": "SL",
+      "statement": "C4.2.19",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Compared with natural combustion, human activities have:",
+      "options": [
+        { "letter": "A", "text": "Greatly increased combustion rates", "correct": true },
+        { "letter": "B", "text": "Reduced combustion to zero", "correct": false },
+        { "letter": "C", "text": "Had no effect on combustion", "correct": false },
+        { "letter": "D", "text": "Stopped all carbon release", "correct": false }
+      ],
+      "explanation": "Combustion sometimes happens naturally (e.g. lightning strikes), but human activities have greatly increased combustion rates."
+    },
+    {
+      "id": "C4.2-030",
+      "level": "SL",
+      "statement": "C4.2.20",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "The Keeling Curve shows atmospheric carbon dioxide over time.",
+      "stem": "The long-term trend of the Keeling Curve is:",
+      "options": [
+        { "letter": "A", "text": "A rise in carbon dioxide concentration", "correct": true },
+        { "letter": "B", "text": "A fall in carbon dioxide", "correct": false },
+        { "letter": "C", "text": "No change at all", "correct": false },
+        { "letter": "D", "text": "A rise in oxygen only", "correct": false }
+      ],
+      "explanation": "The Keeling Curve shows a long-term rise in atmospheric CO2, with annual fluctuations from seasonal photosynthesis."
+    },
+    {
+      "id": "C4.2-031",
+      "level": "SL",
+      "statement": "C4.2.20",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "The Keeling Curve shows annual fluctuations in carbon dioxide.",
+      "stem": "These seasonal dips are mainly caused by:",
+      "options": [
+        { "letter": "A", "text": "Increased photosynthesis during growing seasons", "correct": true },
+        { "letter": "B", "text": "Increased combustion in summer", "correct": false },
+        { "letter": "C", "text": "Reduced respiration by decomposers only", "correct": false },
+        { "letter": "D", "text": "Changes in ocean salinity", "correct": false }
+      ],
+      "explanation": "Annual fluctuations reflect seasonal changes in photosynthesis, respiration and combustion."
+    },
+    {
+      "id": "C4.2-032",
+      "level": "SL",
+      "statement": "C4.2.21",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Aerobic respiration depends on atmospheric oxygen produced by:",
+      "options": [
+        { "letter": "A", "text": "Photosynthesis", "correct": true },
+        { "letter": "B", "text": "Combustion", "correct": false },
+        { "letter": "C", "text": "Respiration", "correct": false },
+        { "letter": "D", "text": "Decomposition only", "correct": false }
+      ],
+      "explanation": "Aerobic respiration depends on atmospheric oxygen from photosynthesis, while photosynthesis depends on CO2 from respiration."
+    },
+    {
+      "id": "C4.2-033",
+      "level": "SL",
+      "statement": "C4.2.22",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Which statement about the recycling of elements is correct?",
+      "options": [
+        { "letter": "A", "text": "All elements used by living organisms are recycled, with decomposers playing a key role", "correct": true },
+        { "letter": "B", "text": "Only carbon is recycled", "correct": false },
+        { "letter": "C", "text": "No elements are recycled", "correct": false },
+        { "letter": "D", "text": "Decomposers play no role in recycling", "correct": false }
+      ],
+      "explanation": "All chemical elements required by living organisms are recycled in ecosystems, and decomposers play a key role."
+    },
+    {
+      "id": "C4.2-034",
+      "level": "SL",
+      "statement": "C4.2.1",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "In a closed system, which can pass in and out?",
+      "options": [
+        { "letter": "A", "text": "Only energy", "correct": true },
+        { "letter": "B", "text": "Both energy and matter", "correct": false },
+        { "letter": "C", "text": "Only matter", "correct": false },
+        { "letter": "D", "text": "Neither", "correct": false }
+      ],
+      "explanation": "In a closed system only energy can pass in and out; ecosystems are open systems where both energy and matter move."
+    },
+    {
+      "id": "C4.2-035",
+      "level": "SL",
+      "statement": "C4.2.3",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Chemical energy flows through a food chain from:",
+      "options": [
+        { "letter": "A", "text": "One organism to the consumer that feeds on it", "correct": true },
+        { "letter": "B", "text": "Consumers to producers", "correct": false },
+        { "letter": "C", "text": "The atmosphere to producers only", "correct": false },
+        { "letter": "D", "text": "Predator to prey", "correct": false }
+      ],
+      "explanation": "Chemical energy passes to a consumer as it feeds on the organism at the previous stage of the food chain."
+    },
+    {
+      "id": "C4.2-036",
+      "level": "SL",
+      "statement": "C4.2.6",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Energy is required by autotrophs for:",
+      "options": [
+        { "letter": "A", "text": "Carbon fixation and anabolic reactions", "correct": true },
+        { "letter": "B", "text": "Nothing; they need no energy", "correct": false },
+        { "letter": "C", "text": "Only movement", "correct": false },
+        { "letter": "D", "text": "Digesting other organisms", "correct": false }
+      ],
+      "explanation": "Autotrophs need energy for carbon fixation and for the anabolic reactions that build macromolecules."
+    },
+    {
+      "id": "C4.2-037",
+      "level": "SL",
+      "statement": "C4.2.8",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Complex carbon compounds taken in by heterotrophs are first:",
+      "options": [
+        { "letter": "A", "text": "Digested, then assimilated into the compounds needed", "correct": true },
+        { "letter": "B", "text": "Turned directly into sunlight", "correct": false },
+        { "letter": "C", "text": "Fixed from carbon dioxide", "correct": false },
+        { "letter": "D", "text": "Never broken down", "correct": false }
+      ],
+      "explanation": "Heterotrophs digest complex compounds (externally or internally) and assimilate them by building the compounds they require."
+    },
+    {
+      "id": "C4.2-038",
+      "level": "SL",
+      "statement": "C4.2.10",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "An organism that eats a secondary consumer is a:",
+      "options": [
+        { "letter": "A", "text": "Tertiary consumer", "correct": true },
+        { "letter": "B", "text": "Producer", "correct": false },
+        { "letter": "C", "text": "Primary consumer", "correct": false },
+        { "letter": "D", "text": "Autotroph", "correct": false }
+      ],
+      "explanation": "The trophic levels are producer, primary, secondary and tertiary consumer; a tertiary consumer eats a secondary consumer."
+    },
+    {
+      "id": "C4.2-039",
+      "level": "SL",
+      "statement": "C4.2.11",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "A student builds an energy pyramid from ecosystem data.",
+      "stem": "The pyramid represents:",
+      "options": [
+        { "letter": "A", "text": "Energy transfer and losses between trophic levels", "correct": true },
+        { "letter": "B", "text": "The number of species only", "correct": false },
+        { "letter": "C", "text": "The carbon cycle", "correct": false },
+        { "letter": "D", "text": "The genome size", "correct": false }
+      ],
+      "explanation": "Energy pyramids use research data to represent energy transfer and losses between trophic levels in food chains."
+    },
+    {
+      "id": "C4.2-040",
+      "level": "SL",
+      "statement": "C4.2.13",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Heat is produced both when ATP is made and when it is:",
+      "options": [
+        { "letter": "A", "text": "Used in cells", "correct": true },
+        { "letter": "B", "text": "Stored as DNA", "correct": false },
+        { "letter": "C", "text": "Converted to light", "correct": false },
+        { "letter": "D", "text": "Fixed as carbon", "correct": false }
+      ],
+      "explanation": "Because energy transfers are inefficient, heat is produced both when ATP is produced and when it is used in cells."
+    },
+    {
+      "id": "C4.2-041",
+      "level": "SL",
+      "statement": "C4.2.14",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "Although there is less biomass at higher trophic levels, the energy content per unit mass:",
+      "stem": "Is best described as:",
+      "options": [
+        { "letter": "A", "text": "Not reduced", "correct": true },
+        { "letter": "B", "text": "Always reduced", "correct": false },
+        { "letter": "C", "text": "Zero", "correct": false },
+        { "letter": "D", "text": "Doubled each level", "correct": false }
+      ],
+      "explanation": "There is less biomass at higher levels, but the energy content per unit mass is not reduced."
+    },
+    {
+      "id": "C4.2-042",
+      "level": "SL",
+      "statement": "C4.2.4",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "A food web differs from a food chain in that it:",
+      "options": [
+        { "letter": "A", "text": "Shows many interconnected feeding relationships", "correct": true },
+        { "letter": "B", "text": "Shows only one line of feeding", "correct": false },
+        { "letter": "C", "text": "Contains no arrows", "correct": false },
+        { "letter": "D", "text": "Only includes producers", "correct": false }
+      ],
+      "explanation": "A food web represents the many interconnected feeding relationships in a community, unlike a single food chain."
+    },
+    {
+      "id": "C4.2-043",
+      "level": "SL",
+      "statement": "C4.2.2",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "A scientific law describes a pattern in nature.",
+      "stem": "How do laws differ from theories?",
+      "options": [
+        { "letter": "A", "text": "Laws describe phenomena but do not explain them", "correct": true },
+        { "letter": "B", "text": "Laws explain, theories only describe", "correct": false },
+        { "letter": "C", "text": "Laws cannot make predictions", "correct": false },
+        { "letter": "D", "text": "Laws and theories are identical", "correct": false }
+      ],
+      "explanation": "Laws are generalized principles that describe patterns without explaining them; like theories, they can make predictions."
+    },
+    {
+      "id": "C4.2-044",
+      "level": "SL",
+      "statement": "C4.2.21",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Photosynthesis depends on atmospheric carbon dioxide produced by:",
+      "options": [
+        { "letter": "A", "text": "Respiration", "correct": true },
+        { "letter": "B", "text": "Photosynthesis", "correct": false },
+        { "letter": "C", "text": "Nitrogen fixation", "correct": false },
+        { "letter": "D", "text": "Osmosis", "correct": false }
+      ],
+      "explanation": "Photosynthesis relies on CO2 from respiration, and respiration relies on O2 from photosynthesis - a major interaction between autotrophs and heterotrophs."
+    },
+    {
+      "id": "C4.2-045",
+      "level": "SL",
+      "statement": "C4.2.5",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Which of these supplies energy to decomposers?",
+      "options": [
+        { "letter": "A", "text": "Faeces and dead organisms", "correct": true },
+        { "letter": "B", "text": "Sunlight directly", "correct": false },
+        { "letter": "C", "text": "Inorganic minerals only", "correct": false },
+        { "letter": "D", "text": "Atmospheric nitrogen", "correct": false }
+      ],
+      "explanation": "Decomposers gain energy from carbon compounds in dead organic matter: faeces, dead parts and dead whole organisms."
+    },
+    {
+      "id": "C4.2-046",
+      "level": "SL",
+      "statement": "C4.2.15",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Biomass accumulates in an ecosystem when organisms:",
+      "options": [
+        { "letter": "A", "text": "Grow or reproduce", "correct": true },
+        { "letter": "B", "text": "Only respire", "correct": false },
+        { "letter": "C", "text": "Only die", "correct": false },
+        { "letter": "D", "text": "Lose all their carbon", "correct": false }
+      ],
+      "explanation": "Biomass accumulates as autotrophs and heterotrophs grow or reproduce; biomes vary in this capacity."
+    },
+    {
+      "id": "C4.2-047",
+      "level": "SL",
+      "statement": "C4.2.16",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Secondary production is lower than primary production because heterotrophs:",
+      "options": [
+        { "letter": "A", "text": "Lose biomass as carbon compounds are respired to CO2 and water", "correct": true },
+        { "letter": "B", "text": "Make their own food", "correct": false },
+        { "letter": "C", "text": "Do not respire", "correct": false },
+        { "letter": "D", "text": "Gain biomass from sunlight", "correct": false }
+      ],
+      "explanation": "Loss of biomass through respiration means heterotroph (secondary) production is lower than autotroph (primary) production."
+    },
+    {
+      "id": "C4.2-048",
+      "level": "SL",
+      "statement": "C4.2.19",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Carbon sinks such as coal, oil and peat differ in their:",
+      "options": [
+        { "letter": "A", "text": "Date of formation", "correct": true },
+        { "letter": "B", "text": "Inability to store carbon", "correct": false },
+        { "letter": "C", "text": "Lack of carbon", "correct": false },
+        { "letter": "D", "text": "Production of oxygen", "correct": false }
+      ],
+      "explanation": "These carbon sinks vary in their date of formation; combustion of them releases stored carbon as CO2."
+    },
+    {
+      "id": "C4.2-049",
+      "level": "SL",
+      "statement": "C4.2.22",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "",
+      "stem": "Why can matter be recycled in ecosystems but energy cannot?",
+      "options": [
+        { "letter": "A", "text": "Matter is reused, but energy is ultimately lost as heat", "correct": true },
+        { "letter": "B", "text": "Energy is reused but matter is lost", "correct": false },
+        { "letter": "C", "text": "Both are recycled equally", "correct": false },
+        { "letter": "D", "text": "Neither can be recycled", "correct": false }
+      ],
+      "explanation": "Chemical elements (matter) are recycled, but energy flows through and is ultimately lost as heat, so it must be constantly replaced."
+    },
+    {
+      "id": "C4.2-050",
+      "level": "SL",
+      "statement": "C4.2.17",
+      "category": "C4.2 Transfers of energy and matter",
+      "scenario": "In a carbon cycle diagram, carbon moves from the atmosphere into producers.",
+      "stem": "Which process achieves this?",
+      "options": [
+        { "letter": "A", "text": "Photosynthesis", "correct": true },
+        { "letter": "B", "text": "Respiration", "correct": false },
+        { "letter": "C", "text": "Combustion", "correct": false },
+        { "letter": "D", "text": "Feeding", "correct": false }
+      ],
+      "explanation": "Photosynthesis fixes atmospheric carbon dioxide into carbon compounds in producers, part of the carbon cycle."
+    }
+  ]
+}

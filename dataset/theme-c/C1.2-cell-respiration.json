@@ -1,0 +1,760 @@
+{
+  "id": "C1.2",
+  "name": "Cell respiration",
+  "theme": "C",
+  "themeName": "Interaction and interdependence",
+  "levelOfOrganization": "Molecules",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "C1.2-001",
+      "level": "SL",
+      "statement": "C1.2.1",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "What is the full name of ATP?",
+      "options": [
+        { "letter": "A", "text": "Adenosine triphosphate", "correct": true },
+        { "letter": "B", "text": "Adenine triphosphate", "correct": false },
+        { "letter": "C", "text": "Adenosine diphosphate", "correct": false },
+        { "letter": "D", "text": "Amino triphosphate", "correct": false }
+      ],
+      "explanation": "ATP stands for adenosine triphosphate, a nucleotide that distributes energy within cells."
+    },
+    {
+      "id": "C1.2-002",
+      "level": "SL",
+      "statement": "C1.2.1",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "ATP is often described as the cell's:",
+      "options": [
+        { "letter": "A", "text": "Energy currency", "correct": true },
+        { "letter": "B", "text": "Genetic material", "correct": false },
+        { "letter": "C", "text": "Structural protein", "correct": false },
+        { "letter": "D", "text": "Waste product", "correct": false }
+      ],
+      "explanation": "ATP's properties make it suitable as the energy currency that distributes energy within cells."
+    },
+    {
+      "id": "C1.2-003",
+      "level": "SL",
+      "statement": "C1.2.2",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Which cell process is supplied with energy by ATP?",
+      "options": [
+        { "letter": "A", "text": "Active transport across membranes", "correct": true },
+        { "letter": "B", "text": "Simple diffusion", "correct": false },
+        { "letter": "C", "text": "Osmosis", "correct": false },
+        { "letter": "D", "text": "Passive facilitated diffusion", "correct": false }
+      ],
+      "explanation": "ATP supplies energy for active transport, synthesis of macromolecules and movement of cells or cell components."
+    },
+    {
+      "id": "C1.2-004",
+      "level": "SL",
+      "statement": "C1.2.3",
+      "category": "C1.2 Cell respiration",
+      "scenario": "ATP is hydrolysed to ADP and phosphate.",
+      "stem": "This reaction:",
+      "options": [
+        { "letter": "A", "text": "Releases energy", "correct": true },
+        { "letter": "B", "text": "Requires energy input", "correct": false },
+        { "letter": "C", "text": "Produces glucose", "correct": false },
+        { "letter": "D", "text": "Makes DNA", "correct": false }
+      ],
+      "explanation": "Hydrolysis of ATP to ADP and phosphate releases energy for cellular tasks."
+    },
+    {
+      "id": "C1.2-005",
+      "level": "SL",
+      "statement": "C1.2.3",
+      "category": "C1.2 Cell respiration",
+      "scenario": "ADP and phosphate are joined to form ATP.",
+      "stem": "This synthesis:",
+      "options": [
+        { "letter": "A", "text": "Requires energy", "correct": true },
+        { "letter": "B", "text": "Releases energy", "correct": false },
+        { "letter": "C", "text": "Occurs without enzymes", "correct": false },
+        { "letter": "D", "text": "Produces oxygen", "correct": false }
+      ],
+      "explanation": "Synthesizing ATP from ADP and phosphate requires energy; hydrolysis of ATP releases it."
+    },
+    {
+      "id": "C1.2-006",
+      "level": "SL",
+      "statement": "C1.2.4",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Cell respiration is a system for producing ATP using energy released from:",
+      "options": [
+        { "letter": "A", "text": "Carbon compounds", "correct": true },
+        { "letter": "B", "text": "Sunlight directly", "correct": false },
+        { "letter": "C", "text": "Water only", "correct": false },
+        { "letter": "D", "text": "Minerals only", "correct": false }
+      ],
+      "explanation": "Cell respiration produces ATP using energy released from carbon compounds such as glucose and fatty acids."
+    },
+    {
+      "id": "C1.2-007",
+      "level": "SL",
+      "statement": "C1.2.4",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Which are the principal substrates for cell respiration?",
+      "options": [
+        { "letter": "A", "text": "Glucose and fatty acids", "correct": true },
+        { "letter": "B", "text": "DNA and RNA", "correct": false },
+        { "letter": "C", "text": "Water and oxygen", "correct": false },
+        { "letter": "D", "text": "Cellulose and chitin", "correct": false }
+      ],
+      "explanation": "Glucose and fatty acids are the principal substrates, though a wide range of organic compounds can be used."
+    },
+    {
+      "id": "C1.2-008",
+      "level": "SL",
+      "statement": "C1.2.4",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "How does cell respiration differ from gas exchange?",
+      "options": [
+        { "letter": "A", "text": "Respiration is a chemical process in cells; gas exchange is the movement of gases", "correct": true },
+        { "letter": "B", "text": "They are the same process", "correct": false },
+        { "letter": "C", "text": "Respiration only moves gases", "correct": false },
+        { "letter": "D", "text": "Gas exchange produces ATP", "correct": false }
+      ],
+      "explanation": "Cell respiration is the chemical release of energy to make ATP; gas exchange is the physical movement of gases."
+    },
+    {
+      "id": "C1.2-009",
+      "level": "SL",
+      "statement": "C1.2.5",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Which type of respiration requires oxygen?",
+      "options": [
+        { "letter": "A", "text": "Aerobic respiration", "correct": true },
+        { "letter": "B", "text": "Anaerobic respiration", "correct": false },
+        { "letter": "C", "text": "Both require oxygen", "correct": false },
+        { "letter": "D", "text": "Neither requires oxygen", "correct": false }
+      ],
+      "explanation": "Aerobic respiration requires oxygen; anaerobic respiration does not."
+    },
+    {
+      "id": "C1.2-010",
+      "level": "SL",
+      "statement": "C1.2.5",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Compared with anaerobic respiration, aerobic respiration yields:",
+      "options": [
+        { "letter": "A", "text": "Much more ATP per glucose", "correct": true },
+        { "letter": "B", "text": "Less ATP per glucose", "correct": false },
+        { "letter": "C", "text": "No ATP", "correct": false },
+        { "letter": "D", "text": "The same ATP", "correct": false }
+      ],
+      "explanation": "Aerobic respiration yields much more ATP per glucose than anaerobic respiration."
+    },
+    {
+      "id": "C1.2-011",
+      "level": "SL",
+      "statement": "C1.2.5",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Which organelle is required for aerobic but not anaerobic respiration?",
+      "options": [
+        { "letter": "A", "text": "The mitochondrion", "correct": true },
+        { "letter": "B", "text": "The chloroplast", "correct": false },
+        { "letter": "C", "text": "The nucleus", "correct": false },
+        { "letter": "D", "text": "The ribosome", "correct": false }
+      ],
+      "explanation": "Mitochondria are needed for aerobic respiration; anaerobic respiration occurs in the cytoplasm."
+    },
+    {
+      "id": "C1.2-012",
+      "level": "SL",
+      "statement": "C1.2.5",
+      "category": "C1.2 Cell respiration",
+      "scenario": "In human muscle during intense exercise with limited oxygen.",
+      "stem": "What waste product is formed by anaerobic respiration?",
+      "options": [
+        { "letter": "A", "text": "Lactate", "correct": true },
+        { "letter": "B", "text": "Ethanol", "correct": false },
+        { "letter": "C", "text": "Carbon dioxide and water only", "correct": false },
+        { "letter": "D", "text": "Glucose", "correct": false }
+      ],
+      "explanation": "In humans, anaerobic respiration produces lactate; yeast produces ethanol and carbon dioxide."
+    },
+    {
+      "id": "C1.2-013",
+      "level": "SL",
+      "statement": "C1.2.5",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "The word equation for aerobic respiration of glucose is:",
+      "options": [
+        { "letter": "A", "text": "glucose + oxygen → carbon dioxide + water", "correct": true },
+        { "letter": "B", "text": "glucose → lactate", "correct": false },
+        { "letter": "C", "text": "carbon dioxide + water → glucose + oxygen", "correct": false },
+        { "letter": "D", "text": "glucose → ethanol + carbon dioxide", "correct": false }
+      ],
+      "explanation": "Aerobic respiration: glucose + oxygen → carbon dioxide + water, releasing energy for ATP."
+    },
+    {
+      "id": "C1.2-014",
+      "level": "SL",
+      "statement": "C1.2.6",
+      "category": "C1.2 Cell respiration",
+      "scenario": "A student measures oxygen consumption of germinating seeds.",
+      "stem": "This allows determination of the:",
+      "options": [
+        { "letter": "A", "text": "Rate of cell respiration", "correct": true },
+        { "letter": "B", "text": "Rate of photosynthesis", "correct": false },
+        { "letter": "C", "text": "Amino acid sequence", "correct": false },
+        { "letter": "D", "text": "Number of chromosomes", "correct": false }
+      ],
+      "explanation": "Measurements such as oxygen consumption allow the rate of cell respiration to be determined."
+    },
+    {
+      "id": "C1.2-015",
+      "level": "SL",
+      "statement": "C1.2.1",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "ATP is classified as a:",
+      "options": [
+        { "letter": "A", "text": "Nucleotide", "correct": true },
+        { "letter": "B", "text": "Polysaccharide", "correct": false },
+        { "letter": "C", "text": "Fatty acid", "correct": false },
+        { "letter": "D", "text": "Amino acid", "correct": false }
+      ],
+      "explanation": "ATP is a nucleotide, suited to acting as the cell's energy currency."
+    },
+    {
+      "id": "C1.2-016",
+      "level": "SL",
+      "statement": "C1.2.2",
+      "category": "C1.2 Cell respiration",
+      "scenario": "Chromosomes are moved during cell division.",
+      "stem": "The energy for this movement is supplied by:",
+      "options": [
+        { "letter": "A", "text": "ATP", "correct": true },
+        { "letter": "B", "text": "DNA", "correct": false },
+        { "letter": "C", "text": "Glycogen directly", "correct": false },
+        { "letter": "D", "text": "Cellulose", "correct": false }
+      ],
+      "explanation": "ATP supplies energy for movement of the whole cell or cell components such as chromosomes."
+    },
+    {
+      "id": "C1.2-017",
+      "level": "SL",
+      "statement": "C1.2.4",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Although glucose is common, cell respiration can also use:",
+      "options": [
+        { "letter": "A", "text": "A wide range of organic compounds", "correct": true },
+        { "letter": "B", "text": "Only water", "correct": false },
+        { "letter": "C", "text": "Only oxygen", "correct": false },
+        { "letter": "D", "text": "Only DNA", "correct": false }
+      ],
+      "explanation": "Glucose and fatty acids are principal substrates, but a wide range of organic compounds can be respired."
+    },
+    {
+      "id": "C1.2-018",
+      "level": "SL",
+      "statement": "C1.2.5",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Where does anaerobic respiration occur in a human cell?",
+      "options": [
+        { "letter": "A", "text": "In the cytoplasm", "correct": true },
+        { "letter": "B", "text": "In the mitochondria", "correct": false },
+        { "letter": "C", "text": "In the nucleus", "correct": false },
+        { "letter": "D", "text": "In the chloroplast", "correct": false }
+      ],
+      "explanation": "Anaerobic respiration occurs in the cytoplasm and does not require mitochondria."
+    },
+    {
+      "id": "C1.2-019",
+      "level": "SL",
+      "statement": "C1.2.3",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "The interconversion of ATP and ADP allows the cell to:",
+      "options": [
+        { "letter": "A", "text": "Store and release energy as needed", "correct": true },
+        { "letter": "B", "text": "Copy its DNA", "correct": false },
+        { "letter": "C", "text": "Exchange gases", "correct": false },
+        { "letter": "D", "text": "Build a cell wall", "correct": false }
+      ],
+      "explanation": "Cycling between ATP and ADP lets the cell store energy (making ATP) and release it (hydrolysing ATP)."
+    },
+    {
+      "id": "C1.2-020",
+      "level": "SL",
+      "statement": "C1.2.6",
+      "category": "C1.2 Cell respiration",
+      "scenario": "A student has raw data on carbon dioxide released over time.",
+      "stem": "From this they can:",
+      "options": [
+        { "letter": "A", "text": "Calculate the rate of cellular respiration", "correct": true },
+        { "letter": "B", "text": "Determine the enzyme's sequence", "correct": false },
+        { "letter": "C", "text": "Measure the Rf value", "correct": false },
+        { "letter": "D", "text": "Count chromosomes", "correct": false }
+      ],
+      "explanation": "Rate of respiration can be calculated from raw or secondary data such as gas exchanged over time."
+    },
+    {
+      "id": "C1.2-021",
+      "level": "SL",
+      "statement": "C1.2.2",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Which process is an example of anabolism powered by ATP?",
+      "options": [
+        { "letter": "A", "text": "Synthesis of macromolecules", "correct": true },
+        { "letter": "B", "text": "Simple diffusion of oxygen", "correct": false },
+        { "letter": "C", "text": "Osmosis of water", "correct": false },
+        { "letter": "D", "text": "Passive movement down a gradient", "correct": false }
+      ],
+      "explanation": "ATP supplies energy for anabolism, such as the synthesis of macromolecules."
+    },
+    {
+      "id": "C1.2-022",
+      "level": "SL",
+      "statement": "C1.2.1",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Which property makes ATP suitable as an energy currency?",
+      "options": [
+        { "letter": "A", "text": "It releases a useful, manageable amount of energy when hydrolysed", "correct": true },
+        { "letter": "B", "text": "It stores genetic information", "correct": false },
+        { "letter": "C", "text": "It is insoluble in water", "correct": false },
+        { "letter": "D", "text": "It cannot be reformed", "correct": false }
+      ],
+      "explanation": "ATP releases an amount of energy on hydrolysis that is sufficient for many cellular tasks, suiting it as energy currency."
+    },
+    {
+      "id": "C1.2-023",
+      "level": "SL",
+      "statement": "C1.2.5",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Which statement comparing aerobic and anaerobic respiration is correct?",
+      "options": [
+        { "letter": "A", "text": "Aerobic uses oxygen and yields more ATP; anaerobic does not use oxygen and yields less", "correct": true },
+        { "letter": "B", "text": "Anaerobic uses oxygen; aerobic does not", "correct": false },
+        { "letter": "C", "text": "Both yield the same ATP", "correct": false },
+        { "letter": "D", "text": "Neither produces ATP", "correct": false }
+      ],
+      "explanation": "Aerobic respiration uses oxygen and yields far more ATP than anaerobic respiration, which uses none."
+    },
+    {
+      "id": "C1.2-024",
+      "level": "SL",
+      "statement": "C1.2.4",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "The main purpose of cell respiration is to:",
+      "options": [
+        { "letter": "A", "text": "Produce ATP for cellular work", "correct": true },
+        { "letter": "B", "text": "Produce glucose", "correct": false },
+        { "letter": "C", "text": "Store genetic information", "correct": false },
+        { "letter": "D", "text": "Absorb light", "correct": false }
+      ],
+      "explanation": "Cell respiration releases energy from carbon compounds to produce ATP for cellular work."
+    },
+    {
+      "id": "C1.2-025",
+      "level": "SL",
+      "statement": "C1.2.6",
+      "category": "C1.2 Cell respiration",
+      "scenario": "A respirometer is used to measure oxygen uptake.",
+      "stem": "A variable that could affect the rate of respiration is:",
+      "options": [
+        { "letter": "A", "text": "Temperature", "correct": true },
+        { "letter": "B", "text": "The colour of the container", "correct": false },
+        { "letter": "C", "text": "The observer's name", "correct": false },
+        { "letter": "D", "text": "The time of year only", "correct": false }
+      ],
+      "explanation": "Variables such as temperature affect the rate of cell respiration, which can be measured experimentally."
+    },
+    {
+      "id": "C1.2-026",
+      "level": "SL",
+      "statement": "C1.2.3",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "When ATP is hydrolysed, the products are:",
+      "options": [
+        { "letter": "A", "text": "ADP and phosphate", "correct": true },
+        { "letter": "B", "text": "Glucose and oxygen", "correct": false },
+        { "letter": "C", "text": "Two ADP molecules", "correct": false },
+        { "letter": "D", "text": "Amino acids", "correct": false }
+      ],
+      "explanation": "Hydrolysis of ATP produces ADP and inorganic phosphate, releasing energy."
+    },
+    {
+      "id": "C1.2-027",
+      "level": "HL",
+      "statement": "C1.2.7",
+      "category": "C1.2 Cell respiration",
+      "scenario": "Hydrogen (with an electron) is removed from a substrate.",
+      "stem": "In terms of electrons, this substrate has been:",
+      "options": [
+        { "letter": "A", "text": "Oxidized (electron loss)", "correct": true },
+        { "letter": "B", "text": "Reduced (electron gain)", "correct": false },
+        { "letter": "C", "text": "Neither oxidized nor reduced", "correct": false },
+        { "letter": "D", "text": "Denatured", "correct": false }
+      ],
+      "explanation": "Oxidation is electron loss; removing hydrogen (dehydrogenation) oxidizes the substrate."
+    },
+    {
+      "id": "C1.2-028",
+      "level": "HL",
+      "statement": "C1.2.7",
+      "category": "C1.2 Cell respiration",
+      "scenario": "NAD accepts hydrogen during respiration.",
+      "stem": "NAD is therefore acting as:",
+      "options": [
+        { "letter": "A", "text": "A hydrogen carrier that is reduced", "correct": true },
+        { "letter": "B", "text": "An oxidizing agent that is oxidized", "correct": false },
+        { "letter": "C", "text": "A substrate that is broken down", "correct": false },
+        { "letter": "D", "text": "An enzyme", "correct": false }
+      ],
+      "explanation": "NAD is a carrier of hydrogen; it is reduced when it accepts hydrogen during respiration."
+    },
+    {
+      "id": "C1.2-029",
+      "level": "HL",
+      "statement": "C1.2.8",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Glycolysis converts glucose to:",
+      "options": [
+        { "letter": "A", "text": "Pyruvate", "correct": true },
+        { "letter": "B", "text": "Lactate directly", "correct": false },
+        { "letter": "C", "text": "Carbon dioxide only", "correct": false },
+        { "letter": "D", "text": "Acetyl-CoA directly", "correct": false }
+      ],
+      "explanation": "Glycolysis converts glucose to pyruvate through stepwise reactions with a net yield of ATP and reduced NAD."
+    },
+    {
+      "id": "C1.2-030",
+      "level": "HL",
+      "statement": "C1.2.8",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Which stages are included in glycolysis?",
+      "options": [
+        { "letter": "A", "text": "Phosphorylation, lysis, oxidation and ATP formation", "correct": true },
+        { "letter": "B", "text": "Only decarboxylation", "correct": false },
+        { "letter": "C", "text": "Photolysis and reduction of NADP", "correct": false },
+        { "letter": "D", "text": "Carbon fixation", "correct": false }
+      ],
+      "explanation": "Glycolysis involves phosphorylation, lysis, oxidation and ATP formation; each step uses a different enzyme."
+    },
+    {
+      "id": "C1.2-031",
+      "level": "HL",
+      "statement": "C1.2.9",
+      "category": "C1.2 Cell respiration",
+      "scenario": "In anaerobic respiration in humans, pyruvate is converted to lactate.",
+      "stem": "Why is this conversion important?",
+      "options": [
+        { "letter": "A", "text": "It regenerates NAD so glycolysis can continue", "correct": true },
+        { "letter": "B", "text": "It produces oxygen", "correct": false },
+        { "letter": "C", "text": "It makes glucose", "correct": false },
+        { "letter": "D", "text": "It fixes carbon", "correct": false }
+      ],
+      "explanation": "Converting pyruvate to lactate regenerates NAD, allowing glycolysis (and its net 2 ATP per glucose) to continue."
+    },
+    {
+      "id": "C1.2-032",
+      "level": "HL",
+      "statement": "C1.2.9",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "The net ATP yield of glycolysis per glucose molecule is:",
+      "options": [
+        { "letter": "A", "text": "Two", "correct": true },
+        { "letter": "B", "text": "Thirty-eight", "correct": false },
+        { "letter": "C", "text": "Zero", "correct": false },
+        { "letter": "D", "text": "Six", "correct": false }
+      ],
+      "explanation": "Glycolysis has a net yield of two ATP molecules per glucose."
+    },
+    {
+      "id": "C1.2-033",
+      "level": "HL",
+      "statement": "C1.2.10",
+      "category": "C1.2 Cell respiration",
+      "scenario": "Yeast carry out anaerobic respiration.",
+      "stem": "How does this differ from anaerobic respiration in humans?",
+      "options": [
+        { "letter": "A", "text": "Yeast produce ethanol and carbon dioxide instead of lactate", "correct": true },
+        { "letter": "B", "text": "Yeast produce lactate", "correct": false },
+        { "letter": "C", "text": "Yeast do not regenerate NAD", "correct": false },
+        { "letter": "D", "text": "Yeast use oxygen", "correct": false }
+      ],
+      "explanation": "The pathways are the same apart from NAD regeneration: yeast produce ethanol and carbon dioxide, humans produce lactate."
+    },
+    {
+      "id": "C1.2-034",
+      "level": "HL",
+      "statement": "C1.2.10",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Anaerobic respiration in yeast is used in:",
+      "options": [
+        { "letter": "A", "text": "Brewing and baking", "correct": true },
+        { "letter": "B", "text": "Photosynthesis", "correct": false },
+        { "letter": "C", "text": "DNA replication", "correct": false },
+        { "letter": "D", "text": "Gas exchange", "correct": false }
+      ],
+      "explanation": "Yeast fermentation (anaerobic respiration) is used in brewing (ethanol) and baking (carbon dioxide)."
+    },
+    {
+      "id": "C1.2-035",
+      "level": "HL",
+      "statement": "C1.2.11",
+      "category": "C1.2 Cell respiration",
+      "scenario": "Before the Krebs cycle, pyruvate is oxidized and decarboxylated.",
+      "stem": "This link reaction produces an acetyl group that is carried by:",
+      "options": [
+        { "letter": "A", "text": "Coenzyme A", "correct": true },
+        { "letter": "B", "text": "Rubisco", "correct": false },
+        { "letter": "C", "text": "NADP", "correct": false },
+        { "letter": "D", "text": "Haemoglobin", "correct": false }
+      ],
+      "explanation": "In the link reaction, pyruvate forms a 2C acetyl group transferred by coenzyme A to the Krebs cycle."
+    },
+    {
+      "id": "C1.2-036",
+      "level": "HL",
+      "statement": "C1.2.12",
+      "category": "C1.2 Cell respiration",
+      "scenario": "In the Krebs cycle, an acetyl group is transferred to oxaloacetate.",
+      "stem": "What is produced?",
+      "options": [
+        { "letter": "A", "text": "Citrate (6C)", "correct": true },
+        { "letter": "B", "text": "Pyruvate", "correct": false },
+        { "letter": "C", "text": "Glucose", "correct": false },
+        { "letter": "D", "text": "RuBP", "correct": false }
+      ],
+      "explanation": "Transfer of an acetyl group to oxaloacetate (4C) forms citrate (6C) at the start of the Krebs cycle."
+    },
+    {
+      "id": "C1.2-037",
+      "level": "HL",
+      "statement": "C1.2.12",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "The oxidations in the Krebs cycle are:",
+      "options": [
+        { "letter": "A", "text": "Dehydrogenation reactions", "correct": true },
+        { "letter": "B", "text": "Carbon fixation reactions", "correct": false },
+        { "letter": "C", "text": "Photolysis reactions", "correct": false },
+        { "letter": "D", "text": "Condensation reactions", "correct": false }
+      ],
+      "explanation": "The Krebs cycle includes four oxidations (dehydrogenations) and two decarboxylations, regenerating oxaloacetate."
+    },
+    {
+      "id": "C1.2-038",
+      "level": "HL",
+      "statement": "C1.2.13",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Reduced NAD transfers energy to the electron transport chain by:",
+      "options": [
+        { "letter": "A", "text": "Passing a pair of electrons to the first carrier", "correct": true },
+        { "letter": "B", "text": "Releasing oxygen", "correct": false },
+        { "letter": "C", "text": "Fixing carbon dioxide", "correct": false },
+        { "letter": "D", "text": "Producing glucose", "correct": false }
+      ],
+      "explanation": "Reduced NAD passes a pair of electrons to the first carrier in the chain, converting back to NAD."
+    },
+    {
+      "id": "C1.2-039",
+      "level": "HL",
+      "statement": "C1.2.13",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Reduced NAD supplied to the electron transport chain comes from:",
+      "options": [
+        { "letter": "A", "text": "Glycolysis, the link reaction and the Krebs cycle", "correct": true },
+        { "letter": "B", "text": "Photolysis of water", "correct": false },
+        { "letter": "C", "text": "The Calvin cycle only", "correct": false },
+        { "letter": "D", "text": "Gas exchange", "correct": false }
+      ],
+      "explanation": "Reduced NAD is generated in glycolysis, the link reaction and the Krebs cycle."
+    },
+    {
+      "id": "C1.2-040",
+      "level": "HL",
+      "statement": "C1.2.14",
+      "category": "C1.2 Cell respiration",
+      "scenario": "Electrons flow along the electron transport chain in the mitochondrion.",
+      "stem": "This flow is used to generate:",
+      "options": [
+        { "letter": "A", "text": "A proton gradient", "correct": true },
+        { "letter": "B", "text": "Glucose", "correct": false },
+        { "letter": "C", "text": "DNA", "correct": false },
+        { "letter": "D", "text": "Oxygen", "correct": false }
+      ],
+      "explanation": "The flow of electrons along the chain generates a proton gradient across the inner membrane."
+    },
+    {
+      "id": "C1.2-041",
+      "level": "HL",
+      "statement": "C1.2.15",
+      "category": "C1.2 Cell respiration",
+      "scenario": "Protons flow back down their gradient through ATP synthase.",
+      "stem": "This coupling of proton flow to ATP synthesis is called:",
+      "options": [
+        { "letter": "A", "text": "Chemiosmosis", "correct": true },
+        { "letter": "B", "text": "Glycolysis", "correct": false },
+        { "letter": "C", "text": "Photolysis", "correct": false },
+        { "letter": "D", "text": "Decarboxylation", "correct": false }
+      ],
+      "explanation": "Chemiosmosis: ATP synthase couples the energy released by the proton gradient to phosphorylation of ADP."
+    },
+    {
+      "id": "C1.2-042",
+      "level": "HL",
+      "statement": "C1.2.16",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "In aerobic respiration, the terminal electron acceptor is:",
+      "options": [
+        { "letter": "A", "text": "Oxygen", "correct": true },
+        { "letter": "B", "text": "Carbon dioxide", "correct": false },
+        { "letter": "C", "text": "Glucose", "correct": false },
+        { "letter": "D", "text": "NADP", "correct": false }
+      ],
+      "explanation": "Oxygen accepts electrons (and protons) at the end of the chain, forming metabolic water and allowing continued electron flow."
+    },
+    {
+      "id": "C1.2-043",
+      "level": "HL",
+      "statement": "C1.2.16",
+      "category": "C1.2 Cell respiration",
+      "scenario": "Oxygen accepts electrons and protons at the end of the electron transport chain.",
+      "stem": "What is produced?",
+      "options": [
+        { "letter": "A", "text": "Metabolic water", "correct": true },
+        { "letter": "B", "text": "Glucose", "correct": false },
+        { "letter": "C", "text": "Pyruvate", "correct": false },
+        { "letter": "D", "text": "Citrate", "correct": false }
+      ],
+      "explanation": "Oxygen combines with electrons and protons to form metabolic water, allowing the chain to keep operating."
+    },
+    {
+      "id": "C1.2-044",
+      "level": "HL",
+      "statement": "C1.2.17",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Why do lipids yield more energy per gram than carbohydrates?",
+      "options": [
+        { "letter": "A", "text": "They contain more oxidizable hydrogen and carbon and less oxygen", "correct": true },
+        { "letter": "B", "text": "They contain more oxygen", "correct": false },
+        { "letter": "C", "text": "They cannot be oxidized", "correct": false },
+        { "letter": "D", "text": "They contain no carbon", "correct": false }
+      ],
+      "explanation": "Lipids have less oxygen and more oxidizable hydrogen and carbon, giving a higher energy yield per gram."
+    },
+    {
+      "id": "C1.2-045",
+      "level": "HL",
+      "statement": "C1.2.17",
+      "category": "C1.2 Cell respiration",
+      "scenario": "Fatty acids are broken down to acetyl groups.",
+      "stem": "These acetyl groups enter aerobic respiration via:",
+      "options": [
+        { "letter": "A", "text": "Acetyl-CoA (into the Krebs cycle)", "correct": true },
+        { "letter": "B", "text": "Glycolysis", "correct": false },
+        { "letter": "C", "text": "Photolysis", "correct": false },
+        { "letter": "D", "text": "The Calvin cycle", "correct": false }
+      ],
+      "explanation": "2C acetyl groups from fatty acid breakdown enter via acetyl-CoA; only carbohydrate can undergo glycolysis/anaerobic respiration."
+    },
+    {
+      "id": "C1.2-046",
+      "level": "HL",
+      "statement": "C1.2.7",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "A redox reaction involves:",
+      "options": [
+        { "letter": "A", "text": "Both oxidation and reduction", "correct": true },
+        { "letter": "B", "text": "Only oxidation", "correct": false },
+        { "letter": "C", "text": "Only reduction", "correct": false },
+        { "letter": "D", "text": "Neither oxidation nor reduction", "correct": false }
+      ],
+      "explanation": "Redox reactions couple oxidation (electron loss) with reduction (electron gain), for example NAD being reduced."
+    },
+    {
+      "id": "C1.2-047",
+      "level": "HL",
+      "statement": "C1.2.8",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Each step of glycolysis is catalysed by:",
+      "options": [
+        { "letter": "A", "text": "A different enzyme", "correct": true },
+        { "letter": "B", "text": "The same single enzyme", "correct": false },
+        { "letter": "C", "text": "No enzyme", "correct": false },
+        { "letter": "D", "text": "Rubisco", "correct": false }
+      ],
+      "explanation": "Each step in glycolysis is catalysed by a different enzyme, though students need not name the intermediates."
+    },
+    {
+      "id": "C1.2-048",
+      "level": "HL",
+      "statement": "C1.2.12",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "Which 4C intermediate of the Krebs cycle is regenerated at the end of each turn?",
+      "options": [
+        { "letter": "A", "text": "Oxaloacetate", "correct": true },
+        { "letter": "B", "text": "Citrate", "correct": false },
+        { "letter": "C", "text": "Pyruvate", "correct": false },
+        { "letter": "D", "text": "Glucose", "correct": false }
+      ],
+      "explanation": "Oxaloacetate (4C) is regenerated by the reactions of the Krebs cycle after citrate (6C) is formed."
+    },
+    {
+      "id": "C1.2-049",
+      "level": "HL",
+      "statement": "C1.2.14",
+      "category": "C1.2 Cell respiration",
+      "scenario": "",
+      "stem": "The proton gradient across the inner mitochondrial membrane is a store of:",
+      "options": [
+        { "letter": "A", "text": "Potential energy used to make ATP", "correct": true },
+        { "letter": "B", "text": "Genetic information", "correct": false },
+        { "letter": "C", "text": "Oxygen", "correct": false },
+        { "letter": "D", "text": "Glucose", "correct": false }
+      ],
+      "explanation": "The proton gradient stores potential energy, released as protons flow through ATP synthase to make ATP."
+    },
+    {
+      "id": "C1.2-050",
+      "level": "HL",
+      "statement": "C1.2.16",
+      "category": "C1.2 Cell respiration",
+      "scenario": "If oxygen is unavailable at the end of the electron transport chain.",
+      "stem": "What happens to the chain?",
+      "options": [
+        { "letter": "A", "text": "Electron flow stops without a terminal acceptor", "correct": true },
+        { "letter": "B", "text": "It speeds up", "correct": false },
+        { "letter": "C", "text": "It produces more ATP", "correct": false },
+        { "letter": "D", "text": "It fixes carbon", "correct": false }
+      ],
+      "explanation": "Without oxygen to accept electrons, the electron transport chain cannot continue, so aerobic ATP production stops."
+    }
+  ]
+}

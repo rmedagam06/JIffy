@@ -1,0 +1,760 @@
+{
+  "id": "C2.2",
+  "name": "Neural signalling",
+  "theme": "C",
+  "themeName": "Interaction and interdependence",
+  "levelOfOrganization": "Cells",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "C2.2-001",
+      "level": "SL",
+      "statement": "C2.2.1",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Neurons are cells that carry:",
+      "options": [
+        { "letter": "A", "text": "Electrical impulses", "correct": true },
+        { "letter": "B", "text": "Oxygen only", "correct": false },
+        { "letter": "C", "text": "Digestive enzymes", "correct": false },
+        { "letter": "D", "text": "Water in xylem", "correct": false }
+      ],
+      "explanation": "Neurons are nervous-system cells that conduct electrical impulses along their nerve fibres."
+    },
+    {
+      "id": "C2.2-002",
+      "level": "SL",
+      "statement": "C2.2.1",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "A long single nerve fibre projecting from a neuron's cell body is the:",
+      "options": [
+        { "letter": "A", "text": "Axon", "correct": true },
+        { "letter": "B", "text": "Dendrite", "correct": false },
+        { "letter": "C", "text": "Synapse", "correct": false },
+        { "letter": "D", "text": "Nucleus", "correct": false }
+      ],
+      "explanation": "The axon is the long single fibre; dendrites are the multiple shorter fibres."
+    },
+    {
+      "id": "C2.2-003",
+      "level": "SL",
+      "statement": "C2.2.1",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "The multiple shorter fibres of a neuron are called:",
+      "options": [
+        { "letter": "A", "text": "Dendrites", "correct": true },
+        { "letter": "B", "text": "Axons", "correct": false },
+        { "letter": "C", "text": "Synapses", "correct": false },
+        { "letter": "D", "text": "Cell bodies", "correct": false }
+      ],
+      "explanation": "Dendrites are the multiple shorter fibres of a neuron; the axon is the single long fibre."
+    },
+    {
+      "id": "C2.2-004",
+      "level": "SL",
+      "statement": "C2.2.2",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "The resting potential of a neuron is maintained by pumping which ions?",
+      "options": [
+        { "letter": "A", "text": "Sodium and potassium ions", "correct": true },
+        { "letter": "B", "text": "Calcium and chloride ions", "correct": false },
+        { "letter": "C", "text": "Hydrogen and carbonate ions", "correct": false },
+        { "letter": "D", "text": "Iron and magnesium ions", "correct": false }
+      ],
+      "explanation": "Sodium and potassium ions are pumped in opposite directions to establish and maintain the resting potential."
+    },
+    {
+      "id": "C2.2-005",
+      "level": "SL",
+      "statement": "C2.2.2",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "The energy for pumping sodium and potassium ions comes from:",
+      "options": [
+        { "letter": "A", "text": "ATP", "correct": true },
+        { "letter": "B", "text": "Sunlight", "correct": false },
+        { "letter": "C", "text": "Diffusion alone", "correct": false },
+        { "letter": "D", "text": "Heat from the blood", "correct": false }
+      ],
+      "explanation": "ATP powers the pumping of sodium and potassium ions to establish the resting potential."
+    },
+    {
+      "id": "C2.2-006",
+      "level": "SL",
+      "statement": "C2.2.2",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "The resting potential of a neuron is:",
+      "options": [
+        { "letter": "A", "text": "Negative inside relative to outside", "correct": true },
+        { "letter": "B", "text": "Positive inside relative to outside", "correct": false },
+        { "letter": "C", "text": "Zero", "correct": false },
+        { "letter": "D", "text": "Always changing rapidly", "correct": false }
+      ],
+      "explanation": "The resting potential is negative inside relative to outside, due to ion pumping and membrane permeability."
+    },
+    {
+      "id": "C2.2-007",
+      "level": "SL",
+      "statement": "C2.2.3",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "A nerve impulse travelling along a fibre is an:",
+      "options": [
+        { "letter": "A", "text": "Action potential", "correct": true },
+        { "letter": "B", "text": "Resting potential", "correct": false },
+        { "letter": "C", "text": "Osmotic gradient", "correct": false },
+        { "letter": "D", "text": "Enzyme", "correct": false }
+      ],
+      "explanation": "Nerve impulses are action potentials propagated along nerve fibres."
+    },
+    {
+      "id": "C2.2-008",
+      "level": "SL",
+      "statement": "C2.2.3",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "A nerve impulse is described as electrical because it involves:",
+      "options": [
+        { "letter": "A", "text": "Movement of positively charged ions", "correct": true },
+        { "letter": "B", "text": "Flow of glucose", "correct": false },
+        { "letter": "C", "text": "Movement of oxygen", "correct": false },
+        { "letter": "D", "text": "Transfer of DNA", "correct": false }
+      ],
+      "explanation": "The impulse is electrical because it involves the movement of positively charged ions across the membrane."
+    },
+    {
+      "id": "C2.2-009",
+      "level": "SL",
+      "statement": "C2.2.4",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Which fibre conducts impulses fastest?",
+      "options": [
+        { "letter": "A", "text": "A myelinated fibre", "correct": true },
+        { "letter": "B", "text": "A thin non-myelinated fibre", "correct": false },
+        { "letter": "C", "text": "A dead fibre", "correct": false },
+        { "letter": "D", "text": "A fibre with no membrane", "correct": false }
+      ],
+      "explanation": "Myelinated fibres conduct impulses faster than non-myelinated fibres; larger diameter also increases speed."
+    },
+    {
+      "id": "C2.2-010",
+      "level": "SL",
+      "statement": "C2.2.4",
+      "category": "C2.2 Neural signalling",
+      "scenario": "Conduction speed is compared with axon diameter.",
+      "stem": "The correlation between them is:",
+      "options": [
+        { "letter": "A", "text": "Positive (larger diameter, faster conduction)", "correct": true },
+        { "letter": "B", "text": "Negative", "correct": false },
+        { "letter": "C", "text": "Zero", "correct": false },
+        { "letter": "D", "text": "Impossible to measure", "correct": false }
+      ],
+      "explanation": "Conduction speed is positively correlated with axon diameter (and negatively correlated with animal size)."
+    },
+    {
+      "id": "C2.2-011",
+      "level": "SL",
+      "statement": "C2.2.4",
+      "category": "C2.2 Neural signalling",
+      "scenario": "A student calculates R² for conduction speed against axon diameter.",
+      "stem": "R² (the coefficient of determination) indicates:",
+      "options": [
+        { "letter": "A", "text": "How much variation in one variable is explained by the other", "correct": true },
+        { "letter": "B", "text": "The number of neurons", "correct": false },
+        { "letter": "C", "text": "The resting potential value", "correct": false },
+        { "letter": "D", "text": "The speed of light", "correct": false }
+      ],
+      "explanation": "R² measures the degree to which variation in the independent variable explains variation in the dependent variable."
+    },
+    {
+      "id": "C2.2-012",
+      "level": "SL",
+      "statement": "C2.2.5",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "A synapse is a junction between neurons and between neurons and:",
+      "options": [
+        { "letter": "A", "text": "Effector cells", "correct": true },
+        { "letter": "B", "text": "Red blood cells", "correct": false },
+        { "letter": "C", "text": "Xylem vessels", "correct": false },
+        { "letter": "D", "text": "Chloroplasts", "correct": false }
+      ],
+      "explanation": "Synapses are junctions between neurons and between neurons and effector cells (such as muscle)."
+    },
+    {
+      "id": "C2.2-013",
+      "level": "SL",
+      "statement": "C2.2.5",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "At a typical (chemical) synapse, a signal can pass:",
+      "options": [
+        { "letter": "A", "text": "In one direction only", "correct": true },
+        { "letter": "B", "text": "In both directions equally", "correct": false },
+        { "letter": "C", "text": "Only backwards", "correct": false },
+        { "letter": "D", "text": "In no direction", "correct": false }
+      ],
+      "explanation": "A signal passes in only one direction across a typical chemical synapse."
+    },
+    {
+      "id": "C2.2-014",
+      "level": "SL",
+      "statement": "C2.2.6",
+      "category": "C2.2 Neural signalling",
+      "scenario": "The presynaptic membrane depolarizes.",
+      "stem": "Which ion is taken up, triggering neurotransmitter release?",
+      "options": [
+        { "letter": "A", "text": "Calcium ions", "correct": true },
+        { "letter": "B", "text": "Chloride ions", "correct": false },
+        { "letter": "C", "text": "Nitrate ions", "correct": false },
+        { "letter": "D", "text": "Sulfate ions", "correct": false }
+      ],
+      "explanation": "Depolarization causes uptake of calcium, which acts as a signal for neurotransmitter release."
+    },
+    {
+      "id": "C2.2-015",
+      "level": "SL",
+      "statement": "C2.2.7",
+      "category": "C2.2 Neural signalling",
+      "scenario": "A neurotransmitter diffuses across the synaptic cleft.",
+      "stem": "It then binds to:",
+      "options": [
+        { "letter": "A", "text": "Transmembrane receptors on the postsynaptic membrane", "correct": true },
+        { "letter": "B", "text": "DNA in the nucleus", "correct": false },
+        { "letter": "C", "text": "The xylem", "correct": false },
+        { "letter": "D", "text": "A ribosome", "correct": false }
+      ],
+      "explanation": "Neurotransmitters diffuse across the cleft and bind transmembrane receptors, generating a postsynaptic potential."
+    },
+    {
+      "id": "C2.2-016",
+      "level": "SL",
+      "statement": "C2.2.7",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Which neurotransmitter is used as the example, and is found at neuromuscular junctions?",
+      "options": [
+        { "letter": "A", "text": "Acetylcholine", "correct": true },
+        { "letter": "B", "text": "Rubisco", "correct": false },
+        { "letter": "C", "text": "Insulin", "correct": false },
+        { "letter": "D", "text": "Glucose", "correct": false }
+      ],
+      "explanation": "Acetylcholine is the example neurotransmitter and is found in many synapses, including neuromuscular junctions."
+    },
+    {
+      "id": "C2.2-017",
+      "level": "SL",
+      "statement": "C2.2.5",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "The synapses referred to in this topic are:",
+      "options": [
+        { "letter": "A", "text": "Chemical synapses", "correct": true },
+        { "letter": "B", "text": "Electrical synapses", "correct": false },
+        { "letter": "C", "text": "Both types equally", "correct": false },
+        { "letter": "D", "text": "Neither type", "correct": false }
+      ],
+      "explanation": "The syllabus limits discussion to chemical synapses, which can simply be called synapses."
+    },
+    {
+      "id": "C2.2-018",
+      "level": "SL",
+      "statement": "C2.2.1",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "The cell body of a neuron contains:",
+      "options": [
+        { "letter": "A", "text": "Cytoplasm and a nucleus", "correct": true },
+        { "letter": "B", "text": "Only an axon", "correct": false },
+        { "letter": "C", "text": "Chloroplasts", "correct": false },
+        { "letter": "D", "text": "A cell wall of cellulose", "correct": false }
+      ],
+      "explanation": "The cell body of a neuron contains cytoplasm and a nucleus, with nerve fibres projecting from it."
+    },
+    {
+      "id": "C2.2-019",
+      "level": "SL",
+      "statement": "C2.2.4",
+      "category": "C2.2 Neural signalling",
+      "scenario": "The giant axons of squid conduct impulses quickly.",
+      "stem": "This is mainly because of their:",
+      "options": [
+        { "letter": "A", "text": "Large diameter", "correct": true },
+        { "letter": "B", "text": "Small diameter", "correct": false },
+        { "letter": "C", "text": "Lack of membrane", "correct": false },
+        { "letter": "D", "text": "Absence of ions", "correct": false }
+      ],
+      "explanation": "Squid giant axons conduct fast due to their large diameter; myelination also speeds conduction in vertebrates."
+    },
+    {
+      "id": "C2.2-020",
+      "level": "SL",
+      "statement": "C2.2.2",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Membrane polarization refers to:",
+      "options": [
+        { "letter": "A", "text": "A difference in charge across the membrane", "correct": true },
+        { "letter": "B", "text": "The membrane having no charge difference", "correct": false },
+        { "letter": "C", "text": "The membrane dissolving", "correct": false },
+        { "letter": "D", "text": "Loss of the nucleus", "correct": false }
+      ],
+      "explanation": "Polarization is a difference in charge (membrane potential) across the membrane, negative inside at rest."
+    },
+    {
+      "id": "C2.2-021",
+      "level": "SL",
+      "statement": "C2.2.6",
+      "category": "C2.2 Neural signalling",
+      "scenario": "Inside the presynaptic neuron, calcium acts as a:",
+      "stem": "Calcium's role here is as a:",
+      "options": [
+        { "letter": "A", "text": "Signalling chemical", "correct": true },
+        { "letter": "B", "text": "Structural fibre", "correct": false },
+        { "letter": "C", "text": "Genetic material", "correct": false },
+        { "letter": "D", "text": "Respiratory substrate", "correct": false }
+      ],
+      "explanation": "Calcium acts as a signalling chemical inside the neuron, triggering neurotransmitter release after depolarization."
+    },
+    {
+      "id": "C2.2-022",
+      "level": "SL",
+      "statement": "C2.2.7",
+      "category": "C2.2 Neural signalling",
+      "scenario": "Neurotransmitter binds receptors and depolarizes the postsynaptic membrane.",
+      "stem": "This generates an:",
+      "options": [
+        { "letter": "A", "text": "Excitatory postsynaptic potential", "correct": true },
+        { "letter": "B", "text": "Inhibitory postsynaptic potential", "correct": false },
+        { "letter": "C", "text": "Resting potential only", "correct": false },
+        { "letter": "D", "text": "Osmotic gradient", "correct": false }
+      ],
+      "explanation": "Neurotransmitter binding that depolarizes the postsynaptic membrane generates an excitatory postsynaptic potential."
+    },
+    {
+      "id": "C2.2-023",
+      "level": "SL",
+      "statement": "C2.2.5",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Why does a signal pass in only one direction at a synapse?",
+      "options": [
+        { "letter": "A", "text": "Only the presynaptic side releases neurotransmitter and only the postsynaptic side has receptors", "correct": true },
+        { "letter": "B", "text": "Both sides release neurotransmitter", "correct": false },
+        { "letter": "C", "text": "The synapse has no receptors", "correct": false },
+        { "letter": "D", "text": "Signals cannot cross synapses", "correct": false }
+      ],
+      "explanation": "Neurotransmitter is released only from the presynaptic membrane and detected only by postsynaptic receptors, giving one-way transmission."
+    },
+    {
+      "id": "C2.2-024",
+      "level": "SL",
+      "statement": "C2.2.3",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "An action potential is best described as:",
+      "options": [
+        { "letter": "A", "text": "A rapid, propagated change in membrane potential", "correct": true },
+        { "letter": "B", "text": "A permanent resting state", "correct": false },
+        { "letter": "C", "text": "A chemical stored in vesicles", "correct": false },
+        { "letter": "D", "text": "A type of receptor", "correct": false }
+      ],
+      "explanation": "An action potential is a rapid change in membrane potential that is propagated along the nerve fibre."
+    },
+    {
+      "id": "C2.2-025",
+      "level": "SL",
+      "statement": "C2.2.4",
+      "category": "C2.2 Neural signalling",
+      "scenario": "Conduction speed is compared with animal size.",
+      "stem": "The correlation is described as:",
+      "options": [
+        { "letter": "A", "text": "Negative", "correct": true },
+        { "letter": "B", "text": "Positive", "correct": false },
+        { "letter": "C", "text": "Zero", "correct": false },
+        { "letter": "D", "text": "Perfectly proportional", "correct": false }
+      ],
+      "explanation": "Conduction speed is negatively correlated with animal size but positively correlated with axon diameter."
+    },
+    {
+      "id": "C2.2-026",
+      "level": "SL",
+      "statement": "C2.2.1",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Nerve fibres of neurons vary in:",
+      "options": [
+        { "letter": "A", "text": "Length", "correct": true },
+        { "letter": "B", "text": "Genetic code", "correct": false },
+        { "letter": "C", "text": "Number of chromosomes", "correct": false },
+        { "letter": "D", "text": "The element they are made of", "correct": false }
+      ],
+      "explanation": "Nerve fibres projecting from the cell body vary in length; the axon is long and dendrites are shorter."
+    },
+    {
+      "id": "C2.2-027",
+      "level": "SL",
+      "statement": "C2.2.6",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Neurotransmitters are released from the presynaptic membrane by:",
+      "options": [
+        { "letter": "A", "text": "Exocytosis of vesicles after calcium entry", "correct": true },
+        { "letter": "B", "text": "Simple diffusion of vesicles", "correct": false },
+        { "letter": "C", "text": "Photolysis", "correct": false },
+        { "letter": "D", "text": "The Calvin cycle", "correct": false }
+      ],
+      "explanation": "Calcium entry after depolarization triggers vesicles to release neurotransmitter from the presynaptic membrane."
+    },
+    {
+      "id": "C2.2-028",
+      "level": "SL",
+      "statement": "C2.2.2",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Sodium and potassium ions are pumped across the neuron membrane in:",
+      "options": [
+        { "letter": "A", "text": "Opposite directions", "correct": true },
+        { "letter": "B", "text": "The same direction", "correct": false },
+        { "letter": "C", "text": "No particular direction", "correct": false },
+        { "letter": "D", "text": "Random bursts only", "correct": false }
+      ],
+      "explanation": "The pump moves sodium and potassium in opposite directions across the membrane to build the resting potential."
+    },
+    {
+      "id": "C2.2-029",
+      "level": "SL",
+      "statement": "C2.2.7",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "The synaptic cleft is the:",
+      "options": [
+        { "letter": "A", "text": "Gap between presynaptic and postsynaptic membranes", "correct": true },
+        { "letter": "B", "text": "Inside of the axon", "correct": false },
+        { "letter": "C", "text": "Nucleus of the neuron", "correct": false },
+        { "letter": "D", "text": "The cell wall", "correct": false }
+      ],
+      "explanation": "The synaptic cleft is the gap across which neurotransmitters diffuse from the presynaptic to the postsynaptic membrane."
+    },
+    {
+      "id": "C2.2-030",
+      "level": "SL",
+      "statement": "C2.2.3",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Nerve impulses are propagated along:",
+      "options": [
+        { "letter": "A", "text": "Nerve fibres (axons)", "correct": true },
+        { "letter": "B", "text": "Xylem vessels", "correct": false },
+        { "letter": "C", "text": "The bloodstream", "correct": false },
+        { "letter": "D", "text": "The cell wall", "correct": false }
+      ],
+      "explanation": "Action potentials are propagated along nerve fibres such as axons."
+    },
+    {
+      "id": "C2.2-031",
+      "level": "HL",
+      "statement": "C2.2.8",
+      "category": "C2.2 Neural signalling",
+      "scenario": "During an action potential, sodium channels open.",
+      "stem": "This causes:",
+      "options": [
+        { "letter": "A", "text": "Depolarization", "correct": true },
+        { "letter": "B", "text": "Repolarization", "correct": false },
+        { "letter": "C", "text": "The resting potential", "correct": false },
+        { "letter": "D", "text": "Hyperpolarization only", "correct": false }
+      ],
+      "explanation": "Opening of voltage-gated sodium channels lets sodium in, causing depolarization."
+    },
+    {
+      "id": "C2.2-032",
+      "level": "HL",
+      "statement": "C2.2.8",
+      "category": "C2.2 Neural signalling",
+      "scenario": "After depolarization, potassium channels open.",
+      "stem": "This leads to:",
+      "options": [
+        { "letter": "A", "text": "Repolarization", "correct": true },
+        { "letter": "B", "text": "Further depolarization", "correct": false },
+        { "letter": "C", "text": "Neurotransmitter synthesis", "correct": false },
+        { "letter": "D", "text": "Photolysis", "correct": false }
+      ],
+      "explanation": "Opening of voltage-gated potassium channels lets potassium out, repolarizing the membrane."
+    },
+    {
+      "id": "C2.2-033",
+      "level": "HL",
+      "statement": "C2.2.8",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Voltage-gated sodium channels open only when the membrane reaches the:",
+      "options": [
+        { "letter": "A", "text": "Threshold potential", "correct": true },
+        { "letter": "B", "text": "Resting potential", "correct": false },
+        { "letter": "C", "text": "Boiling point", "correct": false },
+        { "letter": "D", "text": "Rf value", "correct": false }
+      ],
+      "explanation": "A threshold potential must be reached for voltage-gated sodium channels to open, starting an action potential."
+    },
+    {
+      "id": "C2.2-034",
+      "level": "HL",
+      "statement": "C2.2.9",
+      "category": "C2.2 Neural signalling",
+      "scenario": "An action potential propagates along an axon.",
+      "stem": "This propagation is caused by:",
+      "options": [
+        { "letter": "A", "text": "Local currents of sodium ions bringing the next region to threshold", "correct": true },
+        { "letter": "B", "text": "The axon physically moving", "correct": false },
+        { "letter": "C", "text": "Photolysis of water", "correct": false },
+        { "letter": "D", "text": "The Calvin cycle", "correct": false }
+      ],
+      "explanation": "Diffusion of sodium ions (local currents) inside and outside the axon brings the adjacent region to threshold, propagating the impulse."
+    },
+    {
+      "id": "C2.2-035",
+      "level": "HL",
+      "statement": "C2.2.10",
+      "category": "C2.2 Neural signalling",
+      "scenario": "An oscilloscope trace shows the membrane potential over time.",
+      "stem": "The number of impulses per second can be found by:",
+      "options": [
+        { "letter": "A", "text": "Counting action potentials in the trace over time", "correct": true },
+        { "letter": "B", "text": "Measuring the axon's length", "correct": false },
+        { "letter": "C", "text": "Counting chromosomes", "correct": false },
+        { "letter": "D", "text": "Calculating the Rf value", "correct": false }
+      ],
+      "explanation": "Oscilloscope traces show resting and action potentials; impulse frequency is found by counting action potentials per second."
+    },
+    {
+      "id": "C2.2-036",
+      "level": "HL",
+      "statement": "C2.2.11",
+      "category": "C2.2 Neural signalling",
+      "scenario": "In myelinated fibres, action potentials jump between nodes of Ranvier.",
+      "stem": "This is called:",
+      "options": [
+        { "letter": "A", "text": "Saltatory conduction", "correct": true },
+        { "letter": "B", "text": "Simple diffusion", "correct": false },
+        { "letter": "C", "text": "Chemiosmosis", "correct": false },
+        { "letter": "D", "text": "Repolarization", "correct": false }
+      ],
+      "explanation": "Saltatory conduction, in which the action potential jumps between nodes of Ranvier, speeds impulses in myelinated fibres."
+    },
+    {
+      "id": "C2.2-037",
+      "level": "HL",
+      "statement": "C2.2.11",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "In myelinated fibres, ion pumps and channels are clustered at the:",
+      "options": [
+        { "letter": "A", "text": "Nodes of Ranvier", "correct": true },
+        { "letter": "B", "text": "Cell body only", "correct": false },
+        { "letter": "C", "text": "Synaptic cleft", "correct": false },
+        { "letter": "D", "text": "Dendrites only", "correct": false }
+      ],
+      "explanation": "Ion pumps and channels cluster at the nodes of Ranvier, so the action potential is propagated node to node."
+    },
+    {
+      "id": "C2.2-038",
+      "level": "HL",
+      "statement": "C2.2.12",
+      "category": "C2.2 Neural signalling",
+      "scenario": "Neonicotinoid pesticides affect synapses.",
+      "stem": "They act by:",
+      "options": [
+        { "letter": "A", "text": "Blocking synaptic transmission", "correct": true },
+        { "letter": "B", "text": "Speeding up reuptake", "correct": false },
+        { "letter": "C", "text": "Producing more neurotransmitter", "correct": false },
+        { "letter": "D", "text": "Building myelin", "correct": false }
+      ],
+      "explanation": "Neonicotinoids are an example of an exogenous chemical (pesticide) that blocks synaptic transmission."
+    },
+    {
+      "id": "C2.2-039",
+      "level": "HL",
+      "statement": "C2.2.12",
+      "category": "C2.2 Neural signalling",
+      "scenario": "Cocaine affects neurotransmitters at synapses.",
+      "stem": "It acts by:",
+      "options": [
+        { "letter": "A", "text": "Blocking reuptake of the neurotransmitter", "correct": true },
+        { "letter": "B", "text": "Destroying receptors", "correct": false },
+        { "letter": "C", "text": "Building myelin", "correct": false },
+        { "letter": "D", "text": "Stopping ATP production", "correct": false }
+      ],
+      "explanation": "Cocaine is an example of a drug that blocks reuptake of the neurotransmitter, prolonging its effect."
+    },
+    {
+      "id": "C2.2-040",
+      "level": "HL",
+      "statement": "C2.2.13",
+      "category": "C2.2 Neural signalling",
+      "scenario": "An inhibitory neurotransmitter binds to the postsynaptic membrane.",
+      "stem": "The postsynaptic membrane becomes:",
+      "options": [
+        { "letter": "A", "text": "Hyperpolarized", "correct": true },
+        { "letter": "B", "text": "Depolarized to threshold", "correct": false },
+        { "letter": "C", "text": "Unchanged", "correct": false },
+        { "letter": "D", "text": "Destroyed", "correct": false }
+      ],
+      "explanation": "Inhibitory neurotransmitters hyperpolarize the postsynaptic membrane, generating an inhibitory postsynaptic potential."
+    },
+    {
+      "id": "C2.2-041",
+      "level": "HL",
+      "statement": "C2.2.14",
+      "category": "C2.2 Neural signalling",
+      "scenario": "Several presynaptic neurons feed into one postsynaptic neuron.",
+      "stem": "The combining of their excitatory and inhibitory effects is called:",
+      "options": [
+        { "letter": "A", "text": "Summation", "correct": true },
+        { "letter": "B", "text": "Saltatory conduction", "correct": false },
+        { "letter": "C", "text": "Depolarization", "correct": false },
+        { "letter": "D", "text": "Reuptake", "correct": false }
+      ],
+      "explanation": "Summation combines excitatory and inhibitory inputs, determining whether the postsynaptic neuron reaches threshold."
+    },
+    {
+      "id": "C2.2-042",
+      "level": "HL",
+      "statement": "C2.2.14",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "The consequence of summation reaching threshold in the postsynaptic neuron is described as:",
+      "options": [
+        { "letter": "A", "text": "All-or-nothing (an action potential fires or does not)", "correct": true },
+        { "letter": "B", "text": "Gradual and partial", "correct": false },
+        { "letter": "C", "text": "Always inhibitory", "correct": false },
+        { "letter": "D", "text": "Random", "correct": false }
+      ],
+      "explanation": "Postsynaptic depolarization has all-or-nothing consequences: an action potential fires only if threshold is reached."
+    },
+    {
+      "id": "C2.2-043",
+      "level": "HL",
+      "statement": "C2.2.15",
+      "category": "C2.2 Neural signalling",
+      "scenario": "Free nerve endings in the skin detect high temperature or chilli's capsaicin.",
+      "stem": "These stimuli cause channels to open, letting in:",
+      "options": [
+        { "letter": "A", "text": "Positively charged ions, reaching threshold", "correct": true },
+        { "letter": "B", "text": "Negatively charged ions only", "correct": false },
+        { "letter": "C", "text": "Glucose", "correct": false },
+        { "letter": "D", "text": "DNA", "correct": false }
+      ],
+      "explanation": "Pain receptors open channels for positive ions in response to stimuli, reaching threshold and sending impulses to the brain."
+    },
+    {
+      "id": "C2.2-044",
+      "level": "HL",
+      "statement": "C2.2.15",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Pain is ultimately perceived:",
+      "options": [
+        { "letter": "A", "text": "In the brain, after impulses travel there", "correct": true },
+        { "letter": "B", "text": "In the skin itself", "correct": false },
+        { "letter": "C", "text": "In the muscles", "correct": false },
+        { "letter": "D", "text": "In the synaptic cleft", "correct": false }
+      ],
+      "explanation": "Pain receptors send impulses to the brain, where pain is perceived."
+    },
+    {
+      "id": "C2.2-045",
+      "level": "HL",
+      "statement": "C2.2.16",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Consciousness is described as an emergent property because it:",
+      "options": [
+        { "letter": "A", "text": "Arises from the interaction of many individual neurons", "correct": true },
+        { "letter": "B", "text": "Exists in a single neuron", "correct": false },
+        { "letter": "C", "text": "Is stored in one molecule", "correct": false },
+        { "letter": "D", "text": "Does not involve neurons", "correct": false }
+      ],
+      "explanation": "Consciousness emerges from the interaction of individual neurons in the brain, an example of an emergent property."
+    },
+    {
+      "id": "C2.2-046",
+      "level": "HL",
+      "statement": "C2.2.8",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Which sequence correctly describes an action potential?",
+      "options": [
+        { "letter": "A", "text": "Threshold reached → depolarization → repolarization", "correct": true },
+        { "letter": "B", "text": "Repolarization → depolarization → threshold", "correct": false },
+        { "letter": "C", "text": "Depolarization → threshold → resting only", "correct": false },
+        { "letter": "D", "text": "Hyperpolarization → threshold → nothing", "correct": false }
+      ],
+      "explanation": "Once threshold is reached, sodium influx causes depolarization, then potassium efflux causes repolarization."
+    },
+    {
+      "id": "C2.2-047",
+      "level": "HL",
+      "statement": "C2.2.11",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Why does saltatory conduction speed up impulses?",
+      "options": [
+        { "letter": "A", "text": "The impulse jumps between nodes rather than moving continuously", "correct": true },
+        { "letter": "B", "text": "It slows the impulse at each node", "correct": false },
+        { "letter": "C", "text": "It removes the myelin", "correct": false },
+        { "letter": "D", "text": "It stops depolarization", "correct": false }
+      ],
+      "explanation": "In myelinated fibres the action potential jumps from node to node, greatly increasing conduction speed."
+    },
+    {
+      "id": "C2.2-048",
+      "level": "HL",
+      "statement": "C2.2.13",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "An inhibitory postsynaptic potential makes the postsynaptic neuron:",
+      "options": [
+        { "letter": "A", "text": "Less likely to reach threshold and fire", "correct": true },
+        { "letter": "B", "text": "More likely to fire", "correct": false },
+        { "letter": "C", "text": "Unable to have a resting potential", "correct": false },
+        { "letter": "D", "text": "Permanently depolarized", "correct": false }
+      ],
+      "explanation": "Hyperpolarization from an inhibitory neurotransmitter makes the neuron less likely to reach threshold."
+    },
+    {
+      "id": "C2.2-049",
+      "level": "HL",
+      "statement": "C2.2.14",
+      "category": "C2.2 Neural signalling",
+      "scenario": "",
+      "stem": "Whether a postsynaptic neuron fires depends on the balance of:",
+      "options": [
+        { "letter": "A", "text": "Excitatory and inhibitory inputs (summation)", "correct": true },
+        { "letter": "B", "text": "Its number of chromosomes", "correct": false },
+        { "letter": "C", "text": "The colour of the neuron", "correct": false },
+        { "letter": "D", "text": "The Rf value", "correct": false }
+      ],
+      "explanation": "Summation of excitatory and inhibitory inputs determines whether the postsynaptic neuron reaches threshold and fires."
+    },
+    {
+      "id": "C2.2-050",
+      "level": "HL",
+      "statement": "C2.2.12",
+      "category": "C2.2 Neural signalling",
+      "scenario": "An exogenous chemical increases the effect of a neurotransmitter by preventing its removal.",
+      "stem": "This is most similar to the action of:",
+      "options": [
+        { "letter": "A", "text": "Cocaine blocking reuptake", "correct": true },
+        { "letter": "B", "text": "A neonicotinoid blocking transmission", "correct": false },
+        { "letter": "C", "text": "Myelin", "correct": false },
+        { "letter": "D", "text": "The sodium-potassium pump", "correct": false }
+      ],
+      "explanation": "Blocking reuptake prolongs a neurotransmitter's effect, as cocaine does; neonicotinoids instead block transmission."
+    }
+  ]
+}

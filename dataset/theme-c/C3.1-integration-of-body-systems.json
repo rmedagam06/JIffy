@@ -1,0 +1,760 @@
+{
+  "id": "C3.1",
+  "name": "Integration of body systems",
+  "theme": "C",
+  "themeName": "Interaction and interdependence",
+  "levelOfOrganization": "Organisms",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "C3.1-001",
+      "level": "SL",
+      "statement": "C3.1.1",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Why is coordination needed in living systems?",
+      "options": [
+        { "letter": "A", "text": "So component parts collectively perform an overall function", "correct": true },
+        { "letter": "B", "text": "To keep systems completely separate", "correct": false },
+        { "letter": "C", "text": "To prevent any interaction", "correct": false },
+        { "letter": "D", "text": "To stop the organism functioning", "correct": false }
+      ],
+      "explanation": "System integration coordinates component parts so they collectively perform the organism's overall functions."
+    },
+    {
+      "id": "C3.1-002",
+      "level": "SL",
+      "statement": "C3.1.2",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Which shows the correct hierarchy of subsystems?",
+      "options": [
+        { "letter": "A", "text": "Cells → tissues → organs → body systems", "correct": true },
+        { "letter": "B", "text": "Organs → cells → tissues → body systems", "correct": false },
+        { "letter": "C", "text": "Body systems → organs → cells → tissues", "correct": false },
+        { "letter": "D", "text": "Tissues → cells → organs → body systems", "correct": false }
+      ],
+      "explanation": "The hierarchy runs cells, tissues, organs and body systems, integrated in a multicellular organism."
+    },
+    {
+      "id": "C3.1-003",
+      "level": "SL",
+      "statement": "C3.1.2",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "A cheetah is an effective predator because its body systems work together.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "An emergent property from integration", "correct": true },
+        { "letter": "B", "text": "A single cell's function", "correct": false },
+        { "letter": "C", "text": "Loss of coordination", "correct": false },
+        { "letter": "D", "text": "A lack of integration", "correct": false }
+      ],
+      "explanation": "Integration of body systems produces emergent properties, such as the cheetah being an effective predator."
+    },
+    {
+      "id": "C3.1-004",
+      "level": "SL",
+      "statement": "C3.1.3",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Which two systems send messages to integrate organs in animals?",
+      "options": [
+        { "letter": "A", "text": "The nervous system and the endocrine system", "correct": true },
+        { "letter": "B", "text": "The digestive and skeletal systems only", "correct": false },
+        { "letter": "C", "text": "The xylem and phloem", "correct": false },
+        { "letter": "D", "text": "The immune system only", "correct": false }
+      ],
+      "explanation": "Organs are integrated by nervous and endocrine (hormonal) signalling, and by transport of materials in the blood."
+    },
+    {
+      "id": "C3.1-005",
+      "level": "SL",
+      "statement": "C3.1.3",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Which system transports materials between organs?",
+      "options": [
+        { "letter": "A", "text": "The blood system", "correct": true },
+        { "letter": "B", "text": "The nervous system", "correct": false },
+        { "letter": "C", "text": "The skeletal system", "correct": false },
+        { "letter": "D", "text": "The endocrine glands directly", "correct": false }
+      ],
+      "explanation": "The blood system transports materials and energy between organs, integrating the body."
+    },
+    {
+      "id": "C3.1-006",
+      "level": "SL",
+      "statement": "C3.1.4",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "The brain acts as a central organ for:",
+      "options": [
+        { "letter": "A", "text": "Integrating information and for learning and memory", "correct": true },
+        { "letter": "B", "text": "Gas exchange", "correct": false },
+        { "letter": "C", "text": "Producing gametes", "correct": false },
+        { "letter": "D", "text": "Filtering the blood", "correct": false }
+      ],
+      "explanation": "The brain processes information combined from several inputs and is involved in learning and memory."
+    },
+    {
+      "id": "C3.1-007",
+      "level": "SL",
+      "statement": "C3.1.5",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "The spinal cord is an integrating centre for:",
+      "options": [
+        { "letter": "A", "text": "Unconscious processes", "correct": true },
+        { "letter": "B", "text": "All conscious thought", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "Digestion of food externally", "correct": false }
+      ],
+      "explanation": "The spinal cord acts as an integrating centre for unconscious processes, such as reflexes."
+    },
+    {
+      "id": "C3.1-008",
+      "level": "SL",
+      "statement": "C3.1.6",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Sensory neurons convey messages:",
+      "options": [
+        { "letter": "A", "text": "From receptor cells to the central nervous system", "correct": true },
+        { "letter": "B", "text": "From the CNS to muscles", "correct": false },
+        { "letter": "C", "text": "Only within one cell", "correct": false },
+        { "letter": "D", "text": "From roots to leaves", "correct": false }
+      ],
+      "explanation": "Sensory neurons carry messages from receptor cells to the central nervous system."
+    },
+    {
+      "id": "C3.1-009",
+      "level": "SL",
+      "statement": "C3.1.7",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Motor neurons carry messages from the cerebral hemispheres to:",
+      "options": [
+        { "letter": "A", "text": "Muscles, stimulating them to contract", "correct": true },
+        { "letter": "B", "text": "Receptor cells only", "correct": false },
+        { "letter": "C", "text": "The xylem", "correct": false },
+        { "letter": "D", "text": "The chloroplast", "correct": false }
+      ],
+      "explanation": "Motor neurons carry output from the cerebral hemispheres to muscles, stimulating contraction."
+    },
+    {
+      "id": "C3.1-010",
+      "level": "SL",
+      "statement": "C3.1.8",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "A nerve is best described as a:",
+      "options": [
+        { "letter": "A", "text": "Bundle of nerve fibres of sensory and motor neurons", "correct": true },
+        { "letter": "B", "text": "A single neuron", "correct": false },
+        { "letter": "C", "text": "A type of muscle", "correct": false },
+        { "letter": "D", "text": "A blood vessel", "correct": false }
+      ],
+      "explanation": "A nerve is a bundle of nerve fibres from both sensory and motor neurons, with a protective sheath."
+    },
+    {
+      "id": "C3.1-011",
+      "level": "SL",
+      "statement": "C3.1.9",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "You quickly pull your hand away from a hot object before feeling the pain.",
+      "stem": "This is an example of a:",
+      "options": [
+        { "letter": "A", "text": "Pain reflex arc (involuntary response)", "correct": true },
+        { "letter": "B", "text": "A voluntary conscious decision", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "A hormonal response only", "correct": false }
+      ],
+      "explanation": "The pain reflex arc is an involuntary response with skeletal muscle as the effector, allowing rapid withdrawal."
+    },
+    {
+      "id": "C3.1-012",
+      "level": "SL",
+      "statement": "C3.1.9",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "In a pain reflex arc, the signal passes through the spinal cord via:",
+      "stem": "Which neuron connects the sensory and motor neurons?",
+      "options": [
+        { "letter": "A", "text": "An interneuron in the grey matter", "correct": true },
+        { "letter": "B", "text": "A companion cell", "correct": false },
+        { "letter": "C", "text": "A guard cell", "correct": false },
+        { "letter": "D", "text": "A red blood cell", "correct": false }
+      ],
+      "explanation": "A single interneuron in the grey matter of the spinal cord links the sensory and motor neurons in the reflex arc."
+    },
+    {
+      "id": "C3.1-013",
+      "level": "SL",
+      "statement": "C3.1.10",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "The cerebellum plays a role in:",
+      "options": [
+        { "letter": "A", "text": "Coordinating skeletal muscle contraction and balance", "correct": true },
+        { "letter": "B", "text": "Gas exchange", "correct": false },
+        { "letter": "C", "text": "Producing hormones only", "correct": false },
+        { "letter": "D", "text": "Filtering the blood", "correct": false }
+      ],
+      "explanation": "The cerebellum coordinates skeletal muscle contraction and balance in the overall control of movement."
+    },
+    {
+      "id": "C3.1-014",
+      "level": "SL",
+      "statement": "C3.1.11",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "Melatonin is secreted in a daily rhythm.",
+      "stem": "Which gland secretes melatonin?",
+      "options": [
+        { "letter": "A", "text": "The pineal gland", "correct": true },
+        { "letter": "B", "text": "The adrenal gland", "correct": false },
+        { "letter": "C", "text": "The pancreas", "correct": false },
+        { "letter": "D", "text": "The liver", "correct": false }
+      ],
+      "explanation": "Melatonin is secreted by the pineal gland, modulating sleep patterns as part of circadian rhythms."
+    },
+    {
+      "id": "C3.1-015",
+      "level": "SL",
+      "statement": "C3.1.11",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Melatonin secretion helps establish a cycle of:",
+      "options": [
+        { "letter": "A", "text": "Sleeping and waking", "correct": true },
+        { "letter": "B", "text": "Breathing in and out", "correct": false },
+        { "letter": "C", "text": "Digestion", "correct": false },
+        { "letter": "D", "text": "Heartbeats", "correct": false }
+      ],
+      "explanation": "The diurnal pattern of melatonin helps establish a cycle of sleeping and waking (circadian rhythm)."
+    },
+    {
+      "id": "C3.1-016",
+      "level": "SL",
+      "statement": "C3.1.12",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "The adrenal glands secrete epinephrine (adrenaline).",
+      "stem": "This prepares the body for:",
+      "options": [
+        { "letter": "A", "text": "Vigorous activity", "correct": true },
+        { "letter": "B", "text": "Deep sleep", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "Fruit ripening", "correct": false }
+      ],
+      "explanation": "Epinephrine from the adrenal glands prepares the body for vigorous activity, facilitating intense muscle contraction."
+    },
+    {
+      "id": "C3.1-017",
+      "level": "SL",
+      "statement": "C3.1.13",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "The endocrine system is controlled largely by the:",
+      "options": [
+        { "letter": "A", "text": "Hypothalamus and pituitary gland", "correct": true },
+        { "letter": "B", "text": "Cerebellum only", "correct": false },
+        { "letter": "C", "text": "Spinal cord alone", "correct": false },
+        { "letter": "D", "text": "Liver", "correct": false }
+      ],
+      "explanation": "The hypothalamus and pituitary gland control the endocrine system."
+    },
+    {
+      "id": "C3.1-018",
+      "level": "SL",
+      "statement": "C3.1.14",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "Baroreceptors detect a change in blood pressure.",
+      "stem": "Baroreceptors monitor:",
+      "options": [
+        { "letter": "A", "text": "Blood pressure", "correct": true },
+        { "letter": "B", "text": "Blood pH only", "correct": false },
+        { "letter": "C", "text": "Light intensity", "correct": false },
+        { "letter": "D", "text": "Temperature only", "correct": false }
+      ],
+      "explanation": "Baroreceptors monitor blood pressure; chemoreceptors monitor blood pH and oxygen/carbon dioxide concentrations."
+    },
+    {
+      "id": "C3.1-019",
+      "level": "SL",
+      "statement": "C3.1.14",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Which brain region coordinates responses that change heart rate?",
+      "options": [
+        { "letter": "A", "text": "The medulla", "correct": true },
+        { "letter": "B", "text": "The cerebellum", "correct": false },
+        { "letter": "C", "text": "The pineal gland", "correct": false },
+        { "letter": "D", "text": "The pituitary gland", "correct": false }
+      ],
+      "explanation": "The medulla coordinates responses to baroreceptor and chemoreceptor input, sending impulses to change heart rate and stroke volume."
+    },
+    {
+      "id": "C3.1-020",
+      "level": "SL",
+      "statement": "C3.1.15",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "Blood pH changes are detected by chemoreceptors.",
+      "stem": "This leads to control of:",
+      "options": [
+        { "letter": "A", "text": "Ventilation rate", "correct": true },
+        { "letter": "B", "text": "Fruit ripening", "correct": false },
+        { "letter": "C", "text": "Melatonin secretion", "correct": false },
+        { "letter": "D", "text": "Root growth", "correct": false }
+      ],
+      "explanation": "Chemoreceptors in the brainstem detect pH changes and control ventilation rate via the diaphragm and intercostal muscles."
+    },
+    {
+      "id": "C3.1-021",
+      "level": "SL",
+      "statement": "C3.1.16",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "Food is moved along the gut by peristalsis.",
+      "stem": "Peristalsis between swallowing and egestion is controlled by the:",
+      "options": [
+        { "letter": "A", "text": "Enteric nervous system (involuntary)", "correct": true },
+        { "letter": "B", "text": "Voluntary control of the CNS", "correct": false },
+        { "letter": "C", "text": "The pineal gland", "correct": false },
+        { "letter": "D", "text": "The xylem", "correct": false }
+      ],
+      "explanation": "Peristalsis between swallowing and egestion is under involuntary control by the enteric nervous system."
+    },
+    {
+      "id": "C3.1-022",
+      "level": "SL",
+      "statement": "C3.1.16",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Which digestive actions are under voluntary control by the CNS?",
+      "options": [
+        { "letter": "A", "text": "Swallowing and egestion of faeces", "correct": true },
+        { "letter": "B", "text": "All of peristalsis", "correct": false },
+        { "letter": "C", "text": "Chemical digestion by enzymes", "correct": false },
+        { "letter": "D", "text": "Absorption of nutrients", "correct": false }
+      ],
+      "explanation": "Initiation of swallowing and egestion is under voluntary CNS control; peristalsis between them is involuntary (ENS)."
+    },
+    {
+      "id": "C3.1-023",
+      "level": "SL",
+      "statement": "C3.1.5",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "The difference between conscious and unconscious processes is that unconscious processes:",
+      "options": [
+        { "letter": "A", "text": "Occur without deliberate awareness or control", "correct": true },
+        { "letter": "B", "text": "Always require conscious thought", "correct": false },
+        { "letter": "C", "text": "Never occur in the body", "correct": false },
+        { "letter": "D", "text": "Only occur in plants", "correct": false }
+      ],
+      "explanation": "Unconscious processes, integrated by the spinal cord, occur without deliberate awareness, unlike conscious processes."
+    },
+    {
+      "id": "C3.1-024",
+      "level": "SL",
+      "statement": "C3.1.3",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "How do the roles of the nervous and endocrine systems in sending messages differ?",
+      "options": [
+        { "letter": "A", "text": "Nervous signals are fast and electrical; endocrine signals are hormonal and slower", "correct": true },
+        { "letter": "B", "text": "Both are identical in speed and method", "correct": false },
+        { "letter": "C", "text": "Endocrine signals are electrical", "correct": false },
+        { "letter": "D", "text": "Nervous signals use hormones only", "correct": false }
+      ],
+      "explanation": "The nervous system sends fast electrical messages; the endocrine system uses slower, blood-borne hormonal messages."
+    },
+    {
+      "id": "C3.1-025",
+      "level": "SL",
+      "statement": "C3.1.8",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "A transverse section of a nerve is examined.",
+      "stem": "It would show a protective sheath and:",
+      "options": [
+        { "letter": "A", "text": "Myelinated and unmyelinated nerve fibres", "correct": true },
+        { "letter": "B", "text": "Alveoli", "correct": false },
+        { "letter": "C", "text": "Chloroplasts", "correct": false },
+        { "letter": "D", "text": "Sarcomeres", "correct": false }
+      ],
+      "explanation": "A nerve section shows a protective sheath enclosing myelinated and unmyelinated nerve fibres."
+    },
+    {
+      "id": "C3.1-026",
+      "level": "SL",
+      "statement": "C3.1.4",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "The brain integrates information by:",
+      "options": [
+        { "letter": "A", "text": "Combining several inputs to process them", "correct": true },
+        { "letter": "B", "text": "Ignoring all inputs", "correct": false },
+        { "letter": "C", "text": "Producing gametes", "correct": false },
+        { "letter": "D", "text": "Filtering blood", "correct": false }
+      ],
+      "explanation": "The brain integrates information by processing inputs combined from several sources, and is involved in learning and memory."
+    },
+    {
+      "id": "C3.1-027",
+      "level": "SL",
+      "statement": "C3.1.14",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "Chemoreceptors detect a fall in blood oxygen.",
+      "stem": "Chemoreceptors monitor blood pH and:",
+      "options": [
+        { "letter": "A", "text": "Concentrations of oxygen and carbon dioxide", "correct": true },
+        { "letter": "B", "text": "Blood pressure only", "correct": false },
+        { "letter": "C", "text": "Light intensity", "correct": false },
+        { "letter": "D", "text": "The number of platelets", "correct": false }
+      ],
+      "explanation": "Chemoreceptors monitor blood pH and oxygen and carbon dioxide concentrations."
+    },
+    {
+      "id": "C3.1-028",
+      "level": "SL",
+      "statement": "C3.1.12",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Epinephrine has widespread effects that facilitate:",
+      "options": [
+        { "letter": "A", "text": "Intense muscle contraction", "correct": true },
+        { "letter": "B", "text": "Deep relaxation and sleep", "correct": false },
+        { "letter": "C", "text": "Slowed heart rate", "correct": false },
+        { "letter": "D", "text": "Photosynthesis", "correct": false }
+      ],
+      "explanation": "Epinephrine's widespread effects prepare the body for vigorous activity, facilitating intense muscle contraction."
+    },
+    {
+      "id": "C3.1-029",
+      "level": "SL",
+      "statement": "C3.1.9",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "In the pain reflex arc example, the effector is:",
+      "options": [
+        { "letter": "A", "text": "A skeletal muscle", "correct": true },
+        { "letter": "B", "text": "A gland only", "correct": false },
+        { "letter": "C", "text": "A guard cell", "correct": false },
+        { "letter": "D", "text": "A xylem vessel", "correct": false }
+      ],
+      "explanation": "In the pain reflex arc, skeletal muscle is the effector that produces the rapid withdrawal response."
+    },
+    {
+      "id": "C3.1-030",
+      "level": "SL",
+      "statement": "C3.1.1",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "System integration in living organisms is described as:",
+      "options": [
+        { "letter": "A", "text": "A necessary process", "correct": true },
+        { "letter": "B", "text": "An optional extra", "correct": false },
+        { "letter": "C", "text": "Harmful to the organism", "correct": false },
+        { "letter": "D", "text": "Only found in plants", "correct": false }
+      ],
+      "explanation": "System integration is a necessary process, coordinating parts so the organism functions as a whole."
+    },
+    {
+      "id": "C3.1-031",
+      "level": "SL",
+      "statement": "C3.1.6",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "A receptor in the skin detects a stimulus.",
+      "stem": "The message is carried to the CNS by a:",
+      "options": [
+        { "letter": "A", "text": "Sensory neuron", "correct": true },
+        { "letter": "B", "text": "Motor neuron", "correct": false },
+        { "letter": "C", "text": "Companion cell", "correct": false },
+        { "letter": "D", "text": "Guard cell", "correct": false }
+      ],
+      "explanation": "Sensory neurons carry information from receptor cells to the central nervous system."
+    },
+    {
+      "id": "C3.1-032",
+      "level": "SL",
+      "statement": "C3.1.15",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Control of ventilation rate involves signals sent to the:",
+      "options": [
+        { "letter": "A", "text": "Diaphragm and intercostal muscles", "correct": true },
+        { "letter": "B", "text": "Xylem", "correct": false },
+        { "letter": "C", "text": "Pineal gland", "correct": false },
+        { "letter": "D", "text": "Kidneys only", "correct": false }
+      ],
+      "explanation": "Chemoreceptor input leads to signals to the diaphragm and intercostal muscles to control ventilation rate."
+    },
+    {
+      "id": "C3.1-033",
+      "level": "SL",
+      "statement": "C3.1.10",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "A gymnast maintains balance on a beam.",
+      "stem": "Which brain region is especially involved?",
+      "options": [
+        { "letter": "A", "text": "The cerebellum", "correct": true },
+        { "letter": "B", "text": "The pineal gland", "correct": false },
+        { "letter": "C", "text": "The medulla only", "correct": false },
+        { "letter": "D", "text": "The pituitary gland", "correct": false }
+      ],
+      "explanation": "The cerebellum coordinates skeletal muscle contraction and balance."
+    },
+    {
+      "id": "C3.1-034",
+      "level": "SL",
+      "statement": "C3.1.2",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Emergent properties of an organism arise from:",
+      "options": [
+        { "letter": "A", "text": "The integration of its subsystems", "correct": true },
+        { "letter": "B", "text": "A single molecule", "correct": false },
+        { "letter": "C", "text": "The absence of coordination", "correct": false },
+        { "letter": "D", "text": "One isolated cell", "correct": false }
+      ],
+      "explanation": "Emergent properties, such as effective predation, arise from the integration of cells, tissues, organs and systems."
+    },
+    {
+      "id": "C3.1-035",
+      "level": "SL",
+      "statement": "C3.1.13",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "The pituitary gland works closely with which brain region to control the endocrine system?",
+      "options": [
+        { "letter": "A", "text": "The hypothalamus", "correct": true },
+        { "letter": "B", "text": "The cerebellum", "correct": false },
+        { "letter": "C", "text": "The spinal cord", "correct": false },
+        { "letter": "D", "text": "The medulla", "correct": false }
+      ],
+      "explanation": "The hypothalamus and pituitary gland together control the endocrine system."
+    },
+    {
+      "id": "C3.1-036",
+      "level": "HL",
+      "statement": "C3.1.17",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "A student records how seedlings bend in response to a stimulus.",
+      "stem": "Recording the angle of curvature is an example of:",
+      "options": [
+        { "letter": "A", "text": "Quantitative data", "correct": true },
+        { "letter": "B", "text": "Qualitative data", "correct": false },
+        { "letter": "C", "text": "A hypothesis", "correct": false },
+        { "letter": "D", "text": "A control variable", "correct": false }
+      ],
+      "explanation": "Measuring the angle of curvature gives quantitative data; drawings of the response give qualitative data."
+    },
+    {
+      "id": "C3.1-037",
+      "level": "HL",
+      "statement": "C3.1.18",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "A plant shoot grows towards a light source coming from one side.",
+      "stem": "This directional growth response is called:",
+      "options": [
+        { "letter": "A", "text": "Positive phototropism", "correct": true },
+        { "letter": "B", "text": "Negative phototropism", "correct": false },
+        { "letter": "C", "text": "Geotropism", "correct": false },
+        { "letter": "D", "text": "Thigmotropism", "correct": false }
+      ],
+      "explanation": "Growth of a shoot towards lateral light is positive phototropism."
+    },
+    {
+      "id": "C3.1-038",
+      "level": "HL",
+      "statement": "C3.1.19",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Phytohormones are signalling chemicals that control:",
+      "options": [
+        { "letter": "A", "text": "Growth, development and responses to stimuli in plants", "correct": true },
+        { "letter": "B", "text": "Only animal reflexes", "correct": false },
+        { "letter": "C", "text": "Only gas exchange", "correct": false },
+        { "letter": "D", "text": "Nothing in plants", "correct": false }
+      ],
+      "explanation": "Phytohormones are plant signalling chemicals controlling growth, development and responses to stimuli."
+    },
+    {
+      "id": "C3.1-039",
+      "level": "HL",
+      "statement": "C3.1.20",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "Auxin can diffuse into plant cells but not out of them.",
+      "stem": "How is auxin then moved directionally through tissue?",
+      "options": [
+        { "letter": "A", "text": "By auxin efflux carriers positioned on one side of cells", "correct": true },
+        { "letter": "B", "text": "By free diffusion in all directions", "correct": false },
+        { "letter": "C", "text": "By the xylem only", "correct": false },
+        { "letter": "D", "text": "It cannot be moved", "correct": false }
+      ],
+      "explanation": "Auxin efflux carriers on one side of cells actively transport auxin from cell to cell, concentrating it in part of the plant."
+    },
+    {
+      "id": "C3.1-040",
+      "level": "HL",
+      "statement": "C3.1.20",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "All cells in a tissue concentrate their auxin efflux carriers on the same side.",
+      "stem": "The result is that auxin:",
+      "options": [
+        { "letter": "A", "text": "Is transported in one direction and becomes concentrated in part of the plant", "correct": true },
+        { "letter": "B", "text": "Is spread evenly everywhere", "correct": false },
+        { "letter": "C", "text": "Leaves the plant entirely", "correct": false },
+        { "letter": "D", "text": "Is destroyed", "correct": false }
+      ],
+      "explanation": "Coordinated positioning of efflux carriers moves auxin directionally, concentrating it in a specific region."
+    },
+    {
+      "id": "C3.1-041",
+      "level": "HL",
+      "statement": "C3.1.21",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "Auxin promotes secretion of hydrogen ions into the apoplast.",
+      "stem": "How does this promote cell growth?",
+      "options": [
+        { "letter": "A", "text": "Acidifying the wall loosens cross-links, allowing elongation", "correct": true },
+        { "letter": "B", "text": "It makes the wall rigid", "correct": false },
+        { "letter": "C", "text": "It removes all water", "correct": false },
+        { "letter": "D", "text": "It stops growth", "correct": false }
+      ],
+      "explanation": "Auxin-driven acidification of the cell wall loosens cross-links between cellulose molecules, facilitating cell elongation."
+    },
+    {
+      "id": "C3.1-042",
+      "level": "HL",
+      "statement": "C3.1.21",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Concentration gradients of auxin cause phototropism by producing:",
+      "options": [
+        { "letter": "A", "text": "Differences in growth rate on the two sides of a shoot", "correct": true },
+        { "letter": "B", "text": "Equal growth on all sides", "correct": false },
+        { "letter": "C", "text": "No growth at all", "correct": false },
+        { "letter": "D", "text": "Loss of the shoot", "correct": false }
+      ],
+      "explanation": "Auxin gradients cause the differences in growth rate needed for phototropism, bending the shoot toward light."
+    },
+    {
+      "id": "C3.1-043",
+      "level": "HL",
+      "statement": "C3.1.22",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "Root tips produce cytokinin and shoot tips produce auxin.",
+      "stem": "These phytohormones are transported so that they:",
+      "options": [
+        { "letter": "A", "text": "Cytokinin moves to shoots and auxin moves to roots, integrating growth", "correct": true },
+        { "letter": "B", "text": "Both stay where they are made", "correct": false },
+        { "letter": "C", "text": "Both leave the plant", "correct": false },
+        { "letter": "D", "text": "Neither is transported", "correct": false }
+      ],
+      "explanation": "Cytokinin from root tips moves to shoots and auxin from shoot tips moves to roots, integrating root and shoot growth."
+    },
+    {
+      "id": "C3.1-044",
+      "level": "HL",
+      "statement": "C3.1.23",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "Ethylene stimulates fruit ripening, and ripening stimulates more ethylene production.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Positive feedback", "correct": true },
+        { "letter": "B", "text": "Negative feedback", "correct": false },
+        { "letter": "C", "text": "Competitive inhibition", "correct": false },
+        { "letter": "D", "text": "Saltatory conduction", "correct": false }
+      ],
+      "explanation": "Ethylene and ripening reinforce each other, an example of positive feedback that makes ripening rapid and synchronized."
+    },
+    {
+      "id": "C3.1-045",
+      "level": "HL",
+      "statement": "C3.1.23",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "The benefit of positive feedback in fruit ripening is that ripening becomes:",
+      "options": [
+        { "letter": "A", "text": "Rapid and synchronized", "correct": true },
+        { "letter": "B", "text": "Slow and staggered", "correct": false },
+        { "letter": "C", "text": "Permanently prevented", "correct": false },
+        { "letter": "D", "text": "Random", "correct": false }
+      ],
+      "explanation": "Positive feedback between ethylene and ripening ensures fruit ripening is rapid and synchronized."
+    },
+    {
+      "id": "C3.1-046",
+      "level": "HL",
+      "statement": "C3.1.17",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "A student draws seedlings to record tropic responses.",
+      "stem": "These drawings are:",
+      "options": [
+        { "letter": "A", "text": "Qualitative observations", "correct": true },
+        { "letter": "B", "text": "Quantitative measurements", "correct": false },
+        { "letter": "C", "text": "A control variable", "correct": false },
+        { "letter": "D", "text": "A hypothesis", "correct": false }
+      ],
+      "explanation": "Diagrams recording observations are qualitative data; measured angles of curvature would be quantitative."
+    },
+    {
+      "id": "C3.1-047",
+      "level": "HL",
+      "statement": "C3.1.19",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Which statement about phytohormones is correct?",
+      "options": [
+        { "letter": "A", "text": "A variety of chemicals act as phytohormones in plants", "correct": true },
+        { "letter": "B", "text": "Only one chemical acts as a phytohormone", "correct": false },
+        { "letter": "C", "text": "Phytohormones are found only in animals", "correct": false },
+        { "letter": "D", "text": "Phytohormones do not affect growth", "correct": false }
+      ],
+      "explanation": "A variety of chemicals serve as phytohormones, controlling growth, development and responses to stimuli."
+    },
+    {
+      "id": "C3.1-048",
+      "level": "HL",
+      "statement": "C3.1.20",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Auxin efflux carriers are an example of maintaining:",
+      "options": [
+        { "letter": "A", "text": "Concentration gradients of a phytohormone", "correct": true },
+        { "letter": "B", "text": "The resting potential", "correct": false },
+        { "letter": "C", "text": "Blood pressure", "correct": false },
+        { "letter": "D", "text": "Body temperature", "correct": false }
+      ],
+      "explanation": "Auxin efflux carriers maintain concentration gradients of the phytohormone auxin across plant tissue."
+    },
+    {
+      "id": "C3.1-049",
+      "level": "HL",
+      "statement": "C3.1.22",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "",
+      "stem": "Interactions between auxin and cytokinin help to:",
+      "options": [
+        { "letter": "A", "text": "Regulate and integrate root and shoot growth", "correct": true },
+        { "letter": "B", "text": "Stop all growth", "correct": false },
+        { "letter": "C", "text": "Cause fruit ripening only", "correct": false },
+        { "letter": "D", "text": "Produce action potentials", "correct": false }
+      ],
+      "explanation": "Auxin and cytokinin interact to ensure root and shoot growth are integrated."
+    },
+    {
+      "id": "C3.1-050",
+      "level": "HL",
+      "statement": "C3.1.18",
+      "category": "C3.1 Integration of body systems",
+      "scenario": "A shoot bends towards light because cells on the shaded side elongate more.",
+      "stem": "This difference in growth is driven by:",
+      "options": [
+        { "letter": "A", "text": "A higher auxin concentration on the shaded side", "correct": true },
+        { "letter": "B", "text": "A lack of any auxin", "correct": false },
+        { "letter": "C", "text": "Equal auxin on both sides", "correct": false },
+        { "letter": "D", "text": "Ethylene only", "correct": false }
+      ],
+      "explanation": "Auxin accumulates on the shaded side, promoting greater elongation there so the shoot bends toward the light."
+    }
+  ]
+}

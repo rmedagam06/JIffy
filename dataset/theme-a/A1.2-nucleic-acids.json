@@ -1,0 +1,760 @@
+{
+  "id": "A1.2",
+  "name": "Nucleic acids",
+  "theme": "A",
+  "themeName": "Unity and diversity",
+  "levelOfOrganization": "Molecules",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "A1.2-001",
+      "level": "SL",
+      "statement": "A1.2.1",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "What is the genetic material of all living organisms?",
+      "options": [
+        { "letter": "A", "text": "DNA", "correct": true },
+        { "letter": "B", "text": "Protein", "correct": false },
+        { "letter": "C", "text": "Lipid", "correct": false },
+        { "letter": "D", "text": "Carbohydrate", "correct": false }
+      ],
+      "explanation": "DNA is the genetic material of all living organisms; some viruses use RNA, but viruses are not considered living."
+    },
+    {
+      "id": "A1.2-002",
+      "level": "SL",
+      "statement": "A1.2.1",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "A particular virus stores its genetic information as RNA.",
+      "stem": "What does this tell us about the virus?",
+      "options": [
+        { "letter": "A", "text": "It is not considered a living organism", "correct": true },
+        { "letter": "B", "text": "It must be the ancestor of all cells", "correct": false },
+        { "letter": "C", "text": "It cannot reproduce at all", "correct": false },
+        { "letter": "D", "text": "It has no genetic material", "correct": false }
+      ],
+      "explanation": "Some viruses use RNA as their genetic material, but viruses are not considered to be living organisms."
+    },
+    {
+      "id": "A1.2-003",
+      "level": "SL",
+      "statement": "A1.2.2",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Which three components make up a single nucleotide?",
+      "options": [
+        { "letter": "A", "text": "A phosphate, a pentose sugar and a nitrogenous base", "correct": true },
+        { "letter": "B", "text": "An amino acid, a sugar and a lipid", "correct": false },
+        { "letter": "C", "text": "Two sugars and one base", "correct": false },
+        { "letter": "D", "text": "A fatty acid, glycerol and a phosphate", "correct": false }
+      ],
+      "explanation": "Each nucleotide is made of a phosphate group, a pentose (5-carbon) sugar and a nitrogenous base."
+    },
+    {
+      "id": "A1.2-004",
+      "level": "SL",
+      "statement": "A1.2.2",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "In diagrams, a pentagon is often used to represent one part of a nucleotide.",
+      "stem": "Which component does the pentagon represent?",
+      "options": [
+        { "letter": "A", "text": "The pentose sugar", "correct": true },
+        { "letter": "B", "text": "The phosphate", "correct": false },
+        { "letter": "C", "text": "The nitrogenous base", "correct": false },
+        { "letter": "D", "text": "A hydrogen bond", "correct": false }
+      ],
+      "explanation": "By convention circles represent phosphates, pentagons represent pentose sugars and rectangles represent bases."
+    },
+    {
+      "id": "A1.2-005",
+      "level": "SL",
+      "statement": "A1.2.3",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "What forms the 'backbone' of a DNA or RNA strand?",
+      "options": [
+        { "letter": "A", "text": "Alternating sugar and phosphate groups", "correct": true },
+        { "letter": "B", "text": "Alternating bases", "correct": false },
+        { "letter": "C", "text": "Hydrogen bonds between strands", "correct": false },
+        { "letter": "D", "text": "Amino acids joined in a chain", "correct": false }
+      ],
+      "explanation": "Sugar–phosphate bonding creates a continuous covalently bonded chain forming the strong backbone of each strand."
+    },
+    {
+      "id": "A1.2-006",
+      "level": "SL",
+      "statement": "A1.2.3",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "The bonds joining nucleotides along the sugar–phosphate backbone are:",
+      "options": [
+        { "letter": "A", "text": "Covalent bonds", "correct": true },
+        { "letter": "B", "text": "Hydrogen bonds", "correct": false },
+        { "letter": "C", "text": "Ionic bonds", "correct": false },
+        { "letter": "D", "text": "Peptide bonds", "correct": false }
+      ],
+      "explanation": "The backbone is a continuous chain of covalently bonded atoms, giving each strand strength."
+    },
+    {
+      "id": "A1.2-007",
+      "level": "SL",
+      "statement": "A1.2.4",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Which four nitrogenous bases are found in DNA?",
+      "options": [
+        { "letter": "A", "text": "Adenine, thymine, guanine, cytosine", "correct": true },
+        { "letter": "B", "text": "Adenine, uracil, guanine, cytosine", "correct": false },
+        { "letter": "C", "text": "Glycine, serine, lysine, valine", "correct": false },
+        { "letter": "D", "text": "Ribose, deoxyribose, phosphate, sugar", "correct": false }
+      ],
+      "explanation": "DNA contains adenine, thymine, guanine and cytosine; RNA replaces thymine with uracil."
+    },
+    {
+      "id": "A1.2-008",
+      "level": "SL",
+      "statement": "A1.2.4",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "The sequence of bases along a strand of DNA is important because it:",
+      "options": [
+        { "letter": "A", "text": "Forms the basis of a genetic code", "correct": true },
+        { "letter": "B", "text": "Determines the sugar used", "correct": false },
+        { "letter": "C", "text": "Sets the number of phosphates", "correct": false },
+        { "letter": "D", "text": "Has no biological significance", "correct": false }
+      ],
+      "explanation": "The bases form the basis of a code, storing genetic information in their sequence."
+    },
+    {
+      "id": "A1.2-009",
+      "level": "SL",
+      "statement": "A1.2.5",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "RNA is a polymer formed by joining nucleotide monomers through which type of reaction?",
+      "options": [
+        { "letter": "A", "text": "Condensation", "correct": true },
+        { "letter": "B", "text": "Hydrolysis", "correct": false },
+        { "letter": "C", "text": "Oxidation", "correct": false },
+        { "letter": "D", "text": "Neutralisation", "correct": false }
+      ],
+      "explanation": "RNA is a polymer formed by condensation reactions that link nucleotide monomers, releasing water."
+    },
+    {
+      "id": "A1.2-010",
+      "level": "SL",
+      "statement": "A1.2.6",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "In DNA, adenine always pairs with:",
+      "options": [
+        { "letter": "A", "text": "Thymine", "correct": true },
+        { "letter": "B", "text": "Guanine", "correct": false },
+        { "letter": "C", "text": "Cytosine", "correct": false },
+        { "letter": "D", "text": "Uracil", "correct": false }
+      ],
+      "explanation": "Complementary base pairing in DNA pairs adenine with thymine, and guanine with cytosine."
+    },
+    {
+      "id": "A1.2-011",
+      "level": "SL",
+      "statement": "A1.2.6",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "In DNA, guanine pairs with:",
+      "options": [
+        { "letter": "A", "text": "Cytosine", "correct": true },
+        { "letter": "B", "text": "Thymine", "correct": false },
+        { "letter": "C", "text": "Adenine", "correct": false },
+        { "letter": "D", "text": "Uracil", "correct": false }
+      ],
+      "explanation": "Guanine pairs with cytosine through hydrogen bonding, one of the two complementary base pairs in DNA."
+    },
+    {
+      "id": "A1.2-012",
+      "level": "SL",
+      "statement": "A1.2.6",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "The two strands of a DNA molecule are described as antiparallel. This means they:",
+      "options": [
+        { "letter": "A", "text": "Run in opposite directions", "correct": true },
+        { "letter": "B", "text": "Run in the same direction", "correct": false },
+        { "letter": "C", "text": "Are identical in sequence", "correct": false },
+        { "letter": "D", "text": "Are not joined together", "correct": false }
+      ],
+      "explanation": "The two DNA strands are antiparallel, running in opposite directions to each other."
+    },
+    {
+      "id": "A1.2-013",
+      "level": "SL",
+      "statement": "A1.2.6",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "The two strands of DNA are held together by:",
+      "options": [
+        { "letter": "A", "text": "Hydrogen bonds between complementary base pairs", "correct": true },
+        { "letter": "B", "text": "Covalent bonds between the bases", "correct": false },
+        { "letter": "C", "text": "Ionic bonds between phosphates", "correct": false },
+        { "letter": "D", "text": "Peptide bonds", "correct": false }
+      ],
+      "explanation": "Hydrogen bonds between complementary base pairs link the two antiparallel strands of the double helix."
+    },
+    {
+      "id": "A1.2-014",
+      "level": "SL",
+      "statement": "A1.2.7",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Which base is found in RNA but NOT in DNA?",
+      "options": [
+        { "letter": "A", "text": "Uracil", "correct": true },
+        { "letter": "B", "text": "Thymine", "correct": false },
+        { "letter": "C", "text": "Adenine", "correct": false },
+        { "letter": "D", "text": "Guanine", "correct": false }
+      ],
+      "explanation": "RNA contains uracil in place of the thymine found in DNA."
+    },
+    {
+      "id": "A1.2-015",
+      "level": "SL",
+      "statement": "A1.2.7",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Which pentose sugar is found in DNA?",
+      "options": [
+        { "letter": "A", "text": "Deoxyribose", "correct": true },
+        { "letter": "B", "text": "Ribose", "correct": false },
+        { "letter": "C", "text": "Glucose", "correct": false },
+        { "letter": "D", "text": "Fructose", "correct": false }
+      ],
+      "explanation": "DNA contains deoxyribose, while RNA contains ribose."
+    },
+    {
+      "id": "A1.2-016",
+      "level": "SL",
+      "statement": "A1.2.7",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Which row correctly contrasts DNA and RNA?",
+      "options": [
+        { "letter": "A", "text": "DNA: double-stranded, deoxyribose, thymine; RNA: single-stranded, ribose, uracil", "correct": true },
+        { "letter": "B", "text": "DNA: single-stranded, ribose, uracil; RNA: double-stranded, deoxyribose, thymine", "correct": false },
+        { "letter": "C", "text": "Both are double-stranded and contain uracil", "correct": false },
+        { "letter": "D", "text": "Both contain deoxyribose and thymine", "correct": false }
+      ],
+      "explanation": "DNA is double-stranded with deoxyribose and thymine; RNA is usually single-stranded with ribose and uracil."
+    },
+    {
+      "id": "A1.2-017",
+      "level": "SL",
+      "statement": "A1.2.7",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Compared with DNA, a typical RNA molecule has:",
+      "options": [
+        { "letter": "A", "text": "One strand instead of two", "correct": true },
+        { "letter": "B", "text": "Three strands", "correct": false },
+        { "letter": "C", "text": "No bases at all", "correct": false },
+        { "letter": "D", "text": "Deoxyribose sugar", "correct": false }
+      ],
+      "explanation": "RNA is usually single-stranded, whereas DNA is double-stranded."
+    },
+    {
+      "id": "A1.2-018",
+      "level": "SL",
+      "statement": "A1.2.8",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Complementary base pairing is essential because it allows genetic information to be:",
+      "options": [
+        { "letter": "A", "text": "Replicated and expressed accurately", "correct": true },
+        { "letter": "B", "text": "Destroyed after use", "correct": false },
+        { "letter": "C", "text": "Converted into lipids", "correct": false },
+        { "letter": "D", "text": "Stored without any code", "correct": false }
+      ],
+      "explanation": "Complementary base pairing, based on hydrogen bonding, allows genetic information to be replicated and expressed."
+    },
+    {
+      "id": "A1.2-019",
+      "level": "SL",
+      "statement": "A1.2.8",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "One DNA strand reads 5'-ATGC-3'.",
+      "stem": "What is the complementary base sequence?",
+      "options": [
+        { "letter": "A", "text": "TACG", "correct": true },
+        { "letter": "B", "text": "ATGC", "correct": false },
+        { "letter": "C", "text": "UACG", "correct": false },
+        { "letter": "D", "text": "CGTA", "correct": false }
+      ],
+      "explanation": "Applying A–T and G–C pairing, ATGC pairs with TACG."
+    },
+    {
+      "id": "A1.2-020",
+      "level": "SL",
+      "statement": "A1.2.9",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Why does DNA have a limitless capacity for storing information?",
+      "options": [
+        { "letter": "A", "text": "Any length of molecule and any base sequence is possible", "correct": true },
+        { "letter": "B", "text": "It contains an infinite number of sugars", "correct": false },
+        { "letter": "C", "text": "It uses only one base", "correct": false },
+        { "letter": "D", "text": "It never changes sequence", "correct": false }
+      ],
+      "explanation": "Because a DNA molecule can be of any length and have any base sequence, its capacity to store information is effectively limitless."
+    },
+    {
+      "id": "A1.2-021",
+      "level": "SL",
+      "statement": "A1.2.9",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "DNA is said to store information 'with great economy'. This refers to:",
+      "options": [
+        { "letter": "A", "text": "Storing enormous amounts of data in a very small molecule", "correct": true },
+        { "letter": "B", "text": "Using the cheapest atoms available", "correct": false },
+        { "letter": "C", "text": "Making the fewest possible cells", "correct": false },
+        { "letter": "D", "text": "Storing no more than four instructions", "correct": false }
+      ],
+      "explanation": "DNA stores an enormous quantity of information in an extremely compact form, i.e. with great economy."
+    },
+    {
+      "id": "A1.2-022",
+      "level": "SL",
+      "statement": "A1.2.10",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "The same genetic code is used by bacteria, plants and animals.",
+      "stem": "This conservation of the genetic code is evidence for:",
+      "options": [
+        { "letter": "A", "text": "Universal common ancestry", "correct": true },
+        { "letter": "B", "text": "Separate independent origins for each kingdom", "correct": false },
+        { "letter": "C", "text": "That DNA is not the genetic material", "correct": false },
+        { "letter": "D", "text": "That code changes randomly each generation", "correct": false }
+      ],
+      "explanation": "The genetic code being conserved across all life forms is evidence of universal common ancestry."
+    },
+    {
+      "id": "A1.2-023",
+      "level": "SL",
+      "statement": "A1.2.2",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "In a diagram, a circle represents part of a nucleotide.",
+      "stem": "Which component is the circle used for?",
+      "options": [
+        { "letter": "A", "text": "The phosphate", "correct": true },
+        { "letter": "B", "text": "The pentose sugar", "correct": false },
+        { "letter": "C", "text": "The base", "correct": false },
+        { "letter": "D", "text": "The hydrogen bond", "correct": false }
+      ],
+      "explanation": "By convention, circles represent phosphates, pentagons sugars, and rectangles bases."
+    },
+    {
+      "id": "A1.2-024",
+      "level": "SL",
+      "statement": "A1.2.5",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "The monomers that join by condensation to form RNA are:",
+      "options": [
+        { "letter": "A", "text": "Nucleotides", "correct": true },
+        { "letter": "B", "text": "Amino acids", "correct": false },
+        { "letter": "C", "text": "Monosaccharides", "correct": false },
+        { "letter": "D", "text": "Fatty acids", "correct": false }
+      ],
+      "explanation": "RNA is a polymer of nucleotide monomers joined by condensation."
+    },
+    {
+      "id": "A1.2-025",
+      "level": "SL",
+      "statement": "A1.2.6",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "A DNA molecule has 30% adenine.",
+      "stem": "What percentage of its bases are thymine?",
+      "options": [
+        { "letter": "A", "text": "30%", "correct": true },
+        { "letter": "B", "text": "20%", "correct": false },
+        { "letter": "C", "text": "70%", "correct": false },
+        { "letter": "D", "text": "15%", "correct": false }
+      ],
+      "explanation": "Because adenine pairs with thymine, their percentages are equal, so thymine is also 30%."
+    },
+    {
+      "id": "A1.2-026",
+      "level": "SL",
+      "statement": "A1.2.6",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "A DNA molecule has 30% adenine and therefore 30% thymine.",
+      "stem": "What percentage of its bases are cytosine?",
+      "options": [
+        { "letter": "A", "text": "20%", "correct": true },
+        { "letter": "B", "text": "30%", "correct": false },
+        { "letter": "C", "text": "40%", "correct": false },
+        { "letter": "D", "text": "10%", "correct": false }
+      ],
+      "explanation": "A + T = 60%, leaving 40% for G + C; since G = C, cytosine is 20%."
+    },
+    {
+      "id": "A1.2-027",
+      "level": "SL",
+      "statement": "A1.2.1",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Which statement about nucleic acids is correct?",
+      "options": [
+        { "letter": "A", "text": "All living organisms use DNA as their genetic material", "correct": true },
+        { "letter": "B", "text": "All living organisms use RNA as their genetic material", "correct": false },
+        { "letter": "C", "text": "Living organisms use protein as their genetic material", "correct": false },
+        { "letter": "D", "text": "Living organisms have no genetic material", "correct": false }
+      ],
+      "explanation": "DNA is the genetic material of all living organisms; only some non-living viruses use RNA."
+    },
+    {
+      "id": "A1.2-028",
+      "level": "SL",
+      "statement": "A1.2.3",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Why is the sugar–phosphate backbone described as 'strong'?",
+      "options": [
+        { "letter": "A", "text": "It is a continuous chain of covalent bonds", "correct": true },
+        { "letter": "B", "text": "It is held together only by weak hydrogen bonds", "correct": false },
+        { "letter": "C", "text": "It contains metal atoms", "correct": false },
+        { "letter": "D", "text": "It is made of protein", "correct": false }
+      ],
+      "explanation": "The backbone's continuous covalent bonding makes it a strong structural framework for each strand."
+    },
+    {
+      "id": "A1.2-029",
+      "level": "SL",
+      "statement": "A1.2.7",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Ribose differs from deoxyribose because ribose has:",
+      "options": [
+        { "letter": "A", "text": "One more oxygen atom (an extra –OH group)", "correct": true },
+        { "letter": "B", "text": "One fewer carbon atom", "correct": false },
+        { "letter": "C", "text": "A nitrogen base attached", "correct": false },
+        { "letter": "D", "text": "No oxygen at all", "correct": false }
+      ],
+      "explanation": "Ribose has an –OH group where deoxyribose has only –H, i.e. ribose has one extra oxygen."
+    },
+    {
+      "id": "A1.2-030",
+      "level": "SL",
+      "statement": "A1.2.10",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "The near-universal genetic code supports the idea that all life:",
+      "options": [
+        { "letter": "A", "text": "Descends from a common ancestor", "correct": true },
+        { "letter": "B", "text": "Arose separately many times", "correct": false },
+        { "letter": "C", "text": "Does not use DNA", "correct": false },
+        { "letter": "D", "text": "Has completely different codes", "correct": false }
+      ],
+      "explanation": "Conservation of the genetic code across all life forms is evidence of universal common ancestry."
+    },
+    {
+      "id": "A1.2-031",
+      "level": "SL",
+      "statement": "A1.2.4",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Nitrogenous bases are attached to which part of a nucleotide?",
+      "options": [
+        { "letter": "A", "text": "The pentose sugar", "correct": true },
+        { "letter": "B", "text": "The phosphate", "correct": false },
+        { "letter": "C", "text": "Another base", "correct": false },
+        { "letter": "D", "text": "A hydrogen bond", "correct": false }
+      ],
+      "explanation": "The nitrogenous base is bonded to the pentose sugar, which is also bonded to the phosphate."
+    },
+    {
+      "id": "A1.2-032",
+      "level": "SL",
+      "statement": "A1.2.9",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "Two organisms have DNA of the same length but different base sequences.",
+      "stem": "This is possible because:",
+      "options": [
+        { "letter": "A", "text": "Any base sequence is possible for a given length of DNA", "correct": true },
+        { "letter": "B", "text": "Length always determines the sequence", "correct": false },
+        { "letter": "C", "text": "DNA can only ever have one sequence", "correct": false },
+        { "letter": "D", "text": "Base sequence does not vary between organisms", "correct": false }
+      ],
+      "explanation": "Diversity comes from the fact that any base sequence is possible in a molecule of any length."
+    },
+    {
+      "id": "A1.2-033",
+      "level": "SL",
+      "statement": "A1.2.5",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "During condensation to build a nucleic acid polymer, what small molecule is released?",
+      "options": [
+        { "letter": "A", "text": "Water", "correct": true },
+        { "letter": "B", "text": "Carbon dioxide", "correct": false },
+        { "letter": "C", "text": "Oxygen", "correct": false },
+        { "letter": "D", "text": "Ammonia", "correct": false }
+      ],
+      "explanation": "Condensation reactions join monomers and release a molecule of water each time."
+    },
+    {
+      "id": "A1.2-034",
+      "level": "SL",
+      "statement": "A1.2.6",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "In a diagram of DNA structure, students are expected to draw the two strands as:",
+      "options": [
+        { "letter": "A", "text": "Antiparallel, with A–T and G–C base pairs", "correct": true },
+        { "letter": "B", "text": "Parallel, with A–G and T–C pairs", "correct": false },
+        { "letter": "C", "text": "A single strand only", "correct": false },
+        { "letter": "D", "text": "Three strands twisted together", "correct": false }
+      ],
+      "explanation": "Students should draw two antiparallel strands with adenine paired to thymine and guanine paired to cytosine."
+    },
+    {
+      "id": "A1.2-035",
+      "level": "SL",
+      "statement": "A1.2.1",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Which statement explains why viruses are not classed as living even though they contain nucleic acid?",
+      "options": [
+        { "letter": "A", "text": "They rely on host cells and are not independent self-sustaining units", "correct": true },
+        { "letter": "B", "text": "They contain no genetic material", "correct": false },
+        { "letter": "C", "text": "They are larger than all cells", "correct": false },
+        { "letter": "D", "text": "They use protein instead of nucleic acid", "correct": false }
+      ],
+      "explanation": "Although viruses contain DNA or RNA, they are not living because they cannot carry out life processes without a host cell."
+    },
+    {
+      "id": "A1.2-036",
+      "level": "SL",
+      "statement": "A1.2.8",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Complementary base pairing depends on which type of bond between bases?",
+      "options": [
+        { "letter": "A", "text": "Hydrogen bonds", "correct": true },
+        { "letter": "B", "text": "Covalent bonds", "correct": false },
+        { "letter": "C", "text": "Ionic bonds", "correct": false },
+        { "letter": "D", "text": "Peptide bonds", "correct": false }
+      ],
+      "explanation": "Complementarity is based on hydrogen bonding between the paired bases."
+    },
+    {
+      "id": "A1.2-037",
+      "level": "SL",
+      "statement": "A1.2.4",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "How many different nitrogenous bases are normally found in a DNA molecule?",
+      "options": [
+        { "letter": "A", "text": "Four", "correct": true },
+        { "letter": "B", "text": "Two", "correct": false },
+        { "letter": "C", "text": "Twenty", "correct": false },
+        { "letter": "D", "text": "Sixty-four", "correct": false }
+      ],
+      "explanation": "DNA uses four bases (A, T, G, C), whose sequence forms the genetic code."
+    },
+    {
+      "id": "A1.2-038",
+      "level": "SL",
+      "statement": "A1.2.2",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "A pentose sugar is one that contains how many carbon atoms?",
+      "options": [
+        { "letter": "A", "text": "Five", "correct": true },
+        { "letter": "B", "text": "Six", "correct": false },
+        { "letter": "C", "text": "Three", "correct": false },
+        { "letter": "D", "text": "Twelve", "correct": false }
+      ],
+      "explanation": "'Pentose' means a five-carbon sugar, such as ribose or deoxyribose."
+    },
+    {
+      "id": "A1.2-039",
+      "level": "SL",
+      "statement": "A1.2.7",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Which of the following is an example of a nucleic acid?",
+      "options": [
+        { "letter": "A", "text": "Messenger RNA", "correct": true },
+        { "letter": "B", "text": "Glycogen", "correct": false },
+        { "letter": "C", "text": "Collagen", "correct": false },
+        { "letter": "D", "text": "A triglyceride", "correct": false }
+      ],
+      "explanation": "Messenger RNA is a nucleic acid; glycogen is a carbohydrate, collagen a protein and triglyceride a lipid."
+    },
+    {
+      "id": "A1.2-040",
+      "level": "SL",
+      "statement": "A1.2.9",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "The vast diversity of possible DNA base sequences is important because it allows:",
+      "options": [
+        { "letter": "A", "text": "Storage of the huge variety of genetic information found in life", "correct": true },
+        { "letter": "B", "text": "DNA to avoid ever mutating", "correct": false },
+        { "letter": "C", "text": "All organisms to have identical genomes", "correct": false },
+        { "letter": "D", "text": "Proteins to replace DNA", "correct": false }
+      ],
+      "explanation": "The limitless number of possible sequences underlies the enormous diversity of genetic information across life."
+    },
+    {
+      "id": "A1.2-041",
+      "level": "HL",
+      "statement": "A1.2.11",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "The directionality of a DNA strand is described using which notation?",
+      "options": [
+        { "letter": "A", "text": "5' to 3'", "correct": true },
+        { "letter": "B", "text": "A to Z", "correct": false },
+        { "letter": "C", "text": "N to C terminus", "correct": false },
+        { "letter": "D", "text": "1 to 100", "correct": false }
+      ],
+      "explanation": "Directionality of nucleic acids is described by 5' to 3' linkages in the sugar–phosphate backbone."
+    },
+    {
+      "id": "A1.2-042",
+      "level": "HL",
+      "statement": "A1.2.11",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Why is the 5'-to-3' directionality of nucleic acids significant?",
+      "options": [
+        { "letter": "A", "text": "It matters for replication, transcription and translation", "correct": true },
+        { "letter": "B", "text": "It determines the colour of DNA", "correct": false },
+        { "letter": "C", "text": "It changes which sugar is used", "correct": false },
+        { "letter": "D", "text": "It has no functional consequence", "correct": false }
+      ],
+      "explanation": "The 5' to 3' directionality is significant for the processes of replication, transcription and translation."
+    },
+    {
+      "id": "A1.2-043",
+      "level": "HL",
+      "statement": "A1.2.12",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "In the DNA double helix, each base pair consists of:",
+      "options": [
+        { "letter": "A", "text": "One purine bonded to one pyrimidine", "correct": true },
+        { "letter": "B", "text": "Two purines", "correct": false },
+        { "letter": "C", "text": "Two pyrimidines", "correct": false },
+        { "letter": "D", "text": "Two phosphates", "correct": false }
+      ],
+      "explanation": "Purine-to-pyrimidine pairing (A–T and C–G) gives each pair equal length, keeping the helix a uniform width."
+    },
+    {
+      "id": "A1.2-044",
+      "level": "HL",
+      "statement": "A1.2.12",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Why does the DNA helix have the same three-dimensional shape regardless of its base sequence?",
+      "options": [
+        { "letter": "A", "text": "A–T and C–G pairs are of equal length", "correct": true },
+        { "letter": "B", "text": "All bases are purines", "correct": false },
+        { "letter": "C", "text": "The backbone changes for each sequence", "correct": false },
+        { "letter": "D", "text": "Hydrogen bonds vary in length", "correct": false }
+      ],
+      "explanation": "Because purine–pyrimidine pairs are equal in length, the helix keeps the same width and structure whatever the sequence."
+    },
+    {
+      "id": "A1.2-045",
+      "level": "HL",
+      "statement": "A1.2.13",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "A nucleosome consists of DNA wrapped around a core of how many histone proteins?",
+      "options": [
+        { "letter": "A", "text": "Eight", "correct": true },
+        { "letter": "B", "text": "Two", "correct": false },
+        { "letter": "C", "text": "Four", "correct": false },
+        { "letter": "D", "text": "Sixteen", "correct": false }
+      ],
+      "explanation": "A nucleosome is DNA wrapped around a core of eight histone proteins, with an additional histone attached to linker DNA."
+    },
+    {
+      "id": "A1.2-046",
+      "level": "HL",
+      "statement": "A1.2.13",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "In a nucleosome, the additional (ninth) histone protein is associated with:",
+      "options": [
+        { "letter": "A", "text": "The linker DNA, helping hold the core together", "correct": true },
+        { "letter": "B", "text": "The phosphate backbone of RNA", "correct": false },
+        { "letter": "C", "text": "The ribosome", "correct": false },
+        { "letter": "D", "text": "The cell membrane", "correct": false }
+      ],
+      "explanation": "An additional histone protein attached to linker DNA helps hold the core of eight histones together."
+    },
+    {
+      "id": "A1.2-047",
+      "level": "HL",
+      "statement": "A1.2.14",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "The Hershey–Chase experiment used radioactive labels on bacteriophages.",
+      "stem": "What did this experiment provide evidence for?",
+      "options": [
+        { "letter": "A", "text": "That DNA, not protein, is the genetic material", "correct": true },
+        { "letter": "B", "text": "That protein is the genetic material", "correct": false },
+        { "letter": "C", "text": "That RNA cannot store information", "correct": false },
+        { "letter": "D", "text": "That viruses are living organisms", "correct": false }
+      ],
+      "explanation": "The Hershey–Chase experiment supported the conclusion that DNA is the genetic material passed into cells."
+    },
+    {
+      "id": "A1.2-048",
+      "level": "HL",
+      "statement": "A1.2.14",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "The Hershey–Chase experiment became possible largely because of which technological development?",
+      "options": [
+        { "letter": "A", "text": "The availability of radioisotopes as research tools", "correct": true },
+        { "letter": "B", "text": "The invention of the light microscope", "correct": false },
+        { "letter": "C", "text": "The discovery of enzymes", "correct": false },
+        { "letter": "D", "text": "The sequencing of the human genome", "correct": false }
+      ],
+      "explanation": "When radioisotopes became available, they made the labelling used in the Hershey–Chase experiment possible."
+    },
+    {
+      "id": "A1.2-049",
+      "level": "HL",
+      "statement": "A1.2.15",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "Chargaff measured the amounts of bases in DNA from many species.",
+      "stem": "What pattern did Chargaff's data reveal?",
+      "options": [
+        { "letter": "A", "text": "The amount of purines equals the amount of pyrimidines (A=T, G=C)", "correct": true },
+        { "letter": "B", "text": "All four bases are always present in equal amounts", "correct": false },
+        { "letter": "C", "text": "Adenine always equals guanine", "correct": false },
+        { "letter": "D", "text": "There is no relationship between base amounts", "correct": false }
+      ],
+      "explanation": "Chargaff found the amounts of pyrimidine and purine bases were equal (A=T and G=C) across diverse life forms."
+    },
+    {
+      "id": "A1.2-050",
+      "level": "HL",
+      "statement": "A1.2.12",
+      "category": "A1.2 Nucleic acids",
+      "scenario": "",
+      "stem": "Purine–pyrimidine pairing contributes to DNA helix stability by ensuring that:",
+      "options": [
+        { "letter": "A", "text": "The distance across the helix stays constant", "correct": true },
+        { "letter": "B", "text": "The two strands run in the same direction", "correct": false },
+        { "letter": "C", "text": "The bases are joined by covalent bonds", "correct": false },
+        { "letter": "D", "text": "The helix width changes with each pair", "correct": false }
+      ],
+      "explanation": "Pairing a larger purine with a smaller pyrimidine keeps every rung the same length, giving a stable, uniform helix."
+    }
+  ]
+}

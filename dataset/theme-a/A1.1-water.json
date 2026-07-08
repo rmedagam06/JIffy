@@ -1,0 +1,760 @@
+{
+  "id": "A1.1",
+  "name": "Water",
+  "theme": "A",
+  "themeName": "Unity and diversity",
+  "levelOfOrganization": "Molecules",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "A1.1-001",
+      "level": "SL",
+      "statement": "A1.1.1",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Where are the first cells thought to have originated?",
+      "options": [
+        { "letter": "A", "text": "In water", "correct": true },
+        { "letter": "B", "text": "On dry land surfaces", "correct": false },
+        { "letter": "C", "text": "Inside rock crystals", "correct": false },
+        { "letter": "D", "text": "In the upper atmosphere", "correct": false }
+      ],
+      "explanation": "The first cells originated in water, which remains the medium in which most processes of life occur."
+    },
+    {
+      "id": "A1.1-002",
+      "level": "SL",
+      "statement": "A1.1.2",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Why is a water molecule polar?",
+      "options": [
+        { "letter": "A", "text": "Electrons are shared unequally between oxygen and hydrogen", "correct": true },
+        { "letter": "B", "text": "It carries an overall net electric charge", "correct": false },
+        { "letter": "C", "text": "Hydrogen atoms repel each other", "correct": false },
+        { "letter": "D", "text": "Oxygen has no electrons to share", "correct": false }
+      ],
+      "explanation": "Oxygen attracts the shared electrons more strongly, creating partial negative and positive regions, so the molecule is polar."
+    },
+    {
+      "id": "A1.1-003",
+      "level": "SL",
+      "statement": "A1.1.2",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Which region of a water molecule carries a partial negative charge?",
+      "options": [
+        { "letter": "A", "text": "The oxygen atom", "correct": true },
+        { "letter": "B", "text": "The hydrogen atoms", "correct": false },
+        { "letter": "C", "text": "The covalent bonds", "correct": false },
+        { "letter": "D", "text": "There is no partial charge", "correct": false }
+      ],
+      "explanation": "Oxygen pulls the shared electrons closer, so the oxygen end is partially negative and the hydrogen ends are partially positive."
+    },
+    {
+      "id": "A1.1-004",
+      "level": "SL",
+      "statement": "A1.1.2",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Hydrogen bonds form between water molecules because of which property?",
+      "options": [
+        { "letter": "A", "text": "Polarity of the water molecules", "correct": true },
+        { "letter": "B", "text": "Ionic bonding within each molecule", "correct": false },
+        { "letter": "C", "text": "The large mass of oxygen", "correct": false },
+        { "letter": "D", "text": "Shared electrons between molecules", "correct": false }
+      ],
+      "explanation": "The partial charges from polarity let a partially positive hydrogen of one molecule attract the partially negative oxygen of another, forming a hydrogen bond."
+    },
+    {
+      "id": "A1.1-005",
+      "level": "SL",
+      "statement": "A1.1.2",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "The bonds within a single water molecule (between O and H) are best described as:",
+      "options": [
+        { "letter": "A", "text": "Polar covalent bonds", "correct": true },
+        { "letter": "B", "text": "Hydrogen bonds", "correct": false },
+        { "letter": "C", "text": "Ionic bonds", "correct": false },
+        { "letter": "D", "text": "Non-polar covalent bonds", "correct": false }
+      ],
+      "explanation": "Within a molecule, O and H share electrons in polar covalent bonds; hydrogen bonds form between separate molecules."
+    },
+    {
+      "id": "A1.1-006",
+      "level": "SL",
+      "statement": "A1.1.2",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Compared with a covalent bond, a single hydrogen bond is:",
+      "options": [
+        { "letter": "A", "text": "Weaker", "correct": true },
+        { "letter": "B", "text": "Stronger", "correct": false },
+        { "letter": "C", "text": "Equal in strength", "correct": false },
+        { "letter": "D", "text": "Not a real attraction", "correct": false }
+      ],
+      "explanation": "Individual hydrogen bonds are weak, but collectively large numbers of them give water many of its important properties."
+    },
+    {
+      "id": "A1.1-007",
+      "level": "SL",
+      "statement": "A1.1.3",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "What is cohesion in water?",
+      "options": [
+        { "letter": "A", "text": "The attraction of water molecules to one another", "correct": true },
+        { "letter": "B", "text": "The attraction of water to other polar surfaces", "correct": false },
+        { "letter": "C", "text": "The dissolving of solutes in water", "correct": false },
+        { "letter": "D", "text": "The evaporation of water molecules", "correct": false }
+      ],
+      "explanation": "Cohesion is the sticking together of water molecules due to hydrogen bonding between them."
+    },
+    {
+      "id": "A1.1-008",
+      "level": "SL",
+      "statement": "A1.1.3",
+      "category": "A1.1 Water",
+      "scenario": "A tall tree draws water from its roots up to its leaves.",
+      "stem": "Which property of water allows a continuous column to be pulled up the xylem under tension?",
+      "options": [
+        { "letter": "A", "text": "Cohesion", "correct": true },
+        { "letter": "B", "text": "Low specific heat capacity", "correct": false },
+        { "letter": "C", "text": "Buoyancy", "correct": false },
+        { "letter": "D", "text": "Being a poor solvent", "correct": false }
+      ],
+      "explanation": "Cohesion lets water molecules hold together as an unbroken column, so water can be transported under tension up the xylem."
+    },
+    {
+      "id": "A1.1-009",
+      "level": "SL",
+      "statement": "A1.1.3",
+      "category": "A1.1 Water",
+      "scenario": "A pond skater rests on the surface of a pond without sinking.",
+      "stem": "Which property of water, arising from cohesion, makes this possible?",
+      "options": [
+        { "letter": "A", "text": "Surface tension", "correct": true },
+        { "letter": "B", "text": "Adhesion", "correct": false },
+        { "letter": "C", "text": "High density", "correct": false },
+        { "letter": "D", "text": "Solvent action", "correct": false }
+      ],
+      "explanation": "Cohesion at the water surface creates surface tension, which supports small organisms that use the surface as a habitat."
+    },
+    {
+      "id": "A1.1-010",
+      "level": "SL",
+      "statement": "A1.1.4",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "What is adhesion in the context of water?",
+      "options": [
+        { "letter": "A", "text": "Attraction of water to polar or charged surfaces", "correct": true },
+        { "letter": "B", "text": "Attraction of water molecules to each other", "correct": false },
+        { "letter": "C", "text": "The breaking of hydrogen bonds", "correct": false },
+        { "letter": "D", "text": "Water changing from liquid to gas", "correct": false }
+      ],
+      "explanation": "Adhesion is the attraction between water molecules and other materials that are polar or charged."
+    },
+    {
+      "id": "A1.1-011",
+      "level": "SL",
+      "statement": "A1.1.4",
+      "category": "A1.1 Water",
+      "scenario": "Water rises through narrow spaces in soil and in plant cell walls.",
+      "stem": "This movement is an example of:",
+      "options": [
+        { "letter": "A", "text": "Capillary action driven by adhesion", "correct": true },
+        { "letter": "B", "text": "Osmosis across a membrane", "correct": false },
+        { "letter": "C", "text": "Active transport", "correct": false },
+        { "letter": "D", "text": "Evaporation", "correct": false }
+      ],
+      "explanation": "Adhesion of water to polar surfaces, combined with cohesion, produces capillary action in soil and plant cell walls."
+    },
+    {
+      "id": "A1.1-012",
+      "level": "SL",
+      "statement": "A1.1.4",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Adhesion allows water to be attracted to a surface only if that surface is:",
+      "options": [
+        { "letter": "A", "text": "Polar or charged", "correct": true },
+        { "letter": "B", "text": "Non-polar and neutral", "correct": false },
+        { "letter": "C", "text": "Made only of carbon", "correct": false },
+        { "letter": "D", "text": "Warmer than the water", "correct": false }
+      ],
+      "explanation": "Water adheres to materials that are polar or charged because its own partial charges are attracted to them."
+    },
+    {
+      "id": "A1.1-013",
+      "level": "SL",
+      "statement": "A1.1.5",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Water is an excellent solvent for hydrophilic substances mainly because it is:",
+      "options": [
+        { "letter": "A", "text": "Polar", "correct": true },
+        { "letter": "B", "text": "Non-polar", "correct": false },
+        { "letter": "C", "text": "Acidic", "correct": false },
+        { "letter": "D", "text": "Very dense", "correct": false }
+      ],
+      "explanation": "Being polar, water surrounds and separates charged or polar (hydrophilic) particles, dissolving them."
+    },
+    {
+      "id": "A1.1-014",
+      "level": "SL",
+      "statement": "A1.1.5",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Which term describes molecules that dissolve readily in water?",
+      "options": [
+        { "letter": "A", "text": "Hydrophilic", "correct": true },
+        { "letter": "B", "text": "Hydrophobic", "correct": false },
+        { "letter": "C", "text": "Non-polar", "correct": false },
+        { "letter": "D", "text": "Lipid-soluble", "correct": false }
+      ],
+      "explanation": "Hydrophilic ('water-loving') molecules are polar or charged and dissolve in water."
+    },
+    {
+      "id": "A1.1-015",
+      "level": "SL",
+      "statement": "A1.1.5",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Most enzymes catalyse reactions in which environment?",
+      "options": [
+        { "letter": "A", "text": "Aqueous (in solution)", "correct": true },
+        { "letter": "B", "text": "In dry, solid form", "correct": false },
+        { "letter": "C", "text": "In a lipid layer only", "correct": false },
+        { "letter": "D", "text": "In a vacuum", "correct": false }
+      ],
+      "explanation": "Because most substances react while dissolved, most enzymes catalyse reactions in aqueous solution."
+    },
+    {
+      "id": "A1.1-016",
+      "level": "SL",
+      "statement": "A1.1.5",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Why do some cell molecules, such as certain membrane components, need to be hydrophobic?",
+      "options": [
+        { "letter": "A", "text": "Their function depends on being insoluble in water", "correct": true },
+        { "letter": "B", "text": "They dissolve better when charged", "correct": false },
+        { "letter": "C", "text": "They must react in aqueous solution", "correct": false },
+        { "letter": "D", "text": "They need to attract water strongly", "correct": false }
+      ],
+      "explanation": "The functions of some molecules depend on being hydrophobic and insoluble, for example forming barriers such as membranes."
+    },
+    {
+      "id": "A1.1-017",
+      "level": "SL",
+      "statement": "A1.1.5",
+      "category": "A1.1 Water",
+      "scenario": "Oil forms a separate layer when mixed with water.",
+      "stem": "The oil behaves this way because it is:",
+      "options": [
+        { "letter": "A", "text": "Hydrophobic and non-polar", "correct": true },
+        { "letter": "B", "text": "Hydrophilic and polar", "correct": false },
+        { "letter": "C", "text": "Charged", "correct": false },
+        { "letter": "D", "text": "An enzyme", "correct": false }
+      ],
+      "explanation": "Non-polar hydrophobic molecules do not form attractions with polar water, so they remain undissolved and separate out."
+    },
+    {
+      "id": "A1.1-018",
+      "level": "SL",
+      "statement": "A1.1.5",
+      "category": "A1.1 Water",
+      "scenario": "Blood plasma transports glucose and mineral ions around the body.",
+      "stem": "Which property of water makes it suitable as a transport medium for these solutes?",
+      "options": [
+        { "letter": "A", "text": "It dissolves hydrophilic solutes", "correct": true },
+        { "letter": "B", "text": "It repels all solutes", "correct": false },
+        { "letter": "C", "text": "It is a gas at body temperature", "correct": false },
+        { "letter": "D", "text": "It has no cohesion", "correct": false }
+      ],
+      "explanation": "As a solvent, water dissolves hydrophilic substances such as glucose and ions, allowing them to be transported in plants and animals."
+    },
+    {
+      "id": "A1.1-019",
+      "level": "SL",
+      "statement": "A1.1.6",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Water has a high specific heat capacity. This means it:",
+      "options": [
+        { "letter": "A", "text": "Requires a large amount of energy to change its temperature", "correct": true },
+        { "letter": "B", "text": "Heats up and cools down very quickly", "correct": false },
+        { "letter": "C", "text": "Cannot absorb heat", "correct": false },
+        { "letter": "D", "text": "Boils at a low temperature", "correct": false }
+      ],
+      "explanation": "A high specific heat capacity means a lot of energy is needed to raise its temperature, so aquatic habitats stay thermally stable."
+    },
+    {
+      "id": "A1.1-020",
+      "level": "SL",
+      "statement": "A1.1.6",
+      "category": "A1.1 Water",
+      "scenario": "A large lake changes temperature far more slowly than the surrounding air.",
+      "stem": "Which property of water explains this thermal stability?",
+      "options": [
+        { "letter": "A", "text": "High specific heat capacity", "correct": true },
+        { "letter": "B", "text": "Low viscosity", "correct": false },
+        { "letter": "C", "text": "Low buoyancy", "correct": false },
+        { "letter": "D", "text": "Being non-polar", "correct": false }
+      ],
+      "explanation": "Water's high specific heat capacity keeps aquatic habitats at more constant temperatures than the air above them."
+    },
+    {
+      "id": "A1.1-021",
+      "level": "SL",
+      "statement": "A1.1.6",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Which physical property of water provides buoyancy that helps support the bodies of aquatic organisms?",
+      "options": [
+        { "letter": "A", "text": "Its density (upthrust from the water)", "correct": true },
+        { "letter": "B", "text": "Its solvent action", "correct": false },
+        { "letter": "C", "text": "Its ability to form hydrogen bonds with air", "correct": false },
+        { "letter": "D", "text": "Its low thermal conductivity", "correct": false }
+      ],
+      "explanation": "Water is much denser than air, so it provides buoyancy (upthrust) that supports the bodies of aquatic animals."
+    },
+    {
+      "id": "A1.1-022",
+      "level": "SL",
+      "statement": "A1.1.6",
+      "category": "A1.1 Water",
+      "scenario": "Comparing an animal that lives in water with one that lives in air.",
+      "stem": "Compared with air, water has a higher:",
+      "options": [
+        { "letter": "A", "text": "Viscosity", "correct": true },
+        { "letter": "B", "text": "Compressibility", "correct": false },
+        { "letter": "C", "text": "Transparency to all wavelengths", "correct": false },
+        { "letter": "D", "text": "Ability to hold oxygen", "correct": false }
+      ],
+      "explanation": "Water is far more viscous than air, so aquatic animals experience more resistance when moving through it."
+    },
+    {
+      "id": "A1.1-023",
+      "level": "SL",
+      "statement": "A1.1.6",
+      "category": "A1.1 Water",
+      "scenario": "The black-throated loon swims and dives, while the ringed seal lives partly in and out of water.",
+      "stem": "Why is comparing such animals useful when studying water's physical properties?",
+      "options": [
+        { "letter": "A", "text": "It illustrates the consequences of water's properties for life in water versus air", "correct": true },
+        { "letter": "B", "text": "It shows that water and air have identical properties", "correct": false },
+        { "letter": "C", "text": "It proves water has no effect on organisms", "correct": false },
+        { "letter": "D", "text": "It demonstrates that buoyancy does not exist", "correct": false }
+      ],
+      "explanation": "Contrasting animals in water with those in air illustrates how water's buoyancy, viscosity, thermal conductivity and specific heat capacity shape life."
+    },
+    {
+      "id": "A1.1-024",
+      "level": "SL",
+      "statement": "A1.1.6",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Which list correctly names physical properties of water relevant to aquatic life?",
+      "options": [
+        { "letter": "A", "text": "Buoyancy, viscosity, thermal conductivity, specific heat capacity", "correct": true },
+        { "letter": "B", "text": "pH, ploidy, polarity, parsimony", "correct": false },
+        { "letter": "C", "text": "Transcription, translation, replication", "correct": false },
+        { "letter": "D", "text": "Osmosis, mitosis, meiosis", "correct": false }
+      ],
+      "explanation": "Buoyancy, viscosity, thermal conductivity and specific heat capacity are the physical properties emphasised for aquatic habitats."
+    },
+    {
+      "id": "A1.1-025",
+      "level": "SL",
+      "statement": "A1.1.1",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Water is described as 'the medium for life' because:",
+      "options": [
+        { "letter": "A", "text": "Most life processes take place in it", "correct": true },
+        { "letter": "B", "text": "It is the only compound in cells", "correct": false },
+        { "letter": "C", "text": "It cannot dissolve anything", "correct": false },
+        { "letter": "D", "text": "It never changes state", "correct": false }
+      ],
+      "explanation": "Water is the medium in which most of the processes of life occur, which is why cells are mostly water."
+    },
+    {
+      "id": "A1.1-026",
+      "level": "SL",
+      "statement": "A1.1.2",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "In a diagram, a hydrogen bond between two water molecules is correctly shown between:",
+      "options": [
+        { "letter": "A", "text": "A partially positive H of one molecule and a partially negative O of another", "correct": true },
+        { "letter": "B", "text": "Two oxygen atoms", "correct": false },
+        { "letter": "C", "text": "Two hydrogen atoms", "correct": false },
+        { "letter": "D", "text": "The covalent bonds inside one molecule", "correct": false }
+      ],
+      "explanation": "Hydrogen bonds link the partially positive hydrogen of one molecule to the partially negative oxygen of a neighbouring molecule."
+    },
+    {
+      "id": "A1.1-027",
+      "level": "SL",
+      "statement": "A1.1.3",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Cohesion of water is a direct consequence of:",
+      "options": [
+        { "letter": "A", "text": "Hydrogen bonding between water molecules", "correct": true },
+        { "letter": "B", "text": "Covalent bonds between water and minerals", "correct": false },
+        { "letter": "C", "text": "The high density of ice", "correct": false },
+        { "letter": "D", "text": "Water being a poor solvent", "correct": false }
+      ],
+      "explanation": "Cohesion arises because hydrogen bonds hold neighbouring water molecules together."
+    },
+    {
+      "id": "A1.1-028",
+      "level": "SL",
+      "statement": "A1.1.3",
+      "category": "A1.1 Water",
+      "scenario": "Water is transported to the top of a 100 m tall redwood tree.",
+      "stem": "Cohesion is essential here because it:",
+      "options": [
+        { "letter": "A", "text": "Keeps the water column unbroken under tension", "correct": true },
+        { "letter": "B", "text": "Provides energy to lift the water", "correct": false },
+        { "letter": "C", "text": "Dissolves the xylem walls", "correct": false },
+        { "letter": "D", "text": "Turns the water into vapour", "correct": false }
+      ],
+      "explanation": "Cohesion prevents the water column from breaking, so tension generated at the leaves can pull water up the xylem."
+    },
+    {
+      "id": "A1.1-029",
+      "level": "SL",
+      "statement": "A1.1.4",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Both cohesion and adhesion involve hydrogen bonding, but they differ because:",
+      "options": [
+        { "letter": "A", "text": "Cohesion is water-to-water; adhesion is water-to-other surfaces", "correct": true },
+        { "letter": "B", "text": "Cohesion is water-to-surfaces; adhesion is water-to-water", "correct": false },
+        { "letter": "C", "text": "Only cohesion involves polarity", "correct": false },
+        { "letter": "D", "text": "Only adhesion occurs in living organisms", "correct": false }
+      ],
+      "explanation": "Cohesion is the attraction of water molecules to one another; adhesion is their attraction to other polar or charged materials."
+    },
+    {
+      "id": "A1.1-030",
+      "level": "SL",
+      "statement": "A1.1.5",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Sodium chloride dissolves in water because the water molecules:",
+      "options": [
+        { "letter": "A", "text": "Surround the ions with their partial charges, separating them", "correct": true },
+        { "letter": "B", "text": "Chemically react with the ions to destroy them", "correct": false },
+        { "letter": "C", "text": "Are non-polar and repel the ions", "correct": false },
+        { "letter": "D", "text": "Form covalent bonds with sodium", "correct": false }
+      ],
+      "explanation": "Polar water molecules orient their partial charges around each ion, pulling the ions apart and holding them in solution."
+    },
+    {
+      "id": "A1.1-031",
+      "level": "SL",
+      "statement": "A1.1.5",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Which of these would you expect to be LEAST soluble in water?",
+      "options": [
+        { "letter": "A", "text": "A large non-polar lipid", "correct": true },
+        { "letter": "B", "text": "Glucose", "correct": false },
+        { "letter": "C", "text": "Sodium ions", "correct": false },
+        { "letter": "D", "text": "Amino acids", "correct": false }
+      ],
+      "explanation": "Non-polar lipids are hydrophobic and do not interact with polar water, so they are essentially insoluble."
+    },
+    {
+      "id": "A1.1-032",
+      "level": "SL",
+      "statement": "A1.1.6",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "A low thermal conductivity compared to metals means water:",
+      "options": [
+        { "letter": "A", "text": "Does not conduct heat away rapidly, helping insulate aquatic habitats", "correct": true },
+        { "letter": "B", "text": "Conducts heat faster than any solid", "correct": false },
+        { "letter": "C", "text": "Cannot store heat energy", "correct": false },
+        { "letter": "D", "text": "Instantly reaches air temperature", "correct": false }
+      ],
+      "explanation": "Water's relatively low thermal conductivity, together with its high specific heat capacity, keeps aquatic environments thermally stable."
+    },
+    {
+      "id": "A1.1-033",
+      "level": "SL",
+      "statement": "A1.1.6",
+      "category": "A1.1 Water",
+      "scenario": "A whale is supported in the ocean but a similar-mass land animal must support its own weight with strong legs.",
+      "stem": "The main property responsible for supporting the whale is:",
+      "options": [
+        { "letter": "A", "text": "Buoyancy", "correct": true },
+        { "letter": "B", "text": "Specific heat capacity", "correct": false },
+        { "letter": "C", "text": "Adhesion", "correct": false },
+        { "letter": "D", "text": "Surface tension", "correct": false }
+      ],
+      "explanation": "The upthrust (buoyancy) provided by dense water supports the bodies of large aquatic animals."
+    },
+    {
+      "id": "A1.1-034",
+      "level": "SL",
+      "statement": "A1.1.2",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "The 'partial' charges on a water molecule are described as partial rather than full because:",
+      "options": [
+        { "letter": "A", "text": "Electrons are unequally shared, not fully transferred", "correct": true },
+        { "letter": "B", "text": "The molecule is an ion", "correct": false },
+        { "letter": "C", "text": "Water has no net charge overall", "correct": false },
+        { "letter": "D", "text": "Charges only appear when water freezes", "correct": false }
+      ],
+      "explanation": "In a polar covalent bond electrons are shared unequally rather than transferred, producing partial (delta) charges."
+    },
+    {
+      "id": "A1.1-035",
+      "level": "SL",
+      "statement": "A1.1.3",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Which organism most directly relies on surface tension as part of its habitat?",
+      "options": [
+        { "letter": "A", "text": "A pond skater walking on water", "correct": true },
+        { "letter": "B", "text": "A fish swimming deep underwater", "correct": false },
+        { "letter": "C", "text": "A bird flying above a lake", "correct": false },
+        { "letter": "D", "text": "A worm burrowing in dry soil", "correct": false }
+      ],
+      "explanation": "Surface tension from cohesion lets small organisms such as pond skaters use the water surface as a habitat."
+    },
+    {
+      "id": "A1.1-036",
+      "level": "SL",
+      "statement": "A1.1.5",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Which statement about water and metabolism is correct?",
+      "options": [
+        { "letter": "A", "text": "Water is the medium in which most metabolic reactions occur", "correct": true },
+        { "letter": "B", "text": "Metabolism only occurs in dry conditions", "correct": false },
+        { "letter": "C", "text": "Water prevents all chemical reactions", "correct": false },
+        { "letter": "D", "text": "Enzymes only work without water present", "correct": false }
+      ],
+      "explanation": "Water's solvent properties make it the medium for metabolism, allowing reactants and enzymes to interact in solution."
+    },
+    {
+      "id": "A1.1-037",
+      "level": "SL",
+      "statement": "A1.1.4",
+      "category": "A1.1 Water",
+      "scenario": "Water clings to the inside of narrow plant cell walls.",
+      "stem": "This clinging is mainly due to:",
+      "options": [
+        { "letter": "A", "text": "Adhesion between water and the polar cell wall", "correct": true },
+        { "letter": "B", "text": "Cohesion between water molecules only", "correct": false },
+        { "letter": "C", "text": "Active transport by the cell", "correct": false },
+        { "letter": "D", "text": "The hydrophobic nature of cellulose", "correct": false }
+      ],
+      "explanation": "Adhesion is the attraction of water to the polar surfaces of cell walls, contributing to capillary movement."
+    },
+    {
+      "id": "A1.1-038",
+      "level": "SL",
+      "statement": "A1.1.6",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Which is an advantage for a small aquatic organism of water's high viscosity compared with air?",
+      "options": [
+        { "letter": "A", "text": "It can float or be suspended more easily", "correct": true },
+        { "letter": "B", "text": "It can move with no resistance at all", "correct": false },
+        { "letter": "C", "text": "It never needs oxygen", "correct": false },
+        { "letter": "D", "text": "It cannot be supported by the water", "correct": false }
+      ],
+      "explanation": "The higher viscosity and density of water help small organisms remain suspended, unlike in low-density air."
+    },
+    {
+      "id": "A1.1-039",
+      "level": "SL",
+      "statement": "A1.1.1",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Approximately what proportion of a typical cell's cytoplasm is water?",
+      "options": [
+        { "letter": "A", "text": "The majority (cytoplasm is composed mainly of water)", "correct": true },
+        { "letter": "B", "text": "None at all", "correct": false },
+        { "letter": "C", "text": "Only a trace amount", "correct": false },
+        { "letter": "D", "text": "Exactly half is protein, none water", "correct": false }
+      ],
+      "explanation": "Cytoplasm is composed mainly of water, reflecting water's role as the medium for the processes of life."
+    },
+    {
+      "id": "A1.1-040",
+      "level": "SL",
+      "statement": "A1.1.5",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "A molecule with many polar –OH groups is placed in water. It will most likely be:",
+      "options": [
+        { "letter": "A", "text": "Hydrophilic and dissolve", "correct": true },
+        { "letter": "B", "text": "Hydrophobic and separate out", "correct": false },
+        { "letter": "C", "text": "Unaffected by water", "correct": false },
+        { "letter": "D", "text": "Converted into a lipid", "correct": false }
+      ],
+      "explanation": "Polar –OH groups form hydrogen bonds with water, making the molecule hydrophilic and soluble."
+    },
+    {
+      "id": "A1.1-041",
+      "level": "HL",
+      "statement": "A1.1.7",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "According to the syllabus, the origin of most of Earth's water is hypothesised to be:",
+      "options": [
+        { "letter": "A", "text": "Delivery by asteroids (extraplanetary origin)", "correct": true },
+        { "letter": "B", "text": "Produced entirely by living organisms", "correct": false },
+        { "letter": "C", "text": "Created during photosynthesis", "correct": false },
+        { "letter": "D", "text": "Formed from volcanic rock only", "correct": false }
+      ],
+      "explanation": "The extraplanetary origin of Earth's water is limited in the syllabus to hypotheses involving asteroids."
+    },
+    {
+      "id": "A1.1-042",
+      "level": "HL",
+      "statement": "A1.1.7",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Which two factors are given as reasons Earth has retained its water over billions of years?",
+      "options": [
+        { "letter": "A", "text": "Gravity and temperatures low enough to condense water", "correct": true },
+        { "letter": "B", "text": "High temperatures and strong solar wind", "correct": false },
+        { "letter": "C", "text": "The absence of an atmosphere", "correct": false },
+        { "letter": "D", "text": "Continuous production by cells", "correct": false }
+      ],
+      "explanation": "Earth retains water because its gravity holds it and its temperatures are low enough for water to condense and remain liquid or solid."
+    },
+    {
+      "id": "A1.1-043",
+      "level": "HL",
+      "statement": "A1.1.7",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "Why has the long-term abundance of water been significant for life on Earth?",
+      "options": [
+        { "letter": "A", "text": "It has allowed life to evolve over billions of years", "correct": true },
+        { "letter": "B", "text": "It prevented any chemical reactions", "correct": false },
+        { "letter": "C", "text": "It stopped evolution from occurring", "correct": false },
+        { "letter": "D", "text": "It removed the need for cells", "correct": false }
+      ],
+      "explanation": "The persistent abundance of water over Earth's history provided the medium in which life could evolve."
+    },
+    {
+      "id": "A1.1-044",
+      "level": "HL",
+      "statement": "A1.1.8",
+      "category": "A1.1 Water",
+      "scenario": "Astrobiologists search other planets for signs of life.",
+      "stem": "Why is the presence of water central to the search for extraterrestrial life?",
+      "options": [
+        { "letter": "A", "text": "Life as we know it requires water as its medium", "correct": true },
+        { "letter": "B", "text": "Water blocks the detection of any life", "correct": false },
+        { "letter": "C", "text": "Water is the only element in living things", "correct": false },
+        { "letter": "D", "text": "Life avoids water entirely", "correct": false }
+      ],
+      "explanation": "Because water is essential as the medium for life on Earth, its presence elsewhere is used as an indicator of possible life."
+    },
+    {
+      "id": "A1.1-045",
+      "level": "HL",
+      "statement": "A1.1.8",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "What does the term 'Goldilocks zone' refer to?",
+      "options": [
+        { "letter": "A", "text": "The orbital region where temperatures allow liquid water to exist", "correct": true },
+        { "letter": "B", "text": "The centre of a star", "correct": false },
+        { "letter": "C", "text": "A region with no water at all", "correct": false },
+        { "letter": "D", "text": "The coldest part of a galaxy", "correct": false }
+      ],
+      "explanation": "The Goldilocks zone is the range of distances from a star where conditions are 'just right' for liquid water, and therefore possibly life."
+    },
+    {
+      "id": "A1.1-046",
+      "level": "HL",
+      "statement": "A1.1.8",
+      "category": "A1.1 Water",
+      "scenario": "A newly discovered planet lies within its star's Goldilocks zone.",
+      "stem": "This most strongly suggests the planet could have:",
+      "options": [
+        { "letter": "A", "text": "Liquid water at its surface", "correct": true },
+        { "letter": "B", "text": "No possibility of any water", "correct": false },
+        { "letter": "C", "text": "Only frozen gases", "correct": false },
+        { "letter": "D", "text": "A surface hotter than its star", "correct": false }
+      ],
+      "explanation": "Being in the Goldilocks zone means temperatures could allow liquid water, a key requirement in the search for life."
+    },
+    {
+      "id": "A1.1-047",
+      "level": "HL",
+      "statement": "A1.1.7",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "If Earth's gravity were far weaker, the most likely consequence for its water would be:",
+      "options": [
+        { "letter": "A", "text": "Water vapour would escape into space, reducing retention", "correct": true },
+        { "letter": "B", "text": "More water would be produced spontaneously", "correct": false },
+        { "letter": "C", "text": "Water would become non-polar", "correct": false },
+        { "letter": "D", "text": "Hydrogen bonding would stop", "correct": false }
+      ],
+      "explanation": "Gravity is one reason Earth retains its water; weaker gravity would let water escape to space more easily."
+    },
+    {
+      "id": "A1.1-048",
+      "level": "HL",
+      "statement": "A1.1.7",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "The hypotheses for the origin of Earth's water are limited by the syllabus to:",
+      "options": [
+        { "letter": "A", "text": "Delivery from asteroids", "correct": true },
+        { "letter": "B", "text": "Delivery from the Sun's core", "correct": false },
+        { "letter": "C", "text": "Manufacture by early bacteria", "correct": false },
+        { "letter": "D", "text": "Condensation of nitrogen gas", "correct": false }
+      ],
+      "explanation": "For this course, hypotheses for the origin of Earth's water are limited to asteroids."
+    },
+    {
+      "id": "A1.1-049",
+      "level": "HL",
+      "statement": "A1.1.8",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "The search for extraterrestrial life is closely linked to the search for water because water:",
+      "options": [
+        { "letter": "A", "text": "Is the medium in which life's processes are known to occur", "correct": true },
+        { "letter": "B", "text": "Is toxic to all known life", "correct": false },
+        { "letter": "C", "text": "Cannot dissolve any biological molecules", "correct": false },
+        { "letter": "D", "text": "Is found only on Earth", "correct": false }
+      ],
+      "explanation": "Since all known life depends on water as its medium, its presence is treated as a marker for potential life."
+    },
+    {
+      "id": "A1.1-050",
+      "level": "HL",
+      "statement": "A1.1.7",
+      "category": "A1.1 Water",
+      "scenario": "",
+      "stem": "For liquid water to be retained on a planet's surface, temperatures must be:",
+      "options": [
+        { "letter": "A", "text": "Low enough for water to condense yet not so low it only sublimes away", "correct": true },
+        { "letter": "B", "text": "Always above the boiling point of water", "correct": false },
+        { "letter": "C", "text": "Identical to the temperature of the star", "correct": false },
+        { "letter": "D", "text": "Irrelevant to water retention", "correct": false }
+      ],
+      "explanation": "Retention of water depends on temperatures low enough to condense water; this is part of why the Goldilocks zone matters."
+    }
+  ]
+}

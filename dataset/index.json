@@ -1,0 +1,92 @@
+{
+  "syllabus": "IB Biology (first assessment 2025)",
+  "themes": [
+    {
+      "theme": "A",
+      "themeName": "Unity and diversity",
+      "subtopics": [
+        {
+          "id": "A1.1",
+          "name": "Water",
+          "level": "SL/HL",
+          "file": "theme-a/A1.1-water.json",
+          "count": 50,
+          "SL": 40,
+          "HL": 10
+        },
+        {
+          "id": "A1.2",
+          "name": "Nucleic acids",
+          "level": "SL/HL",
+          "file": "theme-a/A1.2-nucleic-acids.json",
+          "count": 50,
+          "SL": 40,
+          "HL": 10
+        },
+        {
+          "id": "A2.1",
+          "name": "Origins of cells",
+          "level": "HL",
+          "file": "theme-a/A2.1-origins-of-cells.json",
+          "count": 50,
+          "SL": 0,
+          "HL": 50
+        },
+        {
+          "id": "A2.2",
+          "name": "Cell structure",
+          "level": "SL/HL",
+          "file": "theme-a/A2.2-cell-structure.json",
+          "count": 50,
+          "SL": 40,
+          "HL": 10
+        },
+        {
+          "id": "A2.3",
+          "name": "Viruses",
+          "level": "HL",
+          "file": "theme-a/A2.3-viruses.json",
+          "count": 50,
+          "SL": 0,
+          "HL": 50
+        },
+        {
+          "id": "A3.1",
+          "name": "Diversity of organisms",
+          "level": "SL/HL",
+          "file": "theme-a/A3.1-diversity-of-organisms.json",
+          "count": 50,
+          "SL": 40,
+          "HL": 10
+        },
+        {
+          "id": "A3.2",
+          "name": "Classification and cladistics",
+          "level": "HL",
+          "file": "theme-a/A3.2-classification-and-cladistics.json",
+          "count": 50,
+          "SL": 0,
+          "HL": 50
+        },
+        {
+          "id": "A4.1",
+          "name": "Evolution and speciation",
+          "level": "SL/HL",
+          "file": "theme-a/A4.1-evolution-and-speciation.json",
+          "count": 50,
+          "SL": 40,
+          "HL": 10
+        },
+        {
+          "id": "A4.2",
+          "name": "Conservation of biodiversity",
+          "level": "SL/HL",
+          "file": "theme-a/A4.2-conservation-of-biodiversity.json",
+          "count": 50,
+          "SL": 50,
+          "HL": 0
+        }
+      ]
+    }
+  ]
+}

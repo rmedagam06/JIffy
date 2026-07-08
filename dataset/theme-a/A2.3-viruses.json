@@ -1,0 +1,760 @@
+{
+  "id": "A2.3",
+  "name": "Viruses",
+  "theme": "A",
+  "themeName": "Unity and diversity",
+  "levelOfOrganization": "Cells",
+  "level": "HL",
+  "questions": [
+    {
+      "id": "A2.3-001",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which feature is common to all viruses?",
+      "options": [
+        { "letter": "A", "text": "Nucleic acid as genetic material", "correct": true },
+        { "letter": "B", "text": "A nucleus", "correct": false },
+        { "letter": "C", "text": "Mitochondria", "correct": false },
+        { "letter": "D", "text": "A cell wall of cellulose", "correct": false }
+      ],
+      "explanation": "All viruses have nucleic acid (DNA or RNA), a protein capsid, no cytoplasm and few or no enzymes."
+    },
+    {
+      "id": "A2.3-002",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "The protein coat that surrounds a virus's genetic material is called the:",
+      "options": [
+        { "letter": "A", "text": "Capsid", "correct": true },
+        { "letter": "B", "text": "Cytoplasm", "correct": false },
+        { "letter": "C", "text": "Cell wall", "correct": false },
+        { "letter": "D", "text": "Plasma membrane", "correct": false }
+      ],
+      "explanation": "A capsid made of protein encloses the viral nucleic acid."
+    },
+    {
+      "id": "A2.3-003",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which of these do viruses lack?",
+      "options": [
+        { "letter": "A", "text": "Cytoplasm", "correct": true },
+        { "letter": "B", "text": "Nucleic acid", "correct": false },
+        { "letter": "C", "text": "A capsid", "correct": false },
+        { "letter": "D", "text": "Genetic material", "correct": false }
+      ],
+      "explanation": "Viruses have no cytoplasm and few or no enzymes, unlike cells."
+    },
+    {
+      "id": "A2.3-004",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Compared with cells, the size of viruses is:",
+      "options": [
+        { "letter": "A", "text": "Small and fixed", "correct": true },
+        { "letter": "B", "text": "Large and variable", "correct": false },
+        { "letter": "C", "text": "The same as a bacterium", "correct": false },
+        { "letter": "D", "text": "Visible with the naked eye", "correct": false }
+      ],
+      "explanation": "A shared feature of viruses is their small, fixed size."
+    },
+    {
+      "id": "A2.3-005",
+      "level": "HL",
+      "statement": "A2.3.2",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "The genetic material of viruses may be:",
+      "options": [
+        { "letter": "A", "text": "DNA or RNA, single- or double-stranded", "correct": true },
+        { "letter": "B", "text": "Only double-stranded DNA", "correct": false },
+        { "letter": "C", "text": "Only single-stranded RNA", "correct": false },
+        { "letter": "D", "text": "Protein", "correct": false }
+      ],
+      "explanation": "Viruses are diverse: their genetic material may be RNA or DNA, either single- or double-stranded."
+    },
+    {
+      "id": "A2.3-006",
+      "level": "HL",
+      "statement": "A2.3.2",
+      "category": "A2.3 Viruses",
+      "scenario": "Some viruses have an outer envelope while others do not.",
+      "stem": "Where does an enveloped virus obtain its envelope?",
+      "options": [
+        { "letter": "A", "text": "From the host cell membrane", "correct": true },
+        { "letter": "B", "text": "From its own cell wall", "correct": false },
+        { "letter": "C", "text": "From ribosomes", "correct": false },
+        { "letter": "D", "text": "It synthesises it from cellulose", "correct": false }
+      ],
+      "explanation": "Enveloped viruses are surrounded by host cell membrane; others are non-enveloped."
+    },
+    {
+      "id": "A2.3-007",
+      "level": "HL",
+      "statement": "A2.3.2",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which of these is used as an example of a virus in the syllabus?",
+      "options": [
+        { "letter": "A", "text": "Bacteriophage lambda", "correct": true },
+        { "letter": "B", "text": "Escherichia coli", "correct": false },
+        { "letter": "C", "text": "Amoeba", "correct": false },
+        { "letter": "D", "text": "Yeast", "correct": false }
+      ],
+      "explanation": "Virus examples include bacteriophage lambda, coronaviruses and HIV."
+    },
+    {
+      "id": "A2.3-008",
+      "level": "HL",
+      "statement": "A2.3.3",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Viruses rely on a host cell for all of the following EXCEPT:",
+      "options": [
+        { "letter": "A", "text": "Their own capsid protein sequence", "correct": true },
+        { "letter": "B", "text": "Energy supply", "correct": false },
+        { "letter": "C", "text": "Protein synthesis", "correct": false },
+        { "letter": "D", "text": "Nutrition", "correct": false }
+      ],
+      "explanation": "Viruses depend on the host for energy, nutrition, protein synthesis and other life functions; the protein sequence is coded by the virus's own genes."
+    },
+    {
+      "id": "A2.3-009",
+      "level": "HL",
+      "statement": "A2.3.3",
+      "category": "A2.3 Viruses",
+      "scenario": "In the lytic cycle, a bacteriophage infects a bacterium.",
+      "stem": "How does the lytic cycle end?",
+      "options": [
+        { "letter": "A", "text": "The host cell bursts (lyses), releasing new viruses", "correct": true },
+        { "letter": "B", "text": "The viral DNA stays dormant in the host genome", "correct": false },
+        { "letter": "C", "text": "The virus becomes a living cell", "correct": false },
+        { "letter": "D", "text": "The host cell divides normally forever", "correct": false }
+      ],
+      "explanation": "In the lytic cycle, new virus particles are assembled and the host cell lyses, releasing them."
+    },
+    {
+      "id": "A2.3-010",
+      "level": "HL",
+      "statement": "A2.3.4",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "In the lysogenic cycle, the viral genetic material:",
+      "options": [
+        { "letter": "A", "text": "Integrates into the host DNA and can remain dormant", "correct": true },
+        { "letter": "B", "text": "Immediately bursts the cell", "correct": false },
+        { "letter": "C", "text": "Is destroyed on entry", "correct": false },
+        { "letter": "D", "text": "Turns the virus into a bacterium", "correct": false }
+      ],
+      "explanation": "In the lysogenic cycle the viral DNA integrates into the host genome and can be replicated with it while remaining dormant."
+    },
+    {
+      "id": "A2.3-011",
+      "level": "HL",
+      "statement": "A2.3.4",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which virus is used as the example for both the lytic and lysogenic cycles?",
+      "options": [
+        { "letter": "A", "text": "Bacteriophage lambda", "correct": true },
+        { "letter": "B", "text": "HIV", "correct": false },
+        { "letter": "C", "text": "Influenza virus", "correct": false },
+        { "letter": "D", "text": "A coronavirus", "correct": false }
+      ],
+      "explanation": "Bacteriophage lambda is the example used for the phases of both the lytic and lysogenic cycles."
+    },
+    {
+      "id": "A2.3-012",
+      "level": "HL",
+      "statement": "A2.3.5",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "The great diversity of viruses suggests that they:",
+      "options": [
+        { "letter": "A", "text": "Had several possible origins", "correct": true },
+        { "letter": "B", "text": "All arose from a single virus", "correct": false },
+        { "letter": "C", "text": "Are all descended from bacteria only", "correct": false },
+        { "letter": "D", "text": "Do not evolve", "correct": false }
+      ],
+      "explanation": "The diversity of viruses suggests several possible origins rather than a single common one."
+    },
+    {
+      "id": "A2.3-013",
+      "level": "HL",
+      "statement": "A2.3.5",
+      "category": "A2.3 Viruses",
+      "scenario": "All viruses share an extreme form of obligate parasitism.",
+      "stem": "The structural features viruses have in common could therefore be regarded as an example of:",
+      "options": [
+        { "letter": "A", "text": "Convergent evolution", "correct": true },
+        { "letter": "B", "text": "Divergent evolution from one ancestor", "correct": false },
+        { "letter": "C", "text": "Artificial selection", "correct": false },
+        { "letter": "D", "text": "Genetic drift only", "correct": false }
+      ],
+      "explanation": "Shared features arising from the same parasitic lifestyle, despite different origins, are an example of convergent evolution."
+    },
+    {
+      "id": "A2.3-014",
+      "level": "HL",
+      "statement": "A2.3.5",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "What do viruses and living organisms share, indicating a link between them?",
+      "options": [
+        { "letter": "A", "text": "The genetic code", "correct": true },
+        { "letter": "B", "text": "Mitochondria", "correct": false },
+        { "letter": "C", "text": "The ability to respire independently", "correct": false },
+        { "letter": "D", "text": "A cytoplasm", "correct": false }
+      ],
+      "explanation": "The genetic code is shared between viruses and living organisms."
+    },
+    {
+      "id": "A2.3-015",
+      "level": "HL",
+      "statement": "A2.3.6",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which two viruses are used as examples of rapid evolution?",
+      "options": [
+        { "letter": "A", "text": "Influenza virus and HIV", "correct": true },
+        { "letter": "B", "text": "Bacteriophage lambda and a coronavirus", "correct": false },
+        { "letter": "C", "text": "Tobacco mosaic virus and rabies", "correct": false },
+        { "letter": "D", "text": "Measles and mumps", "correct": false }
+      ],
+      "explanation": "The syllabus uses influenza viruses and HIV as examples of rapid viral evolution."
+    },
+    {
+      "id": "A2.3-016",
+      "level": "HL",
+      "statement": "A2.3.6",
+      "category": "A2.3 Viruses",
+      "scenario": "A rapidly evolving virus keeps changing its surface proteins.",
+      "stem": "What is a consequence for treating the disease it causes?",
+      "options": [
+        { "letter": "A", "text": "Vaccines and treatments may quickly become less effective", "correct": true },
+        { "letter": "B", "text": "The disease becomes impossible to catch", "correct": false },
+        { "letter": "C", "text": "One vaccine works permanently", "correct": false },
+        { "letter": "D", "text": "The virus stops reproducing", "correct": false }
+      ],
+      "explanation": "Rapid evolution means treatments and vaccines can lose effectiveness as the virus changes, complicating disease control."
+    },
+    {
+      "id": "A2.3-017",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which statement about enzymes in viruses is correct?",
+      "options": [
+        { "letter": "A", "text": "Viruses have few or no enzymes of their own", "correct": true },
+        { "letter": "B", "text": "Viruses have a full set of metabolic enzymes", "correct": false },
+        { "letter": "C", "text": "Viruses use enzymes made of nucleic acid only", "correct": false },
+        { "letter": "D", "text": "Viruses never contain any enzyme", "correct": false }
+      ],
+      "explanation": "Viruses have few or no enzymes, relying on the host cell's machinery."
+    },
+    {
+      "id": "A2.3-018",
+      "level": "HL",
+      "statement": "A2.3.2",
+      "category": "A2.3 Viruses",
+      "scenario": "HIV uses RNA as its genetic material.",
+      "stem": "This shows that viruses:",
+      "options": [
+        { "letter": "A", "text": "Can use RNA rather than DNA", "correct": true },
+        { "letter": "B", "text": "Must always use double-stranded DNA", "correct": false },
+        { "letter": "C", "text": "Contain no genetic material", "correct": false },
+        { "letter": "D", "text": "Are living cells", "correct": false }
+      ],
+      "explanation": "Viral diversity includes the use of RNA, as in HIV, as the genetic material."
+    },
+    {
+      "id": "A2.3-019",
+      "level": "HL",
+      "statement": "A2.3.6",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Why do some viruses evolve very rapidly?",
+      "options": [
+        { "letter": "A", "text": "High mutation rates and very fast reproduction", "correct": true },
+        { "letter": "B", "text": "They have proofreading like eukaryotes", "correct": false },
+        { "letter": "C", "text": "They reproduce only once per year", "correct": false },
+        { "letter": "D", "text": "They never mutate", "correct": false }
+      ],
+      "explanation": "Rapid evolution results from high mutation rates combined with very rapid reproduction in the host."
+    },
+    {
+      "id": "A2.3-020",
+      "level": "HL",
+      "statement": "A2.3.3",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "During the lytic cycle, new viral proteins are made using the:",
+      "options": [
+        { "letter": "A", "text": "Host cell's ribosomes", "correct": true },
+        { "letter": "B", "text": "Virus's own mitochondria", "correct": false },
+        { "letter": "C", "text": "Virus's own ribosomes", "correct": false },
+        { "letter": "D", "text": "Host cell wall", "correct": false }
+      ],
+      "explanation": "Because viruses lack their own protein-synthesis machinery, they use the host cell's ribosomes."
+    },
+    {
+      "id": "A2.3-021",
+      "level": "HL",
+      "statement": "A2.3.4",
+      "category": "A2.3 Viruses",
+      "scenario": "A dormant viral genome integrated in a bacterium is later triggered by stress.",
+      "stem": "What is likely to happen next?",
+      "options": [
+        { "letter": "A", "text": "It switches to the lytic cycle and produces new viruses", "correct": true },
+        { "letter": "B", "text": "It permanently leaves the cell without replicating", "correct": false },
+        { "letter": "C", "text": "It becomes a mitochondrion", "correct": false },
+        { "letter": "D", "text": "It stops the bacterium from ever dividing", "correct": false }
+      ],
+      "explanation": "A prophage can switch from the lysogenic to the lytic cycle, producing and releasing new virus particles."
+    },
+    {
+      "id": "A2.3-022",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which combination lists features shared by all viruses?",
+      "options": [
+        { "letter": "A", "text": "Small fixed size, nucleic acid, capsid, no cytoplasm", "correct": true },
+        { "letter": "B", "text": "Nucleus, mitochondria, cytoplasm, ribosomes", "correct": false },
+        { "letter": "C", "text": "Cell wall, chloroplast, vacuole, flagellum", "correct": false },
+        { "letter": "D", "text": "80S ribosomes, Golgi, ER, lysosomes", "correct": false }
+      ],
+      "explanation": "All viruses share a small fixed size, nucleic acid genome, protein capsid, no cytoplasm and few/no enzymes."
+    },
+    {
+      "id": "A2.3-023",
+      "level": "HL",
+      "statement": "A2.3.2",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Coronaviruses are given as an example to illustrate viral:",
+      "options": [
+        { "letter": "A", "text": "Diversity of structure", "correct": true },
+        { "letter": "B", "text": "Ability to photosynthesise", "correct": false },
+        { "letter": "C", "text": "Possession of a nucleus", "correct": false },
+        { "letter": "D", "text": "Use of 80S ribosomes", "correct": false }
+      ],
+      "explanation": "Coronaviruses, alongside bacteriophage lambda and HIV, are examples showing the diversity of virus structure."
+    },
+    {
+      "id": "A2.3-024",
+      "level": "HL",
+      "statement": "A2.3.5",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Obligate parasitism in viruses means they:",
+      "options": [
+        { "letter": "A", "text": "Can only reproduce inside a host cell", "correct": true },
+        { "letter": "B", "text": "Reproduce freely outside cells", "correct": false },
+        { "letter": "C", "text": "Do not need a host at all", "correct": false },
+        { "letter": "D", "text": "Are helpful to their hosts", "correct": false }
+      ],
+      "explanation": "Viruses are obligate parasites, unable to reproduce without exploiting a host cell."
+    },
+    {
+      "id": "A2.3-025",
+      "level": "HL",
+      "statement": "A2.3.6",
+      "category": "A2.3 Viruses",
+      "scenario": "The influenza virus changes slightly each year.",
+      "stem": "Why must the flu vaccine be updated regularly?",
+      "options": [
+        { "letter": "A", "text": "The virus evolves rapidly, changing its surface antigens", "correct": true },
+        { "letter": "B", "text": "The virus never changes", "correct": false },
+        { "letter": "C", "text": "Vaccines wear out chemically", "correct": false },
+        { "letter": "D", "text": "The virus becomes a bacterium", "correct": false }
+      ],
+      "explanation": "Because influenza evolves rapidly, its antigens change and vaccines must be updated to remain effective."
+    },
+    {
+      "id": "A2.3-026",
+      "level": "HL",
+      "statement": "A2.3.3",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which is the correct general order of events in a lytic cycle?",
+      "options": [
+        { "letter": "A", "text": "Attachment, entry of nucleic acid, replication and assembly, lysis", "correct": true },
+        { "letter": "B", "text": "Lysis, attachment, replication, entry", "correct": false },
+        { "letter": "C", "text": "Assembly, attachment, entry, dormancy", "correct": false },
+        { "letter": "D", "text": "Integration, dormancy, replication, budding only", "correct": false }
+      ],
+      "explanation": "The lytic cycle proceeds by attachment, injection of nucleic acid, replication and assembly of new viruses, then lysis of the host."
+    },
+    {
+      "id": "A2.3-027",
+      "level": "HL",
+      "statement": "A2.3.5",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "The observation that different viruses have very different genome types supports the idea that viruses:",
+      "options": [
+        { "letter": "A", "text": "Evolved from other organisms on more than one occasion", "correct": true },
+        { "letter": "B", "text": "Share a single recent common ancestor", "correct": false },
+        { "letter": "C", "text": "Are all identical in structure", "correct": false },
+        { "letter": "D", "text": "Cannot evolve at all", "correct": false }
+      ],
+      "explanation": "Their diversity is evidence for several separate origins of viruses from other organisms."
+    },
+    {
+      "id": "A2.3-028",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Why is the number of features shared by ALL viruses relatively small?",
+      "options": [
+        { "letter": "A", "text": "Viruses are highly diverse, likely with several origins", "correct": true },
+        { "letter": "B", "text": "All viruses are identical", "correct": false },
+        { "letter": "C", "text": "Viruses have complex cells", "correct": false },
+        { "letter": "D", "text": "Viruses share all features with bacteria", "correct": false }
+      ],
+      "explanation": "Because viruses are so diverse, only a few features (size, nucleic acid, capsid, no cytoplasm, few enzymes) are shared by all."
+    },
+    {
+      "id": "A2.3-029",
+      "level": "HL",
+      "statement": "A2.3.4",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "A key difference between the lysogenic and lytic cycles is that in the lysogenic cycle the virus:",
+      "options": [
+        { "letter": "A", "text": "Does not immediately destroy the host cell", "correct": true },
+        { "letter": "B", "text": "Bursts the cell straight away", "correct": false },
+        { "letter": "C", "text": "Cannot enter the host at all", "correct": false },
+        { "letter": "D", "text": "Loses its nucleic acid", "correct": false }
+      ],
+      "explanation": "In the lysogenic cycle the viral DNA is maintained in the host without immediately causing lysis."
+    },
+    {
+      "id": "A2.3-030",
+      "level": "HL",
+      "statement": "A2.3.6",
+      "category": "A2.3 Viruses",
+      "scenario": "HIV mutates rapidly during an infection.",
+      "stem": "Why does this make treatment difficult?",
+      "options": [
+        { "letter": "A", "text": "Drug-resistant variants can arise quickly", "correct": true },
+        { "letter": "B", "text": "The virus becomes harmless", "correct": false },
+        { "letter": "C", "text": "The immune system easily clears it", "correct": false },
+        { "letter": "D", "text": "It stops infecting new cells", "correct": false }
+      ],
+      "explanation": "Rapid mutation in HIV allows drug-resistant variants to evolve, making treatment challenging."
+    },
+    {
+      "id": "A2.3-031",
+      "level": "HL",
+      "statement": "A2.3.2",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Two viruses differ in whether their genetic material is single- or double-stranded. This illustrates:",
+      "options": [
+        { "letter": "A", "text": "The diversity of virus structure", "correct": true },
+        { "letter": "B", "text": "That viruses are cells", "correct": false },
+        { "letter": "C", "text": "That all viruses are the same", "correct": false },
+        { "letter": "D", "text": "That viruses have no genome", "correct": false }
+      ],
+      "explanation": "Variation in strandedness of the genome is one aspect of the structural diversity of viruses."
+    },
+    {
+      "id": "A2.3-032",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Viruses can exist with very few genes mainly because they:",
+      "options": [
+        { "letter": "A", "text": "Use the host cell's machinery for most functions", "correct": true },
+        { "letter": "B", "text": "Do not reproduce", "correct": false },
+        { "letter": "C", "text": "Have their own complete metabolism", "correct": false },
+        { "letter": "D", "text": "Contain no genetic material", "correct": false }
+      ],
+      "explanation": "Relying on the host for energy, protein synthesis and other functions lets viruses survive with very few genes."
+    },
+    {
+      "id": "A2.3-033",
+      "level": "HL",
+      "statement": "A2.3.3",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "A bacteriophage is a virus that infects:",
+      "options": [
+        { "letter": "A", "text": "Bacteria", "correct": true },
+        { "letter": "B", "text": "Plant cells only", "correct": false },
+        { "letter": "C", "text": "Animal cells only", "correct": false },
+        { "letter": "D", "text": "Other viruses", "correct": false }
+      ],
+      "explanation": "A bacteriophage, such as lambda, is a virus that infects bacteria."
+    },
+    {
+      "id": "A2.3-034",
+      "level": "HL",
+      "statement": "A2.3.5",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Similar capsid shapes evolving in unrelated viruses adapted to the same lifestyle is best explained by:",
+      "options": [
+        { "letter": "A", "text": "Convergent evolution", "correct": true },
+        { "letter": "B", "text": "Common ancestry", "correct": false },
+        { "letter": "C", "text": "Artificial selection", "correct": false },
+        { "letter": "D", "text": "Sexual reproduction", "correct": false }
+      ],
+      "explanation": "Shared features from a shared parasitic mode of existence, despite separate origins, indicate convergent evolution."
+    },
+    {
+      "id": "A2.3-035",
+      "level": "HL",
+      "statement": "A2.3.2",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "A non-enveloped virus differs from an enveloped virus in that it:",
+      "options": [
+        { "letter": "A", "text": "Lacks a surrounding layer of host membrane", "correct": true },
+        { "letter": "B", "text": "Has no capsid", "correct": false },
+        { "letter": "C", "text": "Has no genetic material", "correct": false },
+        { "letter": "D", "text": "Contains cytoplasm", "correct": false }
+      ],
+      "explanation": "Enveloped viruses carry a layer of host membrane; non-enveloped viruses do not."
+    },
+    {
+      "id": "A2.3-036",
+      "level": "HL",
+      "statement": "A2.3.6",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Rapid viral evolution is a direct consequence of which combination?",
+      "options": [
+        { "letter": "A", "text": "Short generation times and high mutation rates", "correct": true },
+        { "letter": "B", "text": "Long generation times and low mutation rates", "correct": false },
+        { "letter": "C", "text": "Sexual reproduction with recombination only", "correct": false },
+        { "letter": "D", "text": "The absence of any genetic material", "correct": false }
+      ],
+      "explanation": "Very rapid reproduction and high mutation rates together drive rapid evolution in some viruses."
+    },
+    {
+      "id": "A2.3-037",
+      "level": "HL",
+      "statement": "A2.3.3",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Why can a virus not carry out the lytic cycle on its own outside a cell?",
+      "options": [
+        { "letter": "A", "text": "It needs the host's energy and machinery to replicate", "correct": true },
+        { "letter": "B", "text": "It has too many enzymes", "correct": false },
+        { "letter": "C", "text": "Its capsid blocks replication", "correct": false },
+        { "letter": "D", "text": "It reproduces only by mitosis", "correct": false }
+      ],
+      "explanation": "Viruses lack the machinery for independent replication and depend entirely on a host cell."
+    },
+    {
+      "id": "A2.3-038",
+      "level": "HL",
+      "statement": "A2.3.5",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "That the genetic code is shared between viruses and cellular life suggests:",
+      "options": [
+        { "letter": "A", "text": "Viruses are connected to cellular life, likely originating from it", "correct": true },
+        { "letter": "B", "text": "Viruses use a completely different code", "correct": false },
+        { "letter": "C", "text": "Viruses have no genes", "correct": false },
+        { "letter": "D", "text": "Viruses cannot infect cells", "correct": false }
+      ],
+      "explanation": "The shared genetic code links viruses to cellular life and supports origins from other organisms."
+    },
+    {
+      "id": "A2.3-039",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which of these structures would you NOT expect to find in any virus?",
+      "options": [
+        { "letter": "A", "text": "Mitochondrion", "correct": true },
+        { "letter": "B", "text": "Capsid", "correct": false },
+        { "letter": "C", "text": "Nucleic acid", "correct": false },
+        { "letter": "D", "text": "Protein coat", "correct": false }
+      ],
+      "explanation": "Viruses have no organelles such as mitochondria; they possess only a nucleic acid genome and a protein capsid."
+    },
+    {
+      "id": "A2.3-040",
+      "level": "HL",
+      "statement": "A2.3.2",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "The wide variation in virus shape and structure is described in the syllabus as viruses being:",
+      "options": [
+        { "letter": "A", "text": "Highly diverse", "correct": true },
+        { "letter": "B", "text": "Completely uniform", "correct": false },
+        { "letter": "C", "text": "All rod-shaped", "correct": false },
+        { "letter": "D", "text": "Identical to bacteria", "correct": false }
+      ],
+      "explanation": "Viruses are highly diverse in their shape and structure."
+    },
+    {
+      "id": "A2.3-041",
+      "level": "HL",
+      "statement": "A2.3.6",
+      "category": "A2.3 Viruses",
+      "scenario": "A newly emerged influenza strain spreads because people have little immunity to it.",
+      "stem": "This lack of immunity is a consequence of the virus's:",
+      "options": [
+        { "letter": "A", "text": "Rapid evolution changing its antigens", "correct": true },
+        { "letter": "B", "text": "Inability to mutate", "correct": false },
+        { "letter": "C", "text": "Loss of genetic material", "correct": false },
+        { "letter": "D", "text": "Becoming a living cell", "correct": false }
+      ],
+      "explanation": "Rapid evolution changes surface antigens, so existing immunity may not recognise the new strain."
+    },
+    {
+      "id": "A2.3-042",
+      "level": "HL",
+      "statement": "A2.3.4",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "When viral DNA is integrated into the host chromosome during the lysogenic cycle, it is copied:",
+      "options": [
+        { "letter": "A", "text": "Each time the host cell divides", "correct": true },
+        { "letter": "B", "text": "Never", "correct": false },
+        { "letter": "C", "text": "Only outside the cell", "correct": false },
+        { "letter": "D", "text": "By the virus's own enzymes only", "correct": false }
+      ],
+      "explanation": "Integrated viral DNA is replicated along with the host genome each time the host cell divides."
+    },
+    {
+      "id": "A2.3-043",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "The genetic material of a virus is best described as:",
+      "options": [
+        { "letter": "A", "text": "Either DNA or RNA, but not both", "correct": true },
+        { "letter": "B", "text": "Always both DNA and RNA together", "correct": false },
+        { "letter": "C", "text": "Made of protein", "correct": false },
+        { "letter": "D", "text": "Absent entirely", "correct": false }
+      ],
+      "explanation": "A virus's genome is nucleic acid, either DNA or RNA, but never both at once."
+    },
+    {
+      "id": "A2.3-044",
+      "level": "HL",
+      "statement": "A2.3.5",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which best summarises current thinking on the origin of viruses?",
+      "options": [
+        { "letter": "A", "text": "They likely arose several times from other organisms", "correct": true },
+        { "letter": "B", "text": "They all descend from one ancient virus", "correct": false },
+        { "letter": "C", "text": "They arose before any cells", "correct": false },
+        { "letter": "D", "text": "They have no evolutionary origin", "correct": false }
+      ],
+      "explanation": "The diversity of viruses points to several separate origins from other organisms."
+    },
+    {
+      "id": "A2.3-045",
+      "level": "HL",
+      "statement": "A2.3.3",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Which life function can a virus NOT perform independently?",
+      "options": [
+        { "letter": "A", "text": "Protein synthesis", "correct": true },
+        { "letter": "B", "text": "Storing genetic information", "correct": false },
+        { "letter": "C", "text": "Being enclosed by a capsid", "correct": false },
+        { "letter": "D", "text": "Carrying nucleic acid", "correct": false }
+      ],
+      "explanation": "Viruses cannot synthesise proteins independently; they rely on the host cell's ribosomes."
+    },
+    {
+      "id": "A2.3-046",
+      "level": "HL",
+      "statement": "A2.3.2",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "HIV, bacteriophage lambda and coronaviruses are grouped together in the syllabus to illustrate:",
+      "options": [
+        { "letter": "A", "text": "How much viruses vary in structure", "correct": true },
+        { "letter": "B", "text": "That all viruses are enveloped", "correct": false },
+        { "letter": "C", "text": "That all viruses use DNA", "correct": false },
+        { "letter": "D", "text": "That viruses are living cells", "correct": false }
+      ],
+      "explanation": "These examples are used to demonstrate the diversity of virus structure."
+    },
+    {
+      "id": "A2.3-047",
+      "level": "HL",
+      "statement": "A2.3.6",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "A practical consequence of rapid viral evolution for public health is that:",
+      "options": [
+        { "letter": "A", "text": "New vaccines or drugs may be needed repeatedly", "correct": true },
+        { "letter": "B", "text": "Diseases are always eliminated permanently", "correct": false },
+        { "letter": "C", "text": "One treatment always works forever", "correct": false },
+        { "letter": "D", "text": "Viruses can be ignored", "correct": false }
+      ],
+      "explanation": "Because rapidly evolving viruses change, ongoing development of new vaccines and drugs is often needed."
+    },
+    {
+      "id": "A2.3-048",
+      "level": "HL",
+      "statement": "A2.3.1",
+      "category": "A2.3 Viruses",
+      "scenario": "A student argues that viruses are alive because they contain DNA.",
+      "stem": "Why is this argument insufficient?",
+      "options": [
+        { "letter": "A", "text": "Containing nucleic acid does not make something self-sustaining", "correct": true },
+        { "letter": "B", "text": "Viruses do not contain DNA", "correct": false },
+        { "letter": "C", "text": "Only living things contain protein", "correct": false },
+        { "letter": "D", "text": "DNA is not genetic material", "correct": false }
+      ],
+      "explanation": "Having nucleic acid is not enough; viruses lack the ability to carry out life processes independently, so they are non-living."
+    },
+    {
+      "id": "A2.3-049",
+      "level": "HL",
+      "statement": "A2.3.4",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "A virus in the lysogenic cycle whose DNA is integrated into the host genome is often called a:",
+      "options": [
+        { "letter": "A", "text": "Prophage", "correct": true },
+        { "letter": "B", "text": "Capsid", "correct": false },
+        { "letter": "C", "text": "Ribozyme", "correct": false },
+        { "letter": "D", "text": "Plasmid", "correct": false }
+      ],
+      "explanation": "Integrated viral DNA in a bacterial host during the lysogenic cycle is known as a prophage."
+    },
+    {
+      "id": "A2.3-050",
+      "level": "HL",
+      "statement": "A2.3.5",
+      "category": "A2.3 Viruses",
+      "scenario": "",
+      "stem": "Convergent evolution among viruses would produce:",
+      "options": [
+        { "letter": "A", "text": "Similar features in viruses with different origins", "correct": true },
+        { "letter": "B", "text": "Identical genomes in all viruses", "correct": false },
+        { "letter": "C", "text": "Viruses that never share any features", "correct": false },
+        { "letter": "D", "text": "Viruses descended from one ancestor", "correct": false }
+      ],
+      "explanation": "Convergent evolution gives rise to similar features in organisms (or viruses) of different origins facing similar pressures."
+    }
+  ]
+}

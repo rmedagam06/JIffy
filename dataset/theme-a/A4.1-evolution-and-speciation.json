@@ -1,0 +1,760 @@
+{
+  "id": "A4.1",
+  "name": "Evolution and speciation",
+  "theme": "A",
+  "themeName": "Unity and diversity",
+  "levelOfOrganization": "Ecosystems",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "A4.1-001",
+      "level": "SL",
+      "statement": "A4.1.1",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Evolution is defined as a change in the:",
+      "options": [
+        { "letter": "A", "text": "Heritable characteristics of a population", "correct": true },
+        { "letter": "B", "text": "Acquired characteristics of one individual", "correct": false },
+        { "letter": "C", "text": "Behaviour of a single organism in its lifetime", "correct": false },
+        { "letter": "D", "text": "Size of an organism due to diet", "correct": false }
+      ],
+      "explanation": "Evolution is change in the heritable characteristics of a population over generations."
+    },
+    {
+      "id": "A4.1-002",
+      "level": "SL",
+      "statement": "A4.1.1",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "A weightlifter develops large muscles during their life.",
+      "stem": "Why is this NOT considered evolution?",
+      "options": [
+        { "letter": "A", "text": "It is an acquired change, not a heritable one", "correct": true },
+        { "letter": "B", "text": "It changes the whole population", "correct": false },
+        { "letter": "C", "text": "It is passed to offspring", "correct": false },
+        { "letter": "D", "text": "It alters the DNA sequence", "correct": false }
+      ],
+      "explanation": "Acquired changes that are not genetic are not passed on, so they are not evolution; this distinguishes Darwinism from Lamarckism."
+    },
+    {
+      "id": "A4.1-003",
+      "level": "SL",
+      "statement": "A4.1.2",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "Two species have very similar DNA base sequences for a shared gene.",
+      "stem": "This is evidence that they:",
+      "options": [
+        { "letter": "A", "text": "Share a common ancestor", "correct": true },
+        { "letter": "B", "text": "Evolved completely separately", "correct": false },
+        { "letter": "C", "text": "Cannot be related", "correct": false },
+        { "letter": "D", "text": "Have identical habitats", "correct": false }
+      ],
+      "explanation": "Similar DNA, RNA or protein sequences give powerful evidence of common ancestry."
+    },
+    {
+      "id": "A4.1-004",
+      "level": "SL",
+      "statement": "A4.1.3",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "Many breeds of dog have been produced from wolves in a few thousand years.",
+      "stem": "This selective breeding provides evidence that:",
+      "options": [
+        { "letter": "A", "text": "Evolutionary change can occur rapidly", "correct": true },
+        { "letter": "B", "text": "Evolution never happens", "correct": false },
+        { "letter": "C", "text": "All dogs are a different species from wolves", "correct": false },
+        { "letter": "D", "text": "Acquired traits are inherited", "correct": false }
+      ],
+      "explanation": "The variety produced by selective breeding shows how rapidly evolutionary change can occur."
+    },
+    {
+      "id": "A4.1-005",
+      "level": "SL",
+      "statement": "A4.1.4",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "The forelimbs of humans, whales and bats share the same basic bone arrangement.",
+      "stem": "These are examples of:",
+      "options": [
+        { "letter": "A", "text": "Homologous structures", "correct": true },
+        { "letter": "B", "text": "Analogous structures", "correct": false },
+        { "letter": "C", "text": "Vestigial organs only", "correct": false },
+        { "letter": "D", "text": "Convergent structures", "correct": false }
+      ],
+      "explanation": "The pentadactyl limb is a homologous structure, indicating descent from a common ancestor."
+    },
+    {
+      "id": "A4.1-006",
+      "level": "SL",
+      "statement": "A4.1.4",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "The classic example of a homologous structure used in the syllabus is the:",
+      "options": [
+        { "letter": "A", "text": "Pentadactyl limb", "correct": true },
+        { "letter": "B", "text": "Insect wing", "correct": false },
+        { "letter": "C", "text": "Shark fin only", "correct": false },
+        { "letter": "D", "text": "Bacterial flagellum", "correct": false }
+      ],
+      "explanation": "The pentadactyl (five-digit) limb is the syllabus example of homologous structures."
+    },
+    {
+      "id": "A4.1-007",
+      "level": "SL",
+      "statement": "A4.1.5",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "The wings of birds and the wings of insects both allow flight but evolved separately.",
+      "stem": "These are examples of:",
+      "options": [
+        { "letter": "A", "text": "Analogous structures from convergent evolution", "correct": true },
+        { "letter": "B", "text": "Homologous structures from common ancestry", "correct": false },
+        { "letter": "C", "text": "Identical genetic sequences", "correct": false },
+        { "letter": "D", "text": "Vestigial structures", "correct": false }
+      ],
+      "explanation": "Analogous structures share a function but have different evolutionary origins, arising through convergent evolution."
+    },
+    {
+      "id": "A4.1-008",
+      "level": "SL",
+      "statement": "A4.1.5",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Analogous structures have:",
+      "options": [
+        { "letter": "A", "text": "The same function but different evolutionary origins", "correct": true },
+        { "letter": "B", "text": "The same origin but different functions", "correct": false },
+        { "letter": "C", "text": "Identical DNA sequences", "correct": false },
+        { "letter": "D", "text": "No function at all", "correct": false }
+      ],
+      "explanation": "Analogous structures perform the same function but arose from different evolutionary origins."
+    },
+    {
+      "id": "A4.1-009",
+      "level": "SL",
+      "statement": "A4.1.6",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "How do new species arise?",
+      "options": [
+        { "letter": "A", "text": "By the splitting of pre-existing species", "correct": true },
+        { "letter": "B", "text": "By the merging of two species", "correct": false },
+        { "letter": "C", "text": "Spontaneously from non-living matter", "correct": false },
+        { "letter": "D", "text": "By an individual acquiring new traits", "correct": false }
+      ],
+      "explanation": "Speciation, the splitting of pre-existing species, is the only way new species have appeared."
+    },
+    {
+      "id": "A4.1-010",
+      "level": "SL",
+      "statement": "A4.1.6",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Speciation increases the number of species on Earth, while the opposite effect is caused by:",
+      "options": [
+        { "letter": "A", "text": "Extinction", "correct": true },
+        { "letter": "B", "text": "Adaptation", "correct": false },
+        { "letter": "C", "text": "Mutation", "correct": false },
+        { "letter": "D", "text": "Reproduction", "correct": false }
+      ],
+      "explanation": "Speciation increases the total number of species and extinction decreases it."
+    },
+    {
+      "id": "A4.1-011",
+      "level": "SL",
+      "statement": "A4.1.6",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "A single species slowly changes over time but does not split.",
+      "stem": "Is this speciation?",
+      "options": [
+        { "letter": "A", "text": "No, because no new species is formed by splitting", "correct": true },
+        { "letter": "B", "text": "Yes, any change is speciation", "correct": false },
+        { "letter": "C", "text": "Yes, because the species evolves", "correct": false },
+        { "letter": "D", "text": "No, because evolution never occurs", "correct": false }
+      ],
+      "explanation": "Gradual change within one lineage is not speciation; speciation requires splitting into two or more species."
+    },
+    {
+      "id": "A4.1-012",
+      "level": "SL",
+      "statement": "A4.1.7",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Two things are needed for speciation to occur:",
+      "options": [
+        { "letter": "A", "text": "Reproductive isolation and differential selection", "correct": true },
+        { "letter": "B", "text": "Identical environments and free interbreeding", "correct": false },
+        { "letter": "C", "text": "The merging of populations", "correct": false },
+        { "letter": "D", "text": "Loss of all genetic variation", "correct": false }
+      ],
+      "explanation": "Speciation requires reproductive isolation together with differential selection acting on the separated populations."
+    },
+    {
+      "id": "A4.1-013",
+      "level": "SL",
+      "statement": "A4.1.7",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "A river separates a population into two groups that can no longer meet.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Geographical isolation", "correct": true },
+        { "letter": "B", "text": "Temporal isolation", "correct": false },
+        { "letter": "C", "text": "Behavioural isolation", "correct": false },
+        { "letter": "D", "text": "Selective breeding", "correct": false }
+      ],
+      "explanation": "A physical barrier such as a river causes geographical isolation, a means of achieving reproductive isolation."
+    },
+    {
+      "id": "A4.1-014",
+      "level": "SL",
+      "statement": "A4.1.7",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "Bonobos and common chimpanzees are separated by the Congo River.",
+      "stem": "This example illustrates divergence caused by:",
+      "options": [
+        { "letter": "A", "text": "Geographical isolation and differential selection", "correct": true },
+        { "letter": "B", "text": "Selective breeding by humans", "correct": false },
+        { "letter": "C", "text": "Temporal isolation only", "correct": false },
+        { "letter": "D", "text": "Inheritance of acquired traits", "correct": false }
+      ],
+      "explanation": "The Congo River geographically separates bonobos and chimpanzees, leading to divergence through differential selection."
+    },
+    {
+      "id": "A4.1-015",
+      "level": "SL",
+      "statement": "A4.1.1",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Which of these would count as evolution?",
+      "options": [
+        { "letter": "A", "text": "A change in allele frequencies in a population over generations", "correct": true },
+        { "letter": "B", "text": "A plant growing taller with more sunlight", "correct": false },
+        { "letter": "C", "text": "An animal learning a new behaviour", "correct": false },
+        { "letter": "D", "text": "A person tanning in the sun", "correct": false }
+      ],
+      "explanation": "Evolution is a heritable change across generations, unlike acquired changes within one lifetime."
+    },
+    {
+      "id": "A4.1-016",
+      "level": "SL",
+      "statement": "A4.1.2",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Amino acid sequences of a protein shared by many species can be used to:",
+      "options": [
+        { "letter": "A", "text": "Provide evidence of evolutionary relationships", "correct": true },
+        { "letter": "B", "text": "Prove species are unrelated", "correct": false },
+        { "letter": "C", "text": "Show acquired traits are inherited", "correct": false },
+        { "letter": "D", "text": "Measure the size of organisms", "correct": false }
+      ],
+      "explanation": "Amino acid and base sequences give powerful evidence of common ancestry and evolutionary relationships."
+    },
+    {
+      "id": "A4.1-017",
+      "level": "SL",
+      "statement": "A4.1.3",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "Wild mustard has been bred into cabbage, broccoli and kale.",
+      "stem": "This is evidence for evolution from:",
+      "options": [
+        { "letter": "A", "text": "Selective breeding of crop plants", "correct": true },
+        { "letter": "B", "text": "Homologous structures", "correct": false },
+        { "letter": "C", "text": "Convergent evolution", "correct": false },
+        { "letter": "D", "text": "The molecular clock", "correct": false }
+      ],
+      "explanation": "Producing diverse crops from one wild species by selective breeding is evidence of how fast evolutionary change can occur."
+    },
+    {
+      "id": "A4.1-018",
+      "level": "SL",
+      "statement": "A4.1.4",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Homologous structures provide evidence for evolution because they suggest:",
+      "options": [
+        { "letter": "A", "text": "Descent from a common ancestor", "correct": true },
+        { "letter": "B", "text": "Separate independent origins", "correct": false },
+        { "letter": "C", "text": "That structures never change", "correct": false },
+        { "letter": "D", "text": "Identical present-day functions", "correct": false }
+      ],
+      "explanation": "Homologous structures share a common underlying plan, indicating descent from a common ancestor."
+    },
+    {
+      "id": "A4.1-019",
+      "level": "SL",
+      "statement": "A4.1.5",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "The streamlined body shapes of sharks (fish) and dolphins (mammals) are similar.",
+      "stem": "This similarity is an example of:",
+      "options": [
+        { "letter": "A", "text": "Convergent evolution producing analogous features", "correct": true },
+        { "letter": "B", "text": "Homologous structures", "correct": false },
+        { "letter": "C", "text": "Selective breeding", "correct": false },
+        { "letter": "D", "text": "Common recent ancestry", "correct": false }
+      ],
+      "explanation": "Similar body shapes in distantly related animals adapted to the same environment are analogous, from convergent evolution."
+    },
+    {
+      "id": "A4.1-020",
+      "level": "SL",
+      "statement": "A4.1.6",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Which statement about speciation is correct?",
+      "options": [
+        { "letter": "A", "text": "It is the only way new species have appeared", "correct": true },
+        { "letter": "B", "text": "It decreases the number of species", "correct": false },
+        { "letter": "C", "text": "It is the same as extinction", "correct": false },
+        { "letter": "D", "text": "It occurs without any isolation", "correct": false }
+      ],
+      "explanation": "Speciation by splitting is the only way new species have appeared, increasing the number of species."
+    },
+    {
+      "id": "A4.1-021",
+      "level": "SL",
+      "statement": "A4.1.7",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Reproductive isolation is important for speciation because it:",
+      "options": [
+        { "letter": "A", "text": "Prevents gene flow between the diverging populations", "correct": true },
+        { "letter": "B", "text": "Increases interbreeding", "correct": false },
+        { "letter": "C", "text": "Merges the populations", "correct": false },
+        { "letter": "D", "text": "Removes all variation", "correct": false }
+      ],
+      "explanation": "Reproductive isolation stops gene flow, allowing populations to diverge into separate species."
+    },
+    {
+      "id": "A4.1-022",
+      "level": "SL",
+      "statement": "A4.1.1",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "Lamarck suggested giraffes got long necks by stretching during their lives.",
+      "stem": "Why does modern evolutionary theory reject this?",
+      "options": [
+        { "letter": "A", "text": "Acquired characteristics are not heritable", "correct": true },
+        { "letter": "B", "text": "Giraffes do not have long necks", "correct": false },
+        { "letter": "C", "text": "Evolution does not involve DNA", "correct": false },
+        { "letter": "D", "text": "Stretching changes the DNA sequence", "correct": false }
+      ],
+      "explanation": "Darwinian evolution acts on heritable variation; acquired changes like stretching are not passed to offspring."
+    },
+    {
+      "id": "A4.1-023",
+      "level": "SL",
+      "statement": "A4.1.2",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Why is molecular sequence data considered strong evidence for evolution?",
+      "options": [
+        { "letter": "A", "text": "The degree of similarity reflects how closely species are related", "correct": true },
+        { "letter": "B", "text": "Sequences are the same in all species", "correct": false },
+        { "letter": "C", "text": "Sequences change randomly with no pattern", "correct": false },
+        { "letter": "D", "text": "Sequences cannot be compared", "correct": false }
+      ],
+      "explanation": "More closely related species have more similar sequences, giving quantifiable evidence of common ancestry."
+    },
+    {
+      "id": "A4.1-024",
+      "level": "SL",
+      "statement": "A4.1.5",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Convergent evolution occurs when organisms:",
+      "options": [
+        { "letter": "A", "text": "Independently evolve similar features under similar pressures", "correct": true },
+        { "letter": "B", "text": "Inherit features from a shared ancestor", "correct": false },
+        { "letter": "C", "text": "Lose all their features", "correct": false },
+        { "letter": "D", "text": "Merge into one species", "correct": false }
+      ],
+      "explanation": "Convergent evolution produces similar (analogous) features in unrelated organisms facing similar selection pressures."
+    },
+    {
+      "id": "A4.1-025",
+      "level": "SL",
+      "statement": "A4.1.4",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Homologous structures may have different functions but share:",
+      "options": [
+        { "letter": "A", "text": "A common underlying structure and origin", "correct": true },
+        { "letter": "B", "text": "Exactly the same function", "correct": false },
+        { "letter": "C", "text": "No common ancestor", "correct": false },
+        { "letter": "D", "text": "Identical DNA base sequences", "correct": false }
+      ],
+      "explanation": "Homologous structures share a common origin and basic structure even when their functions differ."
+    },
+    {
+      "id": "A4.1-026",
+      "level": "SL",
+      "statement": "A4.1.6",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Which process directly increases the total number of species on Earth?",
+      "options": [
+        { "letter": "A", "text": "Speciation", "correct": true },
+        { "letter": "B", "text": "Extinction", "correct": false },
+        { "letter": "C", "text": "Migration", "correct": false },
+        { "letter": "D", "text": "Homeostasis", "correct": false }
+      ],
+      "explanation": "Speciation increases species number; extinction decreases it."
+    },
+    {
+      "id": "A4.1-027",
+      "level": "SL",
+      "statement": "A4.1.7",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "Two isolated populations experience different environmental pressures.",
+      "stem": "The different pressures lead to:",
+      "options": [
+        { "letter": "A", "text": "Differential selection, driving them apart", "correct": true },
+        { "letter": "B", "text": "Identical evolution in both", "correct": false },
+        { "letter": "C", "text": "Immediate merging", "correct": false },
+        { "letter": "D", "text": "No change at all", "correct": false }
+      ],
+      "explanation": "Different selection pressures on isolated populations cause differential selection, promoting divergence."
+    },
+    {
+      "id": "A4.1-028",
+      "level": "SL",
+      "statement": "A4.1.3",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Selective breeding differs from natural selection because the selecting agent is:",
+      "options": [
+        { "letter": "A", "text": "Humans, choosing which organisms reproduce", "correct": true },
+        { "letter": "B", "text": "The natural environment only", "correct": false },
+        { "letter": "C", "text": "Random chance alone", "correct": false },
+        { "letter": "D", "text": "Non-existent", "correct": false }
+      ],
+      "explanation": "In selective breeding humans choose which organisms breed, showing how quickly heritable change can be produced."
+    },
+    {
+      "id": "A4.1-029",
+      "level": "SL",
+      "statement": "A4.1.1",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Evolution acts on which level?",
+      "options": [
+        { "letter": "A", "text": "Populations over generations", "correct": true },
+        { "letter": "B", "text": "A single individual in one day", "correct": false },
+        { "letter": "C", "text": "Only non-living matter", "correct": false },
+        { "letter": "D", "text": "Only one cell", "correct": false }
+      ],
+      "explanation": "Evolution is a change in the heritable characteristics of a population across generations."
+    },
+    {
+      "id": "A4.1-030",
+      "level": "SL",
+      "statement": "A4.1.2",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "The theory of evolution by natural selection explains a huge range of observations.",
+      "stem": "Why is it still called a 'theory'?",
+      "options": [
+        { "letter": "A", "text": "It cannot be formally proven true, though it is strongly supported", "correct": true },
+        { "letter": "B", "text": "It has no supporting evidence", "correct": false },
+        { "letter": "C", "text": "It is only a guess", "correct": false },
+        { "letter": "D", "text": "It has been falsified", "correct": false }
+      ],
+      "explanation": "It is a well-supported, pragmatic truth called a theory because science cannot formally prove it true by correspondence."
+    },
+    {
+      "id": "A4.1-031",
+      "level": "SL",
+      "statement": "A4.1.5",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Which pair are analogous rather than homologous structures?",
+      "options": [
+        { "letter": "A", "text": "A butterfly wing and a bird wing", "correct": true },
+        { "letter": "B", "text": "A human arm and a whale flipper", "correct": false },
+        { "letter": "C", "text": "A bat wing and a cat leg", "correct": false },
+        { "letter": "D", "text": "A human hand and a mole forelimb", "correct": false }
+      ],
+      "explanation": "Butterfly and bird wings share function but not evolutionary origin, so they are analogous; the others are homologous pentadactyl limbs."
+    },
+    {
+      "id": "A4.1-032",
+      "level": "SL",
+      "statement": "A4.1.6",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "For speciation to be complete, the two new populations must be:",
+      "options": [
+        { "letter": "A", "text": "Reproductively isolated from each other", "correct": true },
+        { "letter": "B", "text": "Able to freely interbreed", "correct": false },
+        { "letter": "C", "text": "Identical in every trait", "correct": false },
+        { "letter": "D", "text": "Living in the same nest", "correct": false }
+      ],
+      "explanation": "Complete speciation requires reproductive isolation so the populations no longer interbreed."
+    },
+    {
+      "id": "A4.1-033",
+      "level": "SL",
+      "statement": "A4.1.4",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "The pentadactyl limb is found in amphibians, reptiles, birds and mammals. This suggests they:",
+      "options": [
+        { "letter": "A", "text": "Descended from a common ancestor with this limb", "correct": true },
+        { "letter": "B", "text": "Evolved the limb separately by chance", "correct": false },
+        { "letter": "C", "text": "Are all the same species", "correct": false },
+        { "letter": "D", "text": "Have no evolutionary relationship", "correct": false }
+      ],
+      "explanation": "A shared homologous limb structure across these groups indicates descent from a common ancestor."
+    },
+    {
+      "id": "A4.1-034",
+      "level": "SL",
+      "statement": "A4.1.7",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Geographical isolation contributes to speciation by:",
+      "options": [
+        { "letter": "A", "text": "Physically separating populations so they cannot interbreed", "correct": true },
+        { "letter": "B", "text": "Encouraging populations to merge", "correct": false },
+        { "letter": "C", "text": "Removing all selection pressures", "correct": false },
+        { "letter": "D", "text": "Making populations identical", "correct": false }
+      ],
+      "explanation": "Geographical isolation is a way of achieving the reproductive isolation needed for speciation."
+    },
+    {
+      "id": "A4.1-035",
+      "level": "SL",
+      "statement": "A4.1.3",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "The differences between a domestic breed and its wild ancestor demonstrate that:",
+      "options": [
+        { "letter": "A", "text": "Heritable change can accumulate quickly under selection", "correct": true },
+        { "letter": "B", "text": "Domestic animals cannot change", "correct": false },
+        { "letter": "C", "text": "Selection has no effect", "correct": false },
+        { "letter": "D", "text": "Wild and domestic forms are identical", "correct": false }
+      ],
+      "explanation": "The rapid divergence of breeds from wild ancestors shows how quickly heritable change can occur under selection."
+    },
+    {
+      "id": "A4.1-036",
+      "level": "SL",
+      "statement": "A4.1.5",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Which best explains why analogous structures do NOT indicate close relationship?",
+      "options": [
+        { "letter": "A", "text": "They arose independently, not from a shared ancestor", "correct": true },
+        { "letter": "B", "text": "They come from the same ancestor", "correct": false },
+        { "letter": "C", "text": "They have identical genes", "correct": false },
+        { "letter": "D", "text": "They never share a function", "correct": false }
+      ],
+      "explanation": "Analogous structures evolved independently, so shared function does not indicate close common ancestry."
+    },
+    {
+      "id": "A4.1-037",
+      "level": "SL",
+      "statement": "A4.1.1",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Which of the following changes could be inherited and so contribute to evolution?",
+      "options": [
+        { "letter": "A", "text": "A mutation in a reproductive cell", "correct": true },
+        { "letter": "B", "text": "A scar from an injury", "correct": false },
+        { "letter": "C", "text": "Muscles built by exercise", "correct": false },
+        { "letter": "D", "text": "A suntan", "correct": false }
+      ],
+      "explanation": "Only heritable (genetic) changes, such as mutations in gametes, can contribute to evolution."
+    },
+    {
+      "id": "A4.1-038",
+      "level": "SL",
+      "statement": "A4.1.6",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Which statement correctly links speciation and biodiversity?",
+      "options": [
+        { "letter": "A", "text": "Speciation increases biodiversity by adding species", "correct": true },
+        { "letter": "B", "text": "Speciation reduces biodiversity", "correct": false },
+        { "letter": "C", "text": "Speciation has no effect on species number", "correct": false },
+        { "letter": "D", "text": "Speciation merges species", "correct": false }
+      ],
+      "explanation": "By adding new species, speciation increases the total number of species and hence biodiversity."
+    },
+    {
+      "id": "A4.1-039",
+      "level": "SL",
+      "statement": "A4.1.7",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Which combination is required for two isolated populations to become separate species?",
+      "options": [
+        { "letter": "A", "text": "Reproductive isolation plus differential selection", "correct": true },
+        { "letter": "B", "text": "Free gene flow plus identical environments", "correct": false },
+        { "letter": "C", "text": "Merging plus shared habitat", "correct": false },
+        { "letter": "D", "text": "Acquired traits plus learning", "correct": false }
+      ],
+      "explanation": "Both reproductive isolation and differential selection are needed for populations to diverge into new species."
+    },
+    {
+      "id": "A4.1-040",
+      "level": "SL",
+      "statement": "A4.1.2",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Base sequences, amino acid sequences and homologous structures all provide:",
+      "options": [
+        { "letter": "A", "text": "Independent lines of evidence for evolution", "correct": true },
+        { "letter": "B", "text": "Evidence against evolution", "correct": false },
+        { "letter": "C", "text": "Proof that species do not change", "correct": false },
+        { "letter": "D", "text": "Evidence only for selective breeding", "correct": false }
+      ],
+      "explanation": "Multiple independent lines of evidence, molecular and structural, all support evolution and common ancestry."
+    },
+    {
+      "id": "A4.1-041",
+      "level": "HL",
+      "statement": "A4.1.8",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "Speciation occurs while populations still share the same geographic area.",
+      "stem": "This is called:",
+      "options": [
+        { "letter": "A", "text": "Sympatric speciation", "correct": true },
+        { "letter": "B", "text": "Allopatric speciation", "correct": false },
+        { "letter": "C", "text": "Adaptive radiation", "correct": false },
+        { "letter": "D", "text": "Convergent evolution", "correct": false }
+      ],
+      "explanation": "Sympatric speciation happens without geographic separation, while allopatric speciation involves geographic isolation."
+    },
+    {
+      "id": "A4.1-042",
+      "level": "HL",
+      "statement": "A4.1.8",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "A population is split by a mountain range and diverges into two species.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Allopatric speciation", "correct": true },
+        { "letter": "B", "text": "Sympatric speciation", "correct": false },
+        { "letter": "C", "text": "Polyploidy", "correct": false },
+        { "letter": "D", "text": "Temporal isolation", "correct": false }
+      ],
+      "explanation": "Allopatric speciation occurs when populations are geographically separated, as by a mountain range."
+    },
+    {
+      "id": "A4.1-043",
+      "level": "HL",
+      "statement": "A4.1.8",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "Two populations breed at different times of year and so never mate.",
+      "stem": "This is which type of reproductive isolation?",
+      "options": [
+        { "letter": "A", "text": "Temporal", "correct": true },
+        { "letter": "B", "text": "Geographic", "correct": false },
+        { "letter": "C", "text": "Behavioural", "correct": false },
+        { "letter": "D", "text": "Mechanical only", "correct": false }
+      ],
+      "explanation": "Reproductive isolation can be geographic, behavioural or temporal; breeding at different times is temporal isolation."
+    },
+    {
+      "id": "A4.1-044",
+      "level": "HL",
+      "statement": "A4.1.9",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "One ancestral species rapidly gives rise to many species that fill different niches.",
+      "stem": "This process is called:",
+      "options": [
+        { "letter": "A", "text": "Adaptive radiation", "correct": true },
+        { "letter": "B", "text": "Convergent evolution", "correct": false },
+        { "letter": "C", "text": "Extinction", "correct": false },
+        { "letter": "D", "text": "Selective breeding", "correct": false }
+      ],
+      "explanation": "Adaptive radiation is the rapid diversification of one lineage into many species filling different niches, increasing biodiversity."
+    },
+    {
+      "id": "A4.1-045",
+      "level": "HL",
+      "statement": "A4.1.9",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Adaptive radiation increases biodiversity by allowing related species to:",
+      "options": [
+        { "letter": "A", "text": "Coexist without competing by using vacant niches", "correct": true },
+        { "letter": "B", "text": "Compete for exactly the same niche", "correct": false },
+        { "letter": "C", "text": "Merge into a single species", "correct": false },
+        { "letter": "D", "text": "Go extinct together", "correct": false }
+      ],
+      "explanation": "Adaptive radiation lets closely related species occupy vacant niches and coexist, boosting biodiversity."
+    },
+    {
+      "id": "A4.1-046",
+      "level": "HL",
+      "statement": "A4.1.10",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "In many animal species, elaborate courtship behaviour must occur before mating.",
+      "stem": "How does courtship behaviour prevent hybridization?",
+      "options": [
+        { "letter": "A", "text": "Members of different species do not recognise each other's courtship signals", "correct": true },
+        { "letter": "B", "text": "It forces different species to mate", "correct": false },
+        { "letter": "C", "text": "It removes reproductive isolation", "correct": false },
+        { "letter": "D", "text": "It has no effect on mating", "correct": false }
+      ],
+      "explanation": "Species-specific courtship behaviour acts as a barrier to hybridization, since other species do not respond to it."
+    },
+    {
+      "id": "A4.1-047",
+      "level": "HL",
+      "statement": "A4.1.10",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "A mule is produced by crossing a horse and a donkey.",
+      "stem": "The mule is an example of:",
+      "options": [
+        { "letter": "A", "text": "A sterile interspecific hybrid", "correct": true },
+        { "letter": "B", "text": "A fertile hybrid", "correct": false },
+        { "letter": "C", "text": "A new species", "correct": false },
+        { "letter": "D", "text": "A polyploid plant", "correct": false }
+      ],
+      "explanation": "The mule is a sterile interspecific hybrid, illustrating a barrier that prevents allele mixing between species."
+    },
+    {
+      "id": "A4.1-048",
+      "level": "HL",
+      "statement": "A4.1.11",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "In some plants, a new species forms in a single generation through hybridization and doubling of chromosomes.",
+      "stem": "This process is called:",
+      "options": [
+        { "letter": "A", "text": "Abrupt speciation by polyploidy", "correct": true },
+        { "letter": "B", "text": "Gradual allopatric speciation", "correct": false },
+        { "letter": "C", "text": "Convergent evolution", "correct": false },
+        { "letter": "D", "text": "Adaptive radiation", "correct": false }
+      ],
+      "explanation": "Hybridization combined with polyploidy can produce a new plant species abruptly, in as little as one generation."
+    },
+    {
+      "id": "A4.1-049",
+      "level": "HL",
+      "statement": "A4.1.11",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Which genus is used as an example of abrupt speciation by hybridization and polyploidy?",
+      "options": [
+        { "letter": "A", "text": "Persicaria (knotweed/smartweed)", "correct": true },
+        { "letter": "B", "text": "Homo", "correct": false },
+        { "letter": "C", "text": "Panthera", "correct": false },
+        { "letter": "D", "text": "Escherichia", "correct": false }
+      ],
+      "explanation": "Persicaria (knotweed or smartweed) is used as an example because it contains many species formed by these processes."
+    },
+    {
+      "id": "A4.1-050",
+      "level": "HL",
+      "statement": "A4.1.8",
+      "category": "A4.1 Evolution and speciation",
+      "scenario": "",
+      "stem": "Which is a similarity between sympatric and allopatric speciation?",
+      "options": [
+        { "letter": "A", "text": "Both require reproductive isolation to occur", "correct": true },
+        { "letter": "B", "text": "Both always require a geographic barrier", "correct": false },
+        { "letter": "C", "text": "Neither involves natural selection", "correct": false },
+        { "letter": "D", "text": "Both prevent any divergence", "correct": false }
+      ],
+      "explanation": "Both types of speciation require reproductive isolation; they differ in whether a geographic barrier is involved."
+    }
+  ]
+}

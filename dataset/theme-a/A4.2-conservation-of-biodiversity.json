@@ -1,0 +1,760 @@
+{
+  "id": "A4.2",
+  "name": "Conservation of biodiversity",
+  "theme": "A",
+  "themeName": "Unity and diversity",
+  "levelOfOrganization": "Ecosystems",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "A4.2-001",
+      "level": "SL",
+      "statement": "A4.2.1",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Biodiversity is defined as the variety of life in all its forms, levels and combinations. Which three types are included?",
+      "options": [
+        { "letter": "A", "text": "Ecosystem, species and genetic diversity", "correct": true },
+        { "letter": "B", "text": "Cellular, tissue and organ diversity", "correct": false },
+        { "letter": "C", "text": "Physical, chemical and thermal diversity", "correct": false },
+        { "letter": "D", "text": "Local, national and global diversity", "correct": false }
+      ],
+      "explanation": "Biodiversity includes ecosystem diversity, species diversity and genetic diversity."
+    },
+    {
+      "id": "A4.2-002",
+      "level": "SL",
+      "statement": "A4.2.1",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "The variety of different genes within a single species is being described.",
+      "stem": "This is which type of biodiversity?",
+      "options": [
+        { "letter": "A", "text": "Genetic diversity", "correct": true },
+        { "letter": "B", "text": "Species diversity", "correct": false },
+        { "letter": "C", "text": "Ecosystem diversity", "correct": false },
+        { "letter": "D", "text": "Habitat loss", "correct": false }
+      ],
+      "explanation": "Variation in genes within a species is genetic diversity, one component of biodiversity."
+    },
+    {
+      "id": "A4.2-003",
+      "level": "SL",
+      "statement": "A4.2.2",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Evidence from fossils suggests that the number of species alive on Earth today, compared with the past, is:",
+      "options": [
+        { "letter": "A", "text": "Greater than at any time in the past", "correct": true },
+        { "letter": "B", "text": "Lower than at any time in the past", "correct": false },
+        { "letter": "C", "text": "Exactly the same as always", "correct": false },
+        { "letter": "D", "text": "Impossible to compare", "correct": false }
+      ],
+      "explanation": "Fossil evidence suggests there are currently more species alive than at any time in the past."
+    },
+    {
+      "id": "A4.2-004",
+      "level": "SL",
+      "statement": "A4.2.2",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "In classifying a group, 'splitters' recognise more species than 'lumpers'.",
+      "stem": "What does this illustrate?",
+      "options": [
+        { "letter": "A", "text": "The same observations can be classified in different ways", "correct": true },
+        { "letter": "B", "text": "Classification is always identical for everyone", "correct": false },
+        { "letter": "C", "text": "Species do not exist", "correct": false },
+        { "letter": "D", "text": "Fossils cannot be studied", "correct": false }
+      ],
+      "explanation": "Splitters and lumpers show that classification is pattern recognition and the same data can be grouped differently."
+    },
+    {
+      "id": "A4.2-005",
+      "level": "SL",
+      "statement": "A4.2.3",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "The current wave of extinctions is often called the:",
+      "options": [
+        { "letter": "A", "text": "Sixth mass extinction", "correct": true },
+        { "letter": "B", "text": "First mass extinction", "correct": false },
+        { "letter": "C", "text": "Great oxygenation", "correct": false },
+        { "letter": "D", "text": "Cambrian explosion", "correct": false }
+      ],
+      "explanation": "The current, largely anthropogenic extinctions constitute the sixth mass extinction."
+    },
+    {
+      "id": "A4.2-006",
+      "level": "SL",
+      "statement": "A4.2.3",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "The North Island giant moa of New Zealand became extinct after human arrival.",
+      "stem": "This is used as a case study of the loss of:",
+      "options": [
+        { "letter": "A", "text": "Terrestrial megafauna", "correct": true },
+        { "letter": "B", "text": "A marine species", "correct": false },
+        { "letter": "C", "text": "An insect species", "correct": false },
+        { "letter": "D", "text": "A plant species", "correct": false }
+      ],
+      "explanation": "The giant moa is a case study of the loss of terrestrial megafauna due to human activity."
+    },
+    {
+      "id": "A4.2-007",
+      "level": "SL",
+      "statement": "A4.2.3",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "The Caribbean monk seal has become extinct.",
+      "stem": "This is used as a case study of the loss of:",
+      "options": [
+        { "letter": "A", "text": "A marine species", "correct": true },
+        { "letter": "B", "text": "Terrestrial megafauna", "correct": false },
+        { "letter": "C", "text": "A forest plant", "correct": false },
+        { "letter": "D", "text": "A freshwater insect", "correct": false }
+      ],
+      "explanation": "The Caribbean monk seal is used as a case study of the extinction of a marine species."
+    },
+    {
+      "id": "A4.2-008",
+      "level": "SL",
+      "statement": "A4.2.3",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "The study of the sixth mass extinction focuses on causes that are:",
+      "options": [
+        { "letter": "A", "text": "Anthropogenic (caused by humans)", "correct": true },
+        { "letter": "B", "text": "Only from asteroid impacts", "correct": false },
+        { "letter": "C", "text": "Only from volcanic eruptions", "correct": false },
+        { "letter": "D", "text": "Entirely natural and non-human", "correct": false }
+      ],
+      "explanation": "The syllabus focuses on the anthropogenic causes of the current mass extinction rather than non-anthropogenic causes of past ones."
+    },
+    {
+      "id": "A4.2-009",
+      "level": "SL",
+      "statement": "A4.2.4",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "A required case study of ecosystem loss is the loss of:",
+      "options": [
+        { "letter": "A", "text": "Mixed dipterocarp forest in Southeast Asia", "correct": true },
+        { "letter": "B", "text": "Coral reefs in the Arctic", "correct": false },
+        { "letter": "C", "text": "Tundra in the Amazon", "correct": false },
+        { "letter": "D", "text": "Mangroves in the Sahara", "correct": false }
+      ],
+      "explanation": "One required case study of ecosystem loss is the mixed dipterocarp forest of Southeast Asia."
+    },
+    {
+      "id": "A4.2-010",
+      "level": "SL",
+      "statement": "A4.2.4",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "The causes of ecosystem loss studied in this topic are those that are:",
+      "options": [
+        { "letter": "A", "text": "Directly or indirectly anthropogenic", "correct": true },
+        { "letter": "B", "text": "Entirely natural", "correct": false },
+        { "letter": "C", "text": "Caused only by other animals", "correct": false },
+        { "letter": "D", "text": "Unknown and untestable", "correct": false }
+      ],
+      "explanation": "Students study only causes of ecosystem loss that are directly or indirectly anthropogenic."
+    },
+    {
+      "id": "A4.2-011",
+      "level": "SL",
+      "statement": "A4.2.5",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Which organisation's reports provide evidence for the biodiversity crisis?",
+      "options": [
+        { "letter": "A", "text": "IPBES (Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services)", "correct": true },
+        { "letter": "B", "text": "The local weather service", "correct": false },
+        { "letter": "C", "text": "A single amateur blog", "correct": false },
+        { "letter": "D", "text": "A car manufacturer", "correct": false }
+      ],
+      "explanation": "IPBES reports and similar sources provide evidence for the biodiversity crisis."
+    },
+    {
+      "id": "A4.2-012",
+      "level": "SL",
+      "statement": "A4.2.5",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "To detect change in biodiversity, surveys of a habitat must be:",
+      "stem": "How should such surveys be carried out?",
+      "options": [
+        { "letter": "A", "text": "Repeated over time", "correct": true },
+        { "letter": "B", "text": "Done only once ever", "correct": false },
+        { "letter": "C", "text": "Never recorded", "correct": false },
+        { "letter": "D", "text": "Based on guesswork", "correct": false }
+      ],
+      "explanation": "Surveys must be repeated to provide evidence of change in species richness and evenness."
+    },
+    {
+      "id": "A4.2-013",
+      "level": "SL",
+      "statement": "A4.2.5",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Biodiversity surveys often measure species richness and species:",
+      "options": [
+        { "letter": "A", "text": "Evenness", "correct": true },
+        { "letter": "B", "text": "Colour", "correct": false },
+        { "letter": "C", "text": "Weight only", "correct": false },
+        { "letter": "D", "text": "Price", "correct": false }
+      ],
+      "explanation": "Surveys assess species richness (number of species) and evenness (relative abundance)."
+    },
+    {
+      "id": "A4.2-014",
+      "level": "SL",
+      "statement": "A4.2.6",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Which is described as an overarching cause of the current biodiversity crisis?",
+      "options": [
+        { "letter": "A", "text": "Human population growth", "correct": true },
+        { "letter": "B", "text": "A decrease in the human population", "correct": false },
+        { "letter": "C", "text": "Volcanic activity", "correct": false },
+        { "letter": "D", "text": "Asteroid impacts", "correct": false }
+      ],
+      "explanation": "Human population growth is the overarching cause, driving the specific causes of biodiversity loss."
+    },
+    {
+      "id": "A4.2-015",
+      "level": "SL",
+      "statement": "A4.2.6",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Which of the following is a specific cause of the current biodiversity crisis?",
+      "options": [
+        { "letter": "A", "text": "Deforestation and clearance of land for agriculture", "correct": true },
+        { "letter": "B", "text": "Rewilding of degraded land", "correct": false },
+        { "letter": "C", "text": "Creation of nature reserves", "correct": false },
+        { "letter": "D", "text": "Storage of seeds in banks", "correct": false }
+      ],
+      "explanation": "Specific causes include deforestation, over-exploitation, urbanization, pollution and invasive species."
+    },
+    {
+      "id": "A4.2-016",
+      "level": "SL",
+      "statement": "A4.2.6",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "Non-native species are spread around the world by global transport.",
+      "stem": "These are referred to as:",
+      "options": [
+        { "letter": "A", "text": "Invasive alien species", "correct": true },
+        { "letter": "B", "text": "Keystone species", "correct": false },
+        { "letter": "C", "text": "Endemic species", "correct": false },
+        { "letter": "D", "text": "Native species", "correct": false }
+      ],
+      "explanation": "The spread of pests, diseases and invasive alien species through global transport is a cause of biodiversity loss."
+    },
+    {
+      "id": "A4.2-017",
+      "level": "SL",
+      "statement": "A4.2.7",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Conserving species in their natural habitats is known as:",
+      "options": [
+        { "letter": "A", "text": "In situ conservation", "correct": true },
+        { "letter": "B", "text": "Ex situ conservation", "correct": false },
+        { "letter": "C", "text": "Selective breeding", "correct": false },
+        { "letter": "D", "text": "Deforestation", "correct": false }
+      ],
+      "explanation": "In situ conservation protects species within their natural habitats, for example in nature reserves."
+    },
+    {
+      "id": "A4.2-018",
+      "level": "SL",
+      "statement": "A4.2.7",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "Endangered animals are bred and kept in zoos.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Ex situ conservation", "correct": true },
+        { "letter": "B", "text": "In situ conservation", "correct": false },
+        { "letter": "C", "text": "Rewilding", "correct": false },
+        { "letter": "D", "text": "Habitat destruction", "correct": false }
+      ],
+      "explanation": "Ex situ conservation protects species outside their natural habitat, such as in zoos and botanic gardens."
+    },
+    {
+      "id": "A4.2-019",
+      "level": "SL",
+      "statement": "A4.2.7",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "Seeds of many plant species are stored in cold conditions for future use.",
+      "stem": "This conservation method uses:",
+      "options": [
+        { "letter": "A", "text": "Seed or tissue banks", "correct": true },
+        { "letter": "B", "text": "Nature reserves", "correct": false },
+        { "letter": "C", "text": "Rewilding", "correct": false },
+        { "letter": "D", "text": "Deforestation", "correct": false }
+      ],
+      "explanation": "Storage of germ plasm in seed or tissue banks is a form of ex situ conservation."
+    },
+    {
+      "id": "A4.2-020",
+      "level": "SL",
+      "statement": "A4.2.7",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Why is more than one approach to conservation needed?",
+      "options": [
+        { "letter": "A", "text": "No single approach is sufficient and species need different measures", "correct": true },
+        { "letter": "B", "text": "One approach always works for every species", "correct": false },
+        { "letter": "C", "text": "Conservation is unnecessary", "correct": false },
+        { "letter": "D", "text": "All species have identical needs", "correct": false }
+      ],
+      "explanation": "No single approach is sufficient by itself, and different species require different conservation measures."
+    },
+    {
+      "id": "A4.2-021",
+      "level": "SL",
+      "statement": "A4.2.8",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "The EDGE of Existence programme prioritises species that are:",
+      "options": [
+        { "letter": "A", "text": "Evolutionarily distinct and globally endangered", "correct": true },
+        { "letter": "B", "text": "Common and widespread", "correct": false },
+        { "letter": "C", "text": "Recently introduced", "correct": false },
+        { "letter": "D", "text": "Only large mammals", "correct": false }
+      ],
+      "explanation": "EDGE stands for Evolutionarily Distinct and Globally Endangered species, which it prioritises for conservation."
+    },
+    {
+      "id": "A4.2-022",
+      "level": "SL",
+      "statement": "A4.2.8",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "An 'evolutionarily distinct' species has few close relatives.",
+      "stem": "Why might such a species be prioritised for conservation?",
+      "options": [
+        { "letter": "A", "text": "Its loss would remove a unique branch of evolutionary history", "correct": true },
+        { "letter": "B", "text": "It is easy to replace with a relative", "correct": false },
+        { "letter": "C", "text": "It has many similar species already", "correct": false },
+        { "letter": "D", "text": "It is not endangered", "correct": false }
+      ],
+      "explanation": "Evolutionarily distinct species represent unique evolutionary history that cannot be replaced if lost."
+    },
+    {
+      "id": "A4.2-023",
+      "level": "SL",
+      "statement": "A4.2.8",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "Deciding which species to save involves ethical, political and economic factors.",
+      "stem": "This shows that conservation prioritisation:",
+      "options": [
+        { "letter": "A", "text": "Has complex implications that need to be debated", "correct": true },
+        { "letter": "B", "text": "Is a purely simple decision", "correct": false },
+        { "letter": "C", "text": "Should ignore ethics", "correct": false },
+        { "letter": "D", "text": "Never involves people", "correct": false }
+      ],
+      "explanation": "Prioritisation has complex ethical, environmental, political, social, cultural and economic implications that must be debated."
+    },
+    {
+      "id": "A4.2-024",
+      "level": "SL",
+      "statement": "A4.2.5",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "For evidence to be verifiable, it usually needs to come from a source that has been:",
+      "options": [
+        { "letter": "A", "text": "Peer-reviewed", "correct": true },
+        { "letter": "B", "text": "Kept secret", "correct": false },
+        { "letter": "C", "text": "Never published", "correct": false },
+        { "letter": "D", "text": "Based on opinion only", "correct": false }
+      ],
+      "explanation": "Verifiable evidence usually comes from peer-reviewed published sources that allow methodology to be checked."
+    },
+    {
+      "id": "A4.2-025",
+      "level": "SL",
+      "statement": "A4.2.5",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "Members of the public help collect biodiversity data.",
+      "stem": "These contributors are known as:",
+      "options": [
+        { "letter": "A", "text": "Citizen scientists", "correct": true },
+        { "letter": "B", "text": "Peer reviewers", "correct": false },
+        { "letter": "C", "text": "Professional taxonomists only", "correct": false },
+        { "letter": "D", "text": "Government inspectors", "correct": false }
+      ],
+      "explanation": "Citizen scientists contribute to biodiversity data collection, offering benefits but also methodological concerns."
+    },
+    {
+      "id": "A4.2-026",
+      "level": "SL",
+      "statement": "A4.2.1",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "A region contains many different habitats such as forest, wetland and grassland.",
+      "stem": "This variety of habitats represents:",
+      "options": [
+        { "letter": "A", "text": "Ecosystem diversity", "correct": true },
+        { "letter": "B", "text": "Genetic diversity", "correct": false },
+        { "letter": "C", "text": "Species evenness only", "correct": false },
+        { "letter": "D", "text": "A single ecosystem", "correct": false }
+      ],
+      "explanation": "The variety of different ecosystems in an area is ecosystem diversity, one component of biodiversity."
+    },
+    {
+      "id": "A4.2-027",
+      "level": "SL",
+      "statement": "A4.2.6",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Which is an example of over-exploitation as a cause of biodiversity loss?",
+      "options": [
+        { "letter": "A", "text": "Hunting a species faster than it can reproduce", "correct": true },
+        { "letter": "B", "text": "Creating a protected reserve", "correct": false },
+        { "letter": "C", "text": "Restoring a wetland", "correct": false },
+        { "letter": "D", "text": "Storing seeds in a bank", "correct": false }
+      ],
+      "explanation": "Hunting and other over-exploitation remove individuals faster than populations can recover, reducing biodiversity."
+    },
+    {
+      "id": "A4.2-028",
+      "level": "SL",
+      "statement": "A4.2.7",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "A degraded ecosystem is restored to its former natural state.",
+      "stem": "This conservation approach is called:",
+      "options": [
+        { "letter": "A", "text": "Rewilding or reclamation", "correct": true },
+        { "letter": "B", "text": "Ex situ conservation in a zoo", "correct": false },
+        { "letter": "C", "text": "Selective breeding", "correct": false },
+        { "letter": "D", "text": "Urbanization", "correct": false }
+      ],
+      "explanation": "Rewilding and reclamation of degraded ecosystems are in situ approaches to conservation."
+    },
+    {
+      "id": "A4.2-029",
+      "level": "SL",
+      "statement": "A4.2.2",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Although millions of species have been described, scientists believe:",
+      "options": [
+        { "letter": "A", "text": "Many more species remain to be discovered", "correct": true },
+        { "letter": "B", "text": "Every species has already been found", "correct": false },
+        { "letter": "C", "text": "No new species can exist", "correct": false },
+        { "letter": "D", "text": "Species cannot be counted", "correct": false }
+      ],
+      "explanation": "Many species have been described, but there are many more still to be discovered."
+    },
+    {
+      "id": "A4.2-030",
+      "level": "SL",
+      "statement": "A4.2.6",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "A forest is cleared and replaced with a city.",
+      "stem": "This cause of biodiversity loss is:",
+      "options": [
+        { "letter": "A", "text": "Urbanization", "correct": true },
+        { "letter": "B", "text": "Rewilding", "correct": false },
+        { "letter": "C", "text": "Ex situ conservation", "correct": false },
+        { "letter": "D", "text": "Seed banking", "correct": false }
+      ],
+      "explanation": "Urbanization destroys natural habitat and is a specific cause of the current biodiversity crisis."
+    },
+    {
+      "id": "A4.2-031",
+      "level": "SL",
+      "statement": "A4.2.1",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "The number of different species present in a community is a measure of:",
+      "options": [
+        { "letter": "A", "text": "Species diversity", "correct": true },
+        { "letter": "B", "text": "Genetic diversity", "correct": false },
+        { "letter": "C", "text": "Ecosystem diversity", "correct": false },
+        { "letter": "D", "text": "Habitat loss", "correct": false }
+      ],
+      "explanation": "Species diversity refers to the variety and number of species in a community."
+    },
+    {
+      "id": "A4.2-032",
+      "level": "SL",
+      "statement": "A4.2.5",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "A potential concern about data collected by citizen scientists is that it:",
+      "options": [
+        { "letter": "A", "text": "May raise unique methodological concerns", "correct": true },
+        { "letter": "B", "text": "Is always more reliable than expert data", "correct": false },
+        { "letter": "C", "text": "Can never be used", "correct": false },
+        { "letter": "D", "text": "Requires no checking", "correct": false }
+      ],
+      "explanation": "Citizen-collected data brings benefits but also unique methodological concerns that must be considered."
+    },
+    {
+      "id": "A4.2-033",
+      "level": "SL",
+      "statement": "A4.2.7",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Which of these is an in situ conservation method?",
+      "options": [
+        { "letter": "A", "text": "Management of nature reserves", "correct": true },
+        { "letter": "B", "text": "Keeping animals in a zoo", "correct": false },
+        { "letter": "C", "text": "Storing seeds in a seed bank", "correct": false },
+        { "letter": "D", "text": "Breeding plants in a botanic garden", "correct": false }
+      ],
+      "explanation": "Managing nature reserves conserves species in their natural habitat (in situ); zoos, seed banks and botanic gardens are ex situ."
+    },
+    {
+      "id": "A4.2-034",
+      "level": "SL",
+      "statement": "A4.2.3",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Which term describes extinction directly caused by human activity?",
+      "options": [
+        { "letter": "A", "text": "Anthropogenic extinction", "correct": true },
+        { "letter": "B", "text": "Background extinction from natural causes", "correct": false },
+        { "letter": "C", "text": "Speciation", "correct": false },
+        { "letter": "D", "text": "Adaptive radiation", "correct": false }
+      ],
+      "explanation": "Anthropogenic extinction is extinction caused by humans, the focus of the sixth mass extinction study."
+    },
+    {
+      "id": "A4.2-035",
+      "level": "SL",
+      "statement": "A4.2.6",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "Chemicals released into a river harm the organisms living there.",
+      "stem": "This cause of biodiversity loss is:",
+      "options": [
+        { "letter": "A", "text": "Pollution", "correct": true },
+        { "letter": "B", "text": "Rewilding", "correct": false },
+        { "letter": "C", "text": "In situ conservation", "correct": false },
+        { "letter": "D", "text": "Reclamation", "correct": false }
+      ],
+      "explanation": "Pollution is one of the specific causes of the current biodiversity crisis."
+    },
+    {
+      "id": "A4.2-036",
+      "level": "SL",
+      "statement": "A4.2.2",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Classifying organisms is described as an example of:",
+      "options": [
+        { "letter": "A", "text": "Pattern recognition", "correct": true },
+        { "letter": "B", "text": "Random guessing", "correct": false },
+        { "letter": "C", "text": "An untestable process", "correct": false },
+        { "letter": "D", "text": "A purely chemical reaction", "correct": false }
+      ],
+      "explanation": "Classification is an example of pattern recognition, and the same observations can be classified in different ways."
+    },
+    {
+      "id": "A4.2-037",
+      "level": "SL",
+      "statement": "A4.2.8",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "Two endangered species compete for limited conservation funds; one is evolutionarily distinct.",
+      "stem": "Using EDGE reasoning, priority might be given to the:",
+      "options": [
+        { "letter": "A", "text": "Evolutionarily distinct species", "correct": true },
+        { "letter": "B", "text": "Species with many close relatives", "correct": false },
+        { "letter": "C", "text": "Most common species", "correct": false },
+        { "letter": "D", "text": "Newest invasive species", "correct": false }
+      ],
+      "explanation": "EDGE prioritises evolutionarily distinct and globally endangered species to preserve unique evolutionary history."
+    },
+    {
+      "id": "A4.2-038",
+      "level": "SL",
+      "statement": "A4.2.4",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Loss of an entire habitat, such as a forest, is best described as:",
+      "options": [
+        { "letter": "A", "text": "Ecosystem loss", "correct": true },
+        { "letter": "B", "text": "Genetic diversity", "correct": false },
+        { "letter": "C", "text": "Speciation", "correct": false },
+        { "letter": "D", "text": "Adaptive radiation", "correct": false }
+      ],
+      "explanation": "The destruction of a whole habitat is ecosystem loss, studied through anthropogenic case studies."
+    },
+    {
+      "id": "A4.2-039",
+      "level": "SL",
+      "statement": "A4.2.5",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Which is required for reliable evidence of a biodiversity crisis?",
+      "options": [
+        { "letter": "A", "text": "Reliable surveys from a wide range of habitats", "correct": true },
+        { "letter": "B", "text": "A single observation from one place", "correct": false },
+        { "letter": "C", "text": "Opinion without data", "correct": false },
+        { "letter": "D", "text": "Ignoring published sources", "correct": false }
+      ],
+      "explanation": "Reliable surveys across a wide range of habitats, repeated over time, are needed as evidence."
+    },
+    {
+      "id": "A4.2-040",
+      "level": "SL",
+      "statement": "A4.2.6",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Which set correctly lists specific causes of the current biodiversity crisis?",
+      "options": [
+        { "letter": "A", "text": "Over-exploitation, urbanization, deforestation, pollution, invasive species", "correct": true },
+        { "letter": "B", "text": "Rewilding, seed banks, nature reserves, botanic gardens", "correct": false },
+        { "letter": "C", "text": "Speciation, adaptive radiation, mutation, migration", "correct": false },
+        { "letter": "D", "text": "Cohesion, adhesion, buoyancy, viscosity", "correct": false }
+      ],
+      "explanation": "Specific causes include over-exploitation, urbanization, deforestation, pollution and invasive species, driven by population growth."
+    },
+    {
+      "id": "A4.2-041",
+      "level": "SL",
+      "statement": "A4.2.1",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Biodiversity is best described as the variety of life at:",
+      "options": [
+        { "letter": "A", "text": "All its forms, levels and combinations", "correct": true },
+        { "letter": "B", "text": "Only the species level", "correct": false },
+        { "letter": "C", "text": "Only within one organism", "correct": false },
+        { "letter": "D", "text": "Only in zoos", "correct": false }
+      ],
+      "explanation": "Biodiversity is the variety of life in all its forms, levels and combinations, including ecosystems, species and genes."
+    },
+    {
+      "id": "A4.2-042",
+      "level": "SL",
+      "statement": "A4.2.7",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Botanic gardens conserve plant species by:",
+      "options": [
+        { "letter": "A", "text": "Growing and maintaining them outside their natural habitat (ex situ)", "correct": true },
+        { "letter": "B", "text": "Protecting them only in the wild", "correct": false },
+        { "letter": "C", "text": "Destroying their habitats", "correct": false },
+        { "letter": "D", "text": "Releasing invasive species", "correct": false }
+      ],
+      "explanation": "Botanic gardens are an ex situ method, conserving plants outside their natural habitats."
+    },
+    {
+      "id": "A4.2-043",
+      "level": "SL",
+      "statement": "A4.2.3",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "A student carries out a brief case study of a locally familiar extinct species.",
+      "stem": "This is encouraged in order to:",
+      "options": [
+        { "letter": "A", "text": "Give a range of causes of species extinction", "correct": true },
+        { "letter": "B", "text": "Prove extinction never happens", "correct": false },
+        { "letter": "C", "text": "Avoid studying real examples", "correct": false },
+        { "letter": "D", "text": "Focus only on non-human causes", "correct": false }
+      ],
+      "explanation": "Three or more case studies, including a locally familiar one, give a range of causes of anthropogenic extinction."
+    },
+    {
+      "id": "A4.2-044",
+      "level": "SL",
+      "statement": "A4.2.6",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "How does human population growth act as an overarching cause of biodiversity loss?",
+      "options": [
+        { "letter": "A", "text": "It intensifies the specific causes such as deforestation and pollution", "correct": true },
+        { "letter": "B", "text": "It reduces demand for resources", "correct": false },
+        { "letter": "C", "text": "It has no impact on habitats", "correct": false },
+        { "letter": "D", "text": "It only helps conservation", "correct": false }
+      ],
+      "explanation": "Population growth increases demand for land and resources, intensifying the specific causes of biodiversity loss."
+    },
+    {
+      "id": "A4.2-045",
+      "level": "SL",
+      "statement": "A4.2.5",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "A biodiversity survey is repeated in the same habitat ten years later.",
+      "stem": "The main purpose of repeating it is to:",
+      "options": [
+        { "letter": "A", "text": "Detect changes in species richness and evenness over time", "correct": true },
+        { "letter": "B", "text": "Prove the habitat never changes", "correct": false },
+        { "letter": "C", "text": "Replace the earlier data entirely", "correct": false },
+        { "letter": "D", "text": "Avoid collecting any evidence", "correct": false }
+      ],
+      "explanation": "Repeating surveys provides evidence of change in species richness and evenness, showing whether biodiversity is declining."
+    },
+    {
+      "id": "A4.2-046",
+      "level": "SL",
+      "statement": "A4.2.7",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Why might both in situ and ex situ methods be used together for one species?",
+      "options": [
+        { "letter": "A", "text": "Combining approaches gives a better chance of survival", "correct": true },
+        { "letter": "B", "text": "Only one method is ever allowed", "correct": false },
+        { "letter": "C", "text": "The methods cancel each other out", "correct": false },
+        { "letter": "D", "text": "Conservation should be avoided", "correct": false }
+      ],
+      "explanation": "Because no single approach is sufficient, combining in situ and ex situ methods improves conservation outcomes."
+    },
+    {
+      "id": "A4.2-047",
+      "level": "SL",
+      "statement": "A4.2.8",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "The 'GE' in the EDGE programme stands for:",
+      "options": [
+        { "letter": "A", "text": "Globally Endangered", "correct": true },
+        { "letter": "B", "text": "Genetically Enhanced", "correct": false },
+        { "letter": "C", "text": "Geographically Even", "correct": false },
+        { "letter": "D", "text": "Greatly Enlarged", "correct": false }
+      ],
+      "explanation": "EDGE stands for Evolutionarily Distinct and Globally Endangered species."
+    },
+    {
+      "id": "A4.2-048",
+      "level": "SL",
+      "statement": "A4.2.4",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "The loss of mixed dipterocarp forest in Southeast Asia is mainly caused by:",
+      "options": [
+        { "letter": "A", "text": "Human activities such as logging and land clearance", "correct": true },
+        { "letter": "B", "text": "A natural asteroid impact", "correct": false },
+        { "letter": "C", "text": "The forest moving location", "correct": false },
+        { "letter": "D", "text": "An increase in the number of trees", "correct": false }
+      ],
+      "explanation": "This required case study of ecosystem loss results from anthropogenic causes such as logging and clearance."
+    },
+    {
+      "id": "A4.2-049",
+      "level": "SL",
+      "statement": "A4.2.2",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "The difference between 'splitters' and 'lumpers' affects:",
+      "options": [
+        { "letter": "A", "text": "How many species are recognised in a group", "correct": true },
+        { "letter": "B", "text": "The total mass of organisms", "correct": false },
+        { "letter": "C", "text": "The colour of organisms", "correct": false },
+        { "letter": "D", "text": "The age of the Earth", "correct": false }
+      ],
+      "explanation": "Splitters recognise more species than lumpers, showing that species counts depend on how observations are classified."
+    },
+    {
+      "id": "A4.2-050",
+      "level": "SL",
+      "statement": "A4.2.7",
+      "category": "A4.2 Conservation of biodiversity",
+      "scenario": "",
+      "stem": "Which list contains only recognised conservation approaches?",
+      "options": [
+        { "letter": "A", "text": "Nature reserves, rewilding, zoos, seed banks", "correct": true },
+        { "letter": "B", "text": "Deforestation, pollution, hunting, urbanization", "correct": false },
+        { "letter": "C", "text": "Invasive species, over-exploitation, land clearance", "correct": false },
+        { "letter": "D", "text": "Speciation, extinction, mutation, migration", "correct": false }
+      ],
+      "explanation": "Conservation approaches include nature reserves and rewilding (in situ) and zoos, botanic gardens and seed banks (ex situ)."
+    }
+  ]
+}

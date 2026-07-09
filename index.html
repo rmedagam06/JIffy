@@ -24,6 +24,7 @@
     @keyframes pulseRing{0%,100%{box-shadow:0 0 0 3px rgba(255,224,138,0.22)}50%{box-shadow:0 0 0 8px rgba(255,224,138,0.05)}}
     @keyframes celebPop{0%{transform:scale(0.6);opacity:0}18%{transform:scale(1.08);opacity:1}82%{transform:scale(1);opacity:1}100%{transform:scale(0.96);opacity:0}}
     @keyframes dlgPop{0%{transform:scale(0.88);opacity:0}100%{transform:scale(1);opacity:1}}
+    @keyframes spin{to{transform:rotate(360deg)}}
   </style>
 </helmet>
 <div style="position:fixed;inset:0;overflow:hidden;background:#0c1d25">
@@ -32,7 +33,7 @@
 
       <!-- ════════════ HOME ════════════ -->
       <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
-      <div ref="{{ bgRef }}" style="position:absolute;inset:0;background-image:url(assets/bg-morning.png);background-size:cover;background-position:top center;background-repeat:no-repeat">
+      <div data-screen-label="Home" ref="{{ bgRef }}" style="position:absolute;inset:0;background-image:url(assets/bg-morning.png);background-size:cover;background-position:top center;background-repeat:no-repeat">
       <div style="position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch">
 
         <!-- HERO -->
@@ -52,7 +53,7 @@
           </div>
           <!-- greeting (primary header) -->
           <div style="position:absolute;left:20px;right:20px;bottom:22px">
-            <div style="font-family:Nunito,sans-serif;font-weight:800;font-size:12.5px;letter-spacing:1.4px;color:rgba(255,255,255,0.78);text-transform:uppercase">Reasoning Coach</div>
+            <div style="font-family:Nunito,sans-serif;font-weight:800;font-size:12.5px;letter-spacing:1.4px;color:rgba(255,255,255,0.78);text-transform:uppercase">IB Biology Coach</div>
             <div ref="{{ greetRef }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:34px;line-height:1.0;color:#fff;text-shadow:0 2px 10px rgba(8,40,55,0.45);white-space:nowrap;overflow:hidden;margin-top:3px">Good evening, Ronika!</div>
           </div>
         </div>
@@ -105,7 +106,7 @@
             <div style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:center">
               <sc-for list="{{ targetAreas }}" as="t" hint-placeholder-count="3">
                 <div style="display:flex;align-items:center;gap:10px">
-                  <span style="flex:0 0 74px;font-family:Fredoka,sans-serif;font-weight:500;font-size:13.5px;color:#fff;text-shadow:0 1px 3px rgba(120,80,30,0.35);text-align:right">{{ t.name }}</span>
+                  <span style="flex:0 0 96px;font-family:Fredoka,sans-serif;font-weight:500;font-size:12.5px;color:#fff;text-shadow:0 1px 3px rgba(120,80,30,0.35);text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ t.name }}</span>
                   <div style="flex:1;height:22px;border-radius:999px;background:rgba(255,255,255,0.32);overflow:hidden;box-shadow:inset 0 1px 3px rgba(120,60,20,0.25)">
                     <div style="{{ t.fillStyle }}"></div>
                   </div>
@@ -162,130 +163,206 @@
       </div>
       </sc-if>
 
-      <!-- ════════════ FEED (Drills · card scrolling) ════════════ -->
+      <!-- ════════════ FEED (Drills · setup + card scrolling) ════════════ -->
       <sc-if value="{{ isFeed }}" hint-placeholder-val="{{ false }}">
-      <div ref="{{ feedRef }}" style="position:absolute;inset:0;overflow-y:auto;scroll-snap-type:y mandatory;-webkit-overflow-scrolling:touch">
-        <sc-for list="{{ cards }}" as="card" hint-placeholder-count="2">
+      <div data-screen-label="Drills" style="position:absolute;inset:0">
 
-          <!-- ░░ QUESTION SCREEN ░░ -->
-          <div style="height:100%;min-height:100%;scroll-snap-align:start;position:relative;display:flex;flex-direction:column;padding:104px 22px 96px 22px;background:linear-gradient(165deg,#2c6379 0%,#1c4456 55%,#13303d 100%)">
+        <!-- ░░ SETUP: subject / level / topics ░░ -->
+        <sc-if value="{{ showSetup }}" hint-placeholder-val="{{ true }}">
+        <div style="position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:64px 20px 170px;background:linear-gradient(165deg,#2c6379 0%,#1c4456 55%,#13303d 100%)">
+          <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:30px;color:#fff;text-shadow:0 2px 8px rgba(8,40,55,0.4)">Set Up Your Drill</div>
+          <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:14px;color:rgba(234,246,251,0.75);margin-top:6px;line-height:1.4">Pick a subject, level, and topics — or leave topics blank for the full syllabus in order.</div>
 
-            <!-- header: + create -->
-            <div onClick="{{ card.onCreate }}" style="position:absolute;top:52px;left:20px;display:flex;align-items:center;gap:10px;cursor:pointer;-webkit-tap-highlight-color:transparent;z-index:6">
-              <div style="width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,0.14);border:1.5px solid rgba(255,255,255,0.3);display:flex;align-items:center;justify-content:center">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          <!-- Subject -->
+          <div style="margin-top:26px">
+            <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;letter-spacing:1.2px;color:rgba(234,246,251,0.6);text-transform:uppercase;margin-bottom:10px">Subject</div>
+            <div style="display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:16px;background:rgba(124,220,160,0.16);border:1.5px solid #7cdca0">
+              <span style="width:10px;height:10px;border-radius:50%;background:#7cdca0;flex:0 0 auto"></span>
+              <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:15px;color:#fff">{{ subjectLabel }}</span>
+            </div>
+          </div>
+
+          <!-- Level -->
+          <div style="margin-top:26px">
+            <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;letter-spacing:1.2px;color:rgba(234,246,251,0.6);text-transform:uppercase;margin-bottom:10px">Level</div>
+            <div style="display:flex;gap:12px">
+              <div onClick="{{ selectSL }}" style="{{ slBtnStyle }}">
+                <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:18px">SL</div>
+                <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:11.5px;opacity:0.85;margin-top:2px">Standard Level</div>
+              </div>
+              <div onClick="{{ selectHL }}" style="{{ hlBtnStyle }}">
+                <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:18px">HL</div>
+                <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:11.5px;opacity:0.85;margin-top:2px">Higher Level</div>
               </div>
             </div>
+          </div>
 
-            <!-- right sidebar (pinned bottom-right, above nav) -->
-            <div style="position:absolute;right:13px;bottom:100px;display:flex;flex-direction:column;align-items:center;gap:22px;z-index:6">
-              <div onClick="{{ card.onLike }}" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
-                <svg width="34" height="34" viewBox="0 0 24 24" fill="{{ card.heartFill }}" stroke="{{ card.heartStroke }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1.1-1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
-                <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">{{ card.likeCount }}</span>
-              </div>
-              <div onClick="{{ card.onSave }}" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
-                <svg width="33" height="33" viewBox="0 0 24 24" fill="{{ card.saveFill }}" stroke="{{ card.saveStroke }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
-                <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">{{ card.saveCount }}</span>
-              </div>
-              <div onClick="{{ card.onHighlight }}" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
-                <svg width="33" height="33" viewBox="0 0 24 24" fill="none" stroke="{{ card.hlStroke }}" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.6" fill="{{ card.hlStroke }}"/></svg>
-                <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">{{ card.hlCount }}</span>
-              </div>
-              <div style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/></svg>
-                <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">Share</span>
-              </div>
+          <!-- Topics -->
+          <div style="margin-top:26px">
+            <div style="display:flex;align-items:baseline;justify-content:space-between">
+              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;letter-spacing:1.2px;color:rgba(234,246,251,0.6);text-transform:uppercase">Topics</div>
+              <sc-if value="{{ hasTopicSelection }}" hint-placeholder-val="{{ false }}">
+                <div onClick="{{ clearTopics }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:12.5px;color:#f0c97c;cursor:pointer;-webkit-tap-highlight-color:transparent">Clear all</div>
+              </sc-if>
             </div>
+            <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:12.5px;color:rgba(234,246,251,0.55);margin-top:4px;margin-bottom:12px">Leave blank to review everything, Theme A → D, in order.</div>
 
-            <!-- category chip (top-right) -->
-            <div style="position:absolute;top:52px;right:18px;z-index:6">
-              <span style="{{ card.chipStyle }}">{{ card.category }}</span>
-            </div>
-
-            <!-- scrollable content (grows to fill, scrolls if the question is long) -->
-            <div style="flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column">
-            <!-- prompt -->
-            <div style="margin-top:4px">
-              <div style="font-family:Fredoka,sans-serif;font-weight:500;font-size:24px;line-height:1.3;color:#dcf0f8">{{ card.scenario }}</div>
-              <div style="margin-top:15px;font-family:Nunito,sans-serif;font-weight:800;font-size:20px;line-height:1.34;color:#fff">{{ card.stem }}</div>
-            </div>
-
-            <!-- options -->
-            <div style="margin-top:24px;margin-right:48px;display:flex;flex-direction:column;gap:12px">
-              <sc-for list="{{ card.options }}" as="opt" hint-placeholder-count="4">
-                <div style="{{ opt.rowStyle }}" onClick="{{ opt.onPick }}">
-                  <span style="width:36px;height:36px;flex:0 0 36px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.16);font-family:Fredoka,sans-serif;font-weight:600;font-size:18px;color:#fff">{{ opt.letter }}</span>
-                  <span style="flex:1">{{ opt.text }}</span>
-                  <sc-if value="{{ opt.showTry }}" hint-placeholder-val="{{ false }}">
-                    <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#ffb3a8;white-space:nowrap">Try again!</span>
-                  </sc-if>
-                  <span style="{{ opt.markStyle }}">{{ opt.mark }}</span>
+            <sc-if value="{{ catalogReady }}" hint-placeholder-val="{{ false }}">
+              <sc-for list="{{ themeGroups }}" as="tg" hint-placeholder-count="4">
+                <div style="margin-bottom:18px">
+                  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+                    <div style="display:flex;align-items:center;gap:9px">
+                      <span style="{{ tg.badgeStyle }}">{{ tg.theme }}</span>
+                      <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:15.5px;color:#fff">{{ tg.themeName }}</span>
+                    </div>
+                    <div onClick="{{ tg.onToggleAll }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:12px;color:rgba(234,246,251,0.7);cursor:pointer;-webkit-tap-highlight-color:transparent">{{ tg.toggleAllLabel }}</div>
+                  </div>
+                  <div style="background:rgba(255,255,255,0.06);border:1.5px solid rgba(255,255,255,0.12);border-radius:18px;overflow:hidden">
+                    <sc-for list="{{ tg.subtopics }}" as="st" hint-placeholder-count="3">
+                      <div style="{{ st.rowStyle }}" onClick="{{ st.onToggle }}">
+                        <div style="{{ st.checkStyle }}">{{ st.checkMark }}</div>
+                        <div style="flex:1;min-width:0">
+                          <div style="{{ st.nameStyle }}">{{ st.id }} {{ st.name }}</div>
+                        </div>
+                        <sc-if value="{{ st.showHLTag }}" hint-placeholder-val="{{ false }}">
+                          <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:10.5px;letter-spacing:0.4px;color:rgba(255,255,255,0.55);background:rgba(255,255,255,0.1);border-radius:999px;padding:3px 8px;flex:0 0 auto">HL only</span>
+                        </sc-if>
+                      </div>
+                    </sc-for>
+                  </div>
                 </div>
               </sc-for>
-            </div>
-
-            <!-- giraffe + explanation bubble (on reveal) -->
-            <sc-if value="{{ card.revealed }}" hint-placeholder-val="{{ false }}">
-              <div style="margin-top:auto;padding-top:18px;margin-right:48px;display:flex;align-items:flex-end;gap:10px">
-                <img src="assets/jiffy-head.png" alt="Jiffy" style="width:78px;height:78px;object-fit:contain;flex:0 0 auto;filter:drop-shadow(0 6px 10px rgba(0,0,0,0.35));animation:bobUp 1.6s ease-in-out infinite"/>
-                <div onClick="{{ card.onWhy }}" style="flex:1;position:relative;background:#fff;border-radius:20px;padding:13px 17px;cursor:pointer;box-shadow:0 8px 18px rgba(10,40,55,0.32);-webkit-tap-highlight-color:transparent;margin-bottom:4px">
-                  <span style="display:block;font-family:Nunito,sans-serif;font-weight:800;font-size:13.5px;line-height:1.42;color:#2a6076">{{ card.explanation }}</span>
-                  <span style="display:block;margin-top:7px;font-family:Fredoka,sans-serif;font-weight:600;font-size:12px;color:#3f8198">Watch the video ↓</span>
-                </div>
-              </div>
             </sc-if>
-            </div>
+            <sc-if value="{{ catalogError }}" hint-placeholder-val="{{ false }}">
+              <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;color:#ffb3a8">Couldn’t load the question bank. Check your connection and reload.</div>
+            </sc-if>
           </div>
+        </div>
 
-          <!-- ░░ VIDEO SCREEN (only when failed twice) ░░ -->
-          <sc-if value="{{ card.showVideo }}" hint-placeholder-val="{{ false }}">
-          <div style="height:100%;min-height:100%;scroll-snap-align:start;position:relative;display:flex;flex-direction:column;padding:74px 74px 104px 22px;background:linear-gradient(165deg,#16323e 0%,#0c1d25 100%)">
+        <!-- sticky start bar -->
+        <div style="position:absolute;left:0;right:0;bottom:82px;padding:14px 20px;background:linear-gradient(0deg,rgba(19,48,61,0.95) 45%,rgba(19,48,61,0) 100%);z-index:5">
+          <div onClick="{{ startDrill }}" style="display:flex;align-items:center;justify-content:center;gap:10px;padding:16px;border-radius:18px;background:linear-gradient(135deg,#ffd45e 0%,#f2a43a 100%);box-shadow:0 12px 26px rgba(210,140,30,0.42);border:1.5px solid rgba(255,255,255,0.55);cursor:pointer;-webkit-tap-highlight-color:transparent">
+            <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:18px;color:#5a3d0c">Start Drill</span>
+            <span style="font-family:Nunito,sans-serif;font-weight:800;font-size:13px;color:rgba(90,61,12,0.8)">· {{ questionCountLabel }}</span>
+          </div>
+        </div>
+        </sc-if>
 
-            <!-- right sidebar (with comments) -->
-            <div style="position:absolute;right:13px;top:58%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:24px;z-index:6">
-              <div onClick="{{ card.onLike }}" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
-                <svg width="34" height="34" viewBox="0 0 24 24" fill="{{ card.heartFill }}" stroke="{{ card.heartStroke }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1.1-1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
-                <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">{{ card.likeCount }}</span>
-              </div>
-              <div style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-8.5 8.5 8.4 8.4 0 0 1-4-1L3 20l1-5.5a8.4 8.4 0 0 1-1-4A8.4 8.4 0 0 1 11.5 2 8.4 8.4 0 0 1 21 11.5z"/></svg>
-                <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">418</span>
-              </div>
-              <div onClick="{{ card.onSave }}" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
-                <svg width="33" height="33" viewBox="0 0 24 24" fill="{{ card.saveFill }}" stroke="{{ card.saveStroke }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
-                <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">{{ card.saveCount }}</span>
-              </div>
-              <div style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/></svg>
-                <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">Share</span>
-              </div>
-            </div>
+        <!-- ░░ ACTIVE DRILL FEED ░░ -->
+        <sc-if value="{{ drillStarted }}" hint-placeholder-val="{{ false }}">
+        <div ref="{{ feedRef }}" style="position:absolute;inset:0;overflow-y:auto;scroll-snap-type:y mandatory;-webkit-overflow-scrolling:touch">
+          <sc-for list="{{ cards }}" as="card" hint-placeholder-count="2">
 
-            <!-- player -->
-            <div style="margin:auto 0">
-              <span style="{{ card.chipStyle }}">{{ card.category }}</span>
-              <div style="margin-top:16px;position:relative;width:100%;aspect-ratio:1/1;border-radius:22px;overflow:hidden;background:repeating-linear-gradient(135deg,#1c3a47 0 14px,#1f4250 14px 28px);box-shadow:0 14px 34px rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center">
-                <div style="width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,0.92);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,0.35)">
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="#16323e"><path d="M8 5v14l11-7z"/></svg>
+            <!-- ░░ QUESTION SCREEN ░░ -->
+            <div style="height:100%;min-height:100%;scroll-snap-align:start;position:relative;display:flex;flex-direction:column;padding:104px 22px 96px 22px;background:linear-gradient(165deg,#2c6379 0%,#1c4456 55%,#13303d 100%)">
+
+              <!-- header: change topics -->
+              <div onClick="{{ card.onChangeTopics }}" style="position:absolute;top:52px;left:20px;display:flex;align-items:center;gap:10px;cursor:pointer;-webkit-tap-highlight-color:transparent;z-index:6">
+                <div style="width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,0.14);border:1.5px solid rgba(255,255,255,0.3);display:flex;align-items:center;justify-content:center">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/><circle cx="9" cy="7" r="2" fill="#13303d" stroke-width="1.6"/><circle cx="16" cy="12" r="2" fill="#13303d" stroke-width="1.6"/><circle cx="11" cy="17" r="2" fill="#13303d" stroke-width="1.6"/></svg>
                 </div>
-                <span style="position:absolute;left:16px;bottom:14px;right:16px;font-family:'SF Mono',ui-monospace,monospace;font-size:11px;letter-spacing:0.5px;color:rgba(255,255,255,0.55)">02:14 · concept walkthrough</span>
               </div>
-              <div style="margin-top:18px;font-family:Fredoka,sans-serif;font-weight:600;font-size:24px;line-height:1.12;color:#fff;text-shadow:0 2px 8px rgba(8,40,55,0.4)">Video explaining<br>that concept!</div>
-              <div style="margin-top:10px;display:flex;align-items:flex-start;gap:8px;background:rgba(124,170,240,0.14);border:1px solid rgba(124,170,240,0.3);border-radius:13px;padding:11px 13px">
-                <span style="font-size:17px;line-height:1.2">🧠</span>
-                <span style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;line-height:1.38;color:#cfe2ff">{{ card.explanation }}</span>
+
+              <!-- right sidebar (pinned bottom-right, above nav) -->
+              <div style="position:absolute;right:13px;bottom:100px;display:flex;flex-direction:column;align-items:center;gap:22px;z-index:6">
+                <div onClick="{{ card.onLike }}" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
+                  <svg width="34" height="34" viewBox="0 0 24 24" fill="{{ card.heartFill }}" stroke="{{ card.heartStroke }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1.1-1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+                  <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">{{ card.likeCount }}</span>
+                </div>
+                <div onClick="{{ card.onSave }}" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
+                  <svg width="33" height="33" viewBox="0 0 24 24" fill="{{ card.saveFill }}" stroke="{{ card.saveStroke }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+                  <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">{{ card.saveCount }}</span>
+                </div>
+                <div onClick="{{ card.onHighlight }}" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
+                  <svg width="33" height="33" viewBox="0 0 24 24" fill="none" stroke="{{ card.hlStroke }}" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.6" fill="{{ card.hlStroke }}"/></svg>
+                  <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">{{ card.hlCount }}</span>
+                </div>
+                <div style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;-webkit-tap-highlight-color:transparent">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/></svg>
+                  <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.5)">Share</span>
+                </div>
+              </div>
+
+              <!-- category chip (top-right) -->
+              <div style="position:absolute;top:52px;right:18px;z-index:6">
+                <span style="{{ card.chipStyle }}">{{ card.category }}</span>
+              </div>
+
+              <!-- scrollable content (grows to fill, scrolls if the question is long) -->
+              <div style="flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column">
+              <!-- prompt -->
+              <div style="margin-top:4px">
+                <sc-if value="{{ card.hasScenario }}" hint-placeholder-val="{{ false }}">
+                  <div style="font-family:Fredoka,sans-serif;font-weight:500;font-size:24px;line-height:1.3;color:#dcf0f8">{{ card.scenario }}</div>
+                </sc-if>
+                <div style="margin-top:15px;font-family:Nunito,sans-serif;font-weight:800;font-size:20px;line-height:1.34;color:#fff">{{ card.stem }}</div>
+              </div>
+
+              <!-- options -->
+              <div style="margin-top:24px;margin-right:48px;display:flex;flex-direction:column;gap:12px">
+                <sc-for list="{{ card.options }}" as="opt" hint-placeholder-count="4">
+                  <div style="{{ opt.rowStyle }}" onClick="{{ opt.onPick }}">
+                    <span style="width:36px;height:36px;flex:0 0 36px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.16);font-family:Fredoka,sans-serif;font-weight:600;font-size:18px;color:#fff">{{ opt.letter }}</span>
+                    <span style="flex:1">{{ opt.text }}</span>
+                    <sc-if value="{{ opt.showTry }}" hint-placeholder-val="{{ false }}">
+                      <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#ffb3a8;white-space:nowrap">Try again!</span>
+                    </sc-if>
+                    <span style="{{ opt.markStyle }}">{{ opt.mark }}</span>
+                  </div>
+                </sc-for>
+              </div>
+
+              <!-- giraffe + explanation bubble (on reveal) -->
+              <sc-if value="{{ card.revealed }}" hint-placeholder-val="{{ false }}">
+                <div style="margin-top:auto;padding-top:18px;margin-right:48px;display:flex;align-items:flex-end;gap:10px">
+                  <img src="assets/jiffy-head.png" alt="Jiffy" style="width:78px;height:78px;object-fit:contain;flex:0 0 auto;filter:drop-shadow(0 6px 10px rgba(0,0,0,0.35));animation:bobUp 1.6s ease-in-out infinite"/>
+                  <div onClick="{{ card.onWhy }}" style="flex:1;position:relative;background:#fff;border-radius:20px;padding:13px 17px;cursor:pointer;box-shadow:0 8px 18px rgba(10,40,55,0.32);-webkit-tap-highlight-color:transparent;margin-bottom:4px">
+                    <span style="display:block;font-family:Nunito,sans-serif;font-weight:800;font-size:13.5px;line-height:1.42;color:#2a6076">{{ card.explanation }}</span>
+                    <span style="display:block;margin-top:7px;font-family:Fredoka,sans-serif;font-weight:600;font-size:12px;color:#3f8198">Next question ↓</span>
+                  </div>
+                </div>
+              </sc-if>
               </div>
             </div>
-          </div>
-          </sc-if>
 
-        </sc-for>
+          </sc-for>
+
+          <!-- ░░ END OF SET ░░ -->
+          <sc-if value="{{ cardsEmpty }}" hint-placeholder-val="{{ false }}">
+            <div style="height:100%;min-height:100%;scroll-snap-align:start;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:40px;background:linear-gradient(165deg,#2c6379 0%,#1c4456 55%,#13303d 100%)">
+              <div style="font-size:44px">🌱</div>
+              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:22px;color:#fff;text-align:center">No questions matched that pick</div>
+              <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:13.5px;color:rgba(234,246,251,0.75);text-align:center;max-width:280px">Try a different level or topic selection.</div>
+              <div onClick="{{ backToSetup }}" style="margin-top:8px;padding:13px 26px;border-radius:16px;background:linear-gradient(135deg,#ffd45e,#f2a43a);box-shadow:0 12px 26px rgba(210,140,30,0.42);cursor:pointer;-webkit-tap-highlight-color:transparent">
+                <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:15px;color:#5a3d0c">Choose New Topics</span>
+              </div>
+            </div>
+          </sc-if>
+          <div style="height:100%;min-height:100%;scroll-snap-align:start;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:40px;background:linear-gradient(165deg,#2c6379 0%,#1c4456 55%,#13303d 100%)">
+            <div style="font-size:52px">🌿</div>
+            <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:24px;color:#fff;text-align:center">Nice work — set complete!</div>
+            <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:14px;color:rgba(234,246,251,0.75);text-align:center">Pick new topics or run it back.</div>
+            <div onClick="{{ backToSetup }}" style="margin-top:10px;padding:14px 28px;border-radius:16px;background:linear-gradient(135deg,#ffd45e,#f2a43a);box-shadow:0 12px 26px rgba(210,140,30,0.42);cursor:pointer;-webkit-tap-highlight-color:transparent">
+              <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:16px;color:#5a3d0c">Choose New Topics</span>
+            </div>
+          </div>
+        </div>
+        </sc-if>
+
+        <!-- ░░ LOADING OVERLAY ░░ -->
+        <sc-if value="{{ loadingDrill }}" hint-placeholder-val="{{ false }}">
+          <div style="position:absolute;inset:0;z-index:50;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:linear-gradient(165deg,#2c6379 0%,#1c4456 55%,#13303d 100%)">
+            <div style="width:46px;height:46px;border-radius:50%;border:4px solid rgba(255,255,255,0.25);border-top-color:#fff;animation:spin 0.9s linear infinite"></div>
+            <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:15px;color:#fff">Loading questions…</div>
+          </div>
+        </sc-if>
+
       </div>
       </sc-if>
 
       <!-- ════════════ PROGRESS ════════════ -->
       <sc-if value="{{ isProgress }}" hint-placeholder-val="{{ false }}">
-      <div style="position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:64px 20px 120px">
+      <div data-screen-label="Progress" style="position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:64px 20px 120px">
         <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:32px;color:#fff;text-shadow:0 2px 8px rgba(8,40,55,0.4)">Your Progress</div>
 
         <!-- Level card -->
@@ -294,7 +371,7 @@
             <div style="width:64px;height:64px;border-radius:50%;background:#e7c692;display:flex;align-items:center;justify-content:center;font-family:Fredoka,sans-serif;font-weight:600;font-size:30px;color:#fff;text-shadow:0 2px 4px rgba(120,80,30,0.4)">6</div>
           </div>
           <div style="flex:1">
-            <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:23px;color:#fff;text-shadow:0 2px 4px rgba(120,80,30,0.35)">Level 6 · Logician</div>
+            <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:23px;color:#fff;text-shadow:0 2px 4px rgba(120,80,30,0.35)">Level 6 · Biologist</div>
             <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:14px;color:#fffaf0;margin-top:2px">1,240 / 1,800 XP</div>
             <div style="height:9px;border-radius:999px;background:rgba(255,255,255,0.4);margin-top:8px;overflow:hidden"><div style="width:68%;height:100%;border-radius:999px;background:#3f8198"></div></div>
           </div>
@@ -334,14 +411,14 @@
 
       <!-- ════════════ PROFILE ════════════ -->
       <sc-if value="{{ isProfile }}" hint-placeholder-val="{{ false }}">
-      <div style="position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:60px 20px 120px">
+      <div data-screen-label="Profile" style="position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:60px 20px 120px">
         <div onClick="{{ openSettings }}" style="position:absolute;top:58px;right:20px;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,0.16);border:1.5px solid rgba(255,255,255,0.35);box-shadow:0 3px 8px rgba(10,40,55,0.25);display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:5;-webkit-tap-highlight-color:transparent">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:10px">
           <div style="width:106px;height:106px;border-radius:50%;background:linear-gradient(180deg,#cfeaf2,#7cb7cc);display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 10px 24px rgba(10,40,55,0.3);border:3px solid rgba(255,255,255,0.7)"><img src="assets/jiffy-head.png" alt="Jiffy" style="width:88px;height:88px;object-fit:contain"/></div>
           <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:27px;color:#fff;text-shadow:0 2px 6px rgba(8,40,55,0.4)">Sam Rivera</div>
-          <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:14px;color:#dceef5;margin-top:-4px">@sam · Level 6 Logician · 🔥 7-day streak</div>
+          <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:14px;color:#dceef5;margin-top:-4px">@sam · Level 6 Biologist · 🔥 7-day streak</div>
         </div>
 
         <!-- Stats -->
@@ -378,7 +455,7 @@
 
       <!-- ════════════ ACHIEVEMENTS SHEET ════════════ -->
       <sc-if value="{{ achievementsOpen }}" hint-placeholder-val="{{ false }}">
-      <div style="position:absolute;inset:0;z-index:60;display:flex;flex-direction:column;background:linear-gradient(180deg,#1c4456 0%,#13303d 60%,#0e2531 100%)">
+      <div data-screen-label="Achievements" style="position:absolute;inset:0;z-index:60;display:flex;flex-direction:column;background:linear-gradient(180deg,#1c4456 0%,#13303d 60%,#0e2531 100%)">
         <!-- header -->
         <div style="flex:0 0 auto;padding:58px 18px 16px;display:flex;align-items:center;gap:14px;border-bottom:1px solid rgba(255,255,255,0.1)">
           <div onClick="{{ closeAchievements }}" style="width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;cursor:pointer;-webkit-tap-highlight-color:transparent">
@@ -444,7 +521,7 @@
 
       <!-- ════════════ SETTINGS SHEET ════════════ -->
       <sc-if value="{{ settingsOpen }}" hint-placeholder-val="{{ false }}">
-      <div style="position:absolute;inset:0;z-index:60;display:flex;flex-direction:column;background:linear-gradient(180deg,#1c4456 0%,#13303d 60%,#0e2531 100%)">
+      <div data-screen-label="Settings" style="position:absolute;inset:0;z-index:60;display:flex;flex-direction:column;background:linear-gradient(180deg,#1c4456 0%,#13303d 60%,#0e2531 100%)">
         <!-- header -->
         <div style="flex:0 0 auto;padding:58px 18px 16px;display:flex;align-items:center;gap:14px;border-bottom:1px solid rgba(255,255,255,0.1)">
           <div onClick="{{ closeSettings }}" style="width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;cursor:pointer;-webkit-tap-highlight-color:transparent">
@@ -480,7 +557,7 @@
               </div>
             </div>
           </sc-for>
-          <div style="text-align:center;font-family:Nunito,sans-serif;font-weight:700;font-size:12px;color:rgba(234,246,251,0.4);margin-top:8px">LSAT Reasoning Coach · v2.4.0</div>
+          <div style="text-align:center;font-family:Nunito,sans-serif;font-weight:700;font-size:12px;color:rgba(234,246,251,0.4);margin-top:8px">Jiffy · IB Biology Coach · v2.5.0</div>
         </div>
       </div>
       </sc-if>
@@ -507,6 +584,7 @@
 
     </div>
 </div>
+
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:458,&quot;height&quot;:930},&quot;homeVariant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;auto&quot;,&quot;morning&quot;,&quot;afternoon&quot;,&quot;night&quot;],&quot;default&quot;:&quot;auto&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Home&quot;},&quot;userName&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Ronika&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Home&quot;}}">
 class Component extends DCLogic {
@@ -535,6 +613,8 @@ class Component extends DCLogic {
       'INDICATOR WORDS':'Indicator Words',
       'ASSUMPTION':'Assumptions',
     };
+    this.themeColors = { A:'#7bbcf0', B:'#f0a07c', C:'#7cdca0', D:'#b69cf0' };
+    this.loadedQuestions = [];
     const TOPIC_SEED = { 'Conditionals':{att:20,cor:16}, 'Nec. / Suff.':{att:14,cor:9}, 'Causal Logic':{att:18,cor:8}, 'Arg. Structure':{att:12,cor:10}, 'Indicator Words':{att:10,cor:9}, 'Assumptions':{att:13,cor:4} };
     let savedStreak=null;
     try{ savedStreak = JSON.parse(localStorage.getItem('jiffy_streak_v1')||'null'); }catch(e){}
@@ -542,66 +622,8 @@ class Component extends DCLogic {
     if(!streakInit.topicStats) streakInit.topicStats = TOPIC_SEED;
     this.state = { tab:'home', answers:{}, liked:{}, saved:{}, highlighted:{}, settingsOpen:false, achievementsOpen:false, achModalOpen:false, selectedAch:'streak',
       ...streakInit, celebrate:null,
-      toggles:{ push:true, daily:true, streak:true, dataShare:false, twoFA:true, darkMode:false } };
-
-    this.drills = [
-      { id:'d1', category:'CONDITIONAL LOGIC', color:'#7bbcf0',
-        scenario:'\u201cIf it rains, the picnic is canceled.\u201d',
-        stem:'The picnic was canceled. What can you validly conclude?',
-        options:['It must have rained','Maybe it rained \u2014 or something else canceled it','It definitely did not rain','The picnic was not canceled'],
-        correct:1,
-        explanation:'\u201cCanceled \u2192 rained\u201d runs the arrow backwards. The rule only says rain forces a cancellation, not that rain is the only thing that can.',
-        coachNote:'You affirmed the consequent \u2014 reading the conditional in reverse.' },
-      { id:'d2', category:'NECESSARY vs SUFFICIENT', color:'#b69cf0',
-        scenario:'\u201cOxygen is necessary for fire.\u201d',
-        stem:'Which statement MUST be true?',
-        options:['If there is oxygen, there is fire','If there is fire, there is oxygen','Oxygen alone causes fire','Fire can exist without oxygen'],
-        correct:1,
-        explanation:'A necessary condition has to be present for the result, so fire \u2192 oxygen. But it alone doesn\u2019t guarantee the result \u2014 oxygen need not produce fire.',
-        coachNote:'You treated a necessary condition as if it were sufficient.' },
-      { id:'d3', category:'CORRELATION \u2260 CAUSATION', color:'#f0a07c',
-        scenario:'\u201cIce-cream sales and drownings both climb every summer, so ice cream causes drowning.\u201d',
-        stem:'What is the flaw here?',
-        options:['Circular reasoning','A shared cause \u2014 hot weather \u2014 drives both','It attacks the person, not the claim','The sample is too small'],
-        correct:1,
-        explanation:'Both rise because of a third factor: summer heat. Two things moving together doesn\u2019t show that one causes the other.',
-        coachNote:'You let a correlation stand in for a cause.' },
-      { id:'d4', category:'ARGUMENT STRUCTURE', color:'#7cdca0',
-        scenario:'\u201cSleep strengthens memory. So students should sleep well before an exam.\u201d',
-        stem:'Which part is the CONCLUSION?',
-        options:['Sleep strengthens memory','Students should sleep well before an exam','Exams test memory','Students are often tired'],
-        correct:1,
-        explanation:'\u201cSo\u201d flags the conclusion \u2014 the claim being argued for. The first sentence is the premise that supports it.',
-        coachNote:'You mixed up the conclusion with its supporting premise.' },
-      { id:'d5', category:'DENYING THE ANTECEDENT', color:'#f08aa0',
-        scenario:'\u201cIf you study, you pass. Maria did not study.\u201d',
-        stem:'Someone concludes \u201cSo Maria failed.\u201d Is that valid?',
-        options:['Valid \u2014 no studying means no passing','Invalid \u2014 she could still pass another way','Valid, by the contrapositive','Invalid \u2014 she definitely passed'],
-        correct:1,
-        explanation:'The rule says studying is enough to pass, not that it\u2019s the only route. Not studying leaves her result wide open.',
-        coachNote:'You denied the antecedent \u2014 assuming the only path was ruled out.' },
-      { id:'d6', category:'INDICATOR WORDS', color:'#7cd0dc',
-        scenario:'\u201cWe should leave early, because traffic builds after 5pm.\u201d',
-        stem:'Which word marks the PREMISE (the support)?',
-        options:['should','because','early','leave'],
-        correct:1,
-        explanation:'\u201cBecause\u201d introduces a reason that backs a claim \u2014 a premise. Words like \u201ctherefore\u201d or \u201cso\u201d would introduce the conclusion instead.',
-        coachNote:'Premise indicators point to support; conclusion indicators point to the claim.' },
-      { id:'d7', category:'CAUSAL REASONING', color:'#f0c97c',
-        scenario:'\u201cAfter the city added bike lanes, road accidents dropped. The lanes made the roads safer.\u201d',
-        stem:'Which fact most WEAKENS this conclusion?',
-        options:['Cyclists liked the new lanes','Total traffic fell 40% that same year','The lanes were freshly painted','A nearby city kept the same lanes'],
-        correct:1,
-        explanation:'An alternative cause \u2014 far fewer cars on the road \u2014 could explain the drop, which undercuts the claim that the lanes are what helped.',
-        coachNote:'You overlooked an alternative cause for the effect.' },
-      { id:'d8', category:'ASSUMPTION', color:'#9ad17c',
-        scenario:'\u201cThe bridge is safe \u2014 the inspector signed off on it.\u201d',
-        stem:'This argument depends on assuming what?',
-        options:['The inspector was paid fairly','The inspector\u2019s sign-off reliably tracks real safety','Bridges are usually safe','The bridge is brand new'],
-        correct:1,
-        explanation:'The conclusion only follows if the sign-off actually reflects safety. That unstated link is the assumption holding the whole argument up.',
-        coachNote:'You skipped the unstated assumption the conclusion rests on.' },
-    ];
+      toggles:{ push:true, daily:true, streak:true, dataShare:false, twoFA:true, darkMode:false },
+      catalog:null, catalogError:false, level:'SL', selectedTopics:{}, drillStarted:false, loadingDrill:false };
 
     this.themes = {
       morning:{ bg:'assets/bg-morning.png', greet:'Good morning', sub:'Ready for today’s drill?', weather:'\u26C5', cloud:0.92 },
@@ -610,7 +632,12 @@ class Component extends DCLogic {
     };
   }
 
-  componentDidMount(){ this.applyVariant(); this._clock = setInterval(()=>this.applyVariant(), 20000); if(this.gemCountRef.current) this.gemCountRef.current.textContent = this.state.gems; }
+  componentDidMount(){
+    this.applyVariant();
+    this._clock = setInterval(()=>this.applyVariant(), 20000);
+    if(this.gemCountRef.current) this.gemCountRef.current.textContent = this.state.gems;
+    fetch('dataset/index.json').then(r=>r.json()).then(data=>this.setState({ catalog:data })).catch(()=>this.setState({ catalogError:true }));
+  }
   componentDidUpdate(prevProps, prevState){
     this.applyVariant();
     if(prevState && prevState.gems !== this.state.gems){ this.animateGems(prevState.gems, this.state.gems); }
@@ -649,7 +676,8 @@ class Component extends DCLogic {
   pick(id, oi){
     const cur = this.state.answers[id] || { wrongs:[], status:'unanswered' };
     if(cur.status==='correct' || cur.status==='revealed') return;
-    const drill = this.drills.find(d=>d.id===id);
+    const drill = this.loadedQuestions.find(d=>d.id===id);
+    if(!drill) return;
     let next;
     if(oi === drill.correct){
       next = { wrongs:cur.wrongs, status:'correct' };
@@ -677,6 +705,49 @@ class Component extends DCLogic {
   closeAchModal(){ this.setState({ achModalOpen:false }); }
   selectAchievement(id){ this.setState({ selectedAch:id, achModalOpen:true }); }
   toggleSetting(key){ this.setState(s=>({ toggles:{...s.toggles, [key]:!s.toggles[key]} })); }
+
+  // ── drill setup: subject / level / topics ──
+  selectLevel(lv){ this.setState({ level: lv }); }
+  toggleTopic(id){ this.setState(s=>({ selectedTopics:{...s.selectedTopics, [id]: !s.selectedTopics[id]} })); }
+  toggleThemeAll(ids, makeSelected){
+    this.setState(s=>{
+      const st = {...s.selectedTopics};
+      ids.forEach(id=>{ st[id] = makeSelected; });
+      return { selectedTopics: st };
+    });
+  }
+  clearTopics(){ this.setState({ selectedTopics:{} }); }
+  changeTopics(){ this.setState({ drillStarted:false }); }
+  startDrill(){
+    const catalog = this.state.catalog;
+    if(!catalog) return;
+    const level = this.state.level || 'SL';
+    const allSub = [];
+    catalog.themes.forEach(th=> th.subtopics.forEach(st=> allSub.push({ ...st, theme:th.theme, themeName:th.themeName })));
+    const selectedIds = Object.keys(this.state.selectedTopics).filter(id=>this.state.selectedTopics[id]);
+    let queue = selectedIds.length ? allSub.filter(st=>selectedIds.includes(st.id)) : allSub.slice();
+    queue = queue.filter(st => level==='SL' ? st.SL > 0 : (st.SL + st.HL) > 0);
+    if(!queue.length){ this.loadedQuestions = []; this.setState({ drillStarted:true, tab:'feed', answers:{}, liked:{}, saved:{}, highlighted:{} }); return; }
+    this.setState({ loadingDrill:true });
+    Promise.all(queue.map(st => fetch('dataset/' + st.file).then(r=>r.json()).catch(()=>null)))
+      .then(files=>{
+        const cards = [];
+        files.forEach((data, i)=>{
+          if(!data || !data.questions) return;
+          const st = queue[i];
+          const color = this.themeColors[st.theme] || '#7bbcf0';
+          data.questions.forEach(q=>{
+            if(level==='SL' && q.level !== 'SL') return;
+            const correctIdx = q.options.findIndex(o=>o.correct);
+            cards.push({ id:q.id, category:q.category, color, scenario:q.scenario||'', stem:q.stem,
+              options:q.options.map(o=>o.text), correct: correctIdx, explanation:q.explanation });
+          });
+        });
+        this.loadedQuestions = cards;
+        this.setState({ loadingDrill:false, drillStarted:true, tab:'feed', answers:{}, liked:{}, saved:{}, highlighted:{} });
+      })
+      .catch(()=>{ this.setState({ loadingDrill:false }); });
+  }
 
   // ── streak & reward engine ──
   completeScroll(){
@@ -733,14 +804,15 @@ class Component extends DCLogic {
   saveStreak(){ try{ const {absToday,weekStart,done,streak,lastDone,gems,topicStats} = this.state; localStorage.setItem('jiffy_streak_v1', JSON.stringify({absToday,weekStart,done,streak,lastDone,gems,topicStats})); }catch(e){} }
 
   renderVals(){
-    const { tab, answers, liked, saved, highlighted } = this.state;
+    const { tab, answers, liked, saved, highlighted, catalog, level, selectedTopics } = this.state;
 
     const optBase = { display:'flex', alignItems:'center', gap:14, padding:'16px', borderRadius:18, fontFamily:'Nunito, sans-serif', fontSize:17, fontWeight:700, lineHeight:1.3, cursor:'pointer', border:'2px solid rgba(255,255,255,0.16)', background:'rgba(255,255,255,0.07)', color:'#eef8fc', textAlign:'left', WebkitTapHighlightColor:'transparent' };
     const optCorrect = { ...optBase, background:'rgba(124,220,160,0.20)', border:'2px solid #7cdca0', color:'#eafff1', cursor:'default' };
     const optWrong = { ...optBase, background:'rgba(240,137,124,0.18)', border:'2px solid #f0897c', color:'#ffeae6', cursor:'default' };
     const optDim = { ...optBase, opacity:0.45, cursor:'default' };
 
-    const cards = this.drills.map((d, di)=>{
+    const cardsSource = this.loadedQuestions || [];
+    const cards = cardsSource.map((d)=>{
       const st = answers[d.id] || { wrongs:[], status:'unanswered' };
       const revealed = st.status === 'revealed';
       const correctChosen = st.status === 'correct';
@@ -761,11 +833,11 @@ class Component extends DCLogic {
       });
       const isLiked = !!liked[d.id], isSaved = !!saved[d.id], isHl = !!highlighted[d.id];
       return {
-        id:d.id, category:d.category, scenario:d.scenario, stem:d.stem, options,
-        revealed, showVideo: revealed,
-        chipStyle:{ display:'inline-flex', alignSelf:'flex-start', alignItems:'center', height:44, padding:'0 18px', borderRadius:999, background:d.color+'26', color:d.color, border:'1.5px solid '+d.color+'55', fontFamily:'Fredoka, sans-serif', fontWeight:600, fontSize:13, letterSpacing:1.2 },
-        explanation:d.explanation, coachNote:d.coachNote,
-        onCreate:()=>{}, onWhy:()=>this.scrollNext(),
+        id:d.id, category:d.category, scenario:d.scenario, hasScenario: !!d.scenario, stem:d.stem, options,
+        revealed,
+        chipStyle:{ display:'inline-flex', alignSelf:'flex-start', alignItems:'center', height:40, padding:'0 16px', borderRadius:999, background:d.color+'26', color:d.color, border:'1.5px solid '+d.color+'55', fontFamily:'Fredoka, sans-serif', fontWeight:600, fontSize:11.5, letterSpacing:0.6, textTransform:'uppercase', maxWidth:220, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' },
+        explanation:d.explanation,
+        onChangeTopics:()=>this.changeTopics(), onWhy:()=>this.scrollNext(),
         onLike:()=>this.toggleLike(d.id), onSave:()=>this.toggleSave(d.id), onHighlight:()=>this.toggleHighlight(d.id),
         heartFill: isLiked ? '#ff6b81' : 'none', heartStroke: isLiked ? '#ff6b81' : '#fff',
         saveFill: isSaved ? '#f0c97c' : 'none', saveStroke: isSaved ? '#f0c97c' : '#fff',
@@ -773,6 +845,7 @@ class Component extends DCLogic {
         likeCount:'2.9k', saveCount:'30k', hlCount:'1k',
       };
     });
+    const cardsEmpty = this.state.drillStarted && cards.length === 0;
 
     // ── streak & reward engine (week grid + scroll action) ──
     const dayLabels = ['S','M','T','W','TH','F','S'];
@@ -795,22 +868,11 @@ class Component extends DCLogic {
     const streakCount = ss.streak || 0;
     const streakHeadline = streakCount<=0 ? 'Start your streak! \uD83D\uDD25' : ('Streak: ' + streakCount + ' day' + (streakCount===1?'':'s') + '! \uD83D\uDD25');
     const todayDone = !!doneMap[ss.absToday];
-    const scrollBtnBase = { display:'flex', alignItems:'center', gap:13, marginTop:18, padding:'12px 13px', borderRadius:18, border:'1.5px solid rgba(255,255,255,0.35)', WebkitTapHighlightColor:'transparent', transition:'transform .12s ease' };
-    const scrollBtnStyle = todayDone
-      ? { ...scrollBtnBase, background:'rgba(255,255,255,0.1)', border:'1.5px solid rgba(255,255,255,0.24)', cursor:'default' }
-      : { ...scrollBtnBase, background:'linear-gradient(135deg,#3f9d7a,#5cc093)', boxShadow:'0 8px 18px rgba(20,90,60,0.35)', cursor:'pointer' };
-    const scrollIconStyle = { width:42, height:42, flex:'0 0 42px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', fontSize:20, background: todayDone ? 'rgba(124,220,160,0.28)' : 'rgba(255,255,255,0.22)', border:'1.5px solid rgba(255,255,255,0.4)' };
-    const scrollIcon = todayDone ? '\u2713' : '\u26A1';
-    const scrollTitle = todayDone ? 'Scroll complete for today' : 'Simulate a Content Scroll';
-    const scrollSub = todayDone ? 'Come back tomorrow to keep it going' : 'Finish one drill to log today';
-    const onScroll = ()=>this.completeScroll();
     const nowH = new Date().getHours();
     const ovPer = this.props.homeVariant;
     const periodNow = (ovPer && ovPer!=='auto') ? ovPer : (nowH>=5&&nowH<12?'morning':(nowH>=12&&nowH<18?'afternoon':'night'));
     const drillWhen = periodNow==='night' ? 'Tonight' : 'Today';
     const drillCtaSub = todayDone ? 'Logged today \u00B7 keep the streak alive' : 'One question logs your day \u00B7 +15 gems';
-    const dayFull = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][(((ss.absToday%7)+7)%7)];
-    const simStatus = 'today ' + dayFull + '   \u00B7   streak ' + streakCount + '   \u00B7   gems ' + ss.gems;
     const cel = ss.celebrate;
     const celebrateCardStyle = { display:'flex', flexDirection:'column', alignItems:'center', padding:'28px 34px', borderRadius:28, background:'linear-gradient(160deg,#2c6379,#14303c)', border:'2px solid ' + ((cel && cel.kind==='lost') ? 'rgba(240,137,124,0.55)' : 'rgba(255,224,138,0.55)'), boxShadow:'0 20px 50px rgba(0,0,0,0.5)', animation:'celebPop 2.6s ease forwards' };
 
@@ -822,18 +884,16 @@ class Component extends DCLogic {
     const targetAreas = topicArr.slice(0,3).map(t=>({ name:t.name, pctLabel: t.pct+'%', fillStyle:{ width: Math.max(6,t.pct)+'%', height:'100%', borderRadius:999, background: sevColor(t.pct), transition:'width .5s ease, background .5s ease' } }));
 
     const videos = [
-      { id:'vid1', caption:'How to spot necessary vs sufficient', dur:'2:14', topic:'Nec. / Suff.', views:'100K', likes:'50K' },
-      { id:'vid2', caption:'Conditional logic in 60 seconds', dur:'1:02', topic:'Conditionals', views:'88K', likes:'41K' },
-      { id:'vid3', caption:'The 5 reasoning flaws tested most', dur:'3:30', topic:'Flaws', views:'126K', likes:'72K' },
+      { id:'vid1', caption:'Necessary vs sufficient conditions', dur:'2:14', topic:'Nucleic acids', views:'100K', likes:'50K' },
+      { id:'vid2', caption:'Cell structure in 60 seconds', dur:'1:02', topic:'Cell biology', views:'88K', likes:'41K' },
+      { id:'vid3', caption:'The 5 concepts tested most on Paper 1', dur:'3:30', topic:'Exam prep', views:'126K', likes:'72K' },
     ];
 
-    // mastery (progress)
+    // mastery (progress) — demo data
     const tagFor = (p)=> p>=75 ? {t:'Strong', c:'#7cdca0'} : p>=45 ? {t:'Solid', c:'#f0c97c'} : {t:'Focus', c:'#f0897c'};
     const masteryData = [
-      {name:'Conditional Logic', pct:82},{name:'Necessary / Sufficient', pct:64},
-      {name:'Causal Reasoning', pct:47},{name:'Assumptions', pct:38},
-      {name:'Logical Fallacies', pct:71},{name:'Argument Structure', pct:88},
-      {name:'Indicator Words', pct:92},{name:'Flaw Recognition', pct:55},
+      {name:'Unity and diversity', pct:82},{name:'Form and function', pct:64},
+      {name:'Interaction and interdependence', pct:47},{name:'Continuity and change', pct:38},
     ];
     const mastery = masteryData.map(m=>{
       const tg = tagFor(m.pct);
@@ -861,20 +921,20 @@ class Component extends DCLogic {
     const tierColor = { Bronze:'#c08457', Silver:'#aebcc6', Gold:'#e7c66b' };
     const achData = [
       { id:'streak', icon:'\uD83D\uDD25', name:'Streak Keeper', desc:'Practice every day to keep your streak burning.', current:7, unit:'days', tiers:[{t:'Bronze',req:3},{t:'Silver',req:7},{t:'Gold',req:30}] },
-      { id:'logic', icon:'\uD83E\uDDE0', name:'Logic Lord', desc:'Reach mastery across the core reasoning concepts.', current:12, unit:'concepts', tiers:[{t:'Bronze',req:5},{t:'Silver',req:12},{t:'Gold',req:20}] },
+      { id:'logic', icon:'\uD83E\uDDE0', name:'Concept Master', desc:'Reach mastery across the core IB Biology themes.', current:12, unit:'subtopics', tiers:[{t:'Bronze',req:5},{t:'Silver',req:12},{t:'Gold',req:20}] },
       { id:'sharp', icon:'\uD83C\uDFAF', name:'Sharp Shooter', desc:'Answer correctly on your very first try.', current:68, unit:'% first-try', tiers:[{t:'Bronze',req:70},{t:'Silver',req:85},{t:'Gold',req:95}] },
       { id:'flawless', icon:'\u2728', name:'Flawless Run', desc:'Finish a full session with zero mistakes.', current:6, unit:'perfect runs', tiers:[{t:'Bronze',req:1},{t:'Silver',req:5},{t:'Gold',req:15}] },
       { id:'speed', icon:'\u26A1', name:'Quick Thinker', desc:'Lock in a correct answer in under 15 seconds.', current:42, unit:'fast solves', tiers:[{t:'Bronze',req:10},{t:'Silver',req:50},{t:'Gold',req:150}] },
-      { id:'comeback', icon:'\uD83D\uDD04', name:'Comeback Kid', desc:'Miss a concept, then come back and master it.', current:11, unit:'redemptions', tiers:[{t:'Bronze',req:3},{t:'Silver',req:10},{t:'Gold',req:25}] },
+      { id:'comeback', icon:'\uD83D\uDD04', name:'Comeback Kid', desc:'Miss a subtopic, then come back and master it.', current:11, unit:'redemptions', tiers:[{t:'Bronze',req:3},{t:'Silver',req:10},{t:'Gold',req:25}] },
       { id:'cent', icon:'\uD83D\uDCAF', name:'Centurion', desc:'Rack up completed drills over time.', current:312, unit:'drills', tiers:[{t:'Bronze',req:100},{t:'Silver',req:250},{t:'Gold',req:500}] },
       { id:'xp', icon:'\uD83D\uDC8E', name:'XP Hoarder', desc:'Earn experience points from every drill.', current:1240, unit:'XP', tiers:[{t:'Bronze',req:500},{t:'Silver',req:1500},{t:'Gold',req:5000}] },
       { id:'early', icon:'\uD83C\uDF05', name:'Early Bird', desc:'Finish a drill session before 9 AM.', current:22, unit:'mornings', tiers:[{t:'Bronze',req:5},{t:'Silver',req:20},{t:'Gold',req:50}] },
       { id:'owl', icon:'\uD83C\uDF19', name:'Night Owl', desc:'Squeeze in a session after 10 PM.', current:8, unit:'late nights', tiers:[{t:'Bronze',req:5},{t:'Silver',req:20},{t:'Gold',req:50}] },
-      { id:'cond', icon:'\uD83D\uDD17', name:'Conditional King', desc:'Conquer conditional-logic drills.', current:47, unit:'drills', tiers:[{t:'Bronze',req:15},{t:'Silver',req:40},{t:'Gold',req:100}] },
-      { id:'causal', icon:'\uD83E\uDDEA', name:'Cause & Effect', desc:'Untangle causal-reasoning questions.', current:33, unit:'drills', tiers:[{t:'Bronze',req:15},{t:'Silver',req:40},{t:'Gold',req:100}] },
-      { id:'assume', icon:'\uD83D\uDD75\uFE0F', name:'Assumption Ace', desc:'Spot the unstated assumption holding an argument up.', current:9, unit:'drills', tiers:[{t:'Bronze',req:15},{t:'Silver',req:40},{t:'Gold',req:100}] },
-      { id:'flaw', icon:'\uD83E\uDDE9', name:'Flaw Finder', desc:'Identify the reasoning flaw in an argument.', current:54, unit:'flaws spotted', tiers:[{t:'Bronze',req:20},{t:'Silver',req:50},{t:'Gold',req:120}] },
-      { id:'video', icon:'\uD83D\uDCDA', name:'Bookworm', desc:'Watch the coach explain why an answer is right.', current:28, unit:'videos', tiers:[{t:'Bronze',req:5},{t:'Silver',req:25},{t:'Gold',req:75}] },
+      { id:'cond', icon:'\uD83D\uDD17', name:'Unity Champion', desc:'Conquer Theme A drills.', current:47, unit:'drills', tiers:[{t:'Bronze',req:15},{t:'Silver',req:40},{t:'Gold',req:100}] },
+      { id:'causal', icon:'\uD83E\uDDEA', name:'Form & Function', desc:'Work through Theme B drills.', current:33, unit:'drills', tiers:[{t:'Bronze',req:15},{t:'Silver',req:40},{t:'Gold',req:100}] },
+      { id:'assume', icon:'\uD83D\uDD75\uFE0F', name:'Interdependence', desc:'Work through Theme C drills.', current:9, unit:'drills', tiers:[{t:'Bronze',req:15},{t:'Silver',req:40},{t:'Gold',req:100}] },
+      { id:'flaw', icon:'\uD83E\uDDE9', name:'Change Agent', desc:'Work through Theme D drills.', current:54, unit:'drills', tiers:[{t:'Bronze',req:20},{t:'Silver',req:50},{t:'Gold',req:120}] },
+      { id:'video', icon:'\uD83D\uDCDA', name:'Bookworm', desc:'Read every explanation on reveal.', current:28, unit:'explanations', tiers:[{t:'Bronze',req:5},{t:'Silver',req:25},{t:'Gold',req:75}] },
       { id:'saved', icon:'\uD83D\uDD16', name:'Curator', desc:'Bookmark drills to revisit later.', current:14, unit:'saved', tiers:[{t:'Bronze',req:5},{t:'Silver',req:25},{t:'Gold',req:100}] },
       { id:'creator', icon:'\u270D\uFE0F', name:'Question Smith', desc:'Write your own drills for the community.', current:3, unit:'created', tiers:[{t:'Bronze',req:1},{t:'Silver',req:10},{t:'Gold',req:50}] },
       { id:'likes', icon:'\uD83C\uDFC6', name:'Trendsetter', desc:'Collect likes on the questions you create.', current:380, unit:'likes', tiers:[{t:'Bronze',req:50},{t:'Silver',req:500},{t:'Gold',req:2500}] },
@@ -974,6 +1034,54 @@ class Component extends DCLogic {
     // tab bar
     const tabStyle = (active)=>({ display:'flex', flexDirection:'column', alignItems:'center', gap:4, flex:1, cursor:'pointer', color: active ? '#ffffff' : 'rgba(255,255,255,0.42)', fontFamily:'Fredoka, sans-serif', fontWeight:500, fontSize:11, letterSpacing:0.3, background:'none', border:'none', padding:0, WebkitTapHighlightColor:'transparent' });
 
+    // ── drill setup screen ──
+    const subjectLabel = catalog ? catalog.syllabus : 'IB Biology';
+    const levelBtnBase = { flex:1, padding:'16px', borderRadius:16, cursor:'pointer', textAlign:'center', border:'1.5px solid rgba(255,255,255,0.16)', WebkitTapHighlightColor:'transparent' };
+    const slBtnStyle = (level==='SL')
+      ? { ...levelBtnBase, background:'linear-gradient(135deg,#7cdca0,#4fae7a)', border:'1.5px solid rgba(255,255,255,0.5)', boxShadow:'0 10px 22px rgba(20,90,55,0.35)', color:'#0e2b1c' }
+      : { ...levelBtnBase, background:'rgba(255,255,255,0.07)', color:'#fff' };
+    const hlBtnStyle = (level==='HL')
+      ? { ...levelBtnBase, background:'linear-gradient(135deg,#c9b3f7,#9c7de0)', border:'1.5px solid rgba(255,255,255,0.5)', boxShadow:'0 10px 22px rgba(70,40,120,0.35)', color:'#2a1a4a' }
+      : { ...levelBtnBase, background:'rgba(255,255,255,0.07)', color:'#fff' };
+
+    const hasTopicSelection = Object.keys(selectedTopics).some(k=>selectedTopics[k]);
+    let themeGroups = [];
+    let questionCountLabel = '0 questions';
+    if(catalog){
+      const allSub = [];
+      catalog.themes.forEach(th=>th.subtopics.forEach(st=>allSub.push(st)));
+      const selectedIds = Object.keys(selectedTopics).filter(id=>selectedTopics[id]);
+      const relevant = selectedIds.length ? allSub.filter(st=>selectedIds.includes(st.id)) : allSub;
+      const total = relevant.reduce((sum,st)=> sum + (level==='SL' ? st.SL : (st.SL + st.HL)), 0);
+      questionCountLabel = total + (total===1 ? ' question' : ' questions');
+
+      themeGroups = catalog.themes.map(th=>{
+        const color = this.themeColors[th.theme] || '#7bbcf0';
+        const eligibleIds = th.subtopics.filter(st=> level==='SL' ? st.SL>0 : (st.SL+st.HL)>0 ).map(st=>st.id);
+        const allSelected = eligibleIds.length>0 && eligibleIds.every(id=>selectedTopics[id]);
+        const subtopics = th.subtopics.map((st, si)=>{
+          const eligible = level==='SL' ? st.SL>0 : (st.SL+st.HL)>0;
+          const sel = !!selectedTopics[st.id];
+          const last = si === th.subtopics.length - 1;
+          return {
+            id:st.id, name:st.name, showHLTag: st.level==='HL',
+            rowStyle:{ display:'flex', alignItems:'center', gap:12, padding:'12px 14px', cursor: eligible?'pointer':'default', opacity: eligible?1:0.4, borderBottom: last?'none':'1px solid rgba(255,255,255,0.08)', WebkitTapHighlightColor:'transparent' },
+            checkStyle:{ width:22, height:22, flex:'0 0 22px', borderRadius:7, display:'flex', alignItems:'center', justifyContent:'center', fontSize:13, fontWeight:700, color:'#0e2531', background: sel? color : 'transparent', border:'2px solid ' + (sel? color : 'rgba(255,255,255,0.3)') },
+            checkMark: sel ? '\u2713' : '',
+            nameStyle:{ fontFamily:'Nunito, sans-serif', fontWeight:800, fontSize:14, color: eligible? '#fff' : 'rgba(255,255,255,0.55)' },
+            onToggle: eligible ? ()=>this.toggleTopic(st.id) : ()=>{},
+          };
+        });
+        return {
+          theme: th.theme, themeName: th.themeName,
+          badgeStyle:{ display:'inline-flex', alignItems:'center', justifyContent:'center', width:26, height:26, borderRadius:8, background: color+'2b', color, fontFamily:'Fredoka, sans-serif', fontWeight:700, fontSize:13, border:'1.5px solid ' + color + '66' },
+          subtopics,
+          toggleAllLabel: allSelected ? 'Clear' : 'Select all',
+          onToggleAll: ()=>this.toggleThemeAll(eligibleIds, !allSelected),
+        };
+      });
+    }
+
     return {
       dark:true, deviceWidth:402, deviceHeight:874,
       pageRef:this.pageRef, heroRef:this.heroRef, timeRef:this.timeRef, periodRef:this.periodRef,
@@ -984,20 +1092,28 @@ class Component extends DCLogic {
       goProgress:()=>this.setState({tab:'progress'}), goProfile:()=>this.setState({tab:'profile'}),
       homeBtnStyle:tabStyle(tab==='home'), feedBtnStyle:tabStyle(tab==='feed'),
       progressBtnStyle:tabStyle(tab==='progress'), profileBtnStyle:tabStyle(tab==='profile'),
-      weekCells, streakCount, streakHeadline, scrollBtnStyle, scrollIconStyle, scrollIcon, scrollTitle, scrollSub, scrollShowReward: !todayDone, onScroll, drillWhen, drillCtaSub,
-      simStatus, onMiss:()=>this.simulateMiss(), onNextDay:()=>this.fastForward(), onResetWeek:()=>this.resetWeek(),
+      weekCells, streakCount, streakHeadline, drillWhen, drillCtaSub,
       celebrate: !!cel, celebrateEmoji: cel ? cel.emoji : '', celebrateTitle: cel ? cel.title : '', celebrateSub: cel ? cel.sub : '', celebrateCardStyle,
       gemWalletRef: this.gemWalletRef, gemCountRef: this.gemCountRef,
-      targetAreas, videos, cards, mastery, weekBars, stats, badges,
+      targetAreas, videos, mastery, weekBars, stats, badges,
       settingsOpen: this.state.settingsOpen, settingsSections,
       openSettings:()=>this.openSettings(), closeSettings:()=>this.closeSettings(),
       achievementsOpen: this.state.achievementsOpen, achGrid, selDetail, unlockedCount, achTotal: achComputed.length,
       openAchievements:()=>this.openAchievements(), closeAchievements:()=>this.closeAchievements(),
       achModalOpen: this.state.achModalOpen, closeAchModal:()=>this.closeAchModal(), stopProp:(e)=>e.stopPropagation(),
       achDialogStyle:{ position:'relative', width:'100%', maxWidth:340, maxHeight:'82%', overflowY:'auto', background:'linear-gradient(180deg,#20495a,#14313d)', border:'1.5px solid rgba(255,255,255,0.16)', borderRadius:26, padding:'22px 20px', boxShadow:'0 24px 60px rgba(0,0,0,0.55)', animation:'dlgPop .28s cubic-bezier(.2,.9,.3,1.2)' },
+
+      // drill setup + feed
+      showSetup: !this.state.drillStarted, drillStarted: this.state.drillStarted, loadingDrill: this.state.loadingDrill,
+      catalogReady: !!catalog, catalogError: this.state.catalogError,
+      subjectLabel, slBtnStyle, hlBtnStyle, selectSL:()=>this.selectLevel('SL'), selectHL:()=>this.selectLevel('HL'),
+      hasTopicSelection, clearTopics:()=>this.clearTopics(), themeGroups, questionCountLabel,
+      startDrill:()=>this.startDrill(), backToSetup:()=>this.changeTopics(),
+      cards, cardsEmpty,
     };
   }
 }
+
 </script>
 </body>
 </html>

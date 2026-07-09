@@ -85,6 +85,11 @@
     btn.disabled = false;
     btn.textContent = window._authMode === 'signup' ? 'Create Account' : 'Sign In';
     if(result.error){ errEl.textContent = result.error.message; }
+    else if(window._authMode === 'signup' && result.data && !result.data.session){
+      errEl.style.color = '#7cdca0';
+      errEl.textContent = 'Account created! Check your email to confirm, then sign in.';
+      window._toggleAuthMode();
+    }
   };
 </script>
 

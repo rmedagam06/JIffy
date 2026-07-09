@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./support.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script>window._sb = supabase.createClient('https://hpgvenveswxyyledbhfi.supabase.co','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhwZ3ZlbnZlc3d4eXlsZWRiaGZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5NDQwNDYsImV4cCI6MjA5ODUyMDA0Nn0.qVRE3bxEoaNVuSl41WPbCrp3wxHJQcYmYbFix9SKszs');</script>
 </head>
 <body>
 
@@ -27,11 +29,63 @@
 <script>
   (function(){
     var splash = document.getElementById('jiffy-splash');
+    var needsAuth = false;
+    if(window._sb){
+      window._sb.auth.getSession().then(function(r){ needsAuth = !r.data.session; });
+    } else { needsAuth = true; }
     setTimeout(function(){
       splash.style.opacity = '0';
-      setTimeout(function(){ splash.style.display = 'none'; }, 500);
+      setTimeout(function(){
+        splash.style.display = 'none';
+        if(needsAuth) document.getElementById('jiffy-auth').style.display = 'flex';
+      }, 500);
     }, 2200);
   })();
+</script>
+
+<!-- ════════════ AUTH SCREEN ════════════ -->
+<div id="jiffy-auth" style="display:none;position:fixed;inset:0;z-index:8000;background:linear-gradient(165deg,#1c4456 0%,#13303d 55%,#0e2531 100%);font-family:'Fredoka',sans-serif;align-items:center;justify-content:center;padding:24px">
+  <div style="width:100%;max-width:360px;background:rgba(255,255,255,0.07);border:1.5px solid rgba(255,255,255,0.14);border-radius:28px;padding:32px 28px 28px;box-shadow:0 24px 60px rgba(0,0,0,0.4)">
+    <div style="display:flex;flex-direction:column;align-items:center;margin-bottom:28px">
+      <img src="assets/jiffy-splash.png" style="width:64px;height:64px;object-fit:contain;margin-bottom:10px">
+      <div style="font-size:30px;font-weight:700;color:#fff;letter-spacing:0.02em">Jiffy</div>
+      <div id="auth-subtitle" style="font-family:'Nunito',sans-serif;font-weight:700;font-size:14px;color:rgba(234,246,251,0.7);margin-top:4px">Sign in to sync your progress</div>
+    </div>
+    <input id="auth-email" type="email" placeholder="Email" autocomplete="email" style="width:100%;padding:14px 16px;border-radius:14px;border:1.5px solid rgba(255,255,255,0.18);background:rgba(255,255,255,0.09);color:#fff;font-family:'Nunito',sans-serif;font-size:15px;font-weight:700;outline:none;margin-bottom:12px;box-sizing:border-box">
+    <input id="auth-password" type="password" placeholder="Password" autocomplete="current-password" style="width:100%;padding:14px 16px;border-radius:14px;border:1.5px solid rgba(255,255,255,0.18);background:rgba(255,255,255,0.09);color:#fff;font-family:'Nunito',sans-serif;font-size:15px;font-weight:700;outline:none;margin-bottom:6px;box-sizing:border-box">
+    <div id="auth-error" style="min-height:20px;font-family:'Nunito',sans-serif;font-weight:700;font-size:13px;color:#ff9d8e;text-align:center;margin-bottom:10px"></div>
+    <button id="auth-submit" onclick="window._handleAuth()" style="width:100%;padding:16px;border-radius:14px;border:none;background:linear-gradient(135deg,#ffd45e,#f2a43a);color:#5a3d0c;font-family:'Fredoka',sans-serif;font-size:18px;font-weight:700;cursor:pointer;box-shadow:0 10px 22px rgba(210,140,30,0.38);margin-bottom:18px">Sign In</button>
+    <div style="text-align:center;font-family:'Nunito',sans-serif;font-weight:700;font-size:14px;color:rgba(234,246,251,0.65)">
+      <span id="auth-toggle-text">Don't have an account?</span>
+      <span id="auth-toggle-btn" onclick="window._toggleAuthMode()" style="color:#f0c97c;cursor:pointer;margin-left:6px">Sign Up</span>
+    </div>
+  </div>
+</div>
+<script>
+  window._authMode = 'signin';
+  window._toggleAuthMode = function(){
+    window._authMode = window._authMode === 'signin' ? 'signup' : 'signin';
+    var isSignUp = window._authMode === 'signup';
+    document.getElementById('auth-submit').textContent = isSignUp ? 'Create Account' : 'Sign In';
+    document.getElementById('auth-toggle-text').textContent = isSignUp ? 'Already have an account?' : "Don't have an account?";
+    document.getElementById('auth-toggle-btn').textContent = isSignUp ? 'Sign In' : 'Sign Up';
+    document.getElementById('auth-subtitle').textContent = isSignUp ? 'Create an account to save your progress' : 'Sign in to sync your progress';
+    document.getElementById('auth-error').textContent = '';
+  };
+  window._handleAuth = async function(){
+    var email = document.getElementById('auth-email').value.trim();
+    var password = document.getElementById('auth-password').value;
+    var btn = document.getElementById('auth-submit');
+    var errEl = document.getElementById('auth-error');
+    if(!email || !password){ errEl.textContent = 'Please enter your email and password.'; return; }
+    btn.disabled = true; btn.textContent = '...'; errEl.textContent = '';
+    var result = window._authMode === 'signup'
+      ? await window._sb.auth.signUp({ email, password })
+      : await window._sb.auth.signInWithPassword({ email, password });
+    btn.disabled = false;
+    btn.textContent = window._authMode === 'signup' ? 'Create Account' : 'Sign In';
+    if(result.error){ errEl.textContent = result.error.message; }
+  };
 </script>
 
 <x-dc>
@@ -648,7 +702,7 @@ class Component extends DCLogic {
     try{ savedStreak = JSON.parse(localStorage.getItem('jiffy_streak_v1')||'null'); }catch(e){}
     const streakInit = savedStreak || { absToday:3, weekStart:0, done:{0:true,1:true,2:true}, streak:3, lastDone:2, gems:120 };
     if(!streakInit.topicStats) streakInit.topicStats = TOPIC_SEED;
-    this.state = { tab:'home', answers:{}, liked:{}, saved:{}, highlighted:{}, settingsOpen:false, achievementsOpen:false, achModalOpen:false, selectedAch:'streak',
+    this.state = { userId:null, tab:'home', answers:{}, liked:{}, saved:{}, highlighted:{}, settingsOpen:false, achievementsOpen:false, achModalOpen:false, selectedAch:'streak',
       ...streakInit, celebrate:null,
       toggles:{ push:true, daily:true, streak:true, dataShare:false, twoFA:true, darkMode:false },
       catalog:null, catalogError:false, level:'SL', selectedTopics:{}, drillStarted:false, loadingDrill:false };
@@ -665,6 +719,20 @@ class Component extends DCLogic {
     this._clock = setInterval(()=>this.applyVariant(), 20000);
     if(this.gemCountRef.current) this.gemCountRef.current.textContent = this.state.gems;
     fetch('dataset/index.json').then(r=>r.json()).then(data=>this.setState({ catalog:data })).catch(()=>this.setState({ catalogError:true }));
+    if(window._sb){
+      window._sb.auth.getSession().then(({data:{session}})=>{
+        if(session){ this.setState({ userId:session.user.id }); this.loadProgress(session.user.id); }
+      });
+      window._sb.auth.onAuthStateChange((event, session)=>{
+        if(event==='SIGNED_IN' && session){
+          this.setState({ userId:session.user.id });
+          this.loadProgress(session.user.id);
+          document.getElementById('jiffy-auth').style.display = 'none';
+        } else if(event==='SIGNED_OUT'){
+          this.setState({ userId:null });
+        }
+      });
+    }
   }
   componentDidUpdate(prevProps, prevState){
     this.applyVariant();
@@ -840,7 +908,47 @@ class Component extends DCLogic {
     this._gemRAF = requestAnimationFrame(step);
     this.pulseGem();
   }
-  saveStreak(){ try{ const {absToday,weekStart,done,streak,lastDone,gems,topicStats} = this.state; localStorage.setItem('jiffy_streak_v1', JSON.stringify({absToday,weekStart,done,streak,lastDone,gems,topicStats})); }catch(e){} }
+  async loadProgress(uid){
+    if(!window._sb) return;
+    const {data} = await window._sb.from('user_progress').select('*').eq('id',uid).single();
+    if(!data) return;
+    this.setState({
+      streak:    data.streak      ?? 0,
+      gems:      data.gems        ?? 0,
+      level:     data.level       ?? 'SL',
+      weekStart: data.week_start  ?? 0,
+      done:      data.done_days   ?? {},
+      lastDone:  data.last_done   ?? -1,
+      absToday:  data.abs_today   ?? 0,
+      topicStats:     data.topic_stats      ?? {},
+      selectedTopics: data.selected_topics  ?? {},
+      liked:          data.liked            ?? {},
+      saved:          data.saved            ?? {},
+      highlighted:    data.highlighted      ?? {},
+    });
+  }
+  syncProgress(){
+    const uid = this.state.userId;
+    if(!uid || !window._sb) return;
+    if(this._syncTimer) clearTimeout(this._syncTimer);
+    this._syncTimer = setTimeout(async ()=>{
+      const {absToday,weekStart,done,streak,lastDone,gems,topicStats,level,selectedTopics,liked,saved,highlighted} = this.state;
+      await window._sb.from('user_progress').upsert({
+        id:uid, streak, gems, level,
+        week_start:weekStart, done_days:done, last_done:lastDone,
+        abs_today:absToday, topic_stats:topicStats,
+        selected_topics:selectedTopics, liked, saved, highlighted,
+        updated_at: new Date().toISOString(),
+      });
+    }, 1500);
+  }
+  async signOut(){
+    if(window._sb) await window._sb.auth.signOut();
+    this.setState({ userId:null });
+    document.getElementById('jiffy-auth').style.display = 'flex';
+    this.closeSettings();
+  }
+  saveStreak(){ try{ const {absToday,weekStart,done,streak,lastDone,gems,topicStats} = this.state; localStorage.setItem('jiffy_streak_v1', JSON.stringify({absToday,weekStart,done,streak,lastDone,gems,topicStats})); }catch(e){} this.syncProgress(); }
 
   renderVals(){
     const { tab, answers, liked, saved, highlighted, catalog, level, selectedTopics } = this.state;
@@ -1036,7 +1144,7 @@ class Component extends DCLogic {
         { label:'Edit profile details', sub:'Name, photo, email', type:'link' },
         { label:'Reset password', type:'link' },
         { label:'Manage subscription', sub:'Pro \u00B7 renews Jul 12', type:'link' },
-        { label:'Log out', type:'link', danger:true },
+        { label:'Log out', type:'link', danger:true, action:'signOut' },
       ]},
       { title:'Notifications', icon:'\uD83D\uDD14', items:[
         { label:'Push notifications', sub:'Alerts on this device', type:'toggle', key:'push' },
@@ -1065,7 +1173,7 @@ class Component extends DCLogic {
           rowStyle: { ...rowBase, borderBottom: last ? 'none' : '1px solid rgba(255,255,255,0.1)' },
           labelStyle: labelStyle(it.danger), subStyle,
           trackStyle: switchTrack(on), knobStyle: switchKnob(on),
-          onClick: it.type==='toggle' ? ()=>this.toggleSetting(it.key) : ()=>{},
+          onClick: it.type==='toggle' ? ()=>this.toggleSetting(it.key) : (it.action ? ()=>this[it.action]() : ()=>{}),
         };
       }),
     }));

@@ -738,15 +738,26 @@ class Component extends DCLogic {
           const color = this.themeColors[st.theme] || '#7bbcf0';
           data.questions.forEach(q=>{
             if(level==='SL' && q.level !== 'SL') return;
-            const correctIdx = q.options.findIndex(o=>o.correct);
+            const shuffled = this.shuffleOptions(q.options);
+            const correctIdx = shuffled.findIndex(o=>o.correct);
             cards.push({ id:q.id, category:q.category, color, scenario:q.scenario||'', stem:q.stem,
-              options:q.options.map(o=>o.text), correct: correctIdx, explanation:q.explanation });
+              options:shuffled.map(o=>o.text), correct: correctIdx, explanation:q.explanation });
           });
         });
         this.loadedQuestions = cards;
         this.setState({ loadingDrill:false, drillStarted:true, tab:'feed', answers:{}, liked:{}, saved:{}, highlighted:{} });
       })
       .catch(()=>{ this.setState({ loadingDrill:false }); });
+  }
+
+  // shuffle option order so the correct answer isn't always the same letter
+  shuffleOptions(options){
+    const arr = options.slice();
+    for(let i = arr.length - 1; i > 0; i--){
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
   }
 
   // ── streak & reward engine ──

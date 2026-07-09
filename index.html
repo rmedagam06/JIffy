@@ -11,11 +11,11 @@
 <div id="jiffy-splash" style="position:fixed;inset:0;z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#F5E6C8;font-family:'Fredoka',sans-serif;overflow:hidden;transition:opacity 0.5s ease-out">
   <div style="position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 60% 50% at 50% 45%, rgba(255,255,255,0.18) 0%, transparent 70%)"></div>
   <div id="splash-mascot" style="flex:1;display:flex;align-items:center;justify-content:center">
-    <img src="assets/jiffy-splash.png" alt="Jiffy" style="width:256px;height:256px;object-fit:contain;filter:drop-shadow(0 12px 24px rgba(0,0,0,0.18))">
+    <img src="assets/jiffy-splash.png" alt="Jiffy" style="width:min(58vw,240px);height:min(58vw,240px);object-fit:contain;filter:drop-shadow(0 8px 20px rgba(0,0,0,0.18))">
   </div>
-  <div id="splash-brand" style="padding-bottom:80px;display:flex;flex-direction:column;align-items:center;gap:4px">
-    <span style="font-size:64px;font-weight:700;color:#5C3010;letter-spacing:0.02em;text-shadow:0 2px 0 rgba(0,0,0,0.08);user-select:none">Jiffy</span>
-    <span style="font-size:15px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:rgba(92,48,16,0.55);user-select:none">Learn anything. One scroll at a time.</span>
+  <div id="splash-brand" style="padding-bottom:calc(env(safe-area-inset-bottom, 0px) + clamp(48px,10vh,88px));display:flex;flex-direction:column;align-items:center;gap:clamp(2px,1vw,6px)">
+    <span style="font-size:clamp(44px,12vw,68px);font-weight:700;color:#5C3010;letter-spacing:0.02em;text-shadow:0 2px 0 rgba(0,0,0,0.08);user-select:none;line-height:1">Jiffy</span>
+    <span style="font-size:clamp(10px,3vw,14px);font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:rgba(92,48,16,0.55);user-select:none;text-align:center;padding:0 24px">Learn anything. One scroll at a time.</span>
   </div>
   <style>
     @keyframes splashMascotBounce{0%{opacity:0;transform:scale(0.4)}55%{opacity:1;transform:scale(1.1)}70%{transform:scale(0.96)}82%{transform:scale(1.04)}100%{transform:scale(1)}}

@@ -1,0 +1,760 @@
+{
+  "id": "D4.1",
+  "name": "Natural selection",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Ecosystems",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "D4.1-001",
+      "level": "SL",
+      "statement": "D4.1.1",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Natural selection is the mechanism that drives:",
+      "options": [
+        { "letter": "A", "text": "Evolutionary change", "correct": true },
+        { "letter": "B", "text": "DNA replication", "correct": false },
+        { "letter": "C", "text": "Osmosis", "correct": false },
+        { "letter": "D", "text": "Photosynthesis", "correct": false }
+      ],
+      "explanation": "Natural selection is the mechanism driving evolutionary change, operating over billions of years."
+    },
+    {
+      "id": "D4.1-002",
+      "level": "SL",
+      "statement": "D4.1.1",
+      "category": "D4.1 Natural selection",
+      "scenario": "Darwin's theory replaced Lamarckism by providing a convincing mechanism for evolution.",
+      "stem": "This fundamental change in scientific thinking is called a:",
+      "options": [
+        { "letter": "A", "text": "Paradigm shift", "correct": true },
+        { "letter": "B", "text": "Minor correction", "correct": false },
+        { "letter": "C", "text": "Falsification", "correct": false },
+        { "letter": "D", "text": "Random guess", "correct": false }
+      ],
+      "explanation": "Darwin's theory replacing Lamarckism is an example of a paradigm shift, a fundamental change in scientific understanding."
+    },
+    {
+      "id": "D4.1-003",
+      "level": "SL",
+      "statement": "D4.1.2",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Which process generates new alleles for natural selection to act on?",
+      "options": [
+        { "letter": "A", "text": "Mutation", "correct": true },
+        { "letter": "B", "text": "Photosynthesis", "correct": false },
+        { "letter": "C", "text": "Osmosis", "correct": false },
+        { "letter": "D", "text": "Respiration", "correct": false }
+      ],
+      "explanation": "Mutation generates new alleles, while sexual reproduction generates new combinations of alleles."
+    },
+    {
+      "id": "D4.1-004",
+      "level": "SL",
+      "statement": "D4.1.2",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Sexual reproduction contributes to variation by generating:",
+      "options": [
+        { "letter": "A", "text": "New combinations of alleles", "correct": true },
+        { "letter": "B", "text": "New alleles from scratch", "correct": false },
+        { "letter": "C", "text": "Identical offspring", "correct": false },
+        { "letter": "D", "text": "No variation", "correct": false }
+      ],
+      "explanation": "Sexual reproduction generates new combinations of alleles; mutation generates the new alleles themselves."
+    },
+    {
+      "id": "D4.1-005",
+      "level": "SL",
+      "statement": "D4.1.3",
+      "category": "D4.1 Natural selection",
+      "scenario": "Organisms produce more offspring than can survive.",
+      "stem": "This overproduction leads to:",
+      "options": [
+        { "letter": "A", "text": "Competition for resources, promoting natural selection", "correct": true },
+        { "letter": "B", "text": "No competition", "correct": false },
+        { "letter": "C", "text": "All offspring surviving", "correct": false },
+        { "letter": "D", "text": "The end of natural selection", "correct": false }
+      ],
+      "explanation": "Overproduction of offspring and competition for limited resources promote natural selection."
+    },
+    {
+      "id": "D4.1-006",
+      "level": "SL",
+      "statement": "D4.1.4",
+      "category": "D4.1 Natural selection",
+      "scenario": "Very low temperatures kill some individuals in a population regardless of density.",
+      "stem": "Temperature here is acting as a:",
+      "options": [
+        { "letter": "A", "text": "Selection pressure (abiotic factor)", "correct": true },
+        { "letter": "B", "text": "A mutation", "correct": false },
+        { "letter": "C", "text": "A form of mutualism", "correct": false },
+        { "letter": "D", "text": "A gene", "correct": false }
+      ],
+      "explanation": "Abiotic factors such as extreme temperatures act as selection pressures affecting survival of individuals."
+    },
+    {
+      "id": "D4.1-007",
+      "level": "SL",
+      "statement": "D4.1.5",
+      "category": "D4.1 Natural selection",
+      "scenario": "Individuals differ in how well their traits suit the environment.",
+      "stem": "Those better adapted are more likely to:",
+      "options": [
+        { "letter": "A", "text": "Survive and reproduce", "correct": true },
+        { "letter": "B", "text": "Die before reproducing", "correct": false },
+        { "letter": "C", "text": "Be identical to others", "correct": false },
+        { "letter": "D", "text": "Stop evolving", "correct": false }
+      ],
+      "explanation": "Differences in adaptation lead to differences in survival and reproduction, the basis of natural selection."
+    },
+    {
+      "id": "D4.1-008",
+      "level": "SL",
+      "statement": "D4.1.5",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "In natural selection, 'fitness' refers to an organism's:",
+      "options": [
+        { "letter": "A", "text": "Survival value and reproductive potential", "correct": true },
+        { "letter": "B", "text": "Physical strength only", "correct": false },
+        { "letter": "C", "text": "Body temperature", "correct": false },
+        { "letter": "D", "text": "Number of chromosomes", "correct": false }
+      ],
+      "explanation": "Fitness describes the survival value and reproductive potential of a genotype."
+    },
+    {
+      "id": "D4.1-009",
+      "level": "SL",
+      "statement": "D4.1.6",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "For evolutionary change to occur, traits must be:",
+      "options": [
+        { "letter": "A", "text": "Heritable", "correct": true },
+        { "letter": "B", "text": "Acquired only during life", "correct": false },
+        { "letter": "C", "text": "Non-genetic", "correct": false },
+        { "letter": "D", "text": "Identical in all individuals", "correct": false }
+      ],
+      "explanation": "Traits must be heritable (encoded in genes) for evolutionary change to occur."
+    },
+    {
+      "id": "D4.1-010",
+      "level": "SL",
+      "statement": "D4.1.6",
+      "category": "D4.1 Natural selection",
+      "scenario": "A characteristic acquired during an individual's life (e.g. a bigger muscle from exercise).",
+      "stem": "Why does this not contribute to evolution?",
+      "options": [
+        { "letter": "A", "text": "It is not encoded in genes and so not heritable", "correct": true },
+        { "letter": "B", "text": "It changes the DNA sequence", "correct": false },
+        { "letter": "C", "text": "It is always passed on", "correct": false },
+        { "letter": "D", "text": "It affects the whole population", "correct": false }
+      ],
+      "explanation": "Acquired characteristics are not encoded in the base sequence of genes, so they are not heritable and do not drive evolution."
+    },
+    {
+      "id": "D4.1-011",
+      "level": "SL",
+      "statement": "D4.1.7",
+      "category": "D4.1 Natural selection",
+      "scenario": "Male birds of paradise have elaborate plumage that attracts mates.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Sexual selection", "correct": true },
+        { "letter": "B", "text": "Natural selection by predation only", "correct": false },
+        { "letter": "C", "text": "Artificial selection", "correct": false },
+        { "letter": "D", "text": "Genetic drift", "correct": false }
+      ],
+      "explanation": "Sexual selection acts on traits that affect success in attracting a mate, such as the plumage of birds of paradise."
+    },
+    {
+      "id": "D4.1-012",
+      "level": "SL",
+      "statement": "D4.1.7",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Traits used as signs of overall fitness in sexual selection can affect:",
+      "options": [
+        { "letter": "A", "text": "Success in attracting a mate", "correct": true },
+        { "letter": "B", "text": "The rate of photosynthesis", "correct": false },
+        { "letter": "C", "text": "The number of chromosomes", "correct": false },
+        { "letter": "D", "text": "The pH of the blood", "correct": false }
+      ],
+      "explanation": "In sexual selection, physical and behavioural traits signalling fitness affect mating success and drive evolution."
+    },
+    {
+      "id": "D4.1-013",
+      "level": "SL",
+      "statement": "D4.1.8",
+      "category": "D4.1 Natural selection",
+      "scenario": "John Endler's experiments with guppies controlled selection pressures.",
+      "stem": "These experiments model:",
+      "options": [
+        { "letter": "A", "text": "Natural and sexual selection", "correct": true },
+        { "letter": "B", "text": "DNA replication", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "Osmosis", "correct": false }
+      ],
+      "explanation": "Endler's guppy experiments modelled natural and sexual selection by experimentally controlling selection pressures."
+    },
+    {
+      "id": "D4.1-014",
+      "level": "SL",
+      "statement": "D4.1.1",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Natural selection operating over vast timescales has resulted in:",
+      "options": [
+        { "letter": "A", "text": "The biodiversity of life on Earth", "correct": true },
+        { "letter": "B", "text": "The extinction of all life", "correct": false },
+        { "letter": "C", "text": "Identical organisms", "correct": false },
+        { "letter": "D", "text": "The end of evolution", "correct": false }
+      ],
+      "explanation": "Natural selection, operating continuously over billions of years, has produced the biodiversity of life on Earth."
+    },
+    {
+      "id": "D4.1-015",
+      "level": "SL",
+      "statement": "D4.1.3",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Which is a resource that individuals may compete for, promoting natural selection?",
+      "options": [
+        { "letter": "A", "text": "Food", "correct": true },
+        { "letter": "B", "text": "Their own DNA", "correct": false },
+        { "letter": "C", "text": "Their chromosome number", "correct": false },
+        { "letter": "D", "text": "The genetic code", "correct": false }
+      ],
+      "explanation": "Competition for limited resources such as food (which limits carrying capacity) promotes natural selection."
+    },
+    {
+      "id": "D4.1-016",
+      "level": "SL",
+      "statement": "D4.1.2",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Natural selection acts on variation that arises from:",
+      "options": [
+        { "letter": "A", "text": "Mutation and sexual reproduction", "correct": true },
+        { "letter": "B", "text": "Acquired characteristics only", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "Osmosis", "correct": false }
+      ],
+      "explanation": "The variation on which natural selection acts comes from mutation (new alleles) and sexual reproduction (new combinations)."
+    },
+    {
+      "id": "D4.1-017",
+      "level": "SL",
+      "statement": "D4.1.5",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "The type of competition studied for natural selection is:",
+      "options": [
+        { "letter": "A", "text": "Intraspecific competition (within a species)", "correct": true },
+        { "letter": "B", "text": "Only interspecific competition", "correct": false },
+        { "letter": "C", "text": "Competition between kingdoms", "correct": false },
+        { "letter": "D", "text": "No competition", "correct": false }
+      ],
+      "explanation": "Students study natural selection due to intraspecific competition, including the concept of fitness."
+    },
+    {
+      "id": "D4.1-018",
+      "level": "SL",
+      "statement": "D4.1.6",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Which change could be passed on and contribute to evolution?",
+      "options": [
+        { "letter": "A", "text": "A heritable genetic trait", "correct": true },
+        { "letter": "B", "text": "A tan from the sun", "correct": false },
+        { "letter": "C", "text": "A learned skill", "correct": false },
+        { "letter": "D", "text": "A scar", "correct": false }
+      ],
+      "explanation": "Only heritable, gene-encoded traits can be passed on and contribute to evolutionary change."
+    },
+    {
+      "id": "D4.1-019",
+      "level": "SL",
+      "statement": "D4.1.4",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Abiotic selection pressures are described as which type of factor?",
+      "options": [
+        { "letter": "A", "text": "Density-independent", "correct": true },
+        { "letter": "B", "text": "Density-dependent", "correct": false },
+        { "letter": "C", "text": "Genetic", "correct": false },
+        { "letter": "D", "text": "Biotic", "correct": false }
+      ],
+      "explanation": "Abiotic selection pressures, such as high or low temperatures, are examples of density-independent factors."
+    },
+    {
+      "id": "D4.1-020",
+      "level": "SL",
+      "statement": "D4.1.1",
+      "category": "D4.1 Natural selection",
+      "scenario": "In Darwin's time, it was known that species evolved but not how.",
+      "stem": "Darwin's key contribution was to:",
+      "options": [
+        { "letter": "A", "text": "Provide a convincing mechanism (natural selection)", "correct": true },
+        { "letter": "B", "text": "Prove species do not change", "correct": false },
+        { "letter": "C", "text": "Discover DNA", "correct": false },
+        { "letter": "D", "text": "Support Lamarckism", "correct": false }
+      ],
+      "explanation": "Darwin provided a convincing mechanism for evolution, natural selection, which replaced Lamarckism in a paradigm shift."
+    },
+    {
+      "id": "D4.1-021",
+      "level": "SL",
+      "statement": "D4.1.7",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Sexual selection differs from other natural selection in that it acts specifically on traits affecting:",
+      "options": [
+        { "letter": "A", "text": "Mating success", "correct": true },
+        { "letter": "B", "text": "Photosynthesis", "correct": false },
+        { "letter": "C", "text": "Osmosis", "correct": false },
+        { "letter": "D", "text": "The genetic code", "correct": false }
+      ],
+      "explanation": "Sexual selection acts on traits that affect success in attracting a mate, driving the evolution of such traits."
+    },
+    {
+      "id": "D4.1-022",
+      "level": "SL",
+      "statement": "D4.1.3",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Overproduction of offspring is important for natural selection because it:",
+      "options": [
+        { "letter": "A", "text": "Ensures competition, so only some individuals survive", "correct": true },
+        { "letter": "B", "text": "Guarantees all offspring survive", "correct": false },
+        { "letter": "C", "text": "Removes variation", "correct": false },
+        { "letter": "D", "text": "Stops reproduction", "correct": false }
+      ],
+      "explanation": "Because more offspring are produced than can survive, competition occurs and better-adapted individuals are selected."
+    },
+    {
+      "id": "D4.1-023",
+      "level": "SL",
+      "statement": "D4.1.8",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Modelling selection with experiments like Endler's is useful because it allows:",
+      "options": [
+        { "letter": "A", "text": "Selection pressures to be controlled and tested", "correct": true },
+        { "letter": "B", "text": "Evolution to be stopped", "correct": false },
+        { "letter": "C", "text": "DNA to be replicated", "correct": false },
+        { "letter": "D", "text": "Photosynthesis to be measured", "correct": false }
+      ],
+      "explanation": "Experimental control of selection pressures, as in Endler's guppy work, allows natural and sexual selection to be modelled."
+    },
+    {
+      "id": "D4.1-024",
+      "level": "SL",
+      "statement": "D4.1.5",
+      "category": "D4.1 Natural selection",
+      "scenario": "An individual with a helpful heritable trait survives and produces many offspring.",
+      "stem": "Over generations, this trait is likely to:",
+      "options": [
+        { "letter": "A", "text": "Become more common in the population", "correct": true },
+        { "letter": "B", "text": "Disappear", "correct": false },
+        { "letter": "C", "text": "Stay at the same frequency", "correct": false },
+        { "letter": "D", "text": "Change the DNA of unrelated species", "correct": false }
+      ],
+      "explanation": "Individuals with advantageous heritable traits reproduce more, so the trait becomes more common over generations."
+    },
+    {
+      "id": "D4.1-025",
+      "level": "SL",
+      "statement": "D4.1.2",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Without variation in a population, natural selection:",
+      "options": [
+        { "letter": "A", "text": "Cannot act", "correct": true },
+        { "letter": "B", "text": "Acts more strongly", "correct": false },
+        { "letter": "C", "text": "Produces new species instantly", "correct": false },
+        { "letter": "D", "text": "Is unaffected", "correct": false }
+      ],
+      "explanation": "Natural selection requires variation to act on; without it, there are no differences in fitness to select between."
+    },
+    {
+      "id": "D4.1-026",
+      "level": "SL",
+      "statement": "D4.1.6",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "The requirement that traits are heritable distinguishes Darwinian evolution from:",
+      "options": [
+        { "letter": "A", "text": "Lamarckism (inheritance of acquired characteristics)", "correct": true },
+        { "letter": "B", "text": "Cell theory", "correct": false },
+        { "letter": "C", "text": "The cell cycle", "correct": false },
+        { "letter": "D", "text": "Homeostasis", "correct": false }
+      ],
+      "explanation": "Darwinian evolution requires heritable traits, unlike Lamarckism, which proposed inheritance of acquired characteristics."
+    },
+    {
+      "id": "D4.1-027",
+      "level": "SL",
+      "statement": "D4.1.4",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Which is an example of an abiotic selection pressure?",
+      "options": [
+        { "letter": "A", "text": "Extreme temperature", "correct": true },
+        { "letter": "B", "text": "A predator", "correct": false },
+        { "letter": "C", "text": "A competitor species", "correct": false },
+        { "letter": "D", "text": "A disease", "correct": false }
+      ],
+      "explanation": "Abiotic (non-living) selection pressures include factors such as high or low temperatures."
+    },
+    {
+      "id": "D4.1-028",
+      "level": "SL",
+      "statement": "D4.1.1",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Natural selection is described as operating:",
+      "options": [
+        { "letter": "A", "text": "Continuously and over very long timescales", "correct": true },
+        { "letter": "B", "text": "Only for a single generation", "correct": false },
+        { "letter": "C", "text": "Only in the laboratory", "correct": false },
+        { "letter": "D", "text": "Never in nature", "correct": false }
+      ],
+      "explanation": "Natural selection operates continuously and over billions of years, producing the biodiversity of life."
+    },
+    {
+      "id": "D4.1-029",
+      "level": "SL",
+      "statement": "D4.1.7",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Sexual selection can drive the evolution of a population because chosen traits are:",
+      "options": [
+        { "letter": "A", "text": "Heritable and increase reproductive success", "correct": true },
+        { "letter": "B", "text": "Acquired during life", "correct": false },
+        { "letter": "C", "text": "Unrelated to reproduction", "correct": false },
+        { "letter": "D", "text": "Never passed on", "correct": false }
+      ],
+      "explanation": "Sexual selection drives evolution when heritable traits that improve mating success are passed to offspring."
+    },
+    {
+      "id": "D4.1-030",
+      "level": "SL",
+      "statement": "D4.1.3",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Competition for resources is intensified when a population approaches its:",
+      "options": [
+        { "letter": "A", "text": "Carrying capacity", "correct": true },
+        { "letter": "B", "text": "Minimum size", "correct": false },
+        { "letter": "C", "text": "Genome size", "correct": false },
+        { "letter": "D", "text": "Isotonic point", "correct": false }
+      ],
+      "explanation": "As a population nears its carrying capacity, resources become limiting, intensifying competition and natural selection."
+    },
+    {
+      "id": "D4.1-031",
+      "level": "HL",
+      "statement": "D4.1.9",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "A gene pool consists of:",
+      "options": [
+        { "letter": "A", "text": "All the genes and their alleles in a population", "correct": true },
+        { "letter": "B", "text": "One gene in one individual", "correct": false },
+        { "letter": "C", "text": "The proteins in a cell", "correct": false },
+        { "letter": "D", "text": "The non-living environment", "correct": false }
+      ],
+      "explanation": "A gene pool consists of all the genes and their different alleles present in a population."
+    },
+    {
+      "id": "D4.1-032",
+      "level": "HL",
+      "statement": "D4.1.10",
+      "category": "D4.1 Natural selection",
+      "scenario": "Two populations of a species are geographically isolated.",
+      "stem": "Their allele frequencies may:",
+      "options": [
+        { "letter": "A", "text": "Differ from each other", "correct": true },
+        { "letter": "B", "text": "Always be identical", "correct": false },
+        { "letter": "C", "text": "Have no alleles", "correct": false },
+        { "letter": "D", "text": "Be the same as all other species", "correct": false }
+      ],
+      "explanation": "Geographically isolated populations can have different allele frequencies, which can be searched in databases."
+    },
+    {
+      "id": "D4.1-033",
+      "level": "HL",
+      "statement": "D4.1.11",
+      "category": "D4.1 Natural selection",
+      "scenario": "Natural selection favours individuals with certain heritable traits.",
+      "stem": "Over generations, this causes:",
+      "options": [
+        { "letter": "A", "text": "Changes in allele frequency in the gene pool", "correct": true },
+        { "letter": "B", "text": "No change in allele frequency", "correct": false },
+        { "letter": "C", "text": "A change in the DNA of individuals during life", "correct": false },
+        { "letter": "D", "text": "Loss of all alleles", "correct": false }
+      ],
+      "explanation": "Natural selection between individuals with different heritable traits changes allele frequencies in the gene pool over time."
+    },
+    {
+      "id": "D4.1-034",
+      "level": "HL",
+      "statement": "D4.1.11",
+      "category": "D4.1 Natural selection",
+      "scenario": "Genetics was integrated with Darwin's theory of natural selection.",
+      "stem": "This combined framework is known as:",
+      "options": [
+        { "letter": "A", "text": "Neo-Darwinism", "correct": true },
+        { "letter": "B", "text": "Lamarckism", "correct": false },
+        { "letter": "C", "text": "Cell theory", "correct": false },
+        { "letter": "D", "text": "Cladistics", "correct": false }
+      ],
+      "explanation": "The integration of genetics with natural selection is known as neo-Darwinism."
+    },
+    {
+      "id": "D4.1-035",
+      "level": "HL",
+      "statement": "D4.1.12",
+      "category": "D4.1 Natural selection",
+      "scenario": "Selection favours one extreme of a trait, shifting the population in that direction.",
+      "stem": "This is:",
+      "options": [
+        { "letter": "A", "text": "Directional selection", "correct": true },
+        { "letter": "B", "text": "Stabilizing selection", "correct": false },
+        { "letter": "C", "text": "Disruptive selection", "correct": false },
+        { "letter": "D", "text": "Artificial selection", "correct": false }
+      ],
+      "explanation": "Directional selection favours one extreme of a trait, shifting the population's allele frequencies in that direction."
+    },
+    {
+      "id": "D4.1-036",
+      "level": "HL",
+      "statement": "D4.1.12",
+      "category": "D4.1 Natural selection",
+      "scenario": "Selection favours the average (intermediate) phenotype.",
+      "stem": "This is:",
+      "options": [
+        { "letter": "A", "text": "Stabilizing selection", "correct": true },
+        { "letter": "B", "text": "Directional selection", "correct": false },
+        { "letter": "C", "text": "Disruptive selection", "correct": false },
+        { "letter": "D", "text": "Sexual selection", "correct": false }
+      ],
+      "explanation": "Stabilizing selection favours the intermediate phenotype and selects against extremes."
+    },
+    {
+      "id": "D4.1-037",
+      "level": "HL",
+      "statement": "D4.1.12",
+      "category": "D4.1 Natural selection",
+      "scenario": "Selection favours both extremes of a trait over the intermediate.",
+      "stem": "This is:",
+      "options": [
+        { "letter": "A", "text": "Disruptive selection", "correct": true },
+        { "letter": "B", "text": "Stabilizing selection", "correct": false },
+        { "letter": "C", "text": "Directional selection", "correct": false },
+        { "letter": "D", "text": "Artificial selection", "correct": false }
+      ],
+      "explanation": "Disruptive selection favours both extremes over the intermediate phenotype."
+    },
+    {
+      "id": "D4.1-038",
+      "level": "HL",
+      "statement": "D4.1.12",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Directional, disruptive and stabilizing selection all result in:",
+      "options": [
+        { "letter": "A", "text": "A change in allele frequency", "correct": true },
+        { "letter": "B", "text": "No change in allele frequency", "correct": false },
+        { "letter": "C", "text": "The same phenotype in all populations", "correct": false },
+        { "letter": "D", "text": "The extinction of the species", "correct": false }
+      ],
+      "explanation": "All three types of selection result in a change in allele frequency in the population."
+    },
+    {
+      "id": "D4.1-039",
+      "level": "HL",
+      "statement": "D4.1.13",
+      "category": "D4.1 Natural selection",
+      "scenario": "The Hardy-Weinberg equation uses p and q for allele frequencies.",
+      "stem": "Which relationship is correct?",
+      "options": [
+        { "letter": "A", "text": "p + q = 1", "correct": true },
+        { "letter": "B", "text": "p + q = 2", "correct": false },
+        { "letter": "C", "text": "p - q = 1", "correct": false },
+        { "letter": "D", "text": "p x q = 1", "correct": false }
+      ],
+      "explanation": "In the Hardy-Weinberg model, the two allele frequencies sum to one: p + q = 1."
+    },
+    {
+      "id": "D4.1-040",
+      "level": "HL",
+      "statement": "D4.1.13",
+      "category": "D4.1 Natural selection",
+      "scenario": "The Hardy-Weinberg equation predicts genotype frequencies.",
+      "stem": "Which is the correct genotype equation?",
+      "options": [
+        { "letter": "A", "text": "p² + 2pq + q² = 1", "correct": true },
+        { "letter": "B", "text": "p² + q² = 1", "correct": false },
+        { "letter": "C", "text": "p + 2pq + q = 1", "correct": false },
+        { "letter": "D", "text": "2p + 2q = 1", "correct": false }
+      ],
+      "explanation": "Genotype frequencies are predicted by p² + 2pq + q² = 1, where p and q are the allele frequencies."
+    },
+    {
+      "id": "D4.1-041",
+      "level": "HL",
+      "statement": "D4.1.13",
+      "category": "D4.1 Natural selection",
+      "scenario": "In a population, q² (homozygous recessive frequency) is 0.16.",
+      "stem": "What is the recessive allele frequency q?",
+      "options": [
+        { "letter": "A", "text": "0.4", "correct": true },
+        { "letter": "B", "text": "0.16", "correct": false },
+        { "letter": "C", "text": "0.6", "correct": false },
+        { "letter": "D", "text": "0.84", "correct": false }
+      ],
+      "explanation": "q is the square root of q²; √0.16 = 0.4."
+    },
+    {
+      "id": "D4.1-042",
+      "level": "HL",
+      "statement": "D4.1.14",
+      "category": "D4.1 Natural selection",
+      "scenario": "A population's genotype frequencies do not fit the Hardy-Weinberg equation.",
+      "stem": "This indicates that:",
+      "options": [
+        { "letter": "A", "text": "One or more Hardy-Weinberg conditions are not being met", "correct": true },
+        { "letter": "B", "text": "The population has no alleles", "correct": false },
+        { "letter": "C", "text": "The equation is wrong", "correct": false },
+        { "letter": "D", "text": "There is no variation", "correct": false }
+      ],
+      "explanation": "A deviation from Hardy-Weinberg indicates that a condition (such as random mating or equal survival) is not being met."
+    },
+    {
+      "id": "D4.1-043",
+      "level": "HL",
+      "statement": "D4.1.14",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Which is a Hardy-Weinberg condition for genetic equilibrium?",
+      "options": [
+        { "letter": "A", "text": "Random mating", "correct": true },
+        { "letter": "B", "text": "Non-random mating", "correct": false },
+        { "letter": "C", "text": "Strong natural selection", "correct": false },
+        { "letter": "D", "text": "High mutation rate", "correct": false }
+      ],
+      "explanation": "Genetic equilibrium requires conditions such as random mating and equal survival between genotypes."
+    },
+    {
+      "id": "D4.1-044",
+      "level": "HL",
+      "statement": "D4.1.15",
+      "category": "D4.1 Natural selection",
+      "scenario": "A farmer breeds only cows with the highest milk yield.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Artificial selection", "correct": true },
+        { "letter": "B", "text": "Natural selection", "correct": false },
+        { "letter": "C", "text": "Genetic drift", "correct": false },
+        { "letter": "D", "text": "Sexual selection", "correct": false }
+      ],
+      "explanation": "Artificial selection is the deliberate choice of individuals with desirable traits for breeding."
+    },
+    {
+      "id": "D4.1-045",
+      "level": "HL",
+      "statement": "D4.1.15",
+      "category": "D4.1 Natural selection",
+      "scenario": "Bacteria evolve resistance when an antibiotic is used.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Natural selection (an unintended consequence)", "correct": true },
+        { "letter": "B", "text": "Artificial selection", "correct": false },
+        { "letter": "C", "text": "Deliberate breeding", "correct": false },
+        { "letter": "D", "text": "Lamarckism", "correct": false }
+      ],
+      "explanation": "Antibiotic resistance is due to natural, not artificial, selection - an unintended consequence of human antibiotic use."
+    },
+    {
+      "id": "D4.1-046",
+      "level": "HL",
+      "statement": "D4.1.13",
+      "category": "D4.1 Natural selection",
+      "scenario": "In the Hardy-Weinberg equation, 2pq represents the frequency of:",
+      "stem": "Which genotype?",
+      "options": [
+        { "letter": "A", "text": "Heterozygotes", "correct": true },
+        { "letter": "B", "text": "Homozygous dominant", "correct": false },
+        { "letter": "C", "text": "Homozygous recessive", "correct": false },
+        { "letter": "D", "text": "Haploid gametes", "correct": false }
+      ],
+      "explanation": "In p² + 2pq + q² = 1, the term 2pq is the frequency of heterozygotes."
+    },
+    {
+      "id": "D4.1-047",
+      "level": "HL",
+      "statement": "D4.1.14",
+      "category": "D4.1 Natural selection",
+      "scenario": "Survival rates differ between genotypes in a population.",
+      "stem": "This means the population:",
+      "options": [
+        { "letter": "A", "text": "Is not in Hardy-Weinberg equilibrium", "correct": true },
+        { "letter": "B", "text": "Is definitely in equilibrium", "correct": false },
+        { "letter": "C", "text": "Has no alleles", "correct": false },
+        { "letter": "D", "text": "Cannot evolve", "correct": false }
+      ],
+      "explanation": "Unequal survival between genotypes violates a Hardy-Weinberg condition, so the population is not in genetic equilibrium."
+    },
+    {
+      "id": "D4.1-048",
+      "level": "HL",
+      "statement": "D4.1.9",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "Evolution can be described at the population level as a change in the:",
+      "options": [
+        { "letter": "A", "text": "Allele frequencies of the gene pool", "correct": true },
+        { "letter": "B", "text": "DNA of one individual during life", "correct": false },
+        { "letter": "C", "text": "Number of proteins in a cell", "correct": false },
+        { "letter": "D", "text": "Body temperature", "correct": false }
+      ],
+      "explanation": "Evolution can be defined as a change in allele frequencies in the gene pool of a population over time."
+    },
+    {
+      "id": "D4.1-049",
+      "level": "HL",
+      "statement": "D4.1.12",
+      "category": "D4.1 Natural selection",
+      "scenario": "A trait such as birth mass, where very small and very large are disadvantageous, is under selection.",
+      "stem": "The most likely type of selection is:",
+      "options": [
+        { "letter": "A", "text": "Stabilizing selection", "correct": true },
+        { "letter": "B", "text": "Directional selection", "correct": false },
+        { "letter": "C", "text": "Disruptive selection", "correct": false },
+        { "letter": "D", "text": "Artificial selection", "correct": false }
+      ],
+      "explanation": "When extremes are disadvantageous and the intermediate is favoured, stabilizing selection is acting."
+    },
+    {
+      "id": "D4.1-050",
+      "level": "HL",
+      "statement": "D4.1.15",
+      "category": "D4.1 Natural selection",
+      "scenario": "",
+      "stem": "The key difference between artificial and natural selection is that artificial selection:",
+      "options": [
+        { "letter": "A", "text": "Is directed by humans choosing which individuals breed", "correct": true },
+        { "letter": "B", "text": "Is directed by the natural environment", "correct": false },
+        { "letter": "C", "text": "Does not change allele frequencies", "correct": false },
+        { "letter": "D", "text": "Only occurs in bacteria", "correct": false }
+      ],
+      "explanation": "Artificial selection is directed by humans choosing individuals with desirable traits to breed, unlike natural selection."
+    }
+  ]
+}

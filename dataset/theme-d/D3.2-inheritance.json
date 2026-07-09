@@ -1,0 +1,760 @@
+{
+  "id": "D3.2",
+  "name": "Inheritance",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Organisms",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "D3.2-001",
+      "level": "SL",
+      "statement": "D3.2.1",
+      "category": "D3.2 Inheritance",
+      "scenario": "Two haploid gametes fuse.",
+      "stem": "The cell formed is a:",
+      "options": [
+        { "letter": "A", "text": "Diploid zygote", "correct": true },
+        { "letter": "B", "text": "Haploid gamete", "correct": false },
+        { "letter": "C", "text": "Triploid cell", "correct": false },
+        { "letter": "D", "text": "Somatic cell of a parent", "correct": false }
+      ],
+      "explanation": "Haploid gametes fuse to form a diploid zygote, the basis of inheritance in eukaryotes with a sexual life cycle."
+    },
+    {
+      "id": "D3.2-002",
+      "level": "SL",
+      "statement": "D3.2.1",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "A diploid cell has how many copies of each autosomal gene?",
+      "options": [
+        { "letter": "A", "text": "Two", "correct": true },
+        { "letter": "B", "text": "One", "correct": false },
+        { "letter": "C", "text": "Four", "correct": false },
+        { "letter": "D", "text": "Zero", "correct": false }
+      ],
+      "explanation": "A diploid cell has two copies of each autosomal gene, one from each parent."
+    },
+    {
+      "id": "D3.2-003",
+      "level": "SL",
+      "statement": "D3.2.2",
+      "category": "D3.2 Inheritance",
+      "scenario": "In a genetic cross, the first offspring generation is produced.",
+      "stem": "This generation is called the:",
+      "options": [
+        { "letter": "A", "text": "F1 generation", "correct": true },
+        { "letter": "B", "text": "P generation", "correct": false },
+        { "letter": "C", "text": "F2 generation", "correct": false },
+        { "letter": "D", "text": "Gamete", "correct": false }
+      ],
+      "explanation": "The parental (P) generation produces the F1 generation, which can be crossed to give the F2."
+    },
+    {
+      "id": "D3.2-004",
+      "level": "SL",
+      "statement": "D3.2.2",
+      "category": "D3.2 Inheritance",
+      "scenario": "A student predicts offspring ratios using a grid.",
+      "stem": "This grid is called a:",
+      "options": [
+        { "letter": "A", "text": "Punnett grid", "correct": true },
+        { "letter": "B", "text": "Box-and-whisker plot", "correct": false },
+        { "letter": "C", "text": "Cladogram", "correct": false },
+        { "letter": "D", "text": "Karyogram", "correct": false }
+      ],
+      "explanation": "A Punnett grid is used to predict the genotypes and phenotypes of offspring from a cross."
+    },
+    {
+      "id": "D3.2-005",
+      "level": "SL",
+      "statement": "D3.2.3",
+      "category": "D3.2 Inheritance",
+      "scenario": "An organism has two identical alleles of a gene.",
+      "stem": "Its genotype is:",
+      "options": [
+        { "letter": "A", "text": "Homozygous", "correct": true },
+        { "letter": "B", "text": "Heterozygous", "correct": false },
+        { "letter": "C", "text": "Haploid", "correct": false },
+        { "letter": "D", "text": "Polygenic", "correct": false }
+      ],
+      "explanation": "Homozygous means having two identical alleles; heterozygous means two different alleles."
+    },
+    {
+      "id": "D3.2-006",
+      "level": "SL",
+      "statement": "D3.2.3",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "The difference between a gene and an allele is that an allele is:",
+      "options": [
+        { "letter": "A", "text": "A specific version of a gene", "correct": true },
+        { "letter": "B", "text": "A whole chromosome", "correct": false },
+        { "letter": "C", "text": "The same as the genotype", "correct": false },
+        { "letter": "D", "text": "A protein", "correct": false }
+      ],
+      "explanation": "A gene is a length of DNA coding for a characteristic; an allele is a particular version of that gene."
+    },
+    {
+      "id": "D3.2-007",
+      "level": "SL",
+      "statement": "D3.2.4",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "The phenotype of an organism results from:",
+      "options": [
+        { "letter": "A", "text": "Genotype and environmental factors", "correct": true },
+        { "letter": "B", "text": "Genotype only, never the environment", "correct": false },
+        { "letter": "C", "text": "The environment only", "correct": false },
+        { "letter": "D", "text": "The number of chromosomes only", "correct": false }
+      ],
+      "explanation": "Phenotype is the observable traits resulting from genotype and environmental factors."
+    },
+    {
+      "id": "D3.2-008",
+      "level": "SL",
+      "statement": "D3.2.5",
+      "category": "D3.2 Inheritance",
+      "scenario": "A trait is controlled by a dominant allele (T) and a recessive allele (t).",
+      "stem": "Which genotypes give the dominant phenotype?",
+      "options": [
+        { "letter": "A", "text": "TT and Tt", "correct": true },
+        { "letter": "B", "text": "Only TT", "correct": false },
+        { "letter": "C", "text": "Only tt", "correct": false },
+        { "letter": "D", "text": "Only Tt", "correct": false }
+      ],
+      "explanation": "Both homozygous-dominant (TT) and heterozygous (Tt) genotypes produce the dominant phenotype."
+    },
+    {
+      "id": "D3.2-009",
+      "level": "SL",
+      "statement": "D3.2.5",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "A recessive phenotype is only shown when the genotype is:",
+      "options": [
+        { "letter": "A", "text": "Homozygous recessive", "correct": true },
+        { "letter": "B", "text": "Homozygous dominant", "correct": false },
+        { "letter": "C", "text": "Heterozygous", "correct": false },
+        { "letter": "D", "text": "Any genotype", "correct": false }
+      ],
+      "explanation": "A recessive allele is only expressed in the phenotype when homozygous recessive."
+    },
+    {
+      "id": "D3.2-010",
+      "level": "SL",
+      "statement": "D3.2.6",
+      "category": "D3.2 Inheritance",
+      "scenario": "An organism changes its traits to suit its environment by varying gene expression, and the change can reverse.",
+      "stem": "This is called:",
+      "options": [
+        { "letter": "A", "text": "Phenotypic plasticity", "correct": true },
+        { "letter": "B", "text": "A gene mutation", "correct": false },
+        { "letter": "C", "text": "Codominance", "correct": false },
+        { "letter": "D", "text": "Non-disjunction", "correct": false }
+      ],
+      "explanation": "Phenotypic plasticity is the capacity to develop traits suited to the environment by varying gene expression, and it may be reversible."
+    },
+    {
+      "id": "D3.2-011",
+      "level": "SL",
+      "statement": "D3.2.6",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "Phenotypic plasticity is NOT due to:",
+      "options": [
+        { "letter": "A", "text": "Changes in genotype", "correct": true },
+        { "letter": "B", "text": "Changes in gene expression", "correct": false },
+        { "letter": "C", "text": "Environmental conditions", "correct": false },
+        { "letter": "D", "text": "Reversible trait changes", "correct": false }
+      ],
+      "explanation": "Phenotypic plasticity is not due to changes in genotype; it arises from varying gene expression in response to the environment."
+    },
+    {
+      "id": "D3.2-012",
+      "level": "SL",
+      "statement": "D3.2.7",
+      "category": "D3.2 Inheritance",
+      "scenario": "Phenylketonuria (PKU) is caused by a mutation in an autosomal gene.",
+      "stem": "PKU is inherited as a:",
+      "options": [
+        { "letter": "A", "text": "Recessive condition", "correct": true },
+        { "letter": "B", "text": "Dominant condition", "correct": false },
+        { "letter": "C", "text": "Sex-linked dominant condition", "correct": false },
+        { "letter": "D", "text": "Codominant condition", "correct": false }
+      ],
+      "explanation": "PKU is a recessive genetic condition caused by a mutation in an autosomal gene."
+    },
+    {
+      "id": "D3.2-013",
+      "level": "SL",
+      "statement": "D3.2.7",
+      "category": "D3.2 Inheritance",
+      "scenario": "PKU results from a faulty enzyme.",
+      "stem": "The affected enzyme normally converts:",
+      "options": [
+        { "letter": "A", "text": "Phenylalanine to tyrosine", "correct": true },
+        { "letter": "B", "text": "Glucose to glycogen", "correct": false },
+        { "letter": "C", "text": "Starch to maltose", "correct": false },
+        { "letter": "D", "text": "DNA to RNA", "correct": false }
+      ],
+      "explanation": "PKU is caused by a mutation in the gene for the enzyme that converts phenylalanine to tyrosine."
+    },
+    {
+      "id": "D3.2-014",
+      "level": "SL",
+      "statement": "D3.2.8",
+      "category": "D3.2 Inheritance",
+      "scenario": "A gene has several alleles in the gene pool.",
+      "stem": "How many of these alleles can one individual inherit?",
+      "options": [
+        { "letter": "A", "text": "Two", "correct": true },
+        { "letter": "B", "text": "All of them", "correct": false },
+        { "letter": "C", "text": "One", "correct": false },
+        { "letter": "D", "text": "Four", "correct": false }
+      ],
+      "explanation": "Any number of alleles can exist in a gene pool, but an individual inherits only two."
+    },
+    {
+      "id": "D3.2-015",
+      "level": "SL",
+      "statement": "D3.2.9",
+      "category": "D3.2 Inheritance",
+      "scenario": "The ABO blood group system is controlled by multiple alleles.",
+      "stem": "Which alleles are used to denote it?",
+      "options": [
+        { "letter": "A", "text": "IA, IB and i", "correct": true },
+        { "letter": "B", "text": "T and t", "correct": false },
+        { "letter": "C", "text": "X and Y", "correct": false },
+        { "letter": "D", "text": "p and q", "correct": false }
+      ],
+      "explanation": "The ABO blood group is an example of multiple alleles, denoted IA, IB and i."
+    },
+    {
+      "id": "D3.2-016",
+      "level": "SL",
+      "statement": "D3.2.10",
+      "category": "D3.2 Inheritance",
+      "scenario": "A heterozygote shows both alleles fully in its phenotype (e.g. AB blood type).",
+      "stem": "This pattern of inheritance is:",
+      "options": [
+        { "letter": "A", "text": "Codominance", "correct": true },
+        { "letter": "B", "text": "Incomplete dominance", "correct": false },
+        { "letter": "C", "text": "Complete dominance", "correct": false },
+        { "letter": "D", "text": "Sex linkage", "correct": false }
+      ],
+      "explanation": "In codominance, heterozygotes have a dual phenotype; AB blood type (IAIB) is an example."
+    },
+    {
+      "id": "D3.2-017",
+      "level": "SL",
+      "statement": "D3.2.10",
+      "category": "D3.2 Inheritance",
+      "scenario": "A red-flowered and a white-flowered plant produce pink offspring.",
+      "stem": "This pattern of inheritance is:",
+      "options": [
+        { "letter": "A", "text": "Incomplete dominance", "correct": true },
+        { "letter": "B", "text": "Codominance", "correct": false },
+        { "letter": "C", "text": "Complete dominance", "correct": false },
+        { "letter": "D", "text": "Sex linkage", "correct": false }
+      ],
+      "explanation": "In incomplete dominance, heterozygotes have an intermediate phenotype, as in the pink four o'clock flower."
+    },
+    {
+      "id": "D3.2-018",
+      "level": "SL",
+      "statement": "D3.2.11",
+      "category": "D3.2 Inheritance",
+      "scenario": "In humans, the sex chromosome carried by the sperm determines the offspring's sex.",
+      "stem": "This is because the sperm can carry:",
+      "options": [
+        { "letter": "A", "text": "Either an X or a Y chromosome", "correct": true },
+        { "letter": "B", "text": "Only an X chromosome", "correct": false },
+        { "letter": "C", "text": "Only a Y chromosome", "correct": false },
+        { "letter": "D", "text": "No sex chromosome", "correct": false }
+      ],
+      "explanation": "The sex chromosome in the sperm (X or Y) determines whether the zygote develops male- or female-typical characteristics."
+    },
+    {
+      "id": "D3.2-019",
+      "level": "SL",
+      "statement": "D3.2.11",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "Compared with the Y chromosome, the X chromosome carries:",
+      "options": [
+        { "letter": "A", "text": "Far more genes", "correct": true },
+        { "letter": "B", "text": "Far fewer genes", "correct": false },
+        { "letter": "C", "text": "Exactly the same genes", "correct": false },
+        { "letter": "D", "text": "No genes", "correct": false }
+      ],
+      "explanation": "Far more genes are carried by the X chromosome than the Y chromosome."
+    },
+    {
+      "id": "D3.2-020",
+      "level": "SL",
+      "statement": "D3.2.12",
+      "category": "D3.2 Inheritance",
+      "scenario": "Haemophilia is carried on the X chromosome.",
+      "stem": "Haemophilia is therefore a:",
+      "options": [
+        { "letter": "A", "text": "Sex-linked genetic disorder", "correct": true },
+        { "letter": "B", "text": "Autosomal dominant disorder", "correct": false },
+        { "letter": "C", "text": "Codominant trait", "correct": false },
+        { "letter": "D", "text": "Non-genetic condition", "correct": false }
+      ],
+      "explanation": "Haemophilia is an example of a sex-linked disorder, with alleles carried on the X chromosome."
+    },
+    {
+      "id": "D3.2-021",
+      "level": "SL",
+      "statement": "D3.2.13",
+      "category": "D3.2 Inheritance",
+      "scenario": "A family tree shows how a genetic disorder is passed through generations.",
+      "stem": "This diagram is a:",
+      "options": [
+        { "letter": "A", "text": "Pedigree chart", "correct": true },
+        { "letter": "B", "text": "Punnett grid", "correct": false },
+        { "letter": "C", "text": "Cladogram", "correct": false },
+        { "letter": "D", "text": "Box-and-whisker plot", "correct": false }
+      ],
+      "explanation": "Pedigree charts are used to deduce patterns of inheritance of genetic disorders through a family."
+    },
+    {
+      "id": "D3.2-022",
+      "level": "SL",
+      "statement": "D3.2.13",
+      "category": "D3.2 Inheritance",
+      "scenario": "A scientist deduces a general pattern of inheritance from parts of a pedigree.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Inductive reasoning", "correct": true },
+        { "letter": "B", "text": "Deductive reasoning only", "correct": false },
+        { "letter": "C", "text": "No reasoning", "correct": false },
+        { "letter": "D", "text": "Random guessing", "correct": false }
+      ],
+      "explanation": "Drawing a general conclusion from some observations (a pedigree) is inductive reasoning; deducing individual genotypes from it is deductive."
+    },
+    {
+      "id": "D3.2-023",
+      "level": "SL",
+      "statement": "D3.2.14",
+      "category": "D3.2 Inheritance",
+      "scenario": "Human skin colour shows a smooth range of shades.",
+      "stem": "This continuous variation is due to:",
+      "options": [
+        { "letter": "A", "text": "Polygenic inheritance and/or environmental factors", "correct": true },
+        { "letter": "B", "text": "A single gene only", "correct": false },
+        { "letter": "C", "text": "One dominant allele only", "correct": false },
+        { "letter": "D", "text": "Non-disjunction", "correct": false }
+      ],
+      "explanation": "Continuous variation, such as skin colour, arises from polygenic inheritance and/or environmental factors."
+    },
+    {
+      "id": "D3.2-024",
+      "level": "SL",
+      "statement": "D3.2.14",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "Which is a discrete (discontinuous) variable?",
+      "options": [
+        { "letter": "A", "text": "ABO blood group", "correct": true },
+        { "letter": "B", "text": "Human height", "correct": false },
+        { "letter": "C", "text": "Skin colour", "correct": false },
+        { "letter": "D", "text": "Body mass", "correct": false }
+      ],
+      "explanation": "ABO blood group is a discrete variable with distinct categories; height and skin colour are continuous variables."
+    },
+    {
+      "id": "D3.2-025",
+      "level": "SL",
+      "statement": "D3.2.15",
+      "category": "D3.2 Inheritance",
+      "scenario": "A student displays height data showing the median, quartiles and outliers.",
+      "stem": "Which type of plot is best?",
+      "options": [
+        { "letter": "A", "text": "A box-and-whisker plot", "correct": true },
+        { "letter": "B", "text": "A Punnett grid", "correct": false },
+        { "letter": "C", "text": "A cladogram", "correct": false },
+        { "letter": "D", "text": "A pedigree chart", "correct": false }
+      ],
+      "explanation": "A box-and-whisker plot displays outliers, minimum, first quartile, median, third quartile and maximum for continuous data."
+    },
+    {
+      "id": "D3.2-026",
+      "level": "SL",
+      "statement": "D3.2.3",
+      "category": "D3.2 Inheritance",
+      "scenario": "An organism has two different alleles of a gene.",
+      "stem": "Its genotype is:",
+      "options": [
+        { "letter": "A", "text": "Heterozygous", "correct": true },
+        { "letter": "B", "text": "Homozygous", "correct": false },
+        { "letter": "C", "text": "Haploid", "correct": false },
+        { "letter": "D", "text": "Recessive by definition", "correct": false }
+      ],
+      "explanation": "Heterozygous means having two different alleles of a gene; homozygous means two identical alleles."
+    },
+    {
+      "id": "D3.2-027",
+      "level": "SL",
+      "statement": "D3.2.4",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "Which trait is influenced by both genotype and environment?",
+      "options": [
+        { "letter": "A", "text": "Human height", "correct": true },
+        { "letter": "B", "text": "ABO blood group", "correct": false },
+        { "letter": "C", "text": "A scar from an injury (environment only)", "correct": false },
+        { "letter": "D", "text": "Eye colour (genotype only)", "correct": false }
+      ],
+      "explanation": "Height is influenced by both genotype and environment; blood group is genotype-only and a scar is environment-only."
+    },
+    {
+      "id": "D3.2-028",
+      "level": "SL",
+      "statement": "D3.2.9",
+      "category": "D3.2 Inheritance",
+      "scenario": "A person has blood type A.",
+      "stem": "Which genotype(s) could give this?",
+      "options": [
+        { "letter": "A", "text": "IAIA or IAi", "correct": true },
+        { "letter": "B", "text": "IBIB only", "correct": false },
+        { "letter": "C", "text": "ii", "correct": false },
+        { "letter": "D", "text": "IAIB", "correct": false }
+      ],
+      "explanation": "Blood type A results from IAIA or IAi, since i is recessive to IA."
+    },
+    {
+      "id": "D3.2-029",
+      "level": "SL",
+      "statement": "D3.2.8",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "The complete set of alleles in a population is called the:",
+      "options": [
+        { "letter": "A", "text": "Gene pool", "correct": true },
+        { "letter": "B", "text": "Genotype", "correct": false },
+        { "letter": "C", "text": "Phenotype", "correct": false },
+        { "letter": "D", "text": "Karyotype", "correct": false }
+      ],
+      "explanation": "The gene pool contains all the alleles present in a population; an individual inherits only two of each gene."
+    },
+    {
+      "id": "D3.2-030",
+      "level": "SL",
+      "statement": "D3.2.2",
+      "category": "D3.2 Inheritance",
+      "scenario": "In peas, both male and female gametes form on the same plant.",
+      "stem": "This allows:",
+      "options": [
+        { "letter": "A", "text": "Self-pollination and self-fertilization", "correct": true },
+        { "letter": "B", "text": "Only cross-fertilization", "correct": false },
+        { "letter": "C", "text": "No reproduction", "correct": false },
+        { "letter": "D", "text": "Asexual budding", "correct": false }
+      ],
+      "explanation": "Plants such as peas produce both gametes on one plant, allowing self-pollination and self-fertilization in genetic crosses."
+    },
+    {
+      "id": "D3.2-031",
+      "level": "SL",
+      "statement": "D3.2.12",
+      "category": "D3.2 Inheritance",
+      "scenario": "Alleles carried on X chromosomes are written with superscript letters.",
+      "stem": "This notation shows the letter on an uppercase:",
+      "options": [
+        { "letter": "A", "text": "X", "correct": true },
+        { "letter": "B", "text": "Y", "correct": false },
+        { "letter": "C", "text": "I", "correct": false },
+        { "letter": "D", "text": "p", "correct": false }
+      ],
+      "explanation": "For sex-linked traits like haemophilia, alleles on X chromosomes are shown as superscripts on an uppercase X."
+    },
+    {
+      "id": "D3.2-032",
+      "level": "SL",
+      "statement": "D3.2.13",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "Many societies prohibit marriage between close relatives partly because:",
+      "options": [
+        { "letter": "A", "text": "It increases the chance of recessive disorders in offspring", "correct": true },
+        { "letter": "B", "text": "Relatives share no genes", "correct": false },
+        { "letter": "C", "text": "It guarantees healthy offspring", "correct": false },
+        { "letter": "D", "text": "It has no genetic basis", "correct": false }
+      ],
+      "explanation": "Close relatives are more likely to share recessive alleles, so their offspring are more likely to inherit recessive disorders."
+    },
+    {
+      "id": "D3.2-033",
+      "level": "SL",
+      "statement": "D3.2.14",
+      "category": "D3.2 Inheritance",
+      "scenario": "A student calculates the most common value in a data set.",
+      "stem": "This measure of central tendency is the:",
+      "options": [
+        { "letter": "A", "text": "Mode", "correct": true },
+        { "letter": "B", "text": "Range", "correct": false },
+        { "letter": "C", "text": "Standard deviation", "correct": false },
+        { "letter": "D", "text": "Outlier", "correct": false }
+      ],
+      "explanation": "The mode is the most frequent value; mean, median and mode are measures of central tendency."
+    },
+    {
+      "id": "D3.2-034",
+      "level": "SL",
+      "statement": "D3.2.5",
+      "category": "D3.2 Inheritance",
+      "scenario": "A heterozygote (Tt) shows the same phenotype as a homozygous dominant (TT).",
+      "stem": "This is because the:",
+      "options": [
+        { "letter": "A", "text": "Dominant allele is expressed even when only one copy is present", "correct": true },
+        { "letter": "B", "text": "Recessive allele masks the dominant", "correct": false },
+        { "letter": "C", "text": "Two alleles blend", "correct": false },
+        { "letter": "D", "text": "Genotype has no effect on phenotype", "correct": false }
+      ],
+      "explanation": "A single dominant allele is enough to produce the dominant phenotype, so TT and Tt look the same."
+    },
+    {
+      "id": "D3.2-035",
+      "level": "HL",
+      "statement": "D3.2.16",
+      "category": "D3.2 Inheritance",
+      "scenario": "Two genes on different chromosomes assort into gametes independently.",
+      "stem": "This independent assortment is a consequence of:",
+      "options": [
+        { "letter": "A", "text": "Random orientation of chromosomes in meiosis", "correct": true },
+        { "letter": "B", "text": "Mitosis", "correct": false },
+        { "letter": "C", "text": "Translation", "correct": false },
+        { "letter": "D", "text": "Gene linkage", "correct": false }
+      ],
+      "explanation": "Independent assortment of unlinked genes results from the random orientation of chromosomes during meiosis."
+    },
+    {
+      "id": "D3.2-036",
+      "level": "HL",
+      "statement": "D3.2.17",
+      "category": "D3.2 Inheritance",
+      "scenario": "A dihybrid cross between two heterozygotes involves unlinked genes.",
+      "stem": "The expected phenotypic ratio is:",
+      "options": [
+        { "letter": "A", "text": "9:3:3:1", "correct": true },
+        { "letter": "B", "text": "3:1", "correct": false },
+        { "letter": "C", "text": "1:1", "correct": false },
+        { "letter": "D", "text": "1:2:1", "correct": false }
+      ],
+      "explanation": "A dihybrid cross between two heterozygotes for unlinked genes gives a 9:3:3:1 phenotypic ratio."
+    },
+    {
+      "id": "D3.2-037",
+      "level": "HL",
+      "statement": "D3.2.17",
+      "category": "D3.2 Inheritance",
+      "scenario": "A dihybrid test cross is carried out (heterozygote × homozygous recessive).",
+      "stem": "The expected phenotypic ratio for unlinked genes is:",
+      "options": [
+        { "letter": "A", "text": "1:1:1:1", "correct": true },
+        { "letter": "B", "text": "9:3:3:1", "correct": false },
+        { "letter": "C", "text": "3:1", "correct": false },
+        { "letter": "D", "text": "1:2:1", "correct": false }
+      ],
+      "explanation": "A dihybrid test cross of unlinked genes gives a 1:1:1:1 phenotypic ratio."
+    },
+    {
+      "id": "D3.2-038",
+      "level": "HL",
+      "statement": "D3.2.17",
+      "category": "D3.2 Inheritance",
+      "scenario": "The 9:3:3:1 ratio is based on Mendel's second law.",
+      "stem": "This law applies only if the genes are:",
+      "options": [
+        { "letter": "A", "text": "On different chromosomes or far apart on one", "correct": true },
+        { "letter": "B", "text": "Always closely linked", "correct": false },
+        { "letter": "C", "text": "On the same chromosome close together", "correct": false },
+        { "letter": "D", "text": "On the Y chromosome", "correct": false }
+      ],
+      "explanation": "Mendel's second law (independent assortment) applies only if genes are on different chromosomes or far enough apart for 50% recombination."
+    },
+    {
+      "id": "D3.2-039",
+      "level": "HL",
+      "statement": "D3.2.18",
+      "category": "D3.2 Inheritance",
+      "scenario": "A student explores gene loci in databases.",
+      "stem": "A locus is:",
+      "options": [
+        { "letter": "A", "text": "The position of a gene on a chromosome", "correct": true },
+        { "letter": "B", "text": "A version of a gene", "correct": false },
+        { "letter": "C", "text": "A whole genome", "correct": false },
+        { "letter": "D", "text": "A protein product", "correct": false }
+      ],
+      "explanation": "A locus is the position of a gene on a chromosome; students explore genes and their polypeptide products in databases."
+    },
+    {
+      "id": "D3.2-040",
+      "level": "HL",
+      "statement": "D3.2.19",
+      "category": "D3.2 Inheritance",
+      "scenario": "Two genes are located close together on the same chromosome.",
+      "stem": "These genes are said to be:",
+      "options": [
+        { "letter": "A", "text": "Linked", "correct": true },
+        { "letter": "B", "text": "Unlinked", "correct": false },
+        { "letter": "C", "text": "Codominant", "correct": false },
+        { "letter": "D", "text": "Sex-linked to the Y only", "correct": false }
+      ],
+      "explanation": "Genes close together on the same chromosome are linked and tend not to assort independently."
+    },
+    {
+      "id": "D3.2-041",
+      "level": "HL",
+      "statement": "D3.2.19",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "Why can alleles of linked genes fail to assort independently?",
+      "options": [
+        { "letter": "A", "text": "They are on the same chromosome and tend to be inherited together", "correct": true },
+        { "letter": "B", "text": "They are on different chromosomes", "correct": false },
+        { "letter": "C", "text": "They are always recombined", "correct": false },
+        { "letter": "D", "text": "They are on the Y chromosome only", "correct": false }
+      ],
+      "explanation": "Linked genes are on the same chromosome, so their alleles tend to be inherited together rather than assorting independently."
+    },
+    {
+      "id": "D3.2-042",
+      "level": "HL",
+      "statement": "D3.2.20",
+      "category": "D3.2 Inheritance",
+      "scenario": "In a cross, offspring show new combinations of parental traits.",
+      "stem": "These offspring are called:",
+      "options": [
+        { "letter": "A", "text": "Recombinants", "correct": true },
+        { "letter": "B", "text": "Clones", "correct": false },
+        { "letter": "C", "text": "Homozygotes", "correct": false },
+        { "letter": "D", "text": "Gametes", "correct": false }
+      ],
+      "explanation": "Recombinants have new combinations of alleles, arising from crossing over between linked genes or independent assortment of unlinked genes."
+    },
+    {
+      "id": "D3.2-043",
+      "level": "HL",
+      "statement": "D3.2.20",
+      "category": "D3.2 Inheritance",
+      "scenario": "Recombinants appear in the offspring of a cross involving linked genes.",
+      "stem": "Recombinants of linked genes arise from:",
+      "options": [
+        { "letter": "A", "text": "Crossing over during meiosis", "correct": true },
+        { "letter": "B", "text": "Mitosis", "correct": false },
+        { "letter": "C", "text": "Translation", "correct": false },
+        { "letter": "D", "text": "DNA replication only", "correct": false }
+      ],
+      "explanation": "For linked genes, recombinants arise when crossing over during meiosis separates the linked alleles."
+    },
+    {
+      "id": "D3.2-044",
+      "level": "HL",
+      "statement": "D3.2.21",
+      "category": "D3.2 Inheritance",
+      "scenario": "A chi-squared test is used on dihybrid cross data.",
+      "stem": "The chi-squared test compares:",
+      "options": [
+        { "letter": "A", "text": "Observed versus expected results", "correct": true },
+        { "letter": "B", "text": "Only the observed results", "correct": false },
+        { "letter": "C", "text": "The genome size", "correct": false },
+        { "letter": "D", "text": "The number of chromosomes", "correct": false }
+      ],
+      "explanation": "The chi-squared test compares observed and expected results to assess statistical significance."
+    },
+    {
+      "id": "D3.2-045",
+      "level": "HL",
+      "statement": "D3.2.21",
+      "category": "D3.2 Inheritance",
+      "scenario": "A chi-squared test uses a significance level.",
+      "stem": "The commonly used significance level is:",
+      "options": [
+        { "letter": "A", "text": "p = 0.05", "correct": true },
+        { "letter": "B", "text": "p = 0.5", "correct": false },
+        { "letter": "C", "text": "p = 5", "correct": false },
+        { "letter": "D", "text": "p = 1", "correct": false }
+      ],
+      "explanation": "The p = 0.05 level is commonly used as the threshold for statistical significance in the chi-squared test."
+    },
+    {
+      "id": "D3.2-046",
+      "level": "HL",
+      "statement": "D3.2.21",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "The null hypothesis in a genetic chi-squared test typically states that:",
+      "options": [
+        { "letter": "A", "text": "There is no significant difference between observed and expected results", "correct": true },
+        { "letter": "B", "text": "There is always a significant difference", "correct": false },
+        { "letter": "C", "text": "The sample is the whole population", "correct": false },
+        { "letter": "D", "text": "The genes are always linked", "correct": false }
+      ],
+      "explanation": "The null hypothesis states there is no significant difference between observed and expected results."
+    },
+    {
+      "id": "D3.2-047",
+      "level": "HL",
+      "statement": "D3.2.16",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "Independent assortment increases genetic variation by producing:",
+      "options": [
+        { "letter": "A", "text": "Many different combinations of alleles in gametes", "correct": true },
+        { "letter": "B", "text": "Identical gametes", "correct": false },
+        { "letter": "C", "text": "Only two types of gamete", "correct": false },
+        { "letter": "D", "text": "No variation", "correct": false }
+      ],
+      "explanation": "Independent assortment of unlinked genes produces many allele combinations in gametes, increasing variation."
+    },
+    {
+      "id": "D3.2-048",
+      "level": "HL",
+      "statement": "D3.2.17",
+      "category": "D3.2 Inheritance",
+      "scenario": "",
+      "stem": "The 9:3:3:1 ratio in a dihybrid cross reflects:",
+      "options": [
+        { "letter": "A", "text": "Independent assortment of two unlinked genes", "correct": true },
+        { "letter": "B", "text": "Complete gene linkage", "correct": false },
+        { "letter": "C", "text": "Sex linkage", "correct": false },
+        { "letter": "D", "text": "Non-disjunction", "correct": false }
+      ],
+      "explanation": "The 9:3:3:1 ratio arises from the independent assortment of two unlinked genes in a dihybrid cross of heterozygotes."
+    },
+    {
+      "id": "D3.2-049",
+      "level": "HL",
+      "statement": "D3.2.19",
+      "category": "D3.2 Inheritance",
+      "scenario": "In crosses involving linkage, alleles are shown alongside vertical lines representing:",
+      "stem": "The vertical lines represent:",
+      "options": [
+        { "letter": "A", "text": "Homologous chromosomes", "correct": true },
+        { "letter": "B", "text": "Ribosomes", "correct": false },
+        { "letter": "C", "text": "mRNA strands", "correct": false },
+        { "letter": "D", "text": "Cell membranes", "correct": false }
+      ],
+      "explanation": "For linked genes, alleles are shown alongside vertical lines representing homologous chromosomes."
+    },
+    {
+      "id": "D3.2-050",
+      "level": "HL",
+      "statement": "D3.2.21",
+      "category": "D3.2 Inheritance",
+      "scenario": "In a chi-squared test on an F2 generation, the F2 is used as a sample.",
+      "stem": "This illustrates that statistical testing often:",
+      "options": [
+        { "letter": "A", "text": "Uses a sample to represent a population", "correct": true },
+        { "letter": "B", "text": "Measures the whole population", "correct": false },
+        { "letter": "C", "text": "Ignores expected results", "correct": false },
+        { "letter": "D", "text": "Requires no hypothesis", "correct": false }
+      ],
+      "explanation": "Statistical testing often uses a sample (here the F2 generation) to represent a population."
+    }
+  ]
+}

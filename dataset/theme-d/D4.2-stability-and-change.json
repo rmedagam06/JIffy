@@ -1,0 +1,760 @@
+{
+  "id": "D4.2",
+  "name": "Stability and change",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Ecosystems",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "D4.2-001",
+      "level": "SL",
+      "statement": "D4.2.1",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Stability is described as a property of:",
+      "options": [
+        { "letter": "A", "text": "Natural ecosystems", "correct": true },
+        { "letter": "B", "text": "Single molecules only", "correct": false },
+        { "letter": "C", "text": "Only artificial systems", "correct": false },
+        { "letter": "D", "text": "Individual genes", "correct": false }
+      ],
+      "explanation": "Stability is a property of natural ecosystems; some have shown continuity over millions of years."
+    },
+    {
+      "id": "D4.2-002",
+      "level": "SL",
+      "statement": "D4.2.2",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which is a requirement for stability in an ecosystem?",
+      "options": [
+        { "letter": "A", "text": "A supply of energy", "correct": true },
+        { "letter": "B", "text": "No genetic diversity", "correct": false },
+        { "letter": "C", "text": "No nutrient recycling", "correct": false },
+        { "letter": "D", "text": "Climatic variables outside tolerance limits", "correct": false }
+      ],
+      "explanation": "Ecosystem stability requires a supply of energy, nutrient recycling, genetic diversity and climatic variables within tolerance."
+    },
+    {
+      "id": "D4.2-003",
+      "level": "SL",
+      "statement": "D4.2.2",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which is NOT a requirement for ecosystem stability?",
+      "options": [
+        { "letter": "A", "text": "Loss of genetic diversity", "correct": true },
+        { "letter": "B", "text": "Recycling of nutrients", "correct": false },
+        { "letter": "C", "text": "Supply of energy", "correct": false },
+        { "letter": "D", "text": "Climatic variables within tolerance", "correct": false }
+      ],
+      "explanation": "Stability requires genetic diversity, energy supply, nutrient recycling and suitable climate; loss of diversity reduces stability."
+    },
+    {
+      "id": "D4.2-004",
+      "level": "SL",
+      "statement": "D4.2.3",
+      "category": "D4.2 Stability and change",
+      "scenario": "Deforestation of the Amazon rainforest may pass a point beyond which the forest cannot recover.",
+      "stem": "This is an example of a:",
+      "options": [
+        { "letter": "A", "text": "Tipping point", "correct": true },
+        { "letter": "B", "text": "Carrying capacity", "correct": false },
+        { "letter": "C", "text": "Climax community", "correct": false },
+        { "letter": "D", "text": "Keystone species", "correct": false }
+      ],
+      "explanation": "Amazon deforestation is used as an example of a possible tipping point in ecosystem stability."
+    },
+    {
+      "id": "D4.2-005",
+      "level": "SL",
+      "statement": "D4.2.3",
+      "category": "D4.2 Stability and change",
+      "scenario": "The Amazon rainforest generates its own rainfall through transpiration.",
+      "stem": "Why does a large forest area matter for this?",
+      "options": [
+        { "letter": "A", "text": "A large area is needed to generate enough atmospheric water vapour", "correct": true },
+        { "letter": "B", "text": "Small areas generate more rainfall", "correct": false },
+        { "letter": "C", "text": "Transpiration reduces rainfall", "correct": false },
+        { "letter": "D", "text": "Area has no effect", "correct": false }
+      ],
+      "explanation": "A large area of rainforest is needed for transpiration to generate atmospheric water vapour, cooling, air flows and rainfall."
+    },
+    {
+      "id": "D4.2-006",
+      "level": "SL",
+      "statement": "D4.2.4",
+      "category": "D4.2 Stability and change",
+      "scenario": "A student sets up a small sealed ecosystem to study stability.",
+      "stem": "This model system is called a:",
+      "options": [
+        { "letter": "A", "text": "Mesocosm", "correct": true },
+        { "letter": "B", "text": "Cladogram", "correct": false },
+        { "letter": "C", "text": "Karyogram", "correct": false },
+        { "letter": "D", "text": "Punnett grid", "correct": false }
+      ],
+      "explanation": "Mesocosms are model ecosystems used to investigate variables affecting stability; sealed vessels prevent matter exchange but allow energy transfer."
+    },
+    {
+      "id": "D4.2-007",
+      "level": "SL",
+      "statement": "D4.2.4",
+      "category": "D4.2 Stability and change",
+      "scenario": "A sealed glass mesocosm is used rather than an open tank.",
+      "stem": "Why is a sealed vessel preferable?",
+      "options": [
+        { "letter": "A", "text": "It prevents matter entering or leaving while still allowing energy transfer", "correct": true },
+        { "letter": "B", "text": "It blocks all energy transfer", "correct": false },
+        { "letter": "C", "text": "It lets matter escape freely", "correct": false },
+        { "letter": "D", "text": "It removes all organisms", "correct": false }
+      ],
+      "explanation": "A sealed vessel prevents entry and exit of matter but still allows energy transfer, useful for controlled study."
+    },
+    {
+      "id": "D4.2-008",
+      "level": "SL",
+      "statement": "D4.2.5",
+      "category": "D4.2 Stability and change",
+      "scenario": "One species has a disproportionately large effect on the structure of its community.",
+      "stem": "This species is a:",
+      "options": [
+        { "letter": "A", "text": "Keystone species", "correct": true },
+        { "letter": "B", "text": "An invasive species by definition", "correct": false },
+        { "letter": "C", "text": "A decomposer only", "correct": false },
+        { "letter": "D", "text": "A producer only", "correct": false }
+      ],
+      "explanation": "A keystone species has a disproportionate impact on community structure; its removal risks ecosystem collapse."
+    },
+    {
+      "id": "D4.2-009",
+      "level": "SL",
+      "statement": "D4.2.5",
+      "category": "D4.2 Stability and change",
+      "scenario": "A keystone species is removed from an ecosystem.",
+      "stem": "A likely consequence is:",
+      "options": [
+        { "letter": "A", "text": "Ecosystem collapse or major change", "correct": true },
+        { "letter": "B", "text": "No change at all", "correct": false },
+        { "letter": "C", "text": "Increased stability", "correct": false },
+        { "letter": "D", "text": "More genetic diversity", "correct": false }
+      ],
+      "explanation": "Removing a keystone species risks ecosystem collapse because of its disproportionate role in community structure."
+    },
+    {
+      "id": "D4.2-010",
+      "level": "SL",
+      "statement": "D4.2.6",
+      "category": "D4.2 Stability and change",
+      "scenario": "A resource is harvested from an ecosystem.",
+      "stem": "Harvesting is sustainable if the rate of harvesting is:",
+      "options": [
+        { "letter": "A", "text": "Lower than the rate of replacement", "correct": true },
+        { "letter": "B", "text": "Higher than the rate of replacement", "correct": false },
+        { "letter": "C", "text": "Equal to zero replacement", "correct": false },
+        { "letter": "D", "text": "Unrelated to replacement", "correct": false }
+      ],
+      "explanation": "Sustainability depends on the rate of harvesting being lower than the rate of replacement."
+    },
+    {
+      "id": "D4.2-011",
+      "level": "SL",
+      "statement": "D4.2.7",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which factor affects the sustainability of agriculture?",
+      "options": [
+        { "letter": "A", "text": "Soil erosion and leaching of nutrients", "correct": true },
+        { "letter": "B", "text": "The genetic code", "correct": false },
+        { "letter": "C", "text": "The number of chromosomes in crops", "correct": false },
+        { "letter": "D", "text": "The colour of the soil only", "correct": false }
+      ],
+      "explanation": "Factors include soil erosion, nutrient leaching, fertilizer and input supply, agrochemical pollution and carbon footprint."
+    },
+    {
+      "id": "D4.2-012",
+      "level": "SL",
+      "statement": "D4.2.8",
+      "category": "D4.2 Stability and change",
+      "scenario": "Fertilizers leach into a lake, causing algae to grow rapidly.",
+      "stem": "This process is called:",
+      "options": [
+        { "letter": "A", "text": "Eutrophication", "correct": true },
+        { "letter": "B", "text": "Biomagnification", "correct": false },
+        { "letter": "C", "text": "Rewilding", "correct": false },
+        { "letter": "D", "text": "Succession", "correct": false }
+      ],
+      "explanation": "Eutrophication results from leaching of nitrogen and phosphate fertilizers, increasing biochemical oxygen demand (BOD)."
+    },
+    {
+      "id": "D4.2-013",
+      "level": "SL",
+      "statement": "D4.2.8",
+      "category": "D4.2 Stability and change",
+      "scenario": "After eutrophication, the biochemical oxygen demand (BOD) rises.",
+      "stem": "A high BOD means:",
+      "options": [
+        { "letter": "A", "text": "More oxygen is consumed, harming aquatic life", "correct": true },
+        { "letter": "B", "text": "More oxygen is available", "correct": false },
+        { "letter": "C", "text": "No effect on organisms", "correct": false },
+        { "letter": "D", "text": "The water becomes cleaner", "correct": false }
+      ],
+      "explanation": "High BOD means microorganisms consume more oxygen, depleting it and harming aquatic organisms."
+    },
+    {
+      "id": "D4.2-014",
+      "level": "SL",
+      "statement": "D4.2.9",
+      "category": "D4.2 Stability and change",
+      "scenario": "A toxin becomes more concentrated in organisms at higher trophic levels.",
+      "stem": "This is called:",
+      "options": [
+        { "letter": "A", "text": "Biomagnification", "correct": true },
+        { "letter": "B", "text": "Eutrophication", "correct": false },
+        { "letter": "C", "text": "Succession", "correct": false },
+        { "letter": "D", "text": "Rewilding", "correct": false }
+      ],
+      "explanation": "Biomagnification is the increasing concentration of toxins in consumers at higher trophic levels; DDT and mercury are examples."
+    },
+    {
+      "id": "D4.2-015",
+      "level": "SL",
+      "statement": "D4.2.9",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which pollutant is an example used for biomagnification?",
+      "options": [
+        { "letter": "A", "text": "DDT", "correct": true },
+        { "letter": "B", "text": "Oxygen", "correct": false },
+        { "letter": "C", "text": "Glucose", "correct": false },
+        { "letter": "D", "text": "Water", "correct": false }
+      ],
+      "explanation": "DDT and mercury are the syllabus examples of pollutants that undergo biomagnification."
+    },
+    {
+      "id": "D4.2-016",
+      "level": "SL",
+      "statement": "D4.2.10",
+      "category": "D4.2 Stability and change",
+      "scenario": "Plastics remain in the ocean for a very long time.",
+      "stem": "This persistence is because plastics are:",
+      "options": [
+        { "letter": "A", "text": "Non-biodegradable", "correct": true },
+        { "letter": "B", "text": "Rapidly decomposed", "correct": false },
+        { "letter": "C", "text": "Eaten by decomposers easily", "correct": false },
+        { "letter": "D", "text": "Dissolved by water", "correct": false }
+      ],
+      "explanation": "Plastics persist in the environment because they are non-biodegradable, affecting marine life."
+    },
+    {
+      "id": "D4.2-017",
+      "level": "SL",
+      "statement": "D4.2.10",
+      "category": "D4.2 Stability and change",
+      "scenario": "Media coverage of plastic pollution changed public perception globally.",
+      "stem": "This shows that scientists can:",
+      "options": [
+        { "letter": "A", "text": "Influence citizens' actions by providing clear information", "correct": true },
+        { "letter": "B", "text": "Never affect public opinion", "correct": false },
+        { "letter": "C", "text": "Only work in laboratories", "correct": false },
+        { "letter": "D", "text": "Prove correlation is causation", "correct": false }
+      ],
+      "explanation": "Scientists can influence citizens' actions by clearly communicating findings, as with plastic pollution awareness."
+    },
+    {
+      "id": "D4.2-018",
+      "level": "SL",
+      "statement": "D4.2.11",
+      "category": "D4.2 Stability and change",
+      "scenario": "Apex predators and keystone species are reintroduced and human impact minimized.",
+      "stem": "This approach to restoring ecosystems is called:",
+      "options": [
+        { "letter": "A", "text": "Rewilding", "correct": true },
+        { "letter": "B", "text": "Eutrophication", "correct": false },
+        { "letter": "C", "text": "Biomagnification", "correct": false },
+        { "letter": "D", "text": "Deforestation", "correct": false }
+      ],
+      "explanation": "Rewilding restores natural processes by reintroducing predators/keystone species, reconnecting habitats and minimizing human impact."
+    },
+    {
+      "id": "D4.2-019",
+      "level": "SL",
+      "statement": "D4.2.11",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which is given as an example of rewilding?",
+      "options": [
+        { "letter": "A", "text": "Hinewai Reserve in New Zealand", "correct": true },
+        { "letter": "B", "text": "The Amazon deforestation", "correct": false },
+        { "letter": "C", "text": "A farm using fertilizers", "correct": false },
+        { "letter": "D", "text": "An oil refinery", "correct": false }
+      ],
+      "explanation": "Hinewai Reserve in New Zealand is used as an example of rewilding."
+    },
+    {
+      "id": "D4.2-020",
+      "level": "SL",
+      "statement": "D4.2.1",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Evidence suggests some natural ecosystems have persisted for:",
+      "options": [
+        { "letter": "A", "text": "Millions of years", "correct": true },
+        { "letter": "B", "text": "Only a few days", "correct": false },
+        { "letter": "C", "text": "One season", "correct": false },
+        { "letter": "D", "text": "A single year", "correct": false }
+      ],
+      "explanation": "There is evidence for some ecosystems persisting for millions of years, illustrating ecosystem stability."
+    },
+    {
+      "id": "D4.2-021",
+      "level": "SL",
+      "statement": "D4.2.6",
+      "category": "D4.2 Stability and change",
+      "scenario": "A marine fish is harvested faster than it can reproduce.",
+      "stem": "This harvesting is:",
+      "options": [
+        { "letter": "A", "text": "Unsustainable", "correct": true },
+        { "letter": "B", "text": "Sustainable", "correct": false },
+        { "letter": "C", "text": "A form of rewilding", "correct": false },
+        { "letter": "D", "text": "Eutrophication", "correct": false }
+      ],
+      "explanation": "Harvesting faster than the replacement rate is unsustainable and can deplete the resource."
+    },
+    {
+      "id": "D4.2-022",
+      "level": "SL",
+      "statement": "D4.2.7",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which farming practice could reduce the sustainability of agriculture?",
+      "options": [
+        { "letter": "A", "text": "Pollution due to agrochemicals", "correct": true },
+        { "letter": "B", "text": "Reducing soil erosion", "correct": false },
+        { "letter": "C", "text": "Recycling nutrients", "correct": false },
+        { "letter": "D", "text": "Lowering the carbon footprint", "correct": false }
+      ],
+      "explanation": "Agrochemical pollution, soil erosion, nutrient leaching and high carbon footprint all reduce agricultural sustainability."
+    },
+    {
+      "id": "D4.2-023",
+      "level": "SL",
+      "statement": "D4.2.8",
+      "category": "D4.2 Stability and change",
+      "scenario": "Nitrogen and phosphate fertilizers leach into a river.",
+      "stem": "The immediate biological effect is:",
+      "options": [
+        { "letter": "A", "text": "Excessive growth of algae and aquatic plants", "correct": true },
+        { "letter": "B", "text": "Immediate death of all algae", "correct": false },
+        { "letter": "C", "text": "Increased oxygen levels", "correct": false },
+        { "letter": "D", "text": "No change", "correct": false }
+      ],
+      "explanation": "Leached nutrients cause excessive growth of algae; their later decomposition raises BOD and depletes oxygen."
+    },
+    {
+      "id": "D4.2-024",
+      "level": "SL",
+      "statement": "D4.2.9",
+      "category": "D4.2 Stability and change",
+      "scenario": "A top predator has very high levels of mercury in its tissues.",
+      "stem": "This is because mercury has:",
+      "options": [
+        { "letter": "A", "text": "Accumulated up the food chain (biomagnification)", "correct": true },
+        { "letter": "B", "text": "Been diluted at each trophic level", "correct": false },
+        { "letter": "C", "text": "Been produced by the predator", "correct": false },
+        { "letter": "D", "text": "No relation to trophic level", "correct": false }
+      ],
+      "explanation": "Toxins like mercury accumulate to higher concentrations in consumers at higher trophic levels through biomagnification."
+    },
+    {
+      "id": "D4.2-025",
+      "level": "SL",
+      "statement": "D4.2.5",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "The impact of a keystone species on its community is described as:",
+      "options": [
+        { "letter": "A", "text": "Disproportionately large", "correct": true },
+        { "letter": "B", "text": "Negligible", "correct": false },
+        { "letter": "C", "text": "The same as every other species", "correct": false },
+        { "letter": "D", "text": "Only on producers", "correct": false }
+      ],
+      "explanation": "Keystone species have a disproportionately large impact on community structure relative to their abundance."
+    },
+    {
+      "id": "D4.2-026",
+      "level": "SL",
+      "statement": "D4.2.3",
+      "category": "D4.2 Stability and change",
+      "scenario": "A student calculates the percentage change in forest area after deforestation.",
+      "stem": "This calculation helps assess the:",
+      "options": [
+        { "letter": "A", "text": "Extent of deforestation", "correct": true },
+        { "letter": "B", "text": "Number of chromosomes", "correct": false },
+        { "letter": "C", "text": "Rate of photosynthesis per leaf", "correct": false },
+        { "letter": "D", "text": "Genome size", "correct": false }
+      ],
+      "explanation": "Calculating percentage change from the original forest area assesses the extent of deforestation."
+    },
+    {
+      "id": "D4.2-027",
+      "level": "SL",
+      "statement": "D4.2.2",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Genetic diversity contributes to ecosystem stability because it:",
+      "options": [
+        { "letter": "A", "text": "Helps populations adapt to changing conditions", "correct": true },
+        { "letter": "B", "text": "Prevents all adaptation", "correct": false },
+        { "letter": "C", "text": "Stops nutrient recycling", "correct": false },
+        { "letter": "D", "text": "Removes the energy supply", "correct": false }
+      ],
+      "explanation": "Genetic diversity, along with energy supply, nutrient recycling and suitable climate, supports ecosystem stability and adaptation."
+    },
+    {
+      "id": "D4.2-028",
+      "level": "SL",
+      "statement": "D4.2.10",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which describes microplastic pollution?",
+      "options": [
+        { "letter": "A", "text": "Small persistent plastic particles harming marine life", "correct": true },
+        { "letter": "B", "text": "A natural nutrient", "correct": false },
+        { "letter": "C", "text": "A biodegradable material", "correct": false },
+        { "letter": "D", "text": "A keystone species", "correct": false }
+      ],
+      "explanation": "Microplastics are small, persistent, non-biodegradable plastic particles that affect marine organisms."
+    },
+    {
+      "id": "D4.2-029",
+      "level": "SL",
+      "statement": "D4.2.11",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which is a method used in rewilding?",
+      "options": [
+        { "letter": "A", "text": "Re-establishing connectivity of habitats over large areas", "correct": true },
+        { "letter": "B", "text": "Increasing deforestation", "correct": false },
+        { "letter": "C", "text": "Adding more pollution", "correct": false },
+        { "letter": "D", "text": "Removing all native species", "correct": false }
+      ],
+      "explanation": "Rewilding methods include reintroducing keystone species, reconnecting habitats and minimizing human impact."
+    },
+    {
+      "id": "D4.2-030",
+      "level": "SL",
+      "statement": "D4.2.6",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "A renewable resource can be harvested sustainably if:",
+      "options": [
+        { "letter": "A", "text": "It is replaced at least as fast as it is harvested", "correct": true },
+        { "letter": "B", "text": "It is harvested as fast as possible", "correct": false },
+        { "letter": "C", "text": "It is never replaced", "correct": false },
+        { "letter": "D", "text": "Harvesting always exceeds replacement", "correct": false }
+      ],
+      "explanation": "Sustainable harvesting requires the harvesting rate to be no greater than the replacement rate."
+    },
+    {
+      "id": "D4.2-031",
+      "level": "SL",
+      "statement": "D4.2.1",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which is used as evidence for ecosystem stability?",
+      "options": [
+        { "letter": "A", "text": "Forests or deserts persisting over long periods", "correct": true },
+        { "letter": "B", "text": "Rapid extinction of all species", "correct": false },
+        { "letter": "C", "text": "Constant collapse of ecosystems", "correct": false },
+        { "letter": "D", "text": "The genome size of one species", "correct": false }
+      ],
+      "explanation": "Continuity of ecosystems such as forests and deserts over long periods provides evidence for stability."
+    },
+    {
+      "id": "D4.2-032",
+      "level": "SL",
+      "statement": "D4.2.4",
+      "category": "D4.2 Stability and change",
+      "scenario": "A student sets up a mesocosm to test a variable's effect on stability.",
+      "stem": "Which type of mesocosm is most likely to be successful?",
+      "options": [
+        { "letter": "A", "text": "An aquatic or microbial ecosystem", "correct": true },
+        { "letter": "B", "text": "A large terrestrial ecosystem", "correct": false },
+        { "letter": "C", "text": "One with no organisms", "correct": false },
+        { "letter": "D", "text": "One open to all matter exchange", "correct": false }
+      ],
+      "explanation": "Aquatic or microbial mesocosms are more likely to succeed than terrestrial ones."
+    },
+    {
+      "id": "D4.2-033",
+      "level": "SL",
+      "statement": "D4.2.8",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Eutrophication is caused mainly by the leaching of:",
+      "options": [
+        { "letter": "A", "text": "Nitrogen and phosphate fertilizers", "correct": true },
+        { "letter": "B", "text": "Oxygen", "correct": false },
+        { "letter": "C", "text": "Carbon dioxide only", "correct": false },
+        { "letter": "D", "text": "Plastic", "correct": false }
+      ],
+      "explanation": "Eutrophication results from the leaching of nitrogen and phosphate fertilizers into aquatic and marine ecosystems."
+    },
+    {
+      "id": "D4.2-034",
+      "level": "HL",
+      "statement": "D4.2.12",
+      "category": "D4.2 Stability and change",
+      "scenario": "Over time, a community changes in a directional way after a disturbance.",
+      "stem": "This process is called:",
+      "options": [
+        { "letter": "A", "text": "Ecological succession", "correct": true },
+        { "letter": "B", "text": "Biomagnification", "correct": false },
+        { "letter": "C", "text": "Eutrophication", "correct": false },
+        { "letter": "D", "text": "Homeostasis", "correct": false }
+      ],
+      "explanation": "Ecological succession is the change in a community over time, triggered by changes in abiotic and biotic factors."
+    },
+    {
+      "id": "D4.2-035",
+      "level": "HL",
+      "statement": "D4.2.12",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Succession can be triggered by changes in:",
+      "options": [
+        { "letter": "A", "text": "Both the abiotic environment and biotic factors", "correct": true },
+        { "letter": "B", "text": "Only the abiotic environment", "correct": false },
+        { "letter": "C", "text": "Only biotic factors", "correct": false },
+        { "letter": "D", "text": "Neither", "correct": false }
+      ],
+      "explanation": "Succession can be triggered by changes in both the abiotic environment and biotic factors."
+    },
+    {
+      "id": "D4.2-036",
+      "level": "HL",
+      "statement": "D4.2.13",
+      "category": "D4.2 Stability and change",
+      "scenario": "During primary succession, an ecosystem develops over time.",
+      "stem": "Which change occurs as succession proceeds?",
+      "options": [
+        { "letter": "A", "text": "Increasing species diversity", "correct": true },
+        { "letter": "B", "text": "Decreasing primary production", "correct": false },
+        { "letter": "C", "text": "Simpler food webs", "correct": false },
+        { "letter": "D", "text": "Less nutrient cycling", "correct": false }
+      ],
+      "explanation": "During primary succession, plant size, primary production, species diversity, food web complexity and nutrient cycling all increase."
+    },
+    {
+      "id": "D4.2-037",
+      "level": "HL",
+      "statement": "D4.2.13",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "As primary succession proceeds, the complexity of food webs tends to:",
+      "options": [
+        { "letter": "A", "text": "Increase", "correct": true },
+        { "letter": "B", "text": "Decrease", "correct": false },
+        { "letter": "C", "text": "Stay the same", "correct": false },
+        { "letter": "D", "text": "Disappear", "correct": false }
+      ],
+      "explanation": "Food web complexity increases during primary succession, along with diversity, production, plant size and nutrient cycling."
+    },
+    {
+      "id": "D4.2-038",
+      "level": "HL",
+      "statement": "D4.2.14",
+      "category": "D4.2 Stability and change",
+      "scenario": "In some ecosystems, communities cycle rather than reaching a single unchanging state.",
+      "stem": "This is called:",
+      "options": [
+        { "letter": "A", "text": "Cyclical succession", "correct": true },
+        { "letter": "B", "text": "Primary succession only", "correct": false },
+        { "letter": "C", "text": "A climax community", "correct": false },
+        { "letter": "D", "text": "Arrested succession", "correct": false }
+      ],
+      "explanation": "Cyclical succession is a cycle of communities rather than a single unchanging climax community."
+    },
+    {
+      "id": "D4.2-039",
+      "level": "HL",
+      "statement": "D4.2.15",
+      "category": "D4.2 Stability and change",
+      "scenario": "Succession under given conditions tends to lead to a particular stable community.",
+      "stem": "This community is called the:",
+      "options": [
+        { "letter": "A", "text": "Climax community", "correct": true },
+        { "letter": "B", "text": "Pioneer community", "correct": false },
+        { "letter": "C", "text": "Keystone species", "correct": false },
+        { "letter": "D", "text": "Mesocosm", "correct": false }
+      ],
+      "explanation": "Ecological succession tends to lead to a particular climax community for given environmental conditions."
+    },
+    {
+      "id": "D4.2-040",
+      "level": "HL",
+      "statement": "D4.2.15",
+      "category": "D4.2 Stability and change",
+      "scenario": "Grazing by farm livestock prevents a grassland from developing into woodland.",
+      "stem": "This human influence is an example of:",
+      "options": [
+        { "letter": "A", "text": "Arrested succession", "correct": true },
+        { "letter": "B", "text": "Cyclical succession", "correct": false },
+        { "letter": "C", "text": "Primary succession completing", "correct": false },
+        { "letter": "D", "text": "Rewilding", "correct": false }
+      ],
+      "explanation": "Human influences such as grazing or drainage can arrest succession, preventing the climax community developing."
+    },
+    {
+      "id": "D4.2-041",
+      "level": "HL",
+      "statement": "D4.2.12",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Ecological succession describes how a community:",
+      "options": [
+        { "letter": "A", "text": "Changes over time", "correct": true },
+        { "letter": "B", "text": "Stays exactly the same forever", "correct": false },
+        { "letter": "C", "text": "Has only one species", "correct": false },
+        { "letter": "D", "text": "Never changes", "correct": false }
+      ],
+      "explanation": "Succession is the change in a community over time, triggered by abiotic and biotic changes."
+    },
+    {
+      "id": "D4.2-042",
+      "level": "HL",
+      "statement": "D4.2.13",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "During primary succession, the amount of primary production tends to:",
+      "options": [
+        { "letter": "A", "text": "Increase", "correct": true },
+        { "letter": "B", "text": "Decrease", "correct": false },
+        { "letter": "C", "text": "Stay at zero", "correct": false },
+        { "letter": "D", "text": "Fall to nothing", "correct": false }
+      ],
+      "explanation": "Primary production increases during succession, along with plant size, diversity, food web complexity and nutrient cycling."
+    },
+    {
+      "id": "D4.2-043",
+      "level": "HL",
+      "statement": "D4.2.14",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Cyclical succession differs from typical succession in that it:",
+      "options": [
+        { "letter": "A", "text": "Cycles between communities instead of reaching one stable climax", "correct": true },
+        { "letter": "B", "text": "Never changes the community", "correct": false },
+        { "letter": "C", "text": "Always reaches a single climax", "correct": false },
+        { "letter": "D", "text": "Only occurs in oceans", "correct": false }
+      ],
+      "explanation": "In cyclical succession, communities cycle rather than reaching a single unchanging climax community."
+    },
+    {
+      "id": "D4.2-044",
+      "level": "HL",
+      "statement": "D4.2.15",
+      "category": "D4.2 Stability and change",
+      "scenario": "Draining a wetland stops it from following its natural succession.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Arrested succession by human influence", "correct": true },
+        { "letter": "B", "text": "A completed climax community", "correct": false },
+        { "letter": "C", "text": "Cyclical succession", "correct": false },
+        { "letter": "D", "text": "Rewilding", "correct": false }
+      ],
+      "explanation": "Human actions such as draining wetlands can arrest succession, preventing the natural climax community from developing."
+    },
+    {
+      "id": "D4.2-045",
+      "level": "HL",
+      "statement": "D4.2.13",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "During primary succession, the size of plants generally:",
+      "options": [
+        { "letter": "A", "text": "Increases", "correct": true },
+        { "letter": "B", "text": "Decreases", "correct": false },
+        { "letter": "C", "text": "Stays the same", "correct": false },
+        { "letter": "D", "text": "Becomes zero", "correct": false }
+      ],
+      "explanation": "Plant size increases as primary succession proceeds, along with diversity, production and nutrient cycling."
+    },
+    {
+      "id": "D4.2-046",
+      "level": "HL",
+      "statement": "D4.2.12",
+      "category": "D4.2 Stability and change",
+      "scenario": "A bare rock surface is gradually colonized by lichens, then mosses, then larger plants.",
+      "stem": "This gradual sequence is an example of:",
+      "options": [
+        { "letter": "A", "text": "Primary succession", "correct": true },
+        { "letter": "B", "text": "Biomagnification", "correct": false },
+        { "letter": "C", "text": "Eutrophication", "correct": false },
+        { "letter": "D", "text": "Homeostasis", "correct": false }
+      ],
+      "explanation": "Colonization of bare surfaces by a sequence of communities is primary succession, driven by abiotic and biotic changes."
+    },
+    {
+      "id": "D4.2-047",
+      "level": "HL",
+      "statement": "D4.2.15",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "A climax community is best described as the:",
+      "options": [
+        { "letter": "A", "text": "Relatively stable community succession tends toward", "correct": true },
+        { "letter": "B", "text": "First pioneer species", "correct": false },
+        { "letter": "C", "text": "Community with the fewest species", "correct": false },
+        { "letter": "D", "text": "A single keystone species", "correct": false }
+      ],
+      "explanation": "The climax community is the relatively stable community that succession tends to lead to under given conditions."
+    },
+    {
+      "id": "D4.2-048",
+      "level": "HL",
+      "statement": "D4.2.13",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "During primary succession, the amount of nutrient cycling tends to:",
+      "options": [
+        { "letter": "A", "text": "Increase", "correct": true },
+        { "letter": "B", "text": "Decrease", "correct": false },
+        { "letter": "C", "text": "Remain zero", "correct": false },
+        { "letter": "D", "text": "Stop", "correct": false }
+      ],
+      "explanation": "Nutrient cycling increases during primary succession, along with diversity, production, plant size and food web complexity."
+    },
+    {
+      "id": "D4.2-049",
+      "level": "HL",
+      "statement": "D4.2.14",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which best describes an ecosystem showing cyclical succession?",
+      "options": [
+        { "letter": "A", "text": "Its community repeatedly cycles through stages", "correct": true },
+        { "letter": "B", "text": "It reaches one permanent climax", "correct": false },
+        { "letter": "C", "text": "It has no living organisms", "correct": false },
+        { "letter": "D", "text": "It never changes", "correct": false }
+      ],
+      "explanation": "In cyclical succession, the community cycles through stages rather than settling into one unchanging climax community."
+    },
+    {
+      "id": "D4.2-050",
+      "level": "HL",
+      "statement": "D4.2.12",
+      "category": "D4.2 Stability and change",
+      "scenario": "",
+      "stem": "Which is a possible cause of ecological succession?",
+      "options": [
+        { "letter": "A", "text": "A change in abiotic conditions such as soil development", "correct": true },
+        { "letter": "B", "text": "A change in the genetic code", "correct": false },
+        { "letter": "C", "text": "A change in chromosome number of one species", "correct": false },
+        { "letter": "D", "text": "No change at all", "correct": false }
+      ],
+      "explanation": "Succession can be triggered by changes in abiotic factors (like soil development) and biotic factors."
+    }
+  ]
+}

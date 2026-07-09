@@ -93,6 +93,153 @@
   };
 </script>
 
+<!-- ════════════ ONBOARDING ════════════ -->
+<div id="jiffy-onboarding" style="display:none;position:fixed;inset:0;z-index:7500;background:#FFFAF3;font-family:'Fredoka',sans-serif;flex-direction:column;overflow:hidden">
+  <div id="ob-prog-track" style="height:5px;background:#EDE4D3">
+    <div id="ob-prog-fill" style="height:100%;width:0%;background:linear-gradient(90deg,#F2A43A,#FFD45E);border-radius:0 3px 3px 0;transition:width 0.4s ease"></div>
+  </div>
+  <div style="padding:14px 20px 0;display:flex;align-items:center">
+    <button id="ob-back" onclick="window._obBack()" style="background:none;border:none;cursor:pointer;padding:8px;margin:-8px;visibility:hidden;-webkit-tap-highlight-color:transparent">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5C3010" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+    </button>
+  </div>
+  <div style="flex:1;overflow-y:auto;padding:16px 24px 0;-webkit-overflow-scrolling:touch">
+    <div style="display:flex;align-items:flex-end;gap:14px;margin-bottom:24px">
+      <img src="assets/jiffy-splash.png" style="width:68px;height:68px;object-fit:contain;flex:0 0 68px;filter:drop-shadow(0 4px 8px rgba(92,48,16,0.18))">
+      <div id="ob-speech" style="background:#fff;border:2px solid #EDE4D3;border-radius:20px 20px 20px 5px;padding:13px 18px;box-shadow:0 4px 14px rgba(92,48,16,0.09);position:relative">
+        <span style="font-family:'Nunito',sans-serif;font-weight:700;font-size:15px;color:#5C3010;line-height:1.35"></span>
+        <div style="position:absolute;bottom:-1px;left:-10px;width:16px;height:16px;overflow:hidden;pointer-events:none"><div style="position:absolute;bottom:0;right:0;width:16px;height:16px;border-radius:0 0 0 14px;background:#fff;border-left:2px solid #EDE4D3;border-bottom:2px solid #EDE4D3"></div></div>
+      </div>
+    </div>
+    <h1 id="ob-title" style="font-family:'Fredoka',sans-serif;font-weight:700;font-size:27px;color:#5C3010;margin:0 0 22px;line-height:1.15"></h1>
+    <div id="ob-content"></div>
+  </div>
+  <div style="padding:16px 24px;padding-bottom:calc(env(safe-area-inset-bottom,0px) + 16px);background:#FFFAF3;border-top:1px solid #EDE4D3">
+    <button id="ob-continue" onclick="window._obNext()" style="width:100%;padding:18px;border-radius:16px;border:none;background:linear-gradient(135deg,#FFD45E,#F2A43A);color:#5A3D0C;font-family:'Fredoka',sans-serif;font-size:19px;font-weight:700;cursor:pointer;box-shadow:0 8px 20px rgba(210,140,30,0.3);transition:opacity 0.2s;-webkit-tap-highlight-color:transparent">Continue</button>
+  </div>
+</div>
+<script>
+(function(){
+  var STEPS=[
+    {speech:"Hi! I'm Jiffy 👋",title:"What should we call you?"},
+    {speech:"Nice to meet you!",title:"What's your IB experience level?"},
+    {speech:"Let's build your plan!",title:"What would you like to study?"},
+    {speech:"Planning ahead is key!",title:"Do you have a test coming up?"},
+    {speech:"Consistency beats intensity!",title:"How much time can you dedicate each week?"},
+    {speech:"You're almost there! 🎉",title:"Set your daily scrolling goal"},
+  ];
+  window._ob={step:0,uid:null,data:{name:'',level:null,subjects:['ib-bio'],hasTest:null,testDate:'',weeklyHours:null,dailyGoalMinutes:null}};
+
+  function setFill(step){ document.getElementById('ob-prog-fill').style.width=(step/STEPS.length*100)+'%'; }
+  function setOk(ok){
+    var b=document.getElementById('ob-continue');
+    b.disabled=!ok; b.style.opacity=ok?'1':'0.4';
+    b.style.cursor=ok?'pointer':'default';
+    b.style.boxShadow=ok?'0 8px 20px rgba(210,140,30,0.3)':'none';
+  }
+  function cStyle(sel){ return 'display:flex;align-items:center;gap:14px;padding:15px 18px;border-radius:16px;border:2.5px solid '+(sel?'#F2A43A':'#EDE4D3')+';background:'+(sel?'#FFF8EC':'#fff')+';cursor:pointer;margin-bottom:10px;-webkit-tap-highlight-color:transparent;transition:border-color .15s,background .15s'; }
+  function eBox(e){ return '<div style="width:44px;height:44px;flex:0 0 44px;border-radius:12px;background:#F5E6C8;display:flex;align-items:center;justify-content:center;font-size:22px">'+e+'</div>'; }
+  function cTxt(l,s){ return '<div style="flex:1"><div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:17px;color:#5C3010">'+l+'</div>'+(s?'<div style="font-family:Nunito,sans-serif;font-weight:700;font-size:12px;color:rgba(92,48,16,0.6);margin-top:2px">'+s+'</div>':'')+'</div>'; }
+  function chk(sel){ return '<div style="width:22px;height:22px;flex:0 0 22px;border-radius:50%;border:2px solid '+(sel?'#F2A43A':'#D5C9B8')+';background:'+(sel?'#F2A43A':'transparent')+';display:flex;align-items:center;justify-content:center">'+(sel?'<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>':'')+'</div>'; }
+
+  function render(step){
+    var s=STEPS[step],d=window._ob.data;
+    document.getElementById('ob-speech').querySelector('span').textContent=s.speech;
+    document.getElementById('ob-title').textContent=s.title;
+    document.getElementById('ob-back').style.visibility=step===0?'hidden':'visible';
+    setFill(step);
+    var C=document.getElementById('ob-content');
+    if(step===0){
+      C.innerHTML='<input id="ob-name" type="text" placeholder="Your name or nickname" maxlength="30" autocomplete="off" style="width:100%;padding:17px 18px;border-radius:16px;border:2.5px solid #EDE4D3;background:#fff;color:#5C3010;font-family:Fredoka,sans-serif;font-size:20px;font-weight:600;outline:none;box-sizing:border-box;-webkit-appearance:none">';
+      var inp=document.getElementById('ob-name'); inp.value=d.name||'';
+      inp.addEventListener('input',function(){d.name=this.value.trim();setOk(d.name.length>0);});
+      setOk((d.name||'').length>0); setTimeout(function(){inp.focus();},120);
+    } else if(step===1){
+      var L=[{k:'beginner',e:'🌱',l:'Just starting out',s:'New to IB Biology'},{k:'SL',e:'📘',l:'Standard Level',s:'Currently studying SL'},{k:'HL',e:'📗',l:'Higher Level',s:'Currently studying HL'},{k:'review',e:'🔄',l:'Retaking / Reviewing',s:'Been through it before'}];
+      C.innerHTML=L.map(function(l){var sel=d.level===l.k;return '<div style="'+cStyle(sel)+'" onclick="window._obPL(\''+l.k+'\')">'+eBox(l.e)+cTxt(l.l,l.s)+chk(sel)+'</div>';}).join('');
+      setOk(!!d.level);
+    } else if(step===2){
+      C.innerHTML='<div style="'+cStyle(true)+'">'+eBox('🔬')+cTxt('IB Biology','Themes A–D · SL &amp; HL')+chk(true)+'</div><p style="font-family:Nunito,sans-serif;font-weight:700;font-size:12.5px;color:rgba(92,48,16,0.45);text-align:center;margin-top:6px">More subjects coming soon!</p>';
+      setOk(true);
+    } else if(step===3){
+      var T=[{k:'yes',e:'📅',l:'Yes, I have an upcoming exam'},{k:'no',e:'🏃',l:"Not yet, just getting started"}];
+      C.innerHTML=T.map(function(t){var sel=d.hasTest===(t.k==='yes');return '<div style="'+cStyle(sel)+'" onclick="window._obPT(\''+t.k+'\')">'+eBox(t.e)+cTxt(t.l,null)+chk(sel)+'</div>';}).join('')+'<div id="ob-datewrap" style="display:'+(d.hasTest?'block':'none')+';margin-top:4px"><label style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;color:rgba(92,48,16,0.6);display:block;margin-bottom:6px">When is your exam?</label><input id="ob-date" type="date" value="'+(d.testDate||'')+'" style="width:100%;padding:14px 16px;border-radius:14px;border:2px solid #EDE4D3;background:#fff;color:#5C3010;font-family:Nunito,sans-serif;font-size:15px;font-weight:700;outline:none;box-sizing:border-box"></div>';
+      var di=document.getElementById('ob-date'); if(di) di.addEventListener('change',function(){d.testDate=this.value;chkTest();});
+      chkTest();
+    } else if(step===4){
+      var H=[{k:1,e:'⚡',l:'Under 1 hour',s:'Light and quick'},{k:3,e:'📚',l:'1–3 hours',s:'Steady pace'},{k:5,e:'🎯',l:'3–5 hours',s:'Serious study'},{k:7,e:'🏆',l:'5+ hours',s:'All in'}];
+      C.innerHTML=H.map(function(h){var sel=d.weeklyHours===h.k;return '<div style="'+cStyle(sel)+'" onclick="window._obPH('+h.k+')">'+eBox(h.e)+cTxt(h.l,h.s)+chk(sel)+'</div>';}).join('');
+      setOk(d.weeklyHours!==null);
+    } else if(step===5){
+      var G=[{k:5,e:'⏱',l:'5 minutes',s:'Quick daily review'},{k:10,e:'📖',l:'10 minutes',s:'Daily habit'},{k:15,e:'🎯',l:'15 minutes',s:'Steady learner'},{k:20,e:'🚀',l:'20 minutes',s:'Deep dive'}];
+      C.innerHTML=G.map(function(g){var sel=d.dailyGoalMinutes===g.k;return '<div style="'+cStyle(sel)+'" onclick="window._obPG('+g.k+')">'+eBox(g.e)+cTxt(g.l,g.s)+chk(sel)+'</div>';}).join('');
+      document.getElementById('ob-continue').textContent="Let's Go! 🎉";
+      setOk(d.dailyGoalMinutes!==null);
+    }
+    if(step<5) document.getElementById('ob-continue').textContent='Continue';
+  }
+
+  function chkTest(){
+    var d=window._ob.data;
+    if(d.hasTest===null){setOk(false);return;}
+    if(d.hasTest&&!d.testDate){setOk(false);return;}
+    setOk(true);
+  }
+
+  window._obPL=function(k){window._ob.data.level=k;render(window._ob.step);};
+  window._obPT=function(k){var y=k==='yes';window._ob.data.hasTest=y;if(!y)window._ob.data.testDate='';render(window._ob.step);};
+  window._obPH=function(k){window._ob.data.weeklyHours=k;render(window._ob.step);};
+  window._obPG=function(k){window._ob.data.dailyGoalMinutes=k;render(window._ob.step);};
+
+  window._obNext=function(){
+    var ob=window._ob,d=ob.data,btn=document.getElementById('ob-continue');
+    if(btn.disabled) return;
+    if(ob.step===0){var inp=document.getElementById('ob-name');if(inp)d.name=inp.value.trim();if(!d.name)return;}
+    if(ob.step<STEPS.length-1){ob.step++;render(ob.step);}
+    else{_finish();}
+  };
+  window._obBack=function(){if(window._ob.step>0){window._ob.step--;render(window._ob.step);}};
+
+  async function _finish(){
+    var ob=window._ob,d=ob.data,uid=ob.uid;
+    var btn=document.getElementById('ob-continue');
+    btn.textContent='Setting up…'; btn.disabled=true; btn.style.opacity='0.6';
+    if(uid&&window._sb){
+      await window._sb.from('user_progress').upsert({
+        id:uid, display_name:d.name||'', experience_level:d.level||'SL',
+        test_date:d.testDate||'', weekly_hours:d.weeklyHours||3,
+        daily_goal_minutes:d.dailyGoalMinutes||10,
+        streak:0, gems:0, level:d.level||'SL',
+        week_start:0, done_days:{}, last_done:-1, abs_today:0,
+        topic_stats:{}, selected_topics:{}, liked:{}, saved:{}, highlighted:{},
+        updated_at:new Date().toISOString(),
+      });
+    }
+    if(window._dcInstance){
+      window._dcInstance.setState({
+        displayName:d.name||'', experienceLevel:d.level||'SL',
+        testDate:d.testDate||'', weeklyHours:d.weeklyHours||3,
+        dailyGoalMinutes:d.dailyGoalMinutes||10,
+        streak:0, gems:0, done:{}, lastDone:-1,
+        topicStats:{}, selectedTopics:{}, liked:{}, saved:{}, highlighted:{},
+      });
+    }
+    var el=document.getElementById('jiffy-onboarding');
+    el.style.transition='opacity 0.4s ease'; el.style.opacity='0';
+    setTimeout(function(){el.style.display='none';el.style.opacity='1';el.style.transition='';},400);
+    ob.step=0; ob.data={name:'',level:null,subjects:['ib-bio'],hasTest:null,testDate:'',weeklyHours:null,dailyGoalMinutes:null};
+  }
+
+  window._showOnboarding=function(uid){
+    window._ob.step=0; window._ob.uid=uid;
+    window._ob.data={name:'',level:null,subjects:['ib-bio'],hasTest:null,testDate:'',weeklyHours:null,dailyGoalMinutes:null};
+    render(0);
+    document.getElementById('jiffy-onboarding').style.display='flex';
+    document.getElementById('jiffy-auth').style.display='none';
+  };
+})();
+</script>
+
 <x-dc>
 <helmet>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -710,7 +857,8 @@ class Component extends DCLogic {
     this.state = { userId:null, tab:'home', answers:{}, liked:{}, saved:{}, highlighted:{}, settingsOpen:false, achievementsOpen:false, achModalOpen:false, selectedAch:'streak',
       ...streakInit, celebrate:null,
       toggles:{ push:true, daily:true, streak:true, dataShare:false, twoFA:true, darkMode:false },
-      catalog:null, catalogError:false, level:'SL', selectedTopics:{}, drillStarted:false, loadingDrill:false };
+      catalog:null, catalogError:false, level:'SL', selectedTopics:{}, drillStarted:false, loadingDrill:false,
+      displayName:'', experienceLevel:'SL', testDate:'', weeklyHours:3, dailyGoalMinutes:10 };
 
     this.themes = {
       morning:{ bg:'assets/bg-morning.png', greet:'Good morning', sub:'Ready for today’s drill?', weather:'\u26C5', cloud:0.92 },
@@ -720,6 +868,7 @@ class Component extends DCLogic {
   }
 
   componentDidMount(){
+    window._dcInstance = this;
     this.applyVariant();
     this._clock = setInterval(()=>this.applyVariant(), 20000);
     if(this.gemCountRef.current) this.gemCountRef.current.textContent = this.state.gems;
@@ -732,7 +881,6 @@ class Component extends DCLogic {
         if(event==='SIGNED_IN' && session){
           this.setState({ userId:session.user.id });
           this.loadProgress(session.user.id);
-          document.getElementById('jiffy-auth').style.display = 'none';
         } else if(event==='SIGNED_OUT'){
           this.setState({ userId:null });
         }
@@ -754,7 +902,7 @@ class Component extends DCLogic {
     const ov = this.props.homeVariant;
     const period = (ov && ov !== 'auto') ? ov : this.periodFor(now.getHours());
     const t = this.themes[period] || this.themes.morning;
-    const name = this.props.userName || 'Sam';
+    const name = this.state.displayName || this.props.userName || 'there';
     const h = now.getHours();
     const hr12 = ((h + 11) % 12) + 1;
     const mm = String(now.getMinutes()).padStart(2, '0');
@@ -916,20 +1064,29 @@ class Component extends DCLogic {
   async loadProgress(uid){
     if(!window._sb) return;
     const {data} = await window._sb.from('user_progress').select('*').eq('id',uid).single();
-    if(!data) return;
+    if(!data){
+      if(window._showOnboarding) window._showOnboarding(uid);
+      return;
+    }
+    document.getElementById('jiffy-auth').style.display = 'none';
     this.setState({
-      streak:    data.streak      ?? 0,
-      gems:      data.gems        ?? 0,
-      level:     data.level       ?? 'SL',
-      weekStart: data.week_start  ?? 0,
-      done:      data.done_days   ?? {},
-      lastDone:  data.last_done   ?? -1,
-      absToday:  data.abs_today   ?? 0,
-      topicStats:     data.topic_stats      ?? {},
-      selectedTopics: data.selected_topics  ?? {},
-      liked:          data.liked            ?? {},
-      saved:          data.saved            ?? {},
-      highlighted:    data.highlighted      ?? {},
+      streak:         data.streak             ?? 0,
+      gems:           data.gems               ?? 0,
+      level:          data.level              ?? 'SL',
+      weekStart:      data.week_start         ?? 0,
+      done:           data.done_days          ?? {},
+      lastDone:       data.last_done          ?? -1,
+      absToday:       data.abs_today          ?? 0,
+      topicStats:     data.topic_stats        ?? {},
+      selectedTopics: data.selected_topics    ?? {},
+      liked:          data.liked              ?? {},
+      saved:          data.saved              ?? {},
+      highlighted:    data.highlighted        ?? {},
+      displayName:    data.display_name       ?? '',
+      experienceLevel:data.experience_level   ?? 'SL',
+      testDate:       data.test_date          ?? '',
+      weeklyHours:    data.weekly_hours       ?? 3,
+      dailyGoalMinutes:data.daily_goal_minutes?? 10,
     });
   }
   syncProgress(){
@@ -937,12 +1094,15 @@ class Component extends DCLogic {
     if(!uid || !window._sb) return;
     if(this._syncTimer) clearTimeout(this._syncTimer);
     this._syncTimer = setTimeout(async ()=>{
-      const {absToday,weekStart,done,streak,lastDone,gems,topicStats,level,selectedTopics,liked,saved,highlighted} = this.state;
+      const {absToday,weekStart,done,streak,lastDone,gems,topicStats,level,selectedTopics,liked,saved,highlighted,displayName,experienceLevel,testDate,weeklyHours,dailyGoalMinutes} = this.state;
       await window._sb.from('user_progress').upsert({
         id:uid, streak, gems, level,
         week_start:weekStart, done_days:done, last_done:lastDone,
         abs_today:absToday, topic_stats:topicStats,
         selected_topics:selectedTopics, liked, saved, highlighted,
+        display_name:displayName||'', experience_level:experienceLevel||'SL',
+        test_date:testDate||'', weekly_hours:weeklyHours||3,
+        daily_goal_minutes:dailyGoalMinutes||10,
         updated_at: new Date().toISOString(),
       });
     }, 1500);

@@ -1,0 +1,760 @@
+{
+  "id": "D3.3",
+  "name": "Homeostasis",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Organisms",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "D3.3-001",
+      "level": "SL",
+      "statement": "D3.3.1",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Homeostasis is the maintenance of:",
+      "options": [
+        { "letter": "A", "text": "A stable internal environment within limits", "correct": true },
+        { "letter": "B", "text": "A constantly changing internal environment", "correct": false },
+        { "letter": "C", "text": "The external environment", "correct": false },
+        { "letter": "D", "text": "The DNA sequence", "correct": false }
+      ],
+      "explanation": "Homeostasis maintains the internal environment within preset limits despite external fluctuations."
+    },
+    {
+      "id": "D3.3-002",
+      "level": "SL",
+      "statement": "D3.3.1",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Which is a homeostatic variable regulated in humans?",
+      "options": [
+        { "letter": "A", "text": "Blood glucose concentration", "correct": true },
+        { "letter": "B", "text": "Eye colour", "correct": false },
+        { "letter": "C", "text": "Chromosome number", "correct": false },
+        { "letter": "D", "text": "Blood type", "correct": false }
+      ],
+      "explanation": "Homeostatic variables in humans include body temperature, blood pH, blood glucose and blood osmotic concentration."
+    },
+    {
+      "id": "D3.3-003",
+      "level": "SL",
+      "statement": "D3.3.2",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Homeostasis mainly uses which type of feedback control?",
+      "options": [
+        { "letter": "A", "text": "Negative feedback", "correct": true },
+        { "letter": "B", "text": "Positive feedback", "correct": false },
+        { "letter": "C", "text": "No feedback", "correct": false },
+        { "letter": "D", "text": "Random control", "correct": false }
+      ],
+      "explanation": "Homeostasis uses negative feedback, which returns variables to the set point from both above and below."
+    },
+    {
+      "id": "D3.3-004",
+      "level": "SL",
+      "statement": "D3.3.2",
+      "category": "D3.3 Homeostasis",
+      "scenario": "A homeostatic variable rises above its set point.",
+      "stem": "Negative feedback will:",
+      "options": [
+        { "letter": "A", "text": "Return the variable back toward the set point", "correct": true },
+        { "letter": "B", "text": "Push it further above the set point", "correct": false },
+        { "letter": "C", "text": "Have no effect", "correct": false },
+        { "letter": "D", "text": "Change the DNA", "correct": false }
+      ],
+      "explanation": "Negative feedback returns a variable to the set point whether it is above or below the set value."
+    },
+    {
+      "id": "D3.3-005",
+      "level": "SL",
+      "statement": "D3.3.3",
+      "category": "D3.3 Homeostasis",
+      "scenario": "Blood glucose rises after a meal.",
+      "stem": "Which hormone is secreted to lower it?",
+      "options": [
+        { "letter": "A", "text": "Insulin", "correct": true },
+        { "letter": "B", "text": "Glucagon", "correct": false },
+        { "letter": "C", "text": "Adrenaline", "correct": false },
+        { "letter": "D", "text": "Thyroxin", "correct": false }
+      ],
+      "explanation": "Insulin, secreted by pancreatic cells, lowers blood glucose; glucagon raises it."
+    },
+    {
+      "id": "D3.3-006",
+      "level": "SL",
+      "statement": "D3.3.3",
+      "category": "D3.3 Homeostasis",
+      "scenario": "Blood glucose falls too low.",
+      "stem": "Which hormone is secreted to raise it?",
+      "options": [
+        { "letter": "A", "text": "Glucagon", "correct": true },
+        { "letter": "B", "text": "Insulin", "correct": false },
+        { "letter": "C", "text": "Oestradiol", "correct": false },
+        { "letter": "D", "text": "Progesterone", "correct": false }
+      ],
+      "explanation": "Glucagon raises blood glucose; insulin lowers it. Both are secreted by pancreatic endocrine cells."
+    },
+    {
+      "id": "D3.3-007",
+      "level": "SL",
+      "statement": "D3.3.3",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Insulin and glucagon are secreted by which organ?",
+      "options": [
+        { "letter": "A", "text": "The pancreas", "correct": true },
+        { "letter": "B", "text": "The liver only", "correct": false },
+        { "letter": "C", "text": "The kidney", "correct": false },
+        { "letter": "D", "text": "The heart", "correct": false }
+      ],
+      "explanation": "Pancreatic endocrine cells secrete insulin and glucagon to regulate blood glucose."
+    },
+    {
+      "id": "D3.3-008",
+      "level": "SL",
+      "statement": "D3.3.4",
+      "category": "D3.3 Homeostasis",
+      "scenario": "A person's cells do not respond well to insulin.",
+      "stem": "This physiological change is associated with:",
+      "options": [
+        { "letter": "A", "text": "Type 2 diabetes", "correct": true },
+        { "letter": "B", "text": "Haemophilia", "correct": false },
+        { "letter": "C", "text": "PKU", "correct": false },
+        { "letter": "D", "text": "Down syndrome", "correct": false }
+      ],
+      "explanation": "Type 2 diabetes involves reduced response to insulin; type 1 involves insufficient insulin production."
+    },
+    {
+      "id": "D3.3-009",
+      "level": "SL",
+      "statement": "D3.3.4",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Type 1 diabetes is characterized by:",
+      "options": [
+        { "letter": "A", "text": "Insufficient production of insulin", "correct": true },
+        { "letter": "B", "text": "Overproduction of insulin", "correct": false },
+        { "letter": "C", "text": "A recessive blood disorder", "correct": false },
+        { "letter": "D", "text": "A sex-linked condition", "correct": false }
+      ],
+      "explanation": "Type 1 diabetes involves insufficient insulin production; type 2 involves reduced cellular response to insulin."
+    },
+    {
+      "id": "D3.3-010",
+      "level": "SL",
+      "statement": "D3.3.5",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Thermoregulation is an example of control by:",
+      "options": [
+        { "letter": "A", "text": "Negative feedback", "correct": true },
+        { "letter": "B", "text": "Positive feedback", "correct": false },
+        { "letter": "C", "text": "No feedback", "correct": false },
+        { "letter": "D", "text": "Random fluctuation", "correct": false }
+      ],
+      "explanation": "Thermoregulation uses negative feedback to keep body temperature near the set point."
+    },
+    {
+      "id": "D3.3-011",
+      "level": "SL",
+      "statement": "D3.3.5",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Which structure acts as the control centre for thermoregulation?",
+      "options": [
+        { "letter": "A", "text": "The hypothalamus", "correct": true },
+        { "letter": "B", "text": "The pancreas", "correct": false },
+        { "letter": "C", "text": "The kidney", "correct": false },
+        { "letter": "D", "text": "The stomach", "correct": false }
+      ],
+      "explanation": "Thermoregulation involves peripheral thermoreceptors, the hypothalamus and pituitary, thyroxin, and effectors such as muscle and adipose tissue."
+    },
+    {
+      "id": "D3.3-012",
+      "level": "SL",
+      "statement": "D3.3.6",
+      "category": "D3.3 Homeostasis",
+      "scenario": "A person becomes too hot.",
+      "stem": "Which mechanism helps cool the body?",
+      "options": [
+        { "letter": "A", "text": "Vasodilation and sweating", "correct": true },
+        { "letter": "B", "text": "Vasoconstriction and shivering", "correct": false },
+        { "letter": "C", "text": "Hair erection", "correct": false },
+        { "letter": "D", "text": "Uncoupled respiration", "correct": false }
+      ],
+      "explanation": "When too hot, vasodilation and sweating increase heat loss; when cold, vasoconstriction and shivering conserve or generate heat."
+    },
+    {
+      "id": "D3.3-013",
+      "level": "SL",
+      "statement": "D3.3.6",
+      "category": "D3.3 Homeostasis",
+      "scenario": "A person becomes too cold.",
+      "stem": "Which mechanism helps warm the body?",
+      "options": [
+        { "letter": "A", "text": "Shivering", "correct": true },
+        { "letter": "B", "text": "Sweating", "correct": false },
+        { "letter": "C", "text": "Vasodilation", "correct": false },
+        { "letter": "D", "text": "Increased water loss", "correct": false }
+      ],
+      "explanation": "When cold, shivering generates heat and vasoconstriction reduces heat loss; sweating and vasodilation cool the body."
+    },
+    {
+      "id": "D3.3-014",
+      "level": "SL",
+      "statement": "D3.3.6",
+      "category": "D3.3 Homeostasis",
+      "scenario": "In cold conditions, blood vessels near the skin narrow.",
+      "stem": "This is called:",
+      "options": [
+        { "letter": "A", "text": "Vasoconstriction", "correct": true },
+        { "letter": "B", "text": "Vasodilation", "correct": false },
+        { "letter": "C", "text": "Sweating", "correct": false },
+        { "letter": "D", "text": "Shivering", "correct": false }
+      ],
+      "explanation": "Vasoconstriction narrows skin blood vessels to reduce heat loss when cold; vasodilation widens them to lose heat when hot."
+    },
+    {
+      "id": "D3.3-015",
+      "level": "SL",
+      "statement": "D3.3.6",
+      "category": "D3.3 Homeostasis",
+      "scenario": "Birds and mammals regulate their body temperature.",
+      "stem": "They do so by:",
+      "options": [
+        { "letter": "A", "text": "Both physiological and behavioural means", "correct": true },
+        { "letter": "B", "text": "Physiological means only", "correct": false },
+        { "letter": "C", "text": "Behavioural means only", "correct": false },
+        { "letter": "D", "text": "Neither", "correct": false }
+      ],
+      "explanation": "Birds and mammals regulate body temperature by both physiological and behavioural means."
+    },
+    {
+      "id": "D3.3-016",
+      "level": "SL",
+      "statement": "D3.3.2",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Why is negative rather than positive feedback used in homeostasis?",
+      "options": [
+        { "letter": "A", "text": "It restores variables to the set point, keeping them stable", "correct": true },
+        { "letter": "B", "text": "It amplifies changes away from the set point", "correct": false },
+        { "letter": "C", "text": "It has no effect on variables", "correct": false },
+        { "letter": "D", "text": "It changes the DNA", "correct": false }
+      ],
+      "explanation": "Negative feedback stabilizes variables by returning them to the set point, which is why it is used in homeostasis."
+    },
+    {
+      "id": "D3.3-017",
+      "level": "SL",
+      "statement": "D3.3.1",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Homeostatic variables are kept:",
+      "options": [
+        { "letter": "A", "text": "Within preset limits despite external changes", "correct": true },
+        { "letter": "B", "text": "Exactly constant with no fluctuation ever", "correct": false },
+        { "letter": "C", "text": "Equal to the external environment", "correct": false },
+        { "letter": "D", "text": "Random", "correct": false }
+      ],
+      "explanation": "Homeostasis keeps variables within preset limits despite fluctuations in the external environment."
+    },
+    {
+      "id": "D3.3-018",
+      "level": "SL",
+      "statement": "D3.3.3",
+      "category": "D3.3 Homeostasis",
+      "scenario": "Insulin binds to target cells.",
+      "stem": "The effect is to:",
+      "options": [
+        { "letter": "A", "text": "Lower blood glucose (e.g. increasing uptake)", "correct": true },
+        { "letter": "B", "text": "Raise blood glucose", "correct": false },
+        { "letter": "C", "text": "Have no effect", "correct": false },
+        { "letter": "D", "text": "Increase body temperature", "correct": false }
+      ],
+      "explanation": "Insulin acts on target cells to lower blood glucose, part of the negative feedback control of glucose."
+    },
+    {
+      "id": "D3.3-019",
+      "level": "SL",
+      "statement": "D3.3.4",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Which is a method of managing or preventing type 2 diabetes?",
+      "options": [
+        { "letter": "A", "text": "A healthy diet and physical activity", "correct": true },
+        { "letter": "B", "text": "Ignoring risk factors", "correct": false },
+        { "letter": "C", "text": "Removing the pancreas", "correct": false },
+        { "letter": "D", "text": "Increasing sugar intake", "correct": false }
+      ],
+      "explanation": "Type 2 diabetes risk is affected by lifestyle; diet and activity are important for prevention and treatment."
+    },
+    {
+      "id": "D3.3-020",
+      "level": "SL",
+      "statement": "D3.3.5",
+      "category": "D3.3 Homeostasis",
+      "scenario": "Peripheral thermoreceptors detect skin temperature.",
+      "stem": "They send this information to the:",
+      "options": [
+        { "letter": "A", "text": "Hypothalamus", "correct": true },
+        { "letter": "B", "text": "Pancreas", "correct": false },
+        { "letter": "C", "text": "Liver", "correct": false },
+        { "letter": "D", "text": "Kidney", "correct": false }
+      ],
+      "explanation": "Peripheral thermoreceptors send temperature information to the hypothalamus, the thermoregulatory control centre."
+    },
+    {
+      "id": "D3.3-021",
+      "level": "SL",
+      "statement": "D3.3.6",
+      "category": "D3.3 Homeostasis",
+      "scenario": "Brown adipose tissue generates heat.",
+      "stem": "It does so by:",
+      "options": [
+        { "letter": "A", "text": "Uncoupled respiration", "correct": true },
+        { "letter": "B", "text": "Sweating", "correct": false },
+        { "letter": "C", "text": "Vasodilation", "correct": false },
+        { "letter": "D", "text": "Photosynthesis", "correct": false }
+      ],
+      "explanation": "Uncoupled respiration in brown adipose tissue generates heat, one of the human thermoregulation mechanisms."
+    },
+    {
+      "id": "D3.3-022",
+      "level": "SL",
+      "statement": "D3.3.6",
+      "category": "D3.3 Homeostasis",
+      "scenario": "Hair erection occurs when a person is cold.",
+      "stem": "This helps by:",
+      "options": [
+        { "letter": "A", "text": "Trapping a layer of insulating air", "correct": true },
+        { "letter": "B", "text": "Increasing heat loss", "correct": false },
+        { "letter": "C", "text": "Causing sweating", "correct": false },
+        { "letter": "D", "text": "Widening blood vessels", "correct": false }
+      ],
+      "explanation": "Hair erection traps an insulating layer of air, reducing heat loss when cold."
+    },
+    {
+      "id": "D3.3-023",
+      "level": "SL",
+      "statement": "D3.3.1",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Which is a benefit to organisms of maintaining constant internal conditions?",
+      "options": [
+        { "letter": "A", "text": "Enzymes and cells can function reliably", "correct": true },
+        { "letter": "B", "text": "It prevents all metabolism", "correct": false },
+        { "letter": "C", "text": "It stops respiration", "correct": false },
+        { "letter": "D", "text": "It removes the need for enzymes", "correct": false }
+      ],
+      "explanation": "Stable internal conditions allow enzymes and cells to function reliably despite external changes."
+    },
+    {
+      "id": "D3.3-024",
+      "level": "SL",
+      "statement": "D3.3.3",
+      "category": "D3.3 Homeostasis",
+      "scenario": "Blood glucose regulation is an example of homeostasis by hormones.",
+      "stem": "The hormones are transported to target cells by the:",
+      "options": [
+        { "letter": "A", "text": "Blood", "correct": true },
+        { "letter": "B", "text": "Nerves only", "correct": false },
+        { "letter": "C", "text": "Xylem", "correct": false },
+        { "letter": "D", "text": "Lymph only", "correct": false }
+      ],
+      "explanation": "Insulin and glucagon are transported in the blood to their target cells to regulate glucose."
+    },
+    {
+      "id": "D3.3-025",
+      "level": "SL",
+      "statement": "D3.3.5",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Which tissues act as effectors in thermoregulation?",
+      "options": [
+        { "letter": "A", "text": "Muscle and adipose tissue", "correct": true },
+        { "letter": "B", "text": "Xylem and phloem", "correct": false },
+        { "letter": "C", "text": "Bone and cartilage only", "correct": false },
+        { "letter": "D", "text": "The stigma and anther", "correct": false }
+      ],
+      "explanation": "Muscle and adipose tissue act as effectors of temperature change during thermoregulation."
+    },
+    {
+      "id": "D3.3-026",
+      "level": "SL",
+      "statement": "D3.3.2",
+      "category": "D3.3 Homeostasis",
+      "scenario": "A variable falls below its set point.",
+      "stem": "Negative feedback will act to:",
+      "options": [
+        { "letter": "A", "text": "Raise it back toward the set point", "correct": true },
+        { "letter": "B", "text": "Lower it further", "correct": false },
+        { "letter": "C", "text": "Keep it below the set point", "correct": false },
+        { "letter": "D", "text": "Remove the set point", "correct": false }
+      ],
+      "explanation": "Negative feedback returns variables to the set point from values both above and below it."
+    },
+    {
+      "id": "D3.3-027",
+      "level": "SL",
+      "statement": "D3.3.4",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "A key difference between type 1 and type 2 diabetes is:",
+      "options": [
+        { "letter": "A", "text": "Type 1 lacks insulin; type 2 involves reduced response to insulin", "correct": true },
+        { "letter": "B", "text": "Type 1 involves reduced response; type 2 lacks insulin", "correct": false },
+        { "letter": "C", "text": "Both are sex-linked", "correct": false },
+        { "letter": "D", "text": "Neither affects blood glucose", "correct": false }
+      ],
+      "explanation": "Type 1 diabetes involves insufficient insulin production; type 2 involves reduced cellular response to insulin."
+    },
+    {
+      "id": "D3.3-028",
+      "level": "SL",
+      "statement": "D3.3.6",
+      "category": "D3.3 Homeostasis",
+      "scenario": "On a hot day, blood vessels near the skin widen.",
+      "stem": "This vasodilation:",
+      "options": [
+        { "letter": "A", "text": "Increases heat loss from the skin", "correct": true },
+        { "letter": "B", "text": "Reduces heat loss", "correct": false },
+        { "letter": "C", "text": "Generates heat by shivering", "correct": false },
+        { "letter": "D", "text": "Has no effect on temperature", "correct": false }
+      ],
+      "explanation": "Vasodilation brings more blood near the skin surface, increasing heat loss when the body is too warm."
+    },
+    {
+      "id": "D3.3-029",
+      "level": "SL",
+      "statement": "D3.3.5",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Which hormone is involved in thermoregulation?",
+      "options": [
+        { "letter": "A", "text": "Thyroxin", "correct": true },
+        { "letter": "B", "text": "Insulin", "correct": false },
+        { "letter": "C", "text": "Glucagon", "correct": false },
+        { "letter": "D", "text": "hCG", "correct": false }
+      ],
+      "explanation": "Thyroxin, along with the hypothalamus, pituitary and thermoreceptors, is involved in thermoregulation."
+    },
+    {
+      "id": "D3.3-030",
+      "level": "SL",
+      "statement": "D3.3.1",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Which is NOT a homeostatic variable regulated in humans (per the syllabus)?",
+      "options": [
+        { "letter": "A", "text": "Eye colour", "correct": true },
+        { "letter": "B", "text": "Body temperature", "correct": false },
+        { "letter": "C", "text": "Blood pH", "correct": false },
+        { "letter": "D", "text": "Blood osmotic concentration", "correct": false }
+      ],
+      "explanation": "Homeostatic variables include body temperature, blood pH, blood glucose and blood osmotic concentration; eye colour is not regulated."
+    },
+    {
+      "id": "D3.3-031",
+      "level": "SL",
+      "statement": "D3.3.3",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Blood glucose regulation is an example of homeostasis achieved by:",
+      "options": [
+        { "letter": "A", "text": "Hormones", "correct": true },
+        { "letter": "B", "text": "The cell wall", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "Gene mutation", "correct": false }
+      ],
+      "explanation": "Blood glucose is regulated by the hormones insulin and glucagon acting through negative feedback."
+    },
+    {
+      "id": "D3.3-032",
+      "level": "SL",
+      "statement": "D3.3.2",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "A set point is:",
+      "options": [
+        { "letter": "A", "text": "The target value a variable is kept near", "correct": true },
+        { "letter": "B", "text": "The maximum possible value", "correct": false },
+        { "letter": "C", "text": "A type of hormone", "correct": false },
+        { "letter": "D", "text": "A gene", "correct": false }
+      ],
+      "explanation": "Negative feedback returns a variable to its set point, the target value maintained by homeostasis."
+    },
+    {
+      "id": "D3.3-033",
+      "level": "SL",
+      "statement": "D3.3.6",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Which pair correctly matches a response to being too hot?",
+      "options": [
+        { "letter": "A", "text": "Sweating and vasodilation", "correct": true },
+        { "letter": "B", "text": "Shivering and vasoconstriction", "correct": false },
+        { "letter": "C", "text": "Hair erection and shivering", "correct": false },
+        { "letter": "D", "text": "Uncoupled respiration and vasoconstriction", "correct": false }
+      ],
+      "explanation": "Sweating and vasodilation increase heat loss when hot; the others generate or conserve heat when cold."
+    },
+    {
+      "id": "D3.3-034",
+      "level": "HL",
+      "statement": "D3.3.7",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Which organ has a key role in osmoregulation and excretion?",
+      "options": [
+        { "letter": "A", "text": "The kidney", "correct": true },
+        { "letter": "B", "text": "The pancreas", "correct": false },
+        { "letter": "C", "text": "The stomach", "correct": false },
+        { "letter": "D", "text": "The lungs", "correct": false }
+      ],
+      "explanation": "The kidney plays a key role in osmoregulation (regulating osmotic concentration) and excretion."
+    },
+    {
+      "id": "D3.3-035",
+      "level": "HL",
+      "statement": "D3.3.7",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "What is the difference between excretion and osmoregulation?",
+      "options": [
+        { "letter": "A", "text": "Excretion removes wastes; osmoregulation controls osmotic concentration", "correct": true },
+        { "letter": "B", "text": "They are the same process", "correct": false },
+        { "letter": "C", "text": "Excretion controls osmotic concentration", "correct": false },
+        { "letter": "D", "text": "Osmoregulation removes toxins only", "correct": false }
+      ],
+      "explanation": "Excretion is removal of metabolic wastes; osmoregulation is regulation of osmotic concentration of body fluids."
+    },
+    {
+      "id": "D3.3-036",
+      "level": "HL",
+      "statement": "D3.3.8",
+      "category": "D3.3 Homeostasis",
+      "scenario": "In the nephron, solutes are filtered from the blood plasma.",
+      "stem": "This filtration occurs at the:",
+      "options": [
+        { "letter": "A", "text": "Glomerulus and Bowman's capsule", "correct": true },
+        { "letter": "B", "text": "Loop of Henle", "correct": false },
+        { "letter": "C", "text": "Collecting duct", "correct": false },
+        { "letter": "D", "text": "Bladder", "correct": false }
+      ],
+      "explanation": "Ultrafiltration at the glomerulus and Bowman's capsule removes solutes from blood plasma into the filtrate."
+    },
+    {
+      "id": "D3.3-037",
+      "level": "HL",
+      "statement": "D3.3.8",
+      "category": "D3.3 Homeostasis",
+      "scenario": "Useful substances such as glucose are recovered from the filtrate.",
+      "stem": "This reabsorption occurs mainly in the:",
+      "options": [
+        { "letter": "A", "text": "Proximal convoluted tubule", "correct": true },
+        { "letter": "B", "text": "Glomerulus", "correct": false },
+        { "letter": "C", "text": "Bladder", "correct": false },
+        { "letter": "D", "text": "Ureter", "correct": false }
+      ],
+      "explanation": "Useful substances are reabsorbed in the proximal convoluted tubule, leaving toxins and wastes in the filtrate."
+    },
+    {
+      "id": "D3.3-038",
+      "level": "HL",
+      "statement": "D3.3.9",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "The loop of Henle actively transports sodium ions in its ascending limb to:",
+      "options": [
+        { "letter": "A", "text": "Maintain high osmotic concentration in the medulla", "correct": true },
+        { "letter": "B", "text": "Add glucose to the filtrate", "correct": false },
+        { "letter": "C", "text": "Filter the blood", "correct": false },
+        { "letter": "D", "text": "Produce insulin", "correct": false }
+      ],
+      "explanation": "Active transport of sodium ions in the ascending limb maintains high medullary osmotic concentration, aiding water reabsorption."
+    },
+    {
+      "id": "D3.3-039",
+      "level": "HL",
+      "statement": "D3.3.9",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "The high osmotic concentration in the medulla facilitates:",
+      "options": [
+        { "letter": "A", "text": "Water reabsorption in the collecting ducts", "correct": true },
+        { "letter": "B", "text": "Loss of all water", "correct": false },
+        { "letter": "C", "text": "Filtration of blood", "correct": false },
+        { "letter": "D", "text": "Insulin secretion", "correct": false }
+      ],
+      "explanation": "The high medullary osmotic concentration draws water out of the collecting ducts, allowing water reabsorption."
+    },
+    {
+      "id": "D3.3-040",
+      "level": "HL",
+      "statement": "D3.3.10",
+      "category": "D3.3 Homeostasis",
+      "scenario": "The body needs to conserve water.",
+      "stem": "Which hormone increases water reabsorption in the collecting ducts?",
+      "options": [
+        { "letter": "A", "text": "Antidiuretic hormone (ADH)", "correct": true },
+        { "letter": "B", "text": "Insulin", "correct": false },
+        { "letter": "C", "text": "Glucagon", "correct": false },
+        { "letter": "D", "text": "Thyroxin", "correct": false }
+      ],
+      "explanation": "ADH from the pituitary increases water reabsorption in the collecting ducts by inserting aquaporins."
+    },
+    {
+      "id": "D3.3-041",
+      "level": "HL",
+      "statement": "D3.3.10",
+      "category": "D3.3 Homeostasis",
+      "scenario": "ADH acts on the collecting duct cells.",
+      "stem": "It causes a change in the location of:",
+      "options": [
+        { "letter": "A", "text": "Aquaporins between vesicles and the cell membrane", "correct": true },
+        { "letter": "B", "text": "Ribosomes", "correct": false },
+        { "letter": "C", "text": "Chromosomes", "correct": false },
+        { "letter": "D", "text": "Mitochondria", "correct": false }
+      ],
+      "explanation": "ADH switches the location of aquaporins between intracellular vesicles and the cell membrane, altering water reabsorption."
+    },
+    {
+      "id": "D3.3-042",
+      "level": "HL",
+      "statement": "D3.3.10",
+      "category": "D3.3 Homeostasis",
+      "scenario": "Blood becomes too concentrated (high solute).",
+      "stem": "Which receptors detect this to trigger ADH release?",
+      "options": [
+        { "letter": "A", "text": "Osmoreceptors in the hypothalamus", "correct": true },
+        { "letter": "B", "text": "Thermoreceptors in the skin", "correct": false },
+        { "letter": "C", "text": "Baroreceptors in arteries", "correct": false },
+        { "letter": "D", "text": "Chemoreceptors in the brainstem", "correct": false }
+      ],
+      "explanation": "Osmoreceptors in the hypothalamus detect blood osmotic concentration and adjust ADH secretion by the pituitary."
+    },
+    {
+      "id": "D3.3-043",
+      "level": "HL",
+      "statement": "D3.3.11",
+      "category": "D3.3 Homeostasis",
+      "scenario": "During vigorous physical activity, blood supply changes.",
+      "stem": "Blood flow to skeletal muscles is likely to:",
+      "options": [
+        { "letter": "A", "text": "Increase", "correct": true },
+        { "letter": "B", "text": "Decrease", "correct": false },
+        { "letter": "C", "text": "Stop completely", "correct": false },
+        { "letter": "D", "text": "Stay exactly the same", "correct": false }
+      ],
+      "explanation": "During exercise, blood supply to skeletal muscles increases, while flow to organs such as the gut decreases."
+    },
+    {
+      "id": "D3.3-044",
+      "level": "HL",
+      "statement": "D3.3.11",
+      "category": "D3.3 Homeostasis",
+      "scenario": "During vigorous physical activity, blood flow is redistributed.",
+      "stem": "Blood flow to the gut is likely to:",
+      "options": [
+        { "letter": "A", "text": "Decrease", "correct": true },
+        { "letter": "B", "text": "Increase", "correct": false },
+        { "letter": "C", "text": "Stay the same", "correct": false },
+        { "letter": "D", "text": "Double", "correct": false }
+      ],
+      "explanation": "During exercise, blood is redirected toward skeletal muscles, so flow to the gut decreases."
+    },
+    {
+      "id": "D3.3-045",
+      "level": "HL",
+      "statement": "D3.3.7",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "The units for osmotic concentration are:",
+      "options": [
+        { "letter": "A", "text": "Osmoles per litre (osmol L-1)", "correct": true },
+        { "letter": "B", "text": "Kilopascals", "correct": false },
+        { "letter": "C", "text": "Degrees Celsius", "correct": false },
+        { "letter": "D", "text": "Grams", "correct": false }
+      ],
+      "explanation": "Osmotic concentration is measured in osmoles per litre (osmol L-1)."
+    },
+    {
+      "id": "D3.3-046",
+      "level": "HL",
+      "statement": "D3.3.8",
+      "category": "D3.3 Homeostasis",
+      "scenario": "After ultrafiltration, the filtrate still contains glucose and useful ions.",
+      "stem": "What happens to these useful substances?",
+      "options": [
+        { "letter": "A", "text": "They are reabsorbed into the blood", "correct": true },
+        { "letter": "B", "text": "They are excreted in urine", "correct": false },
+        { "letter": "C", "text": "They are destroyed", "correct": false },
+        { "letter": "D", "text": "They remain in the glomerulus", "correct": false }
+      ],
+      "explanation": "Useful substances are reabsorbed (mainly in the proximal convoluted tubule), leaving wastes to be excreted in urine."
+    },
+    {
+      "id": "D3.3-047",
+      "level": "HL",
+      "statement": "D3.3.9",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "The loop of Henle is important because it:",
+      "options": [
+        { "letter": "A", "text": "Creates a concentration gradient in the medulla for water reabsorption", "correct": true },
+        { "letter": "B", "text": "Filters blood", "correct": false },
+        { "letter": "C", "text": "Secretes insulin", "correct": false },
+        { "letter": "D", "text": "Produces ADH", "correct": false }
+      ],
+      "explanation": "By actively transporting sodium in the ascending limb, the loop of Henle builds the medullary gradient enabling water reabsorption."
+    },
+    {
+      "id": "D3.3-048",
+      "level": "HL",
+      "statement": "D3.3.10",
+      "category": "D3.3 Homeostasis",
+      "scenario": "A person drinks a large amount of water, diluting the blood.",
+      "stem": "How does ADH secretion respond?",
+      "options": [
+        { "letter": "A", "text": "It decreases, so less water is reabsorbed", "correct": true },
+        { "letter": "B", "text": "It increases, so more water is reabsorbed", "correct": false },
+        { "letter": "C", "text": "It stays the same", "correct": false },
+        { "letter": "D", "text": "It stops the kidney working", "correct": false }
+      ],
+      "explanation": "Dilute blood reduces ADH secretion, so fewer aquaporins are inserted and less water is reabsorbed, producing dilute urine."
+    },
+    {
+      "id": "D3.3-049",
+      "level": "HL",
+      "statement": "D3.3.11",
+      "category": "D3.3 Homeostasis",
+      "scenario": "During sleep, blood supply patterns differ from during exercise.",
+      "stem": "This shows blood supply is:",
+      "options": [
+        { "letter": "A", "text": "Adjusted in response to changes in activity", "correct": true },
+        { "letter": "B", "text": "Fixed regardless of activity", "correct": false },
+        { "letter": "C", "text": "Unrelated to activity", "correct": false },
+        { "letter": "D", "text": "The same in all organs at all times", "correct": false }
+      ],
+      "explanation": "Blood supply to organs changes with activity, for example between sleep, vigorous exercise and wakeful rest."
+    },
+    {
+      "id": "D3.3-050",
+      "level": "HL",
+      "statement": "D3.3.7",
+      "category": "D3.3 Homeostasis",
+      "scenario": "",
+      "stem": "Osmoregulation by the kidney helps maintain which homeostatic variable?",
+      "options": [
+        { "letter": "A", "text": "Blood osmotic concentration", "correct": true },
+        { "letter": "B", "text": "Blood glucose only", "correct": false },
+        { "letter": "C", "text": "Body temperature", "correct": false },
+        { "letter": "D", "text": "Blood pH only", "correct": false }
+      ],
+      "explanation": "Osmoregulation by the kidney maintains the blood osmotic concentration, one of the human homeostatic variables."
+    }
+  ]
+}

@@ -1,0 +1,760 @@
+{
+  "id": "D2.2",
+  "name": "Gene expression",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Cells",
+  "level": "HL",
+  "questions": [
+    {
+      "id": "D2.2-001",
+      "level": "HL",
+      "statement": "D2.2.1",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Gene expression is the mechanism by which:",
+      "options": [
+        { "letter": "A", "text": "Information in genes has effects on the phenotype", "correct": true },
+        { "letter": "B", "text": "DNA is replicated", "correct": false },
+        { "letter": "C", "text": "Cells divide", "correct": false },
+        { "letter": "D", "text": "Water moves into cells", "correct": false }
+      ],
+      "explanation": "Gene expression is how information in genes affects the phenotype, most commonly via transcription, translation and protein function."
+    },
+    {
+      "id": "D2.2-002",
+      "level": "HL",
+      "statement": "D2.2.1",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Which are the most common stages of gene expression?",
+      "options": [
+        { "letter": "A", "text": "Transcription, translation and function of a protein product", "correct": true },
+        { "letter": "B", "text": "Replication and cytokinesis", "correct": false },
+        { "letter": "C", "text": "Osmosis and diffusion", "correct": false },
+        { "letter": "D", "text": "Mitosis and meiosis", "correct": false }
+      ],
+      "explanation": "The most common stages are transcription, translation and the function of a protein product such as an enzyme."
+    },
+    {
+      "id": "D2.2-003",
+      "level": "HL",
+      "statement": "D2.2.2",
+      "category": "D2.2 Gene expression",
+      "scenario": "Proteins bind to specific DNA base sequences to control transcription.",
+      "stem": "Which of these is such a regulatory element?",
+      "options": [
+        { "letter": "A", "text": "A promoter", "correct": true },
+        { "letter": "B", "text": "A ribosome", "correct": false },
+        { "letter": "C", "text": "A mitochondrion", "correct": false },
+        { "letter": "D", "text": "A cell wall", "correct": false }
+      ],
+      "explanation": "Transcription is regulated by proteins binding to DNA sequences such as promoters and enhancers, including transcription factors."
+    },
+    {
+      "id": "D2.2-004",
+      "level": "HL",
+      "statement": "D2.2.2",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Which proteins bind to DNA to regulate transcription?",
+      "options": [
+        { "letter": "A", "text": "Transcription factors", "correct": true },
+        { "letter": "B", "text": "Aquaporins", "correct": false },
+        { "letter": "C", "text": "Antibodies", "correct": false },
+        { "letter": "D", "text": "Cyclins", "correct": false }
+      ],
+      "explanation": "Transcription factors bind to promoters and enhancers to regulate transcription of genes."
+    },
+    {
+      "id": "D2.2-005",
+      "level": "HL",
+      "statement": "D2.2.3",
+      "category": "D2.2 Gene expression",
+      "scenario": "The amount of a protein made can be regulated after transcription.",
+      "stem": "One way this is done is by controlling the:",
+      "options": [
+        { "letter": "A", "text": "Degradation of mRNA", "correct": true },
+        { "letter": "B", "text": "Replication of DNA", "correct": false },
+        { "letter": "C", "text": "Number of chromosomes", "correct": false },
+        { "letter": "D", "text": "Rate of osmosis", "correct": false }
+      ],
+      "explanation": "Regulating how quickly mRNA is degraded (by nucleases) controls translation and thus protein production."
+    },
+    {
+      "id": "D2.2-006",
+      "level": "HL",
+      "statement": "D2.2.3",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "In human cells, how long can mRNA persist before being broken down?",
+      "options": [
+        { "letter": "A", "text": "From minutes up to days", "correct": true },
+        { "letter": "B", "text": "Always exactly one hour", "correct": false },
+        { "letter": "C", "text": "Never; it is instant", "correct": false },
+        { "letter": "D", "text": "Millions of years", "correct": false }
+      ],
+      "explanation": "In human cells mRNA may persist from minutes up to days before being broken down by nucleases."
+    },
+    {
+      "id": "D2.2-007",
+      "level": "HL",
+      "statement": "D2.2.4",
+      "category": "D2.2 Gene expression",
+      "scenario": "Cells in a multicellular organism develop different patterns of differentiation.",
+      "stem": "This development of patterns is called:",
+      "options": [
+        { "letter": "A", "text": "Epigenesis", "correct": true },
+        { "letter": "B", "text": "Replication", "correct": false },
+        { "letter": "C", "text": "Meiosis", "correct": false },
+        { "letter": "D", "text": "Osmosis", "correct": false }
+      ],
+      "explanation": "Epigenesis is the development of patterns of differentiation in the cells of a multicellular organism."
+    },
+    {
+      "id": "D2.2-008",
+      "level": "HL",
+      "statement": "D2.2.4",
+      "category": "D2.2 Gene expression",
+      "scenario": "An epigenetic change alters a cell's traits.",
+      "stem": "What does the epigenetic change affect?",
+      "options": [
+        { "letter": "A", "text": "The phenotype, but not the DNA base sequence (genotype)", "correct": true },
+        { "letter": "B", "text": "The DNA base sequence itself", "correct": false },
+        { "letter": "C", "text": "Only the number of chromosomes", "correct": false },
+        { "letter": "D", "text": "Nothing at all", "correct": false }
+      ],
+      "explanation": "Epigenetic changes alter phenotype but not genotype, because the DNA base sequence is not changed."
+    },
+    {
+      "id": "D2.2-009",
+      "level": "HL",
+      "statement": "D2.2.5",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "The genome, transcriptome and proteome of a cell differ because:",
+      "options": [
+        { "letter": "A", "text": "No cell expresses all of its genes", "correct": true },
+        { "letter": "B", "text": "Every gene is always expressed", "correct": false },
+        { "letter": "C", "text": "Cells have different DNA sequences", "correct": false },
+        { "letter": "D", "text": "They are all identical", "correct": false }
+      ],
+      "explanation": "Because no cell expresses all its genes, the transcriptome and proteome differ from the genome and between cells."
+    },
+    {
+      "id": "D2.2-010",
+      "level": "HL",
+      "statement": "D2.2.5",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "The transcriptome of a cell is:",
+      "options": [
+        { "letter": "A", "text": "All the RNA transcripts present", "correct": true },
+        { "letter": "B", "text": "All the DNA in the cell", "correct": false },
+        { "letter": "C", "text": "All the proteins in the cell", "correct": false },
+        { "letter": "D", "text": "All the lipids in the cell", "correct": false }
+      ],
+      "explanation": "The transcriptome is the set of RNA transcripts in a cell; the genome is all the DNA and the proteome is all the proteins."
+    },
+    {
+      "id": "D2.2-011",
+      "level": "HL",
+      "statement": "D2.2.5",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "The pattern of gene expression in a cell determines:",
+      "options": [
+        { "letter": "A", "text": "How it differentiates", "correct": true },
+        { "letter": "B", "text": "Its DNA base sequence", "correct": false },
+        { "letter": "C", "text": "Its chromosome number", "correct": false },
+        { "letter": "D", "text": "The species it belongs to", "correct": false }
+      ],
+      "explanation": "The pattern of gene expression determines how a cell differentiates, giving rise to specialized cell types."
+    },
+    {
+      "id": "D2.2-012",
+      "level": "HL",
+      "statement": "D2.2.6",
+      "category": "D2.2 Gene expression",
+      "scenario": "A methyl group is added to cytosine in a gene's promoter.",
+      "stem": "What is the effect on the gene?",
+      "options": [
+        { "letter": "A", "text": "Transcription of the gene is repressed", "correct": true },
+        { "letter": "B", "text": "Transcription is always increased", "correct": false },
+        { "letter": "C", "text": "The DNA sequence changes", "correct": false },
+        { "letter": "D", "text": "The gene is deleted", "correct": false }
+      ],
+      "explanation": "Methylation of cytosine in a promoter represses transcription and therefore expression of the downstream gene."
+    },
+    {
+      "id": "D2.2-013",
+      "level": "HL",
+      "statement": "D2.2.6",
+      "category": "D2.2 Gene expression",
+      "scenario": "Methyl groups added to histones or DNA act as chemical labels.",
+      "stem": "These labels are known as:",
+      "options": [
+        { "letter": "A", "text": "Epigenetic tags", "correct": true },
+        { "letter": "B", "text": "Codons", "correct": false },
+        { "letter": "C", "text": "Anticodons", "correct": false },
+        { "letter": "D", "text": "Primers", "correct": false }
+      ],
+      "explanation": "Methylation of promoters and of histones are examples of epigenetic tags that affect gene expression."
+    },
+    {
+      "id": "D2.2-014",
+      "level": "HL",
+      "statement": "D2.2.6",
+      "category": "D2.2 Gene expression",
+      "scenario": "Methyl groups are added to amino acids in histones.",
+      "stem": "What can this do to transcription?",
+      "options": [
+        { "letter": "A", "text": "Repress or activate it", "correct": true },
+        { "letter": "B", "text": "Only repress it, never activate", "correct": false },
+        { "letter": "C", "text": "Change the DNA sequence", "correct": false },
+        { "letter": "D", "text": "Have no effect", "correct": false }
+      ],
+      "explanation": "Methylation of amino acids in histones can cause transcription to be repressed or activated."
+    },
+    {
+      "id": "D2.2-015",
+      "level": "HL",
+      "statement": "D2.2.7",
+      "category": "D2.2 Gene expression",
+      "scenario": "An epigenetic change is passed from a cell to its daughter cells.",
+      "stem": "This is called:",
+      "options": [
+        { "letter": "A", "text": "Epigenetic inheritance", "correct": true },
+        { "letter": "B", "text": "A gene mutation", "correct": false },
+        { "letter": "C", "text": "Crossing over", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "Epigenetic inheritance passes heritable changes in gene expression to daughter cells or offspring without changing DNA sequence."
+    },
+    {
+      "id": "D2.2-016",
+      "level": "HL",
+      "statement": "D2.2.7",
+      "category": "D2.2 Gene expression",
+      "scenario": "Epigenetic tags remain in place during mitosis or meiosis.",
+      "stem": "What is the consequence?",
+      "options": [
+        { "letter": "A", "text": "Phenotypic changes can be passed to daughter cells or offspring", "correct": true },
+        { "letter": "B", "text": "The DNA sequence is altered", "correct": false },
+        { "letter": "C", "text": "The cell cannot divide", "correct": false },
+        { "letter": "D", "text": "All genes are deleted", "correct": false }
+      ],
+      "explanation": "If epigenetic tags remain during mitosis or meiosis, phenotypic changes can be inherited without changing the DNA sequence."
+    },
+    {
+      "id": "D2.2-017",
+      "level": "HL",
+      "statement": "D2.2.8",
+      "category": "D2.2 Gene expression",
+      "scenario": "Air pollution alters methyl tags on a person's DNA.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "An environmental effect on gene expression", "correct": true },
+        { "letter": "B", "text": "A gene mutation", "correct": false },
+        { "letter": "C", "text": "A change in chromosome number", "correct": false },
+        { "letter": "D", "text": "Crossing over", "correct": false }
+      ],
+      "explanation": "Environmental factors such as air pollution can alter methyl tags on DNA, affecting gene expression."
+    },
+    {
+      "id": "D2.2-018",
+      "level": "HL",
+      "statement": "D2.2.9",
+      "category": "D2.2 Gene expression",
+      "scenario": "Tigons and ligers (lion-tiger hybrids) differ in phenotype depending on which parent was the lion.",
+      "stem": "This is explained by:",
+      "options": [
+        { "letter": "A", "text": "Epigenetic tags not fully removed from the ovum and sperm", "correct": true },
+        { "letter": "B", "text": "Different DNA sequences in each hybrid", "correct": false },
+        { "letter": "C", "text": "Different chromosome numbers only", "correct": false },
+        { "letter": "D", "text": "A change in the genetic code", "correct": false }
+      ],
+      "explanation": "Removal of most but not all epigenetic tags from gametes explains phenotypic differences between tigons and ligers."
+    },
+    {
+      "id": "D2.2-019",
+      "level": "HL",
+      "statement": "D2.2.10",
+      "category": "D2.2 Gene expression",
+      "scenario": "Researchers study identical (monozygotic) twins raised in different environments.",
+      "stem": "What can such studies investigate?",
+      "options": [
+        { "letter": "A", "text": "The effects of the environment on gene expression", "correct": true },
+        { "letter": "B", "text": "The DNA sequence differences between them at birth", "correct": false },
+        { "letter": "C", "text": "The number of chromosomes", "correct": false },
+        { "letter": "D", "text": "The rate of photosynthesis", "correct": false }
+      ],
+      "explanation": "Because monozygotic twins share a genome, differences between them reveal environmental effects on gene expression."
+    },
+    {
+      "id": "D2.2-020",
+      "level": "HL",
+      "statement": "D2.2.11",
+      "category": "D2.2 Gene expression",
+      "scenario": "Lactose in the environment of a bacterium affects which genes are expressed.",
+      "stem": "This is an example of an external factor being:",
+      "options": [
+        { "letter": "A", "text": "A biochemical that impacts gene expression", "correct": true },
+        { "letter": "B", "text": "A mutation", "correct": false },
+        { "letter": "C", "text": "A chromosome", "correct": false },
+        { "letter": "D", "text": "A ribosome", "correct": false }
+      ],
+      "explanation": "External factors such as biochemicals (e.g. lactose or tryptophan in bacteria) and hormones can impact gene expression."
+    },
+    {
+      "id": "D2.2-021",
+      "level": "HL",
+      "statement": "D2.2.11",
+      "category": "D2.2 Gene expression",
+      "scenario": "A hormone triggers particular genes to be expressed in target cells.",
+      "stem": "The hormone is acting as:",
+      "options": [
+        { "letter": "A", "text": "An external factor affecting gene expression", "correct": true },
+        { "letter": "B", "text": "A mutation", "correct": false },
+        { "letter": "C", "text": "A ribosome", "correct": false },
+        { "letter": "D", "text": "A telomere", "correct": false }
+      ],
+      "explanation": "Hormones are examples of external factors that can change the pattern of gene expression in cells."
+    },
+    {
+      "id": "D2.2-022",
+      "level": "HL",
+      "statement": "D2.2.2",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Which DNA element can increase the transcription of a gene?",
+      "options": [
+        { "letter": "A", "text": "An enhancer", "correct": true },
+        { "letter": "B", "text": "A ribosome", "correct": false },
+        { "letter": "C", "text": "A telomere", "correct": false },
+        { "letter": "D", "text": "An anticodon", "correct": false }
+      ],
+      "explanation": "Enhancers, along with promoters and transcription factors, regulate transcription of genes."
+    },
+    {
+      "id": "D2.2-023",
+      "level": "HL",
+      "statement": "D2.2.4",
+      "category": "D2.2 Gene expression",
+      "scenario": "Two cells have the same DNA but different phenotypes due to epigenetic changes.",
+      "stem": "Their genotype is:",
+      "options": [
+        { "letter": "A", "text": "Unchanged", "correct": true },
+        { "letter": "B", "text": "Different", "correct": false },
+        { "letter": "C", "text": "Deleted", "correct": false },
+        { "letter": "D", "text": "Doubled", "correct": false }
+      ],
+      "explanation": "Epigenetic changes alter phenotype but not genotype, since the DNA base sequence is unchanged."
+    },
+    {
+      "id": "D2.2-024",
+      "level": "HL",
+      "statement": "D2.2.6",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "DNA methylation of a promoter generally leads to:",
+      "options": [
+        { "letter": "A", "text": "Reduced expression of the downstream gene", "correct": true },
+        { "letter": "B", "text": "Increased expression always", "correct": false },
+        { "letter": "C", "text": "A change in the DNA sequence", "correct": false },
+        { "letter": "D", "text": "Deletion of the gene", "correct": false }
+      ],
+      "explanation": "Methylation of cytosine in a promoter represses transcription, reducing expression of the downstream gene."
+    },
+    {
+      "id": "D2.2-025",
+      "level": "HL",
+      "statement": "D2.2.5",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "The proteome of a cell is:",
+      "options": [
+        { "letter": "A", "text": "All the proteins expressed by the cell", "correct": true },
+        { "letter": "B", "text": "All the DNA", "correct": false },
+        { "letter": "C", "text": "All the RNA", "correct": false },
+        { "letter": "D", "text": "All the lipids", "correct": false }
+      ],
+      "explanation": "The proteome is the set of proteins expressed by a cell, differing between cells due to gene expression patterns."
+    },
+    {
+      "id": "D2.2-026",
+      "level": "HL",
+      "statement": "D2.2.1",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "The final stage of gene expression is often the:",
+      "options": [
+        { "letter": "A", "text": "Function of a protein product, such as an enzyme", "correct": true },
+        { "letter": "B", "text": "Replication of DNA", "correct": false },
+        { "letter": "C", "text": "Division of the cell", "correct": false },
+        { "letter": "D", "text": "Loss of the nucleus", "correct": false }
+      ],
+      "explanation": "Gene expression commonly ends with the function of a protein product, such as an enzyme acting in the cell."
+    },
+    {
+      "id": "D2.2-027",
+      "level": "HL",
+      "statement": "D2.2.3",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "mRNA is eventually broken down by:",
+      "options": [
+        { "letter": "A", "text": "Nucleases", "correct": true },
+        { "letter": "B", "text": "Ribosomes", "correct": false },
+        { "letter": "C", "text": "Aquaporins", "correct": false },
+        { "letter": "D", "text": "Cyclins", "correct": false }
+      ],
+      "explanation": "mRNA is broken down by nucleases; controlling its degradation regulates translation."
+    },
+    {
+      "id": "D2.2-028",
+      "level": "HL",
+      "statement": "D2.2.7",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Epigenetic inheritance differs from genetic inheritance in that it:",
+      "options": [
+        { "letter": "A", "text": "Does not involve changes to the DNA base sequence", "correct": true },
+        { "letter": "B", "text": "Always changes the DNA sequence", "correct": false },
+        { "letter": "C", "text": "Cannot be passed on", "correct": false },
+        { "letter": "D", "text": "Only occurs in bacteria", "correct": false }
+      ],
+      "explanation": "Epigenetic inheritance passes on changes in gene expression without altering the DNA base sequence."
+    },
+    {
+      "id": "D2.2-029",
+      "level": "HL",
+      "statement": "D2.2.8",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Environmental effects on gene expression show that phenotype can be influenced by:",
+      "options": [
+        { "letter": "A", "text": "Both genes and the environment", "correct": true },
+        { "letter": "B", "text": "Genes only", "correct": false },
+        { "letter": "C", "text": "The environment only", "correct": false },
+        { "letter": "D", "text": "Neither", "correct": false }
+      ],
+      "explanation": "Environmental factors such as pollution can alter epigenetic tags, so phenotype reflects both genes and environment."
+    },
+    {
+      "id": "D2.2-030",
+      "level": "HL",
+      "statement": "D2.2.9",
+      "category": "D2.2 Gene expression",
+      "scenario": "During gamete formation, most epigenetic tags are removed.",
+      "stem": "What does the syllabus note about this removal?",
+      "options": [
+        { "letter": "A", "text": "Most but not all tags are removed from the ovum and sperm", "correct": true },
+        { "letter": "B", "text": "All tags are always removed", "correct": false },
+        { "letter": "C", "text": "No tags are ever removed", "correct": false },
+        { "letter": "D", "text": "Tags change the DNA sequence", "correct": false }
+      ],
+      "explanation": "Most but not all epigenetic tags are removed from gametes, which explains cases like tigons and ligers."
+    },
+    {
+      "id": "D2.2-031",
+      "level": "HL",
+      "statement": "D2.2.10",
+      "category": "D2.2 Gene expression",
+      "scenario": "Monozygotic twins have identical genomes.",
+      "stem": "Why are they ideal for studying environmental effects on gene expression?",
+      "options": [
+        { "letter": "A", "text": "Genetic differences are controlled for, isolating environmental effects", "correct": true },
+        { "letter": "B", "text": "They have different DNA", "correct": false },
+        { "letter": "C", "text": "They cannot be compared", "correct": false },
+        { "letter": "D", "text": "They have no genes", "correct": false }
+      ],
+      "explanation": "Because monozygotic twins share a genome, differences between them can be attributed to environmental effects on gene expression."
+    },
+    {
+      "id": "D2.2-032",
+      "level": "HL",
+      "statement": "D2.2.2",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Regulation of transcription is achieved by proteins that:",
+      "options": [
+        { "letter": "A", "text": "Bind to specific base sequences in DNA", "correct": true },
+        { "letter": "B", "text": "Digest the mRNA", "correct": false },
+        { "letter": "C", "text": "Move chromosomes", "correct": false },
+        { "letter": "D", "text": "Build the cell wall", "correct": false }
+      ],
+      "explanation": "Transcription is regulated by proteins (including transcription factors) that bind specific DNA sequences such as promoters and enhancers."
+    },
+    {
+      "id": "D2.2-033",
+      "level": "HL",
+      "statement": "D2.2.6",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Which two structures can carry the methylation epigenetic tags described in the syllabus?",
+      "options": [
+        { "letter": "A", "text": "DNA promoters and histones", "correct": true },
+        { "letter": "B", "text": "Ribosomes and mitochondria", "correct": false },
+        { "letter": "C", "text": "The cell wall and vacuole", "correct": false },
+        { "letter": "D", "text": "tRNA and mRNA", "correct": false }
+      ],
+      "explanation": "Methylation of the promoter and of histones in nucleosomes are the two examples of epigenetic tags given."
+    },
+    {
+      "id": "D2.2-034",
+      "level": "HL",
+      "statement": "D2.2.4",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Epigenesis explains how a single fertilized egg gives rise to:",
+      "options": [
+        { "letter": "A", "text": "Many different differentiated cell types", "correct": true },
+        { "letter": "B", "text": "Cells with different DNA sequences", "correct": false },
+        { "letter": "C", "text": "Only one cell type", "correct": false },
+        { "letter": "D", "text": "No cells", "correct": false }
+      ],
+      "explanation": "Epigenesis is the development of patterns of differentiation, producing many cell types from one genome."
+    },
+    {
+      "id": "D2.2-035",
+      "level": "HL",
+      "statement": "D2.2.5",
+      "category": "D2.2 Gene expression",
+      "scenario": "Two cells from one organism have identical genomes but different proteomes.",
+      "stem": "This is because they:",
+      "options": [
+        { "letter": "A", "text": "Express different subsets of their genes", "correct": true },
+        { "letter": "B", "text": "Have different DNA sequences", "correct": false },
+        { "letter": "C", "text": "Contain different genomes", "correct": false },
+        { "letter": "D", "text": "Have no genes in common", "correct": false }
+      ],
+      "explanation": "Cells with the same genome can have different proteomes because they express different genes."
+    },
+    {
+      "id": "D2.2-036",
+      "level": "HL",
+      "statement": "D2.2.3",
+      "category": "D2.2 Gene expression",
+      "scenario": "A cell needs less of a protein.",
+      "stem": "One way to reduce production is to:",
+      "options": [
+        { "letter": "A", "text": "Degrade the mRNA more quickly", "correct": true },
+        { "letter": "B", "text": "Replicate the DNA faster", "correct": false },
+        { "letter": "C", "text": "Add more ribosomes", "correct": false },
+        { "letter": "D", "text": "Increase the mRNA half-life", "correct": false }
+      ],
+      "explanation": "Faster degradation of mRNA reduces the amount available for translation, lowering protein production."
+    },
+    {
+      "id": "D2.2-037",
+      "level": "HL",
+      "statement": "D2.2.7",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "For an epigenetic change to be inherited by offspring, the tags must:",
+      "options": [
+        { "letter": "A", "text": "Remain in place during meiosis", "correct": true },
+        { "letter": "B", "text": "Be removed before meiosis", "correct": false },
+        { "letter": "C", "text": "Change the DNA sequence", "correct": false },
+        { "letter": "D", "text": "Delete the gene", "correct": false }
+      ],
+      "explanation": "Epigenetic inheritance to offspring requires the tags (e.g. methylation) to persist through meiosis."
+    },
+    {
+      "id": "D2.2-038",
+      "level": "HL",
+      "statement": "D2.2.11",
+      "category": "D2.2 Gene expression",
+      "scenario": "The presence of tryptophan in a bacterium changes which genes are expressed.",
+      "stem": "Tryptophan is acting as:",
+      "options": [
+        { "letter": "A", "text": "An external biochemical affecting gene expression", "correct": true },
+        { "letter": "B", "text": "A mutation", "correct": false },
+        { "letter": "C", "text": "A chromosome", "correct": false },
+        { "letter": "D", "text": "An epigenetic tag on histones", "correct": false }
+      ],
+      "explanation": "Biochemicals such as tryptophan or lactose in bacteria are external factors that impact gene expression."
+    },
+    {
+      "id": "D2.2-039",
+      "level": "HL",
+      "statement": "D2.2.1",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Which best describes the relationship between genes and phenotype?",
+      "options": [
+        { "letter": "A", "text": "Gene expression translates gene information into observable traits", "correct": true },
+        { "letter": "B", "text": "Genes have no effect on phenotype", "correct": false },
+        { "letter": "C", "text": "Phenotype determines the DNA sequence", "correct": false },
+        { "letter": "D", "text": "Genes only affect other genes", "correct": false }
+      ],
+      "explanation": "Gene expression is the mechanism by which information in genes has effects on the phenotype."
+    },
+    {
+      "id": "D2.2-040",
+      "level": "HL",
+      "statement": "D2.2.6",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Which best defines an epigenetic tag?",
+      "options": [
+        { "letter": "A", "text": "A chemical modification that alters gene expression without changing DNA sequence", "correct": true },
+        { "letter": "B", "text": "A permanent change to the base sequence", "correct": false },
+        { "letter": "C", "text": "A new chromosome", "correct": false },
+        { "letter": "D", "text": "A type of ribosome", "correct": false }
+      ],
+      "explanation": "Epigenetic tags, such as DNA or histone methylation, alter gene expression without changing the DNA base sequence."
+    },
+    {
+      "id": "D2.2-041",
+      "level": "HL",
+      "statement": "D2.2.4",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Which statement about epigenetic changes is correct?",
+      "options": [
+        { "letter": "A", "text": "They alter phenotype but leave the DNA base sequence intact", "correct": true },
+        { "letter": "B", "text": "They mutate the DNA sequence", "correct": false },
+        { "letter": "C", "text": "They add chromosomes", "correct": false },
+        { "letter": "D", "text": "They never affect phenotype", "correct": false }
+      ],
+      "explanation": "Epigenetic changes affect phenotype but not genotype, as the DNA base sequence is not altered."
+    },
+    {
+      "id": "D2.2-042",
+      "level": "HL",
+      "statement": "D2.2.2",
+      "category": "D2.2 Gene expression",
+      "scenario": "A transcription factor fails to bind to a gene's promoter.",
+      "stem": "A likely result is that the gene:",
+      "options": [
+        { "letter": "A", "text": "Is not transcribed (not expressed)", "correct": true },
+        { "letter": "B", "text": "Is transcribed faster", "correct": false },
+        { "letter": "C", "text": "Is deleted", "correct": false },
+        { "letter": "D", "text": "Is replicated", "correct": false }
+      ],
+      "explanation": "Transcription factors binding the promoter are needed to initiate transcription, so failure prevents expression."
+    },
+    {
+      "id": "D2.2-043",
+      "level": "HL",
+      "statement": "D2.2.9",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "The phenotypic differences between a tigon and a liger arise mainly from:",
+      "options": [
+        { "letter": "A", "text": "Epigenetic origins (retained tags in gametes)", "correct": true },
+        { "letter": "B", "text": "Different DNA base sequences", "correct": false },
+        { "letter": "C", "text": "Different numbers of genes", "correct": false },
+        { "letter": "D", "text": "A change in the genetic code", "correct": false }
+      ],
+      "explanation": "Tigons and ligers illustrate epigenetic effects, since most but not all tags are removed from the ovum and sperm."
+    },
+    {
+      "id": "D2.2-044",
+      "level": "HL",
+      "statement": "D2.2.3",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Regulating mRNA degradation controls gene expression at which level?",
+      "options": [
+        { "letter": "A", "text": "Translation (the amount of protein made)", "correct": true },
+        { "letter": "B", "text": "DNA replication", "correct": false },
+        { "letter": "C", "text": "Chromosome number", "correct": false },
+        { "letter": "D", "text": "Cytokinesis", "correct": false }
+      ],
+      "explanation": "By controlling how long mRNA persists before degradation, cells regulate how much protein is translated."
+    },
+    {
+      "id": "D2.2-045",
+      "level": "HL",
+      "statement": "D2.2.5",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Which comparison of genome, transcriptome and proteome is correct?",
+      "options": [
+        { "letter": "A", "text": "Genome is all DNA; transcriptome is expressed RNA; proteome is expressed proteins", "correct": true },
+        { "letter": "B", "text": "All three are identical in every cell", "correct": false },
+        { "letter": "C", "text": "The transcriptome is all the DNA", "correct": false },
+        { "letter": "D", "text": "The proteome is all the RNA", "correct": false }
+      ],
+      "explanation": "The genome is all the DNA, the transcriptome the RNA transcripts, and the proteome the proteins expressed."
+    },
+    {
+      "id": "D2.2-046",
+      "level": "HL",
+      "statement": "D2.2.8",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Air pollution altering DNA methylation is used as an example of:",
+      "options": [
+        { "letter": "A", "text": "An environmental effect on gene expression", "correct": true },
+        { "letter": "B", "text": "A gene mutation", "correct": false },
+        { "letter": "C", "text": "Crossing over", "correct": false },
+        { "letter": "D", "text": "Non-disjunction", "correct": false }
+      ],
+      "explanation": "Alteration of methyl tags on DNA in response to air pollution is a syllabus example of environmental effects on gene expression."
+    },
+    {
+      "id": "D2.2-047",
+      "level": "HL",
+      "statement": "D2.2.7",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Epigenetic inheritance is possible because tags can remain during:",
+      "options": [
+        { "letter": "A", "text": "Mitosis or meiosis", "correct": true },
+        { "letter": "B", "text": "Transcription only", "correct": false },
+        { "letter": "C", "text": "Translation only", "correct": false },
+        { "letter": "D", "text": "Diffusion", "correct": false }
+      ],
+      "explanation": "If epigenetic tags remain during mitosis or meiosis, the changes can be inherited by daughter cells or offspring."
+    },
+    {
+      "id": "D2.2-048",
+      "level": "HL",
+      "statement": "D2.2.11",
+      "category": "D2.2 Gene expression",
+      "scenario": "",
+      "stem": "Which two categories of external factor are given as impacting gene expression?",
+      "options": [
+        { "letter": "A", "text": "A hormone and a biochemical such as lactose or tryptophan", "correct": true },
+        { "letter": "B", "text": "A ribosome and a chromosome", "correct": false },
+        { "letter": "C", "text": "A codon and an anticodon", "correct": false },
+        { "letter": "D", "text": "A promoter and an enhancer", "correct": false }
+      ],
+      "explanation": "External factors given include one hormone example and one biochemical example (lactose or tryptophan in bacteria)."
+    },
+    {
+      "id": "D2.2-049",
+      "level": "HL",
+      "statement": "D2.2.1",
+      "category": "D2.2 Gene expression",
+      "scenario": "A gene is transcribed and translated into a functioning enzyme.",
+      "stem": "This whole sequence is an example of:",
+      "options": [
+        { "letter": "A", "text": "Gene expression", "correct": true },
+        { "letter": "B", "text": "DNA replication", "correct": false },
+        { "letter": "C", "text": "Meiosis", "correct": false },
+        { "letter": "D", "text": "Osmosis", "correct": false }
+      ],
+      "explanation": "Transcription, translation and the function of the protein product together constitute gene expression."
+    },
+    {
+      "id": "D2.2-050",
+      "level": "HL",
+      "statement": "D2.2.6",
+      "category": "D2.2 Gene expression",
+      "scenario": "A promoter becomes heavily methylated.",
+      "stem": "The downstream gene is likely to be:",
+      "options": [
+        { "letter": "A", "text": "Silenced (repressed)", "correct": true },
+        { "letter": "B", "text": "Expressed more strongly", "correct": false },
+        { "letter": "C", "text": "Deleted", "correct": false },
+        { "letter": "D", "text": "Mutated in sequence", "correct": false }
+      ],
+      "explanation": "Methylation of cytosine in a promoter represses transcription, tending to silence the downstream gene."
+    }
+  ]
+}

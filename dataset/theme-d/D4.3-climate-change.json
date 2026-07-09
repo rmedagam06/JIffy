@@ -1,0 +1,760 @@
+{
+  "id": "D4.3",
+  "name": "Climate change",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Ecosystems",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "D4.3-001",
+      "level": "SL",
+      "statement": "D4.3.1",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Which gases are the main anthropogenic causes of climate change?",
+      "options": [
+        { "letter": "A", "text": "Carbon dioxide and methane", "correct": true },
+        { "letter": "B", "text": "Oxygen and nitrogen", "correct": false },
+        { "letter": "C", "text": "Helium and argon", "correct": false },
+        { "letter": "D", "text": "Water vapour only", "correct": false }
+      ],
+      "explanation": "Anthropogenic climate change is limited in the syllabus to increases in atmospheric carbon dioxide and methane."
+    },
+    {
+      "id": "D4.3-002",
+      "level": "SL",
+      "statement": "D4.3.1",
+      "category": "D4.3 Climate change",
+      "scenario": "Antarctic ice cores show a positive correlation between global temperature and carbon dioxide.",
+      "stem": "By itself, this correlation:",
+      "options": [
+        { "letter": "A", "text": "Does not prove that CO2 causes temperature rise", "correct": true },
+        { "letter": "B", "text": "Proves CO2 causes temperature rise", "correct": false },
+        { "letter": "C", "text": "Shows no relationship", "correct": false },
+        { "letter": "D", "text": "Proves temperature causes CO2 only", "correct": false }
+      ],
+      "explanation": "Correlation is not causation; the causal link is confirmed by other evidence, not the ice-core correlation alone."
+    },
+    {
+      "id": "D4.3-003",
+      "level": "SL",
+      "statement": "D4.3.2",
+      "category": "D4.3 Climate change",
+      "scenario": "Melting snow and ice reduces the reflectiveness of Earth's surface.",
+      "stem": "This is an example of a:",
+      "options": [
+        { "letter": "A", "text": "Positive feedback cycle in global warming", "correct": true },
+        { "letter": "B", "text": "Negative feedback cycle", "correct": false },
+        { "letter": "C", "text": "Carbon sink", "correct": false },
+        { "letter": "D", "text": "Homeostatic mechanism", "correct": false }
+      ],
+      "explanation": "Loss of reflective snow and ice increases solar absorption, warming further - a positive feedback cycle."
+    },
+    {
+      "id": "D4.3-004",
+      "level": "SL",
+      "statement": "D4.3.2",
+      "category": "D4.3 Climate change",
+      "scenario": "Melting permafrost releases a greenhouse gas.",
+      "stem": "Which gas is released?",
+      "options": [
+        { "letter": "A", "text": "Methane", "correct": true },
+        { "letter": "B", "text": "Oxygen", "correct": false },
+        { "letter": "C", "text": "Nitrogen", "correct": false },
+        { "letter": "D", "text": "Helium", "correct": false }
+      ],
+      "explanation": "Melting permafrost releases methane and accelerates decomposition, both positive feedbacks in global warming."
+    },
+    {
+      "id": "D4.3-005",
+      "level": "SL",
+      "statement": "D4.3.2",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Which is a positive feedback cycle in global warming?",
+      "options": [
+        { "letter": "A", "text": "Warming increases forest fires, releasing more carbon dioxide", "correct": true },
+        { "letter": "B", "text": "Warming increases snow cover", "correct": false },
+        { "letter": "C", "text": "Warming increases carbon storage in permafrost", "correct": false },
+        { "letter": "D", "text": "Warming reduces droughts", "correct": false }
+      ],
+      "explanation": "Positive feedbacks include increased droughts and forest fires, releasing more CO2 and causing further warming."
+    },
+    {
+      "id": "D4.3-006",
+      "level": "SL",
+      "statement": "D4.3.3",
+      "category": "D4.3 Climate change",
+      "scenario": "Warmer, drier conditions cause boreal forests (taiga) to shift from storing carbon to releasing it.",
+      "stem": "This is an example of a:",
+      "options": [
+        { "letter": "A", "text": "Tipping point", "correct": true },
+        { "letter": "B", "text": "Carbon sink forming", "correct": false },
+        { "letter": "C", "text": "Negative feedback", "correct": false },
+        { "letter": "D", "text": "Climax community", "correct": false }
+      ],
+      "explanation": "The change from net carbon accumulation to net loss in boreal forests is used as an example of a tipping point."
+    },
+    {
+      "id": "D4.3-007",
+      "level": "SL",
+      "statement": "D4.3.3",
+      "category": "D4.3 Climate change",
+      "scenario": "Drought and fires in the taiga burn stored carbon.",
+      "stem": "The carbon released from long-stored organic matter is called:",
+      "options": [
+        { "letter": "A", "text": "Legacy carbon", "correct": true },
+        { "letter": "B", "text": "Primary production", "correct": false },
+        { "letter": "C", "text": "Secondary production", "correct": false },
+        { "letter": "D", "text": "Biomagnified carbon", "correct": false }
+      ],
+      "explanation": "Forest fires in the taiga can burn long-stored (legacy) carbon, contributing to the tipping point."
+    },
+    {
+      "id": "D4.3-008",
+      "level": "SL",
+      "statement": "D4.3.4",
+      "category": "D4.3 Climate change",
+      "scenario": "Early break-out of landfast ice in the Antarctic threatens a species' breeding grounds.",
+      "stem": "Which species is used as this example?",
+      "options": [
+        { "letter": "A", "text": "The emperor penguin", "correct": true },
+        { "letter": "B", "text": "The polar bear", "correct": false },
+        { "letter": "C", "text": "The walrus", "correct": false },
+        { "letter": "D", "text": "The coral", "correct": false }
+      ],
+      "explanation": "Early break-out of Antarctic landfast ice threatens emperor penguin breeding grounds, an example of polar habitat change."
+    },
+    {
+      "id": "D4.3-009",
+      "level": "SL",
+      "statement": "D4.3.4",
+      "category": "D4.3 Climate change",
+      "scenario": "Loss of sea ice threatens an Arctic species' habitat.",
+      "stem": "Which species is used as this example?",
+      "options": [
+        { "letter": "A", "text": "The walrus", "correct": true },
+        { "letter": "B", "text": "The emperor penguin", "correct": false },
+        { "letter": "C", "text": "The spruce bark beetle", "correct": false },
+        { "letter": "D", "text": "The great tit", "correct": false }
+      ],
+      "explanation": "Loss of Arctic sea ice habitat for walruses is used as an example of polar habitat change."
+    },
+    {
+      "id": "D4.3-010",
+      "level": "SL",
+      "statement": "D4.3.5",
+      "category": "D4.3 Climate change",
+      "scenario": "Warmer surface water prevents nutrient upwelling in the ocean.",
+      "stem": "The consequence for the ocean is:",
+      "options": [
+        { "letter": "A", "text": "Decreased primary production and energy flow", "correct": true },
+        { "letter": "B", "text": "Increased primary production", "correct": false },
+        { "letter": "C", "text": "No change to food chains", "correct": false },
+        { "letter": "D", "text": "More nutrients at the surface", "correct": false }
+      ],
+      "explanation": "Warmer surface water can prevent nutrient upwelling, decreasing ocean primary production and energy flow through food chains."
+    },
+    {
+      "id": "D4.3-011",
+      "level": "SL",
+      "statement": "D4.3.6",
+      "category": "D4.3 Climate change",
+      "scenario": "As the climate warms, temperate species shift their ranges.",
+      "stem": "In which direction do these range shifts tend to occur?",
+      "options": [
+        { "letter": "A", "text": "Poleward and upslope", "correct": true },
+        { "letter": "B", "text": "Toward the equator and downhill", "correct": false },
+        { "letter": "C", "text": "Only downward into the sea", "correct": false },
+        { "letter": "D", "text": "There is no shift", "correct": false }
+      ],
+      "explanation": "Temperate species tend to shift their ranges poleward and upslope as the climate warms."
+    },
+    {
+      "id": "D4.3-012",
+      "level": "SL",
+      "statement": "D4.3.7",
+      "category": "D4.3 Climate change",
+      "scenario": "Increased carbon dioxide dissolves in seawater.",
+      "stem": "This causes:",
+      "options": [
+        { "letter": "A", "text": "Ocean acidification", "correct": true },
+        { "letter": "B", "text": "Ocean alkalinization", "correct": false },
+        { "letter": "C", "text": "Increased coral calcification", "correct": false },
+        { "letter": "D", "text": "No change in pH", "correct": false }
+      ],
+      "explanation": "Increased CO2 causes ocean acidification, which suppresses calcification in corals."
+    },
+    {
+      "id": "D4.3-013",
+      "level": "SL",
+      "statement": "D4.3.7",
+      "category": "D4.3 Climate change",
+      "scenario": "Rising water temperatures affect corals.",
+      "stem": "A direct consequence is:",
+      "options": [
+        { "letter": "A", "text": "Coral bleaching", "correct": true },
+        { "letter": "B", "text": "Faster coral growth", "correct": false },
+        { "letter": "C", "text": "Increased calcification", "correct": false },
+        { "letter": "D", "text": "More nutrient upwelling", "correct": false }
+      ],
+      "explanation": "Increased water temperature causes coral bleaching; with acidification, loss of corals can collapse reef ecosystems."
+    },
+    {
+      "id": "D4.3-014",
+      "level": "SL",
+      "statement": "D4.3.7",
+      "category": "D4.3 Climate change",
+      "scenario": "Corals die across a large reef.",
+      "stem": "This can lead to:",
+      "options": [
+        { "letter": "A", "text": "Collapse of the reef ecosystem", "correct": true },
+        { "letter": "B", "text": "Increased reef stability", "correct": false },
+        { "letter": "C", "text": "More fish permanently", "correct": false },
+        { "letter": "D", "text": "No ecological effect", "correct": false }
+      ],
+      "explanation": "Loss of corals causes the collapse of reef ecosystems, an example of potential ecosystem collapse from climate change."
+    },
+    {
+      "id": "D4.3-015",
+      "level": "SL",
+      "statement": "D4.3.8",
+      "category": "D4.3 Climate change",
+      "scenario": "New forests are planted to capture carbon from the atmosphere.",
+      "stem": "This approach is called:",
+      "options": [
+        { "letter": "A", "text": "Afforestation (carbon sequestration)", "correct": true },
+        { "letter": "B", "text": "Deforestation", "correct": false },
+        { "letter": "C", "text": "Eutrophication", "correct": false },
+        { "letter": "D", "text": "Biomagnification", "correct": false }
+      ],
+      "explanation": "Afforestation, forest regeneration and restoring peat-forming wetlands are approaches to carbon sequestration."
+    },
+    {
+      "id": "D4.3-016",
+      "level": "SL",
+      "statement": "D4.3.8",
+      "category": "D4.3 Climate change",
+      "scenario": "Peat-forming wetlands are restored to store carbon.",
+      "stem": "Peat naturally forms in:",
+      "options": [
+        { "letter": "A", "text": "Waterlogged soils", "correct": true },
+        { "letter": "B", "text": "Dry deserts", "correct": false },
+        { "letter": "C", "text": "The open ocean", "correct": false },
+        { "letter": "D", "text": "Bare rock", "correct": false }
+      ],
+      "explanation": "Peat forms in waterlogged soils in temperate and boreal zones, and rapidly in some tropical ecosystems; restoring wetlands sequesters carbon."
+    },
+    {
+      "id": "D4.3-017",
+      "level": "SL",
+      "statement": "D4.3.1",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Anthropogenic means the cause is:",
+      "options": [
+        { "letter": "A", "text": "Due to human activity", "correct": true },
+        { "letter": "B", "text": "Entirely natural", "correct": false },
+        { "letter": "C", "text": "Caused by other animals", "correct": false },
+        { "letter": "D", "text": "Unknown", "correct": false }
+      ],
+      "explanation": "Anthropogenic causes are those due to human activity, such as increased atmospheric CO2 and methane."
+    },
+    {
+      "id": "D4.3-018",
+      "level": "SL",
+      "statement": "D4.3.2",
+      "category": "D4.3 Climate change",
+      "scenario": "Warming releases carbon dioxide from the deep ocean.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Positive feedback amplifying warming", "correct": true },
+        { "letter": "B", "text": "Negative feedback reducing warming", "correct": false },
+        { "letter": "C", "text": "Carbon sequestration", "correct": false },
+        { "letter": "D", "text": "Ocean cooling", "correct": false }
+      ],
+      "explanation": "Release of CO2 from the deep ocean with warming is a positive feedback that amplifies global warming."
+    },
+    {
+      "id": "D4.3-019",
+      "level": "SL",
+      "statement": "D4.3.6",
+      "category": "D4.3 Climate change",
+      "scenario": "Montane bird species in New Guinea shift to higher elevations.",
+      "stem": "This is an example of a(n):",
+      "options": [
+        { "letter": "A", "text": "Upslope range shift", "correct": true },
+        { "letter": "B", "text": "Downslope range shift", "correct": false },
+        { "letter": "C", "text": "Range expansion toward the equator", "correct": false },
+        { "letter": "D", "text": "No range change", "correct": false }
+      ],
+      "explanation": "Upslope range shifts for tropical-zone montane birds in New Guinea are an evidence-based example of climate-driven range shifts."
+    },
+    {
+      "id": "D4.3-020",
+      "level": "SL",
+      "statement": "D4.3.5",
+      "category": "D4.3 Climate change",
+      "scenario": "Nutrient upwelling brings nutrients to the ocean surface.",
+      "stem": "If warming prevents upwelling, surface primary producers will:",
+      "options": [
+        { "letter": "A", "text": "Have fewer nutrients, reducing production", "correct": true },
+        { "letter": "B", "text": "Have more nutrients", "correct": false },
+        { "letter": "C", "text": "Be unaffected", "correct": false },
+        { "letter": "D", "text": "Stop respiring", "correct": false }
+      ],
+      "explanation": "Warmer surface water prevents nutrient upwelling, so surface primary producers have fewer nutrients and production falls."
+    },
+    {
+      "id": "D4.3-021",
+      "level": "SL",
+      "statement": "D4.3.7",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Which two effects of climate change threaten coral reefs?",
+      "options": [
+        { "letter": "A", "text": "Ocean acidification and warmer water", "correct": true },
+        { "letter": "B", "text": "Cooler water and lower CO2", "correct": false },
+        { "letter": "C", "text": "More nutrient upwelling and cooling", "correct": false },
+        { "letter": "D", "text": "Afforestation and rewilding", "correct": false }
+      ],
+      "explanation": "Ocean acidification (from CO2) suppresses calcification and warmer water causes bleaching, both threatening coral reefs."
+    },
+    {
+      "id": "D4.3-022",
+      "level": "SL",
+      "statement": "D4.3.2",
+      "category": "D4.3 Climate change",
+      "scenario": "Warming accelerates decomposition of previously undecomposed organic matter in permafrost.",
+      "stem": "This releases more:",
+      "options": [
+        { "letter": "A", "text": "Carbon dioxide (and methane), causing further warming", "correct": true },
+        { "letter": "B", "text": "Oxygen, cooling the planet", "correct": false },
+        { "letter": "C", "text": "Water, with no effect", "correct": false },
+        { "letter": "D", "text": "Nitrogen only", "correct": false }
+      ],
+      "explanation": "Accelerated decomposition of permafrost organic matter releases greenhouse gases, a positive feedback amplifying warming."
+    },
+    {
+      "id": "D4.3-023",
+      "level": "SL",
+      "statement": "D4.3.1",
+      "category": "D4.3 Climate change",
+      "scenario": "A student distinguishes correlation from causation using climate data.",
+      "stem": "A positive correlation between two variables means:",
+      "options": [
+        { "letter": "A", "text": "They tend to increase together", "correct": true },
+        { "letter": "B", "text": "One always causes the other", "correct": false },
+        { "letter": "C", "text": "They are unrelated", "correct": false },
+        { "letter": "D", "text": "One decreases as the other increases", "correct": false }
+      ],
+      "explanation": "A positive correlation means the variables increase together; this does not by itself prove a causal link."
+    },
+    {
+      "id": "D4.3-024",
+      "level": "SL",
+      "statement": "D4.3.3",
+      "category": "D4.3 Climate change",
+      "scenario": "Warmer temperatures and less winter snow increase drought in the taiga.",
+      "stem": "A consequence for the boreal forest is:",
+      "options": [
+        { "letter": "A", "text": "Reduced primary production and forest browning", "correct": true },
+        { "letter": "B", "text": "Increased primary production", "correct": false },
+        { "letter": "C", "text": "More carbon storage", "correct": false },
+        { "letter": "D", "text": "Cooling of the region", "correct": false }
+      ],
+      "explanation": "Drought reduces primary production in the taiga, causing forest browning and more frequent, intense fires - a tipping point."
+    },
+    {
+      "id": "D4.3-025",
+      "level": "SL",
+      "statement": "D4.3.8",
+      "category": "D4.3 Climate change",
+      "scenario": "There is debate over whether non-native plantations or native rewilding is better for carbon sequestration.",
+      "stem": "This shows that:",
+      "options": [
+        { "letter": "A", "text": "There is active scientific debate on the best approach", "correct": true },
+        { "letter": "B", "text": "The answer is completely settled", "correct": false },
+        { "letter": "C", "text": "Neither approach sequesters carbon", "correct": false },
+        { "letter": "D", "text": "Carbon cannot be sequestered", "correct": false }
+      ],
+      "explanation": "There is active scientific debate over whether non-native plantations or rewilding with native species best sequesters carbon."
+    },
+    {
+      "id": "D4.3-026",
+      "level": "SL",
+      "statement": "D4.3.4",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Melting of landfast ice and sea ice are examples of:",
+      "options": [
+        { "letter": "A", "text": "Polar habitat change", "correct": true },
+        { "letter": "B", "text": "Carbon sequestration", "correct": false },
+        { "letter": "C", "text": "Eutrophication", "correct": false },
+        { "letter": "D", "text": "Succession", "correct": false }
+      ],
+      "explanation": "Melting of landfast ice and sea ice are examples of polar habitat change affecting species such as penguins and walruses."
+    },
+    {
+      "id": "D4.3-027",
+      "level": "SL",
+      "statement": "D4.3.6",
+      "category": "D4.3 Climate change",
+      "scenario": "North American tree species show range contraction and northward spread.",
+      "stem": "This is evidence of:",
+      "options": [
+        { "letter": "A", "text": "Climate-driven range shifts", "correct": true },
+        { "letter": "B", "text": "No response to climate", "correct": false },
+        { "letter": "C", "text": "Biomagnification", "correct": false },
+        { "letter": "D", "text": "Eutrophication", "correct": false }
+      ],
+      "explanation": "Range contraction and northward spread of North American tree species is evidence of climate-driven range shifts."
+    },
+    {
+      "id": "D4.3-028",
+      "level": "SL",
+      "statement": "D4.3.5",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Nutrient upwelling normally supports marine food chains by:",
+      "options": [
+        { "letter": "A", "text": "Bringing nutrients to surface primary producers", "correct": true },
+        { "letter": "B", "text": "Removing nutrients from the surface", "correct": false },
+        { "letter": "C", "text": "Preventing photosynthesis", "correct": false },
+        { "letter": "D", "text": "Killing all plankton", "correct": false }
+      ],
+      "explanation": "Upwelling brings nutrients to surface producers; warming that blocks it reduces primary production and energy flow."
+    },
+    {
+      "id": "D4.3-029",
+      "level": "SL",
+      "statement": "D4.3.7",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Ocean acidification suppresses which process in corals?",
+      "options": [
+        { "letter": "A", "text": "Calcification (building their skeletons)", "correct": true },
+        { "letter": "B", "text": "Photosynthesis by fish", "correct": false },
+        { "letter": "C", "text": "Respiration only", "correct": false },
+        { "letter": "D", "text": "Nutrient upwelling", "correct": false }
+      ],
+      "explanation": "Ocean acidification from increased CO2 suppresses calcification in corals, weakening reef structures."
+    },
+    {
+      "id": "D4.3-030",
+      "level": "SL",
+      "statement": "D4.3.1",
+      "category": "D4.3 Climate change",
+      "scenario": "Other evidence, besides ice-core correlation, confirms CO2 warms the planet.",
+      "stem": "This illustrates that establishing causation requires:",
+      "options": [
+        { "letter": "A", "text": "More than correlation alone", "correct": true },
+        { "letter": "B", "text": "Only a single correlation", "correct": false },
+        { "letter": "C", "text": "No evidence", "correct": false },
+        { "letter": "D", "text": "Ignoring all data", "correct": false }
+      ],
+      "explanation": "Causation is established by additional evidence beyond correlation; the CO2-temperature causal link is confirmed by other studies."
+    },
+    {
+      "id": "D4.3-031",
+      "level": "SL",
+      "statement": "D4.3.2",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "A positive feedback cycle in global warming tends to:",
+      "options": [
+        { "letter": "A", "text": "Amplify the warming", "correct": true },
+        { "letter": "B", "text": "Reduce the warming", "correct": false },
+        { "letter": "C", "text": "Have no effect", "correct": false },
+        { "letter": "D", "text": "Cool the planet", "correct": false }
+      ],
+      "explanation": "Positive feedback cycles amplify warming, for example melting ice reducing reflectivity and increasing solar absorption."
+    },
+    {
+      "id": "D4.3-032",
+      "level": "SL",
+      "statement": "D4.3.8",
+      "category": "D4.3 Climate change",
+      "scenario": "A degraded forest is allowed to regrow to capture carbon.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Forest regeneration for carbon sequestration", "correct": true },
+        { "letter": "B", "text": "Deforestation", "correct": false },
+        { "letter": "C", "text": "Eutrophication", "correct": false },
+        { "letter": "D", "text": "Biomagnification", "correct": false }
+      ],
+      "explanation": "Forest regeneration, afforestation and restoring peat wetlands are approaches to carbon sequestration."
+    },
+    {
+      "id": "D4.3-033",
+      "level": "SL",
+      "statement": "D4.3.3",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "A tipping point in an ecosystem is a point beyond which:",
+      "options": [
+        { "letter": "A", "text": "A large, often irreversible change occurs", "correct": true },
+        { "letter": "B", "text": "Nothing changes", "correct": false },
+        { "letter": "C", "text": "The ecosystem becomes permanently stable", "correct": false },
+        { "letter": "D", "text": "Carbon storage always increases", "correct": false }
+      ],
+      "explanation": "A tipping point is where a large, often self-reinforcing and hard-to-reverse change occurs, as in boreal forest carbon loss."
+    },
+    {
+      "id": "D4.3-034",
+      "level": "SL",
+      "statement": "D4.3.4",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Early break-out of landfast ice harms emperor penguins by:",
+      "options": [
+        { "letter": "A", "text": "Destroying their breeding grounds before chicks are ready", "correct": true },
+        { "letter": "B", "text": "Increasing their food supply", "correct": false },
+        { "letter": "C", "text": "Improving their habitat", "correct": false },
+        { "letter": "D", "text": "Having no effect", "correct": false }
+      ],
+      "explanation": "Early break-out of landfast ice can destroy emperor penguin breeding grounds, an example of polar habitat change."
+    },
+    {
+      "id": "D4.3-035",
+      "level": "HL",
+      "statement": "D4.3.9",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Phenology is the study of:",
+      "options": [
+        { "letter": "A", "text": "The timing of biological events", "correct": true },
+        { "letter": "B", "text": "The structure of proteins", "correct": false },
+        { "letter": "C", "text": "The classification of organisms", "correct": false },
+        { "letter": "D", "text": "The movement of water in cells", "correct": false }
+      ],
+      "explanation": "Phenology is research into the timing of biological events such as flowering, budburst and migration."
+    },
+    {
+      "id": "D4.3-036",
+      "level": "HL",
+      "statement": "D4.3.9",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Which variables influence the timing of biological events?",
+      "options": [
+        { "letter": "A", "text": "Photoperiod and temperature", "correct": true },
+        { "letter": "B", "text": "Only the genome size", "correct": false },
+        { "letter": "C", "text": "Only chromosome number", "correct": false },
+        { "letter": "D", "text": "Only soil colour", "correct": false }
+      ],
+      "explanation": "Photoperiod and temperature patterns are examples of variables that influence the timing of biological events."
+    },
+    {
+      "id": "D4.3-037",
+      "level": "HL",
+      "statement": "D4.3.9",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Which is an example of a phenological event?",
+      "options": [
+        { "letter": "A", "text": "Budburst in a deciduous tree", "correct": true },
+        { "letter": "B", "text": "DNA replication in a cell", "correct": false },
+        { "letter": "C", "text": "Osmosis into a root cell", "correct": false },
+        { "letter": "D", "text": "Translation of mRNA", "correct": false }
+      ],
+      "explanation": "Phenological events include flowering, budburst, bud set, bird migration and nesting."
+    },
+    {
+      "id": "D4.3-038",
+      "level": "HL",
+      "statement": "D4.3.10",
+      "category": "D4.3 Climate change",
+      "scenario": "One species uses temperature as a cue and another uses photoperiod.",
+      "stem": "Climate change can disrupt their relationship by:",
+      "options": [
+        { "letter": "A", "text": "Shifting the timing of one but not the other, losing synchrony", "correct": true },
+        { "letter": "B", "text": "Shifting both identically", "correct": false },
+        { "letter": "C", "text": "Having no effect on timing", "correct": false },
+        { "letter": "D", "text": "Changing their DNA", "correct": false }
+      ],
+      "explanation": "Because temperature cues shift with warming but photoperiod does not, climate change can disrupt the synchrony of phenological events."
+    },
+    {
+      "id": "D4.3-039",
+      "level": "HL",
+      "statement": "D4.3.10",
+      "category": "D4.3 Climate change",
+      "scenario": "Great tits breed based on one cue while their caterpillar food peaks based on another.",
+      "stem": "A mismatch in timing could mean:",
+      "options": [
+        { "letter": "A", "text": "Chicks hatch when peak food is no longer available", "correct": true },
+        { "letter": "B", "text": "Food supply is unaffected", "correct": false },
+        { "letter": "C", "text": "Breeding stops entirely", "correct": false },
+        { "letter": "D", "text": "The caterpillars breed with the birds", "correct": false }
+      ],
+      "explanation": "Disrupted synchrony can mean great tit chicks hatch after the peak caterpillar biomass, reducing food availability."
+    },
+    {
+      "id": "D4.3-040",
+      "level": "HL",
+      "statement": "D4.3.11",
+      "category": "D4.3 Climate change",
+      "scenario": "Warmer conditions allow an insect to complete more life cycles in a year.",
+      "stem": "Which insect is used as an example of this?",
+      "options": [
+        { "letter": "A", "text": "The spruce bark beetle", "correct": true },
+        { "letter": "B", "text": "The emperor penguin", "correct": false },
+        { "letter": "C", "text": "The great tit", "correct": false },
+        { "letter": "D", "text": "The walrus", "correct": false }
+      ],
+      "explanation": "The spruce bark beetle is used as an example of increased numbers of insect life cycles per year due to climate change."
+    },
+    {
+      "id": "D4.3-041",
+      "level": "HL",
+      "statement": "D4.3.11",
+      "category": "D4.3 Climate change",
+      "scenario": "Climate change increases the number of insect generations per year.",
+      "stem": "A consequence of more life cycles is:",
+      "options": [
+        { "letter": "A", "text": "Larger insect populations, potentially damaging forests", "correct": true },
+        { "letter": "B", "text": "Fewer insects overall", "correct": false },
+        { "letter": "C", "text": "No change in population", "correct": false },
+        { "letter": "D", "text": "The insects becoming producers", "correct": false }
+      ],
+      "explanation": "More life cycles per year can increase insect populations, such as bark beetles that damage forests."
+    },
+    {
+      "id": "D4.3-042",
+      "level": "HL",
+      "statement": "D4.3.10",
+      "category": "D4.3 Climate change",
+      "scenario": "Spring growth of Arctic plants and arrival of migrating reindeer are studied.",
+      "stem": "This example illustrates:",
+      "options": [
+        { "letter": "A", "text": "Disruption to the synchrony of phenological events", "correct": true },
+        { "letter": "B", "text": "Ocean acidification", "correct": false },
+        { "letter": "C", "text": "Biomagnification", "correct": false },
+        { "letter": "D", "text": "Eutrophication", "correct": false }
+      ],
+      "explanation": "The timing of Arctic plant growth and reindeer migration illustrates climate-change disruption to phenological synchrony."
+    },
+    {
+      "id": "D4.3-043",
+      "level": "HL",
+      "statement": "D4.3.9",
+      "category": "D4.3 Climate change",
+      "scenario": "A researcher records the dates of first flowering each year.",
+      "stem": "This researcher is studying:",
+      "options": [
+        { "letter": "A", "text": "Phenology", "correct": true },
+        { "letter": "B", "text": "Cladistics", "correct": false },
+        { "letter": "C", "text": "Homeostasis", "correct": false },
+        { "letter": "D", "text": "Gene expression", "correct": false }
+      ],
+      "explanation": "Recording the timing of biological events such as flowering is phenology."
+    },
+    {
+      "id": "D4.3-044",
+      "level": "HL",
+      "statement": "D4.3.10",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Why can temperature and photoperiod cues respond differently to climate change?",
+      "options": [
+        { "letter": "A", "text": "Temperature rises with warming, but photoperiod (day length) does not change", "correct": true },
+        { "letter": "B", "text": "Both change identically", "correct": false },
+        { "letter": "C", "text": "Photoperiod changes but temperature does not", "correct": false },
+        { "letter": "D", "text": "Neither is affected by seasons", "correct": false }
+      ],
+      "explanation": "Warming shifts temperature cues but not photoperiod, so species relying on different cues can fall out of synchrony."
+    },
+    {
+      "id": "D4.3-045",
+      "level": "HL",
+      "statement": "D4.3.11",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "An increase in the number of insect life cycles per year is driven by:",
+      "options": [
+        { "letter": "A", "text": "Warmer temperatures extending the active season", "correct": true },
+        { "letter": "B", "text": "Cooler temperatures", "correct": false },
+        { "letter": "C", "text": "Ocean acidification", "correct": false },
+        { "letter": "D", "text": "Loss of photoperiod", "correct": false }
+      ],
+      "explanation": "Warmer temperatures can allow insects such as the spruce bark beetle to complete more life cycles per year."
+    },
+    {
+      "id": "D4.3-046",
+      "level": "HL",
+      "statement": "D4.3.9",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Which is a phenological event in animals?",
+      "options": [
+        { "letter": "A", "text": "Timing of bird migration and nesting", "correct": true },
+        { "letter": "B", "text": "The rate of osmosis", "correct": false },
+        { "letter": "C", "text": "The number of chromosomes", "correct": false },
+        { "letter": "D", "text": "DNA replication", "correct": false }
+      ],
+      "explanation": "Phenological events include the timing of bird migration and nesting, influenced by photoperiod and temperature."
+    },
+    {
+      "id": "D4.3-047",
+      "level": "HL",
+      "statement": "D4.3.10",
+      "category": "D4.3 Climate change",
+      "scenario": "A plant flowers earlier due to warmer temperatures but its pollinator emerges at the usual time.",
+      "stem": "This mismatch is an example of:",
+      "options": [
+        { "letter": "A", "text": "Disrupted phenological synchrony", "correct": true },
+        { "letter": "B", "text": "Improved synchrony", "correct": false },
+        { "letter": "C", "text": "Carbon sequestration", "correct": false },
+        { "letter": "D", "text": "Ocean acidification", "correct": false }
+      ],
+      "explanation": "If a plant and its pollinator use different cues, warming can cause a timing mismatch - disrupted phenological synchrony."
+    },
+    {
+      "id": "D4.3-048",
+      "level": "HL",
+      "statement": "D4.3.11",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "More insect generations per year is an example of climate change affecting:",
+      "options": [
+        { "letter": "A", "text": "The life cycles and populations of organisms", "correct": true },
+        { "letter": "B", "text": "The genetic code", "correct": false },
+        { "letter": "C", "text": "The number of chromosomes", "correct": false },
+        { "letter": "D", "text": "Ocean salinity only", "correct": false }
+      ],
+      "explanation": "Increased numbers of insect life cycles per year shows climate change altering life cycles and populations, e.g. the spruce bark beetle."
+    },
+    {
+      "id": "D4.3-049",
+      "level": "HL",
+      "statement": "D4.3.9",
+      "category": "D4.3 Climate change",
+      "scenario": "",
+      "stem": "Phenological research is increasingly important with climate change because it can reveal:",
+      "options": [
+        { "letter": "A", "text": "Shifts in the timing of biological events", "correct": true },
+        { "letter": "B", "text": "The DNA sequence of species", "correct": false },
+        { "letter": "C", "text": "The pH of the blood", "correct": false },
+        { "letter": "D", "text": "The number of ribosomes", "correct": false }
+      ],
+      "explanation": "Phenology can reveal shifts in the timing of events such as flowering and migration as the climate changes."
+    },
+    {
+      "id": "D4.3-050",
+      "level": "HL",
+      "statement": "D4.3.10",
+      "category": "D4.3 Climate change",
+      "scenario": "Within one ecosystem, different species use different cues for timing.",
+      "stem": "The consequence of climate change here is that:",
+      "options": [
+        { "letter": "A", "text": "Interdependent species may become out of step with each other", "correct": true },
+        { "letter": "B", "text": "All species shift timing identically", "correct": false },
+        { "letter": "C", "text": "Timing becomes irrelevant", "correct": false },
+        { "letter": "D", "text": "Species stop reproducing entirely", "correct": false }
+      ],
+      "explanation": "Because species may use different cues (temperature vs photoperiod), climate change can push interdependent species out of synchrony."
+    }
+  ]
+}

@@ -1,0 +1,760 @@
+{
+  "id": "D2.1",
+  "name": "Cell and nuclear division",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Cells",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "D2.1-001",
+      "level": "SL",
+      "statement": "D2.1.1",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "In cell division, a parent cell divides to produce:",
+      "options": [
+        { "letter": "A", "text": "Two daughter cells", "correct": true },
+        { "letter": "B", "text": "One daughter cell", "correct": false },
+        { "letter": "C", "text": "Four daughter cells always", "correct": false },
+        { "letter": "D", "text": "No new cells", "correct": false }
+      ],
+      "explanation": "A parent (mother) cell divides to produce two daughter cells."
+    },
+    {
+      "id": "D2.1-002",
+      "level": "SL",
+      "statement": "D2.1.2",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Cytokinesis is the:",
+      "options": [
+        { "letter": "A", "text": "Splitting of the cytoplasm between daughter cells", "correct": true },
+        { "letter": "B", "text": "Division of the nucleus", "correct": false },
+        { "letter": "C", "text": "Copying of DNA", "correct": false },
+        { "letter": "D", "text": "Synthesis of protein", "correct": false }
+      ],
+      "explanation": "Cytokinesis splits the cytoplasm of a parent cell between the two daughter cells."
+    },
+    {
+      "id": "D2.1-003",
+      "level": "SL",
+      "statement": "D2.1.2",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "An animal cell divides its cytoplasm.",
+      "stem": "How is this achieved?",
+      "options": [
+        { "letter": "A", "text": "A ring of actin and myosin pinches the membrane", "correct": true },
+        { "letter": "B", "text": "Vesicles build a new cell wall", "correct": false },
+        { "letter": "C", "text": "The nucleus splits the cytoplasm", "correct": false },
+        { "letter": "D", "text": "The cell wall folds inward", "correct": false }
+      ],
+      "explanation": "In animal cells, a ring of contractile actin and myosin pinches the membrane to split the cytoplasm."
+    },
+    {
+      "id": "D2.1-004",
+      "level": "SL",
+      "statement": "D2.1.2",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "A plant cell divides its cytoplasm.",
+      "stem": "How is this achieved?",
+      "options": [
+        { "letter": "A", "text": "Vesicles assemble new membrane and cell wall", "correct": true },
+        { "letter": "B", "text": "A ring of actin and myosin pinches inward", "correct": false },
+        { "letter": "C", "text": "The nucleus divides the cytoplasm", "correct": false },
+        { "letter": "D", "text": "The chloroplasts fuse", "correct": false }
+      ],
+      "explanation": "In plant cells, vesicles assemble sections of membrane and cell wall to split the cytoplasm."
+    },
+    {
+      "id": "D2.1-005",
+      "level": "SL",
+      "statement": "D2.1.3",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "During oogenesis, cytoplasm is divided unequally.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Unequal cytokinesis", "correct": true },
+        { "letter": "B", "text": "Equal cytokinesis", "correct": false },
+        { "letter": "C", "text": "DNA replication", "correct": false },
+        { "letter": "D", "text": "Transcription", "correct": false }
+      ],
+      "explanation": "Cytokinesis is usually equal, but oogenesis in humans and budding in yeast are examples of unequal cytokinesis."
+    },
+    {
+      "id": "D2.1-006",
+      "level": "SL",
+      "statement": "D2.1.3",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "During cytokinesis, each daughter cell must receive:",
+      "options": [
+        { "letter": "A", "text": "At least one mitochondrion", "correct": true },
+        { "letter": "B", "text": "No organelles", "correct": false },
+        { "letter": "C", "text": "Two nuclei", "correct": false },
+        { "letter": "D", "text": "A whole extra cell", "correct": false }
+      ],
+      "explanation": "Each daughter cell must receive at least one mitochondrion and any organelle that can only be made by dividing a pre-existing one."
+    },
+    {
+      "id": "D2.1-007",
+      "level": "SL",
+      "statement": "D2.1.4",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Which process maintains the chromosome number and genome of cells?",
+      "options": [
+        { "letter": "A", "text": "Mitosis", "correct": true },
+        { "letter": "B", "text": "Meiosis", "correct": false },
+        { "letter": "C", "text": "Transcription", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "Mitosis maintains chromosome number and the genome; meiosis halves the chromosome number and generates diversity."
+    },
+    {
+      "id": "D2.1-008",
+      "level": "SL",
+      "statement": "D2.1.4",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Why must nuclear division occur before cell division?",
+      "options": [
+        { "letter": "A", "text": "To avoid producing cells without a nucleus", "correct": true },
+        { "letter": "B", "text": "To remove the cytoplasm", "correct": false },
+        { "letter": "C", "text": "To destroy the DNA", "correct": false },
+        { "letter": "D", "text": "To stop the cell cycle", "correct": false }
+      ],
+      "explanation": "Nuclear division is needed before cell division to avoid producing anucleate (nucleus-less) cells."
+    },
+    {
+      "id": "D2.1-009",
+      "level": "SL",
+      "statement": "D2.1.5",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "DNA replication occurs before division.",
+      "stem": "After replication, each chromosome consists of:",
+      "options": [
+        { "letter": "A", "text": "Two chromatids held together", "correct": true },
+        { "letter": "B", "text": "One single strand", "correct": false },
+        { "letter": "C", "text": "Four chromatids", "correct": false },
+        { "letter": "D", "text": "No DNA", "correct": false }
+      ],
+      "explanation": "After replication, each chromosome consists of two chromatids held together until anaphase."
+    },
+    {
+      "id": "D2.1-010",
+      "level": "SL",
+      "statement": "D2.1.6",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "During both mitosis and meiosis, DNA is condensed by:",
+      "options": [
+        { "letter": "A", "text": "Supercoiling around histones", "correct": true },
+        { "letter": "B", "text": "Hydrolysis", "correct": false },
+        { "letter": "C", "text": "Translation", "correct": false },
+        { "letter": "D", "text": "Denaturation", "correct": false }
+      ],
+      "explanation": "Histones help condense DNA by supercoiling; microtubules and motors then move the chromosomes."
+    },
+    {
+      "id": "D2.1-011",
+      "level": "SL",
+      "statement": "D2.1.6",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Chromosomes are moved during division by:",
+      "options": [
+        { "letter": "A", "text": "Microtubules and microtubule motors", "correct": true },
+        { "letter": "B", "text": "Ribosomes", "correct": false },
+        { "letter": "C", "text": "The cell wall", "correct": false },
+        { "letter": "D", "text": "Chlorophyll", "correct": false }
+      ],
+      "explanation": "Microtubules and microtubule motors move the chromosomes during mitosis and meiosis."
+    },
+    {
+      "id": "D2.1-012",
+      "level": "SL",
+      "statement": "D2.1.7",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Mitosis produces:",
+      "options": [
+        { "letter": "A", "text": "Two genetically identical daughter cells", "correct": true },
+        { "letter": "B", "text": "Four genetically varied cells", "correct": false },
+        { "letter": "C", "text": "Haploid gametes", "correct": false },
+        { "letter": "D", "text": "No new cells", "correct": false }
+      ],
+      "explanation": "Mitosis produces two genetically identical daughter cells."
+    },
+    {
+      "id": "D2.1-013",
+      "level": "SL",
+      "statement": "D2.1.7",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Which is a correct phase of mitosis?",
+      "options": [
+        { "letter": "A", "text": "Anaphase", "correct": true },
+        { "letter": "B", "text": "Transcription", "correct": false },
+        { "letter": "C", "text": "Translation", "correct": false },
+        { "letter": "D", "text": "Glycolysis", "correct": false }
+      ],
+      "explanation": "The phases of mitosis are prophase, metaphase, anaphase and telophase."
+    },
+    {
+      "id": "D2.1-014",
+      "level": "SL",
+      "statement": "D2.1.8",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "A student identifies mitosis phases in a micrograph.",
+      "stem": "During anaphase, the chromatids:",
+      "options": [
+        { "letter": "A", "text": "Separate and move to opposite poles", "correct": true },
+        { "letter": "B", "text": "Line up at the equator", "correct": false },
+        { "letter": "C", "text": "Condense for the first time", "correct": false },
+        { "letter": "D", "text": "Are replicated", "correct": false }
+      ],
+      "explanation": "In anaphase the sister chromatids separate and move to opposite poles of the cell."
+    },
+    {
+      "id": "D2.1-015",
+      "level": "SL",
+      "statement": "D2.1.9",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Meiosis is described as a reduction division because it:",
+      "options": [
+        { "letter": "A", "text": "Halves the chromosome number", "correct": true },
+        { "letter": "B", "text": "Doubles the chromosome number", "correct": false },
+        { "letter": "C", "text": "Keeps the chromosome number the same", "correct": false },
+        { "letter": "D", "text": "Removes all chromosomes", "correct": false }
+      ],
+      "explanation": "Meiosis is a reduction division: it produces four haploid nuclei from one diploid nucleus, halving the chromosome number."
+    },
+    {
+      "id": "D2.1-016",
+      "level": "SL",
+      "statement": "D2.1.9",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "A diploid cell has how many sets of chromosomes?",
+      "options": [
+        { "letter": "A", "text": "Two", "correct": true },
+        { "letter": "B", "text": "One", "correct": false },
+        { "letter": "C", "text": "Four", "correct": false },
+        { "letter": "D", "text": "Zero", "correct": false }
+      ],
+      "explanation": "Diploid cells have two sets of chromosomes; haploid cells (such as gametes) have one."
+    },
+    {
+      "id": "D2.1-017",
+      "level": "SL",
+      "statement": "D2.1.9",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "How many haploid nuclei does meiosis produce from one diploid nucleus?",
+      "options": [
+        { "letter": "A", "text": "Four", "correct": true },
+        { "letter": "B", "text": "Two", "correct": false },
+        { "letter": "C", "text": "One", "correct": false },
+        { "letter": "D", "text": "Eight", "correct": false }
+      ],
+      "explanation": "The two divisions of meiosis produce four haploid nuclei from one diploid nucleus."
+    },
+    {
+      "id": "D2.1-018",
+      "level": "SL",
+      "statement": "D2.1.10",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "Down syndrome results from an error in meiosis.",
+      "stem": "This error is called:",
+      "options": [
+        { "letter": "A", "text": "Non-disjunction", "correct": true },
+        { "letter": "B", "text": "Crossing over", "correct": false },
+        { "letter": "C", "text": "A point mutation", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "Down syndrome is an example of non-disjunction, where chromosomes fail to separate correctly in meiosis."
+    },
+    {
+      "id": "D2.1-019",
+      "level": "SL",
+      "statement": "D2.1.11",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Which process during meiosis generates genetic diversity?",
+      "options": [
+        { "letter": "A", "text": "Random orientation of bivalents and crossing over", "correct": true },
+        { "letter": "B", "text": "DNA replication only", "correct": false },
+        { "letter": "C", "text": "Cytokinesis only", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "Meiosis generates genetic diversity through random orientation of bivalents and crossing over."
+    },
+    {
+      "id": "D2.1-020",
+      "level": "SL",
+      "statement": "D2.1.11",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "During meiosis, sections of homologous chromosomes are exchanged.",
+      "stem": "This process is called:",
+      "options": [
+        { "letter": "A", "text": "Crossing over", "correct": true },
+        { "letter": "B", "text": "Non-disjunction", "correct": false },
+        { "letter": "C", "text": "Translation", "correct": false },
+        { "letter": "D", "text": "Cytokinesis", "correct": false }
+      ],
+      "explanation": "Crossing over exchanges sections between homologous chromosomes, contributing to genetic diversity."
+    },
+    {
+      "id": "D2.1-021",
+      "level": "SL",
+      "statement": "D2.1.4",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Which process is needed for producing gametes in a sexual life cycle?",
+      "options": [
+        { "letter": "A", "text": "Meiosis", "correct": true },
+        { "letter": "B", "text": "Mitosis", "correct": false },
+        { "letter": "C", "text": "Transcription", "correct": false },
+        { "letter": "D", "text": "Cytokinesis alone", "correct": false }
+      ],
+      "explanation": "Meiosis halves the chromosome number to produce haploid gametes needed in a sexual life cycle."
+    },
+    {
+      "id": "D2.1-022",
+      "level": "SL",
+      "statement": "D2.1.7",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "During metaphase of mitosis, chromosomes:",
+      "options": [
+        { "letter": "A", "text": "Line up at the equator of the cell", "correct": true },
+        { "letter": "B", "text": "Separate to the poles", "correct": false },
+        { "letter": "C", "text": "Decondense", "correct": false },
+        { "letter": "D", "text": "Are replicated", "correct": false }
+      ],
+      "explanation": "In metaphase the chromosomes line up at the cell's equator before the chromatids separate in anaphase."
+    },
+    {
+      "id": "D2.1-023",
+      "level": "SL",
+      "statement": "D2.1.5",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "DNA replication is a prerequisite for mitosis and meiosis because it:",
+      "options": [
+        { "letter": "A", "text": "Provides two chromatids per chromosome to distribute", "correct": true },
+        { "letter": "B", "text": "Destroys the DNA", "correct": false },
+        { "letter": "C", "text": "Halves the DNA", "correct": false },
+        { "letter": "D", "text": "Converts DNA to protein", "correct": false }
+      ],
+      "explanation": "Replication produces two chromatids per chromosome so copies can be distributed to daughter cells or nuclei."
+    },
+    {
+      "id": "D2.1-024",
+      "level": "SL",
+      "statement": "D2.1.10",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "In non-disjunction, chromosomes fail to separate.",
+      "stem": "The resulting gamete may have:",
+      "options": [
+        { "letter": "A", "text": "An abnormal chromosome number", "correct": true },
+        { "letter": "B", "text": "No DNA", "correct": false },
+        { "letter": "C", "text": "Only proteins", "correct": false },
+        { "letter": "D", "text": "The exact normal chromosome number always", "correct": false }
+      ],
+      "explanation": "Non-disjunction produces gametes with an abnormal chromosome number, as in Down syndrome."
+    },
+    {
+      "id": "D2.1-025",
+      "level": "SL",
+      "statement": "D2.1.1",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "New cells in living organisms are generated by:",
+      "options": [
+        { "letter": "A", "text": "Cell division", "correct": true },
+        { "letter": "B", "text": "Spontaneous generation", "correct": false },
+        { "letter": "C", "text": "Translation", "correct": false },
+        { "letter": "D", "text": "Diffusion", "correct": false }
+      ],
+      "explanation": "New cells are generated by cell division, in which a parent cell divides into daughter cells."
+    },
+    {
+      "id": "D2.1-026",
+      "level": "SL",
+      "statement": "D2.1.9",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "How many rounds of division occur in meiosis?",
+      "options": [
+        { "letter": "A", "text": "Two", "correct": true },
+        { "letter": "B", "text": "One", "correct": false },
+        { "letter": "C", "text": "Four", "correct": false },
+        { "letter": "D", "text": "Three", "correct": false }
+      ],
+      "explanation": "Meiosis has two divisions (two rounds of segregation), producing four haploid nuclei."
+    },
+    {
+      "id": "D2.1-027",
+      "level": "SL",
+      "statement": "D2.1.7",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "The overall result of mitosis is important for:",
+      "options": [
+        { "letter": "A", "text": "Growth and tissue repair with identical cells", "correct": true },
+        { "letter": "B", "text": "Producing genetically varied gametes", "correct": false },
+        { "letter": "C", "text": "Halving the chromosome number", "correct": false },
+        { "letter": "D", "text": "Making proteins", "correct": false }
+      ],
+      "explanation": "Mitosis produces genetically identical cells, important for growth, tissue replacement and repair."
+    },
+    {
+      "id": "D2.1-028",
+      "level": "SL",
+      "statement": "D2.1.3",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "Budding in yeast produces a small and a large cell.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Unequal cytokinesis", "correct": true },
+        { "letter": "B", "text": "Equal cytokinesis", "correct": false },
+        { "letter": "C", "text": "Meiosis", "correct": false },
+        { "letter": "D", "text": "Crossing over", "correct": false }
+      ],
+      "explanation": "Budding in yeast and oogenesis in humans are examples of unequal cytokinesis."
+    },
+    {
+      "id": "D2.1-029",
+      "level": "SL",
+      "statement": "D2.1.6",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Condensation of chromosomes is a shared feature of:",
+      "options": [
+        { "letter": "A", "text": "Both mitosis and meiosis", "correct": true },
+        { "letter": "B", "text": "Only mitosis", "correct": false },
+        { "letter": "C", "text": "Only meiosis", "correct": false },
+        { "letter": "D", "text": "Neither", "correct": false }
+      ],
+      "explanation": "Condensation and movement of chromosomes are features shared by both mitosis and meiosis."
+    },
+    {
+      "id": "D2.1-030",
+      "level": "SL",
+      "statement": "D2.1.11",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "Bivalents orient randomly at the equator during meiosis.",
+      "stem": "This random orientation:",
+      "options": [
+        { "letter": "A", "text": "Increases the variety of gametes produced", "correct": true },
+        { "letter": "B", "text": "Makes all gametes identical", "correct": false },
+        { "letter": "C", "text": "Halts meiosis", "correct": false },
+        { "letter": "D", "text": "Copies the DNA", "correct": false }
+      ],
+      "explanation": "Random orientation of bivalents produces many different combinations of chromosomes in gametes, increasing diversity."
+    },
+    {
+      "id": "D2.1-031",
+      "level": "SL",
+      "statement": "D2.1.4",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Which correctly contrasts mitosis and meiosis?",
+      "options": [
+        { "letter": "A", "text": "Mitosis keeps chromosome number; meiosis halves it", "correct": true },
+        { "letter": "B", "text": "Mitosis halves chromosome number; meiosis keeps it", "correct": false },
+        { "letter": "C", "text": "Both halve chromosome number", "correct": false },
+        { "letter": "D", "text": "Both produce gametes", "correct": false }
+      ],
+      "explanation": "Mitosis maintains chromosome number and produces identical cells; meiosis halves it and generates variation."
+    },
+    {
+      "id": "D2.1-032",
+      "level": "SL",
+      "statement": "D2.1.5",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "The two chromatids of a chromosome are held together until:",
+      "options": [
+        { "letter": "A", "text": "Anaphase", "correct": true },
+        { "letter": "B", "text": "Interphase", "correct": false },
+        { "letter": "C", "text": "Transcription", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "After replication each chromosome has two chromatids held together until anaphase, when they separate."
+    },
+    {
+      "id": "D2.1-033",
+      "level": "SL",
+      "statement": "D2.1.9",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "A haploid cell is one that has:",
+      "options": [
+        { "letter": "A", "text": "One set of chromosomes", "correct": true },
+        { "letter": "B", "text": "Two sets of chromosomes", "correct": false },
+        { "letter": "C", "text": "No chromosomes", "correct": false },
+        { "letter": "D", "text": "Four sets of chromosomes", "correct": false }
+      ],
+      "explanation": "Haploid cells have one set of chromosomes; gametes are haploid, formed by meiosis from diploid cells."
+    },
+    {
+      "id": "D2.1-034",
+      "level": "HL",
+      "statement": "D2.1.12",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Cell proliferation for growth occurs in plants within:",
+      "options": [
+        { "letter": "A", "text": "Meristems", "correct": true },
+        { "letter": "B", "text": "The xylem lumen", "correct": false },
+        { "letter": "C", "text": "The waxy cuticle", "correct": false },
+        { "letter": "D", "text": "The stomata", "correct": false }
+      ],
+      "explanation": "Plant meristems are sites of cell proliferation for growth; early-stage animal embryos are another example."
+    },
+    {
+      "id": "D2.1-035",
+      "level": "HL",
+      "statement": "D2.1.12",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "Skin cells are constantly replaced and repaired.",
+      "stem": "This is an example of cell proliferation for:",
+      "options": [
+        { "letter": "A", "text": "Cell replacement and tissue repair", "correct": true },
+        { "letter": "B", "text": "Meiosis", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "Gas exchange", "correct": false }
+      ],
+      "explanation": "Skin illustrates cell proliferation during routine cell replacement and during wound healing."
+    },
+    {
+      "id": "D2.1-036",
+      "level": "HL",
+      "statement": "D2.1.13",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Which is the correct order of the cell cycle stages?",
+      "options": [
+        { "letter": "A", "text": "G1, S, G2, mitosis, cytokinesis", "correct": true },
+        { "letter": "B", "text": "Mitosis, G1, S, G2", "correct": false },
+        { "letter": "C", "text": "S, G1, G2, cytokinesis", "correct": false },
+        { "letter": "D", "text": "Cytokinesis, mitosis, S", "correct": false }
+      ],
+      "explanation": "The cell cycle runs G1, S and G2 (interphase), then mitosis and cytokinesis."
+    },
+    {
+      "id": "D2.1-037",
+      "level": "HL",
+      "statement": "D2.1.13",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "DNA is replicated during one stage of interphase.",
+      "stem": "Which stage is this?",
+      "options": [
+        { "letter": "A", "text": "S phase", "correct": true },
+        { "letter": "B", "text": "G1 phase", "correct": false },
+        { "letter": "C", "text": "G2 phase", "correct": false },
+        { "letter": "D", "text": "Mitosis", "correct": false }
+      ],
+      "explanation": "DNA is synthesized (replicated) during the S phase of interphase."
+    },
+    {
+      "id": "D2.1-038",
+      "level": "HL",
+      "statement": "D2.1.14",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Interphase is described as a period that is:",
+      "options": [
+        { "letter": "A", "text": "Metabolically active, with growth and biosynthesis", "correct": true },
+        { "letter": "B", "text": "A resting stage with no activity", "correct": false },
+        { "letter": "C", "text": "When the cell divides its nucleus", "correct": false },
+        { "letter": "D", "text": "When cytokinesis occurs", "correct": false }
+      ],
+      "explanation": "Interphase is metabolically active: the cell grows and carries out biosynthesis of proteins and DNA."
+    },
+    {
+      "id": "D2.1-039",
+      "level": "HL",
+      "statement": "D2.1.14",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "During interphase the number of mitochondria increases.",
+      "stem": "This occurs by:",
+      "options": [
+        { "letter": "A", "text": "Growth and division of existing organelles", "correct": true },
+        { "letter": "B", "text": "Spontaneous formation from nothing", "correct": false },
+        { "letter": "C", "text": "Translation of mRNA into mitochondria", "correct": false },
+        { "letter": "D", "text": "Osmosis", "correct": false }
+      ],
+      "explanation": "Numbers of mitochondria and chloroplasts increase during interphase by growth and division of these organelles."
+    },
+    {
+      "id": "D2.1-040",
+      "level": "HL",
+      "statement": "D2.1.15",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "The cell cycle is controlled by proteins called:",
+      "options": [
+        { "letter": "A", "text": "Cyclins", "correct": true },
+        { "letter": "B", "text": "Histones", "correct": false },
+        { "letter": "C", "text": "Cytokines", "correct": false },
+        { "letter": "D", "text": "Aquaporins", "correct": false }
+      ],
+      "explanation": "Cyclins control the cell cycle; a threshold level of a specific cyclin is required to pass each checkpoint."
+    },
+    {
+      "id": "D2.1-041",
+      "level": "HL",
+      "statement": "D2.1.15",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "How do cyclin concentrations behave during the cell cycle?",
+      "options": [
+        { "letter": "A", "text": "They increase and decrease at different points", "correct": true },
+        { "letter": "B", "text": "They stay perfectly constant", "correct": false },
+        { "letter": "C", "text": "They are always zero", "correct": false },
+        { "letter": "D", "text": "They never change", "correct": false }
+      ],
+      "explanation": "Different cyclins increase and decrease during the cycle; a threshold level is needed to pass each checkpoint."
+    },
+    {
+      "id": "D2.1-042",
+      "level": "HL",
+      "statement": "D2.1.16",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "A mutation converts a proto-oncogene into an oncogene.",
+      "stem": "The likely consequence is:",
+      "options": [
+        { "letter": "A", "text": "Uncontrolled cell division", "correct": true },
+        { "letter": "B", "text": "No cell division at all", "correct": false },
+        { "letter": "C", "text": "Faster photosynthesis", "correct": false },
+        { "letter": "D", "text": "Loss of the cell wall", "correct": false }
+      ],
+      "explanation": "Mutations converting proto-oncogenes to oncogenes, or disabling tumour suppressor genes, cause uncontrolled cell division."
+    },
+    {
+      "id": "D2.1-043",
+      "level": "HL",
+      "statement": "D2.1.16",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Mutations in which type of gene can remove the normal brakes on cell division?",
+      "options": [
+        { "letter": "A", "text": "Tumour suppressor genes", "correct": true },
+        { "letter": "B", "text": "Genes for haemoglobin", "correct": false },
+        { "letter": "C", "text": "Genes for cellulose", "correct": false },
+        { "letter": "D", "text": "Genes for chlorophyll", "correct": false }
+      ],
+      "explanation": "Mutations in tumour suppressor genes (and proto-oncogenes) can lead to uncontrolled cell division."
+    },
+    {
+      "id": "D2.1-044",
+      "level": "HL",
+      "statement": "D2.1.17",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "A tumour does not spread to other tissues.",
+      "stem": "It is best described as:",
+      "options": [
+        { "letter": "A", "text": "Benign", "correct": true },
+        { "letter": "B", "text": "Malignant", "correct": false },
+        { "letter": "C", "text": "A secondary tumour", "correct": false },
+        { "letter": "D", "text": "Metastatic", "correct": false }
+      ],
+      "explanation": "A benign tumour does not invade or spread; a malignant tumour can metastasize and cause cancer."
+    },
+    {
+      "id": "D2.1-045",
+      "level": "HL",
+      "statement": "D2.1.17",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "Cancer cells break away from a primary tumour and form new tumours elsewhere.",
+      "stem": "This spreading is called:",
+      "options": [
+        { "letter": "A", "text": "Metastasis", "correct": true },
+        { "letter": "B", "text": "Cytokinesis", "correct": false },
+        { "letter": "C", "text": "Transcription", "correct": false },
+        { "letter": "D", "text": "Crossing over", "correct": false }
+      ],
+      "explanation": "Metastasis is the spread of malignant cells to form secondary tumours, distinguishing malignant from benign tumours."
+    },
+    {
+      "id": "D2.1-046",
+      "level": "HL",
+      "statement": "D2.1.17",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "A student observes cells to find the proportion undergoing mitosis.",
+      "stem": "This proportion is the:",
+      "options": [
+        { "letter": "A", "text": "Mitotic index", "correct": true },
+        { "letter": "B", "text": "Lincoln index", "correct": false },
+        { "letter": "C", "text": "Rf value", "correct": false },
+        { "letter": "D", "text": "Coefficient of determination", "correct": false }
+      ],
+      "explanation": "The mitotic index is the proportion of cells undergoing mitosis, determined by observing cell populations."
+    },
+    {
+      "id": "D2.1-047",
+      "level": "HL",
+      "statement": "D2.1.13",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Which stages together make up interphase?",
+      "options": [
+        { "letter": "A", "text": "G1, S and G2", "correct": true },
+        { "letter": "B", "text": "Prophase, metaphase and anaphase", "correct": false },
+        { "letter": "C", "text": "Mitosis and cytokinesis", "correct": false },
+        { "letter": "D", "text": "Transcription and translation", "correct": false }
+      ],
+      "explanation": "Interphase consists of G1, S and G2, followed by mitosis and then cytokinesis."
+    },
+    {
+      "id": "D2.1-048",
+      "level": "HL",
+      "statement": "D2.1.15",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "A specific cyclin does not reach its threshold level.",
+      "stem": "What happens at the checkpoint?",
+      "options": [
+        { "letter": "A", "text": "The cell cannot pass that checkpoint", "correct": true },
+        { "letter": "B", "text": "The cell divides immediately", "correct": false },
+        { "letter": "C", "text": "The DNA is destroyed", "correct": false },
+        { "letter": "D", "text": "The cell becomes a gamete", "correct": false }
+      ],
+      "explanation": "A threshold level of the specific cyclin is required to pass each checkpoint, so the cycle stops if it is not reached."
+    },
+    {
+      "id": "D2.1-049",
+      "level": "HL",
+      "statement": "D2.1.16",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "",
+      "stem": "Cancer arises when mutations lead to:",
+      "options": [
+        { "letter": "A", "text": "Uncontrolled cell division", "correct": true },
+        { "letter": "B", "text": "Cells that cannot divide at all", "correct": false },
+        { "letter": "C", "text": "More efficient photosynthesis", "correct": false },
+        { "letter": "D", "text": "Loss of all mitochondria", "correct": false }
+      ],
+      "explanation": "Mutations in genes controlling the cell cycle (proto-oncogenes and tumour suppressor genes) cause uncontrolled division."
+    },
+    {
+      "id": "D2.1-050",
+      "level": "HL",
+      "statement": "D2.1.17",
+      "category": "D2.1 Cell and nuclear division",
+      "scenario": "A tumour that has spread has formed a new growth in a distant organ.",
+      "stem": "The new growth is a:",
+      "options": [
+        { "letter": "A", "text": "Secondary tumour", "correct": true },
+        { "letter": "B", "text": "Primary tumour", "correct": false },
+        { "letter": "C", "text": "Benign tumour by definition", "correct": false },
+        { "letter": "D", "text": "Meristem", "correct": false }
+      ],
+      "explanation": "A secondary tumour forms when malignant cells metastasize from the primary tumour to a new location."
+    }
+  ]
+}

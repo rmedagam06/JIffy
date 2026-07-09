@@ -1,0 +1,760 @@
+{
+  "id": "D1.1",
+  "name": "DNA replication",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Molecules",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "D1.1-001",
+      "level": "SL",
+      "statement": "D1.1.1",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "DNA replication produces:",
+      "options": [
+        { "letter": "A", "text": "Exact copies of DNA with identical base sequences", "correct": true },
+        { "letter": "B", "text": "RNA from a DNA template", "correct": false },
+        { "letter": "C", "text": "Proteins from mRNA", "correct": false },
+        { "letter": "D", "text": "Random new base sequences", "correct": false }
+      ],
+      "explanation": "DNA replication makes exact copies with identical base sequences, needed for reproduction, growth and tissue replacement."
+    },
+    {
+      "id": "D1.1-002",
+      "level": "SL",
+      "statement": "D1.1.1",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Why is DNA replication required in multicellular organisms?",
+      "options": [
+        { "letter": "A", "text": "For growth and tissue replacement", "correct": true },
+        { "letter": "B", "text": "To make proteins directly", "correct": false },
+        { "letter": "C", "text": "To digest food", "correct": false },
+        { "letter": "D", "text": "To transport oxygen", "correct": false }
+      ],
+      "explanation": "DNA replication is required for reproduction and for growth and tissue replacement in multicellular organisms."
+    },
+    {
+      "id": "D1.1-003",
+      "level": "SL",
+      "statement": "D1.1.2",
+      "category": "D1.1 DNA replication",
+      "scenario": "Each new DNA molecule contains one original strand and one new strand.",
+      "stem": "This describes replication that is:",
+      "options": [
+        { "letter": "A", "text": "Semi-conservative", "correct": true },
+        { "letter": "B", "text": "Conservative", "correct": false },
+        { "letter": "C", "text": "Dispersive", "correct": false },
+        { "letter": "D", "text": "Non-existent", "correct": false }
+      ],
+      "explanation": "DNA replication is semi-conservative: each new molecule has one original (conserved) strand and one new strand."
+    },
+    {
+      "id": "D1.1-004",
+      "level": "SL",
+      "statement": "D1.1.2",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "The accuracy of copying base sequences during replication depends on:",
+      "options": [
+        { "letter": "A", "text": "Complementary base pairing", "correct": true },
+        { "letter": "B", "text": "Random pairing of bases", "correct": false },
+        { "letter": "C", "text": "The absence of enzymes", "correct": false },
+        { "letter": "D", "text": "The cell wall", "correct": false }
+      ],
+      "explanation": "The semi-conservative process and complementary base pairing allow a high degree of accuracy in copying base sequences."
+    },
+    {
+      "id": "D1.1-005",
+      "level": "SL",
+      "statement": "D1.1.3",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "What is the role of helicase in DNA replication?",
+      "options": [
+        { "letter": "A", "text": "Unwinding DNA and breaking hydrogen bonds between strands", "correct": true },
+        { "letter": "B", "text": "Adding new nucleotides", "correct": false },
+        { "letter": "C", "text": "Joining Okazaki fragments", "correct": false },
+        { "letter": "D", "text": "Translating mRNA", "correct": false }
+      ],
+      "explanation": "Helicase unwinds the DNA and breaks the hydrogen bonds between the two strands."
+    },
+    {
+      "id": "D1.1-006",
+      "level": "SL",
+      "statement": "D1.1.3",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "What is the general role of DNA polymerase in replication?",
+      "options": [
+        { "letter": "A", "text": "Adding new nucleotides to build the new strand", "correct": true },
+        { "letter": "B", "text": "Unwinding the double helix", "correct": false },
+        { "letter": "C", "text": "Breaking hydrogen bonds", "correct": false },
+        { "letter": "D", "text": "Making RNA only", "correct": false }
+      ],
+      "explanation": "DNA polymerase adds nucleotides to synthesize the new complementary strand."
+    },
+    {
+      "id": "D1.1-007",
+      "level": "SL",
+      "statement": "D1.1.4",
+      "category": "D1.1 DNA replication",
+      "scenario": "A scientist makes many copies of a DNA sample in the laboratory.",
+      "stem": "Which technique is used?",
+      "options": [
+        { "letter": "A", "text": "The polymerase chain reaction (PCR)", "correct": true },
+        { "letter": "B", "text": "Gel electrophoresis", "correct": false },
+        { "letter": "C", "text": "Chromatography", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "PCR amplifies DNA, making many copies using primers, temperature changes and Taq polymerase."
+    },
+    {
+      "id": "D1.1-008",
+      "level": "SL",
+      "statement": "D1.1.4",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Which heat-tolerant enzyme is used in PCR?",
+      "options": [
+        { "letter": "A", "text": "Taq polymerase", "correct": true },
+        { "letter": "B", "text": "Helicase", "correct": false },
+        { "letter": "C", "text": "DNA ligase", "correct": false },
+        { "letter": "D", "text": "Amylase", "correct": false }
+      ],
+      "explanation": "Taq polymerase, which tolerates the high temperatures used in PCR, synthesizes the new DNA strands."
+    },
+    {
+      "id": "D1.1-009",
+      "level": "SL",
+      "statement": "D1.1.4",
+      "category": "D1.1 DNA replication",
+      "scenario": "DNA fragments are separated in a gel by applying a voltage.",
+      "stem": "On what basis are the fragments separated in gel electrophoresis?",
+      "options": [
+        { "letter": "A", "text": "Their size (length)", "correct": true },
+        { "letter": "B", "text": "Their colour", "correct": false },
+        { "letter": "C", "text": "Their temperature", "correct": false },
+        { "letter": "D", "text": "Their amino acid sequence", "correct": false }
+      ],
+      "explanation": "Gel electrophoresis separates DNA fragments by size, as smaller fragments move further through the gel."
+    },
+    {
+      "id": "D1.1-010",
+      "level": "SL",
+      "statement": "D1.1.4",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Short single strands of DNA that provide a starting point for PCR are called:",
+      "options": [
+        { "letter": "A", "text": "Primers", "correct": true },
+        { "letter": "B", "text": "Codons", "correct": false },
+        { "letter": "C", "text": "Introns", "correct": false },
+        { "letter": "D", "text": "Ribosomes", "correct": false }
+      ],
+      "explanation": "Primers are short sequences that provide a starting point for DNA polymerase during PCR."
+    },
+    {
+      "id": "D1.1-011",
+      "level": "SL",
+      "statement": "D1.1.5",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Which is an application of PCR and gel electrophoresis?",
+      "options": [
+        { "letter": "A", "text": "DNA profiling for forensic investigations", "correct": true },
+        { "letter": "B", "text": "Photosynthesis", "correct": false },
+        { "letter": "C", "text": "Gas exchange", "correct": false },
+        { "letter": "D", "text": "Thermoregulation", "correct": false }
+      ],
+      "explanation": "Applications include DNA profiling for paternity and forensic investigations."
+    },
+    {
+      "id": "D1.1-012",
+      "level": "SL",
+      "statement": "D1.1.5",
+      "category": "D1.1 DNA replication",
+      "scenario": "In DNA profiling, more genetic markers are examined.",
+      "stem": "What is the effect of increasing the number of markers?",
+      "options": [
+        { "letter": "A", "text": "It reduces the probability of a false match", "correct": true },
+        { "letter": "B", "text": "It increases the chance of a false match", "correct": false },
+        { "letter": "C", "text": "It has no effect on reliability", "correct": false },
+        { "letter": "D", "text": "It removes the need for DNA", "correct": false }
+      ],
+      "explanation": "Increasing the number of markers used in DNA profiling reduces the probability of a false match, enhancing reliability."
+    },
+    {
+      "id": "D1.1-013",
+      "level": "SL",
+      "statement": "D1.1.2",
+      "category": "D1.1 DNA replication",
+      "scenario": "One DNA strand reads TACG.",
+      "stem": "The newly synthesized complementary strand reads:",
+      "options": [
+        { "letter": "A", "text": "ATGC", "correct": true },
+        { "letter": "B", "text": "TACG", "correct": false },
+        { "letter": "C", "text": "AUGC", "correct": false },
+        { "letter": "D", "text": "GCAT", "correct": false }
+      ],
+      "explanation": "Complementary base pairing (A-T, G-C) gives ATGC as the complement of TACG."
+    },
+    {
+      "id": "D1.1-014",
+      "level": "SL",
+      "statement": "D1.1.1",
+      "category": "D1.1 DNA replication",
+      "scenario": "A single cell divides to form two cells with identical genetic information.",
+      "stem": "This required which process beforehand?",
+      "options": [
+        { "letter": "A", "text": "DNA replication", "correct": true },
+        { "letter": "B", "text": "Translation", "correct": false },
+        { "letter": "C", "text": "Transpiration", "correct": false },
+        { "letter": "D", "text": "Denaturation", "correct": false }
+      ],
+      "explanation": "DNA is replicated before cell division so each daughter cell receives an identical copy of the genome."
+    },
+    {
+      "id": "D1.1-015",
+      "level": "SL",
+      "statement": "D1.1.3",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Helicase breaks which type of bond during replication?",
+      "options": [
+        { "letter": "A", "text": "Hydrogen bonds between base pairs", "correct": true },
+        { "letter": "B", "text": "Covalent bonds in the backbone", "correct": false },
+        { "letter": "C", "text": "Peptide bonds", "correct": false },
+        { "letter": "D", "text": "Ionic bonds", "correct": false }
+      ],
+      "explanation": "Helicase breaks the hydrogen bonds between complementary bases, separating the two DNA strands."
+    },
+    {
+      "id": "D1.1-016",
+      "level": "SL",
+      "statement": "D1.1.5",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "DNA profiling can be used to establish:",
+      "options": [
+        { "letter": "A", "text": "Paternity relationships", "correct": true },
+        { "letter": "B", "text": "The rate of photosynthesis", "correct": false },
+        { "letter": "C", "text": "Blood pressure", "correct": false },
+        { "letter": "D", "text": "Lung volume", "correct": false }
+      ],
+      "explanation": "DNA profiling has applications including paternity testing and forensic investigations."
+    },
+    {
+      "id": "D1.1-017",
+      "level": "SL",
+      "statement": "D1.1.4",
+      "category": "D1.1 DNA replication",
+      "scenario": "PCR uses repeated cycles of heating and cooling.",
+      "stem": "Why are temperature changes needed?",
+      "options": [
+        { "letter": "A", "text": "To separate strands, bind primers and allow polymerase to work", "correct": true },
+        { "letter": "B", "text": "To denature the DNA permanently", "correct": false },
+        { "letter": "C", "text": "To translate the DNA", "correct": false },
+        { "letter": "D", "text": "To stop replication", "correct": false }
+      ],
+      "explanation": "PCR uses temperature changes to separate strands, anneal primers and allow Taq polymerase to extend new strands."
+    },
+    {
+      "id": "D1.1-018",
+      "level": "SL",
+      "statement": "D1.1.2",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "In semi-conservative replication, each original strand acts as a:",
+      "options": [
+        { "letter": "A", "text": "Template for a new strand", "correct": true },
+        { "letter": "B", "text": "Ribosome", "correct": false },
+        { "letter": "C", "text": "Product", "correct": false },
+        { "letter": "D", "text": "Waste molecule", "correct": false }
+      ],
+      "explanation": "Each original strand serves as a template for synthesizing a new complementary strand."
+    },
+    {
+      "id": "D1.1-019",
+      "level": "SL",
+      "statement": "D1.1.5",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Increasing the number of measurements in a test generally:",
+      "options": [
+        { "letter": "A", "text": "Enhances reliability", "correct": true },
+        { "letter": "B", "text": "Reduces reliability", "correct": false },
+        { "letter": "C", "text": "Has no effect", "correct": false },
+        { "letter": "D", "text": "Guarantees certainty", "correct": false }
+      ],
+      "explanation": "Reliability is enhanced by increasing the number of measurements, as with markers in DNA profiling."
+    },
+    {
+      "id": "D1.1-020",
+      "level": "SL",
+      "statement": "D1.1.1",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "The two DNA molecules produced by replication of one molecule should be:",
+      "options": [
+        { "letter": "A", "text": "Identical in base sequence to the original", "correct": true },
+        { "letter": "B", "text": "Completely different from the original", "correct": false },
+        { "letter": "C", "text": "Made of RNA", "correct": false },
+        { "letter": "D", "text": "Made of protein", "correct": false }
+      ],
+      "explanation": "Replication produces exact copies with base sequences identical to the original DNA molecule."
+    },
+    {
+      "id": "D1.1-021",
+      "level": "SL",
+      "statement": "D1.1.4",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "The polymerase chain reaction is used to:",
+      "options": [
+        { "letter": "A", "text": "Amplify DNA (make many copies)", "correct": true },
+        { "letter": "B", "text": "Separate DNA fragments by size", "correct": false },
+        { "letter": "C", "text": "Translate DNA into protein", "correct": false },
+        { "letter": "D", "text": "Break down DNA", "correct": false }
+      ],
+      "explanation": "PCR amplifies DNA; gel electrophoresis then separates the fragments by size."
+    },
+    {
+      "id": "D1.1-022",
+      "level": "SL",
+      "statement": "D1.1.3",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Which enzyme is responsible for adding complementary nucleotides during replication?",
+      "options": [
+        { "letter": "A", "text": "DNA polymerase", "correct": true },
+        { "letter": "B", "text": "Helicase", "correct": false },
+        { "letter": "C", "text": "RNA polymerase", "correct": false },
+        { "letter": "D", "text": "Amylase", "correct": false }
+      ],
+      "explanation": "DNA polymerase adds nucleotides to build the new strand, while helicase unwinds the DNA."
+    },
+    {
+      "id": "D1.1-023",
+      "level": "SL",
+      "statement": "D1.1.2",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Why is semi-conservative replication described as accurate?",
+      "options": [
+        { "letter": "A", "text": "Each new strand is built by complementary base pairing with a template", "correct": true },
+        { "letter": "B", "text": "Bases pair at random", "correct": false },
+        { "letter": "C", "text": "No template is used", "correct": false },
+        { "letter": "D", "text": "It skips base pairing", "correct": false }
+      ],
+      "explanation": "Building each new strand by complementary base pairing with a conserved template gives high accuracy."
+    },
+    {
+      "id": "D1.1-024",
+      "level": "SL",
+      "statement": "D1.1.5",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Which pair of techniques is used together in DNA profiling?",
+      "options": [
+        { "letter": "A", "text": "PCR and gel electrophoresis", "correct": true },
+        { "letter": "B", "text": "Chromatography and titration", "correct": false },
+        { "letter": "C", "text": "Microscopy and staining", "correct": false },
+        { "letter": "D", "text": "Respirometry and spirometry", "correct": false }
+      ],
+      "explanation": "PCR amplifies DNA and gel electrophoresis separates the fragments, together enabling DNA profiling."
+    },
+    {
+      "id": "D1.1-025",
+      "level": "SL",
+      "statement": "D1.1.1",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "DNA replication is essential for reproduction because it:",
+      "options": [
+        { "letter": "A", "text": "Ensures offspring receive a copy of the genetic information", "correct": true },
+        { "letter": "B", "text": "Destroys genetic information", "correct": false },
+        { "letter": "C", "text": "Converts DNA to protein", "correct": false },
+        { "letter": "D", "text": "Prevents cell division", "correct": false }
+      ],
+      "explanation": "Replication produces exact copies of DNA so genetic information can be passed on in reproduction."
+    },
+    {
+      "id": "D1.1-026",
+      "level": "HL",
+      "statement": "D1.1.6",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "DNA polymerases add a new nucleotide's 5' end to which end of the growing strand?",
+      "options": [
+        { "letter": "A", "text": "The 3' end", "correct": true },
+        { "letter": "B", "text": "The 5' end", "correct": false },
+        { "letter": "C", "text": "Either end equally", "correct": false },
+        { "letter": "D", "text": "Neither end", "correct": false }
+      ],
+      "explanation": "DNA polymerases add the 5' of a new nucleotide to the 3' end of the growing strand, giving directionality."
+    },
+    {
+      "id": "D1.1-027",
+      "level": "HL",
+      "statement": "D1.1.7",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Replication on the leading strand is:",
+      "options": [
+        { "letter": "A", "text": "Continuous", "correct": true },
+        { "letter": "B", "text": "Discontinuous", "correct": false },
+        { "letter": "C", "text": "In Okazaki fragments", "correct": false },
+        { "letter": "D", "text": "Impossible", "correct": false }
+      ],
+      "explanation": "The leading strand is replicated continuously; the lagging strand is replicated discontinuously in Okazaki fragments."
+    },
+    {
+      "id": "D1.1-028",
+      "level": "HL",
+      "statement": "D1.1.7",
+      "category": "D1.1 DNA replication",
+      "scenario": "The lagging strand is synthesized in short pieces.",
+      "stem": "These short pieces are called:",
+      "options": [
+        { "letter": "A", "text": "Okazaki fragments", "correct": true },
+        { "letter": "B", "text": "Codons", "correct": false },
+        { "letter": "C", "text": "Introns", "correct": false },
+        { "letter": "D", "text": "Exons", "correct": false }
+      ],
+      "explanation": "The lagging strand is made discontinuously as Okazaki fragments, each requiring an RNA primer."
+    },
+    {
+      "id": "D1.1-029",
+      "level": "HL",
+      "statement": "D1.1.7",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "On which strand must RNA primer be added repeatedly?",
+      "options": [
+        { "letter": "A", "text": "The lagging strand", "correct": true },
+        { "letter": "B", "text": "The leading strand", "correct": false },
+        { "letter": "C", "text": "Both equally once", "correct": false },
+        { "letter": "D", "text": "Neither strand", "correct": false }
+      ],
+      "explanation": "The leading strand needs an RNA primer only once, but the lagging strand needs one for each Okazaki fragment."
+    },
+    {
+      "id": "D1.1-030",
+      "level": "HL",
+      "statement": "D1.1.8",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Which enzyme joins Okazaki fragments together?",
+      "options": [
+        { "letter": "A", "text": "DNA ligase", "correct": true },
+        { "letter": "B", "text": "DNA primase", "correct": false },
+        { "letter": "C", "text": "Helicase", "correct": false },
+        { "letter": "D", "text": "RNA polymerase", "correct": false }
+      ],
+      "explanation": "DNA ligase joins Okazaki fragments; primase makes primers and DNA polymerases extend and replace them."
+    },
+    {
+      "id": "D1.1-031",
+      "level": "HL",
+      "statement": "D1.1.8",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Which enzyme synthesizes the RNA primers in prokaryotic replication?",
+      "options": [
+        { "letter": "A", "text": "DNA primase", "correct": true },
+        { "letter": "B", "text": "DNA ligase", "correct": false },
+        { "letter": "C", "text": "Helicase", "correct": false },
+        { "letter": "D", "text": "DNA polymerase III", "correct": false }
+      ],
+      "explanation": "DNA primase synthesizes the RNA primers needed to begin DNA synthesis."
+    },
+    {
+      "id": "D1.1-032",
+      "level": "HL",
+      "statement": "D1.1.8",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "In the prokaryotic system, which enzyme carries out most of the new DNA synthesis?",
+      "options": [
+        { "letter": "A", "text": "DNA polymerase III", "correct": true },
+        { "letter": "B", "text": "DNA ligase", "correct": false },
+        { "letter": "C", "text": "DNA primase", "correct": false },
+        { "letter": "D", "text": "Helicase", "correct": false }
+      ],
+      "explanation": "DNA polymerase III carries out the main DNA synthesis; polymerase I replaces primers, ligase seals gaps and primase makes primers."
+    },
+    {
+      "id": "D1.1-033",
+      "level": "HL",
+      "statement": "D1.1.8",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "DNA polymerase I in prokaryotes is mainly involved in:",
+      "options": [
+        { "letter": "A", "text": "Replacing RNA primers with DNA", "correct": true },
+        { "letter": "B", "text": "Unwinding the helix", "correct": false },
+        { "letter": "C", "text": "Making the initial primer", "correct": false },
+        { "letter": "D", "text": "Translating mRNA", "correct": false }
+      ],
+      "explanation": "DNA polymerase I removes and replaces the RNA primers with DNA nucleotides."
+    },
+    {
+      "id": "D1.1-034",
+      "level": "HL",
+      "statement": "D1.1.9",
+      "category": "D1.1 DNA replication",
+      "scenario": "A mismatched base is detected at the 3' end of a new strand.",
+      "stem": "During proofreading, which enzyme removes it?",
+      "options": [
+        { "letter": "A", "text": "DNA polymerase III", "correct": true },
+        { "letter": "B", "text": "DNA ligase", "correct": false },
+        { "letter": "C", "text": "Helicase", "correct": false },
+        { "letter": "D", "text": "RNA polymerase", "correct": false }
+      ],
+      "explanation": "DNA polymerase III proofreads by removing a mismatched nucleotide from the 3' terminal and replacing it with a correct one."
+    },
+    {
+      "id": "D1.1-035",
+      "level": "HL",
+      "statement": "D1.1.9",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "DNA proofreading improves replication by:",
+      "options": [
+        { "letter": "A", "text": "Correcting mismatched bases, reducing errors", "correct": true },
+        { "letter": "B", "text": "Adding random bases", "correct": false },
+        { "letter": "C", "text": "Increasing the mutation rate", "correct": false },
+        { "letter": "D", "text": "Removing all new nucleotides", "correct": false }
+      ],
+      "explanation": "Proofreading by DNA polymerase III corrects mismatched bases, greatly increasing the accuracy of replication."
+    },
+    {
+      "id": "D1.1-036",
+      "level": "HL",
+      "statement": "D1.1.6",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "The two ends of a DNA strand are distinguished as:",
+      "options": [
+        { "letter": "A", "text": "The 5' and 3' terminals", "correct": true },
+        { "letter": "B", "text": "The N and C terminals", "correct": false },
+        { "letter": "C", "text": "The A and B terminals", "correct": false },
+        { "letter": "D", "text": "The head and tail", "correct": false }
+      ],
+      "explanation": "A DNA strand has distinct 5' and 3' terminals; polymerases add nucleotides to the 3' end."
+    },
+    {
+      "id": "D1.1-037",
+      "level": "HL",
+      "statement": "D1.1.7",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Why is the lagging strand synthesized discontinuously?",
+      "options": [
+        { "letter": "A", "text": "DNA polymerase can only add nucleotides 5' to 3', opposite to the strand's direction", "correct": true },
+        { "letter": "B", "text": "It has no template", "correct": false },
+        { "letter": "C", "text": "It contains RNA only", "correct": false },
+        { "letter": "D", "text": "It is not copied at all", "correct": false }
+      ],
+      "explanation": "Because polymerase works only 5' to 3', the lagging strand is made in short Okazaki fragments away from the replication fork."
+    },
+    {
+      "id": "D1.1-038",
+      "level": "HL",
+      "statement": "D1.1.8",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Which set of enzymes acts in prokaryotic DNA replication?",
+      "options": [
+        { "letter": "A", "text": "DNA primase, DNA polymerase I, DNA polymerase III and DNA ligase", "correct": true },
+        { "letter": "B", "text": "Amylase, lipase, protease", "correct": false },
+        { "letter": "C", "text": "Rubisco, ATP synthase", "correct": false },
+        { "letter": "D", "text": "Pepsin and trypsin", "correct": false }
+      ],
+      "explanation": "Prokaryotic replication involves DNA primase, DNA polymerase I, DNA polymerase III and DNA ligase."
+    },
+    {
+      "id": "D1.1-039",
+      "level": "HL",
+      "statement": "D1.1.9",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "After removing a mismatched nucleotide, DNA polymerase III:",
+      "options": [
+        { "letter": "A", "text": "Replaces it with a correctly matched nucleotide", "correct": true },
+        { "letter": "B", "text": "Leaves a permanent gap", "correct": false },
+        { "letter": "C", "text": "Adds an RNA base", "correct": false },
+        { "letter": "D", "text": "Stops replication", "correct": false }
+      ],
+      "explanation": "Proofreading removes the mismatched base and replaces it with a correctly paired nucleotide."
+    },
+    {
+      "id": "D1.1-040",
+      "level": "HL",
+      "statement": "D1.1.6",
+      "category": "D1.1 DNA replication",
+      "scenario": "The directionality of DNA polymerase determines how each strand is copied.",
+      "stem": "This directionality is described as:",
+      "options": [
+        { "letter": "A", "text": "5' to 3'", "correct": true },
+        { "letter": "B", "text": "3' to 5'", "correct": false },
+        { "letter": "C", "text": "Random", "correct": false },
+        { "letter": "D", "text": "Bidirectional on each strand", "correct": false }
+      ],
+      "explanation": "DNA polymerases synthesize new DNA in the 5' to 3' direction, adding to the 3' end."
+    },
+    {
+      "id": "D1.1-041",
+      "level": "HL",
+      "statement": "D1.1.7",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Which term describes replication that produces a strand in one continuous piece?",
+      "options": [
+        { "letter": "A", "text": "Continuous (leading strand)", "correct": true },
+        { "letter": "B", "text": "Discontinuous (lagging strand)", "correct": false },
+        { "letter": "C", "text": "Okazaki", "correct": false },
+        { "letter": "D", "text": "Semi-conservative", "correct": false }
+      ],
+      "explanation": "The leading strand is synthesized continuously, unlike the discontinuous lagging strand."
+    },
+    {
+      "id": "D1.1-042",
+      "level": "HL",
+      "statement": "D1.1.8",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Which enzyme seals the gaps between fragments to form a continuous strand?",
+      "options": [
+        { "letter": "A", "text": "DNA ligase", "correct": true },
+        { "letter": "B", "text": "Helicase", "correct": false },
+        { "letter": "C", "text": "DNA primase", "correct": false },
+        { "letter": "D", "text": "RNA polymerase", "correct": false }
+      ],
+      "explanation": "DNA ligase seals the gaps between Okazaki fragments, joining them into a continuous lagging strand."
+    },
+    {
+      "id": "D1.1-043",
+      "level": "HL",
+      "statement": "D1.1.9",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "DNA proofreading occurs at which position on the new strand?",
+      "options": [
+        { "letter": "A", "text": "The 3' terminal", "correct": true },
+        { "letter": "B", "text": "The 5' terminal", "correct": false },
+        { "letter": "C", "text": "The middle only", "correct": false },
+        { "letter": "D", "text": "The primer only", "correct": false }
+      ],
+      "explanation": "Proofreading by DNA polymerase III acts at the 3' terminal, where a mismatched base is removed and replaced."
+    },
+    {
+      "id": "D1.1-044",
+      "level": "HL",
+      "statement": "D1.1.6",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Because the two DNA strands are antiparallel, the polymerase copying them must:",
+      "options": [
+        { "letter": "A", "text": "Work in opposite directions on each strand", "correct": true },
+        { "letter": "B", "text": "Work in the same direction on both", "correct": false },
+        { "letter": "C", "text": "Only copy one strand", "correct": false },
+        { "letter": "D", "text": "Ignore directionality", "correct": false }
+      ],
+      "explanation": "Antiparallel strands and 5'-to-3' synthesis mean replication proceeds oppositely on the leading and lagging strands."
+    },
+    {
+      "id": "D1.1-045",
+      "level": "HL",
+      "statement": "D1.1.7",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "How many RNA primers does the leading strand require?",
+      "options": [
+        { "letter": "A", "text": "Only one", "correct": true },
+        { "letter": "B", "text": "One per Okazaki fragment", "correct": false },
+        { "letter": "C", "text": "None", "correct": false },
+        { "letter": "D", "text": "Thousands", "correct": false }
+      ],
+      "explanation": "The leading strand needs an RNA primer only once, while the lagging strand needs one for each Okazaki fragment."
+    },
+    {
+      "id": "D1.1-046",
+      "level": "HL",
+      "statement": "D1.1.9",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Proofreading during replication is important because it:",
+      "options": [
+        { "letter": "A", "text": "Keeps the mutation rate low", "correct": true },
+        { "letter": "B", "text": "Increases genetic variation deliberately", "correct": false },
+        { "letter": "C", "text": "Speeds up unwinding", "correct": false },
+        { "letter": "D", "text": "Adds RNA primers", "correct": false }
+      ],
+      "explanation": "By correcting mismatches, proofreading keeps replication highly accurate and the mutation rate low."
+    },
+    {
+      "id": "D1.1-047",
+      "level": "HL",
+      "statement": "D1.1.8",
+      "category": "D1.1 DNA replication",
+      "scenario": "The functions of the replication enzymes are studied.",
+      "stem": "The syllabus limits this detailed enzyme study to which system?",
+      "options": [
+        { "letter": "A", "text": "The prokaryotic system", "correct": true },
+        { "letter": "B", "text": "The eukaryotic system only", "correct": false },
+        { "letter": "C", "text": "Viruses only", "correct": false },
+        { "letter": "D", "text": "Plants only", "correct": false }
+      ],
+      "explanation": "The functions of DNA primase, polymerases I and III, and ligase are studied in the prokaryotic system."
+    },
+    {
+      "id": "D1.1-048",
+      "level": "HL",
+      "statement": "D1.1.6",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "A new DNA nucleotide is added by joining its 5' phosphate to the:",
+      "options": [
+        { "letter": "A", "text": "3' hydroxyl of the last nucleotide in the strand", "correct": true },
+        { "letter": "B", "text": "5' end of the last nucleotide", "correct": false },
+        { "letter": "C", "text": "Base of the template", "correct": false },
+        { "letter": "D", "text": "Nearest primer's 5' end", "correct": false }
+      ],
+      "explanation": "DNA polymerase adds the 5' of a new nucleotide to the 3' end of the growing strand, hence 5'-to-3' synthesis."
+    },
+    {
+      "id": "D1.1-049",
+      "level": "HL",
+      "statement": "D1.1.7",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "The main difference between leading and lagging strand replication is that the lagging strand is:",
+      "options": [
+        { "letter": "A", "text": "Made discontinuously in Okazaki fragments needing repeated priming", "correct": true },
+        { "letter": "B", "text": "Made continuously with one primer", "correct": false },
+        { "letter": "C", "text": "Not replicated", "correct": false },
+        { "letter": "D", "text": "Made of RNA", "correct": false }
+      ],
+      "explanation": "The lagging strand is synthesized discontinuously as Okazaki fragments, each requiring its own RNA primer."
+    },
+    {
+      "id": "D1.1-050",
+      "level": "HL",
+      "statement": "D1.1.9",
+      "category": "D1.1 DNA replication",
+      "scenario": "",
+      "stem": "Which enzyme has the proofreading role described in the syllabus?",
+      "options": [
+        { "letter": "A", "text": "DNA polymerase III", "correct": true },
+        { "letter": "B", "text": "DNA ligase", "correct": false },
+        { "letter": "C", "text": "Helicase", "correct": false },
+        { "letter": "D", "text": "DNA primase", "correct": false }
+      ],
+      "explanation": "DNA polymerase III proofreads by removing and replacing mismatched nucleotides at the 3' terminal."
+    }
+  ]
+}

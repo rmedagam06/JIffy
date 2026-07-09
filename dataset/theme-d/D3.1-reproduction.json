@@ -1,0 +1,760 @@
+{
+  "id": "D3.1",
+  "name": "Reproduction",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Organisms",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "D3.1-001",
+      "level": "SL",
+      "statement": "D3.1.1",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "An advantage of asexual reproduction is that it produces offspring that are:",
+      "options": [
+        { "letter": "A", "text": "Genetically identical, suited to an existing environment", "correct": true },
+        { "letter": "B", "text": "Always genetically varied", "correct": false },
+        { "letter": "C", "text": "Unable to survive", "correct": false },
+        { "letter": "D", "text": "From two parents", "correct": false }
+      ],
+      "explanation": "Asexual reproduction produces genetically identical offspring adapted to an existing environment."
+    },
+    {
+      "id": "D3.1-002",
+      "level": "SL",
+      "statement": "D3.1.1",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "An advantage of sexual reproduction is that it produces offspring with:",
+      "options": [
+        { "letter": "A", "text": "New gene combinations and variation", "correct": true },
+        { "letter": "B", "text": "Identical genotypes", "correct": false },
+        { "letter": "C", "text": "No genetic material", "correct": false },
+        { "letter": "D", "text": "Only the mother's genes", "correct": false }
+      ],
+      "explanation": "Sexual reproduction produces offspring with new gene combinations, giving variation for adaptation to changing environments."
+    },
+    {
+      "id": "D3.1-003",
+      "level": "SL",
+      "statement": "D3.1.2",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "In the sexual life cycle, meiosis:",
+      "options": [
+        { "letter": "A", "text": "Breaks up parental combinations of alleles", "correct": true },
+        { "letter": "B", "text": "Doubles the chromosome number", "correct": false },
+        { "letter": "C", "text": "Produces identical gametes", "correct": false },
+        { "letter": "D", "text": "Joins gametes", "correct": false }
+      ],
+      "explanation": "Meiosis breaks up parental allele combinations; fusion of gametes then produces new combinations."
+    },
+    {
+      "id": "D3.1-004",
+      "level": "SL",
+      "statement": "D3.1.2",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "The fusion of gametes is also known as:",
+      "options": [
+        { "letter": "A", "text": "Fertilization", "correct": true },
+        { "letter": "B", "text": "Meiosis", "correct": false },
+        { "letter": "C", "text": "Mitosis", "correct": false },
+        { "letter": "D", "text": "Pollination", "correct": false }
+      ],
+      "explanation": "Fusion of gametes is fertilization, producing new allele combinations in the zygote."
+    },
+    {
+      "id": "D3.1-005",
+      "level": "SL",
+      "statement": "D3.1.3",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Compared with the egg, the male gamete is typically:",
+      "options": [
+        { "letter": "A", "text": "Smaller, with fewer food reserves", "correct": true },
+        { "letter": "B", "text": "Larger, with more food reserves", "correct": false },
+        { "letter": "C", "text": "Identical in size", "correct": false },
+        { "letter": "D", "text": "Non-motile", "correct": false }
+      ],
+      "explanation": "The male gamete travels to the female gamete, so it is smaller with less food reserves than the egg."
+    },
+    {
+      "id": "D3.1-006",
+      "level": "SL",
+      "statement": "D3.1.4",
+      "category": "D3.1 Reproduction",
+      "scenario": "A student labels a diagram of the human female reproductive system.",
+      "stem": "Which structure produces eggs?",
+      "options": [
+        { "letter": "A", "text": "The ovary", "correct": true },
+        { "letter": "B", "text": "The oviduct", "correct": false },
+        { "letter": "C", "text": "The uterus", "correct": false },
+        { "letter": "D", "text": "The cervix", "correct": false }
+      ],
+      "explanation": "The ovaries produce eggs; students should be able to draw and annotate the reproductive systems."
+    },
+    {
+      "id": "D3.1-007",
+      "level": "SL",
+      "statement": "D3.1.5",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "The menstrual cycle consists of which two cycles together?",
+      "options": [
+        { "letter": "A", "text": "The ovarian and uterine cycles", "correct": true },
+        { "letter": "B", "text": "The cardiac and cell cycles", "correct": false },
+        { "letter": "C", "text": "The carbon and nitrogen cycles", "correct": false },
+        { "letter": "D", "text": "The Krebs and Calvin cycles", "correct": false }
+      ],
+      "explanation": "The ovarian and uterine cycles together constitute the menstrual cycle."
+    },
+    {
+      "id": "D3.1-008",
+      "level": "SL",
+      "statement": "D3.1.5",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Which hormone is involved in regulating the menstrual cycle?",
+      "options": [
+        { "letter": "A", "text": "Luteinizing hormone (LH)", "correct": true },
+        { "letter": "B", "text": "Insulin", "correct": false },
+        { "letter": "C", "text": "Glucagon", "correct": false },
+        { "letter": "D", "text": "Amylase", "correct": false }
+      ],
+      "explanation": "Oestradiol, progesterone, LH and FSH, with positive and negative feedback, regulate the ovarian and uterine cycles."
+    },
+    {
+      "id": "D3.1-009",
+      "level": "SL",
+      "statement": "D3.1.6",
+      "category": "D3.1 Reproduction",
+      "scenario": "In human fertilization, a sperm reaches an egg.",
+      "stem": "Which part of the sperm enters the egg?",
+      "options": [
+        { "letter": "A", "text": "The nucleus", "correct": true },
+        { "letter": "B", "text": "The whole sperm including tail and mitochondria", "correct": false },
+        { "letter": "C", "text": "Only the tail", "correct": false },
+        { "letter": "D", "text": "Only the mitochondria", "correct": false }
+      ],
+      "explanation": "The sperm nucleus enters the egg, but the tail and mitochondria are destroyed."
+    },
+    {
+      "id": "D3.1-010",
+      "level": "SL",
+      "statement": "D3.1.7",
+      "category": "D3.1 Reproduction",
+      "scenario": "In IVF treatment, hormones are given.",
+      "stem": "What is the purpose of the artificial hormone doses?",
+      "options": [
+        { "letter": "A", "text": "To induce superovulation", "correct": true },
+        { "letter": "B", "text": "To prevent all ovulation permanently", "correct": false },
+        { "letter": "C", "text": "To stop fertilization", "correct": false },
+        { "letter": "D", "text": "To remove the ovaries", "correct": false }
+      ],
+      "explanation": "In IVF, normal hormone secretion is suspended and artificial doses induce superovulation (multiple eggs)."
+    },
+    {
+      "id": "D3.1-011",
+      "level": "SL",
+      "statement": "D3.1.8",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "In flowering plants, male gametes are produced inside:",
+      "options": [
+        { "letter": "A", "text": "Pollen grains", "correct": true },
+        { "letter": "B", "text": "Ovules", "correct": false },
+        { "letter": "C", "text": "The stigma", "correct": false },
+        { "letter": "D", "text": "The roots", "correct": false }
+      ],
+      "explanation": "In flowering plants, gametes are produced inside pollen grains (male) and ovules (female)."
+    },
+    {
+      "id": "D3.1-012",
+      "level": "SL",
+      "statement": "D3.1.8",
+      "category": "D3.1 Reproduction",
+      "scenario": "A plant species is hermaphroditic (has both male and female parts).",
+      "stem": "Its reproduction is still classed as:",
+      "options": [
+        { "letter": "A", "text": "Sexual", "correct": true },
+        { "letter": "B", "text": "Asexual", "correct": false },
+        { "letter": "C", "text": "Neither sexual nor asexual", "correct": false },
+        { "letter": "D", "text": "Binary fission", "correct": false }
+      ],
+      "explanation": "Reproduction in flowering plants is sexual even if a species is hermaphroditic, because gametes fuse."
+    },
+    {
+      "id": "D3.1-013",
+      "level": "SL",
+      "statement": "D3.1.9",
+      "category": "D3.1 Reproduction",
+      "scenario": "A student labels an insect-pollinated flower.",
+      "stem": "Which structure receives pollen?",
+      "options": [
+        { "letter": "A", "text": "The stigma", "correct": true },
+        { "letter": "B", "text": "The anther", "correct": false },
+        { "letter": "C", "text": "The ovule", "correct": false },
+        { "letter": "D", "text": "The root", "correct": false }
+      ],
+      "explanation": "The stigma receives pollen; the anther produces it. Students draw and annotate insect-pollinated flowers."
+    },
+    {
+      "id": "D3.1-014",
+      "level": "SL",
+      "statement": "D3.1.10",
+      "category": "D3.1 Reproduction",
+      "scenario": "A plant has male and female flowers that mature at different times.",
+      "stem": "This promotes:",
+      "options": [
+        { "letter": "A", "text": "Cross-pollination", "correct": true },
+        { "letter": "B", "text": "Self-pollination", "correct": false },
+        { "letter": "C", "text": "Asexual reproduction", "correct": false },
+        { "letter": "D", "text": "Inbreeding", "correct": false }
+      ],
+      "explanation": "Different maturation times for pollen and stigma promote cross-pollination, increasing genetic variation."
+    },
+    {
+      "id": "D3.1-015",
+      "level": "SL",
+      "statement": "D3.1.10",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Which agent commonly transfers pollen between plants to promote cross-pollination?",
+      "options": [
+        { "letter": "A", "text": "Animals or wind", "correct": true },
+        { "letter": "B", "text": "The roots", "correct": false },
+        { "letter": "C", "text": "The xylem", "correct": false },
+        { "letter": "D", "text": "The stomata", "correct": false }
+      ],
+      "explanation": "Animals or wind transfer pollen between plants, promoting cross-pollination."
+    },
+    {
+      "id": "D3.1-016",
+      "level": "SL",
+      "statement": "D3.1.11",
+      "category": "D3.1 Reproduction",
+      "scenario": "Self-pollination leads to inbreeding.",
+      "stem": "What is a consequence of inbreeding?",
+      "options": [
+        { "letter": "A", "text": "Decreased genetic diversity and vigour", "correct": true },
+        { "letter": "B", "text": "Increased genetic diversity", "correct": false },
+        { "letter": "C", "text": "No change in diversity", "correct": false },
+        { "letter": "D", "text": "Loss of all genes", "correct": false }
+      ],
+      "explanation": "Self-pollination causes inbreeding, which decreases genetic diversity and vigour; self-incompatibility mechanisms counter this."
+    },
+    {
+      "id": "D3.1-017",
+      "level": "SL",
+      "statement": "D3.1.11",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Self-incompatibility mechanisms in plants ensure that:",
+      "options": [
+        { "letter": "A", "text": "Fusing gametes come from different plants", "correct": true },
+        { "letter": "B", "text": "A plant always self-fertilizes", "correct": false },
+        { "letter": "C", "text": "No fertilization occurs", "correct": false },
+        { "letter": "D", "text": "Gametes are identical", "correct": false }
+      ],
+      "explanation": "Self-incompatibility mechanisms ensure that the gametes fusing at fertilization come from different plants, increasing variation."
+    },
+    {
+      "id": "D3.1-018",
+      "level": "SL",
+      "statement": "D3.1.12",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "How does seed dispersal differ from pollination?",
+      "options": [
+        { "letter": "A", "text": "Dispersal spreads seeds; pollination transfers pollen", "correct": true },
+        { "letter": "B", "text": "They are the same process", "correct": false },
+        { "letter": "C", "text": "Dispersal transfers pollen", "correct": false },
+        { "letter": "D", "text": "Pollination spreads seeds", "correct": false }
+      ],
+      "explanation": "Seed dispersal spreads seeds away from the parent; pollination is the transfer of pollen to the stigma."
+    },
+    {
+      "id": "D3.1-019",
+      "level": "SL",
+      "statement": "D3.1.12",
+      "category": "D3.1 Reproduction",
+      "scenario": "A seed germinates.",
+      "stem": "During germination, the embryo:",
+      "options": [
+        { "letter": "A", "text": "Grows and mobilizes stored food reserves", "correct": true },
+        { "letter": "B", "text": "Stops all metabolism", "correct": false },
+        { "letter": "C", "text": "Produces pollen", "correct": false },
+        { "letter": "D", "text": "Becomes a gamete", "correct": false }
+      ],
+      "explanation": "During germination the embryo grows and develops, mobilizing the seed's food reserves."
+    },
+    {
+      "id": "D3.1-020",
+      "level": "SL",
+      "statement": "D3.1.1",
+      "category": "D3.1 Reproduction",
+      "scenario": "An environment is changing rapidly.",
+      "stem": "Which reproductive strategy is more advantageous?",
+      "options": [
+        { "letter": "A", "text": "Sexual reproduction, for variation", "correct": true },
+        { "letter": "B", "text": "Asexual reproduction, for identical offspring", "correct": false },
+        { "letter": "C", "text": "Neither", "correct": false },
+        { "letter": "D", "text": "Both give identical offspring", "correct": false }
+      ],
+      "explanation": "Sexual reproduction generates variation, which is advantageous in a changing environment; asexual suits stable environments."
+    },
+    {
+      "id": "D3.1-021",
+      "level": "SL",
+      "statement": "D3.1.6",
+      "category": "D3.1 Reproduction",
+      "scenario": "After a sperm and egg fuse in humans, their nuclear membranes dissolve.",
+      "stem": "The condensed chromosomes then:",
+      "options": [
+        { "letter": "A", "text": "Take part in a joint mitosis producing two diploid nuclei", "correct": true },
+        { "letter": "B", "text": "Are destroyed", "correct": false },
+        { "letter": "C", "text": "Undergo meiosis immediately", "correct": false },
+        { "letter": "D", "text": "Leave the cell", "correct": false }
+      ],
+      "explanation": "After the nuclear membranes dissolve, all the chromosomes participate in a joint mitosis to produce two diploid nuclei."
+    },
+    {
+      "id": "D3.1-022",
+      "level": "SL",
+      "statement": "D3.1.3",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Because the male gamete must travel to the female gamete, males typically produce:",
+      "options": [
+        { "letter": "A", "text": "Large numbers of small gametes", "correct": true },
+        { "letter": "B", "text": "A few large gametes", "correct": false },
+        { "letter": "C", "text": "No gametes", "correct": false },
+        { "letter": "D", "text": "Only one gamete", "correct": false }
+      ],
+      "explanation": "Males produce many small, mobile gametes; females produce fewer, larger gametes with food reserves."
+    },
+    {
+      "id": "D3.1-023",
+      "level": "SL",
+      "statement": "D3.1.5",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "The menstrual cycle is regulated by both positive and:",
+      "options": [
+        { "letter": "A", "text": "Negative feedback", "correct": true },
+        { "letter": "B", "text": "Osmosis", "correct": false },
+        { "letter": "C", "text": "Combustion", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "The ovarian and uterine cycles are regulated by hormones acting through both positive and negative feedback."
+    },
+    {
+      "id": "D3.1-024",
+      "level": "SL",
+      "statement": "D3.1.8",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "In flowering plant reproduction, which step follows pollination?",
+      "options": [
+        { "letter": "A", "text": "Pollen development and fertilization to produce an embryo", "correct": true },
+        { "letter": "B", "text": "Seed dispersal before fertilization", "correct": false },
+        { "letter": "C", "text": "Meiosis in the embryo", "correct": false },
+        { "letter": "D", "text": "Germination of pollen only", "correct": false }
+      ],
+      "explanation": "After pollination, pollen develops and fertilization occurs to produce an embryo within the ovule."
+    },
+    {
+      "id": "D3.1-025",
+      "level": "SL",
+      "statement": "D3.1.10",
+      "category": "D3.1 Reproduction",
+      "scenario": "A plant species has separate male and female individuals.",
+      "stem": "This is a method of promoting:",
+      "options": [
+        { "letter": "A", "text": "Cross-pollination", "correct": true },
+        { "letter": "B", "text": "Self-pollination", "correct": false },
+        { "letter": "C", "text": "Inbreeding", "correct": false },
+        { "letter": "D", "text": "Asexual reproduction", "correct": false }
+      ],
+      "explanation": "Separate male and female plants (or flowers) is a method of promoting cross-pollination."
+    },
+    {
+      "id": "D3.1-026",
+      "level": "SL",
+      "statement": "D3.1.12",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Seed dispersal is beneficial because it:",
+      "options": [
+        { "letter": "A", "text": "Reduces competition between offspring and parent", "correct": true },
+        { "letter": "B", "text": "Keeps all seeds under the parent plant", "correct": false },
+        { "letter": "C", "text": "Prevents germination", "correct": false },
+        { "letter": "D", "text": "Removes food reserves", "correct": false }
+      ],
+      "explanation": "Dispersal spreads seeds away from the parent, reducing competition for resources between offspring and parent."
+    },
+    {
+      "id": "D3.1-027",
+      "level": "SL",
+      "statement": "D3.1.4",
+      "category": "D3.1 Reproduction",
+      "scenario": "A student labels the human male reproductive system.",
+      "stem": "Which structure produces sperm?",
+      "options": [
+        { "letter": "A", "text": "The testis", "correct": true },
+        { "letter": "B", "text": "The bladder", "correct": false },
+        { "letter": "C", "text": "The ovary", "correct": false },
+        { "letter": "D", "text": "The uterus", "correct": false }
+      ],
+      "explanation": "The testes produce sperm; students should draw and annotate the male and female reproductive systems."
+    },
+    {
+      "id": "D3.1-028",
+      "level": "SL",
+      "statement": "D3.1.2",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Which two processes are essential in a sexual life cycle?",
+      "options": [
+        { "letter": "A", "text": "Meiosis and fusion of gametes", "correct": true },
+        { "letter": "B", "text": "Mitosis and cytokinesis only", "correct": false },
+        { "letter": "C", "text": "Transcription and translation", "correct": false },
+        { "letter": "D", "text": "Combustion and respiration", "correct": false }
+      ],
+      "explanation": "A sexual life cycle requires meiosis (to make haploid gametes) and fusion of gametes (fertilization)."
+    },
+    {
+      "id": "D3.1-029",
+      "level": "SL",
+      "statement": "D3.1.11",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Why do many plants have mechanisms to avoid self-fertilization?",
+      "options": [
+        { "letter": "A", "text": "To maintain genetic diversity and vigour", "correct": true },
+        { "letter": "B", "text": "To reduce genetic diversity", "correct": false },
+        { "letter": "C", "text": "To prevent all reproduction", "correct": false },
+        { "letter": "D", "text": "To make identical offspring", "correct": false }
+      ],
+      "explanation": "Self-incompatibility avoids inbreeding, maintaining genetic diversity and vigour in the species."
+    },
+    {
+      "id": "D3.1-030",
+      "level": "SL",
+      "statement": "D3.1.9",
+      "category": "D3.1 Reproduction",
+      "scenario": "An insect-pollinated flower often has brightly coloured petals and nectar.",
+      "stem": "These features function to:",
+      "options": [
+        { "letter": "A", "text": "Attract insect pollinators", "correct": true },
+        { "letter": "B", "text": "Disperse seeds", "correct": false },
+        { "letter": "C", "text": "Carry out photosynthesis", "correct": false },
+        { "letter": "D", "text": "Absorb water", "correct": false }
+      ],
+      "explanation": "Insect-pollinated flowers have features such as colourful petals and nectar to attract animal pollinators."
+    },
+    {
+      "id": "D3.1-031",
+      "level": "SL",
+      "statement": "D3.1.7",
+      "category": "D3.1 Reproduction",
+      "scenario": "In IVF, a person's normal hormone secretion is first suspended.",
+      "stem": "Why is this done before giving artificial hormones?",
+      "options": [
+        { "letter": "A", "text": "To control the cycle and allow induced superovulation", "correct": true },
+        { "letter": "B", "text": "To prevent any egg development", "correct": false },
+        { "letter": "C", "text": "To remove the ovaries", "correct": false },
+        { "letter": "D", "text": "To stop fertilization", "correct": false }
+      ],
+      "explanation": "Suspending normal secretion lets clinicians control the cycle so artificial doses can induce superovulation."
+    },
+    {
+      "id": "D3.1-032",
+      "level": "SL",
+      "statement": "D3.1.6",
+      "category": "D3.1 Reproduction",
+      "scenario": "During human fertilization, the sperm and egg membranes fuse.",
+      "stem": "What enters the egg as a result?",
+      "options": [
+        { "letter": "A", "text": "The sperm nucleus", "correct": true },
+        { "letter": "B", "text": "The sperm tail", "correct": false },
+        { "letter": "C", "text": "Nothing", "correct": false },
+        { "letter": "D", "text": "Only the sperm mitochondria", "correct": false }
+      ],
+      "explanation": "Fusion of the membranes allows the sperm nucleus to enter, while the tail and mitochondria are destroyed."
+    },
+    {
+      "id": "D3.1-033",
+      "level": "SL",
+      "statement": "D3.1.3",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "The prime difference between male and female gametes is that the male gamete:",
+      "options": [
+        { "letter": "A", "text": "Travels to the female gamete", "correct": true },
+        { "letter": "B", "text": "Is stationary", "correct": false },
+        { "letter": "C", "text": "Contains all the food reserves", "correct": false },
+        { "letter": "D", "text": "Is much larger", "correct": false }
+      ],
+      "explanation": "The male gamete travels to the female gamete, so it is smaller with fewer reserves; other differences follow from this."
+    },
+    {
+      "id": "D3.1-034",
+      "level": "HL",
+      "statement": "D3.1.13",
+      "category": "D3.1 Reproduction",
+      "scenario": "The onset of puberty is triggered by increased release of a hormone from the hypothalamus.",
+      "stem": "Which hormone is this?",
+      "options": [
+        { "letter": "A", "text": "Gonadotropin-releasing hormone (GnRH)", "correct": true },
+        { "letter": "B", "text": "Insulin", "correct": false },
+        { "letter": "C", "text": "Adrenaline", "correct": false },
+        { "letter": "D", "text": "Thyroxin", "correct": false }
+      ],
+      "explanation": "Increased GnRH release from the hypothalamus triggers the onset of increased LH and FSH release, leading to puberty."
+    },
+    {
+      "id": "D3.1-035",
+      "level": "HL",
+      "statement": "D3.1.14",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Spermatogenesis and oogenesis both include:",
+      "options": [
+        { "letter": "A", "text": "Mitosis, growth, two meiotic divisions and differentiation", "correct": true },
+        { "letter": "B", "text": "Only mitosis", "correct": false },
+        { "letter": "C", "text": "Only one division", "correct": false },
+        { "letter": "D", "text": "No cell division", "correct": false }
+      ],
+      "explanation": "Both gametogenesis processes involve mitosis, cell growth, two divisions of meiosis and differentiation."
+    },
+    {
+      "id": "D3.1-036",
+      "level": "HL",
+      "statement": "D3.1.14",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Compared with spermatogenesis, oogenesis in humans produces:",
+      "options": [
+        { "letter": "A", "text": "Fewer, larger gametes with more cytoplasm", "correct": true },
+        { "letter": "B", "text": "Many small gametes", "correct": false },
+        { "letter": "C", "text": "Identical numbers of gametes", "correct": false },
+        { "letter": "D", "text": "No gametes", "correct": false }
+      ],
+      "explanation": "Gametogenesis produces different numbers of gametes and amounts of cytoplasm: few large eggs versus many small sperm."
+    },
+    {
+      "id": "D3.1-037",
+      "level": "HL",
+      "statement": "D3.1.15",
+      "category": "D3.1 Reproduction",
+      "scenario": "A sperm penetrates the zona pellucida of an egg.",
+      "stem": "Which reaction allows this penetration?",
+      "options": [
+        { "letter": "A", "text": "The acrosome reaction", "correct": true },
+        { "letter": "B", "text": "The cortical reaction", "correct": false },
+        { "letter": "C", "text": "Meiosis", "correct": false },
+        { "letter": "D", "text": "Implantation", "correct": false }
+      ],
+      "explanation": "The acrosome reaction allows a sperm to penetrate the zona pellucida; the cortical reaction then prevents polyspermy."
+    },
+    {
+      "id": "D3.1-038",
+      "level": "HL",
+      "statement": "D3.1.15",
+      "category": "D3.1 Reproduction",
+      "scenario": "After one sperm enters, other sperm are prevented from entering.",
+      "stem": "This is achieved by the:",
+      "options": [
+        { "letter": "A", "text": "Cortical reaction", "correct": true },
+        { "letter": "B", "text": "Acrosome reaction", "correct": false },
+        { "letter": "C", "text": "Ovulation", "correct": false },
+        { "letter": "D", "text": "Implantation", "correct": false }
+      ],
+      "explanation": "The cortical reaction prevents other sperm from passing through, preventing polyspermy."
+    },
+    {
+      "id": "D3.1-039",
+      "level": "HL",
+      "statement": "D3.1.16",
+      "category": "D3.1 Reproduction",
+      "scenario": "An early embryo develops and then implants into the uterus wall.",
+      "stem": "The structure that implants is the:",
+      "options": [
+        { "letter": "A", "text": "Blastocyst", "correct": true },
+        { "letter": "B", "text": "Zygote", "correct": false },
+        { "letter": "C", "text": "Gamete", "correct": false },
+        { "letter": "D", "text": "Pollen grain", "correct": false }
+      ],
+      "explanation": "A blastocyst develops and implants in the endometrium; students are not required to know other embryo stages."
+    },
+    {
+      "id": "D3.1-040",
+      "level": "HL",
+      "statement": "D3.1.17",
+      "category": "D3.1 Reproduction",
+      "scenario": "A pregnancy test detects a hormone.",
+      "stem": "Which hormone is detected?",
+      "options": [
+        { "letter": "A", "text": "Human chorionic gonadotropin (hCG)", "correct": true },
+        { "letter": "B", "text": "Insulin", "correct": false },
+        { "letter": "C", "text": "Glucagon", "correct": false },
+        { "letter": "D", "text": "Thyroxin", "correct": false }
+      ],
+      "explanation": "Pregnancy tests detect hCG, produced in the embryo or developing placenta, using monoclonal antibodies."
+    },
+    {
+      "id": "D3.1-041",
+      "level": "HL",
+      "statement": "D3.1.17",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Pregnancy tests use monoclonal antibodies that:",
+      "options": [
+        { "letter": "A", "text": "Bind specifically to hCG", "correct": true },
+        { "letter": "B", "text": "Bind to glucose", "correct": false },
+        { "letter": "C", "text": "Digest hCG", "correct": false },
+        { "letter": "D", "text": "Produce hCG", "correct": false }
+      ],
+      "explanation": "Monoclonal antibodies that bind specifically to hCG are used to detect pregnancy."
+    },
+    {
+      "id": "D3.1-042",
+      "level": "HL",
+      "statement": "D3.1.18",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Which feature of the placenta increases its capacity for exchange?",
+      "options": [
+        { "letter": "A", "text": "The large surface area of placental villi", "correct": true },
+        { "letter": "B", "text": "A thick impermeable wall", "correct": false },
+        { "letter": "C", "text": "The absence of blood vessels", "correct": false },
+        { "letter": "D", "text": "A waxy cuticle", "correct": false }
+      ],
+      "explanation": "The large surface area of placental villi supports exchange between the maternal and foetal blood."
+    },
+    {
+      "id": "D3.1-043",
+      "level": "HL",
+      "statement": "D3.1.18",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "The placenta allows the foetus to be:",
+      "options": [
+        { "letter": "A", "text": "Retained in the uterus to a later stage of development", "correct": true },
+        { "letter": "B", "text": "Born immediately after fertilization", "correct": false },
+        { "letter": "C", "text": "Developed outside the body", "correct": false },
+        { "letter": "D", "text": "Nourished by pollen", "correct": false }
+      ],
+      "explanation": "The placenta allows the foetus to be retained in the uterus longer than in mammals without a placenta, aiding development."
+    },
+    {
+      "id": "D3.1-044",
+      "level": "HL",
+      "statement": "D3.1.19",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Which hormone maintains the continuity of pregnancy?",
+      "options": [
+        { "letter": "A", "text": "Progesterone", "correct": true },
+        { "letter": "B", "text": "Oxytocin", "correct": false },
+        { "letter": "C", "text": "Insulin", "correct": false },
+        { "letter": "D", "text": "Adrenaline", "correct": false }
+      ],
+      "explanation": "Progesterone, first from the corpus luteum and then the placenta, maintains pregnancy."
+    },
+    {
+      "id": "D3.1-045",
+      "level": "HL",
+      "statement": "D3.1.19",
+      "category": "D3.1 Reproduction",
+      "scenario": "Childbirth is triggered by hormonal changes.",
+      "stem": "Which change triggers childbirth?",
+      "options": [
+        { "letter": "A", "text": "A decrease in progesterone allowing oxytocin to increase", "correct": true },
+        { "letter": "B", "text": "An increase in progesterone", "correct": false },
+        { "letter": "C", "text": "A decrease in oxytocin", "correct": false },
+        { "letter": "D", "text": "A rise in insulin", "correct": false }
+      ],
+      "explanation": "Childbirth is triggered by a decrease in progesterone, allowing increased oxytocin secretion via positive feedback."
+    },
+    {
+      "id": "D3.1-046",
+      "level": "HL",
+      "statement": "D3.1.19",
+      "category": "D3.1 Reproduction",
+      "scenario": "During childbirth, oxytocin secretion increases through positive feedback.",
+      "stem": "Positive feedback means the response:",
+      "options": [
+        { "letter": "A", "text": "Amplifies the change, increasing contractions", "correct": true },
+        { "letter": "B", "text": "Reverses the change", "correct": false },
+        { "letter": "C", "text": "Has no effect", "correct": false },
+        { "letter": "D", "text": "Stops all contractions", "correct": false }
+      ],
+      "explanation": "Positive feedback amplifies the response, so oxytocin increases contractions further during childbirth."
+    },
+    {
+      "id": "D3.1-047",
+      "level": "HL",
+      "statement": "D3.1.20",
+      "category": "D3.1 Reproduction",
+      "scenario": "Early studies suggested HRT reduced coronary heart disease, but later trials showed a small increase in risk.",
+      "stem": "This illustrates that:",
+      "options": [
+        { "letter": "A", "text": "Correlation is not the same as causation", "correct": true },
+        { "letter": "B", "text": "Correlation always proves causation", "correct": false },
+        { "letter": "C", "text": "Trials are unreliable", "correct": false },
+        { "letter": "D", "text": "HRT has no effect", "correct": false }
+      ],
+      "explanation": "The HRT case shows correlation is not causation: the apparent benefit reflected socioeconomic status, not a causal link."
+    },
+    {
+      "id": "D3.1-048",
+      "level": "HL",
+      "statement": "D3.1.20",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "Which type of study best establishes cause and effect for a treatment like HRT?",
+      "options": [
+        { "letter": "A", "text": "A randomized controlled trial", "correct": true },
+        { "letter": "B", "text": "A single anecdote", "correct": false },
+        { "letter": "C", "text": "An unrepeated observation", "correct": false },
+        { "letter": "D", "text": "Opinion alone", "correct": false }
+      ],
+      "explanation": "Randomized controlled trials, unlike early epidemiological studies, can better establish cause-and-effect relationships."
+    },
+    {
+      "id": "D3.1-049",
+      "level": "HL",
+      "statement": "D3.1.13",
+      "category": "D3.1 Reproduction",
+      "scenario": "GnRH release increases in childhood, raising LH and FSH.",
+      "stem": "The ultimate result is:",
+      "options": [
+        { "letter": "A", "text": "Increased sex hormone production and the changes of puberty", "correct": true },
+        { "letter": "B", "text": "The end of reproduction", "correct": false },
+        { "letter": "C", "text": "A decrease in sex hormones", "correct": false },
+        { "letter": "D", "text": "No developmental change", "correct": false }
+      ],
+      "explanation": "Increased GnRH raises LH and FSH, which increase sex hormone production, leading to the changes associated with puberty."
+    },
+    {
+      "id": "D3.1-050",
+      "level": "HL",
+      "statement": "D3.1.14",
+      "category": "D3.1 Reproduction",
+      "scenario": "",
+      "stem": "The differentiation stage of gametogenesis produces:",
+      "options": [
+        { "letter": "A", "text": "Mature, specialized gametes", "correct": true },
+        { "letter": "B", "text": "Diploid body cells", "correct": false },
+        { "letter": "C", "text": "Pollen only", "correct": false },
+        { "letter": "D", "text": "Somatic stem cells", "correct": false }
+      ],
+      "explanation": "After mitosis, growth and meiosis, differentiation produces the mature, specialized gametes (sperm or eggs)."
+    }
+  ]
+}

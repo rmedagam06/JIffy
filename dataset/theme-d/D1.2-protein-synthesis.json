@@ -1,0 +1,760 @@
+{
+  "id": "D1.2",
+  "name": "Protein synthesis",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Molecules",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "D1.2-001",
+      "level": "SL",
+      "statement": "D1.2.1",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Transcription is the synthesis of:",
+      "options": [
+        { "letter": "A", "text": "RNA using a DNA template", "correct": true },
+        { "letter": "B", "text": "DNA from RNA", "correct": false },
+        { "letter": "C", "text": "Protein from mRNA", "correct": false },
+        { "letter": "D", "text": "Glucose from carbon dioxide", "correct": false }
+      ],
+      "explanation": "Transcription is the synthesis of RNA using a DNA template, carried out by RNA polymerase."
+    },
+    {
+      "id": "D1.2-002",
+      "level": "SL",
+      "statement": "D1.2.1",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Which enzyme carries out transcription?",
+      "options": [
+        { "letter": "A", "text": "RNA polymerase", "correct": true },
+        { "letter": "B", "text": "DNA polymerase", "correct": false },
+        { "letter": "C", "text": "Helicase", "correct": false },
+        { "letter": "D", "text": "Ligase", "correct": false }
+      ],
+      "explanation": "RNA polymerase synthesizes RNA from the DNA template during transcription."
+    },
+    {
+      "id": "D1.2-003",
+      "level": "SL",
+      "statement": "D1.2.2",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "During transcription, adenine on the DNA template pairs with which base on the RNA?",
+      "stem": "The RNA base is:",
+      "options": [
+        { "letter": "A", "text": "Uracil", "correct": true },
+        { "letter": "B", "text": "Thymine", "correct": false },
+        { "letter": "C", "text": "Guanine", "correct": false },
+        { "letter": "D", "text": "Cytosine", "correct": false }
+      ],
+      "explanation": "In transcription, adenine on the DNA template pairs with uracil on the RNA strand."
+    },
+    {
+      "id": "D1.2-004",
+      "level": "SL",
+      "statement": "D1.2.2",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Base pairing during transcription depends on which type of bond?",
+      "options": [
+        { "letter": "A", "text": "Hydrogen bonds", "correct": true },
+        { "letter": "B", "text": "Peptide bonds", "correct": false },
+        { "letter": "C", "text": "Ionic bonds", "correct": false },
+        { "letter": "D", "text": "Disulfide bonds", "correct": false }
+      ],
+      "explanation": "Complementary base pairing in transcription relies on hydrogen bonding between bases."
+    },
+    {
+      "id": "D1.2-005",
+      "level": "SL",
+      "statement": "D1.2.3",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "A DNA strand is used as a template for transcription.",
+      "stem": "What happens to the DNA base sequence?",
+      "options": [
+        { "letter": "A", "text": "It stays unchanged", "correct": true },
+        { "letter": "B", "text": "It is permanently altered", "correct": false },
+        { "letter": "C", "text": "It is destroyed", "correct": false },
+        { "letter": "D", "text": "It becomes RNA", "correct": false }
+      ],
+      "explanation": "A DNA strand can be transcribed without its base sequence changing, so sequences are conserved."
+    },
+    {
+      "id": "D1.2-006",
+      "level": "SL",
+      "statement": "D1.2.4",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "At any given time in a cell:",
+      "options": [
+        { "letter": "A", "text": "Not all genes are expressed", "correct": true },
+        { "letter": "B", "text": "All genes are always expressed", "correct": false },
+        { "letter": "C", "text": "No genes are expressed", "correct": false },
+        { "letter": "D", "text": "Only DNA is present, not genes", "correct": false }
+      ],
+      "explanation": "Not all genes are expressed at once; transcription is a key stage at which gene expression is switched on or off."
+    },
+    {
+      "id": "D1.2-007",
+      "level": "SL",
+      "statement": "D1.2.5",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Translation is the synthesis of:",
+      "options": [
+        { "letter": "A", "text": "Polypeptides from mRNA", "correct": true },
+        { "letter": "B", "text": "RNA from DNA", "correct": false },
+        { "letter": "C", "text": "DNA from RNA", "correct": false },
+        { "letter": "D", "text": "Lipids from glycerol", "correct": false }
+      ],
+      "explanation": "Translation synthesizes polypeptides, converting the base sequence of mRNA into an amino acid sequence."
+    },
+    {
+      "id": "D1.2-008",
+      "level": "SL",
+      "statement": "D1.2.6",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "During translation, mRNA binds to which part of the ribosome?",
+      "options": [
+        { "letter": "A", "text": "The small subunit", "correct": true },
+        { "letter": "B", "text": "The large subunit only", "correct": false },
+        { "letter": "C", "text": "The nucleus", "correct": false },
+        { "letter": "D", "text": "The mitochondrion", "correct": false }
+      ],
+      "explanation": "mRNA binds to the small subunit of the ribosome; two tRNAs can bind simultaneously to the large subunit."
+    },
+    {
+      "id": "D1.2-009",
+      "level": "SL",
+      "statement": "D1.2.6",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Which molecule brings amino acids to the ribosome during translation?",
+      "options": [
+        { "letter": "A", "text": "tRNA", "correct": true },
+        { "letter": "B", "text": "mRNA", "correct": false },
+        { "letter": "C", "text": "DNA", "correct": false },
+        { "letter": "D", "text": "Glucose", "correct": false }
+      ],
+      "explanation": "tRNA carries amino acids to the ribosome; mRNA provides the coded sequence and the ribosome assembles the polypeptide."
+    },
+    {
+      "id": "D1.2-010",
+      "level": "SL",
+      "statement": "D1.2.7",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "A group of three bases on mRNA codes for one amino acid.",
+      "stem": "This triplet is called a:",
+      "options": [
+        { "letter": "A", "text": "Codon", "correct": true },
+        { "letter": "B", "text": "Anticodon", "correct": false },
+        { "letter": "C", "text": "Gene", "correct": false },
+        { "letter": "D", "text": "Nucleosome", "correct": false }
+      ],
+      "explanation": "A codon is a triplet of bases on mRNA; the complementary triplet on tRNA is the anticodon."
+    },
+    {
+      "id": "D1.2-011",
+      "level": "SL",
+      "statement": "D1.2.7",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "The three-base sequence on a tRNA that pairs with an mRNA codon is the:",
+      "options": [
+        { "letter": "A", "text": "Anticodon", "correct": true },
+        { "letter": "B", "text": "Codon", "correct": false },
+        { "letter": "C", "text": "Promoter", "correct": false },
+        { "letter": "D", "text": "Intron", "correct": false }
+      ],
+      "explanation": "The anticodon on tRNA pairs by complementary base pairing with the codon on mRNA."
+    },
+    {
+      "id": "D1.2-012",
+      "level": "SL",
+      "statement": "D1.2.8",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "The genetic code uses three bases to specify each amino acid.",
+      "stem": "This feature is described as the code being:",
+      "options": [
+        { "letter": "A", "text": "A triplet code", "correct": true },
+        { "letter": "B", "text": "A single-base code", "correct": false },
+        { "letter": "C", "text": "A quadruplet code", "correct": false },
+        { "letter": "D", "text": "A non-coding sequence", "correct": false }
+      ],
+      "explanation": "The genetic code is a triplet code: each codon of three bases specifies one amino acid."
+    },
+    {
+      "id": "D1.2-013",
+      "level": "SL",
+      "statement": "D1.2.8",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "Several different codons code for the same amino acid.",
+      "stem": "This property of the genetic code is called:",
+      "options": [
+        { "letter": "A", "text": "Degeneracy", "correct": true },
+        { "letter": "B", "text": "Universality", "correct": false },
+        { "letter": "C", "text": "Denaturation", "correct": false },
+        { "letter": "D", "text": "Directionality", "correct": false }
+      ],
+      "explanation": "Degeneracy means more than one codon can code for the same amino acid."
+    },
+    {
+      "id": "D1.2-014",
+      "level": "SL",
+      "statement": "D1.2.8",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "The same codons code for the same amino acids in nearly all organisms.",
+      "stem": "This property is called:",
+      "options": [
+        { "letter": "A", "text": "Universality", "correct": true },
+        { "letter": "B", "text": "Degeneracy", "correct": false },
+        { "letter": "C", "text": "Dominance", "correct": false },
+        { "letter": "D", "text": "Codominance", "correct": false }
+      ],
+      "explanation": "Universality means the genetic code is essentially the same across all organisms."
+    },
+    {
+      "id": "D1.2-015",
+      "level": "SL",
+      "statement": "D1.2.9",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "Using a codon table, a student reads mRNA in triplets.",
+      "stem": "Each codon read from the table gives:",
+      "options": [
+        { "letter": "A", "text": "One amino acid", "correct": true },
+        { "letter": "B", "text": "Three amino acids", "correct": false },
+        { "letter": "C", "text": "One nucleotide", "correct": false },
+        { "letter": "D", "text": "One gene", "correct": false }
+      ],
+      "explanation": "Each mRNA codon corresponds to one amino acid, letting students deduce the amino acid sequence from an mRNA strand."
+    },
+    {
+      "id": "D1.2-016",
+      "level": "SL",
+      "statement": "D1.2.10",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "During elongation, amino acids are joined together.",
+      "stem": "Which bond links the amino acids?",
+      "options": [
+        { "letter": "A", "text": "Peptide bonds", "correct": true },
+        { "letter": "B", "text": "Hydrogen bonds", "correct": false },
+        { "letter": "C", "text": "Glycosidic bonds", "correct": false },
+        { "letter": "D", "text": "Ester bonds", "correct": false }
+      ],
+      "explanation": "As the ribosome moves along mRNA, amino acids are joined by peptide bonds to the growing polypeptide."
+    },
+    {
+      "id": "D1.2-017",
+      "level": "SL",
+      "statement": "D1.2.10",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "During elongation, the ribosome moves along the mRNA:",
+      "options": [
+        { "letter": "A", "text": "Stepwise, one codon at a time", "correct": true },
+        { "letter": "B", "text": "Backwards", "correct": false },
+        { "letter": "C", "text": "Randomly", "correct": false },
+        { "letter": "D", "text": "Not at all", "correct": false }
+      ],
+      "explanation": "The ribosome moves stepwise along the mRNA, adding amino acids to elongate the polypeptide."
+    },
+    {
+      "id": "D1.2-018",
+      "level": "SL",
+      "statement": "D1.2.11",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "A single base in a gene is changed, altering one amino acid in the protein.",
+      "stem": "This is an example of a:",
+      "options": [
+        { "letter": "A", "text": "Point mutation", "correct": true },
+        { "letter": "B", "text": "Chromosome fusion", "correct": false },
+        { "letter": "C", "text": "Polyploidy", "correct": false },
+        { "letter": "D", "text": "Non-disjunction", "correct": false }
+      ],
+      "explanation": "A point mutation changes a single base, which can change an amino acid and thus the protein's structure."
+    },
+    {
+      "id": "D1.2-019",
+      "level": "SL",
+      "statement": "D1.2.5",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "The information for the amino acid sequence of a polypeptide is carried by:",
+      "options": [
+        { "letter": "A", "text": "mRNA", "correct": true },
+        { "letter": "B", "text": "tRNA anticodons only", "correct": false },
+        { "letter": "C", "text": "Ribosomal protein", "correct": false },
+        { "letter": "D", "text": "The cell wall", "correct": false }
+      ],
+      "explanation": "The base sequence of mRNA is translated into the amino acid sequence of the polypeptide."
+    },
+    {
+      "id": "D1.2-020",
+      "level": "SL",
+      "statement": "D1.2.1",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "During transcription, the RNA produced is complementary to the:",
+      "options": [
+        { "letter": "A", "text": "DNA template strand", "correct": true },
+        { "letter": "B", "text": "Ribosome", "correct": false },
+        { "letter": "C", "text": "tRNA anticodon", "correct": false },
+        { "letter": "D", "text": "Amino acid", "correct": false }
+      ],
+      "explanation": "RNA polymerase builds an RNA strand complementary to the DNA template strand."
+    },
+    {
+      "id": "D1.2-021",
+      "level": "SL",
+      "statement": "D1.2.7",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "An mRNA codon is GCA.",
+      "stem": "The complementary tRNA anticodon is:",
+      "options": [
+        { "letter": "A", "text": "CGU", "correct": true },
+        { "letter": "B", "text": "GCA", "correct": false },
+        { "letter": "C", "text": "TGC", "correct": false },
+        { "letter": "D", "text": "AGC", "correct": false }
+      ],
+      "explanation": "The anticodon is complementary to the codon: GCA pairs with CGU (using U in RNA)."
+    },
+    {
+      "id": "D1.2-022",
+      "level": "SL",
+      "statement": "D1.2.4",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Transcription is described as a key control point for gene expression because it:",
+      "options": [
+        { "letter": "A", "text": "Is the first stage and can be switched on or off", "correct": true },
+        { "letter": "B", "text": "Is the last stage of translation", "correct": false },
+        { "letter": "C", "text": "Cannot be regulated", "correct": false },
+        { "letter": "D", "text": "Occurs only in prokaryotes", "correct": false }
+      ],
+      "explanation": "Transcription, the first stage of gene expression, is a key point at which a gene can be switched on or off."
+    },
+    {
+      "id": "D1.2-023",
+      "level": "SL",
+      "statement": "D1.2.6",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "How many tRNAs can bind to the large ribosomal subunit at once?",
+      "options": [
+        { "letter": "A", "text": "Two", "correct": true },
+        { "letter": "B", "text": "One", "correct": false },
+        { "letter": "C", "text": "Three", "correct": false },
+        { "letter": "D", "text": "None", "correct": false }
+      ],
+      "explanation": "Two tRNAs can bind simultaneously to the large subunit, allowing peptide bond formation between their amino acids."
+    },
+    {
+      "id": "D1.2-024",
+      "level": "SL",
+      "statement": "D1.2.9",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "An mRNA reads AUG-GCA-UAA.",
+      "stem": "To find the amino acid sequence, a student should:",
+      "options": [
+        { "letter": "A", "text": "Read the codons in a genetic code table", "correct": true },
+        { "letter": "B", "text": "Count the phosphate groups", "correct": false },
+        { "letter": "C", "text": "Measure the length in nm", "correct": false },
+        { "letter": "D", "text": "Reverse the sequence", "correct": false }
+      ],
+      "explanation": "Using a genetic code table of mRNA codons, students deduce the amino acids coded by each codon."
+    },
+    {
+      "id": "D1.2-025",
+      "level": "SL",
+      "statement": "D1.2.3",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "A non-dividing (somatic) cell must transcribe genes throughout its life.",
+      "stem": "For this to work, the DNA base sequence must be:",
+      "options": [
+        { "letter": "A", "text": "Conserved (unchanged) over the cell's life", "correct": true },
+        { "letter": "B", "text": "Changed each time", "correct": false },
+        { "letter": "C", "text": "Converted to RNA permanently", "correct": false },
+        { "letter": "D", "text": "Deleted after use", "correct": false }
+      ],
+      "explanation": "DNA templates are stable, so sequences are conserved throughout the life of a non-dividing cell."
+    },
+    {
+      "id": "D1.2-026",
+      "level": "SL",
+      "statement": "D1.2.11",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "A point mutation can affect a protein by:",
+      "options": [
+        { "letter": "A", "text": "Changing an amino acid and altering its structure", "correct": true },
+        { "letter": "B", "text": "Adding a whole chromosome", "correct": false },
+        { "letter": "C", "text": "Doubling the genome", "correct": false },
+        { "letter": "D", "text": "Removing all genes", "correct": false }
+      ],
+      "explanation": "A point mutation may change one amino acid, potentially altering the protein's structure and function."
+    },
+    {
+      "id": "D1.2-027",
+      "level": "SL",
+      "statement": "D1.2.5",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Which correctly orders the two main stages of gene expression?",
+      "options": [
+        { "letter": "A", "text": "Transcription then translation", "correct": true },
+        { "letter": "B", "text": "Translation then transcription", "correct": false },
+        { "letter": "C", "text": "Replication then transcription", "correct": false },
+        { "letter": "D", "text": "Translation then replication", "correct": false }
+      ],
+      "explanation": "Gene expression proceeds by transcription (DNA to RNA) followed by translation (RNA to polypeptide)."
+    },
+    {
+      "id": "D1.2-028",
+      "level": "SL",
+      "statement": "D1.2.6",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Which structure physically assembles the polypeptide during translation?",
+      "options": [
+        { "letter": "A", "text": "The ribosome", "correct": true },
+        { "letter": "B", "text": "The nucleus", "correct": false },
+        { "letter": "C", "text": "The Golgi apparatus", "correct": false },
+        { "letter": "D", "text": "The vacuole", "correct": false }
+      ],
+      "explanation": "The ribosome binds mRNA and tRNA and catalyses peptide bond formation to assemble the polypeptide."
+    },
+    {
+      "id": "D1.2-029",
+      "level": "SL",
+      "statement": "D1.2.8",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Why is the genetic code being universal significant for biology?",
+      "options": [
+        { "letter": "A", "text": "It reflects common ancestry and allows genes to work across species", "correct": true },
+        { "letter": "B", "text": "It means each species has a unique code", "correct": false },
+        { "letter": "C", "text": "It prevents mutation", "correct": false },
+        { "letter": "D", "text": "It stops transcription", "correct": false }
+      ],
+      "explanation": "Universality of the code reflects common ancestry and underpins techniques where genes function across species."
+    },
+    {
+      "id": "D1.2-030",
+      "level": "SL",
+      "statement": "D1.2.2",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "A DNA template strand reads TAC.",
+      "stem": "The mRNA codon transcribed from it is:",
+      "options": [
+        { "letter": "A", "text": "AUG", "correct": true },
+        { "letter": "B", "text": "ATG", "correct": false },
+        { "letter": "C", "text": "TAC", "correct": false },
+        { "letter": "D", "text": "UAC", "correct": false }
+      ],
+      "explanation": "Transcribing TAC gives AUG, with adenine on DNA pairing with uracil on RNA."
+    },
+    {
+      "id": "D1.2-031",
+      "level": "SL",
+      "statement": "D1.2.10",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Elongation of a polypeptide involves:",
+      "options": [
+        { "letter": "A", "text": "Adding amino acids one at a time as the ribosome moves", "correct": true },
+        { "letter": "B", "text": "Removing amino acids", "correct": false },
+        { "letter": "C", "text": "Copying DNA", "correct": false },
+        { "letter": "D", "text": "Splitting the ribosome", "correct": false }
+      ],
+      "explanation": "During elongation, the ribosome moves stepwise along mRNA, adding amino acids by peptide bonding."
+    },
+    {
+      "id": "D1.2-032",
+      "level": "SL",
+      "statement": "D1.2.1",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "In transcription, RNA polymerase moves along the DNA and:",
+      "options": [
+        { "letter": "A", "text": "Builds an RNA strand from free nucleotides", "correct": true },
+        { "letter": "B", "text": "Joins amino acids", "correct": false },
+        { "letter": "C", "text": "Digests the DNA", "correct": false },
+        { "letter": "D", "text": "Copies RNA into DNA", "correct": false }
+      ],
+      "explanation": "RNA polymerase assembles an RNA strand from free ribonucleotides using the DNA template."
+    },
+    {
+      "id": "D1.2-033",
+      "level": "SL",
+      "statement": "D1.2.11",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Which change would most directly alter a protein's amino acid sequence?",
+      "options": [
+        { "letter": "A", "text": "A mutation in the gene's base sequence", "correct": true },
+        { "letter": "B", "text": "A change in temperature only", "correct": false },
+        { "letter": "C", "text": "A change in pH only", "correct": false },
+        { "letter": "D", "text": "The presence of more ribosomes", "correct": false }
+      ],
+      "explanation": "A mutation in the gene changes the mRNA codons and therefore can change the amino acid sequence."
+    },
+    {
+      "id": "D1.2-034",
+      "level": "HL",
+      "statement": "D1.2.12",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Transcription and translation both proceed in which direction?",
+      "options": [
+        { "letter": "A", "text": "5' to 3'", "correct": true },
+        { "letter": "B", "text": "3' to 5'", "correct": false },
+        { "letter": "C", "text": "Randomly", "correct": false },
+        { "letter": "D", "text": "In opposite directions to each other", "correct": false }
+      ],
+      "explanation": "Both transcription and translation proceed in the 5' to 3' direction along the mRNA."
+    },
+    {
+      "id": "D1.2-035",
+      "level": "HL",
+      "statement": "D1.2.13",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "Transcription begins at a specific DNA sequence.",
+      "stem": "This region is called the:",
+      "options": [
+        { "letter": "A", "text": "Promoter", "correct": true },
+        { "letter": "B", "text": "Intron", "correct": false },
+        { "letter": "C", "text": "Anticodon", "correct": false },
+        { "letter": "D", "text": "Telomere", "correct": false }
+      ],
+      "explanation": "Transcription is initiated at the promoter, where transcription factors bind."
+    },
+    {
+      "id": "D1.2-036",
+      "level": "HL",
+      "statement": "D1.2.13",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Proteins that bind to the promoter to help initiate transcription are called:",
+      "options": [
+        { "letter": "A", "text": "Transcription factors", "correct": true },
+        { "letter": "B", "text": "Ribozymes", "correct": false },
+        { "letter": "C", "text": "Histones", "correct": false },
+        { "letter": "D", "text": "Anticodons", "correct": false }
+      ],
+      "explanation": "Transcription factors bind to the promoter to initiate transcription."
+    },
+    {
+      "id": "D1.2-037",
+      "level": "HL",
+      "statement": "D1.2.14",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Which of these is a non-coding sequence in DNA?",
+      "options": [
+        { "letter": "A", "text": "An intron", "correct": true },
+        { "letter": "B", "text": "An exon coding for a polypeptide", "correct": false },
+        { "letter": "C", "text": "A codon", "correct": false },
+        { "letter": "D", "text": "An amino acid", "correct": false }
+      ],
+      "explanation": "Non-coding sequences include introns, telomeres, gene regulators and genes for rRNA and tRNA."
+    },
+    {
+      "id": "D1.2-038",
+      "level": "HL",
+      "statement": "D1.2.14",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Which of these does NOT code for a polypeptide?",
+      "options": [
+        { "letter": "A", "text": "A telomere", "correct": true },
+        { "letter": "B", "text": "An exon", "correct": false },
+        { "letter": "C", "text": "A protein-coding gene", "correct": false },
+        { "letter": "D", "text": "A codon in mRNA", "correct": false }
+      ],
+      "explanation": "Telomeres are non-coding sequences; other non-coding examples include introns, regulators and rRNA/tRNA genes."
+    },
+    {
+      "id": "D1.2-039",
+      "level": "HL",
+      "statement": "D1.2.15",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "In eukaryotes, pre-mRNA is processed before translation.",
+      "stem": "Which occurs during post-transcriptional modification?",
+      "options": [
+        { "letter": "A", "text": "Removal of introns and splicing of exons", "correct": true },
+        { "letter": "B", "text": "Joining of amino acids", "correct": false },
+        { "letter": "C", "text": "Replication of DNA", "correct": false },
+        { "letter": "D", "text": "Breakdown of ribosomes", "correct": false }
+      ],
+      "explanation": "Post-transcriptional modification removes introns, splices exons and adds a 5' cap and 3' polyA tail."
+    },
+    {
+      "id": "D1.2-040",
+      "level": "HL",
+      "statement": "D1.2.15",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "The 5' cap and 3' polyA tail added to mRNA function to:",
+      "options": [
+        { "letter": "A", "text": "Stabilize the mRNA transcript", "correct": true },
+        { "letter": "B", "text": "Remove exons", "correct": false },
+        { "letter": "C", "text": "Add amino acids", "correct": false },
+        { "letter": "D", "text": "Copy the DNA", "correct": false }
+      ],
+      "explanation": "Addition of the 5' cap and 3' polyA tail stabilizes the mature mRNA transcript."
+    },
+    {
+      "id": "D1.2-041",
+      "level": "HL",
+      "statement": "D1.2.16",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "One gene can produce several different polypeptides.",
+      "stem": "This is achieved by:",
+      "options": [
+        { "letter": "A", "text": "Alternative splicing of exons", "correct": true },
+        { "letter": "B", "text": "Point mutation", "correct": false },
+        { "letter": "C", "text": "DNA replication", "correct": false },
+        { "letter": "D", "text": "Denaturation", "correct": false }
+      ],
+      "explanation": "Alternative splicing combines different exons, so one gene can code for different polypeptides."
+    },
+    {
+      "id": "D1.2-042",
+      "level": "HL",
+      "statement": "D1.2.17",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "Translation begins on the mRNA.",
+      "stem": "The small ribosome subunit attaches to which end of the mRNA?",
+      "options": [
+        { "letter": "A", "text": "The 5' terminal", "correct": true },
+        { "letter": "B", "text": "The 3' terminal", "correct": false },
+        { "letter": "C", "text": "The middle", "correct": false },
+        { "letter": "D", "text": "The polyA tail", "correct": false }
+      ],
+      "explanation": "In initiation, the small subunit attaches to the 5' terminal of mRNA and moves to the start codon."
+    },
+    {
+      "id": "D1.2-043",
+      "level": "HL",
+      "statement": "D1.2.17",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "The ribosome has three tRNA binding sites.",
+      "stem": "These sites are labelled:",
+      "options": [
+        { "letter": "A", "text": "A, P and E", "correct": true },
+        { "letter": "B", "text": "X, Y and Z", "correct": false },
+        { "letter": "C", "text": "1, 2 and 3", "correct": false },
+        { "letter": "D", "text": "5', 3' and cap", "correct": false }
+      ],
+      "explanation": "The ribosome has three tRNA binding sites (A, P and E) used during elongation."
+    },
+    {
+      "id": "D1.2-044",
+      "level": "HL",
+      "statement": "D1.2.18",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "Pre-proinsulin is converted into functional insulin.",
+      "stem": "This illustrates that many polypeptides:",
+      "options": [
+        { "letter": "A", "text": "Must be modified before they can function", "correct": true },
+        { "letter": "B", "text": "Never require modification", "correct": false },
+        { "letter": "C", "text": "Are made of DNA", "correct": false },
+        { "letter": "D", "text": "Function only inside the ribosome", "correct": false }
+      ],
+      "explanation": "Many polypeptides are modified into their functional state; insulin is formed by two-stage modification of pre-proinsulin."
+    },
+    {
+      "id": "D1.2-045",
+      "level": "HL",
+      "statement": "D1.2.19",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Which structures break down proteins to recycle amino acids?",
+      "options": [
+        { "letter": "A", "text": "Proteasomes", "correct": true },
+        { "letter": "B", "text": "Ribosomes", "correct": false },
+        { "letter": "C", "text": "Chloroplasts", "correct": false },
+        { "letter": "D", "text": "Telomeres", "correct": false }
+      ],
+      "explanation": "Proteasomes break down proteins, recycling amino acids; a functional proteome requires constant breakdown and synthesis."
+    },
+    {
+      "id": "D1.2-046",
+      "level": "HL",
+      "statement": "D1.2.19",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Sustaining a functional proteome requires:",
+      "options": [
+        { "letter": "A", "text": "Constant protein breakdown and synthesis", "correct": true },
+        { "letter": "B", "text": "No protein turnover", "correct": false },
+        { "letter": "C", "text": "Only synthesis, never breakdown", "correct": false },
+        { "letter": "D", "text": "Only breakdown, never synthesis", "correct": false }
+      ],
+      "explanation": "Maintaining the proteome requires continual protein breakdown (by proteasomes) and synthesis."
+    },
+    {
+      "id": "D1.2-047",
+      "level": "HL",
+      "statement": "D1.2.15",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "During splicing, which sequences are joined together to form mature mRNA?",
+      "options": [
+        { "letter": "A", "text": "Exons", "correct": true },
+        { "letter": "B", "text": "Introns", "correct": false },
+        { "letter": "C", "text": "Telomeres", "correct": false },
+        { "letter": "D", "text": "Promoters", "correct": false }
+      ],
+      "explanation": "Splicing removes introns and joins exons together to form mature mRNA."
+    },
+    {
+      "id": "D1.2-048",
+      "level": "HL",
+      "statement": "D1.2.16",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Alternative splicing increases the diversity of proteins because it allows:",
+      "options": [
+        { "letter": "A", "text": "Different combinations of exons from one gene", "correct": true },
+        { "letter": "B", "text": "New genes to be created", "correct": false },
+        { "letter": "C", "text": "DNA to be replicated", "correct": false },
+        { "letter": "D", "text": "Amino acids to be removed", "correct": false }
+      ],
+      "explanation": "By splicing different combinations of exons, one gene can code for several different polypeptides."
+    },
+    {
+      "id": "D1.2-049",
+      "level": "HL",
+      "statement": "D1.2.17",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "During initiation of translation, the ribosome locates a specific codon.",
+      "stem": "This is the:",
+      "options": [
+        { "letter": "A", "text": "Start codon", "correct": true },
+        { "letter": "B", "text": "Stop codon", "correct": false },
+        { "letter": "C", "text": "Anticodon", "correct": false },
+        { "letter": "D", "text": "Promoter", "correct": false }
+      ],
+      "explanation": "The small subunit moves to the start codon, where the initiator tRNA binds before the large subunit attaches."
+    },
+    {
+      "id": "D1.2-050",
+      "level": "HL",
+      "statement": "D1.2.12",
+      "category": "D1.2 Protein synthesis",
+      "scenario": "",
+      "stem": "Understanding 5' to 3' directionality is important because it determines:",
+      "options": [
+        { "letter": "A", "text": "The direction in which transcription and translation proceed", "correct": true },
+        { "letter": "B", "text": "The colour of the protein", "correct": false },
+        { "letter": "C", "text": "The number of chromosomes", "correct": false },
+        { "letter": "D", "text": "The pH of the cell", "correct": false }
+      ],
+      "explanation": "Both transcription and translation proceed 5' to 3', so directionality determines how the processes move along the mRNA."
+    }
+  ]
+}

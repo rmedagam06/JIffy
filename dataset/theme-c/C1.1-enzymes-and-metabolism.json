@@ -1,0 +1,760 @@
+{
+  "id": "C1.1",
+  "name": "Enzymes and metabolism",
+  "theme": "C",
+  "themeName": "Interaction and interdependence",
+  "levelOfOrganization": "Molecules",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "C1.1-001",
+      "level": "SL",
+      "statement": "C1.1.1",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Enzymes act as biological:",
+      "options": [
+        { "letter": "A", "text": "Catalysts that increase reaction rates", "correct": true },
+        { "letter": "B", "text": "Sources of genetic information", "correct": false },
+        { "letter": "C", "text": "Energy stores", "correct": false },
+        { "letter": "D", "text": "Structural fibres only", "correct": false }
+      ],
+      "explanation": "Enzymes are catalysts that increase the rate of reactions in cells, which benefits metabolism."
+    },
+    {
+      "id": "C1.1-002",
+      "level": "SL",
+      "statement": "C1.1.2",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Metabolism is best defined as:",
+      "options": [
+        { "letter": "A", "text": "The complex network of interacting chemical reactions in an organism", "correct": true },
+        { "letter": "B", "text": "A single chemical reaction", "correct": false },
+        { "letter": "C", "text": "The storage of DNA", "correct": false },
+        { "letter": "D", "text": "The transport of oxygen", "correct": false }
+      ],
+      "explanation": "Metabolism is the complex network of interdependent and interacting chemical reactions in living organisms."
+    },
+    {
+      "id": "C1.1-003",
+      "level": "SL",
+      "statement": "C1.1.2",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Why do organisms require many different enzymes?",
+      "options": [
+        { "letter": "A", "text": "Because enzymes are specific to particular reactions", "correct": true },
+        { "letter": "B", "text": "Because one enzyme can catalyse every reaction", "correct": false },
+        { "letter": "C", "text": "Because enzymes are used up in reactions", "correct": false },
+        { "letter": "D", "text": "Because enzymes carry oxygen", "correct": false }
+      ],
+      "explanation": "Enzyme specificity means many different enzymes are needed, and control of metabolism can be exerted through them."
+    },
+    {
+      "id": "C1.1-004",
+      "level": "SL",
+      "statement": "C1.1.3",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "Monomers are joined into macromolecules by condensation.",
+      "stem": "This type of reaction is:",
+      "options": [
+        { "letter": "A", "text": "Anabolic", "correct": true },
+        { "letter": "B", "text": "Catabolic", "correct": false },
+        { "letter": "C", "text": "Hydrolytic", "correct": false },
+        { "letter": "D", "text": "Oxidative", "correct": false }
+      ],
+      "explanation": "Anabolism builds macromolecules from monomers by condensation, such as protein synthesis and photosynthesis."
+    },
+    {
+      "id": "C1.1-005",
+      "level": "SL",
+      "statement": "C1.1.3",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "Large molecules are broken down into monomers during digestion.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Catabolism", "correct": true },
+        { "letter": "B", "text": "Anabolism", "correct": false },
+        { "letter": "C", "text": "Condensation", "correct": false },
+        { "letter": "D", "text": "Photosynthesis", "correct": false }
+      ],
+      "explanation": "Catabolism breaks down macromolecules, for example by hydrolysis in digestion and oxidation in respiration."
+    },
+    {
+      "id": "C1.1-006",
+      "level": "SL",
+      "statement": "C1.1.4",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Enzymes are which type of protein?",
+      "options": [
+        { "letter": "A", "text": "Globular proteins", "correct": true },
+        { "letter": "B", "text": "Fibrous proteins", "correct": false },
+        { "letter": "C", "text": "Non-protein lipids", "correct": false },
+        { "letter": "D", "text": "Polysaccharides", "correct": false }
+      ],
+      "explanation": "Enzymes are globular proteins with an active site for catalysis."
+    },
+    {
+      "id": "C1.1-007",
+      "level": "SL",
+      "statement": "C1.1.4",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "The active site of an enzyme is:",
+      "options": [
+        { "letter": "A", "text": "A region of a few amino acids where catalysis occurs", "correct": true },
+        { "letter": "B", "text": "The whole surface of the enzyme", "correct": false },
+        { "letter": "C", "text": "Made of DNA", "correct": false },
+        { "letter": "D", "text": "The same in every enzyme", "correct": false }
+      ],
+      "explanation": "The active site is made of a few amino acids, but the whole 3D structure ensures it has the right properties for catalysis."
+    },
+    {
+      "id": "C1.1-008",
+      "level": "SL",
+      "statement": "C1.1.5",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "A substrate binds to an enzyme's active site.",
+      "stem": "According to the induced-fit model, what happens?",
+      "options": [
+        { "letter": "A", "text": "Both the enzyme and substrate change shape on binding", "correct": true },
+        { "letter": "B", "text": "Only the substrate changes shape", "correct": false },
+        { "letter": "C", "text": "Neither changes shape at all", "correct": false },
+        { "letter": "D", "text": "The enzyme is permanently destroyed", "correct": false }
+      ],
+      "explanation": "In induced-fit binding, both substrate and enzyme change shape when binding occurs."
+    },
+    {
+      "id": "C1.1-009",
+      "level": "SL",
+      "statement": "C1.1.6",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "What allows a substrate and active site to come together?",
+      "options": [
+        { "letter": "A", "text": "Molecular motion leading to collisions", "correct": true },
+        { "letter": "B", "text": "Active pumping of the substrate", "correct": false },
+        { "letter": "C", "text": "Gravity pulling them together", "correct": false },
+        { "letter": "D", "text": "Photosynthesis", "correct": false }
+      ],
+      "explanation": "Molecular motion causes substrate-active site collisions; sometimes substrates or enzymes are immobilized."
+    },
+    {
+      "id": "C1.1-010",
+      "level": "SL",
+      "statement": "C1.1.7",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "An enzyme only catalyses one particular reaction.",
+      "stem": "This specificity is due to the:",
+      "options": [
+        { "letter": "A", "text": "Shape of its active site matching a specific substrate", "correct": true },
+        { "letter": "B", "text": "Enzyme having no active site", "correct": false },
+        { "letter": "C", "text": "Enzyme being a carbohydrate", "correct": false },
+        { "letter": "D", "text": "Random binding to any molecule", "correct": false }
+      ],
+      "explanation": "The structure of the active site determines enzyme-substrate specificity; disrupting it causes denaturation."
+    },
+    {
+      "id": "C1.1-011",
+      "level": "SL",
+      "statement": "C1.1.7",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "An enzyme's active site loses its shape at high temperature.",
+      "stem": "The enzyme has been:",
+      "options": [
+        { "letter": "A", "text": "Denatured", "correct": true },
+        { "letter": "B", "text": "Replicated", "correct": false },
+        { "letter": "C", "text": "Reduced", "correct": false },
+        { "letter": "D", "text": "Phosphorylated", "correct": false }
+      ],
+      "explanation": "When the active site's shape is disrupted, the enzyme is denatured and can no longer bind its substrate."
+    },
+    {
+      "id": "C1.1-012",
+      "level": "SL",
+      "statement": "C1.1.8",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "The temperature is raised well above an enzyme's optimum.",
+      "stem": "What happens to the reaction rate?",
+      "options": [
+        { "letter": "A", "text": "It falls as the enzyme denatures", "correct": true },
+        { "letter": "B", "text": "It keeps rising indefinitely", "correct": false },
+        { "letter": "C", "text": "It stays exactly the same", "correct": false },
+        { "letter": "D", "text": "It becomes negative", "correct": false }
+      ],
+      "explanation": "Above the optimum, denaturation reduces enzyme activity, so the reaction rate falls."
+    },
+    {
+      "id": "C1.1-013",
+      "level": "SL",
+      "statement": "C1.1.8",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "Substrate concentration is increased at constant enzyme concentration.",
+      "stem": "The rate of reaction will:",
+      "options": [
+        { "letter": "A", "text": "Increase then level off as enzymes become saturated", "correct": true },
+        { "letter": "B", "text": "Decrease steadily", "correct": false },
+        { "letter": "C", "text": "Increase without any limit", "correct": false },
+        { "letter": "D", "text": "Stay at zero", "correct": false }
+      ],
+      "explanation": "Rate rises with substrate concentration until all active sites are occupied, then it plateaus."
+    },
+    {
+      "id": "C1.1-014",
+      "level": "SL",
+      "statement": "C1.1.8",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "A generalized sketch graph shows how rate changes with pH.",
+      "stem": "According to NOS, such a sketch graph is an example of a:",
+      "options": [
+        { "letter": "A", "text": "Model in biology", "correct": true },
+        { "letter": "B", "text": "Raw data set", "correct": false },
+        { "letter": "C", "text": "Proven law", "correct": false },
+        { "letter": "D", "text": "Random guess", "correct": false }
+      ],
+      "explanation": "Generalized sketch graphs of relationships are models, which can be evaluated using experimental results."
+    },
+    {
+      "id": "C1.1-015",
+      "level": "SL",
+      "statement": "C1.1.8",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "The effect of temperature on enzyme rate is explained using collision theory.",
+      "stem": "Higher temperature (below the optimum) increases rate because:",
+      "options": [
+        { "letter": "A", "text": "Molecules move faster, so collisions are more frequent", "correct": true },
+        { "letter": "B", "text": "Enzymes denature immediately", "correct": false },
+        { "letter": "C", "text": "Substrate concentration falls", "correct": false },
+        { "letter": "D", "text": "The active site disappears", "correct": false }
+      ],
+      "explanation": "Below the optimum, higher temperature increases molecular motion and collision frequency, raising the rate."
+    },
+    {
+      "id": "C1.1-016",
+      "level": "SL",
+      "statement": "C1.1.10",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "How do enzymes affect the activation energy of a reaction?",
+      "options": [
+        { "letter": "A", "text": "They lower it", "correct": true },
+        { "letter": "B", "text": "They raise it", "correct": false },
+        { "letter": "C", "text": "They remove the need for products", "correct": false },
+        { "letter": "D", "text": "They have no effect on it", "correct": false }
+      ],
+      "explanation": "Enzymes lower the activation energy needed for a reaction, speeding it up."
+    },
+    {
+      "id": "C1.1-017",
+      "level": "SL",
+      "statement": "C1.1.10",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "In an enzyme-catalysed reaction, energy is required to:",
+      "options": [
+        { "letter": "A", "text": "Break bonds within the substrate", "correct": true },
+        { "letter": "B", "text": "Form the products", "correct": false },
+        { "letter": "C", "text": "Denature the enzyme", "correct": false },
+        { "letter": "D", "text": "Destroy the active site", "correct": false }
+      ],
+      "explanation": "Energy is needed to break substrate bonds, while forming product bonds releases energy."
+    },
+    {
+      "id": "C1.1-018",
+      "level": "SL",
+      "statement": "C1.1.1",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "The benefit to a cell of enzymes speeding up reactions is that:",
+      "options": [
+        { "letter": "A", "text": "Reactions occur fast enough to sustain life at body temperature", "correct": true },
+        { "letter": "B", "text": "Reactions stop completely", "correct": false },
+        { "letter": "C", "text": "Cells need no energy", "correct": false },
+        { "letter": "D", "text": "DNA is copied faster", "correct": false }
+      ],
+      "explanation": "By increasing reaction rates, enzymes allow metabolism to proceed fast enough to sustain life."
+    },
+    {
+      "id": "C1.1-019",
+      "level": "SL",
+      "statement": "C1.1.3",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Which is an example of an anabolic reaction?",
+      "options": [
+        { "letter": "A", "text": "Glycogen formation from glucose", "correct": true },
+        { "letter": "B", "text": "Digestion of protein into amino acids", "correct": false },
+        { "letter": "C", "text": "Oxidation of glucose in respiration", "correct": false },
+        { "letter": "D", "text": "Hydrolysis of starch", "correct": false }
+      ],
+      "explanation": "Anabolism builds larger molecules; glycogen formation, protein synthesis and photosynthesis are examples."
+    },
+    {
+      "id": "C1.1-020",
+      "level": "SL",
+      "statement": "C1.1.5",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "The induced-fit model improves on the older 'lock and key' idea by recognising that:",
+      "options": [
+        { "letter": "A", "text": "The active site changes shape to fit the substrate", "correct": true },
+        { "letter": "B", "text": "The active site is completely rigid", "correct": false },
+        { "letter": "C", "text": "Substrates never bind", "correct": false },
+        { "letter": "D", "text": "Enzymes are not proteins", "correct": false }
+      ],
+      "explanation": "Induced fit recognises that both enzyme and substrate change shape on binding, unlike a rigid lock and key."
+    },
+    {
+      "id": "C1.1-021",
+      "level": "SL",
+      "statement": "C1.1.8",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "An enzyme works best at pH 7 and poorly at pH 3.",
+      "stem": "The low activity at pH 3 is because:",
+      "options": [
+        { "letter": "A", "text": "The extreme pH disrupts the active site (denaturation)", "correct": true },
+        { "letter": "B", "text": "There is too much substrate", "correct": false },
+        { "letter": "C", "text": "Collisions become more frequent", "correct": false },
+        { "letter": "D", "text": "The enzyme becomes a substrate", "correct": false }
+      ],
+      "explanation": "Extreme pH away from the optimum can denature the enzyme, disrupting the active site and lowering activity."
+    },
+    {
+      "id": "C1.1-022",
+      "level": "SL",
+      "statement": "C1.1.9",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "A student times how long an enzyme takes to break down a substrate.",
+      "stem": "From this they can determine the:",
+      "options": [
+        { "letter": "A", "text": "Rate of the reaction", "correct": true },
+        { "letter": "B", "text": "Amino acid sequence of the enzyme", "correct": false },
+        { "letter": "C", "text": "Number of chromosomes", "correct": false },
+        { "letter": "D", "text": "Activation energy in kilojoules", "correct": false }
+      ],
+      "explanation": "Measurements allow determination of reaction rates, from experimental or secondary data."
+    },
+    {
+      "id": "C1.1-023",
+      "level": "SL",
+      "statement": "C1.1.2",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Control over metabolism can be exerted mainly through:",
+      "options": [
+        { "letter": "A", "text": "Enzymes", "correct": true },
+        { "letter": "B", "text": "Ribosomes alone", "correct": false },
+        { "letter": "C", "text": "The cell wall", "correct": false },
+        { "letter": "D", "text": "Storage lipids", "correct": false }
+      ],
+      "explanation": "Because enzymes are specific, controlling them provides control over the metabolic network."
+    },
+    {
+      "id": "C1.1-024",
+      "level": "SL",
+      "statement": "C1.1.4",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Even though the active site is only a few amino acids, its correct shape depends on:",
+      "options": [
+        { "letter": "A", "text": "Interactions across the whole 3D structure of the enzyme", "correct": true },
+        { "letter": "B", "text": "The number of substrate molecules", "correct": false },
+        { "letter": "C", "text": "The pH of the blood only", "correct": false },
+        { "letter": "D", "text": "The presence of DNA", "correct": false }
+      ],
+      "explanation": "Interactions between amino acids throughout the enzyme give the active site its catalytic properties."
+    },
+    {
+      "id": "C1.1-025",
+      "level": "SL",
+      "statement": "C1.1.6",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "An enzyme is embedded in a membrane.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "An immobilized enzyme", "correct": true },
+        { "letter": "B", "text": "A denatured enzyme", "correct": false },
+        { "letter": "C", "text": "A substrate", "correct": false },
+        { "letter": "D", "text": "A competitive inhibitor", "correct": false }
+      ],
+      "explanation": "Enzymes can be immobilized by being embedded in membranes; sometimes substrates are immobilized instead."
+    },
+    {
+      "id": "C1.1-026",
+      "level": "SL",
+      "statement": "C1.1.10",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Overall, an enzyme-catalysed reaction that releases energy does so because:",
+      "options": [
+        { "letter": "A", "text": "More energy is released forming product bonds than is used breaking substrate bonds", "correct": true },
+        { "letter": "B", "text": "No bonds are broken", "correct": false },
+        { "letter": "C", "text": "Energy is only ever absorbed", "correct": false },
+        { "letter": "D", "text": "Enzymes add energy to the products", "correct": false }
+      ],
+      "explanation": "Breaking substrate bonds needs energy; forming product bonds yields energy, giving the overall energy change."
+    },
+    {
+      "id": "C1.1-027",
+      "level": "SL",
+      "statement": "C1.1.8",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "A graph of rate against substrate concentration plateaus at high concentration.",
+      "stem": "The plateau occurs because:",
+      "options": [
+        { "letter": "A", "text": "All active sites are occupied (enzymes saturated)", "correct": true },
+        { "letter": "B", "text": "The enzyme has denatured", "correct": false },
+        { "letter": "C", "text": "Substrate has run out", "correct": false },
+        { "letter": "D", "text": "The pH has changed", "correct": false }
+      ],
+      "explanation": "At high substrate concentration the enzymes are saturated, so adding more substrate does not increase the rate."
+    },
+    {
+      "id": "C1.1-028",
+      "level": "SL",
+      "statement": "C1.1.1",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "A catalyst is a substance that speeds up a reaction and is:",
+      "options": [
+        { "letter": "A", "text": "Not used up in the reaction", "correct": true },
+        { "letter": "B", "text": "Consumed completely", "correct": false },
+        { "letter": "C", "text": "Converted into product", "correct": false },
+        { "letter": "D", "text": "A source of genetic information", "correct": false }
+      ],
+      "explanation": "Catalysts, including enzymes, speed up reactions without being used up."
+    },
+    {
+      "id": "C1.1-029",
+      "level": "SL",
+      "statement": "C1.1.3",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Which pairing of process and type is correct?",
+      "options": [
+        { "letter": "A", "text": "Photosynthesis — anabolic; respiration — catabolic", "correct": true },
+        { "letter": "B", "text": "Photosynthesis — catabolic; respiration — anabolic", "correct": false },
+        { "letter": "C", "text": "Both are catabolic", "correct": false },
+        { "letter": "D", "text": "Both are anabolic", "correct": false }
+      ],
+      "explanation": "Photosynthesis builds carbon compounds (anabolic); respiration oxidises substrates (catabolic)."
+    },
+    {
+      "id": "C1.1-030",
+      "level": "SL",
+      "statement": "C1.1.7",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Enzyme-substrate specificity means that an enzyme:",
+      "options": [
+        { "letter": "A", "text": "Catalyses only reactions of substrates that fit its active site", "correct": true },
+        { "letter": "B", "text": "Works on any molecule", "correct": false },
+        { "letter": "C", "text": "Never binds a substrate", "correct": false },
+        { "letter": "D", "text": "Has many identical active sites for all substrates", "correct": false }
+      ],
+      "explanation": "Specificity arises because only substrates matching the active site's shape can bind and react."
+    },
+    {
+      "id": "C1.1-031",
+      "level": "HL",
+      "statement": "C1.1.11",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "Chemical digestion of food occurs in the gut lumen.",
+      "stem": "This is an example of an:",
+      "options": [
+        { "letter": "A", "text": "Extracellular enzyme-catalysed reaction", "correct": true },
+        { "letter": "B", "text": "Intracellular enzyme-catalysed reaction", "correct": false },
+        { "letter": "C", "text": "Anaerobic pathway", "correct": false },
+        { "letter": "D", "text": "Non-enzymatic reaction", "correct": false }
+      ],
+      "explanation": "Digestion in the gut is extracellular; glycolysis and the Krebs cycle are intracellular examples."
+    },
+    {
+      "id": "C1.1-032",
+      "level": "HL",
+      "statement": "C1.1.11",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "Glycolysis and the Krebs cycle occur inside cells.",
+      "stem": "These are examples of:",
+      "options": [
+        { "letter": "A", "text": "Intracellular enzyme-catalysed reactions", "correct": true },
+        { "letter": "B", "text": "Extracellular reactions", "correct": false },
+        { "letter": "C", "text": "Reactions with no enzymes", "correct": false },
+        { "letter": "D", "text": "Digestion in the gut", "correct": false }
+      ],
+      "explanation": "Glycolysis and the Krebs cycle are intracellular enzyme-catalysed reactions."
+    },
+    {
+      "id": "C1.1-033",
+      "level": "HL",
+      "statement": "C1.1.12",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Heat is generated by metabolic reactions because:",
+      "options": [
+        { "letter": "A", "text": "Energy transfers are not 100% efficient", "correct": true },
+        { "letter": "B", "text": "Reactions are perfectly efficient", "correct": false },
+        { "letter": "C", "text": "Enzymes create energy", "correct": false },
+        { "letter": "D", "text": "No energy is transferred", "correct": false }
+      ],
+      "explanation": "Because metabolic energy transfers are not 100% efficient, heat is inevitably generated."
+    },
+    {
+      "id": "C1.1-034",
+      "level": "HL",
+      "statement": "C1.1.12",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Mammals and birds depend on metabolic heat production for:",
+      "options": [
+        { "letter": "A", "text": "Maintaining a constant body temperature", "correct": true },
+        { "letter": "B", "text": "Producing DNA", "correct": false },
+        { "letter": "C", "text": "Digesting food externally", "correct": false },
+        { "letter": "D", "text": "Photosynthesis", "correct": false }
+      ],
+      "explanation": "Endotherms such as mammals and birds use the heat from inefficient metabolism to keep body temperature constant."
+    },
+    {
+      "id": "C1.1-035",
+      "level": "HL",
+      "statement": "C1.1.13",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Which metabolic pathway is cyclical?",
+      "options": [
+        { "letter": "A", "text": "The Krebs cycle", "correct": true },
+        { "letter": "B", "text": "Glycolysis", "correct": false },
+        { "letter": "C", "text": "Chemical digestion in the gut", "correct": false },
+        { "letter": "D", "text": "Protein synthesis", "correct": false }
+      ],
+      "explanation": "The Krebs cycle and Calvin cycle are cyclical; glycolysis is a linear pathway."
+    },
+    {
+      "id": "C1.1-036",
+      "level": "HL",
+      "statement": "C1.1.13",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Glycolysis is an example of a metabolic pathway that is:",
+      "options": [
+        { "letter": "A", "text": "Linear", "correct": true },
+        { "letter": "B", "text": "Cyclical", "correct": false },
+        { "letter": "C", "text": "Non-enzymatic", "correct": false },
+        { "letter": "D", "text": "Extracellular", "correct": false }
+      ],
+      "explanation": "Glycolysis is a linear pathway, whereas the Krebs and Calvin cycles are cyclical."
+    },
+    {
+      "id": "C1.1-037",
+      "level": "HL",
+      "statement": "C1.1.14",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "An inhibitor binds to a site away from the active site, changing the enzyme's shape.",
+      "stem": "This is:",
+      "options": [
+        { "letter": "A", "text": "Non-competitive inhibition at an allosteric site", "correct": true },
+        { "letter": "B", "text": "Competitive inhibition at the active site", "correct": false },
+        { "letter": "C", "text": "Denaturation by heat", "correct": false },
+        { "letter": "D", "text": "Substrate binding", "correct": false }
+      ],
+      "explanation": "Binding at an allosteric site causes conformational change altering the active site — non-competitive inhibition."
+    },
+    {
+      "id": "C1.1-038",
+      "level": "HL",
+      "statement": "C1.1.14",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Binding of a non-competitive inhibitor to an allosteric site is:",
+      "options": [
+        { "letter": "A", "text": "Reversible", "correct": true },
+        { "letter": "B", "text": "Always irreversible", "correct": false },
+        { "letter": "C", "text": "Impossible", "correct": false },
+        { "letter": "D", "text": "The same as denaturation", "correct": false }
+      ],
+      "explanation": "Binding at an allosteric site is reversible, unlike mechanism-based (irreversible) inhibition."
+    },
+    {
+      "id": "C1.1-039",
+      "level": "HL",
+      "statement": "C1.1.15",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "An inhibitor binds reversibly to the active site, competing with the substrate.",
+      "stem": "This is:",
+      "options": [
+        { "letter": "A", "text": "Competitive inhibition", "correct": true },
+        { "letter": "B", "text": "Non-competitive inhibition", "correct": false },
+        { "letter": "C", "text": "Feedback inhibition only", "correct": false },
+        { "letter": "D", "text": "Mechanism-based inhibition", "correct": false }
+      ],
+      "explanation": "Competitive inhibitors bind reversibly to the active site, competing with the substrate; statins are an example."
+    },
+    {
+      "id": "C1.1-040",
+      "level": "HL",
+      "statement": "C1.1.15",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "Substrate concentration is increased in the presence of a competitive inhibitor.",
+      "stem": "What is the effect on the inhibition?",
+      "options": [
+        { "letter": "A", "text": "It can be overcome, as substrate outcompetes the inhibitor", "correct": true },
+        { "letter": "B", "text": "It becomes stronger", "correct": false },
+        { "letter": "C", "text": "It is unaffected", "correct": false },
+        { "letter": "D", "text": "The enzyme denatures", "correct": false }
+      ],
+      "explanation": "Adding substrate reduces competitive inhibition, since substrate and inhibitor compete for the active site."
+    },
+    {
+      "id": "C1.1-041",
+      "level": "HL",
+      "statement": "C1.1.15",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Statins are used as an example of:",
+      "options": [
+        { "letter": "A", "text": "Competitive inhibitors", "correct": true },
+        { "letter": "B", "text": "Non-competitive inhibitors", "correct": false },
+        { "letter": "C", "text": "Substrates", "correct": false },
+        { "letter": "D", "text": "Coenzymes", "correct": false }
+      ],
+      "explanation": "Statins are the syllabus example of competitive inhibitors."
+    },
+    {
+      "id": "C1.1-042",
+      "level": "HL",
+      "statement": "C1.1.16",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "The end product of a pathway inhibits an enzyme earlier in that pathway.",
+      "stem": "This regulation is called:",
+      "options": [
+        { "letter": "A", "text": "Feedback inhibition", "correct": true },
+        { "letter": "B", "text": "Competitive inhibition", "correct": false },
+        { "letter": "C", "text": "Mechanism-based inhibition", "correct": false },
+        { "letter": "D", "text": "Denaturation", "correct": false }
+      ],
+      "explanation": "In feedback inhibition an end product inhibits an earlier enzyme; the isoleucine pathway is the example."
+    },
+    {
+      "id": "C1.1-043",
+      "level": "HL",
+      "statement": "C1.1.16",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "The benefit of feedback inhibition is that it:",
+      "options": [
+        { "letter": "A", "text": "Prevents wasteful overproduction of the end product", "correct": true },
+        { "letter": "B", "text": "Speeds up production indefinitely", "correct": false },
+        { "letter": "C", "text": "Denatures all enzymes", "correct": false },
+        { "letter": "D", "text": "Removes the active site", "correct": false }
+      ],
+      "explanation": "Feedback inhibition stops a pathway when enough product is present, avoiding waste and regulating metabolism."
+    },
+    {
+      "id": "C1.1-044",
+      "level": "HL",
+      "statement": "C1.1.17",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "Penicillin binds irreversibly to an enzyme, chemically changing its active site.",
+      "stem": "This is an example of:",
+      "options": [
+        { "letter": "A", "text": "Mechanism-based inhibition", "correct": true },
+        { "letter": "B", "text": "Competitive inhibition", "correct": false },
+        { "letter": "C", "text": "Non-competitive (reversible) inhibition", "correct": false },
+        { "letter": "D", "text": "Feedback inhibition", "correct": false }
+      ],
+      "explanation": "Mechanism-based inhibition involves irreversible binding that chemically changes the active site; penicillin is the example."
+    },
+    {
+      "id": "C1.1-045",
+      "level": "HL",
+      "statement": "C1.1.17",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "Some bacteria have altered transpeptidases.",
+      "stem": "This change confers:",
+      "options": [
+        { "letter": "A", "text": "Resistance to penicillin", "correct": true },
+        { "letter": "B", "text": "Increased sensitivity to penicillin", "correct": false },
+        { "letter": "C", "text": "The inability to make cell walls", "correct": false },
+        { "letter": "D", "text": "The loss of all enzymes", "correct": false }
+      ],
+      "explanation": "Changes to transpeptidases confer resistance to penicillin, which normally inhibits these enzymes."
+    },
+    {
+      "id": "C1.1-046",
+      "level": "HL",
+      "statement": "C1.1.14",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Which statement about an allosteric site is correct?",
+      "options": [
+        { "letter": "A", "text": "Only specific substances can bind to it", "correct": true },
+        { "letter": "B", "text": "Any molecule can bind to it", "correct": false },
+        { "letter": "C", "text": "It is the same as the active site", "correct": false },
+        { "letter": "D", "text": "It never affects catalysis", "correct": false }
+      ],
+      "explanation": "Allosteric sites bind only specific substances, whose binding causes conformational changes affecting catalysis."
+    },
+    {
+      "id": "C1.1-047",
+      "level": "HL",
+      "statement": "C1.1.15",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "The effect of a non-competitive inhibitor is compared with a competitive one.",
+      "stem": "Increasing substrate concentration will:",
+      "options": [
+        { "letter": "A", "text": "Reverse competitive inhibition but not non-competitive inhibition", "correct": true },
+        { "letter": "B", "text": "Reverse both equally", "correct": false },
+        { "letter": "C", "text": "Reverse neither", "correct": false },
+        { "letter": "D", "text": "Reverse only non-competitive inhibition", "correct": false }
+      ],
+      "explanation": "Extra substrate overcomes competitive inhibition (same site) but not non-competitive inhibition (allosteric site)."
+    },
+    {
+      "id": "C1.1-048",
+      "level": "HL",
+      "statement": "C1.1.12",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "Heat production by metabolism is best described as:",
+      "options": [
+        { "letter": "A", "text": "An inevitable consequence of inefficient energy transfer", "correct": true },
+        { "letter": "B", "text": "A deliberate anabolic reaction", "correct": false },
+        { "letter": "C", "text": "Only occurring in plants", "correct": false },
+        { "letter": "D", "text": "A sign that enzymes have denatured", "correct": false }
+      ],
+      "explanation": "Heat generation is inevitable because metabolic reactions are not 100% efficient; endotherms exploit it."
+    },
+    {
+      "id": "C1.1-049",
+      "level": "HL",
+      "statement": "C1.1.16",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "In the isoleucine pathway, the end product isoleucine acts as:",
+      "options": [
+        { "letter": "A", "text": "An inhibitor of an earlier enzyme", "correct": true },
+        { "letter": "B", "text": "A substrate for the first enzyme", "correct": false },
+        { "letter": "C", "text": "An activator increasing the rate", "correct": false },
+        { "letter": "D", "text": "A coenzyme", "correct": false }
+      ],
+      "explanation": "In feedback inhibition, isoleucine inhibits an earlier enzyme in its own synthesis pathway."
+    },
+    {
+      "id": "C1.1-050",
+      "level": "HL",
+      "statement": "C1.1.17",
+      "category": "C1.1 Enzymes and metabolism",
+      "scenario": "",
+      "stem": "How does mechanism-based inhibition differ from competitive inhibition?",
+      "options": [
+        { "letter": "A", "text": "It binds irreversibly and chemically changes the active site", "correct": true },
+        { "letter": "B", "text": "It binds reversibly and can be outcompeted", "correct": false },
+        { "letter": "C", "text": "It never affects the enzyme", "correct": false },
+        { "letter": "D", "text": "It only works at high temperature", "correct": false }
+      ],
+      "explanation": "Mechanism-based inhibition is irreversible, chemically altering the active site, unlike reversible competitive inhibition."
+    }
+  ]
+}

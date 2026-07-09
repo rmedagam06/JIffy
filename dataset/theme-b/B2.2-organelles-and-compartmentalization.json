@@ -1,0 +1,760 @@
+{
+  "id": "B2.2",
+  "name": "Organelles and compartmentalization",
+  "theme": "B",
+  "themeName": "Form and function",
+  "levelOfOrganization": "Cells",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "B2.2-001",
+      "level": "SL",
+      "statement": "B2.2.1",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "An organelle is best described as:",
+      "options": [
+        { "letter": "A", "text": "A discrete subunit of a cell adapted to a specific function", "correct": true },
+        { "letter": "B", "text": "A whole tissue", "correct": false },
+        { "letter": "C", "text": "A type of molecule", "correct": false },
+        { "letter": "D", "text": "A group of cells", "correct": false }
+      ],
+      "explanation": "Organelles are discrete subunits of cells, each adapted to perform a specific function."
+    },
+    {
+      "id": "B2.2-002",
+      "level": "SL",
+      "statement": "B2.2.1",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which of these IS considered an organelle?",
+      "options": [
+        { "letter": "A", "text": "The ribosome", "correct": true },
+        { "letter": "B", "text": "The cell wall", "correct": false },
+        { "letter": "C", "text": "The cytoskeleton", "correct": false },
+        { "letter": "D", "text": "The cytoplasm", "correct": false }
+      ],
+      "explanation": "Nuclei, vesicles, ribosomes and the plasma membrane are organelles; the cell wall, cytoskeleton and cytoplasm are not."
+    },
+    {
+      "id": "B2.2-003",
+      "level": "SL",
+      "statement": "B2.2.1",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which of these is NOT considered an organelle?",
+      "options": [
+        { "letter": "A", "text": "The cytoplasm", "correct": true },
+        { "letter": "B", "text": "The nucleus", "correct": false },
+        { "letter": "C", "text": "A vesicle", "correct": false },
+        { "letter": "D", "text": "The plasma membrane", "correct": false }
+      ],
+      "explanation": "Cytoplasm (along with the cell wall and cytoskeleton) is not classed as an organelle."
+    },
+    {
+      "id": "B2.2-004",
+      "level": "SL",
+      "statement": "B2.2.1",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "The study of individual organelles became possible only after ultracentrifuges were developed.",
+      "stem": "This illustrates that scientific progress often follows:",
+      "options": [
+        { "letter": "A", "text": "The development of new techniques", "correct": true },
+        { "letter": "B", "text": "A decrease in technology", "correct": false },
+        { "letter": "C", "text": "The removal of all equipment", "correct": false },
+        { "letter": "D", "text": "Ignoring new methods", "correct": false }
+      ],
+      "explanation": "Progress in science often follows new techniques; cell fractionation by ultracentrifuge enabled the study of organelles."
+    },
+    {
+      "id": "B2.2-005",
+      "level": "SL",
+      "statement": "B2.2.2",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "In eukaryotes, the nucleus and cytoplasm are separate compartments.",
+      "stem": "What advantage does this separation provide?",
+      "options": [
+        { "letter": "A", "text": "Transcription and translation are separated", "correct": true },
+        { "letter": "B", "text": "The cell needs no membranes", "correct": false },
+        { "letter": "C", "text": "DNA can leave the cell", "correct": false },
+        { "letter": "D", "text": "Ribosomes are destroyed", "correct": false }
+      ],
+      "explanation": "Separating nucleus and cytoplasm separates transcription from translation, allowing mRNA processing before translation."
+    },
+    {
+      "id": "B2.2-006",
+      "level": "SL",
+      "statement": "B2.2.2",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Because their nucleus and cytoplasm are separated, eukaryotes can carry out which process on mRNA before translation?",
+      "options": [
+        { "letter": "A", "text": "Post-transcriptional modification", "correct": true },
+        { "letter": "B", "text": "Immediate translation as it is made", "correct": false },
+        { "letter": "C", "text": "Digestion of all mRNA", "correct": false },
+        { "letter": "D", "text": "Active transport of DNA", "correct": false }
+      ],
+      "explanation": "The separation allows post-transcriptional modification of mRNA before it reaches ribosomes in the cytoplasm."
+    },
+    {
+      "id": "B2.2-007",
+      "level": "SL",
+      "statement": "B2.2.2",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "In prokaryotes, there is no nuclear membrane.",
+      "stem": "What is a consequence for gene expression?",
+      "options": [
+        { "letter": "A", "text": "mRNA may immediately meet ribosomes for translation", "correct": true },
+        { "letter": "B", "text": "Transcription cannot occur", "correct": false },
+        { "letter": "C", "text": "Translation is impossible", "correct": false },
+        { "letter": "D", "text": "DNA is stored in mitochondria", "correct": false }
+      ],
+      "explanation": "Without compartmentalization, prokaryotic mRNA can be translated by ribosomes immediately as it is transcribed."
+    },
+    {
+      "id": "B2.2-008",
+      "level": "SL",
+      "statement": "B2.2.3",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which is an advantage of compartmentalization within the cytoplasm?",
+      "options": [
+        { "letter": "A", "text": "Metabolites and enzymes can be concentrated together", "correct": true },
+        { "letter": "B", "text": "All reactions are slowed down", "correct": false },
+        { "letter": "C", "text": "Incompatible processes must occur together", "correct": false },
+        { "letter": "D", "text": "Enzymes are diluted", "correct": false }
+      ],
+      "explanation": "Compartmentalization concentrates enzymes and metabolites and separates incompatible biochemical processes."
+    },
+    {
+      "id": "B2.2-009",
+      "level": "SL",
+      "statement": "B2.2.3",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "Lysosomes keep digestive enzymes enclosed within a membrane.",
+      "stem": "Why is this an advantage?",
+      "options": [
+        { "letter": "A", "text": "It separates destructive enzymes from the rest of the cell", "correct": true },
+        { "letter": "B", "text": "It stops the enzymes from working ever", "correct": false },
+        { "letter": "C", "text": "It removes the need for a membrane", "correct": false },
+        { "letter": "D", "text": "It makes the whole cytoplasm acidic", "correct": false }
+      ],
+      "explanation": "Compartmentalizing digestive enzymes in lysosomes keeps incompatible, destructive processes separate from the cytoplasm."
+    },
+    {
+      "id": "B2.2-010",
+      "level": "SL",
+      "statement": "B2.2.3",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which structures are given as examples of compartmentalization in the cytoplasm?",
+      "options": [
+        { "letter": "A", "text": "Lysosomes and phagocytic vacuoles", "correct": true },
+        { "letter": "B", "text": "Cell wall and cytoskeleton", "correct": false },
+        { "letter": "C", "text": "Ribosomes only", "correct": false },
+        { "letter": "D", "text": "DNA loops", "correct": false }
+      ],
+      "explanation": "Lysosomes and phagocytic vacuoles illustrate the advantages of compartmentalization in the cytoplasm."
+    },
+    {
+      "id": "B2.2-011",
+      "level": "SL",
+      "statement": "B2.2.1",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Why is the cell wall NOT classified as an organelle?",
+      "options": [
+        { "letter": "A", "text": "It is not a discrete internal subunit adapted to a specific cellular function in this classification", "correct": true },
+        { "letter": "B", "text": "It contains DNA", "correct": false },
+        { "letter": "C", "text": "It is a type of vesicle", "correct": false },
+        { "letter": "D", "text": "It performs photosynthesis", "correct": false }
+      ],
+      "explanation": "By the syllabus definition, the cell wall, cytoskeleton and cytoplasm are not organelles."
+    },
+    {
+      "id": "B2.2-012",
+      "level": "SL",
+      "statement": "B2.2.2",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "The separation of transcription and translation is possible in eukaryotes because:",
+      "options": [
+        { "letter": "A", "text": "The nucleus and cytoplasm are separate compartments", "correct": true },
+        { "letter": "B", "text": "They have no nucleus", "correct": false },
+        { "letter": "C", "text": "They lack ribosomes", "correct": false },
+        { "letter": "D", "text": "Their DNA is naked and looped", "correct": false }
+      ],
+      "explanation": "The nuclear membrane separates transcription (in the nucleus) from translation (in the cytoplasm)."
+    },
+    {
+      "id": "B2.2-013",
+      "level": "SL",
+      "statement": "B2.2.3",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "Two enzyme reactions in a cell would interfere with each other if mixed.",
+      "stem": "Compartmentalization helps by:",
+      "options": [
+        { "letter": "A", "text": "Keeping the incompatible processes separate", "correct": true },
+        { "letter": "B", "text": "Forcing them to occur together", "correct": false },
+        { "letter": "C", "text": "Removing both enzymes", "correct": false },
+        { "letter": "D", "text": "Diluting all reactants", "correct": false }
+      ],
+      "explanation": "Compartments allow incompatible biochemical processes to be separated within the cell."
+    },
+    {
+      "id": "B2.2-014",
+      "level": "SL",
+      "statement": "B2.2.1",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which list contains only structures classified as organelles?",
+      "options": [
+        { "letter": "A", "text": "Nucleus, vesicle, ribosome", "correct": true },
+        { "letter": "B", "text": "Cell wall, cytoplasm, cytoskeleton", "correct": false },
+        { "letter": "C", "text": "Cytoplasm, ribosome, cell wall", "correct": false },
+        { "letter": "D", "text": "Cytoskeleton, nucleus, cytoplasm", "correct": false }
+      ],
+      "explanation": "Nucleus, vesicles, ribosomes and the plasma membrane are organelles; cell wall, cytoplasm and cytoskeleton are not."
+    },
+    {
+      "id": "B2.2-015",
+      "level": "SL",
+      "statement": "B2.2.3",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Concentrating enzymes and substrates within a compartment tends to:",
+      "options": [
+        { "letter": "A", "text": "Increase reaction rates", "correct": true },
+        { "letter": "B", "text": "Stop reactions", "correct": false },
+        { "letter": "C", "text": "Have no effect on reactions", "correct": false },
+        { "letter": "D", "text": "Denature all enzymes", "correct": false }
+      ],
+      "explanation": "By concentrating enzymes and metabolites together, compartmentalization increases the efficiency of reactions."
+    },
+    {
+      "id": "B2.2-016",
+      "level": "SL",
+      "statement": "B2.2.2",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Post-transcriptional modification of mRNA happens:",
+      "options": [
+        { "letter": "A", "text": "In the nucleus, before the mRNA reaches ribosomes", "correct": true },
+        { "letter": "B", "text": "After translation is complete", "correct": false },
+        { "letter": "C", "text": "Only in prokaryotes", "correct": false },
+        { "letter": "D", "text": "Inside the mitochondria", "correct": false }
+      ],
+      "explanation": "Because the nucleus is separate, mRNA can be modified before it meets cytoplasmic ribosomes."
+    },
+    {
+      "id": "B2.2-017",
+      "level": "SL",
+      "statement": "B2.2.1",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "A researcher uses cell fractionation to isolate organelles.",
+      "stem": "Which technology made this possible?",
+      "options": [
+        { "letter": "A", "text": "The ultracentrifuge", "correct": true },
+        { "letter": "B", "text": "The thermometer", "correct": false },
+        { "letter": "C", "text": "The eyepiece graticule", "correct": false },
+        { "letter": "D", "text": "The Punnett square", "correct": false }
+      ],
+      "explanation": "Cell fractionation, enabled by the ultracentrifuge, allowed the study of individual organelles."
+    },
+    {
+      "id": "B2.2-018",
+      "level": "SL",
+      "statement": "B2.2.3",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "A phagocytic vacuole is an example of compartmentalization because it:",
+      "options": [
+        { "letter": "A", "text": "Encloses ingested material within a membrane", "correct": true },
+        { "letter": "B", "text": "Has no membrane", "correct": false },
+        { "letter": "C", "text": "Is part of the cell wall", "correct": false },
+        { "letter": "D", "text": "Stores DNA", "correct": false }
+      ],
+      "explanation": "Phagocytic vacuoles enclose ingested material, an example of the benefits of compartmentalization."
+    },
+    {
+      "id": "B2.2-019",
+      "level": "SL",
+      "statement": "B2.2.2",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which cell type can begin translating mRNA while it is still being transcribed?",
+      "options": [
+        { "letter": "A", "text": "A prokaryotic cell", "correct": true },
+        { "letter": "B", "text": "A eukaryotic cell", "correct": false },
+        { "letter": "C", "text": "A plant cell", "correct": false },
+        { "letter": "D", "text": "An animal cell", "correct": false }
+      ],
+      "explanation": "Without a nuclear membrane, prokaryotic mRNA can meet ribosomes and be translated immediately."
+    },
+    {
+      "id": "B2.2-020",
+      "level": "SL",
+      "statement": "B2.2.1",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "The plasma membrane is classified as an organelle, but the cytoskeleton is not. This shows that:",
+      "options": [
+        { "letter": "A", "text": "The classification of organelles is defined and specific", "correct": true },
+        { "letter": "B", "text": "Every cell structure is an organelle", "correct": false },
+        { "letter": "C", "text": "No structures are organelles", "correct": false },
+        { "letter": "D", "text": "Membranes are never organelles", "correct": false }
+      ],
+      "explanation": "The syllabus specifically classifies the plasma membrane, nuclei, vesicles and ribosomes as organelles, but not the cytoskeleton, cell wall or cytoplasm."
+    },
+    {
+      "id": "B2.2-021",
+      "level": "SL",
+      "statement": "B2.2.3",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Overall, compartmentalization in the cytoplasm improves cell function by:",
+      "options": [
+        { "letter": "A", "text": "Organising reactions and separating incompatible ones", "correct": true },
+        { "letter": "B", "text": "Mixing all reactions together", "correct": false },
+        { "letter": "C", "text": "Removing all enzymes", "correct": false },
+        { "letter": "D", "text": "Preventing metabolism", "correct": false }
+      ],
+      "explanation": "Compartmentalization concentrates enzymes/metabolites and keeps incompatible processes apart, improving efficiency."
+    },
+    {
+      "id": "B2.2-022",
+      "level": "SL",
+      "statement": "B2.2.2",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which best summarises the benefit of a separate nucleus?",
+      "options": [
+        { "letter": "A", "text": "It allows transcription and mRNA processing to occur apart from translation", "correct": true },
+        { "letter": "B", "text": "It lets DNA leave the cell", "correct": false },
+        { "letter": "C", "text": "It removes the need for ribosomes", "correct": false },
+        { "letter": "D", "text": "It prevents transcription", "correct": false }
+      ],
+      "explanation": "A separate nucleus keeps transcription and mRNA modification apart from cytoplasmic translation."
+    },
+    {
+      "id": "B2.2-023",
+      "level": "SL",
+      "statement": "B2.2.1",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which feature do all organelles share by definition?",
+      "options": [
+        { "letter": "A", "text": "They are subunits adapted to specific functions", "correct": true },
+        { "letter": "B", "text": "They are all membrane-bound", "correct": false },
+        { "letter": "C", "text": "They all contain DNA", "correct": false },
+        { "letter": "D", "text": "They are all found only in plants", "correct": false }
+      ],
+      "explanation": "Organelles are discrete subunits adapted to specific functions; note ribosomes are organelles but not membrane-bound."
+    },
+    {
+      "id": "B2.2-024",
+      "level": "SL",
+      "statement": "B2.2.3",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which is a direct benefit of concentrating specific enzymes in one compartment?",
+      "options": [
+        { "letter": "A", "text": "Reactions requiring those enzymes proceed more efficiently", "correct": true },
+        { "letter": "B", "text": "The enzymes are permanently deactivated", "correct": false },
+        { "letter": "C", "text": "All reactions stop", "correct": false },
+        { "letter": "D", "text": "The cell loses its membranes", "correct": false }
+      ],
+      "explanation": "Concentrating enzymes with their substrates raises reaction efficiency, a benefit of compartmentalization."
+    },
+    {
+      "id": "B2.2-025",
+      "level": "SL",
+      "statement": "B2.2.2",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which is a key difference between prokaryotes and eukaryotes in gene expression?",
+      "options": [
+        { "letter": "A", "text": "Only eukaryotes separate transcription and translation into compartments", "correct": true },
+        { "letter": "B", "text": "Only prokaryotes carry out transcription", "correct": false },
+        { "letter": "C", "text": "Only eukaryotes have mRNA", "correct": false },
+        { "letter": "D", "text": "Prokaryotes cannot translate", "correct": false }
+      ],
+      "explanation": "Eukaryotes separate transcription and translation by compartments, whereas prokaryotes do not."
+    },
+    {
+      "id": "B2.2-026",
+      "level": "HL",
+      "statement": "B2.2.4",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which adaptation of the mitochondrion increases the surface area for aerobic respiration?",
+      "options": [
+        { "letter": "A", "text": "Folded cristae of the inner membrane", "correct": true },
+        { "letter": "B", "text": "A single flat membrane", "correct": false },
+        { "letter": "C", "text": "A thick cell wall", "correct": false },
+        { "letter": "D", "text": "The absence of a matrix", "correct": false }
+      ],
+      "explanation": "The large surface area of cristae is a mitochondrial adaptation for ATP production by aerobic respiration."
+    },
+    {
+      "id": "B2.2-027",
+      "level": "HL",
+      "statement": "B2.2.4",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "The enzymes and substrates of the Krebs cycle are compartmentalized in the mitochondrial:",
+      "options": [
+        { "letter": "A", "text": "Matrix", "correct": true },
+        { "letter": "B", "text": "Intermembrane space", "correct": false },
+        { "letter": "C", "text": "Outer membrane", "correct": false },
+        { "letter": "D", "text": "Cristae surface only", "correct": false }
+      ],
+      "explanation": "The Krebs cycle enzymes and substrates are compartmentalized in the matrix of the mitochondrion."
+    },
+    {
+      "id": "B2.2-028",
+      "level": "HL",
+      "statement": "B2.2.4",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "The mitochondrion has a small intermembrane space because it has:",
+      "options": [
+        { "letter": "A", "text": "A double membrane close together", "correct": true },
+        { "letter": "B", "text": "No membranes", "correct": false },
+        { "letter": "C", "text": "A single membrane", "correct": false },
+        { "letter": "D", "text": "A cellulose wall", "correct": false }
+      ],
+      "explanation": "A double membrane with a small intermembrane space is an adaptation supporting ATP production."
+    },
+    {
+      "id": "B2.2-029",
+      "level": "HL",
+      "statement": "B2.2.5",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which chloroplast structure provides a large surface area holding photosystems?",
+      "options": [
+        { "letter": "A", "text": "Thylakoid membranes", "correct": true },
+        { "letter": "B", "text": "The stroma alone", "correct": false },
+        { "letter": "C", "text": "The outer membrane only", "correct": false },
+        { "letter": "D", "text": "The cell wall", "correct": false }
+      ],
+      "explanation": "The large surface area of thylakoid membranes carries the photosystems for the light-dependent reactions."
+    },
+    {
+      "id": "B2.2-030",
+      "level": "HL",
+      "statement": "B2.2.5",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "The enzymes and substrates of the Calvin cycle are compartmentalized in the chloroplast's:",
+      "options": [
+        { "letter": "A", "text": "Stroma", "correct": true },
+        { "letter": "B", "text": "Thylakoid lumen", "correct": false },
+        { "letter": "C", "text": "Outer membrane", "correct": false },
+        { "letter": "D", "text": "Matrix", "correct": false }
+      ],
+      "explanation": "The Calvin cycle enzymes and substrates are compartmentalized in the stroma of the chloroplast."
+    },
+    {
+      "id": "B2.2-031",
+      "level": "HL",
+      "statement": "B2.2.5",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Small volumes of fluid inside thylakoids are an adaptation that helps:",
+      "options": [
+        { "letter": "A", "text": "Build up concentrations for the light-dependent reactions", "correct": true },
+        { "letter": "B", "text": "Store starch", "correct": false },
+        { "letter": "C", "text": "House the Krebs cycle", "correct": false },
+        { "letter": "D", "text": "Produce the cell wall", "correct": false }
+      ],
+      "explanation": "The small thylakoid volume allows concentrations to build up, supporting efficient photosynthesis."
+    },
+    {
+      "id": "B2.2-032",
+      "level": "HL",
+      "statement": "B2.2.6",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Pores in the nuclear membrane are needed for:",
+      "options": [
+        { "letter": "A", "text": "Exchange of materials between nucleus and cytoplasm", "correct": true },
+        { "letter": "B", "text": "Blocking all exchange", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "Producing ATP", "correct": false }
+      ],
+      "explanation": "Nuclear pores allow controlled exchange, such as mRNA leaving the nucleus, across the double membrane."
+    },
+    {
+      "id": "B2.2-033",
+      "level": "HL",
+      "statement": "B2.2.6",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "During mitosis and meiosis, the nuclear membrane must:",
+      "stem": "What happens to the nuclear membrane?",
+      "options": [
+        { "letter": "A", "text": "It breaks into vesicles", "correct": true },
+        { "letter": "B", "text": "It becomes a cell wall", "correct": false },
+        { "letter": "C", "text": "It thickens permanently", "correct": false },
+        { "letter": "D", "text": "It fuses with mitochondria", "correct": false }
+      ],
+      "explanation": "The nuclear membrane breaks into vesicles during mitosis and meiosis, a functional benefit of its structure."
+    },
+    {
+      "id": "B2.2-034",
+      "level": "HL",
+      "statement": "B2.2.7",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Free ribosomes in the cytoplasm mainly synthesize proteins that are:",
+      "options": [
+        { "letter": "A", "text": "Retained for use within the cell", "correct": true },
+        { "letter": "B", "text": "Always secreted from the cell", "correct": false },
+        { "letter": "C", "text": "Made of lipid", "correct": false },
+        { "letter": "D", "text": "Transported only by the Golgi", "correct": false }
+      ],
+      "explanation": "Free ribosomes make proteins for use inside the cell; membrane-bound ribosomes make proteins for transport or secretion."
+    },
+    {
+      "id": "B2.2-035",
+      "level": "HL",
+      "statement": "B2.2.7",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Ribosomes on the rough endoplasmic reticulum synthesize proteins mainly for:",
+      "options": [
+        { "letter": "A", "text": "Transport within the cell and secretion", "correct": true },
+        { "letter": "B", "text": "Retention in the cytoplasm only", "correct": false },
+        { "letter": "C", "text": "Energy storage", "correct": false },
+        { "letter": "D", "text": "Forming the cell wall", "correct": false }
+      ],
+      "explanation": "The rough ER's membrane-bound ribosomes make proteins destined for transport within the cell and for secretion."
+    },
+    {
+      "id": "B2.2-036",
+      "level": "HL",
+      "statement": "B2.2.8",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "The Golgi apparatus is chiefly involved in:",
+      "options": [
+        { "letter": "A", "text": "Processing and secretion of proteins", "correct": true },
+        { "letter": "B", "text": "Aerobic respiration", "correct": false },
+        { "letter": "C", "text": "Photosynthesis", "correct": false },
+        { "letter": "D", "text": "DNA replication", "correct": false }
+      ],
+      "explanation": "The Golgi apparatus processes and secretes proteins."
+    },
+    {
+      "id": "B2.2-037",
+      "level": "HL",
+      "statement": "B2.2.9",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which protein is involved in the formation of vesicles?",
+      "options": [
+        { "letter": "A", "text": "Clathrin", "correct": true },
+        { "letter": "B", "text": "Collagen", "correct": false },
+        { "letter": "C", "text": "Haemoglobin", "correct": false },
+        { "letter": "D", "text": "Titin", "correct": false }
+      ],
+      "explanation": "Clathrin plays a role in the formation of vesicles."
+    },
+    {
+      "id": "B2.2-038",
+      "level": "HL",
+      "statement": "B2.2.4",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "A cell that uses a lot of energy has many mitochondria with extensive cristae.",
+      "stem": "How does this benefit the cell?",
+      "options": [
+        { "letter": "A", "text": "More surface area increases ATP production", "correct": true },
+        { "letter": "B", "text": "It reduces respiration", "correct": false },
+        { "letter": "C", "text": "It stops the Krebs cycle", "correct": false },
+        { "letter": "D", "text": "It performs photosynthesis", "correct": false }
+      ],
+      "explanation": "Extensive cristae provide more surface area for the reactions of aerobic respiration, boosting ATP output."
+    },
+    {
+      "id": "B2.2-039",
+      "level": "HL",
+      "statement": "B2.2.5",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which pair correctly matches organelle region to process?",
+      "options": [
+        { "letter": "A", "text": "Chloroplast stroma — Calvin cycle; mitochondrial matrix — Krebs cycle", "correct": true },
+        { "letter": "B", "text": "Chloroplast stroma — Krebs cycle; mitochondrial matrix — Calvin cycle", "correct": false },
+        { "letter": "C", "text": "Both cycles occur in the thylakoid", "correct": false },
+        { "letter": "D", "text": "Both cycles occur in the cristae", "correct": false }
+      ],
+      "explanation": "The Calvin cycle is in the chloroplast stroma; the Krebs cycle is in the mitochondrial matrix."
+    },
+    {
+      "id": "B2.2-040",
+      "level": "HL",
+      "statement": "B2.2.7",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "A cell secretes large amounts of protein.",
+      "stem": "Which organelle would you expect to be well developed?",
+      "options": [
+        { "letter": "A", "text": "Rough endoplasmic reticulum", "correct": true },
+        { "letter": "B", "text": "Chloroplast", "correct": false },
+        { "letter": "C", "text": "Cell wall", "correct": false },
+        { "letter": "D", "text": "Central vacuole", "correct": false }
+      ],
+      "explanation": "The rough ER, with membrane-bound ribosomes, is extensive in cells that make proteins for secretion."
+    },
+    {
+      "id": "B2.2-041",
+      "level": "HL",
+      "statement": "B2.2.6",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "A functional benefit of the nucleus having a double membrane is that it:",
+      "options": [
+        { "letter": "A", "text": "Can break into vesicles during cell division and has pores for exchange", "correct": true },
+        { "letter": "B", "text": "Prevents all exchange with the cytoplasm", "correct": false },
+        { "letter": "C", "text": "Produces ATP", "correct": false },
+        { "letter": "D", "text": "Carries out translation", "correct": false }
+      ],
+      "explanation": "The double membrane has pores for exchange and can break into vesicles during mitosis and meiosis."
+    },
+    {
+      "id": "B2.2-042",
+      "level": "HL",
+      "statement": "B2.2.8",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "A protein made on the rough ER needs to be secreted.",
+      "stem": "Which organelle processes and packages it for secretion?",
+      "options": [
+        { "letter": "A", "text": "The Golgi apparatus", "correct": true },
+        { "letter": "B", "text": "The mitochondrion", "correct": false },
+        { "letter": "C", "text": "The chloroplast", "correct": false },
+        { "letter": "D", "text": "The nucleus", "correct": false }
+      ],
+      "explanation": "The Golgi apparatus processes proteins and packages them, often into secretory vesicles."
+    },
+    {
+      "id": "B2.2-043",
+      "level": "HL",
+      "statement": "B2.2.9",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Vesicles in cells function mainly to:",
+      "options": [
+        { "letter": "A", "text": "Transport materials within or out of the cell", "correct": true },
+        { "letter": "B", "text": "Carry out photosynthesis", "correct": false },
+        { "letter": "C", "text": "Store the genome", "correct": false },
+        { "letter": "D", "text": "Form the cytoskeleton", "correct": false }
+      ],
+      "explanation": "Vesicles transport materials within the cell and to the membrane; clathrin helps in their formation."
+    },
+    {
+      "id": "B2.2-044",
+      "level": "HL",
+      "statement": "B2.2.4",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Which set of mitochondrial adaptations supports aerobic respiration?",
+      "options": [
+        { "letter": "A", "text": "Double membrane, cristae, enzymes compartmentalized in the matrix", "correct": true },
+        { "letter": "B", "text": "Single membrane and no internal folds", "correct": false },
+        { "letter": "C", "text": "Thylakoids and stroma", "correct": false },
+        { "letter": "D", "text": "A cellulose wall and central vacuole", "correct": false }
+      ],
+      "explanation": "Mitochondria have a double membrane, folded cristae and Krebs-cycle enzymes in the matrix, all aiding ATP production."
+    },
+    {
+      "id": "B2.2-045",
+      "level": "HL",
+      "statement": "B2.2.7",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "The key contrast between free and membrane-bound ribosomes is the:",
+      "options": [
+        { "letter": "A", "text": "Destination of the proteins they make", "correct": true },
+        { "letter": "B", "text": "Type of nucleic acid they contain", "correct": false },
+        { "letter": "C", "text": "Presence of chlorophyll", "correct": false },
+        { "letter": "D", "text": "Number of membranes each has", "correct": false }
+      ],
+      "explanation": "Free ribosomes make proteins retained in the cell; rough-ER ribosomes make proteins for transport and secretion."
+    },
+    {
+      "id": "B2.2-046",
+      "level": "HL",
+      "statement": "B2.2.5",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "A cell carries out a great deal of photosynthesis.",
+      "stem": "Which organelle adaptation would you expect to be prominent?",
+      "options": [
+        { "letter": "A", "text": "Extensive thylakoid membranes with photosystems", "correct": true },
+        { "letter": "B", "text": "Many cristae", "correct": false },
+        { "letter": "C", "text": "A large nucleolus only", "correct": false },
+        { "letter": "D", "text": "Numerous lysosomes", "correct": false }
+      ],
+      "explanation": "Chloroplasts adapted for photosynthesis have extensive thylakoid membranes carrying photosystems."
+    },
+    {
+      "id": "B2.2-047",
+      "level": "HL",
+      "statement": "B2.2.6",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Nuclear pores are essential because they allow:",
+      "options": [
+        { "letter": "A", "text": "mRNA to move out to the cytoplasm", "correct": true },
+        { "letter": "B", "text": "DNA to leave the cell", "correct": false },
+        { "letter": "C", "text": "Ribosomes to enter the mitochondria", "correct": false },
+        { "letter": "D", "text": "ATP to be made", "correct": false }
+      ],
+      "explanation": "Pores in the nuclear membrane let molecules such as mRNA pass between nucleus and cytoplasm."
+    },
+    {
+      "id": "B2.2-048",
+      "level": "HL",
+      "statement": "B2.2.8",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "The Golgi apparatus can be thought of as the cell's:",
+      "options": [
+        { "letter": "A", "text": "Protein processing and dispatch centre", "correct": true },
+        { "letter": "B", "text": "Powerhouse", "correct": false },
+        { "letter": "C", "text": "Genetic library", "correct": false },
+        { "letter": "D", "text": "Site of photosynthesis", "correct": false }
+      ],
+      "explanation": "The Golgi processes and secretes proteins, acting as a processing and dispatch centre."
+    },
+    {
+      "id": "B2.2-049",
+      "level": "HL",
+      "statement": "B2.2.9",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Clathrin's role in vesicle formation involves:",
+      "options": [
+        { "letter": "A", "text": "Helping the membrane curve and pinch off a vesicle", "correct": true },
+        { "letter": "B", "text": "Producing ATP for the vesicle", "correct": false },
+        { "letter": "C", "text": "Copying DNA into the vesicle", "correct": false },
+        { "letter": "D", "text": "Making the vesicle photosynthetic", "correct": false }
+      ],
+      "explanation": "Clathrin coats and shapes the membrane during vesicle formation."
+    },
+    {
+      "id": "B2.2-050",
+      "level": "HL",
+      "statement": "B2.2.4",
+      "category": "B2.2 Organelles and compartmentalization",
+      "scenario": "",
+      "stem": "Compartmentalizing the Krebs cycle enzymes in the matrix is advantageous because it:",
+      "options": [
+        { "letter": "A", "text": "Concentrates enzymes and substrates for efficient respiration", "correct": true },
+        { "letter": "B", "text": "Separates them from all substrates", "correct": false },
+        { "letter": "C", "text": "Stops ATP production", "correct": false },
+        { "letter": "D", "text": "Moves respiration to the cytoplasm", "correct": false }
+      ],
+      "explanation": "Keeping the Krebs cycle enzymes and substrates together in the matrix enables efficient aerobic respiration."
+    }
+  ]
+}

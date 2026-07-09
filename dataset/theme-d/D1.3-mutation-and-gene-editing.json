@@ -1,0 +1,760 @@
+{
+  "id": "D1.3",
+  "name": "Mutation and gene editing",
+  "theme": "D",
+  "themeName": "Continuity and change",
+  "levelOfOrganization": "Molecules",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "D1.3-001",
+      "level": "SL",
+      "statement": "D1.3.1",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "A gene mutation is a change to a gene at the:",
+      "options": [
+        { "letter": "A", "text": "Molecular level (its base sequence)", "correct": true },
+        { "letter": "B", "text": "Whole-organism level", "correct": false },
+        { "letter": "C", "text": "Population level", "correct": false },
+        { "letter": "D", "text": "Ecosystem level", "correct": false }
+      ],
+      "explanation": "Gene mutations are structural changes to genes at the molecular level, altering the base sequence."
+    },
+    {
+      "id": "D1.3-002",
+      "level": "SL",
+      "statement": "D1.3.1",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "One base in a gene is replaced by a different base.",
+      "stem": "This type of mutation is a:",
+      "options": [
+        { "letter": "A", "text": "Substitution", "correct": true },
+        { "letter": "B", "text": "Insertion", "correct": false },
+        { "letter": "C", "text": "Deletion", "correct": false },
+        { "letter": "D", "text": "Duplication of a chromosome", "correct": false }
+      ],
+      "explanation": "A substitution replaces one base with another; insertions and deletions add or remove bases."
+    },
+    {
+      "id": "D1.3-003",
+      "level": "SL",
+      "statement": "D1.3.1",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "An extra base is added into a gene's sequence.",
+      "stem": "This mutation is an:",
+      "options": [
+        { "letter": "A", "text": "Insertion", "correct": true },
+        { "letter": "B", "text": "Substitution", "correct": false },
+        { "letter": "C", "text": "Deletion", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "An insertion adds one or more bases into the sequence; the three gene mutation types are substitution, insertion and deletion."
+    },
+    {
+      "id": "D1.3-004",
+      "level": "SL",
+      "statement": "D1.3.2",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A single base substitution occurs in a gene.",
+      "stem": "This is the basis of a:",
+      "options": [
+        { "letter": "A", "text": "Single-nucleotide polymorphism (SNP)", "correct": true },
+        { "letter": "B", "text": "Frameshift", "correct": false },
+        { "letter": "C", "text": "Chromosome fusion", "correct": false },
+        { "letter": "D", "text": "Polyploidy", "correct": false }
+      ],
+      "explanation": "Single-nucleotide polymorphisms result from base substitution mutations."
+    },
+    {
+      "id": "D1.3-005",
+      "level": "SL",
+      "statement": "D1.3.2",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A base substitution occurs but the amino acid coded does not change.",
+      "stem": "This is possible because of the genetic code's:",
+      "options": [
+        { "letter": "A", "text": "Degeneracy", "correct": true },
+        { "letter": "B", "text": "Universality", "correct": false },
+        { "letter": "C", "text": "Directionality", "correct": false },
+        { "letter": "D", "text": "Denaturation", "correct": false }
+      ],
+      "explanation": "Because the code is degenerate, a substitution may or may not change the amino acid in the polypeptide."
+    },
+    {
+      "id": "D1.3-006",
+      "level": "SL",
+      "statement": "D1.3.3",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A single base is deleted from the middle of a gene.",
+      "stem": "This is likely to cause a:",
+      "options": [
+        { "letter": "A", "text": "Frameshift, disrupting the polypeptide", "correct": true },
+        { "letter": "B", "text": "No change at all", "correct": false },
+        { "letter": "C", "text": "Duplication of the gene", "correct": false },
+        { "letter": "D", "text": "Extra chromosome", "correct": false }
+      ],
+      "explanation": "Insertions and deletions can cause frameshift changes, often making the polypeptide cease to function."
+    },
+    {
+      "id": "D1.3-007",
+      "level": "SL",
+      "statement": "D1.3.3",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Why are insertions and deletions often more damaging than a single substitution?",
+      "options": [
+        { "letter": "A", "text": "They can shift the reading frame of all following codons", "correct": true },
+        { "letter": "B", "text": "They never affect the protein", "correct": false },
+        { "letter": "C", "text": "They only change one amino acid", "correct": false },
+        { "letter": "D", "text": "They add a whole chromosome", "correct": false }
+      ],
+      "explanation": "Frameshifts from insertions/deletions change every subsequent codon, likely causing the polypeptide to stop functioning."
+    },
+    {
+      "id": "D1.3-008",
+      "level": "SL",
+      "statement": "D1.3.4",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Which is a cause of gene mutation?",
+      "options": [
+        { "letter": "A", "text": "Mutagens and errors in DNA replication or repair", "correct": true },
+        { "letter": "B", "text": "Correct base pairing", "correct": false },
+        { "letter": "C", "text": "Normal transcription", "correct": false },
+        { "letter": "D", "text": "Proofreading", "correct": false }
+      ],
+      "explanation": "Gene mutations can be caused by mutagens and by errors in DNA replication or repair."
+    },
+    {
+      "id": "D1.3-009",
+      "level": "SL",
+      "statement": "D1.3.4",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Which is an example of a mutagen?",
+      "options": [
+        { "letter": "A", "text": "Ultraviolet or other mutagenic radiation", "correct": true },
+        { "letter": "B", "text": "Water", "correct": false },
+        { "letter": "C", "text": "Glucose", "correct": false },
+        { "letter": "D", "text": "Oxygen used in respiration", "correct": false }
+      ],
+      "explanation": "Mutagens include chemical mutagens and mutagenic forms of radiation such as ultraviolet light."
+    },
+    {
+      "id": "D1.3-010",
+      "level": "SL",
+      "statement": "D1.3.5",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Which statement about the randomness of mutation is correct?",
+      "options": [
+        { "letter": "A", "text": "Mutations can occur anywhere, though some bases mutate more readily", "correct": true },
+        { "letter": "B", "text": "Mutations only occur in one fixed base", "correct": false },
+        { "letter": "C", "text": "Mutations never occur in coding regions", "correct": false },
+        { "letter": "D", "text": "Organisms choose which base to mutate", "correct": false }
+      ],
+      "explanation": "Mutations can occur anywhere in the genome, though some bases have a higher probability of mutating than others."
+    },
+    {
+      "id": "D1.3-011",
+      "level": "SL",
+      "statement": "D1.3.5",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "An organism 'wants' to change a specific base to gain a helpful trait.",
+      "stem": "Why can this not happen naturally?",
+      "options": [
+        { "letter": "A", "text": "No natural mechanism makes deliberate, targeted base changes for a purpose", "correct": true },
+        { "letter": "B", "text": "Mutations are always deliberate", "correct": false },
+        { "letter": "C", "text": "DNA cannot mutate", "correct": false },
+        { "letter": "D", "text": "Only proteins can mutate", "correct": false }
+      ],
+      "explanation": "No natural mechanism is known for deliberately changing a particular base to produce a desired trait; mutations are random."
+    },
+    {
+      "id": "D1.3-012",
+      "level": "SL",
+      "statement": "D1.3.6",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A mutation occurs in a germ (sex) cell.",
+      "stem": "What is a possible consequence?",
+      "options": [
+        { "letter": "A", "text": "It may be inherited by offspring", "correct": true },
+        { "letter": "B", "text": "It can only cause cancer", "correct": false },
+        { "letter": "C", "text": "It cannot be passed on", "correct": false },
+        { "letter": "D", "text": "It affects only that one cell forever", "correct": false }
+      ],
+      "explanation": "Mutations in germ cells can be inherited by offspring; mutations in somatic cells can cause cancer."
+    },
+    {
+      "id": "D1.3-013",
+      "level": "SL",
+      "statement": "D1.3.6",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A mutation occurs in a somatic (body) cell.",
+      "stem": "A possible consequence is:",
+      "options": [
+        { "letter": "A", "text": "Cancer", "correct": true },
+        { "letter": "B", "text": "Inheritance by offspring", "correct": false },
+        { "letter": "C", "text": "A change to all gametes", "correct": false },
+        { "letter": "D", "text": "No effect on any cell", "correct": false }
+      ],
+      "explanation": "Somatic mutations are not inherited but can cause cancer; germ-cell mutations can be inherited."
+    },
+    {
+      "id": "D1.3-014",
+      "level": "SL",
+      "statement": "D1.3.7",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Gene mutation is described as the original source of:",
+      "options": [
+        { "letter": "A", "text": "All genetic variation", "correct": true },
+        { "letter": "B", "text": "All proteins", "correct": false },
+        { "letter": "C", "text": "All energy in cells", "correct": false },
+        { "letter": "D", "text": "The cell wall", "correct": false }
+      ],
+      "explanation": "Gene mutation is the original source of all genetic variation, essential in the long term for evolution."
+    },
+    {
+      "id": "D1.3-015",
+      "level": "SL",
+      "statement": "D1.3.7",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "Most mutations are harmful or neutral to an individual.",
+      "stem": "Yet mutations are essential to a species because they:",
+      "options": [
+        { "letter": "A", "text": "Provide the variation needed for evolution by natural selection", "correct": true },
+        { "letter": "B", "text": "Always benefit the individual", "correct": false },
+        { "letter": "C", "text": "Prevent evolution", "correct": false },
+        { "letter": "D", "text": "Stop natural selection", "correct": false }
+      ],
+      "explanation": "Although usually harmful or neutral for individuals, mutations supply the genetic variation that evolution requires."
+    },
+    {
+      "id": "D1.3-016",
+      "level": "SL",
+      "statement": "D1.3.1",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A base is removed from a gene.",
+      "stem": "This mutation is a:",
+      "options": [
+        { "letter": "A", "text": "Deletion", "correct": true },
+        { "letter": "B", "text": "Substitution", "correct": false },
+        { "letter": "C", "text": "Insertion", "correct": false },
+        { "letter": "D", "text": "Duplication", "correct": false }
+      ],
+      "explanation": "A deletion removes one or more bases; substitutions and insertions are the other gene mutation types."
+    },
+    {
+      "id": "D1.3-017",
+      "level": "SL",
+      "statement": "D1.3.2",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A base substitution changes a codon so it codes for a different amino acid.",
+      "stem": "This may:",
+      "options": [
+        { "letter": "A", "text": "Alter the protein's structure", "correct": true },
+        { "letter": "B", "text": "Add a whole chromosome", "correct": false },
+        { "letter": "C", "text": "Always be silent", "correct": false },
+        { "letter": "D", "text": "Have no possible effect", "correct": false }
+      ],
+      "explanation": "A substitution that changes an amino acid may alter the protein; degeneracy means some substitutions are silent."
+    },
+    {
+      "id": "D1.3-018",
+      "level": "SL",
+      "statement": "D1.3.4",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Errors during DNA replication can lead to:",
+      "options": [
+        { "letter": "A", "text": "Gene mutations", "correct": true },
+        { "letter": "B", "text": "Faster photosynthesis", "correct": false },
+        { "letter": "C", "text": "Increased gas exchange", "correct": false },
+        { "letter": "D", "text": "Loss of the cell membrane", "correct": false }
+      ],
+      "explanation": "Mutations can be caused by mutagens and by errors in DNA replication or repair."
+    },
+    {
+      "id": "D1.3-019",
+      "level": "SL",
+      "statement": "D1.3.6",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Which mutation could be passed to the next generation?",
+      "options": [
+        { "letter": "A", "text": "A mutation in a gamete (germ cell)", "correct": true },
+        { "letter": "B", "text": "A mutation in a skin cell", "correct": false },
+        { "letter": "C", "text": "A mutation in a liver cell", "correct": false },
+        { "letter": "D", "text": "A mutation in a muscle cell", "correct": false }
+      ],
+      "explanation": "Only mutations in germ (sex) cells can be inherited; somatic mutations are not passed to offspring."
+    },
+    {
+      "id": "D1.3-020",
+      "level": "SL",
+      "statement": "D1.3.7",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Which best describes the effect of most individual mutations on an organism?",
+      "options": [
+        { "letter": "A", "text": "Harmful or neutral", "correct": true },
+        { "letter": "B", "text": "Always beneficial", "correct": false },
+        { "letter": "C", "text": "Always lethal", "correct": false },
+        { "letter": "D", "text": "Never occurring", "correct": false }
+      ],
+      "explanation": "Most mutations are harmful or neutral for the individual, but as a source of variation they are essential for evolution."
+    },
+    {
+      "id": "D1.3-021",
+      "level": "SL",
+      "statement": "D1.3.5",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Mutations are described as random because:",
+      "options": [
+        { "letter": "A", "text": "There is no mechanism to direct them toward a useful change", "correct": true },
+        { "letter": "B", "text": "They only occur in useful genes", "correct": false },
+        { "letter": "C", "text": "They are planned by the cell", "correct": false },
+        { "letter": "D", "text": "They never occur", "correct": false }
+      ],
+      "explanation": "Mutations are random: no natural mechanism directs a change to a specific base to achieve a purpose."
+    },
+    {
+      "id": "D1.3-022",
+      "level": "SL",
+      "statement": "D1.3.2",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "A silent mutation is one that:",
+      "options": [
+        { "letter": "A", "text": "Does not change the amino acid, due to degeneracy", "correct": true },
+        { "letter": "B", "text": "Always changes the protein", "correct": false },
+        { "letter": "C", "text": "Adds a chromosome", "correct": false },
+        { "letter": "D", "text": "Removes a gene", "correct": false }
+      ],
+      "explanation": "Because the code is degenerate, a base substitution can be silent, leaving the amino acid unchanged."
+    },
+    {
+      "id": "D1.3-023",
+      "level": "SL",
+      "statement": "D1.3.3",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A large section of a gene is deleted.",
+      "stem": "The most likely outcome for the polypeptide is that it:",
+      "options": [
+        { "letter": "A", "text": "Ceases to function", "correct": true },
+        { "letter": "B", "text": "Works better", "correct": false },
+        { "letter": "C", "text": "Is unaffected", "correct": false },
+        { "letter": "D", "text": "Becomes DNA", "correct": false }
+      ],
+      "explanation": "Major insertions or deletions, like frameshifts, are likely to make the polypeptide cease to function."
+    },
+    {
+      "id": "D1.3-024",
+      "level": "SL",
+      "statement": "D1.3.1",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Which are the three types of gene mutation to distinguish?",
+      "options": [
+        { "letter": "A", "text": "Substitutions, insertions and deletions", "correct": true },
+        { "letter": "B", "text": "Mitosis, meiosis and cytokinesis", "correct": false },
+        { "letter": "C", "text": "Transcription, translation, replication", "correct": false },
+        { "letter": "D", "text": "Dominant, recessive, codominant", "correct": false }
+      ],
+      "explanation": "Gene mutations are distinguished as substitutions, insertions and deletions."
+    },
+    {
+      "id": "D1.3-025",
+      "level": "SL",
+      "statement": "D1.3.4",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A commercial genetic test reports a person's disease risk without expert interpretation.",
+      "stem": "Why might this be problematic?",
+      "options": [
+        { "letter": "A", "text": "The information may be misunderstood without expert guidance", "correct": true },
+        { "letter": "B", "text": "Genetic tests are always perfectly clear", "correct": false },
+        { "letter": "C", "text": "DNA cannot be tested", "correct": false },
+        { "letter": "D", "text": "Results are always certain", "correct": false }
+      ],
+      "explanation": "Commercial genetic tests can yield health-risk information that, without expert interpretation, could be problematic."
+    },
+    {
+      "id": "D1.3-026",
+      "level": "SL",
+      "statement": "D1.3.7",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Without gene mutation, a species would lack:",
+      "options": [
+        { "letter": "A", "text": "The ultimate source of new genetic variation", "correct": true },
+        { "letter": "B", "text": "Any DNA", "correct": false },
+        { "letter": "C", "text": "The ability to respire", "correct": false },
+        { "letter": "D", "text": "A cell membrane", "correct": false }
+      ],
+      "explanation": "Gene mutation is the original source of all genetic variation, without which evolution could not occur."
+    },
+    {
+      "id": "D1.3-027",
+      "level": "SL",
+      "statement": "D1.3.6",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Cancer can result from mutations in which type of cell?",
+      "options": [
+        { "letter": "A", "text": "Somatic cells", "correct": true },
+        { "letter": "B", "text": "Only germ cells", "correct": false },
+        { "letter": "C", "text": "Only gametes", "correct": false },
+        { "letter": "D", "text": "No cells", "correct": false }
+      ],
+      "explanation": "Mutations in somatic cells can cause cancer, whereas germ-cell mutations may be inherited."
+    },
+    {
+      "id": "D1.3-028",
+      "level": "SL",
+      "statement": "D1.3.2",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "SNPs contribute to variation within a species because they:",
+      "options": [
+        { "letter": "A", "text": "Create small differences in DNA between individuals", "correct": true },
+        { "letter": "B", "text": "Change the whole genome each generation", "correct": false },
+        { "letter": "C", "text": "Remove all genes", "correct": false },
+        { "letter": "D", "text": "Prevent inheritance", "correct": false }
+      ],
+      "explanation": "Single-nucleotide polymorphisms, from base substitutions, create small differences that contribute to variation."
+    },
+    {
+      "id": "D1.3-029",
+      "level": "SL",
+      "statement": "D1.3.3",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "A frameshift mutation is caused by:",
+      "options": [
+        { "letter": "A", "text": "An insertion or deletion of bases", "correct": true },
+        { "letter": "B", "text": "A silent substitution", "correct": false },
+        { "letter": "C", "text": "Correct proofreading", "correct": false },
+        { "letter": "D", "text": "Normal replication", "correct": false }
+      ],
+      "explanation": "Insertions or deletions can shift the reading frame, causing a frameshift that disrupts the polypeptide."
+    },
+    {
+      "id": "D1.3-030",
+      "level": "SL",
+      "statement": "D1.3.5",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Which statement about where mutations occur is correct?",
+      "options": [
+        { "letter": "A", "text": "They can occur anywhere in the genome", "correct": true },
+        { "letter": "B", "text": "They occur only in one gene", "correct": false },
+        { "letter": "C", "text": "They never occur in DNA", "correct": false },
+        { "letter": "D", "text": "They are targeted to helpful genes", "correct": false }
+      ],
+      "explanation": "Mutations can occur anywhere in the base sequence, though some bases are more prone to mutation than others."
+    },
+    {
+      "id": "D1.3-031",
+      "level": "SL",
+      "statement": "D1.3.4",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "A chemical that increases the rate of mutation is called a:",
+      "options": [
+        { "letter": "A", "text": "Mutagen", "correct": true },
+        { "letter": "B", "text": "Catalyst", "correct": false },
+        { "letter": "C", "text": "Substrate", "correct": false },
+        { "letter": "D", "text": "Hormone", "correct": false }
+      ],
+      "explanation": "A mutagen is a chemical or form of radiation that causes gene mutations."
+    },
+    {
+      "id": "D1.3-032",
+      "level": "SL",
+      "statement": "D1.3.1",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Gene mutations differ from chromosome mutations in that gene mutations affect:",
+      "options": [
+        { "letter": "A", "text": "The base sequence of a single gene", "correct": true },
+        { "letter": "B", "text": "Whole chromosomes", "correct": false },
+        { "letter": "C", "text": "The entire genome only", "correct": false },
+        { "letter": "D", "text": "Only proteins, not DNA", "correct": false }
+      ],
+      "explanation": "Gene mutations are molecular-level changes to a gene's base sequence (substitution, insertion or deletion)."
+    },
+    {
+      "id": "D1.3-033",
+      "level": "SL",
+      "statement": "D1.3.7",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "The long-term importance of mutation for a species lies in providing:",
+      "options": [
+        { "letter": "A", "text": "Genetic variation on which natural selection can act", "correct": true },
+        { "letter": "B", "text": "Immediate benefits to every individual", "correct": false },
+        { "letter": "C", "text": "A way to stop evolution", "correct": false },
+        { "letter": "D", "text": "Identical offspring", "correct": false }
+      ],
+      "explanation": "Mutation supplies genetic variation, which is essential in the long term for evolution by natural selection."
+    },
+    {
+      "id": "D1.3-034",
+      "level": "SL",
+      "statement": "D1.3.6",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Which correctly pairs cell type with mutation consequence?",
+      "options": [
+        { "letter": "A", "text": "Germ cell — inheritance; somatic cell — cancer", "correct": true },
+        { "letter": "B", "text": "Germ cell — cancer; somatic cell — inheritance", "correct": false },
+        { "letter": "C", "text": "Both cause only inheritance", "correct": false },
+        { "letter": "D", "text": "Neither has any consequence", "correct": false }
+      ],
+      "explanation": "Germ-cell mutations can be inherited; somatic-cell mutations can lead to cancer."
+    },
+    {
+      "id": "D1.3-035",
+      "level": "HL",
+      "statement": "D1.3.8",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A gene is changed so it no longer works, to study its function.",
+      "stem": "This technique is called:",
+      "options": [
+        { "letter": "A", "text": "Gene knockout", "correct": true },
+        { "letter": "B", "text": "PCR", "correct": false },
+        { "letter": "C", "text": "Transcription", "correct": false },
+        { "letter": "D", "text": "Translation", "correct": false }
+      ],
+      "explanation": "Gene knockout makes a gene inoperative to investigate its function by observing the effects of its loss."
+    },
+    {
+      "id": "D1.3-036",
+      "level": "HL",
+      "statement": "D1.3.8",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "A library of knockout organisms is available for:",
+      "options": [
+        { "letter": "A", "text": "Some species used as models in research", "correct": true },
+        { "letter": "B", "text": "All species", "correct": false },
+        { "letter": "C", "text": "No species", "correct": false },
+        { "letter": "D", "text": "Only humans", "correct": false }
+      ],
+      "explanation": "Libraries of knockout organisms exist for some model species used in research."
+    },
+    {
+      "id": "D1.3-037",
+      "level": "HL",
+      "statement": "D1.3.9",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "Scientists edit a gene using CRISPR sequences and an enzyme.",
+      "stem": "Which enzyme is used with CRISPR in gene editing?",
+      "options": [
+        { "letter": "A", "text": "Cas9", "correct": true },
+        { "letter": "B", "text": "Helicase", "correct": false },
+        { "letter": "C", "text": "DNA ligase", "correct": false },
+        { "letter": "D", "text": "RNA polymerase", "correct": false }
+      ],
+      "explanation": "The CRISPR-Cas9 system uses the enzyme Cas9 with guide sequences to edit genes."
+    },
+    {
+      "id": "D1.3-038",
+      "level": "HL",
+      "statement": "D1.3.9",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "CRISPR gene editing can be applied to humans and other organisms.",
+      "stem": "Why is international regulation of CRISPR being harmonized?",
+      "options": [
+        { "letter": "A", "text": "Because scientists face different regulations and there are ethical issues", "correct": true },
+        { "letter": "B", "text": "Because CRISPR does not work", "correct": false },
+        { "letter": "C", "text": "Because gene editing is banned everywhere", "correct": false },
+        { "letter": "D", "text": "Because it has no ethical concerns", "correct": false }
+      ],
+      "explanation": "CRISPR raises ethical issues, and because scientists are subject to different regulatory systems, there is an effort to harmonize regulation."
+    },
+    {
+      "id": "D1.3-039",
+      "level": "HL",
+      "statement": "D1.3.9",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "CRISPR-Cas9 technology is best described as a tool for:",
+      "options": [
+        { "letter": "A", "text": "Gene editing", "correct": true },
+        { "letter": "B", "text": "Measuring lung volume", "correct": false },
+        { "letter": "C", "text": "Separating pigments", "correct": false },
+        { "letter": "D", "text": "Counting stomata", "correct": false }
+      ],
+      "explanation": "CRISPR sequences with the Cas9 enzyme are used as a tool for gene editing."
+    },
+    {
+      "id": "D1.3-040",
+      "level": "HL",
+      "statement": "D1.3.10",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A gene sequence is very similar across many species over long evolutionary time.",
+      "stem": "This is described as a:",
+      "options": [
+        { "letter": "A", "text": "Highly conserved sequence", "correct": true },
+        { "letter": "B", "text": "Frameshift", "correct": false },
+        { "letter": "C", "text": "Silent mutation", "correct": false },
+        { "letter": "D", "text": "Point mutation", "correct": false }
+      ],
+      "explanation": "Highly conserved sequences are identical or similar over long periods of evolution across a group of species."
+    },
+    {
+      "id": "D1.3-041",
+      "level": "HL",
+      "statement": "D1.3.10",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Which is a hypothesis for why some gene sequences are highly conserved?",
+      "options": [
+        { "letter": "A", "text": "Functional requirements for the gene products constrain change", "correct": true },
+        { "letter": "B", "text": "The sequences mutate faster than others", "correct": false },
+        { "letter": "C", "text": "They have no function", "correct": false },
+        { "letter": "D", "text": "They are never transcribed", "correct": false }
+      ],
+      "explanation": "One hypothesis is that functional requirements for the gene products constrain change; another is a slower mutation rate."
+    },
+    {
+      "id": "D1.3-042",
+      "level": "HL",
+      "statement": "D1.3.10",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "A second hypothesis for conserved sequences is that they have:",
+      "options": [
+        { "letter": "A", "text": "Slower rates of mutation", "correct": true },
+        { "letter": "B", "text": "Faster rates of mutation", "correct": false },
+        { "letter": "C", "text": "No base sequence", "correct": false },
+        { "letter": "D", "text": "No relationship to function", "correct": false }
+      ],
+      "explanation": "Conserved sequences may result from functional constraints or from slower rates of mutation."
+    },
+    {
+      "id": "D1.3-043",
+      "level": "HL",
+      "statement": "D1.3.8",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A knockout mouse lacks a functional version of one gene.",
+      "stem": "Observing the effects helps scientists determine:",
+      "options": [
+        { "letter": "A", "text": "The normal function of that gene", "correct": true },
+        { "letter": "B", "text": "The mouse's blood group", "correct": false },
+        { "letter": "C", "text": "The rate of transpiration", "correct": false },
+        { "letter": "D", "text": "The number of chromosomes", "correct": false }
+      ],
+      "explanation": "Knocking out a gene and observing the consequences reveals the gene's normal function."
+    },
+    {
+      "id": "D1.3-044",
+      "level": "HL",
+      "statement": "D1.3.9",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "Certain uses of CRISPR raise concerns that must be considered before use.",
+      "stem": "These concerns are primarily:",
+      "options": [
+        { "letter": "A", "text": "Ethical issues", "correct": true },
+        { "letter": "B", "text": "Purely technical with no ethics", "correct": false },
+        { "letter": "C", "text": "About the colour of DNA", "correct": false },
+        { "letter": "D", "text": "Irrelevant to society", "correct": false }
+      ],
+      "explanation": "Certain potential uses of CRISPR raise ethical issues that must be addressed before implementation."
+    },
+    {
+      "id": "D1.3-045",
+      "level": "HL",
+      "statement": "D1.3.10",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Conserved sequences are identical or similar:",
+      "options": [
+        { "letter": "A", "text": "Across a species or group of species", "correct": true },
+        { "letter": "B", "text": "Only within a single cell", "correct": false },
+        { "letter": "C", "text": "Only in non-living viruses", "correct": false },
+        { "letter": "D", "text": "Only after gene editing", "correct": false }
+      ],
+      "explanation": "Conserved sequences are identical or similar across a species or a group of species; highly conserved ones persist over long evolutionary time."
+    },
+    {
+      "id": "D1.3-046",
+      "level": "HL",
+      "statement": "D1.3.8",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Gene knockout works by making a gene:",
+      "options": [
+        { "letter": "A", "text": "Inoperative", "correct": true },
+        { "letter": "B", "text": "More active", "correct": false },
+        { "letter": "C", "text": "Duplicated", "correct": false },
+        { "letter": "D", "text": "Translated faster", "correct": false }
+      ],
+      "explanation": "Gene knockout changes a gene to make it inoperative, so its function can be investigated."
+    },
+    {
+      "id": "D1.3-047",
+      "level": "HL",
+      "statement": "D1.3.9",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "The CRISPR component that guides Cas9 to the target sequence is a:",
+      "options": [
+        { "letter": "A", "text": "CRISPR (guide) sequence", "correct": true },
+        { "letter": "B", "text": "Ribosome", "correct": false },
+        { "letter": "C", "text": "Histone", "correct": false },
+        { "letter": "D", "text": "Telomere", "correct": false }
+      ],
+      "explanation": "CRISPR sequences guide the Cas9 enzyme to the target DNA for editing."
+    },
+    {
+      "id": "D1.3-048",
+      "level": "HL",
+      "statement": "D1.3.10",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "A gene product is essential and must keep working exactly.",
+      "stem": "This supports which hypothesis for its conservation?",
+      "options": [
+        { "letter": "A", "text": "Functional requirements limit tolerated change", "correct": true },
+        { "letter": "B", "text": "The gene mutates faster", "correct": false },
+        { "letter": "C", "text": "The gene has no product", "correct": false },
+        { "letter": "D", "text": "The gene is never used", "correct": false }
+      ],
+      "explanation": "If a gene product's function is essential, changes are selected against, keeping the sequence conserved."
+    },
+    {
+      "id": "D1.3-049",
+      "level": "HL",
+      "statement": "D1.3.9",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Compared with random natural mutation, CRISPR gene editing is:",
+      "options": [
+        { "letter": "A", "text": "A deliberate, targeted change to DNA", "correct": true },
+        { "letter": "B", "text": "Completely random", "correct": false },
+        { "letter": "C", "text": "Unable to change DNA", "correct": false },
+        { "letter": "D", "text": "The same as a spontaneous mutation", "correct": false }
+      ],
+      "explanation": "Unlike random natural mutation, CRISPR-Cas9 makes deliberate, targeted edits to specific DNA sequences."
+    },
+    {
+      "id": "D1.3-050",
+      "level": "HL",
+      "statement": "D1.3.8",
+      "category": "D1.3 Mutation and gene editing",
+      "scenario": "",
+      "stem": "Gene knockout is most useful for answering which kind of question?",
+      "options": [
+        { "letter": "A", "text": "What does this gene normally do?", "correct": true },
+        { "letter": "B", "text": "What is the pH of the cell?", "correct": false },
+        { "letter": "C", "text": "How tall is the organism?", "correct": false },
+        { "letter": "D", "text": "What colour is the DNA?", "correct": false }
+      ],
+      "explanation": "By disabling a gene and observing the effects, knockout experiments reveal the gene's normal function."
+    }
+  ]
+}

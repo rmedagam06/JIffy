@@ -1,0 +1,760 @@
+{
+  "id": "B1.2",
+  "name": "Proteins",
+  "theme": "B",
+  "themeName": "Form and function",
+  "levelOfOrganization": "Molecules",
+  "level": "SL/HL",
+  "questions": [
+    {
+      "id": "B1.2-001",
+      "level": "SL",
+      "statement": "B1.2.1",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which groups are attached to the central (alpha) carbon of a generalized amino acid?",
+      "options": [
+        { "letter": "A", "text": "An amine group, a carboxyl group, an R-group and a hydrogen", "correct": true },
+        { "letter": "B", "text": "Two amine groups and two carboxyl groups", "correct": false },
+        { "letter": "C", "text": "A phosphate, a sugar and a base", "correct": false },
+        { "letter": "D", "text": "Three fatty acids and a glycerol", "correct": false }
+      ],
+      "explanation": "A generalized amino acid has an alpha carbon bonded to an amine group, a carboxyl group, an R-group and a hydrogen."
+    },
+    {
+      "id": "B1.2-002",
+      "level": "SL",
+      "statement": "B1.2.1",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "The part of an amino acid that varies between the different amino acids is the:",
+      "options": [
+        { "letter": "A", "text": "R-group", "correct": true },
+        { "letter": "B", "text": "Amine group", "correct": false },
+        { "letter": "C", "text": "Carboxyl group", "correct": false },
+        { "letter": "D", "text": "Alpha carbon", "correct": false }
+      ],
+      "explanation": "The R-group (side chain) differs between amino acids, while the amine, carboxyl and alpha carbon are common to all."
+    },
+    {
+      "id": "B1.2-003",
+      "level": "SL",
+      "statement": "B1.2.2",
+      "category": "B1.2 Proteins",
+      "scenario": "Two amino acids join together.",
+      "stem": "What is formed, and by what reaction?",
+      "options": [
+        { "letter": "A", "text": "A dipeptide, by condensation", "correct": true },
+        { "letter": "B", "text": "A dipeptide, by hydrolysis", "correct": false },
+        { "letter": "C", "text": "A monosaccharide, by condensation", "correct": false },
+        { "letter": "D", "text": "A triglyceride, by condensation", "correct": false }
+      ],
+      "explanation": "Two amino acids join by a condensation reaction to form a dipeptide, releasing water."
+    },
+    {
+      "id": "B1.2-004",
+      "level": "SL",
+      "statement": "B1.2.2",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "The bond formed between two amino acids is called a:",
+      "options": [
+        { "letter": "A", "text": "Peptide bond", "correct": true },
+        { "letter": "B", "text": "Glycosidic bond", "correct": false },
+        { "letter": "C", "text": "Ester bond", "correct": false },
+        { "letter": "D", "text": "Hydrogen bond", "correct": false }
+      ],
+      "explanation": "Amino acids are linked by peptide bonds formed in condensation reactions."
+    },
+    {
+      "id": "B1.2-005",
+      "level": "SL",
+      "statement": "B1.2.3",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Essential amino acids are those that:",
+      "options": [
+        { "letter": "A", "text": "Cannot be synthesized and must come from the diet", "correct": true },
+        { "letter": "B", "text": "Can be made from other amino acids", "correct": false },
+        { "letter": "C", "text": "Are never needed by the body", "correct": false },
+        { "letter": "D", "text": "Are only found in lipids", "correct": false }
+      ],
+      "explanation": "Essential amino acids cannot be made by the body and must be obtained from food."
+    },
+    {
+      "id": "B1.2-006",
+      "level": "SL",
+      "statement": "B1.2.3",
+      "category": "B1.2 Proteins",
+      "scenario": "A person follows a vegan diet.",
+      "stem": "Why must they pay attention to their protein sources?",
+      "options": [
+        { "letter": "A", "text": "To ensure all essential amino acids are consumed", "correct": true },
+        { "letter": "B", "text": "Because plants contain no amino acids", "correct": false },
+        { "letter": "C", "text": "Because vegans cannot digest protein", "correct": false },
+        { "letter": "D", "text": "To avoid all amino acids", "correct": false }
+      ],
+      "explanation": "Vegan diets require attention to ensure all essential amino acids are obtained from plant sources."
+    },
+    {
+      "id": "B1.2-007",
+      "level": "SL",
+      "statement": "B1.2.3",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Non-essential amino acids are those that the body can:",
+      "options": [
+        { "letter": "A", "text": "Make from other amino acids", "correct": true },
+        { "letter": "B", "text": "Never obtain", "correct": false },
+        { "letter": "C", "text": "Only get from food", "correct": false },
+        { "letter": "D", "text": "Convert into lipids only", "correct": false }
+      ],
+      "explanation": "Non-essential amino acids can be synthesized in the body from other amino acids."
+    },
+    {
+      "id": "B1.2-008",
+      "level": "SL",
+      "statement": "B1.2.4",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "How many different amino acids are coded for in the genetic code?",
+      "options": [
+        { "letter": "A", "text": "20", "correct": true },
+        { "letter": "B", "text": "4", "correct": false },
+        { "letter": "C", "text": "64", "correct": false },
+        { "letter": "D", "text": "100", "correct": false }
+      ],
+      "explanation": "Twenty amino acids are coded for in the genetic code."
+    },
+    {
+      "id": "B1.2-009",
+      "level": "SL",
+      "statement": "B1.2.4",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Why is there an almost infinite variety of possible polypeptides?",
+      "options": [
+        { "letter": "A", "text": "Chains can be any length with amino acids in any order", "correct": true },
+        { "letter": "B", "text": "Only two amino acids exist", "correct": false },
+        { "letter": "C", "text": "Every chain must be identical", "correct": false },
+        { "letter": "D", "text": "Amino acids cannot be reordered", "correct": false }
+      ],
+      "explanation": "With 20 amino acids in any order and chains of any length, the number of possible peptides is effectively limitless."
+    },
+    {
+      "id": "B1.2-010",
+      "level": "SL",
+      "statement": "B1.2.5",
+      "category": "B1.2 Proteins",
+      "scenario": "An enzyme is heated to a high temperature and stops working.",
+      "stem": "What has most likely happened to the protein?",
+      "options": [
+        { "letter": "A", "text": "It has denatured", "correct": true },
+        { "letter": "B", "text": "It has replicated", "correct": false },
+        { "letter": "C", "text": "It has been hydrolysed into glucose", "correct": false },
+        { "letter": "D", "text": "It has become a lipid", "correct": false }
+      ],
+      "explanation": "High temperature can denature a protein, changing its shape so it no longer functions."
+    },
+    {
+      "id": "B1.2-011",
+      "level": "SL",
+      "statement": "B1.2.5",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Denaturation of a protein involves:",
+      "options": [
+        { "letter": "A", "text": "A change in its three-dimensional shape", "correct": true },
+        { "letter": "B", "text": "A change in its amino acid sequence", "correct": false },
+        { "letter": "C", "text": "Formation of new peptide bonds", "correct": false },
+        { "letter": "D", "text": "Conversion into DNA", "correct": false }
+      ],
+      "explanation": "Denaturation (by pH or temperature) alters the protein's shape without changing its sequence of amino acids."
+    },
+    {
+      "id": "B1.2-012",
+      "level": "SL",
+      "statement": "B1.2.5",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which two factors are highlighted as affecting protein structure?",
+      "options": [
+        { "letter": "A", "text": "pH and temperature", "correct": true },
+        { "letter": "B", "text": "Light and gravity", "correct": false },
+        { "letter": "C", "text": "Pressure and colour", "correct": false },
+        { "letter": "D", "text": "Sound and magnetism", "correct": false }
+      ],
+      "explanation": "Both pH and temperature can affect protein structure, potentially causing denaturation."
+    },
+    {
+      "id": "B1.2-013",
+      "level": "SL",
+      "statement": "B1.2.2",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "During the formation of a dipeptide, which molecule is released?",
+      "options": [
+        { "letter": "A", "text": "Water", "correct": true },
+        { "letter": "B", "text": "Carbon dioxide", "correct": false },
+        { "letter": "C", "text": "Ammonia", "correct": false },
+        { "letter": "D", "text": "Oxygen", "correct": false }
+      ],
+      "explanation": "Peptide bond formation is a condensation reaction that releases a molecule of water."
+    },
+    {
+      "id": "B1.2-014",
+      "level": "SL",
+      "statement": "B1.2.1",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "The carboxyl group of an amino acid contains which atoms?",
+      "options": [
+        { "letter": "A", "text": "Carbon, oxygen and hydrogen (-COOH)", "correct": true },
+        { "letter": "B", "text": "Nitrogen and hydrogen only (-NH2)", "correct": false },
+        { "letter": "C", "text": "Phosphorus and oxygen", "correct": false },
+        { "letter": "D", "text": "Only carbon", "correct": false }
+      ],
+      "explanation": "The carboxyl group is -COOH; the amine group is -NH2."
+    },
+    {
+      "id": "B1.2-015",
+      "level": "SL",
+      "statement": "B1.2.4",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "A polypeptide chain can contain how many amino acids?",
+      "options": [
+        { "letter": "A", "text": "From a few to thousands", "correct": true },
+        { "letter": "B", "text": "Exactly 20 always", "correct": false },
+        { "letter": "C", "text": "No more than four", "correct": false },
+        { "letter": "D", "text": "Only one", "correct": false }
+      ],
+      "explanation": "Peptide chains can have any number of amino acids, from a few to thousands."
+    },
+    {
+      "id": "B1.2-016",
+      "level": "SL",
+      "statement": "B1.2.5",
+      "category": "B1.2 Proteins",
+      "scenario": "Egg white turns solid and opaque when cooked.",
+      "stem": "This is an everyday example of:",
+      "options": [
+        { "letter": "A", "text": "Protein denaturation by heat", "correct": true },
+        { "letter": "B", "text": "Condensation of amino acids", "correct": false },
+        { "letter": "C", "text": "Hydrolysis of starch", "correct": false },
+        { "letter": "D", "text": "Formation of peptide bonds", "correct": false }
+      ],
+      "explanation": "Cooking denatures the egg proteins, changing their shape and appearance."
+    },
+    {
+      "id": "B1.2-017",
+      "level": "SL",
+      "statement": "B1.2.3",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which statement about dietary amino acids is correct?",
+      "options": [
+        { "letter": "A", "text": "Essential ones must come from food; non-essential ones can be synthesized", "correct": true },
+        { "letter": "B", "text": "All amino acids can be synthesized by humans", "correct": false },
+        { "letter": "C", "text": "No amino acids are needed in the diet", "correct": false },
+        { "letter": "D", "text": "Only lipids provide amino acids", "correct": false }
+      ],
+      "explanation": "Essential amino acids must be eaten, while non-essential ones can be made from other amino acids."
+    },
+    {
+      "id": "B1.2-018",
+      "level": "SL",
+      "statement": "B1.2.1",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "The amine group of an amino acid is written as:",
+      "options": [
+        { "letter": "A", "text": "-NH2", "correct": true },
+        { "letter": "B", "text": "-COOH", "correct": false },
+        { "letter": "C", "text": "-OH", "correct": false },
+        { "letter": "D", "text": "-CH3", "correct": false }
+      ],
+      "explanation": "The amine group is -NH2; the carboxyl group is -COOH."
+    },
+    {
+      "id": "B1.2-019",
+      "level": "SL",
+      "statement": "B1.2.2",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "A chain of many amino acids joined by peptide bonds is a:",
+      "options": [
+        { "letter": "A", "text": "Polypeptide", "correct": true },
+        { "letter": "B", "text": "Polysaccharide", "correct": false },
+        { "letter": "C", "text": "Triglyceride", "correct": false },
+        { "letter": "D", "text": "Nucleotide", "correct": false }
+      ],
+      "explanation": "Many amino acids linked by peptide bonds form a polypeptide."
+    },
+    {
+      "id": "B1.2-020",
+      "level": "SL",
+      "statement": "B1.2.4",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "The huge diversity of proteins ultimately arises from variation in the:",
+      "options": [
+        { "letter": "A", "text": "Sequence and number of amino acids", "correct": true },
+        { "letter": "B", "text": "Type of sugar used", "correct": false },
+        { "letter": "C", "text": "Number of phosphate groups", "correct": false },
+        { "letter": "D", "text": "Amount of glycerol", "correct": false }
+      ],
+      "explanation": "Proteins vary because amino acids can be in any order and chains can be any length."
+    },
+    {
+      "id": "B1.2-021",
+      "level": "SL",
+      "statement": "B1.2.5",
+      "category": "B1.2 Proteins",
+      "scenario": "A protein is exposed to a very low pH.",
+      "stem": "What is the likely effect?",
+      "options": [
+        { "letter": "A", "text": "Its structure may be disrupted (denaturation)", "correct": true },
+        { "letter": "B", "text": "It gains new amino acids", "correct": false },
+        { "letter": "C", "text": "Its sequence changes permanently", "correct": false },
+        { "letter": "D", "text": "It becomes a carbohydrate", "correct": false }
+      ],
+      "explanation": "Extreme pH, like extreme temperature, can denature a protein by disrupting its structure."
+    },
+    {
+      "id": "B1.2-022",
+      "level": "SL",
+      "statement": "B1.2.2",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "To break a polypeptide back into individual amino acids, the reaction needed is:",
+      "options": [
+        { "letter": "A", "text": "Hydrolysis", "correct": true },
+        { "letter": "B", "text": "Condensation", "correct": false },
+        { "letter": "C", "text": "Denaturation", "correct": false },
+        { "letter": "D", "text": "Oxidation", "correct": false }
+      ],
+      "explanation": "Hydrolysis breaks peptide bonds using water, releasing individual amino acids."
+    },
+    {
+      "id": "B1.2-023",
+      "level": "SL",
+      "statement": "B1.2.1",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which of these is common to every amino acid?",
+      "options": [
+        { "letter": "A", "text": "An amine group and a carboxyl group", "correct": true },
+        { "letter": "B", "text": "A phosphate group", "correct": false },
+        { "letter": "C", "text": "A pentose sugar", "correct": false },
+        { "letter": "D", "text": "Three fatty acid tails", "correct": false }
+      ],
+      "explanation": "All amino acids share an amine group and a carboxyl group on the alpha carbon, differing only in their R-group."
+    },
+    {
+      "id": "B1.2-024",
+      "level": "SL",
+      "statement": "B1.2.4",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which of these is an example of a polypeptide?",
+      "options": [
+        { "letter": "A", "text": "Insulin", "correct": true },
+        { "letter": "B", "text": "Glucose", "correct": false },
+        { "letter": "C", "text": "A triglyceride", "correct": false },
+        { "letter": "D", "text": "Cellulose", "correct": false }
+      ],
+      "explanation": "Insulin is a polypeptide; glucose is a sugar, and the others are a lipid and a polysaccharide."
+    },
+    {
+      "id": "B1.2-025",
+      "level": "SL",
+      "statement": "B1.2.3",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which food-related issue relates most directly to essential amino acids?",
+      "options": [
+        { "letter": "A", "text": "Ensuring a balanced protein intake in the diet", "correct": true },
+        { "letter": "B", "text": "Reducing water intake", "correct": false },
+        { "letter": "C", "text": "Increasing fat storage", "correct": false },
+        { "letter": "D", "text": "Avoiding all carbohydrates", "correct": false }
+      ],
+      "explanation": "Because essential amino acids cannot be synthesized, a balanced protein intake is needed to supply them."
+    },
+    {
+      "id": "B1.2-026",
+      "level": "SL",
+      "statement": "B1.2.5",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which statement about denaturation is correct?",
+      "options": [
+        { "letter": "A", "text": "It changes shape and function, not the amino acid sequence", "correct": true },
+        { "letter": "B", "text": "It always changes the amino acid sequence", "correct": false },
+        { "letter": "C", "text": "It joins two proteins together", "correct": false },
+        { "letter": "D", "text": "It only occurs in carbohydrates", "correct": false }
+      ],
+      "explanation": "Denaturation disrupts the 3D shape and function while leaving the primary sequence intact."
+    },
+    {
+      "id": "B1.2-027",
+      "level": "SL",
+      "statement": "B1.2.1",
+      "category": "B1.2 Proteins",
+      "scenario": "A diagram shows a central carbon bonded to four different groups.",
+      "stem": "For it to be a generalized amino acid, one of those groups must be a:",
+      "options": [
+        { "letter": "A", "text": "Variable R-group", "correct": true },
+        { "letter": "B", "text": "Second alpha carbon", "correct": false },
+        { "letter": "C", "text": "Ribose sugar", "correct": false },
+        { "letter": "D", "text": "Phosphate", "correct": false }
+      ],
+      "explanation": "The alpha carbon carries the amine group, carboxyl group, a hydrogen and a variable R-group."
+    },
+    {
+      "id": "B1.2-028",
+      "level": "SL",
+      "statement": "B1.2.2",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "The word equation 'amino acid + amino acid → dipeptide + water' describes a:",
+      "options": [
+        { "letter": "A", "text": "Condensation reaction", "correct": true },
+        { "letter": "B", "text": "Hydrolysis reaction", "correct": false },
+        { "letter": "C", "text": "Respiration reaction", "correct": false },
+        { "letter": "D", "text": "Denaturation", "correct": false }
+      ],
+      "explanation": "The release of water as two amino acids join shows this is a condensation reaction."
+    },
+    {
+      "id": "B1.2-029",
+      "level": "SL",
+      "statement": "B1.2.4",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "If two polypeptides have the same amino acids but in a different order, they will:",
+      "options": [
+        { "letter": "A", "text": "Be different proteins", "correct": true },
+        { "letter": "B", "text": "Be identical", "correct": false },
+        { "letter": "C", "text": "Both be carbohydrates", "correct": false },
+        { "letter": "D", "text": "Be unable to fold", "correct": false }
+      ],
+      "explanation": "Order matters: the same amino acids in a different sequence produce a different protein."
+    },
+    {
+      "id": "B1.2-030",
+      "level": "SL",
+      "statement": "B1.2.3",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which best describes why essential amino acids are called 'essential'?",
+      "options": [
+        { "letter": "A", "text": "They are essential in the diet because the body cannot make them", "correct": true },
+        { "letter": "B", "text": "They are the only amino acids that exist", "correct": false },
+        { "letter": "C", "text": "They are not needed for proteins", "correct": false },
+        { "letter": "D", "text": "They are made only from lipids", "correct": false }
+      ],
+      "explanation": "They must be supplied in the diet because they cannot be synthesized in the body."
+    },
+    {
+      "id": "B1.2-031",
+      "level": "SL",
+      "statement": "B1.2.2",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "A tripeptide is formed from three amino acids. How many peptide bonds does it contain?",
+      "options": [
+        { "letter": "A", "text": "Two", "correct": true },
+        { "letter": "B", "text": "Three", "correct": false },
+        { "letter": "C", "text": "One", "correct": false },
+        { "letter": "D", "text": "Four", "correct": false }
+      ],
+      "explanation": "Joining three amino acids requires two peptide bonds (n amino acids form n−1 bonds)."
+    },
+    {
+      "id": "B1.2-032",
+      "level": "SL",
+      "statement": "B1.2.5",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Enzymes are proteins, so extreme heat is likely to:",
+      "options": [
+        { "letter": "A", "text": "Denature them and stop them working", "correct": true },
+        { "letter": "B", "text": "Speed them up indefinitely", "correct": false },
+        { "letter": "C", "text": "Change their genes", "correct": false },
+        { "letter": "D", "text": "Turn them into DNA", "correct": false }
+      ],
+      "explanation": "Because enzymes are proteins, high temperatures can denature them, disrupting their active sites."
+    },
+    {
+      "id": "B1.2-033",
+      "level": "SL",
+      "statement": "B1.2.4",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "The number of possible peptide sequences is enormous mainly because:",
+      "options": [
+        { "letter": "A", "text": "Each position can be any of 20 amino acids", "correct": true },
+        { "letter": "B", "text": "Only one amino acid is used", "correct": false },
+        { "letter": "C", "text": "Chains are always the same length", "correct": false },
+        { "letter": "D", "text": "The order is fixed", "correct": false }
+      ],
+      "explanation": "With 20 choices at each of many positions, the number of possible sequences becomes astronomically large."
+    },
+    {
+      "id": "B1.2-034",
+      "level": "HL",
+      "statement": "B1.2.6",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "The chemical diversity of proteins arises largely from the variety of amino acid:",
+      "options": [
+        { "letter": "A", "text": "R-groups", "correct": true },
+        { "letter": "B", "text": "carboxyl groups", "correct": false },
+        { "letter": "C", "text": "amine groups", "correct": false },
+        { "letter": "D", "text": "alpha carbons", "correct": false }
+      ],
+      "explanation": "R-groups vary chemically and determine the properties of assembled polypeptides, giving proteins their diversity."
+    },
+    {
+      "id": "B1.2-035",
+      "level": "HL",
+      "statement": "B1.2.6",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Hydrophilic R-groups are:",
+      "options": [
+        { "letter": "A", "text": "Polar or charged (acidic or basic)", "correct": true },
+        { "letter": "B", "text": "Non-polar and uncharged", "correct": false },
+        { "letter": "C", "text": "Always neutral", "correct": false },
+        { "letter": "D", "text": "Made of lipid", "correct": false }
+      ],
+      "explanation": "Hydrophilic R-groups are polar or charged (acidic or basic), while hydrophobic R-groups are non-polar."
+    },
+    {
+      "id": "B1.2-036",
+      "level": "HL",
+      "statement": "B1.2.7",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "What ultimately determines the three-dimensional shape of a protein?",
+      "options": [
+        { "letter": "A", "text": "Its primary structure (amino acid sequence)", "correct": true },
+        { "letter": "B", "text": "The temperature of the room only", "correct": false },
+        { "letter": "C", "text": "The number of ribosomes", "correct": false },
+        { "letter": "D", "text": "The type of sugar present", "correct": false }
+      ],
+      "explanation": "The sequence and precise position of each amino acid (primary structure) determines the protein's 3D conformation."
+    },
+    {
+      "id": "B1.2-037",
+      "level": "HL",
+      "statement": "B1.2.7",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Because their shapes are determined by their sequence, proteins have structures that are:",
+      "options": [
+        { "letter": "A", "text": "Precise, predictable and repeatable", "correct": true },
+        { "letter": "B", "text": "Completely random each time", "correct": false },
+        { "letter": "C", "text": "Never the same twice", "correct": false },
+        { "letter": "D", "text": "Independent of amino acid order", "correct": false }
+      ],
+      "explanation": "Despite their complexity, proteins fold into precise, predictable and repeatable structures determined by their sequence."
+    },
+    {
+      "id": "B1.2-038",
+      "level": "HL",
+      "statement": "B1.2.8",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Secondary structure of a protein, such as an alpha helix or beta-pleated sheet, is stabilized by:",
+      "options": [
+        { "letter": "A", "text": "Hydrogen bonds", "correct": true },
+        { "letter": "B", "text": "Disulfide bonds only", "correct": false },
+        { "letter": "C", "text": "Peptide bonds between R-groups", "correct": false },
+        { "letter": "D", "text": "Ionic bonds only", "correct": false }
+      ],
+      "explanation": "Hydrogen bonding in regular positions stabilizes secondary structures such as alpha helices and beta-pleated sheets."
+    },
+    {
+      "id": "B1.2-039",
+      "level": "HL",
+      "statement": "B1.2.8",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which of these are examples of protein secondary structure?",
+      "options": [
+        { "letter": "A", "text": "Alpha helices and beta-pleated sheets", "correct": true },
+        { "letter": "B", "text": "Glycosidic and ester bonds", "correct": false },
+        { "letter": "C", "text": "Ribose and deoxyribose", "correct": false },
+        { "letter": "D", "text": "Triglycerides and phospholipids", "correct": false }
+      ],
+      "explanation": "Alpha helices and beta-pleated sheets are the two main types of secondary structure."
+    },
+    {
+      "id": "B1.2-040",
+      "level": "HL",
+      "statement": "B1.2.9",
+      "category": "B1.2 Proteins",
+      "scenario": "Two cysteine amino acids form a strong covalent link in a protein.",
+      "stem": "This link is a:",
+      "options": [
+        { "letter": "A", "text": "Disulfide bond", "correct": true },
+        { "letter": "B", "text": "Hydrogen bond", "correct": false },
+        { "letter": "C", "text": "Ionic bond", "correct": false },
+        { "letter": "D", "text": "Peptide bond", "correct": false }
+      ],
+      "explanation": "Pairs of cysteines form disulfide covalent bonds, one of the interactions stabilizing tertiary structure."
+    },
+    {
+      "id": "B1.2-041",
+      "level": "HL",
+      "statement": "B1.2.9",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which of these does NOT contribute to the tertiary structure of a protein?",
+      "options": [
+        { "letter": "A", "text": "Glycosidic bonds", "correct": true },
+        { "letter": "B", "text": "Hydrogen bonds", "correct": false },
+        { "letter": "C", "text": "Ionic bonds", "correct": false },
+        { "letter": "D", "text": "Hydrophobic interactions", "correct": false }
+      ],
+      "explanation": "Tertiary structure depends on hydrogen bonds, ionic bonds, disulfide covalent bonds and hydrophobic interactions, not glycosidic bonds."
+    },
+    {
+      "id": "B1.2-042",
+      "level": "HL",
+      "statement": "B1.2.9",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Ionic bonds in tertiary structure form when R-groups:",
+      "options": [
+        { "letter": "A", "text": "Become positively or negatively charged and attract each other", "correct": true },
+        { "letter": "B", "text": "Share electrons covalently", "correct": false },
+        { "letter": "C", "text": "Lose all their charge", "correct": false },
+        { "letter": "D", "text": "Become hydrophobic", "correct": false }
+      ],
+      "explanation": "Amine and carboxyl groups in R-groups can gain or lose hydrogen ions to become charged and form ionic bonds."
+    },
+    {
+      "id": "B1.2-043",
+      "level": "HL",
+      "statement": "B1.2.10",
+      "category": "B1.2 Proteins",
+      "scenario": "A globular protein is dissolved in water.",
+      "stem": "Where are its hydrophobic amino acids most likely located?",
+      "options": [
+        { "letter": "A", "text": "Clustered in the core, away from water", "correct": true },
+        { "letter": "B", "text": "On the outer surface facing water", "correct": false },
+        { "letter": "C", "text": "Outside the cell", "correct": false },
+        { "letter": "D", "text": "Randomly with no pattern", "correct": false }
+      ],
+      "explanation": "In water-soluble globular proteins, hydrophobic amino acids cluster in the core away from water."
+    },
+    {
+      "id": "B1.2-044",
+      "level": "HL",
+      "statement": "B1.2.10",
+      "category": "B1.2 Proteins",
+      "scenario": "An integral membrane protein sits within the phospholipid bilayer.",
+      "stem": "Its membrane-spanning region is likely to have:",
+      "options": [
+        { "letter": "A", "text": "Hydrophobic amino acids", "correct": true },
+        { "letter": "B", "text": "Only charged amino acids", "correct": false },
+        { "letter": "C", "text": "No amino acids", "correct": false },
+        { "letter": "D", "text": "Only sugar groups", "correct": false }
+      ],
+      "explanation": "Integral proteins have regions of hydrophobic amino acids that help them embed in the membrane's hydrophobic core."
+    },
+    {
+      "id": "B1.2-045",
+      "level": "HL",
+      "statement": "B1.2.11",
+      "category": "B1.2 Proteins",
+      "scenario": "Haemoglobin contains a non-protein haem group.",
+      "stem": "Haemoglobin is therefore an example of a:",
+      "options": [
+        { "letter": "A", "text": "Conjugated protein", "correct": true },
+        { "letter": "B", "text": "Non-conjugated protein", "correct": false },
+        { "letter": "C", "text": "Monosaccharide", "correct": false },
+        { "letter": "D", "text": "Fibrous protein with no quaternary structure", "correct": false }
+      ],
+      "explanation": "Haemoglobin is a conjugated protein because it includes a non-protein (haem) component; insulin and collagen are non-conjugated."
+    },
+    {
+      "id": "B1.2-046",
+      "level": "HL",
+      "statement": "B1.2.11",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Quaternary structure refers to:",
+      "options": [
+        { "letter": "A", "text": "The association of two or more polypeptide subunits", "correct": true },
+        { "letter": "B", "text": "The sequence of amino acids", "correct": false },
+        { "letter": "C", "text": "A single alpha helix", "correct": false },
+        { "letter": "D", "text": "A single peptide bond", "correct": false }
+      ],
+      "explanation": "Quaternary structure is the arrangement of multiple polypeptide subunits (and any non-protein groups) in a protein."
+    },
+    {
+      "id": "B1.2-047",
+      "level": "HL",
+      "statement": "B1.2.12",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Which pairing of protein type and example is correct?",
+      "options": [
+        { "letter": "A", "text": "Fibrous — collagen; globular — insulin", "correct": true },
+        { "letter": "B", "text": "Fibrous — insulin; globular — collagen", "correct": false },
+        { "letter": "C", "text": "Both collagen and insulin are fibrous", "correct": false },
+        { "letter": "D", "text": "Both are polysaccharides", "correct": false }
+      ],
+      "explanation": "Collagen is fibrous and structural; insulin is globular. Their shapes suit their functions."
+    },
+    {
+      "id": "B1.2-048",
+      "level": "HL",
+      "statement": "B1.2.12",
+      "category": "B1.2 Proteins",
+      "scenario": "",
+      "stem": "Globular proteins differ from fibrous proteins in that they are generally:",
+      "options": [
+        { "letter": "A", "text": "Rounded and often soluble, with metabolic roles", "correct": true },
+        { "letter": "B", "text": "Long, thin and structural", "correct": false },
+        { "letter": "C", "text": "Made of nucleotides", "correct": false },
+        { "letter": "D", "text": "Unable to fold", "correct": false }
+      ],
+      "explanation": "Globular proteins are compact and often soluble (e.g. insulin), whereas fibrous proteins are elongated and structural (e.g. collagen)."
+    },
+    {
+      "id": "B1.2-049",
+      "level": "HL",
+      "statement": "B1.2.11",
+      "category": "B1.2 Proteins",
+      "scenario": "Cryogenic electron microscopy has allowed imaging of single protein molecules.",
+      "stem": "This illustrates that technology can:",
+      "options": [
+        { "letter": "A", "text": "Reveal structures impossible to observe with the unaided senses", "correct": true },
+        { "letter": "B", "text": "Only image whole organs", "correct": false },
+        { "letter": "C", "text": "Replace the need for proteins", "correct": false },
+        { "letter": "D", "text": "Change a protein's sequence", "correct": false }
+      ],
+      "explanation": "Technologies such as cryo-EM allow imaging of structures, like single proteins, that cannot be seen with the unaided senses."
+    },
+    {
+      "id": "B1.2-050",
+      "level": "HL",
+      "statement": "B1.2.7",
+      "category": "B1.2 Proteins",
+      "scenario": "A single amino acid in a protein's sequence is changed.",
+      "stem": "What is the possible consequence?",
+      "options": [
+        { "letter": "A", "text": "The protein's 3D shape and function may change", "correct": true },
+        { "letter": "B", "text": "No change is ever possible", "correct": false },
+        { "letter": "C", "text": "The protein becomes a carbohydrate", "correct": false },
+        { "letter": "D", "text": "The number of subunits always doubles", "correct": false }
+      ],
+      "explanation": "Because primary structure determines conformation, changing one amino acid can alter the protein's shape and function."
+    }
+  ]
+}

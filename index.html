@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -128,7 +128,7 @@
     {speech:"Consistency beats intensity!",title:"How much time can you dedicate each week?"},
     {speech:"You're almost there! 🎉",title:"Set your daily scrolling goal"},
   ];
-  window._ob={step:0,uid:null,data:{name:'',level:null,subjects:['ib-bio'],hasTest:null,testDate:'',weeklyHours:null,dailyGoalMinutes:null}};
+  window._ob={step:0,uid:null,data:{firstName:'',lastName:'',level:null,subjects:['ib-bio'],hasTest:null,testDate:'',weeklyHours:null,dailyGoalMinutes:null}};
 
   function setFill(step){ document.getElementById('ob-prog-fill').style.width=(step/STEPS.length*100)+'%'; }
   function setOk(ok){
@@ -150,10 +150,13 @@
     setFill(step);
     var C=document.getElementById('ob-content');
     if(step===0){
-      C.innerHTML='<input id="ob-name" type="text" placeholder="Your name or nickname" maxlength="30" autocomplete="off" style="width:100%;padding:17px 18px;border-radius:16px;border:2.5px solid #EDE4D3;background:#fff;color:#5C3010;font-family:Fredoka,sans-serif;font-size:20px;font-weight:600;outline:none;box-sizing:border-box;-webkit-appearance:none">';
-      var inp=document.getElementById('ob-name'); inp.value=d.name||'';
-      inp.addEventListener('input',function(){d.name=this.value.trim();setOk(d.name.length>0);});
-      setOk((d.name||'').length>0); setTimeout(function(){inp.focus();},120);
+      var iStyle='width:100%;padding:15px 18px;border-radius:14px;border:2.5px solid #EDE4D3;background:#fff;color:#5C3010;font-family:Fredoka,sans-serif;font-size:19px;font-weight:600;outline:none;box-sizing:border-box;-webkit-appearance:none';
+      C.innerHTML='<input id="ob-fname" type="text" placeholder="First name" maxlength="30" autocomplete="given-name" style="'+iStyle+';margin-bottom:10px"><input id="ob-lname" type="text" placeholder="Last name" maxlength="30" autocomplete="family-name" style="'+iStyle+'">';
+      var fi=document.getElementById('ob-fname'),li=document.getElementById('ob-lname');
+      fi.value=d.firstName||''; li.value=d.lastName||'';
+      function obNameCheck(){d.firstName=fi.value.trim();d.lastName=li.value.trim();setOk(d.firstName.length>0);}
+      fi.addEventListener('input',obNameCheck); li.addEventListener('input',obNameCheck);
+      setOk((d.firstName||'').length>0); setTimeout(function(){fi.focus();},120);
     } else if(step===1){
       var L=[{k:'beginner',e:'🌱',l:'Just starting out',s:'New to IB Biology'},{k:'SL',e:'📘',l:'Standard Level',s:'Currently studying SL'},{k:'HL',e:'📗',l:'Higher Level',s:'Currently studying HL'},{k:'review',e:'🔄',l:'Retaking / Reviewing',s:'Been through it before'}];
       C.innerHTML=L.map(function(l){var sel=d.level===l.k;return '<div style="'+cStyle(sel)+'" onclick="window._obPL(\''+l.k+'\')">'+eBox(l.e)+cTxt(l.l,l.s)+chk(sel)+'</div>';}).join('');
@@ -194,7 +197,7 @@
   window._obNext=function(){
     var ob=window._ob,d=ob.data,btn=document.getElementById('ob-continue');
     if(btn.disabled) return;
-    if(ob.step===0){var inp=document.getElementById('ob-name');if(inp)d.name=inp.value.trim();if(!d.name)return;}
+    if(ob.step===0){var fi=document.getElementById('ob-fname'),li=document.getElementById('ob-lname');if(fi)d.firstName=fi.value.trim();if(li)d.lastName=li.value.trim();if(!d.firstName)return;}
     if(ob.step<STEPS.length-1){ob.step++;render(ob.step);}
     else{_finish();}
   };
@@ -204,35 +207,38 @@
     var ob=window._ob,d=ob.data,uid=ob.uid;
     var btn=document.getElementById('ob-continue');
     btn.textContent='Setting up…'; btn.disabled=true; btn.style.opacity='0.6';
+    var handle=(d.firstName||'').toLowerCase().replace(/\s+/g,'')+(d.lastName?d.lastName[0].toLowerCase():'');
     if(uid&&window._sb){
       await window._sb.from('user_progress').upsert({
-        id:uid, display_name:d.name||'', experience_level:d.level||'SL',
-        test_date:d.testDate||'', weekly_hours:d.weeklyHours||3,
-        daily_goal_minutes:d.dailyGoalMinutes||10,
+        id:uid, first_name:d.firstName||'', last_name:d.lastName||'', handle:handle,
+        experience_level:d.level||'SL', test_date:d.testDate||'',
+        weekly_hours:d.weeklyHours||3, daily_goal_minutes:d.dailyGoalMinutes||10,
         streak:0, gems:0, level:d.level||'SL',
         week_start:0, done_days:{}, last_done:-1, abs_today:0,
         topic_stats:{}, selected_topics:{}, liked:{}, saved:{}, highlighted:{},
-        updated_at:new Date().toISOString(),
+        drills_done:0, first_try_correct:0, ach_stats:{sessions:0,earlyBird:0,nightOwl:0,revealed:0,themes:[]},
+        profile_icon:'default', updated_at:new Date().toISOString(),
       });
     }
     if(window._dcInstance){
       window._dcInstance.setState({
-        displayName:d.name||'', experienceLevel:d.level||'SL',
-        testDate:d.testDate||'', weeklyHours:d.weeklyHours||3,
-        dailyGoalMinutes:d.dailyGoalMinutes||10,
+        firstName:d.firstName||'', lastName:d.lastName||'', handle:handle,
+        experienceLevel:d.level||'SL', testDate:d.testDate||'',
+        weeklyHours:d.weeklyHours||3, dailyGoalMinutes:d.dailyGoalMinutes||10,
         streak:0, gems:0, done:{}, lastDone:-1,
         topicStats:{}, selectedTopics:{}, liked:{}, saved:{}, highlighted:{},
+        drillsDone:0, firstTryCorrect:0, achStats:{sessions:0,earlyBird:0,nightOwl:0,revealed:0,themes:[]},
       });
     }
     var el=document.getElementById('jiffy-onboarding');
     el.style.transition='opacity 0.4s ease'; el.style.opacity='0';
     setTimeout(function(){el.style.display='none';el.style.opacity='1';el.style.transition='';},400);
-    ob.step=0; ob.data={name:'',level:null,subjects:['ib-bio'],hasTest:null,testDate:'',weeklyHours:null,dailyGoalMinutes:null};
+    ob.step=0; ob.data={firstName:'',lastName:'',level:null,subjects:['ib-bio'],hasTest:null,testDate:'',weeklyHours:null,dailyGoalMinutes:null};
   }
 
   window._showOnboarding=function(uid){
     window._ob.step=0; window._ob.uid=uid;
-    window._ob.data={name:'',level:null,subjects:['ib-bio'],hasTest:null,testDate:'',weeklyHours:null,dailyGoalMinutes:null};
+    window._ob.data={firstName:'',lastName:'',level:null,subjects:['ib-bio'],hasTest:null,testDate:'',weeklyHours:null,dailyGoalMinutes:null};
     render(0);
     document.getElementById('jiffy-onboarding').style.display='flex';
     document.getElementById('jiffy-auth').style.display='none';
@@ -650,9 +656,14 @@
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:10px">
-          <div style="width:106px;height:106px;border-radius:50%;background:linear-gradient(180deg,#cfeaf2,#7cb7cc);display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 10px 24px rgba(10,40,55,0.3);border:3px solid rgba(255,255,255,0.7)"><img src="assets/jiffy-head.png" alt="Jiffy" style="width:88px;height:88px;object-fit:contain"/></div>
-          <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:27px;color:#fff;text-shadow:0 2px 6px rgba(8,40,55,0.4)">Sam Rivera</div>
-          <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:14px;color:#dceef5;margin-top:-4px">@sam · Level 6 Biologist · 🔥 7-day streak</div>
+          <div onClick="{{ openIconPicker }}" style="position:relative;width:106px;height:106px;cursor:pointer;-webkit-tap-highlight-color:transparent">
+            <div style="{{ avatarRingStyle }}">{{ avatarContent }}</div>
+            <div style="position:absolute;bottom:4px;right:4px;width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#FFD45E,#F2A43A);border:2px solid #fff;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,0.3)">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#5a3d0c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+            </div>
+          </div>
+          <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:27px;color:#fff;text-shadow:0 2px 6px rgba(8,40,55,0.4)">{{ profileName }}</div>
+          <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:14px;color:#dceef5;margin-top:-4px">{{ profileSubline }}</div>
         </div>
 
         <!-- Stats -->
@@ -713,7 +724,7 @@
             </sc-for>
           </div>
 
-          <div style="text-align:center;font-family:Nunito,sans-serif;font-weight:700;font-size:12.5px;color:rgba(234,246,251,0.5);margin-top:16px">Tap any badge to see its tiers</div>
+          <div style="text-align:center;font-family:Nunito,sans-serif;font-weight:700;font-size:12.5px;color:rgba(234,246,251,0.5);margin-top:16px">Tap any badge to see details</div>
         </div>
 
         <!-- centered achievement dialog -->
@@ -731,22 +742,14 @@
                 </div>
               </div>
               <div style="margin-top:13px;font-family:Nunito,sans-serif;font-weight:700;font-size:14px;line-height:1.42;color:#e7f4f9">{{ selDetail.desc }}</div>
-              <div style="margin-top:15px;display:flex;justify-content:space-between;align-items:baseline;margin-bottom:7px">
+              <div style="margin-top:12px;display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:{{ selDetail.tierBg }}">
+                <span style="font-family:Fredoka,sans-serif;font-weight:700;font-size:13px;color:{{ selDetail.tierColor }}">{{ selDetail.tierLabel }}</span>
+              </div>
+              <div style="margin-top:14px;display:flex;justify-content:space-between;align-items:baseline;margin-bottom:7px">
                 <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:rgba(234,246,251,0.85)">Progress</span>
                 <span style="font-family:Nunito,sans-serif;font-weight:800;font-size:12.5px;color:rgba(234,246,251,0.7)">{{ selDetail.progressLabel }}</span>
               </div>
               <div style="height:11px;border-radius:999px;background:rgba(255,255,255,0.16);overflow:hidden"><div style="{{ selDetail.barFillStyle }}"></div></div>
-              <div style="margin-top:18px;display:flex;flex-direction:column;gap:13px">
-                <sc-for list="{{ selDetail.tiers }}" as="t" hint-placeholder-count="3">
-                  <div style="display:flex;align-items:center;gap:12px">
-                    <div style="{{ t.dotStyle }}">{{ t.mark }}</div>
-                    <div style="flex:1">
-                      <div style="{{ t.nameStyle }}">{{ t.name }}</div>
-                      <div style="{{ t.reqStyle }}">{{ t.req }}</div>
-                    </div>
-                  </div>
-                </sc-for>
-              </div>
             </div>
           </div>
         </sc-if>
@@ -792,6 +795,67 @@
             </div>
           </sc-for>
           <div style="text-align:center;font-family:Nunito,sans-serif;font-weight:700;font-size:12px;color:rgba(234,246,251,0.4);margin-top:8px">Jiffy · IB Biology Coach · v2.5.0</div>
+        </div>
+        <!-- settings snackbar -->
+        <sc-if value="{{ settingsMsg }}">
+          <div style="position:absolute;bottom:28px;left:50%;transform:translateX(-50%);background:rgba(30,60,75,0.97);border:1px solid rgba(255,255,255,0.18);border-radius:14px;padding:10px 20px;font-family:Nunito,sans-serif;font-weight:700;font-size:14px;color:#fff;white-space:nowrap;box-shadow:0 6px 20px rgba(0,0,0,0.4);pointer-events:none;z-index:2">{{ settingsMsg }}</div>
+        </sc-if>
+      </div>
+      </sc-if>
+
+      <!-- ════════════ ICON PICKER ════════════ -->
+      <sc-if value="{{ iconPickerOpen }}" hint-placeholder-val="{{ false }}">
+      <div data-screen-label="Icon Picker" style="position:absolute;inset:0;z-index:65;display:flex;flex-direction:column;background:linear-gradient(180deg,#1c4456 0%,#13303d 60%,#0e2531 100%)">
+        <div style="flex:0 0 auto;padding:58px 18px 16px;display:flex;align-items:center;gap:14px;border-bottom:1px solid rgba(255,255,255,0.1)">
+          <div onClick="{{ closeIconPicker }}" style="width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;cursor:pointer;-webkit-tap-highlight-color:transparent">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </div>
+          <div>
+            <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:25px;color:#fff">Choose your icon</div>
+            <div style="font-family:Nunito,sans-serif;font-weight:700;font-size:12.5px;color:rgba(234,246,251,0.6)">More icons coming soon!</div>
+          </div>
+        </div>
+        <div style="flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:28px 20px 40px">
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+            <sc-for list="{{ iconOptions }}" as="ic" hint-placeholder-count="9">
+              <div onClick="{{ ic.onPick }}" style="{{ ic.wrapStyle }}">
+                <div style="{{ ic.circleStyle }}">{{ ic.label }}</div>
+                <span style="font-family:Fredoka,sans-serif;font-weight:500;font-size:12px;color:rgba(234,246,251,0.8);text-align:center;margin-top:6px">{{ ic.name }}</span>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+      </sc-if>
+
+      <!-- ════════════ EDIT PROFILE ════════════ -->
+      <sc-if value="{{ editProfileOpen }}" hint-placeholder-val="{{ false }}">
+      <div data-screen-label="Edit Profile" style="position:absolute;inset:0;z-index:65;display:flex;flex-direction:column;background:linear-gradient(180deg,#1c4456 0%,#13303d 60%,#0e2531 100%)">
+        <div style="flex:0 0 auto;padding:58px 18px 16px;display:flex;align-items:center;gap:14px;border-bottom:1px solid rgba(255,255,255,0.1)">
+          <div onClick="{{ closeEditProfile }}" style="width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;cursor:pointer;-webkit-tap-highlight-color:transparent">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </div>
+          <span style="font-family:Fredoka,sans-serif;font-weight:600;font-size:27px;color:#fff">Edit Profile</span>
+        </div>
+        <div style="flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:24px 20px 40px">
+          <div style="display:flex;flex-direction:column;gap:14px">
+            <div>
+              <label style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;color:rgba(234,246,251,0.7);display:block;margin-bottom:6px">First Name</label>
+              <input id="ep-fname" type="text" placeholder="First name" style="width:100%;padding:14px 16px;border-radius:14px;border:1.5px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.09);color:#fff;font-family:Nunito,sans-serif;font-size:15px;font-weight:700;outline:none;box-sizing:border-box">
+            </div>
+            <div>
+              <label style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;color:rgba(234,246,251,0.7);display:block;margin-bottom:6px">Last Name</label>
+              <input id="ep-lname" type="text" placeholder="Last name" style="width:100%;padding:14px 16px;border-radius:14px;border:1.5px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.09);color:#fff;font-family:Nunito,sans-serif;font-size:15px;font-weight:700;outline:none;box-sizing:border-box">
+            </div>
+            <div>
+              <label style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;color:rgba(234,246,251,0.7);display:block;margin-bottom:6px">Username</label>
+              <div style="display:flex;align-items:center;border-radius:14px;border:1.5px solid rgba(255,255,255,0.2);background:rgba(255,255,255,0.09);overflow:hidden">
+                <span style="padding:14px 0 14px 16px;font-family:Nunito,sans-serif;font-weight:700;font-size:15px;color:rgba(255,255,255,0.5)">@</span>
+                <input id="ep-handle" type="text" placeholder="handle" style="flex:1;padding:14px 16px 14px 4px;border:none;background:transparent;color:#fff;font-family:Nunito,sans-serif;font-size:15px;font-weight:700;outline:none">
+              </div>
+            </div>
+          </div>
+          <button onClick="{{ saveEditProfile }}" style="width:100%;margin-top:28px;padding:17px;border-radius:16px;border:none;background:linear-gradient(135deg,#ffd45e,#f2a43a);color:#5a3d0c;font-family:Fredoka,sans-serif;font-size:18px;font-weight:700;cursor:pointer;box-shadow:0 8px 20px rgba(210,140,30,0.3);-webkit-tap-highlight-color:transparent">Save Changes</button>
         </div>
       </div>
       </sc-if>
@@ -854,11 +918,13 @@ class Component extends DCLogic {
     try{ savedStreak = JSON.parse(localStorage.getItem('jiffy_streak_v1')||'null'); }catch(e){}
     const streakInit = savedStreak || { absToday:3, weekStart:0, done:{0:true,1:true,2:true}, streak:3, lastDone:2, gems:120 };
     if(!streakInit.topicStats) streakInit.topicStats = TOPIC_SEED;
-    this.state = { userId:null, tab:'home', answers:{}, liked:{}, saved:{}, highlighted:{}, settingsOpen:false, achievementsOpen:false, achModalOpen:false, selectedAch:'streak',
+    this.state = { userId:null, tab:'home', answers:{}, liked:{}, saved:{}, highlighted:{}, settingsOpen:false, achievementsOpen:false, achModalOpen:false, selectedAch:'first-step',
       ...streakInit, celebrate:null,
       toggles:{ push:true, daily:true, streak:true, dataShare:false, twoFA:true, darkMode:false },
       catalog:null, catalogError:false, level:'SL', selectedTopics:{}, drillStarted:false, loadingDrill:false,
-      displayName:'', experienceLevel:'SL', testDate:'', weeklyHours:3, dailyGoalMinutes:10 };
+      firstName:'', lastName:'', handle:'', experienceLevel:'SL', testDate:'', weeklyHours:3, dailyGoalMinutes:10,
+      drillsDone:0, firstTryCorrect:0, achStats:{sessions:0,earlyBird:0,nightOwl:0,revealed:0,themes:[]},
+      profileIcon:'default', iconPickerOpen:false, editProfileOpen:false, settingsMsg:'' };
 
     this.themes = {
       morning:{ bg:'assets/bg-morning.png', greet:'Good morning', sub:'Ready for today’s drill?', weather:'\u26C5', cloud:0.92 },
@@ -902,7 +968,7 @@ class Component extends DCLogic {
     const ov = this.props.homeVariant;
     const period = (ov && ov !== 'auto') ? ov : this.periodFor(now.getHours());
     const t = this.themes[period] || this.themes.morning;
-    const name = this.state.displayName || this.props.userName || 'there';
+    const name = this.state.firstName || this.props.userName || 'there';
     const h = now.getHours();
     const hr12 = ((h + 11) % 12) + 1;
     const mm = String(now.getMinutes()).padStart(2, '0');
@@ -936,9 +1002,19 @@ class Component extends DCLogic {
     }
     this.setState(s=>{
       const gotIt = oi === drill.correct;
+      const isFirstTerminal = cur.status === 'unanswered';
       const topic = this.topicMap[drill.category] || drill.category;
       const prev = (s.topicStats && s.topicStats[topic]) || { att:0, cor:0 };
-      return { answers:{...s.answers, [id]:next}, topicStats:{ ...s.topicStats, [topic]:{ att:prev.att+1, cor:prev.cor + (gotIt?1:0) } } };
+      const prevAch = s.achStats || {sessions:0,earlyBird:0,nightOwl:0,revealed:0,themes:[]};
+      const thm = drill.theme || '';
+      const newThemes = thm && !(prevAch.themes||[]).includes(thm) ? (prevAch.themes||[]).concat(thm) : (prevAch.themes||[]);
+      return {
+        answers:{...s.answers, [id]:next},
+        topicStats:{ ...s.topicStats, [topic]:{ att:prev.att+1, cor:prev.cor + (gotIt?1:0) } },
+        drillsDone: isFirstTerminal ? (s.drillsDone||0)+1 : s.drillsDone,
+        firstTryCorrect: (isFirstTerminal && gotIt && cur.wrongs.length===0) ? (s.firstTryCorrect||0)+1 : s.firstTryCorrect,
+        achStats:{ ...prevAch, themes:newThemes, revealed: prevAch.revealed + (!gotIt && isFirstTerminal ? 1 : 0) },
+      };
     });
     if(navigator.vibrate) navigator.vibrate(8);
     this.completeScroll();
@@ -954,6 +1030,29 @@ class Component extends DCLogic {
   closeAchModal(){ this.setState({ achModalOpen:false }); }
   selectAchievement(id){ this.setState({ selectedAch:id, achModalOpen:true }); }
   toggleSetting(key){ this.setState(s=>({ toggles:{...s.toggles, [key]:!s.toggles[key]} })); }
+  openIconPicker(){ this.setState({ iconPickerOpen:true }); }
+  closeIconPicker(){ this.setState({ iconPickerOpen:false }); }
+  pickIcon(key){ this.setState({ profileIcon:key, iconPickerOpen:false }); this.syncProgress(); }
+  openEditProfile(){ this.setState({ editProfileOpen:true }); }
+  closeEditProfile(){ this.setState({ editProfileOpen:false }); }
+  async saveEditProfile(fn, ln, hnd){
+    const h = (hnd||'').replace(/^@/,'').toLowerCase();
+    this.setState({ firstName:fn||'', lastName:ln||'', handle:h, editProfileOpen:false });
+    this.syncProgress();
+  }
+  async sendPasswordReset(){
+    const {data:{session}} = await window._sb.auth.getSession();
+    const email = session && session.user ? session.user.email : null;
+    if(!email){ this._showSettingsMsg('Could not get your email address.'); return; }
+    const {error} = await window._sb.auth.resetPasswordForEmail(email);
+    this._showSettingsMsg(error ? error.message : 'Check your email for a reset link!');
+  }
+  clearCache(){
+    try{ localStorage.removeItem('jiffy_streak_v1'); }catch(e){}
+    this.setState({ streak:0, gems:0, done:{}, lastDone:-1, absToday:this.state.weekStart, topicStats:{}, drillsDone:0, firstTryCorrect:0, achStats:{sessions:0,earlyBird:0,nightOwl:0,revealed:0,themes:[]} });
+    this._showSettingsMsg('Cache cleared!');
+  }
+  _showSettingsMsg(msg){ this.setState({ settingsMsg:msg }); clearTimeout(this._msgT); this._msgT = setTimeout(()=>this.setState({ settingsMsg:'' }), 3500); }
 
   // ── drill setup: subject / level / topics ──
   selectLevel(lv){ this.setState({ level: lv }); }
@@ -989,12 +1088,17 @@ class Component extends DCLogic {
             if(level==='SL' && q.level !== 'SL') return;
             const shuffled = this.shuffleOptions(q.options);
             const correctIdx = shuffled.findIndex(o=>o.correct);
-            cards.push({ id:q.id, category:q.category, color, scenario:q.scenario||'', stem:q.stem,
+            cards.push({ id:q.id, category:q.category, color, theme:st.theme, scenario:q.scenario||'', stem:q.stem,
               options:shuffled.map(o=>o.text), correct: correctIdx, explanation:q.explanation });
           });
         });
         this.loadedQuestions = cards;
-        this.setState({ loadingDrill:false, drillStarted:true, tab:'feed', answers:{}, liked:{}, saved:{}, highlighted:{} });
+        const h = new Date().getHours();
+        this.setState(s=>{
+          const pa = s.achStats||{sessions:0,earlyBird:0,nightOwl:0,revealed:0,themes:[]};
+          return { loadingDrill:false, drillStarted:true, tab:'feed', answers:{}, liked:{}, saved:{}, highlighted:{},
+            achStats:{ ...pa, sessions:(pa.sessions||0)+1, earlyBird:pa.earlyBird+(h<9?1:0), nightOwl:pa.nightOwl+(h>=22?1:0) } };
+        });
       })
       .catch(()=>{ this.setState({ loadingDrill:false }); });
   }
@@ -1082,11 +1186,17 @@ class Component extends DCLogic {
       liked:          data.liked              ?? {},
       saved:          data.saved              ?? {},
       highlighted:    data.highlighted        ?? {},
-      displayName:    data.display_name       ?? '',
+      firstName:      data.first_name         ?? '',
+      lastName:       data.last_name          ?? '',
+      handle:         data.handle             ?? '',
       experienceLevel:data.experience_level   ?? 'SL',
       testDate:       data.test_date          ?? '',
       weeklyHours:    data.weekly_hours       ?? 3,
       dailyGoalMinutes:data.daily_goal_minutes?? 10,
+      drillsDone:     data.drills_done        ?? 0,
+      firstTryCorrect:data.first_try_correct  ?? 0,
+      achStats:       data.ach_stats          ?? {sessions:0,earlyBird:0,nightOwl:0,revealed:0,themes:[]},
+      profileIcon:    data.profile_icon       ?? 'default',
     });
   }
   syncProgress(){
@@ -1094,15 +1204,17 @@ class Component extends DCLogic {
     if(!uid || !window._sb) return;
     if(this._syncTimer) clearTimeout(this._syncTimer);
     this._syncTimer = setTimeout(async ()=>{
-      const {absToday,weekStart,done,streak,lastDone,gems,topicStats,level,selectedTopics,liked,saved,highlighted,displayName,experienceLevel,testDate,weeklyHours,dailyGoalMinutes} = this.state;
+      const {absToday,weekStart,done,streak,lastDone,gems,topicStats,level,selectedTopics,liked,saved,highlighted,firstName,lastName,handle,experienceLevel,testDate,weeklyHours,dailyGoalMinutes,drillsDone,firstTryCorrect,achStats,profileIcon} = this.state;
       await window._sb.from('user_progress').upsert({
         id:uid, streak, gems, level,
         week_start:weekStart, done_days:done, last_done:lastDone,
         abs_today:absToday, topic_stats:topicStats,
         selected_topics:selectedTopics, liked, saved, highlighted,
-        display_name:displayName||'', experience_level:experienceLevel||'SL',
-        test_date:testDate||'', weekly_hours:weeklyHours||3,
-        daily_goal_minutes:dailyGoalMinutes||10,
+        first_name:firstName||'', last_name:lastName||'', handle:handle||'',
+        experience_level:experienceLevel||'SL', test_date:testDate||'',
+        weekly_hours:weeklyHours||3, daily_goal_minutes:dailyGoalMinutes||10,
+        drills_done:drillsDone||0, first_try_correct:firstTryCorrect||0,
+        ach_stats:achStats||{}, profile_icon:profileIcon||'default',
         updated_at: new Date().toISOString(),
       });
     }, 1500);
@@ -1221,80 +1333,102 @@ class Component extends DCLogic {
       barStyle:{ width:'100%', height: h+'%', borderRadius:'8px 8px 4px 4px', background: i===3 ? 'linear-gradient(180deg,#9bdcb4,#6cc594)' : 'rgba(255,255,255,0.55)' },
     }));
 
-    // profile
+    // \u2500\u2500 profile \u2500\u2500
+    const totalAtt = Object.values(ss.topicStats||{}).reduce((acc,t)=>acc+t.att,0);
+    const totalCor = Object.values(ss.topicStats||{}).reduce((acc,t)=>acc+t.cor,0);
+    const accuracy = totalAtt>0 ? Math.round(totalCor/totalAtt*100)+'%' : '\u2014';
+    const profileName = [ss.firstName, ss.lastName].filter(Boolean).join(' ') || 'You';
+    const profileSubline = '@'+(ss.handle||'you')+' \u00B7 '+(ss.experienceLevel||'IB')+' \u00B7 \uD83D\uDD25 '+ss.streak+'-day streak';
     const stats = [
-      {icon:'\uD83D\uDD25', value:'7', label:'Day streak'},
-      {icon:'\u26A1', value:'1,240', label:'Total XP'},
-      {icon:'\u2705', value:'312', label:'Drills done'},
-      {icon:'\uD83C\uDFAF', value:'86%', label:'Accuracy'},
+      {icon:'\uD83D\uDD25', value: ss.streak||0,       label:'Day streak'},
+      {icon:'\u26A1',       value: ss.gems||0,          label:'Total XP'},
+      {icon:'\u2705',       value: ss.drillsDone||0,    label:'Drills done'},
+      {icon:'\uD83C\uDFAF', value: accuracy,             label:'Accuracy'},
     ];
     const badgeWrap = (on)=>({ display:'flex', flexDirection:'column', alignItems:'center', gap:8, opacity: on?1:0.4 });
     const badgeIcon = (on)=>({ width:58, height:58, borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', fontSize:28, background: on?'linear-gradient(135deg,#eedcb2,#d6a570)':'rgba(255,255,255,0.14)', border: on?'2px solid rgba(255,255,255,0.6)':'2px solid rgba(255,255,255,0.18)', boxShadow: on?'0 5px 12px rgba(120,80,30,0.25)':'none' });
-    const tierColor = { Bronze:'#c08457', Silver:'#aebcc6', Gold:'#e7c66b' };
+    const tierColor = { Bronze:'#c08457', Silver:'#aebcc6', Gold:'#e7c66b', Diamond:'#a8f0ff' };
+    const tierBgMap = { Bronze:'rgba(192,132,87,0.2)', Silver:'rgba(174,188,198,0.2)', Gold:'rgba(231,198,107,0.2)', Diamond:'rgba(168,240,255,0.2)' };
+    // \u2500\u2500 profile avatar \u2500\u2500
+    const iconKey = ss.profileIcon || 'default';
+    const avatarRingStyle = 'width:106px;height:106px;border-radius:50%;background:linear-gradient(180deg,#cfeaf2,#7cb7cc);display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 10px 24px rgba(10,40,55,0.3);border:3px solid rgba(255,255,255,0.7)';
+    const avatarContent = iconKey==='default' ? '<img src="assets/jiffy-head.png" style="width:88px;height:88px;object-fit:contain">' : '<span style="font-size:52px;line-height:1">'+iconKey+'</span>';
+    const iconOptions = ['default','\uD83E\uDD81','\uD83D\uDC2F','\uD83D\uDC38','\uD83D\uDC27','\uD83E\uDD8A','\uD83D\uDC3B','\uD83D\uDC3A'].map(k=>({
+      key:k, selected:k===iconKey,
+      content: k==='default' ? '<img src="assets/jiffy-head.png" style="width:38px;height:38px;object-fit:contain">' : '<span style="font-size:32px;line-height:1">'+k+'</span>',
+      onClick:()=>this.pickIcon(k),
+      circleStyle:{ width:66, height:66, borderRadius:'50%', background:'linear-gradient(135deg,#cfeaf2,#7cb7cc)', display:'flex', alignItems:'center', justifyContent:'center', border: k===iconKey?'3px solid #FFD45E':'3px solid rgba(255,255,255,0.3)', cursor:'pointer', WebkitTapHighlightColor:'transparent' },
+    }));
+    // \u2500\u2500 achievements \u2014 flat tier system \u2500\u2500
+    const achSt = ss.achStats || {sessions:0,earlyBird:0,nightOwl:0,revealed:0,themes:[]};
+    const savedCount = Object.values(ss.saved||{}).filter(Boolean).length;
     const achData = [
-      { id:'streak', icon:'\uD83D\uDD25', name:'Streak Keeper', desc:'Practice every day to keep your streak burning.', current:7, unit:'days', tiers:[{t:'Bronze',req:3},{t:'Silver',req:7},{t:'Gold',req:30}] },
-      { id:'logic', icon:'\uD83E\uDDE0', name:'Concept Master', desc:'Reach mastery across the core IB Biology themes.', current:12, unit:'subtopics', tiers:[{t:'Bronze',req:5},{t:'Silver',req:12},{t:'Gold',req:20}] },
-      { id:'sharp', icon:'\uD83C\uDFAF', name:'Sharp Shooter', desc:'Answer correctly on your very first try.', current:68, unit:'% first-try', tiers:[{t:'Bronze',req:70},{t:'Silver',req:85},{t:'Gold',req:95}] },
-      { id:'flawless', icon:'\u2728', name:'Flawless Run', desc:'Finish a full session with zero mistakes.', current:6, unit:'perfect runs', tiers:[{t:'Bronze',req:1},{t:'Silver',req:5},{t:'Gold',req:15}] },
-      { id:'speed', icon:'\u26A1', name:'Quick Thinker', desc:'Lock in a correct answer in under 15 seconds.', current:42, unit:'fast solves', tiers:[{t:'Bronze',req:10},{t:'Silver',req:50},{t:'Gold',req:150}] },
-      { id:'comeback', icon:'\uD83D\uDD04', name:'Comeback Kid', desc:'Miss a subtopic, then come back and master it.', current:11, unit:'redemptions', tiers:[{t:'Bronze',req:3},{t:'Silver',req:10},{t:'Gold',req:25}] },
-      { id:'cent', icon:'\uD83D\uDCAF', name:'Centurion', desc:'Rack up completed drills over time.', current:312, unit:'drills', tiers:[{t:'Bronze',req:100},{t:'Silver',req:250},{t:'Gold',req:500}] },
-      { id:'xp', icon:'\uD83D\uDC8E', name:'XP Hoarder', desc:'Earn experience points from every drill.', current:1240, unit:'XP', tiers:[{t:'Bronze',req:500},{t:'Silver',req:1500},{t:'Gold',req:5000}] },
-      { id:'early', icon:'\uD83C\uDF05', name:'Early Bird', desc:'Finish a drill session before 9 AM.', current:22, unit:'mornings', tiers:[{t:'Bronze',req:5},{t:'Silver',req:20},{t:'Gold',req:50}] },
-      { id:'owl', icon:'\uD83C\uDF19', name:'Night Owl', desc:'Squeeze in a session after 10 PM.', current:8, unit:'late nights', tiers:[{t:'Bronze',req:5},{t:'Silver',req:20},{t:'Gold',req:50}] },
-      { id:'cond', icon:'\uD83D\uDD17', name:'Unity Champion', desc:'Conquer Theme A drills.', current:47, unit:'drills', tiers:[{t:'Bronze',req:15},{t:'Silver',req:40},{t:'Gold',req:100}] },
-      { id:'causal', icon:'\uD83E\uDDEA', name:'Form & Function', desc:'Work through Theme B drills.', current:33, unit:'drills', tiers:[{t:'Bronze',req:15},{t:'Silver',req:40},{t:'Gold',req:100}] },
-      { id:'assume', icon:'\uD83D\uDD75\uFE0F', name:'Interdependence', desc:'Work through Theme C drills.', current:9, unit:'drills', tiers:[{t:'Bronze',req:15},{t:'Silver',req:40},{t:'Gold',req:100}] },
-      { id:'flaw', icon:'\uD83E\uDDE9', name:'Change Agent', desc:'Work through Theme D drills.', current:54, unit:'drills', tiers:[{t:'Bronze',req:20},{t:'Silver',req:50},{t:'Gold',req:120}] },
-      { id:'video', icon:'\uD83D\uDCDA', name:'Bookworm', desc:'Read every explanation on reveal.', current:28, unit:'explanations', tiers:[{t:'Bronze',req:5},{t:'Silver',req:25},{t:'Gold',req:75}] },
-      { id:'saved', icon:'\uD83D\uDD16', name:'Curator', desc:'Bookmark drills to revisit later.', current:14, unit:'saved', tiers:[{t:'Bronze',req:5},{t:'Silver',req:25},{t:'Gold',req:100}] },
-      { id:'creator', icon:'\u270D\uFE0F', name:'Question Smith', desc:'Write your own drills for the community.', current:3, unit:'created', tiers:[{t:'Bronze',req:1},{t:'Silver',req:10},{t:'Gold',req:50}] },
-      { id:'likes', icon:'\uD83C\uDFC6', name:'Trendsetter', desc:'Collect likes on the questions you create.', current:380, unit:'likes', tiers:[{t:'Bronze',req:50},{t:'Silver',req:500},{t:'Gold',req:2500}] },
+      // Bronze
+      { id:'first-step', tier:'Bronze', icon:'\uD83D\uDC63', name:'First Step',     desc:'Answer your very first question.',          current:ss.drillsDone||0,            req:1,    unit:'question' },
+      { id:'first-sess', tier:'Bronze', icon:'\uD83C\uDFAF', name:'First Session',  desc:'Start your first drill session.',           current:achSt.sessions||0,           req:1,    unit:'session' },
+      { id:'streak-3',   tier:'Bronze', icon:'\uD83D\uDD25', name:'Streak Starter', desc:'Keep a 3-day streak going.',                current:ss.streak||0,                req:3,    unit:'days' },
+      { id:'bookmark1',  tier:'Bronze', icon:'\uD83D\uDD16', name:'Bookmark',       desc:'Save your first drill.',                    current:savedCount,                  req:1,    unit:'saved' },
+      { id:'early-b1',   tier:'Bronze', icon:'\uD83C\uDF05', name:'Early Bird',     desc:'Start a session before 9 AM.',              current:achSt.earlyBird||0,          req:1,    unit:'morning' },
+      { id:'night-o1',   tier:'Bronze', icon:'\uD83C\uDF19', name:'Night Owl',      desc:'Start a session after 10 PM.',              current:achSt.nightOwl||0,           req:1,    unit:'night' },
+      // Silver
+      { id:'streak-7',   tier:'Silver', icon:'\uD83D\uDD25', name:'Week Warrior',   desc:'Maintain a 7-day streak.',                  current:ss.streak||0,                req:7,    unit:'days' },
+      { id:'drills-50',  tier:'Silver', icon:'\u2705', name:'Getting Sharp',  desc:'Answer 50 questions.',                      current:ss.drillsDone||0,            req:50,   unit:'questions' },
+      { id:'ftc-25',     tier:'Silver', icon:'\uD83D\uDCAB', name:'First Try',      desc:'Get 25 questions correct on first try.',    current:ss.firstTryCorrect||0,       req:25,   unit:'first-try' },
+      { id:'bookworm',   tier:'Silver', icon:'\uD83D\uDCDA', name:'Bookworm',       desc:'Read 10 explanations.',                     current:achSt.revealed||0,           req:10,   unit:'explanations' },
+      { id:'curator',    tier:'Silver', icon:'\uD83D\uDD8C\uFE0F', name:'Curator',       desc:'Save 15 drills.',                           current:savedCount,                  req:15,   unit:'saved' },
+      { id:'explorer',   tier:'Silver', icon:'\uD83E\uDDED', name:'Explorer',       desc:'Study questions from 2 different themes.',  current:(achSt.themes||[]).length,   req:2,    unit:'themes' },
+      // Gold
+      { id:'streak-14',  tier:'Gold',   icon:'\uD83D\uDD25', name:'Fortnight',      desc:'Keep a 14-day streak.',                     current:ss.streak||0,                req:14,   unit:'days' },
+      { id:'century',    tier:'Gold',   icon:'\uD83D\uDCAF', name:'Century',        desc:'Complete 100 questions.',                   current:ss.drillsDone||0,            req:100,  unit:'questions' },
+      { id:'xp-500',     tier:'Gold',   icon:'\u26A1', name:'XP Hunter',      desc:'Earn 500 XP.',                              current:ss.gems||0,                  req:500,  unit:'XP' },
+      { id:'ftc-100',    tier:'Gold',   icon:'\uD83C\uDFAF', name:'Sharp Shooter',  desc:'Get 100 questions correct on first try.',   current:ss.firstTryCorrect||0,       req:100,  unit:'first-try' },
+      { id:'all-themes', tier:'Gold',   icon:'\uD83C\uDF0D', name:'All Rounder',    desc:'Study questions from all 4 themes.',        current:(achSt.themes||[]).length,   req:4,    unit:'themes' },
+      // Diamond
+      { id:'streak-30',  tier:'Diamond',icon:'\uD83D\uDD25', name:'Streak Legend',  desc:'Keep a 30-day streak.',                     current:ss.streak||0,                req:30,   unit:'days' },
+      { id:'centurion',  tier:'Diamond',icon:'\uD83D\uDCAF', name:'Centurion',      desc:'Answer 500 questions.',                     current:ss.drillsDone||0,            req:500,  unit:'questions' },
+      { id:'xp-2000',    tier:'Diamond',icon:'\uD83D\uDC8E', name:'XP Hoarder',    desc:'Earn 2000 XP.',                             current:ss.gems||0,                  req:2000, unit:'XP' },
+      { id:'elite',      tier:'Diamond',icon:'\u2728', name:'Elite',          desc:'Score 85%+ first-try over 100+ questions.', current:(ss.drillsDone||0)>=100?Math.round((ss.firstTryCorrect||0)/(ss.drillsDone||1)*100):0, req:85, unit:'% first-try' },
     ];
-    const achComputed = achData.map(a=>{
-      const tiers = a.tiers.map(t=>({ ...t, done: a.current >= t.req }));
-      const doneTiers = tiers.filter(t=>t.done);
-      const unlocked = doneTiers.length > 0;
-      const highest = unlocked ? doneTiers[doneTiers.length-1].t : null;
-      const next = tiers.find(t=>!t.done) || null;
-      return { ...a, tiers, unlocked, highest, next };
-    });
+    const tierOrder = { Bronze:0, Silver:1, Gold:2, Diamond:3 };
+    const achComputed = achData.map(a=>({ ...a, unlocked: a.current >= a.req }))
+      .sort((a,b)=>tierOrder[a.tier]-tierOrder[b.tier]);
     const unlockedCount = achComputed.filter(a=>a.unlocked).length;
+    // badge preview \u2014 unlocked first, then locked, max 6
+    const sortedForBadge = [...achComputed].sort((a,b)=>(b.unlocked?1:0)-(a.unlocked?1:0));
+    const badges = sortedForBadge.slice(0,6).map(a=>({ icon:a.icon, label:a.name, wrapStyle:badgeWrap(a.unlocked), iconStyle:badgeIcon(a.unlocked) }));
 
-    // small profile grid (preview of first 6)
-    const badges = achComputed.slice(0,6).map(a=>({ icon:a.icon, label:a.name, wrapStyle:badgeWrap(a.unlocked), iconStyle:badgeIcon(a.unlocked) }));
-
-    // achievements sheet — grid items + selected detail
+    // achievements grid — grouped with tier section labels
     const selId = this.state.selectedAch;
-    const achGrid = achComputed.map(a=>{
-      const sel = a.id === selId;
-      return {
-        icon:a.icon, name:a.name,
-        onClick:()=>this.selectAchievement(a.id),
-        wrapStyle:{ display:'flex', flexDirection:'column', alignItems:'center', gap:7, cursor:'pointer', WebkitTapHighlightColor:'transparent', opacity: a.unlocked?1:0.45 },
-        iconStyle:{ width:60, height:60, borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', fontSize:29, background: a.unlocked?'linear-gradient(135deg,#eedcb2,#d6a570)':'rgba(255,255,255,0.12)', border: sel?'2.5px solid #fff':(a.unlocked?'2px solid rgba(255,255,255,0.55)':'2px solid rgba(255,255,255,0.2)'), boxShadow: sel?'0 0 0 4px rgba(255,255,255,0.18)':(a.unlocked?'0 5px 12px rgba(120,80,30,0.25)':'none') },
-        labelStyle:{ fontFamily:'Fredoka, sans-serif', fontWeight:500, fontSize:11.5, color: sel?'#fff':'rgba(234,246,251,0.8)', textAlign:'center', lineHeight:1.15 },
-        ribbon: a.unlocked ? a.highest : 'Locked',
-        ribbonStyle:{ fontFamily:'Fredoka, sans-serif', fontWeight:600, fontSize:9.5, letterSpacing:0.4, color: a.unlocked?tierColor[a.highest]:'rgba(234,246,251,0.5)' },
-      };
+    const achGrid = [];
+    ['Bronze','Silver','Gold','Diamond'].forEach(tier=>{
+      const group = achComputed.filter(a=>a.tier===tier);
+      if(!group.length) return;
+      achGrid.push({ isSectionHeader:true, tierLabel:tier, wrapStyle:{ gridColumn:'1 / -1', display:'flex', alignItems:'center', padding:'12px 0 4px', gap:8, cursor:'default' }, onClick:()=>{}, iconStyle:{ display:'none' }, icon:'', labelStyle:{ fontFamily:'Fredoka, sans-serif', fontWeight:700, fontSize:13, letterSpacing:1, textTransform:'uppercase', color:tierColor[tier], opacity:0.9 }, name:tier, ribbonStyle:{ display:'none' }, ribbon:'' });
+      group.forEach(a=>{
+        const sel = a.id===selId;
+        achGrid.push({
+          isSectionHeader:false,
+          icon:a.icon, name:a.name,
+          onClick:()=>this.selectAchievement(a.id),
+          wrapStyle:{ display:'flex', flexDirection:'column', alignItems:'center', gap:7, cursor:'pointer', WebkitTapHighlightColor:'transparent', opacity:a.unlocked?1:0.35 },
+          iconStyle:{ width:60, height:60, borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', fontSize:29, background:a.unlocked?'linear-gradient(135deg,#eedcb2,#d6a570)':'rgba(255,255,255,0.12)', border:sel?'2.5px solid #fff':(a.unlocked?'2px solid rgba(255,255,255,0.55)':'2px solid rgba(255,255,255,0.2)'), boxShadow:sel?'0 0 0 4px rgba(255,255,255,0.18)':(a.unlocked?'0 5px 12px rgba(120,80,30,0.25)':'none') },
+          labelStyle:{ fontFamily:'Fredoka, sans-serif', fontWeight:500, fontSize:11.5, color:sel?'#fff':'rgba(234,246,251,0.8)', textAlign:'center', lineHeight:1.15 },
+          ribbon:a.unlocked?'Unlocked':'Locked',
+          ribbonStyle:{ fontFamily:'Fredoka, sans-serif', fontWeight:600, fontSize:9.5, letterSpacing:0.4, color:a.unlocked?tierColor[a.tier]:'rgba(234,246,251,0.4)' },
+        });
+      });
     });
     const selAch = achComputed.find(a=>a.id===selId) || achComputed[0];
-    const selPct = selAch.next ? Math.min(100, Math.round(selAch.current / selAch.next.req * 100)) : 100;
-    const selDetail = {
+    const selPct = selAch ? Math.min(100, Math.round((selAch.current||0)/selAch.req*100)) : 0;
+    const selDetail = selAch ? {
       icon:selAch.icon, name:selAch.name, desc:selAch.desc,
-      bigIconStyle:{ width:74, height:74, flex:'0 0 74px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', fontSize:36, background: selAch.unlocked?'linear-gradient(135deg,#eedcb2,#d6a570)':'rgba(255,255,255,0.12)', border:'2px solid rgba(255,255,255,0.55)', boxShadow:'0 6px 14px rgba(120,80,30,0.25)' },
-      statusLabel: selAch.unlocked ? (selAch.highest + ' tier') : 'Not yet unlocked',
-      statusStyle:{ fontFamily:'Fredoka, sans-serif', fontWeight:600, fontSize:13, color: selAch.unlocked?tierColor[selAch.highest]:'rgba(234,246,251,0.6)' },
-      progressLabel: selAch.next ? (selAch.current + ' / ' + selAch.next.req + ' ' + selAch.unit) : ('All tiers complete \u2014 ' + selAch.current + ' ' + selAch.unit),
-      barFillStyle:{ width: selPct+'%', height:'100%', borderRadius:999, background: selAch.next?tierColor[selAch.next.t]:'#7cdca0' },
-      tiers: selAch.tiers.map(t=>({
-        name:t.t, req:'Reach ' + t.req + ' ' + selAch.unit, done:t.done,
-        dotStyle:{ width:34, height:34, flex:'0 0 34px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', fontSize:16, background: t.done?tierColor[t.t]:'rgba(255,255,255,0.1)', border:'2px solid '+(t.done?tierColor[t.t]:'rgba(255,255,255,0.2)'), color:'#1c3a44', fontWeight:700 },
-        nameStyle:{ fontFamily:'Fredoka, sans-serif', fontWeight:600, fontSize:15, color: t.done?'#fff':'rgba(234,246,251,0.6)' },
-        reqStyle:{ fontFamily:'Nunito, sans-serif', fontWeight:700, fontSize:12.5, color:'rgba(234,246,251,0.55)', marginTop:1 },
-        mark: t.done ? '\u2713' : '',
-      })),
-    };
+      bigIconStyle:{ width:74, height:74, flex:'0 0 74px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', fontSize:36, background:selAch.unlocked?'linear-gradient(135deg,#eedcb2,#d6a570)':'rgba(255,255,255,0.12)', border:'2px solid rgba(255,255,255,0.55)', boxShadow:'0 6px 14px rgba(120,80,30,0.25)' },
+      statusLabel:selAch.unlocked?'Unlocked':'Not yet unlocked',
+      statusStyle:{ fontFamily:'Fredoka, sans-serif', fontWeight:600, fontSize:13, color:selAch.unlocked?tierColor[selAch.tier]:'rgba(234,246,251,0.6)' },
+      tierLabel:selAch.tier, tierColor:tierColor[selAch.tier], tierBg:tierBgMap[selAch.tier],
+      progressLabel:selAch.current+' / '+selAch.req+' '+selAch.unit,
+      barFillStyle:{ width:selPct+'%', height:'100%', borderRadius:999, background:selAch.unlocked?tierColor[selAch.tier]:'rgba(255,255,255,0.35)' },
+    } : {};
 
     // settings sheet
     const tg = this.state.toggles;
@@ -1306,10 +1440,10 @@ class Component extends DCLogic {
 
     const settingsRaw = [
       { title:'Account Management', icon:'\uD83D\uDC64', items:[
-        { label:'Edit profile details', sub:'Name, photo, email', type:'link' },
-        { label:'Reset password', type:'link' },
-        { label:'Manage subscription', sub:'Pro \u00B7 renews Jul 12', type:'link' },
-        { label:'Log out', type:'link', danger:true, action:'signOut' },
+        { label:'Edit profile details', sub:'Name, photo, email', type:'link', action:()=>this.openEditProfile() },
+        { label:'Reset password', type:'link', action:()=>this.sendPasswordReset() },
+        { label:'Manage subscription', sub:'Pro \u00B7 renews Jul 12', type:'link', action:()=>this._showSettingsMsg('Subscription management coming soon!') },
+        { label:'Log out', type:'link', danger:true, action:()=>this.signOut() },
       ]},
       { title:'Notifications', icon:'\uD83D\uDD14', items:[
         { label:'Push notifications', sub:'Alerts on this device', type:'toggle', key:'push' },
@@ -1319,12 +1453,12 @@ class Component extends DCLogic {
       { title:'Privacy & Security', icon:'\uD83D\uDD12', items:[
         { label:'Data sharing', sub:'Usage analytics', type:'toggle', key:'dataShare' },
         { label:'Two-factor authentication', type:'toggle', key:'twoFA' },
-        { label:'Clear app cache', sub:'42.6 MB', type:'link' },
+        { label:'Clear app cache', sub:'42.6 MB', type:'link', action:()=>this.clearCache() },
       ]},
       { title:'App Preferences', icon:'\u2699\uFE0F', items:[
-        { label:'Language', sub:'English', type:'link' },
+        { label:'Language', sub:'English', type:'link', action:()=>this._showSettingsMsg('More languages coming soon!') },
         { label:'Dark mode', sub:'Theme appearance', type:'toggle', key:'darkMode' },
-        { label:'Customize interface', type:'link' },
+        { label:'Customize interface', type:'link', action:()=>this._showSettingsMsg('Customization coming soon!') },
       ]},
     ];
     const settingsSections = settingsRaw.map(sec=>({
@@ -1338,7 +1472,7 @@ class Component extends DCLogic {
           rowStyle: { ...rowBase, borderBottom: last ? 'none' : '1px solid rgba(255,255,255,0.1)' },
           labelStyle: labelStyle(it.danger), subStyle,
           trackStyle: switchTrack(on), knobStyle: switchKnob(on),
-          onClick: it.type==='toggle' ? ()=>this.toggleSetting(it.key) : (it.action ? ()=>this[it.action]() : ()=>{}),
+          onClick: it.type==='toggle' ? ()=>this.toggleSetting(it.key) : (it.action ? it.action : ()=>{}),
         };
       }),
     }));
@@ -1408,6 +1542,13 @@ class Component extends DCLogic {
       celebrate: !!cel, celebrateEmoji: cel ? cel.emoji : '', celebrateTitle: cel ? cel.title : '', celebrateSub: cel ? cel.sub : '', celebrateCardStyle,
       gemWalletRef: this.gemWalletRef, gemCountRef: this.gemCountRef,
       targetAreas, videos, mastery, weekBars, stats, badges,
+      profileName, profileSubline, avatarContent, avatarRingStyle, iconOptions,
+      iconPickerOpen: this.state.iconPickerOpen,
+      editProfileOpen: this.state.editProfileOpen,
+      openIconPicker:()=>this.openIconPicker(), closeIconPicker:()=>this.closeIconPicker(),
+      openEditProfile:()=>this.openEditProfile(), closeEditProfile:()=>this.closeEditProfile(),
+      saveEditProfile:()=>{ const f=document.getElementById('ep-fname'),l=document.getElementById('ep-lname'),h=document.getElementById('ep-handle'); this.saveEditProfile(f&&f.value.trim(),l&&l.value.trim(),h&&h.value.trim()); },
+      settingsMsg: this.state.settingsMsg,
       settingsOpen: this.state.settingsOpen, settingsSections,
       openSettings:()=>this.openSettings(), closeSettings:()=>this.closeSettings(),
       achievementsOpen: this.state.achievementsOpen, achGrid, selDetail, unlockedCount, achTotal: achComputed.length,

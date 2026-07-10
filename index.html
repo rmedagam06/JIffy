@@ -209,8 +209,10 @@
     btn.textContent='Setting up…'; btn.disabled=true; btn.style.opacity='0.6';
     var handle=(d.firstName||'').toLowerCase().replace(/\s+/g,'')+(d.lastName?d.lastName[0].toLowerCase():'');
     if(uid&&window._sb){
+      const {data:{session:_ses}} = await window._sb.auth.getSession();
+      const email = _ses?.user?.email||'';
       await window._sb.from('user_progress').upsert({
-        id:uid, first_name:d.firstName||'', last_name:d.lastName||'', handle:handle,
+        id:uid, email, first_name:d.firstName||'', last_name:d.lastName||'', handle:handle,
         experience_level:d.level||'SL', test_date:d.testDate||'',
         weekly_hours:d.weeklyHours||3, daily_goal_minutes:d.dailyGoalMinutes||10,
         streak:0, gems:0, level:d.level||'SL',
@@ -257,7 +259,6 @@
     html,body{margin:0;padding:0;background:#0c1d25}
     ::-webkit-scrollbar{display:none}
     *{scrollbar-width:none}
-    @keyframes bobUp{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
     @keyframes floatMascot{0%,100%{transform:translateX(-50%) translateY(0) rotate(-2deg)}50%{transform:translateX(-50%) translateY(-6px) rotate(2deg)}}
     @keyframes driftClouds{from{background-position-x:0}to{background-position-x:-300px}}
     @keyframes gemPop{0%{transform:scale(1)}35%{transform:scale(1.16)}100%{transform:scale(1)}}
@@ -273,52 +274,40 @@
 
       <!-- ════════════ HOME ════════════ -->
       <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
-      <div data-screen-label="Home" ref="{{ bgRef }}" style="position:absolute;inset:0;background-image:url(assets/bg-morning.png);background-size:cover;background-position:top center;background-repeat:no-repeat">
-      <div style="position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch">
+      <div data-screen-label="Home" ref="{{ bgRef }}" style="position:absolute;inset:0;background-image:url(assets/tan-bg.jpg);background-size:cover;background-position:top center;background-repeat:no-repeat">
+      <!-- clouds pinned to outer (non-scrolling) layer -->
+      <div ref="{{ cloudRef }}" style="position:absolute;top:6px;left:0;right:0;height:110px;z-index:2;background-image:url(assets/clouds.png);background-repeat:repeat-x;background-size:300px auto;background-position:top left;animation:driftClouds 60s linear infinite;opacity:0.9;pointer-events:none"></div>
+      <!-- watermark fade overlay at bottom -->
+      <div style="position:absolute;bottom:0;left:0;right:0;height:120px;z-index:2;pointer-events:none;background:linear-gradient(to bottom,transparent,#F0D9B0)"></div>
+      <div style="position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;z-index:3">
 
         <!-- HERO -->
-        <div style="position:relative;height:196px;overflow:hidden">
-          <!-- drifting clouds -->
-          <div ref="{{ cloudRef }}" style="position:absolute;top:6px;left:0;right:0;height:110px;background-image:url(assets/clouds.png);background-repeat:repeat-x;background-size:300px auto;background-position:top left;animation:driftClouds 60s linear infinite;opacity:0.9;pointer-events:none"></div>
-          <!-- small time + weather (top-left, low emphasis) -->
-          <div style="position:absolute;top:56px;left:20px;z-index:6;display:flex;align-items:center;gap:7px">
-            <span ref="{{ weatherRef }}" style="font-size:17px;filter:drop-shadow(0 2px 4px rgba(10,45,60,0.3))">⛅</span>
-            <span ref="{{ timeRef }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:14.5px;color:rgba(255,255,255,0.9);text-shadow:0 1px 3px rgba(10,45,60,0.5);white-space:nowrap">8:00 AM</span>
-            <span ref="{{ periodRef }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:12px;color:rgba(255,255,255,0.72)">EST</span>
-          </div>
-          <!-- gavel gem wallet -->
-          <div ref="{{ gemWalletRef }}" style="position:absolute;top:50px;right:18px;z-index:6;display:flex;align-items:center;gap:8px;padding:7px 15px 7px 11px;background:rgba(255,255,255,0.18);border:1.5px solid rgba(255,255,255,0.42);border-radius:999px;box-shadow:0 5px 14px rgba(10,40,55,0.3)">
+        <div style="position:relative;height:140px;">
+          <!-- gem wallet -->
+          <div ref="{{ gemWalletRef }}" style="position:absolute;top:50px;right:18px;z-index:6;display:flex;align-items:center;gap:8px;padding:7px 15px 7px 11px;background:rgba(255,255,255,0.5);border:1.5px solid rgba(92,48,16,0.18);border-radius:999px;box-shadow:0 4px 12px rgba(92,48,16,0.12)">
             <span style="width:17px;height:17px;transform:rotate(45deg);border-radius:3px;background:linear-gradient(135deg,#fff2cf,#e0b45f);box-shadow:0 2px 5px rgba(120,80,20,0.4),inset 0 1px 2px rgba(255,255,255,0.7);display:inline-block"></span>
-            <span ref="{{ gemCountRef }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:19px;color:#fff;text-shadow:0 1px 3px rgba(8,40,55,0.45);min-width:30px;text-align:right"></span>
+            <span ref="{{ gemCountRef }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:19px;color:#5C3010;min-width:30px;text-align:right"></span>
           </div>
-          <!-- greeting (primary header) -->
+          <!-- greeting -->
           <div style="position:absolute;left:20px;right:20px;bottom:22px">
-            <div style="font-family:Nunito,sans-serif;font-weight:800;font-size:12.5px;letter-spacing:1.4px;color:rgba(255,255,255,0.78);text-transform:uppercase">IB Biology Coach</div>
-            <div ref="{{ greetRef }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:34px;line-height:1.0;color:#fff;text-shadow:0 2px 10px rgba(8,40,55,0.45);white-space:nowrap;overflow:hidden;margin-top:3px">Good evening, Ronika!</div>
+            <div style="font-family:Nunito,sans-serif;font-weight:800;font-size:12.5px;letter-spacing:1.4px;color:rgba(92,48,16,0.55);text-transform:uppercase">IB Biology Coach</div>
+            <div ref="{{ greetRef }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:34px;line-height:1.0;color:#5C3010;text-shadow:0 1px 4px rgba(92,48,16,0.15);white-space:nowrap;overflow:hidden;margin-top:3px">Good evening!</div>
           </div>
         </div>
 
         <!-- BODY -->
         <div style="padding:0 20px 120px">
-          <!-- mascot standing on the streak card -->
-          <div style="position:relative;height:70px;z-index:5;pointer-events:none">
-            <div style="position:absolute;right:112px;bottom:12px;max-width:158px;background:#fff;border:2px solid #dde8ee;border-radius:18px 18px 4px 18px;padding:9px 13px;box-shadow:0 8px 18px rgba(10,40,55,0.24)">
-              <span ref="{{ subRef }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:12.5px;line-height:1.16;color:#2a6076">Ready for tonight’s drill?</span>
-            </div>
-            <img src="assets/jiffy-mascot.png" alt="Jiffy mascot" style="position:absolute;right:12px;bottom:-8px;width:104px;filter:drop-shadow(0 9px 12px rgba(20,50,65,0.42));animation:bobUp 3.4s ease-in-out infinite"/>
-          </div>
-
           <!-- Streak card -->
-          <div style="margin-top:-4px;background:linear-gradient(180deg,rgba(206,234,242,0.5),rgba(140,190,210,0.28));border:1.5px solid rgba(255,255,255,0.55);border-radius:26px;box-shadow:0 12px 30px rgba(10,40,55,0.22);padding:20px 20px 22px">
+          <div style="margin-top:0;background:linear-gradient(180deg,rgba(242,164,58,0.18),rgba(242,164,58,0.06));border:1.5px solid rgba(242,164,58,0.4);border-radius:26px;box-shadow:0 8px 20px rgba(92,48,16,0.12);padding:20px 20px 22px">
             <div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
-              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:24px;color:#fff;text-shadow:0 2px 5px rgba(8,40,55,0.3)">{{ streakHeadline }}</div>
-              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:18px;color:#fff;display:flex;align-items:center;gap:5px;background:rgba(255,255,255,0.16);border:1.5px solid rgba(255,255,255,0.4);border-radius:999px;padding:4px 12px 4px 10px;text-shadow:0 1px 3px rgba(8,40,55,0.4)"><span style="font-size:15px">🔥</span>{{ streakCount }}</div>
+              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:24px;color:#5C3010">{{ streakHeadline }}</div>
+              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:18px;color:#5C3010;display:flex;align-items:center;gap:5px;background:rgba(255,255,255,0.5);border:1.5px solid rgba(92,48,16,0.18);border-radius:999px;padding:4px 12px 4px 10px"><span style="font-size:15px">🔥</span>{{ streakCount }}</div>
             </div>
-            <div style="height:2px;background:rgba(255,255,255,0.45);border-radius:2px;margin:12px 0 16px"></div>
+            <div style="height:2px;background:rgba(92,48,16,0.15);border-radius:2px;margin:12px 0 16px"></div>
             <div style="display:flex;justify-content:space-between">
               <sc-for list="{{ weekCells }}" as="d" hint-placeholder-count="7">
                 <div style="display:flex;flex-direction:column;align-items:center;gap:9px">
-                  <span style="font-family:Fredoka,sans-serif;font-weight:700;font-size:15px;color:#ffffff;letter-spacing:0.5px;text-shadow:0 1px 2px rgba(8,40,55,0.4)">{{ d.label }}</span>
+                  <span style="font-family:Fredoka,sans-serif;font-weight:700;font-size:15px;color:#5C3010;letter-spacing:0.5px;">{{ d.label }}</span>
                   <div style="{{ d.circleStyle }}">{{ d.content }}</div>
                 </div>
               </sc-for>
@@ -326,7 +315,7 @@
           </div>
 
           <!-- PRIMARY CTA -->
-          <div onClick="{{ goFeed }}" style="margin-top:15px;display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:20px;background:linear-gradient(135deg,#ffd45e 0%,#f2a43a 100%);box-shadow:0 12px 26px rgba(210,140,30,0.42);border:1.5px solid rgba(255,255,255,0.55);cursor:pointer;-webkit-tap-highlight-color:transparent">
+          <div onClick="{{ goFeed }}" style="margin-top:15px;display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:20px;background:linear-gradient(135deg,#ffd45e 0%,#f2a43a 100%);box-shadow:0 8px 20px rgba(210,130,30,0.35);border:1.5px solid rgba(255,255,255,0.55);cursor:pointer;-webkit-tap-highlight-color:transparent">
             <div style="width:46px;height:46px;flex:0 0 46px;border-radius:50%;background:rgba(255,255,255,0.38);display:flex;align-items:center;justify-content:center;box-shadow:inset 0 1px 2px rgba(255,255,255,0.7)">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="#5a3d0c"><path d="M8 5v14l11-7z"/></svg>
             </div>
@@ -337,51 +326,48 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5a3d0c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
           </div>
 
+          <!-- Stats row -->
+          <div style="margin-top:14px;display:flex;gap:10px">
+            <sc-for list="{{ homeStats }}" as="hs" hint-placeholder-count="4">
+              <div style="flex:1;background:rgba(255,255,255,0.7);border:1.5px solid rgba(92,48,16,0.12);border-radius:16px;padding:10px 0;text-align:center;box-shadow:0 2px 8px rgba(92,48,16,0.08)">
+                <div style="font-size:18px">{{ hs.icon }}</div>
+                <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:18px;color:#5C3010">{{ hs.value }}</div>
+                <div style="font-family:Nunito,sans-serif;font-size:10px;font-weight:800;color:rgba(92,48,16,0.55);text-transform:uppercase;letter-spacing:0.7px">{{ hs.label }}</div>
+              </div>
+            </sc-for>
+          </div>
+
           <!-- Target Areas card -->
-          <div style="margin-top:18px;background:linear-gradient(135deg,#eedcb2 0%,#d6a570 100%);border-radius:26px;box-shadow:0 12px 30px rgba(10,40,55,0.22);padding:22px 22px 24px;display:flex;gap:14px">
+          <div style="margin-top:18px;background:rgba(255,255,255,0.7);border:1.5px solid rgba(92,48,16,0.12);border-radius:26px;box-shadow:0 8px 20px rgba(92,48,16,0.1);padding:22px 22px 24px;display:flex;gap:14px">
             <div style="flex:0 0 auto">
-              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:26px;color:#fff;text-shadow:0 2px 5px rgba(120,80,30,0.35);line-height:1.05">Target<br>Areas</div>
-              <div style="font-family:Fredoka,sans-serif;font-weight:500;font-size:16px;color:#fffaf0;margin-top:6px">You got this!</div>
+              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:26px;color:#5C3010;line-height:1.05">Target<br>Areas</div>
+              <div style="font-family:Fredoka,sans-serif;font-weight:500;font-size:16px;color:rgba(92,48,16,0.6);margin-top:6px">You got this!</div>
             </div>
             <div style="flex:1;display:flex;flex-direction:column;gap:14px;justify-content:center">
               <sc-for list="{{ targetAreas }}" as="t" hint-placeholder-count="3">
                 <div style="display:flex;align-items:center;gap:10px">
-                  <span style="flex:0 0 96px;font-family:Fredoka,sans-serif;font-weight:500;font-size:12.5px;color:#fff;text-shadow:0 1px 3px rgba(120,80,30,0.35);text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ t.name }}</span>
-                  <div style="flex:1;height:22px;border-radius:999px;background:rgba(255,255,255,0.32);overflow:hidden;box-shadow:inset 0 1px 3px rgba(120,60,20,0.25)">
+                  <span style="flex:0 0 96px;font-family:Fredoka,sans-serif;font-weight:500;font-size:12.5px;color:#5C3010;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ t.name }}</span>
+                  <div style="flex:1;height:22px;border-radius:999px;background:rgba(92,48,16,0.1);overflow:hidden">
                     <div style="{{ t.fillStyle }}"></div>
                   </div>
-                  <span style="flex:0 0 auto;min-width:34px;text-align:right;font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#fff;text-shadow:0 1px 3px rgba(120,80,30,0.35)">{{ t.pctLabel }}</span>
+                  <span style="flex:0 0 auto;min-width:34px;text-align:right;font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:#5C3010">{{ t.pctLabel }}</span>
                 </div>
               </sc-for>
             </div>
           </div>
 
-          <!-- Recommended Videos card -->
-          <div style="margin-top:18px;background:linear-gradient(180deg,rgba(206,234,242,0.5),rgba(140,190,210,0.28));border:1.5px solid rgba(255,255,255,0.55);border-radius:26px;box-shadow:0 12px 30px rgba(10,40,55,0.22);padding:20px 16px 18px">
-            <div style="display:flex;align-items:center;justify-content:space-between;margin:0 2px 14px">
-              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:23px;color:#fff;text-shadow:0 2px 5px rgba(8,40,55,0.3)">Recommended Videos</div>
-              <div onClick="{{ goFeed }}" style="font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;color:rgba(255,255,255,0.85);cursor:pointer;-webkit-tap-highlight-color:transparent">See all</div>
-            </div>
-            <div style="display:flex;flex-direction:column;gap:11px">
-              <sc-for list="{{ videos }}" as="v" hint-placeholder-count="3">
-                <div onClick="{{ goFeed }}" style="display:flex;align-items:center;gap:13px;padding:10px;border-radius:18px;background:rgba(255,255,255,0.12);border:1.5px solid rgba(255,255,255,0.28);box-shadow:0 4px 12px rgba(10,40,55,0.18);cursor:pointer;-webkit-tap-highlight-color:transparent">
-                  <div style="position:relative;width:98px;flex:0 0 98px;aspect-ratio:16/11;border-radius:13px;overflow:hidden;box-shadow:0 4px 10px rgba(10,40,55,0.3)">
-                    <image-slot id="{{ v.id }}" shape="rounded" radius="13" style="width:100%;height:100%;display:block" placeholder="thumb"></image-slot>
-                    <div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(30,66,80,0) 0 10px,rgba(30,66,80,0.14) 10px 20px);pointer-events:none"></div>
-                    <div style="position:absolute;left:6px;bottom:6px;display:flex;align-items:center;gap:4px;background:rgba(8,28,38,0.72);border-radius:6px;padding:2px 6px;pointer-events:none">
-                      <svg width="9" height="9" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>
-                      <span style="font-family:'SF Mono',ui-monospace,monospace;font-size:9.5px;color:#fff;letter-spacing:0.3px">{{ v.dur }}</span>
-                    </div>
+          <!-- Study by Theme grid -->
+          <div style="margin-top:18px">
+            <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:19px;color:#5C3010;margin-bottom:10px">Study by Theme</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+              <sc-for list="{{ themeCards }}" as="tc" hint-placeholder-count="4">
+                <div onClick="{{ startThemeDrill }}" data-theme="{{ tc.letter }}" style="background:rgba(255,255,255,0.7);border:1.5px solid rgba(92,48,16,0.12);border-radius:20px;padding:16px 14px;cursor:pointer;-webkit-tap-highlight-color:transparent;box-shadow:0 2px 8px rgba(92,48,16,0.08)">
+                  <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:28px;color:#F2A43A">{{ tc.letter }}</div>
+                  <div style="font-family:Fredoka,sans-serif;font-weight:500;font-size:13px;color:#5C3010;margin-top:2px;line-height:1.2">{{ tc.name }}</div>
+                  <div style="margin-top:10px;height:4px;border-radius:4px;background:rgba(92,48,16,0.1)">
+                    <div style="{{ tc.barStyle }}"></div>
                   </div>
-                  <div style="flex:1;min-width:0">
-                    <div style="font-family:Nunito,sans-serif;font-weight:800;font-size:14.5px;line-height:1.2;color:#fff;text-shadow:0 1px 3px rgba(8,40,55,0.3)">{{ v.caption }}</div>
-                    <div style="display:flex;align-items:center;gap:9px;margin-top:6px;font-family:Fredoka,sans-serif;font-weight:500;font-size:12px;color:rgba(255,255,255,0.82)">
-                      <span style="background:rgba(255,255,255,0.16);border-radius:999px;padding:2px 9px">{{ v.topic }}</span>
-                      <span>▶ {{ v.views }}</span>
-                      <span>♥ {{ v.likes }}</span>
-                    </div>
-                  </div>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                  <div style="font-family:Nunito,sans-serif;font-weight:800;font-size:11px;color:rgba(92,48,16,0.5);margin-top:5px">{{ tc.label }}</div>
                 </div>
               </sc-for>
             </div>
@@ -922,9 +908,9 @@ class Component extends DCLogic {
       ...streakInit, celebrate:null,
       toggles:{ push:true, daily:true, streak:true, dataShare:false, twoFA:true, darkMode:false },
       catalog:null, catalogError:false, level:'SL', selectedTopics:{}, drillStarted:false, loadingDrill:false,
-      firstName:'', lastName:'', handle:'', experienceLevel:'SL', testDate:'', weeklyHours:3, dailyGoalMinutes:10,
+      email:'', firstName:'', lastName:'', handle:'', experienceLevel:'SL', testDate:'', weeklyHours:3, dailyGoalMinutes:10,
       drillsDone:0, firstTryCorrect:0, achStats:{sessions:0,earlyBird:0,nightOwl:0,revealed:0,themes:[]},
-      profileIcon:'default', iconPickerOpen:false, editProfileOpen:false, settingsMsg:'' };
+      profileIcon:'default', iconPickerOpen:false, editProfileOpen:false, settingsMsg:'', filterTheme:null };
 
     this.themes = {
       morning:{ bg:'assets/bg-morning.png', greet:'Good morning', sub:'Ready for today’s drill?', weather:'\u26C5', cloud:0.92 },
@@ -973,12 +959,8 @@ class Component extends DCLogic {
     const hr12 = ((h + 11) % 12) + 1;
     const mm = String(now.getMinutes()).padStart(2, '0');
     const timeStr = hr12 + ':' + mm + ' ' + (h < 12 ? 'AM' : 'PM');
-    if(this.bgRef.current) this.bgRef.current.style.backgroundImage = 'url(' + t.bg + ')';
     if(this.cloudRef.current) this.cloudRef.current.style.opacity = t.cloud;
-    if(this.timeRef.current) this.timeRef.current.textContent = timeStr;
     if(this.greetRef.current){ this.greetRef.current.textContent = t.greet + ', ' + name + '!'; this.fitGreet(); }
-    if(this.subRef.current) this.subRef.current.textContent = t.sub;
-    if(this.weatherRef.current) this.weatherRef.current.textContent = t.weather;
   }
 
   fitGreet(){
@@ -1030,6 +1012,7 @@ class Component extends DCLogic {
   closeAchModal(){ this.setState({ achModalOpen:false }); }
   selectAchievement(id){ this.setState({ selectedAch:id, achModalOpen:true }); }
   toggleSetting(key){ this.setState(s=>({ toggles:{...s.toggles, [key]:!s.toggles[key]} })); }
+  startThemeDrill(e){ const lt = (e.currentTarget||e.target).getAttribute('data-theme'); if(lt) this.setState({ filterTheme:lt }); this.startDrill(); }
   openIconPicker(){ this.setState({ iconPickerOpen:true }); }
   closeIconPicker(){ this.setState({ iconPickerOpen:false }); }
   pickIcon(key){ this.setState({ profileIcon:key, iconPickerOpen:false }); this.syncProgress(); }
@@ -1072,8 +1055,10 @@ class Component extends DCLogic {
     const level = this.state.level || 'SL';
     const allSub = [];
     catalog.themes.forEach(th=> th.subtopics.forEach(st=> allSub.push({ ...st, theme:th.theme, themeName:th.themeName })));
+    const filterTheme = this.state.filterTheme;
+    if(filterTheme) this.setState({ filterTheme:null });
     const selectedIds = Object.keys(this.state.selectedTopics).filter(id=>this.state.selectedTopics[id]);
-    let queue = selectedIds.length ? allSub.filter(st=>selectedIds.includes(st.id)) : allSub.slice();
+    let queue = filterTheme ? allSub.filter(st=>st.theme===filterTheme) : selectedIds.length ? allSub.filter(st=>selectedIds.includes(st.id)) : allSub.slice();
     queue = queue.filter(st => level==='SL' ? st.SL > 0 : (st.SL + st.HL) > 0);
     if(!queue.length){ this.loadedQuestions = []; this.setState({ drillStarted:true, tab:'feed', answers:{}, liked:{}, saved:{}, highlighted:{} }); return; }
     this.setState({ loadingDrill:true });
@@ -1186,6 +1171,7 @@ class Component extends DCLogic {
       liked:          data.liked              ?? {},
       saved:          data.saved              ?? {},
       highlighted:    data.highlighted        ?? {},
+      email:          data.email               ?? '',
       firstName:      data.first_name         ?? '',
       lastName:       data.last_name          ?? '',
       handle:         data.handle             ?? '',
@@ -1204,9 +1190,9 @@ class Component extends DCLogic {
     if(!uid || !window._sb) return;
     if(this._syncTimer) clearTimeout(this._syncTimer);
     this._syncTimer = setTimeout(async ()=>{
-      const {absToday,weekStart,done,streak,lastDone,gems,topicStats,level,selectedTopics,liked,saved,highlighted,firstName,lastName,handle,experienceLevel,testDate,weeklyHours,dailyGoalMinutes,drillsDone,firstTryCorrect,achStats,profileIcon} = this.state;
+      const {absToday,weekStart,done,streak,lastDone,gems,topicStats,level,selectedTopics,liked,saved,highlighted,email,firstName,lastName,handle,experienceLevel,testDate,weeklyHours,dailyGoalMinutes,drillsDone,firstTryCorrect,achStats,profileIcon} = this.state;
       await window._sb.from('user_progress').upsert({
-        id:uid, streak, gems, level,
+        id:uid, email:email||'', streak, gems, level,
         week_start:weekStart, done_days:done, last_done:lastDone,
         abs_today:absToday, topic_stats:topicStats,
         selected_topics:selectedTopics, liked, saved, highlighted,
@@ -1307,11 +1293,28 @@ class Component extends DCLogic {
     const sevColor = (p)=> p<45 ? '#e8705f' : (p<65 ? '#f0b657' : '#7fcf9d');
     const targetAreas = topicArr.slice(0,3).map(t=>({ name:t.name, pctLabel: t.pct+'%', fillStyle:{ width: Math.max(6,t.pct)+'%', height:'100%', borderRadius:999, background: sevColor(t.pct), transition:'width .5s ease, background .5s ease' } }));
 
-    const videos = [
-      { id:'vid1', caption:'Necessary vs sufficient conditions', dur:'2:14', topic:'Nucleic acids', views:'100K', likes:'50K' },
-      { id:'vid2', caption:'Cell structure in 60 seconds', dur:'1:02', topic:'Cell biology', views:'88K', likes:'41K' },
-      { id:'vid3', caption:'The 5 concepts tested most on Paper 1', dur:'3:30', topic:'Exam prep', views:'126K', likes:'72K' },
+    const totalAtt = Object.values(ss.topicStats||{}).reduce((a,t)=>a+(t.att||0),0);
+    const totalCor = Object.values(ss.topicStats||{}).reduce((a,t)=>a+(t.cor||0),0);
+    const homeAccuracy = totalAtt > 0 ? Math.round(totalCor/totalAtt*100)+'%' : '—';
+    const homeStats = [
+      { icon:'🔥', value: ss.streak||0,      label:'Streak' },
+      { icon:'⚡',       value: ss.gems||0,         label:'XP' },
+      { icon:'✅',       value: ss.drillsDone||0,   label:'Drills' },
+      { icon:'🎯', value: homeAccuracy,        label:'Accuracy' },
     ];
+    const themeNamesMap = { A:'Molecules of Life', B:'Cells', C:'Organisms', D:'Evolution' };
+    const themeCards = ['A','B','C','D'].map(lt => {
+      const entries = Object.entries(ss.topicStats||{}).filter(([k])=>k.startsWith(lt));
+      const tAtt = entries.reduce((s,[,v])=>s+(v.att||0),0);
+      const tCor = entries.reduce((s,[,v])=>s+(v.cor||0),0);
+      const pct = tAtt > 0 ? Math.round(tCor/tAtt*100) : 0;
+      return {
+        letter: lt,
+        name: themeNamesMap[lt],
+        label: tAtt > 0 ? pct+'% accuracy' : 'Not started',
+        barStyle: 'height:100%;width:'+pct+'%;background:#F2A43A;border-radius:4px;transition:width 0.4s',
+      };
+    });
 
     // mastery (progress) — demo data
     const tagFor = (p)=> p>=75 ? {t:'Strong', c:'#7cdca0'} : p>=45 ? {t:'Solid', c:'#f0c97c'} : {t:'Focus', c:'#f0897c'};
@@ -1334,8 +1337,6 @@ class Component extends DCLogic {
     }));
 
     // \u2500\u2500 profile \u2500\u2500
-    const totalAtt = Object.values(ss.topicStats||{}).reduce((acc,t)=>acc+t.att,0);
-    const totalCor = Object.values(ss.topicStats||{}).reduce((acc,t)=>acc+t.cor,0);
     const accuracy = totalAtt>0 ? Math.round(totalCor/totalAtt*100)+'%' : '\u2014';
     const profileName = [ss.firstName, ss.lastName].filter(Boolean).join(' ') || 'You';
     const profileSubline = '@'+(ss.handle||'you')+' \u00B7 '+(ss.experienceLevel||'IB')+' \u00B7 \uD83D\uDD25 '+ss.streak+'-day streak';
@@ -1541,10 +1542,11 @@ class Component extends DCLogic {
       weekCells, streakCount, streakHeadline, drillWhen, drillCtaSub,
       celebrate: !!cel, celebrateEmoji: cel ? cel.emoji : '', celebrateTitle: cel ? cel.title : '', celebrateSub: cel ? cel.sub : '', celebrateCardStyle,
       gemWalletRef: this.gemWalletRef, gemCountRef: this.gemCountRef,
-      targetAreas, videos, mastery, weekBars, stats, badges,
+      targetAreas, homeStats, themeCards, mastery, weekBars, stats, badges,
       profileName, profileSubline, avatarContent, avatarRingStyle, iconOptions,
       iconPickerOpen: this.state.iconPickerOpen,
       editProfileOpen: this.state.editProfileOpen,
+      startThemeDrill:(e)=>this.startThemeDrill(e),
       openIconPicker:()=>this.openIconPicker(), closeIconPicker:()=>this.closeIconPicker(),
       openEditProfile:()=>this.openEditProfile(), closeEditProfile:()=>this.closeEditProfile(),
       saveEditProfile:()=>{ const f=document.getElementById('ep-fname'),l=document.getElementById('ep-lname'),h=document.getElementById('ep-handle'); this.saveEditProfile(f&&f.value.trim(),l&&l.value.trim(),h&&h.value.trim()); },

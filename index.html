@@ -296,12 +296,12 @@
         </div>
 
         <!-- BODY -->
-        <div style="padding:0 20px 120px">
+        <div style="background:#FAF0E0;border-radius:28px 28px 0 0;margin-top:-16px;padding:22px 20px 120px">
           <!-- Streak card -->
-          <div style="margin-top:0;background:linear-gradient(180deg,rgba(242,164,58,0.18),rgba(242,164,58,0.06));border:1.5px solid rgba(242,164,58,0.4);border-radius:26px;box-shadow:0 8px 20px rgba(92,48,16,0.12);padding:20px 20px 22px">
-            <div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
-              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:24px;color:#5C3010">{{ streakHeadline }}</div>
-              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:18px;color:#5C3010;display:flex;align-items:center;gap:5px;background:rgba(255,255,255,0.5);border:1.5px solid rgba(92,48,16,0.18);border-radius:999px;padding:4px 12px 4px 10px"><span style="font-size:15px">🔥</span>{{ streakCount }}</div>
+          <div style="margin-top:0;background:#FFFFFF;border:1.5px solid rgba(242,164,58,0.4);border-radius:26px;box-shadow:0 4px 14px rgba(92,48,16,0.08);padding:20px 20px 22px">
+            <div style="display:flex;align-items:center;gap:8px">
+              <span style="font-size:22px">🔥</span>
+              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:22px;color:#5C3010">{{ streakHeadline }}</div>
             </div>
             <div style="height:2px;background:rgba(92,48,16,0.15);border-radius:2px;margin:12px 0 16px"></div>
             <div style="display:flex;justify-content:space-between">
@@ -315,30 +315,30 @@
           </div>
 
           <!-- PRIMARY CTA -->
-          <div onClick="{{ goFeed }}" style="margin-top:15px;display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:20px;background:linear-gradient(135deg,#ffd45e 0%,#f2a43a 100%);box-shadow:0 8px 20px rgba(210,130,30,0.35);border:1.5px solid rgba(255,255,255,0.55);cursor:pointer;-webkit-tap-highlight-color:transparent">
-            <div style="width:46px;height:46px;flex:0 0 46px;border-radius:50%;background:rgba(255,255,255,0.38);display:flex;align-items:center;justify-content:center;box-shadow:inset 0 1px 2px rgba(255,255,255,0.7)">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="#5a3d0c"><path d="M8 5v14l11-7z"/></svg>
+          <div onClick="{{ goFeed }}" style="margin-top:15px;display:flex;align-items:center;gap:14px;padding:18px 18px;border-radius:22px;background:linear-gradient(135deg,#5C3010 0%,#3D1E08 100%);box-shadow:0 10px 24px rgba(60,20,4,0.32);cursor:pointer;-webkit-tap-highlight-color:transparent">
+            <div style="width:46px;height:46px;flex:0 0 46px;border-radius:50%;background:rgba(255,255,255,0.18);display:flex;align-items:center;justify-content:center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>
             </div>
             <div style="flex:1;min-width:0">
-              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:20px;color:#5a3d0c;line-height:1.04">Jump Into {{ drillWhen }}’s Drill</div>
-              <div style="font-family:Nunito,sans-serif;font-weight:800;font-size:12.5px;color:rgba(90,61,12,0.78);margin-top:2px">{{ drillCtaSub }}</div>
+              <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:20px;color:#fff;line-height:1.04">Jump Into {{ drillWhen }}’s Drill</div>
+              <div style="font-family:Nunito,sans-serif;font-weight:800;font-size:12.5px;color:rgba(255,255,255,0.7);margin-top:2px">{{ drillCtaSub }}</div>
             </div>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5a3d0c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
           </div>
 
           <!-- Stats row -->
           <div style="margin-top:14px;display:flex;gap:10px">
-            <sc-for list="{{ homeStats }}" as="hs" hint-placeholder-count="4">
-              <div style="flex:1;background:rgba(255,255,255,0.7);border:1.5px solid rgba(92,48,16,0.12);border-radius:16px;padding:10px 0;text-align:center;box-shadow:0 2px 8px rgba(92,48,16,0.08)">
-                <div style="font-size:18px">{{ hs.icon }}</div>
-                <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:18px;color:#5C3010">{{ hs.value }}</div>
-                <div style="font-family:Nunito,sans-serif;font-size:10px;font-weight:800;color:rgba(92,48,16,0.55);text-transform:uppercase;letter-spacing:0.7px">{{ hs.label }}</div>
+            <sc-for list="{{ homeStats }}" as="hs" hint-placeholder-count="3">
+              <div style="flex:1;background:#FFFFFF;border:1.5px solid rgba(92,48,16,0.10);border-radius:16px;padding:12px 0;text-align:center;box-shadow:0 2px 8px rgba(92,48,16,0.06)">
+                <div style="font-size:20px">{{ hs.icon }}</div>
+                <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:20px;color:#5C3010;margin-top:2px">{{ hs.value }}</div>
+                <div style="font-family:Nunito,sans-serif;font-size:10px;font-weight:800;color:rgba(92,48,16,0.5);text-transform:uppercase;letter-spacing:0.8px;margin-top:2px">{{ hs.label }}</div>
               </div>
             </sc-for>
           </div>
 
           <!-- Target Areas card -->
-          <div style="margin-top:18px;background:rgba(255,255,255,0.7);border:1.5px solid rgba(92,48,16,0.12);border-radius:26px;box-shadow:0 8px 20px rgba(92,48,16,0.1);padding:22px 22px 24px;display:flex;gap:14px">
+          <div style="margin-top:18px;background:#FFFFFF;border:1.5px solid rgba(92,48,16,0.10);border-radius:26px;box-shadow:0 4px 14px rgba(92,48,16,0.07);padding:22px 22px 24px;display:flex;gap:14px">
             <div style="flex:0 0 auto">
               <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:26px;color:#5C3010;line-height:1.05">Target<br>Areas</div>
               <div style="font-family:Fredoka,sans-serif;font-weight:500;font-size:16px;color:rgba(92,48,16,0.6);margin-top:6px">You got this!</div>
@@ -361,13 +361,13 @@
             <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:19px;color:#5C3010;margin-bottom:10px">Study by Theme</div>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
               <sc-for list="{{ themeCards }}" as="tc" hint-placeholder-count="4">
-                <div onClick="{{ startThemeDrill }}" data-theme="{{ tc.letter }}" style="background:rgba(255,255,255,0.7);border:1.5px solid rgba(92,48,16,0.12);border-radius:20px;padding:16px 14px;cursor:pointer;-webkit-tap-highlight-color:transparent;box-shadow:0 2px 8px rgba(92,48,16,0.08)">
+                <div onClick="{{ startThemeDrill }}" data-theme="{{ tc.letter }}" style="background:#FFFFFF;border:1.5px solid rgba(92,48,16,0.10);border-radius:20px;padding:16px 14px;cursor:pointer;-webkit-tap-highlight-color:transparent;box-shadow:0 2px 8px rgba(92,48,16,0.06)">
                   <div style="font-family:Fredoka,sans-serif;font-weight:600;font-size:28px;color:#F2A43A">{{ tc.letter }}</div>
                   <div style="font-family:Fredoka,sans-serif;font-weight:500;font-size:13px;color:#5C3010;margin-top:2px;line-height:1.2">{{ tc.name }}</div>
                   <div style="margin-top:10px;height:4px;border-radius:4px;background:rgba(92,48,16,0.1)">
                     <div style="{{ tc.barStyle }}"></div>
                   </div>
-                  <div style="font-family:Nunito,sans-serif;font-weight:800;font-size:11px;color:rgba(92,48,16,0.5);margin-top:5px">{{ tc.label }}</div>
+                  <div style="font-family:Nunito,sans-serif;font-weight:800;font-size:11px;color:rgba(92,48,16,0.65);margin-top:5px">{{ tc.label }}</div>
                 </div>
               </sc-for>
             </div>
@@ -847,7 +847,7 @@
       </sc-if>
 
       <!-- ════════════ TAB BAR ════════════ -->
-      <div style="position:absolute;left:0;right:0;bottom:0;height:82px;padding:8px 12px 22px;display:flex;align-items:flex-start;justify-content:space-around;background:linear-gradient(180deg,rgba(18,42,54,0) 0%,rgba(14,34,44,0.86) 48%);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);z-index:40">
+      <div style="position:absolute;left:0;right:0;bottom:0;height:82px;padding:8px 12px 22px;display:flex;align-items:flex-start;justify-content:space-around;background:#FAF0E0;border-top:1.5px solid rgba(92,48,16,0.1);z-index:40">
         <div onClick="{{ goHome }}" style="{{ homeBtnStyle }}">
           <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>
           <span>Home</span>
@@ -1297,10 +1297,9 @@ class Component extends DCLogic {
     const totalCor = Object.values(ss.topicStats||{}).reduce((a,t)=>a+(t.cor||0),0);
     const homeAccuracy = totalAtt > 0 ? Math.round(totalCor/totalAtt*100)+'%' : '—';
     const homeStats = [
-      { icon:'🔥', value: ss.streak||0,      label:'Streak' },
-      { icon:'⚡',       value: ss.gems||0,         label:'XP' },
-      { icon:'✅',       value: ss.drillsDone||0,   label:'Drills' },
-      { icon:'🎯', value: homeAccuracy,        label:'Accuracy' },
+      { icon:'⚡', value: ss.gems||0,        label:'XP' },
+      { icon:'✅', value: ss.drillsDone||0,  label:'Drills' },
+      { icon:'🎯', value: homeAccuracy,       label:'Accuracy' },
     ];
     const themeNamesMap = { A:'Molecules of Life', B:'Cells', C:'Organisms', D:'Evolution' };
     const themeCards = ['A','B','C','D'].map(lt => {
@@ -1479,7 +1478,7 @@ class Component extends DCLogic {
     }));
 
     // tab bar
-    const tabStyle = (active)=>({ display:'flex', flexDirection:'column', alignItems:'center', gap:4, flex:1, cursor:'pointer', color: active ? '#ffffff' : 'rgba(255,255,255,0.42)', fontFamily:'Fredoka, sans-serif', fontWeight:500, fontSize:11, letterSpacing:0.3, background:'none', border:'none', padding:0, WebkitTapHighlightColor:'transparent' });
+    const tabStyle = (active)=>({ display:'flex', flexDirection:'column', alignItems:'center', gap:4, flex:1, cursor:'pointer', color: active ? '#5C3010' : 'rgba(92,48,16,0.38)', fontFamily:'Fredoka, sans-serif', fontWeight:500, fontSize:11, letterSpacing:0.3, background:'none', border:'none', padding:0, WebkitTapHighlightColor:'transparent' });
 
     // ── drill setup screen ──
     const subjectLabel = catalog ? catalog.syllabus : 'IB Biology';
